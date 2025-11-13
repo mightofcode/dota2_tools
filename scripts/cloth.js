@@ -321,15 +321,28 @@ function analyzePersonaItems(data) {
         if (item && item.item_slot === 'persona_selector') {
             // 查找 entity_model 类型的 asset_modifier
             let entityModel = null;
+            const soundModifiers = [];
+
             if (item.visuals && item.visuals.asset_modifier) {
                 const modifiers = Array.isArray(item.visuals.asset_modifier)
                     ? item.visuals.asset_modifier
                     : [item.visuals.asset_modifier];
 
-                const entityModelModifier = modifiers.find(m => m && m.type === 'entity_model');
-                if (entityModelModifier && entityModelModifier.modifier) {
-                    entityModel = entityModelModifier.modifier;
-                }
+                modifiers.forEach(m => {
+                    if (m) {
+                        // 查找 entity_model
+                        if (m.type === 'entity_model' && m.modifier) {
+                            entityModel = m.modifier;
+                        }
+                        // 收集 sound 类型的 asset_modifier
+                        if (m.type === 'sound') {
+                            soundModifiers.push({
+                                asset: m.asset,
+                                modifier: m.modifier
+                            });
+                        }
+                    }
+                });
             }
 
             const personaInfo = {
@@ -340,7 +353,10 @@ function analyzePersonaItems(data) {
                 item_rarity: item.item_rarity || 'common',
                 prefab: item.prefab,
                 model_player: item.model_player,
-                entity_model: entityModel
+                entity_model: entityModel,
+                visuals: soundModifiers.length > 0 ? {
+                    sound: soundModifiers
+                } : null
             };
 
             // 收集使用该身心的英雄
