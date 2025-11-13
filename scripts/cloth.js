@@ -359,9 +359,40 @@ function analyzeItemSets(data) {
     return heroSets;
 }
 
+// 交互式CLI模式
+async function startInteractiveCLI() {
+    const readline = require('readline');
+
+    const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout,
+        prompt: 'cloth> '
+    });
+
+    rl.prompt();
+
+    rl.on('line', (line) => {
+        const command = line.trim();
+
+        if (command) {
+            console.log(`收到指令: ${command}`);
+        }
+
+        rl.prompt();
+    }).on('close', () => {
+        console.log(chalk.yellow('\n已退出交互式模式'));
+        process.exit(0);
+    });
+}
+
 // 如果直接运行此脚本
 if (require.main === module) {
-    analyzeItemsGame().catch(console.error);
+    analyzeItemsGame()
+        .then(() => {
+            console.log(chalk.cyan('\n进入交互式CLI模式，输入命令进行操作...'));
+            startInteractiveCLI();
+        })
+        .catch(console.error);
 }
 
 module.exports = {
