@@ -606,6 +606,64 @@ function handleStatusCommand(state) {
     }
 }
 
+// 将物品列表转换为 KV 格式
+function itemListToKV(itemList, selectedPersona) {
+    const lines = [];
+    lines.push('"AttachWearables"');
+    lines.push('{');
+
+    // 添加物品
+    let itemIndex = 1;
+    Object.values(itemList).forEach(item => {
+        lines.push(`    "${itemIndex}"`);
+        lines.push('    {');
+        lines.push(`        "ItemDef"    "${item.id}"`);
+        lines.push('    }');
+        itemIndex++;
+    });
+
+    // 如果有 persona，添加 Model 字段
+    if (selectedPersona && selectedPersona.entity_model) {
+        lines.push(`    "${itemIndex}"`);
+        lines.push('    {');
+        lines.push(`        "Model"    "${selectedPersona.entity_model}"`);
+        lines.push('    }');
+    }
+
+    lines.push('}');
+    return lines.join('\n');
+}
+
+// 处理 dump 命令
+function handleDumpCommand(state) {
+    if (!state.selectedUnit) {
+        console.log(chalk.red('请先选择一个单位'));
+        return;
+    }
+
+    if (Object.keys(state.itemList).length === 0 && !state.selectedPersona) {
+        console.log(chalk.yellow('物品列表为空，且未选择 Persona'));
+        return;
+    }
+
+    // 生成 KV 格式
+    const kvOutput = itemListToKV(state.itemList, state.selectedPersona);
+
+    console.log(chalk.cyan('\n=== KV 格式输出 ===\n'));
+    console.log(kvOutput);
+    console.log();
+
+    // 统计信息
+    console.log(chalk.yellow('统计信息:'));
+    const itemCount = Object.keys(state.itemList).length;
+    const totalLines = itemCount + (state.selectedPersona ? 1 : 0);
+    console.log(`  物品数量: ${itemCount}`);
+    console.log(`  包含 Persona: ${state.selectedPersona ? '是' : '否'}`);
+    console.log(`  总 ItemDef/Model 数: ${totalLines}`);
+    console.log();
+}
+
+
 // 处理 persona 命令 - 选择 persona 时的询问
 async function selectPersona(rl, personaList, state) {
     return new Promise((resolve) => {
@@ -978,6 +1036,11 @@ async function handleCommand(command, state, rl, allUnits) {
         return;
     }
 
+    if (cmd === 'dump') {
+        handleDumpCommand(state);
+        return;
+    }
+
     // 如果没有选择单位，则进行单位搜索
     if (!state.selectedUnit) {
         await handleUnitSearch(command, state, rl, allUnits);
@@ -995,6 +1058,7 @@ function showHelp() {
     console.log(chalk.yellow('  set <套装名>  - 添加套装'));
     console.log(chalk.yellow('  item <物品名> - 添加物品'));
     console.log(chalk.yellow('  persona      - 选择 Persona'));
+    console.log(chalk.yellow('  dump         - 导出为 KV 格式'));
     console.log(chalk.yellow('  status       - 显示当前状态'));
     console.log(chalk.yellow('  clear        - 重置状态'));
     console.log(chalk.yellow('  exit/quit    - 退出\n'));
