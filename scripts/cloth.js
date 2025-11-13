@@ -429,11 +429,15 @@ function analyzeItemSets(data) {
                 }
             });
             
+            // 检测是否为persona套装（包含_persona的item_slot）
+            const isPersonaSet = setItems.some(item => item.item_slot.includes('_persona'));
+
             const setInfo = {
                 name: setData.name || setName,
                 store_bundle: setData.store_bundle,
                 portrait_image: setData.portrait_image,
-                items: setItems
+                items: setItems,
+                isPersonaSet: isPersonaSet
             };
             
             // 为每个英雄添加套装信息
@@ -542,7 +546,8 @@ function displayItemSetList(sets) {
 
     console.log(chalk.cyan(`\n找到 ${sets.length} 个匹配的套装:\n`));
     sets.forEach((set, index) => {
-        console.log(`  ${chalk.yellow(index + 1)}. ${set.name}`);
+        const personaLabel = set.isPersonaSet ? chalk.magenta(' [PERSONA]') : '';
+        console.log(`  ${chalk.yellow(index + 1)}. ${set.store_bundle}${personaLabel}`);
         console.log(`     包含 ${set.items.length} 件物品`);
     });
     console.log();
@@ -706,7 +711,8 @@ async function handleSetCommand(command, state, rl) {
         });
 
         sortedSets.forEach((set, index) => {
-            console.log(`  ${chalk.yellow(index + 1)}. ${set.store_bundle} (${set.items.length} 件物品)`);
+            const personaLabel = set.isPersonaSet ? chalk.magenta(' [PERSONA]') : '';
+            console.log(`  ${chalk.yellow(index + 1)}. ${set.store_bundle}${personaLabel} (${set.items.length} 件物品)`);
         });
         console.log();
 
