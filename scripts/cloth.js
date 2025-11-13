@@ -690,6 +690,44 @@ async function handleSetCommand(command, state, rl) {
 
     const setQuery = command.substring(4).trim();
     const itemSets = state.unitClothData?.item_sets || [];
+
+    // 如果没有参数，列出所有套装
+    if (!setQuery) {
+        if (itemSets.length === 0) {
+            console.log(chalk.yellow('该单位没有任何套装'));
+            return;
+        }
+
+        console.log(chalk.cyan(`\n找到 ${itemSets.length} 个套装:\n`));
+
+        // 按照套装名称的字母排序
+        const sortedSets = [...itemSets].sort((a, b) => {
+            return a.name.localeCompare(b.name);
+        });
+
+        sortedSets.forEach((set, index) => {
+            console.log(`  ${chalk.yellow(index + 1)}. ${set.name} (${set.items.length} 件物品)`);
+        });
+        console.log();
+
+        // 提示用户输入序号
+        rl.question('请输入序号选择套装 (或按 Enter 返回): ', async (choice) => {
+            const index = parseInt(choice) - 1;
+            if (index >= 0 && index < sortedSets.length) {
+                state.itemList = mergeItemLists(state.itemList, sortedSets[index].items);
+                console.log(chalk.green(`✓ 已添加套装: ${sortedSets[index].name}`));
+                console.log(chalk.cyan(`当前物品数量: ${Object.keys(state.itemList).length} 件`));
+                displayItemList(state.itemList);
+            } else if (choice === '') {
+                console.log(chalk.yellow('已取消选择'));
+            } else {
+                console.log(chalk.red('无效的选择'));
+            }
+        });
+        return;
+    }
+
+    // 有参数时，进行模糊搜索
     const results = findItemSetByName(setQuery, itemSets);
 
     if (results.length === 0) {
@@ -759,35 +797,51 @@ async function handleUnitSearch(command, state, rl, allUnits) {
     }
 }
 
+// 解析命令为 token 数组
+function parseCommandTokens(command) {
+    return command.trim().split(/\s+/).filter(token => token.length > 0);
+}
+
 // 处理用户输入的命令
 async function handleCommand(command, state, rl, allUnits) {
     if (!command) {
         return;
     }
 
+    const tokens = parseCommandTokens(command);
+    if (tokens.length === 0) {
+        return;
+    }
+
+    const cmd = tokens[0];
+    const args = tokens.slice(1);
+
     // 内置命令
-    if (command === 'clear') {
+    if (cmd === 'clear') {
         handleClearCommand(state);
         return;
     }
 
-    if (command === 'exit' || command === 'quit') {
+    if (cmd === 'exit' || cmd === 'quit') {
         handleExitCommand();
         return;
     }
 
-    if (command === 'status') {
+    if (cmd === 'status') {
         handleStatusCommand(state);
         return;
     }
 
-    if (command === 'persona') {
+    if (cmd === 'persona') {
         await handlePersonaCommand(state, rl);
         return;
     }
 
-    if (command.startsWith('set ')) {
-        await handleSetCommand(command, state, rl);
+    if (cmd === 'set') {
+        // 重新构造原始命令传递给 handleSetCommand
+        // 如果有参数，拼接回去；如果没有参数，传递 'set'
+        const originalCommand = args.length > 0 ? `set ${args.join(' ')}` : 'set';
+        await handleSetCommand(originalCommand, state, rl);
         return;
     }
 
