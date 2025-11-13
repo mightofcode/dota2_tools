@@ -1,0 +1,22 @@
+{
+  "defaults": {
+    "ambient_effects": {
+      "id": "8640",
+      "name": "Tusk Frozen Sigil's Ambient Effects",
+      "item_name": "#DOTA_Item_Tusk_Frozen_Sigil_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [],
+  "items": [
+    {
+      "id": "8640",
+      "name": "Tusk Frozen Sigil's Ambient Effects",
+      "item_name": "#DOTA_Item_Tusk_Frozen_Sigil_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    }
+  ]
+}

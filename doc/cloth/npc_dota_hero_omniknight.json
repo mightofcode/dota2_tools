@@ -1,0 +1,1693 @@
+{
+  "defaults": {
+    "arms": {
+      "id": "13",
+      "name": "Omniknight's Bracers",
+      "item_name": "#DOTA_Item_Omniknights_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/omniknight/bracer.vmdl"
+    },
+    "shoulder": {
+      "id": "42",
+      "name": "Omniknight's Shoulders",
+      "item_name": "#DOTA_Item_Omniknights_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/omniknight/shoulder.vmdl"
+    },
+    "back": {
+      "id": "43",
+      "name": "Omniknight's Cape",
+      "item_name": "#DOTA_Item_Omniknights_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/omniknight/cape.vmdl"
+    },
+    "weapon": {
+      "id": "44",
+      "name": "Omniknight's Weapon",
+      "item_name": "#DOTA_Item_Omniknights_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/omniknight/hammer.vmdl"
+    },
+    "body_head": {
+      "id": "45",
+      "name": "Omniknight's Head",
+      "item_name": "#DOTA_Item_Omniknights_Head",
+      "item_slot": "body_head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/omniknight/head.vmdl"
+    },
+    "head": {
+      "id": "46",
+      "name": "Omniknight's Hair",
+      "item_name": "#DOTA_Item_Omniknights_Hair",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/omniknight/hair.vmdl"
+    },
+    "misc": {
+      "id": "562",
+      "name": "Omniknight's Miscellaneous",
+      "item_name": "#DOTA_Item_Omniknights_Miscellaneous",
+      "item_slot": "misc",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Armor_of_the_Stalwart_Soul",
+      "store_bundle": "Armor of the Stalwart Soul",
+      "portrait_image": "econ/sets/v2/armor_of_the_stalwart_soul",
+      "items": [
+        {
+          "name": "Armguards of the Stalwart",
+          "id": "7090",
+          "item_name": "#DOTA_Item_Armguards_of_the_Stalwart",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/omniknight/stalwart_arms/stalwart_arms.vmdl"
+        },
+        {
+          "name": "Hammer of the Stalwart Soul",
+          "id": "7091",
+          "item_name": "#DOTA_Item_Hammer_of_the_Stalwart_Soul",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/stalwart_weapon/stalwart_weapon.vmdl"
+        },
+        {
+          "name": "Coiffure of the Stalwart Soul",
+          "id": "7092",
+          "item_name": "#DOTA_Item_Coiffure_of_the_Stalwart_Soul",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/omniknight/stalwart_head/stalwart_head.vmdl"
+        },
+        {
+          "name": "Plate of the Stalwart Soul",
+          "id": "7093",
+          "item_name": "#DOTA_Item_Plate_of_the_Stalwart_Soul",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/omniknight/stalwart_back/stalwart_back.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Stalwart Soul",
+          "id": "7094",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Stalwart_Soul",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/omniknight/stalwart_shoulder/stalwart_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Godhammer",
+      "store_bundle": "Godhammer",
+      "portrait_image": "econ/sets/v2/godhammer",
+      "items": [
+        {
+          "name": "Godhammer - Arms",
+          "id": "13237",
+          "item_name": "#DOTA_Item_Godhammer__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/divine_anvil_arms/divine_anvil_arms.vmdl"
+        },
+        {
+          "name": "Godhammer - Shoulder",
+          "id": "13229",
+          "item_name": "#DOTA_Item_Godhammer__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/divine_anvil_shoulder/divine_anvil_shoulder.vmdl"
+        },
+        {
+          "name": "Godhammer - Back",
+          "id": "13228",
+          "item_name": "#DOTA_Item_Godhammer__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/divine_anvil_back/divine_anvil_back.vmdl"
+        },
+        {
+          "name": "Godhammer - Weapon",
+          "id": "13227",
+          "item_name": "#DOTA_Item_Godhammer__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/divine_anvil_weapon/divine_anvil_weapon.vmdl"
+        },
+        {
+          "name": "Godhammer - Head",
+          "id": "13226",
+          "item_name": "#DOTA_Item_Godhammer__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/divine_anvil_head/divine_anvil_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Heavenly_Light",
+      "store_bundle": "TEvent Dota 2 Season 1",
+      "portrait_image": "econ/sets/v2/heavenly_light",
+      "items": [
+        {
+          "name": "Guards of Heavenly Light",
+          "id": "7236",
+          "item_name": "#DOTA_Item_Guards_of_Heavenly_Light",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/omniknight/guard_heavenly_light/guard_heavenly_light.vmdl"
+        },
+        {
+          "name": "Mace of Heavenly Light",
+          "id": "7233",
+          "item_name": "#DOTA_Item_Mace_of_Heavenly_Light",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/omniknight/mace_heavenly_light/mace_heavenly_light.vmdl"
+        },
+        {
+          "name": "Pauldron of Heavenly Light",
+          "id": "7234",
+          "item_name": "#DOTA_Item_Pauldron_of_Heavenly_Light",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/omniknight/pauldron_heavenly_light/pauldron_heavenly_light.vmdl"
+        },
+        {
+          "name": "Cape of Heavenly Light",
+          "id": "7235",
+          "item_name": "#DOTA_Item_Cape_of_Heavenly_Light",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/omniknight/cape_heavenly_light/cape_heavenly_light.vmdl"
+        },
+        {
+          "name": "Helm of Heavenly Light",
+          "id": "7237",
+          "item_name": "#DOTA_Item_Helm_of_Heavenly_Light",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/omniknight/helm_heavenly_light/helm_heavenly_light.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Lionheart",
+      "store_bundle": "Lionheart",
+      "portrait_image": "econ/sets/v2/lionheart",
+      "items": [
+        {
+          "name": "Lionheart - Weapon",
+          "id": "19640",
+          "item_name": "#DOTA_Item_Lionheart__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/lionheart_guardian_weapon/lionheart_guardian_weapon.vmdl"
+        },
+        {
+          "name": "Lionheart - Shoulder",
+          "id": "19639",
+          "item_name": "#DOTA_Item_Lionheart__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/lionheart_guardian_shoulder/lionheart_guardian_shoulder.vmdl"
+        },
+        {
+          "name": "Lionheart - Head",
+          "id": "19638",
+          "item_name": "#DOTA_Item_Lionheart__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/lionheart_guardian_head/lionheart_guardian_head.vmdl"
+        },
+        {
+          "name": "Lionheart - Back",
+          "id": "19637",
+          "item_name": "#DOTA_Item_Lionheart__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/lionheart_guardian_back/lionheart_guardian_back.vmdl"
+        },
+        {
+          "name": "Lionheart - Arms",
+          "id": "19636",
+          "item_name": "#DOTA_Item_Lionheart__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/lionheart_guardian_arms/lionheart_guardian_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Complete_Sacred_Light",
+      "store_bundle": "Complete Sacred Light",
+      "portrait_image": "econ/sets/v2/omniknight_complete_sacred_light",
+      "items": [
+        {
+          "name": "Complete Gauntlets of Sacred Light",
+          "id": "12633",
+          "item_name": "#DOTA_Item_Complete_Gauntlets_of_Sacred_Light",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/omniknight/omniknight_sacred_light_arms/omniknight_sacred_light_arms.vmdl"
+        },
+        {
+          "name": "Complete Pauldrons of Sacred Light",
+          "id": "12632",
+          "item_name": "#DOTA_Item_Complete_Pauldrons_of_Sacred_Light",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/omniknight/omniknight_sacred_light_shoulder/omniknight_sacred_light_shoulder.vmdl"
+        },
+        {
+          "name": "Complete Mallet of Sacred Light",
+          "id": "12631",
+          "item_name": "#DOTA_Item_Complete_Mallet_of_Sacred_Light",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/omniknight/omniknight_sacred_light_weapon/omniknight_sacred_light_weapon.vmdl"
+        },
+        {
+          "name": "Complete Armor of Sacred Light",
+          "id": "12630",
+          "item_name": "#DOTA_Item_Complete_Armor_of_Sacred_Light",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/omniknight/omniknight_sacred_light_back/omniknight_sacred_light_back.vmdl"
+        },
+        {
+          "name": "Complete Crown of Sacred Light",
+          "id": "12629",
+          "item_name": "#DOTA_Item_Complete_Crown_of_Sacred_Light",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Omniknight_Crusader",
+      "store_bundle": "The Radiance of the Crusade Set",
+      "portrait_image": "econ/sets/v2/omniknight_crusader",
+      "items": [
+        {
+          "name": "Helm of the Radiant Crusader",
+          "id": "4138",
+          "item_name": "#DOTA_Item_Helm_of_the_Radiant_Crusader",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/omniknight/helmet_crusader.vmdl"
+        },
+        {
+          "name": "Armor of the Radiant Crusader",
+          "id": "4139",
+          "item_name": "#DOTA_Item_Armor_of_the_Radiant_Crusader",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/omniknight/shoulder_crusader.vmdl"
+        },
+        {
+          "name": "Bracers of the Radiant Crusader",
+          "id": "4140",
+          "item_name": "#DOTA_Item_Bracers_of_the_Radiant_Crusader",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/omniknight/bracer_crusader.vmdl"
+        },
+        {
+          "name": "Sigil of the Radiant Crusader",
+          "id": "4141",
+          "item_name": "#DOTA_Item_Sigil_of_the_Radiant_Crusader",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/omniknight/cape_crusader.vmdl"
+        },
+        {
+          "name": "Hammer of the Radiant Crusader",
+          "id": "4142",
+          "item_name": "#DOTA_Item_Hammer_of_the_Radiant_Crusader",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/omniknight/weapon_crusader.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Hierophants_Protection",
+      "store_bundle": "The Hierophant's Protection Set",
+      "portrait_image": "econ/sets/v2/omniknight_hierophant",
+      "items": [
+        {
+          "name": "Chestplate of the Hierophant",
+          "id": "4315",
+          "item_name": "#DOTA_Item_Chestplate_of_the_Hierophant",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/omniknight/cape_hierophant.vmdl"
+        },
+        {
+          "name": "Heavy Pauldrons of the Hierophant",
+          "id": "4316",
+          "item_name": "#DOTA_Item_Heavy_Pauldrons_of_the_Hierophant",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/omniknight/shoulder_hierophant.vmdl"
+        },
+        {
+          "name": "Holy Words of the Hierophant",
+          "id": "4317",
+          "item_name": "#DOTA_Item_Holy_Words_of_the_Hierophant",
+          "item_slot": "misc",
+          "item_rarity": "common",
+          "model_player": "models/items/omniknight/misc_book_hierophant.vmdl"
+        },
+        {
+          "name": "Bracers of the Hierophant",
+          "id": "4318",
+          "item_name": "#DOTA_Item_Bracers_of_the_Hierophant",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/omniknight/bracer_hierophant.vmdl"
+        },
+        {
+          "name": "Hammer of Hope",
+          "id": "4324",
+          "item_name": "#DOTA_Item_Hammer_of_Hope",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/omniknight/weapon_hope_hammer.vmdl"
+        },
+        {
+          "name": "Hood of the Hierophant",
+          "id": "4314",
+          "item_name": "#DOTA_Item_Hood_of_the_Hierophant",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/head_hood_hiero/head_hood_hiero.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Omniknight_Purist_Champion",
+      "store_bundle": "Armor of the Purist Champion Set",
+      "portrait_image": "econ/sets/v2/omniknight_purist_champion",
+      "items": [
+        {
+          "name": "Circlet of the Purist Champion",
+          "id": "4269",
+          "item_name": "#DOTA_Item_Circlet_of_the_Purist_Champion",
+          "item_slot": "misc",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/omniknight/helmet_purist.vmdl"
+        },
+        {
+          "name": "Bracer of the Purist Champion",
+          "id": "4267",
+          "item_name": "#DOTA_Item_Bracer_of_the_Purist_Champion",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/omniknight/bracer_purist.vmdl"
+        },
+        {
+          "name": "Armor of the Purist Champion",
+          "id": "4266",
+          "item_name": "#DOTA_Item_Armor_of_the_Purist_Champion",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/omniknight/shoulder_purist.vmdl"
+        },
+        {
+          "name": "Hammer of the Purist Champion",
+          "id": "4268",
+          "item_name": "#DOTA_Item_Hammer_of_the_Purist_Champion",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/omniknight/weapon_purist.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Armor_of_Renewed_Faith",
+      "store_bundle": "Armor of Renewed Faith Set",
+      "portrait_image": "econ/sets/v2/omniknight_renewed_faith",
+      "items": [
+        {
+          "name": "Ornate Mantle of Renewed Faith",
+          "id": "4485",
+          "item_name": "#DOTA_Item_Ornate_Mantle_of_Renewed_Faith",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/omniknight/shoulders_faith/shoulders_faith.vmdl"
+        },
+        {
+          "name": "Armlet of Renewed Faith",
+          "id": "4497",
+          "item_name": "#DOTA_Item_Armlet_of_Renewed_Faith",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/omniknight/bracer_faith/bracer_faith.vmdl"
+        },
+        {
+          "name": "Warhammer of Renewed Faith",
+          "id": "4496",
+          "item_name": "#DOTA_Item_Warhammer_of_Renewed_Faith",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/omniknight/weapon_faith/weapon_faith.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sacred_Light",
+      "store_bundle": "Sacred Light",
+      "portrait_image": "econ/sets/v2/omniknight_sacred_light",
+      "items": [
+        {
+          "name": "Pauldrons of Sacred Light",
+          "id": "8955",
+          "item_name": "#DOTA_Item_Pauldrons_of_Sacred_Light",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/omniknight/omniknight_sacred_light_shoulder/omniknight_sacred_light_shoulder.vmdl"
+        },
+        {
+          "name": "Mallet of Sacred Light",
+          "id": "8956",
+          "item_name": "#DOTA_Item_Mallet_of_Sacred_Light",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/omniknight/omniknight_sacred_light_weapon/omniknight_sacred_light_weapon.vmdl"
+        },
+        {
+          "name": "Gauntlets of Sacred Light",
+          "id": "8954",
+          "item_name": "#DOTA_Item_Gauntlets_of_Sacred_Light",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/omniknight/omniknight_sacred_light_arms/omniknight_sacred_light_arms.vmdl"
+        },
+        {
+          "name": "Armor of Sacred Light",
+          "id": "8957",
+          "item_name": "#DOTA_Item_Armor_of_Sacred_Light",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/omniknight/omniknight_sacred_light_back/omniknight_sacred_light_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Thunderwraths_Calling",
+      "store_bundle": "Thunderwrath's Calling Set",
+      "portrait_image": "econ/sets/v2/omniknight_thunderwrath_calling",
+      "items": [
+        {
+          "name": "Cape of Thunderwrath's Calling",
+          "id": "4507",
+          "item_name": "#DOTA_Item_Cape_of_Thunderwraths_Calling",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/thunderwraths_cape/thunderwraths_cape.vmdl"
+        },
+        {
+          "name": "Helm of Thunderwrath's Calling",
+          "id": "4508",
+          "item_name": "#DOTA_Item_Helm_of_Thunderwraths_Calling",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/thunderwraths_helm/thunderwraths_helm.vmdl"
+        },
+        {
+          "name": "Hammer of Thunderwrath's Calling",
+          "id": "4514",
+          "item_name": "#DOTA_Item_Hammer_of_Thunderwraths_Calling",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/thunderwraths_hammer/thunderwraths_hammer.vmdl"
+        },
+        {
+          "name": "Armor of Thunderwrath's Calling",
+          "id": "4515",
+          "item_name": "#DOTA_Item_Armor_of_Thunderwraths_Calling",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/thunderwraths_shoulders/thunderwraths_shoulders.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Wings_of_the_Paladin",
+      "store_bundle": "Wings of the Paladin Set",
+      "portrait_image": "econ/sets/v2/omniknight_winged_paladin",
+      "items": [
+        {
+          "name": "Winged Paladin's Gauntlet",
+          "id": "4538",
+          "item_name": "#DOTA_Item_Winged_Paladins_Gauntlet",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/omniknight/winged_gauntlet3/winged_gauntlet3.vmdl"
+        },
+        {
+          "name": "Winged Paladin's Armor",
+          "id": "4560",
+          "item_name": "#DOTA_Item_Winged_Paladins_Armor",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/omniknight/winged_shoulders/winged_shoulders.vmdl"
+        },
+        {
+          "name": "Winged Paladin's Glorious Cape",
+          "id": "4580",
+          "item_name": "#DOTA_Item_Winged_Paladins_Glorious_Cape",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/winged_cape2/winged_cape2.vmdl"
+        },
+        {
+          "name": "Winged Paladin's Helm",
+          "id": "4581",
+          "item_name": "#DOTA_Item_Winged_Paladins_Helm",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/omniknight/winged_helmet/winged_helmet.vmdl"
+        },
+        {
+          "name": "Winged Paladin's Defiance",
+          "id": "4584",
+          "item_name": "#DOTA_Item_Winged_Paladins_Defiance",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/winged_axe/winged_axe.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Paragons_Pride_Bundle",
+      "store_bundle": "Paragon's Pride Bundle",
+      "portrait_image": "econ/sets/v2/paragons_pride_bundle",
+      "items": [
+        {
+          "name": "Paragon's Pride",
+          "id": "19204",
+          "item_name": "#DOTA_Item_Paragons_Pride",
+          "item_slot": "back",
+          "item_rarity": "immortal",
+          "model_player": "models/items/omniknight/omni_2021_immortal/omni_2021_immortal.vmdl"
+        },
+        {
+          "name": "Paragon's Poise",
+          "id": "18199",
+          "item_name": "#DOTA_Item_Paragons_Poise",
+          "item_slot": "arms",
+          "item_rarity": "immortal",
+          "model_player": "models/items/omniknight/omni_2021_immortal_arms/omni_2021_immortal_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Grey_Gallant",
+      "store_bundle": "The Grey Gallant",
+      "portrait_image": "econ/sets/v2/the_grey_gallant",
+      "items": [
+        {
+          "name": "Hammer of the Grey Gallant",
+          "id": "8174",
+          "item_name": "#DOTA_Item_Hammer_of_the_Grey_Gallant",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/omniknight/grey_night_weapon/grey_night_weapon.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Grey Gallant",
+          "id": "8173",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Grey_Gallant",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/grey_night_shoulders/grey_night_shoulders.vmdl"
+        },
+        {
+          "name": "Hair of the Grey Gallant",
+          "id": "8172",
+          "item_name": "#DOTA_Item_Hair_of_the_Grey_Gallant",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/omniknight/grey_night_head/grey_night_head.vmdl"
+        },
+        {
+          "name": "Cape of the Grey Gallant",
+          "id": "8171",
+          "item_name": "#DOTA_Item_Cape_of_the_Grey_Gallant",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/omniknight/grey_night_back/grey_night_back.vmdl"
+        },
+        {
+          "name": "Bracers of the Grey Gallant",
+          "id": "8170",
+          "item_name": "#DOTA_Item_Bracers_of_the_Grey_Gallant",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/omniknight/grey_night_arms/grey_night_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Undying_Light",
+      "store_bundle": "The Undying Light",
+      "portrait_image": "econ/sets/v2/the_undying_light",
+      "items": [
+        {
+          "name": "Flight of the Undying Light",
+          "id": "9556",
+          "item_name": "#DOTA_Item_Flight_of_the_Undying_Light",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/the_unbroken_knight_back/the_unbroken_knight_back.vmdl"
+        },
+        {
+          "name": "Sigil of the Undying Light",
+          "id": "9244",
+          "item_name": "#DOTA_Item_Sigil_of_the_Undying_Light",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/the_unbroken_knight_weapon/the_unbroken_knight_weapon.vmdl"
+        },
+        {
+          "name": "Pauldron of the Undying Light",
+          "id": "9245",
+          "item_name": "#DOTA_Item_Pauldron_of_the_Undying_Light",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/the_unbroken_knight_shoulder/the_unbroken_knight_shoulder.vmdl"
+        },
+        {
+          "name": "Mane of the Undying Light",
+          "id": "9246",
+          "item_name": "#DOTA_Item_Mane_of_the_Undying_Light",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/the_unbroken_knight_head/the_unbroken_knight_head.vmdl"
+        },
+        {
+          "name": "Armor of the Undying Light",
+          "id": "9555",
+          "item_name": "#DOTA_Item_Armor_of_the_Undying_Light",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/omniknight/the_unbroken_knight_arms/the_unbroken_knight_arms.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "13",
+      "name": "Omniknight's Bracers",
+      "item_name": "#DOTA_Item_Omniknights_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/omniknight/bracer.vmdl"
+    },
+    {
+      "id": "42",
+      "name": "Omniknight's Shoulders",
+      "item_name": "#DOTA_Item_Omniknights_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/omniknight/shoulder.vmdl"
+    },
+    {
+      "id": "43",
+      "name": "Omniknight's Cape",
+      "item_name": "#DOTA_Item_Omniknights_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/omniknight/cape.vmdl"
+    },
+    {
+      "id": "44",
+      "name": "Omniknight's Weapon",
+      "item_name": "#DOTA_Item_Omniknights_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/omniknight/hammer.vmdl"
+    },
+    {
+      "id": "45",
+      "name": "Omniknight's Head",
+      "item_name": "#DOTA_Item_Omniknights_Head",
+      "item_slot": "body_head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/omniknight/head.vmdl"
+    },
+    {
+      "id": "46",
+      "name": "Omniknight's Hair",
+      "item_name": "#DOTA_Item_Omniknights_Hair",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/omniknight/hair.vmdl"
+    },
+    {
+      "id": "562",
+      "name": "Omniknight's Miscellaneous",
+      "item_name": "#DOTA_Item_Omniknights_Miscellaneous",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4138",
+      "name": "Helm of the Radiant Crusader",
+      "item_name": "#DOTA_Item_Helm_of_the_Radiant_Crusader",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/helmet_crusader.vmdl"
+    },
+    {
+      "id": "4139",
+      "name": "Armor of the Radiant Crusader",
+      "item_name": "#DOTA_Item_Armor_of_the_Radiant_Crusader",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/shoulder_crusader.vmdl"
+    },
+    {
+      "id": "4140",
+      "name": "Bracers of the Radiant Crusader",
+      "item_name": "#DOTA_Item_Bracers_of_the_Radiant_Crusader",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/bracer_crusader.vmdl"
+    },
+    {
+      "id": "4141",
+      "name": "Sigil of the Radiant Crusader",
+      "item_name": "#DOTA_Item_Sigil_of_the_Radiant_Crusader",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/cape_crusader.vmdl"
+    },
+    {
+      "id": "4142",
+      "name": "Hammer of the Radiant Crusader",
+      "item_name": "#DOTA_Item_Hammer_of_the_Radiant_Crusader",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/weapon_crusader.vmdl"
+    },
+    {
+      "id": "4144",
+      "name": "Champion of Emauracus",
+      "item_name": "#DOTA_Item_Champion_of_Emauracus",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/helmet_winged.vmdl"
+    },
+    {
+      "id": "4168",
+      "name": "Rune Hammer",
+      "item_name": "#DOTA_Item_Rune_Hammer",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/weapon_rune_hammer.vmdl"
+    },
+    {
+      "id": "4246",
+      "name": "Hammer of Holy Words",
+      "item_name": "#DOTA_Item_Hammer_of_Holy_Words",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/dingus_hammer.vmdl"
+    },
+    {
+      "id": "4266",
+      "name": "Armor of the Purist Champion",
+      "item_name": "#DOTA_Item_Armor_of_the_Purist_Champion",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/shoulder_purist.vmdl"
+    },
+    {
+      "id": "4267",
+      "name": "Bracer of the Purist Champion",
+      "item_name": "#DOTA_Item_Bracer_of_the_Purist_Champion",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/bracer_purist.vmdl"
+    },
+    {
+      "id": "4268",
+      "name": "Hammer of the Purist Champion",
+      "item_name": "#DOTA_Item_Hammer_of_the_Purist_Champion",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/weapon_purist.vmdl"
+    },
+    {
+      "id": "4269",
+      "name": "Circlet of the Purist Champion",
+      "item_name": "#DOTA_Item_Circlet_of_the_Purist_Champion",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/helmet_purist.vmdl"
+    },
+    {
+      "id": "4314",
+      "name": "Hood of the Hierophant",
+      "item_name": "#DOTA_Item_Hood_of_the_Hierophant",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/head_hood_hiero/head_hood_hiero.vmdl"
+    },
+    {
+      "id": "4315",
+      "name": "Chestplate of the Hierophant",
+      "item_name": "#DOTA_Item_Chestplate_of_the_Hierophant",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/cape_hierophant.vmdl"
+    },
+    {
+      "id": "4316",
+      "name": "Heavy Pauldrons of the Hierophant",
+      "item_name": "#DOTA_Item_Heavy_Pauldrons_of_the_Hierophant",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/shoulder_hierophant.vmdl"
+    },
+    {
+      "id": "4317",
+      "name": "Holy Words of the Hierophant",
+      "item_name": "#DOTA_Item_Holy_Words_of_the_Hierophant",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/misc_book_hierophant.vmdl"
+    },
+    {
+      "id": "4318",
+      "name": "Bracers of the Hierophant",
+      "item_name": "#DOTA_Item_Bracers_of_the_Hierophant",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/bracer_hierophant.vmdl"
+    },
+    {
+      "id": "4324",
+      "name": "Hammer of Hope",
+      "item_name": "#DOTA_Item_Hammer_of_Hope",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/weapon_hope_hammer.vmdl"
+    },
+    {
+      "id": "4413",
+      "name": "Feudal Mace of Chivalry",
+      "item_name": "#DOTA_Item_Feudal_Mace_of_Chivalry",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/weapon_feudal/weapon_feudal.vmdl"
+    },
+    {
+      "id": "4414",
+      "name": "Hammer of Enlightenment",
+      "item_name": "#DOTA_Item_Hammer_of_Enlightenment",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/hammerofenlight/hammerofenlight.vmdl"
+    },
+    {
+      "id": "4415",
+      "name": "Runed Helm of Valor",
+      "item_name": "#DOTA_Item_Runed_Helm_of_Valor",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/head_valor/head_valor.vmdl"
+    },
+    {
+      "id": "4435",
+      "name": "Omniscient's Maul",
+      "item_name": "#DOTA_Item_Omniscients_Maul",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/gusa_maul/gusa_maul.vmdl"
+    },
+    {
+      "id": "4485",
+      "name": "Ornate Mantle of Renewed Faith",
+      "item_name": "#DOTA_Item_Ornate_Mantle_of_Renewed_Faith",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/shoulders_faith/shoulders_faith.vmdl"
+    },
+    {
+      "id": "4496",
+      "name": "Warhammer of Renewed Faith",
+      "item_name": "#DOTA_Item_Warhammer_of_Renewed_Faith",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/weapon_faith/weapon_faith.vmdl"
+    },
+    {
+      "id": "4497",
+      "name": "Armlet of Renewed Faith",
+      "item_name": "#DOTA_Item_Armlet_of_Renewed_Faith",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/bracer_faith/bracer_faith.vmdl"
+    },
+    {
+      "id": "4507",
+      "name": "Cape of Thunderwrath's Calling",
+      "item_name": "#DOTA_Item_Cape_of_Thunderwraths_Calling",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/thunderwraths_cape/thunderwraths_cape.vmdl"
+    },
+    {
+      "id": "4508",
+      "name": "Helm of Thunderwrath's Calling",
+      "item_name": "#DOTA_Item_Helm_of_Thunderwraths_Calling",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/thunderwraths_helm/thunderwraths_helm.vmdl"
+    },
+    {
+      "id": "4514",
+      "name": "Hammer of Thunderwrath's Calling",
+      "item_name": "#DOTA_Item_Hammer_of_Thunderwraths_Calling",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/thunderwraths_hammer/thunderwraths_hammer.vmdl"
+    },
+    {
+      "id": "4515",
+      "name": "Armor of Thunderwrath's Calling",
+      "item_name": "#DOTA_Item_Armor_of_Thunderwraths_Calling",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/thunderwraths_shoulders/thunderwraths_shoulders.vmdl"
+    },
+    {
+      "id": "4529",
+      "name": "Peacebringer",
+      "item_name": "#DOTA_Item_Peacebringer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/aries_peacebringer/aries_peacebringer.vmdl"
+    },
+    {
+      "id": "4538",
+      "name": "Winged Paladin's Gauntlet",
+      "item_name": "#DOTA_Item_Winged_Paladins_Gauntlet",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/winged_gauntlet3/winged_gauntlet3.vmdl"
+    },
+    {
+      "id": "4560",
+      "name": "Winged Paladin's Armor",
+      "item_name": "#DOTA_Item_Winged_Paladins_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/winged_shoulders/winged_shoulders.vmdl"
+    },
+    {
+      "id": "4580",
+      "name": "Winged Paladin's Glorious Cape",
+      "item_name": "#DOTA_Item_Winged_Paladins_Glorious_Cape",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/winged_cape2/winged_cape2.vmdl"
+    },
+    {
+      "id": "4581",
+      "name": "Winged Paladin's Helm",
+      "item_name": "#DOTA_Item_Winged_Paladins_Helm",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/winged_helmet/winged_helmet.vmdl"
+    },
+    {
+      "id": "4584",
+      "name": "Winged Paladin's Defiance",
+      "item_name": "#DOTA_Item_Winged_Paladins_Defiance",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/winged_axe/winged_axe.vmdl"
+    },
+    {
+      "id": "4614",
+      "name": "Mallet of Magnificence",
+      "item_name": "#DOTA_Item_Mallet_of_Magnificence",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/magmallet/magmallet.vmdl"
+    },
+    {
+      "id": "4622",
+      "name": "Hammer of Light Inexorable",
+      "item_name": "#DOTA_Item_Hammer_of_Light_Inexorable",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/directlight/directlight.vmdl"
+    },
+    {
+      "id": "5556",
+      "name": "Clergy Warhammer",
+      "item_name": "#DOTA_Item_Clergy_Warhammer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/clergy_war_hammer/clergy_war_hammer.vmdl"
+    },
+    {
+      "id": "5877",
+      "name": "Omnivus",
+      "item_name": "#DOTA_Item_Omnivus",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/omnivus.vmdl"
+    },
+    {
+      "id": "5920",
+      "name": "Power Dragon Slam",
+      "item_name": "#DOTA_Item_Power_Dragon_Slam",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/weapon_omnik_slam/weapon_omnik_slam.vmdl"
+    },
+    {
+      "id": "6587",
+      "name": "Guard of Basilius",
+      "item_name": "#DOTA_Item_Guard_of_Basilius",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/guardofbasilius_weapon/guardofbasilius_weapon.vmdl"
+    },
+    {
+      "id": "7090",
+      "name": "Armguards of the Stalwart",
+      "item_name": "#DOTA_Item_Armguards_of_the_Stalwart",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/stalwart_arms/stalwart_arms.vmdl"
+    },
+    {
+      "id": "7091",
+      "name": "Hammer of the Stalwart Soul",
+      "item_name": "#DOTA_Item_Hammer_of_the_Stalwart_Soul",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/stalwart_weapon/stalwart_weapon.vmdl"
+    },
+    {
+      "id": "7092",
+      "name": "Coiffure of the Stalwart Soul",
+      "item_name": "#DOTA_Item_Coiffure_of_the_Stalwart_Soul",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/stalwart_head/stalwart_head.vmdl"
+    },
+    {
+      "id": "7093",
+      "name": "Plate of the Stalwart Soul",
+      "item_name": "#DOTA_Item_Plate_of_the_Stalwart_Soul",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/stalwart_back/stalwart_back.vmdl"
+    },
+    {
+      "id": "7094",
+      "name": "Pauldrons of the Stalwart Soul",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Stalwart_Soul",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/stalwart_shoulder/stalwart_shoulder.vmdl"
+    },
+    {
+      "id": "7233",
+      "name": "Mace of Heavenly Light",
+      "item_name": "#DOTA_Item_Mace_of_Heavenly_Light",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/mace_heavenly_light/mace_heavenly_light.vmdl"
+    },
+    {
+      "id": "7234",
+      "name": "Pauldron of Heavenly Light",
+      "item_name": "#DOTA_Item_Pauldron_of_Heavenly_Light",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/pauldron_heavenly_light/pauldron_heavenly_light.vmdl"
+    },
+    {
+      "id": "7235",
+      "name": "Cape of Heavenly Light",
+      "item_name": "#DOTA_Item_Cape_of_Heavenly_Light",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/cape_heavenly_light/cape_heavenly_light.vmdl"
+    },
+    {
+      "id": "7236",
+      "name": "Guards of Heavenly Light",
+      "item_name": "#DOTA_Item_Guards_of_Heavenly_Light",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/guard_heavenly_light/guard_heavenly_light.vmdl"
+    },
+    {
+      "id": "7237",
+      "name": "Helm of Heavenly Light",
+      "item_name": "#DOTA_Item_Helm_of_Heavenly_Light",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/helm_heavenly_light/helm_heavenly_light.vmdl"
+    },
+    {
+      "id": "7580",
+      "name": "Adoring Wingfall",
+      "item_name": "#DOTA_Item_Adoring_Wingfall",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/light_hammer/mesh/light_hammer_model.vmdl"
+    },
+    {
+      "id": "8170",
+      "name": "Bracers of the Grey Gallant",
+      "item_name": "#DOTA_Item_Bracers_of_the_Grey_Gallant",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/grey_night_arms/grey_night_arms.vmdl"
+    },
+    {
+      "id": "8171",
+      "name": "Cape of the Grey Gallant",
+      "item_name": "#DOTA_Item_Cape_of_the_Grey_Gallant",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/grey_night_back/grey_night_back.vmdl"
+    },
+    {
+      "id": "8172",
+      "name": "Hair of the Grey Gallant",
+      "item_name": "#DOTA_Item_Hair_of_the_Grey_Gallant",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/grey_night_head/grey_night_head.vmdl"
+    },
+    {
+      "id": "8173",
+      "name": "Pauldrons of the Grey Gallant",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Grey_Gallant",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/grey_night_shoulders/grey_night_shoulders.vmdl"
+    },
+    {
+      "id": "8174",
+      "name": "Hammer of the Grey Gallant",
+      "item_name": "#DOTA_Item_Hammer_of_the_Grey_Gallant",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/grey_night_weapon/grey_night_weapon.vmdl"
+    },
+    {
+      "id": "8954",
+      "name": "Gauntlets of Sacred Light",
+      "item_name": "#DOTA_Item_Gauntlets_of_Sacred_Light",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/omniknight_sacred_light_arms/omniknight_sacred_light_arms.vmdl"
+    },
+    {
+      "id": "8955",
+      "name": "Pauldrons of Sacred Light",
+      "item_name": "#DOTA_Item_Pauldrons_of_Sacred_Light",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/omniknight_sacred_light_shoulder/omniknight_sacred_light_shoulder.vmdl"
+    },
+    {
+      "id": "8956",
+      "name": "Mallet of Sacred Light",
+      "item_name": "#DOTA_Item_Mallet_of_Sacred_Light",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/omniknight_sacred_light_weapon/omniknight_sacred_light_weapon.vmdl"
+    },
+    {
+      "id": "8957",
+      "name": "Armor of Sacred Light",
+      "item_name": "#DOTA_Item_Armor_of_Sacred_Light",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/omniknight_sacred_light_back/omniknight_sacred_light_back.vmdl"
+    },
+    {
+      "id": "8958",
+      "name": "Crown of Sacred Light",
+      "item_name": "#DOTA_Item_Crown_of_Sacred_Light",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.vmdl"
+    },
+    {
+      "id": "9244",
+      "name": "Sigil of the Undying Light",
+      "item_name": "#DOTA_Item_Sigil_of_the_Undying_Light",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/the_unbroken_knight_weapon/the_unbroken_knight_weapon.vmdl"
+    },
+    {
+      "id": "9245",
+      "name": "Pauldron of the Undying Light",
+      "item_name": "#DOTA_Item_Pauldron_of_the_Undying_Light",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/the_unbroken_knight_shoulder/the_unbroken_knight_shoulder.vmdl"
+    },
+    {
+      "id": "9246",
+      "name": "Mane of the Undying Light",
+      "item_name": "#DOTA_Item_Mane_of_the_Undying_Light",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/the_unbroken_knight_head/the_unbroken_knight_head.vmdl"
+    },
+    {
+      "id": "9555",
+      "name": "Armor of the Undying Light",
+      "item_name": "#DOTA_Item_Armor_of_the_Undying_Light",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/the_unbroken_knight_arms/the_unbroken_knight_arms.vmdl"
+    },
+    {
+      "id": "9556",
+      "name": "Flight of the Undying Light",
+      "item_name": "#DOTA_Item_Flight_of_the_Undying_Light",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/the_unbroken_knight_back/the_unbroken_knight_back.vmdl"
+    },
+    {
+      "id": "9748",
+      "name": "Paragon's Rebuke",
+      "item_name": "#DOTA_Item_Paragons_Rebuke",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/light_helmet/light_helmet.vmdl"
+    },
+    {
+      "id": "9762",
+      "name": "Taunt: Bathed in the Glow",
+      "item_name": "#DOTA_Item_Taunt_Bathed_in_the_Glow",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "10152",
+      "name": "Expired Treasure of the Omniscient",
+      "item_name": "#DOTA_Item_Expired_Treasure_of_the_Omniscient",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "retired_treasure_chest"
+    },
+    {
+      "id": "12629",
+      "name": "Complete Crown of Sacred Light",
+      "item_name": "#DOTA_Item_Complete_Crown_of_Sacred_Light",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.vmdl"
+    },
+    {
+      "id": "12630",
+      "name": "Complete Armor of Sacred Light",
+      "item_name": "#DOTA_Item_Complete_Armor_of_Sacred_Light",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/omniknight_sacred_light_back/omniknight_sacred_light_back.vmdl"
+    },
+    {
+      "id": "12631",
+      "name": "Complete Mallet of Sacred Light",
+      "item_name": "#DOTA_Item_Complete_Mallet_of_Sacred_Light",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/omniknight_sacred_light_weapon/omniknight_sacred_light_weapon.vmdl"
+    },
+    {
+      "id": "12632",
+      "name": "Complete Pauldrons of Sacred Light",
+      "item_name": "#DOTA_Item_Complete_Pauldrons_of_Sacred_Light",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/omniknight_sacred_light_shoulder/omniknight_sacred_light_shoulder.vmdl"
+    },
+    {
+      "id": "12633",
+      "name": "Complete Gauntlets of Sacred Light",
+      "item_name": "#DOTA_Item_Complete_Gauntlets_of_Sacred_Light",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/omniknight_sacred_light_arms/omniknight_sacred_light_arms.vmdl"
+    },
+    {
+      "id": "13226",
+      "name": "Godhammer - Head",
+      "item_name": "#DOTA_Item_Godhammer__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/divine_anvil_head/divine_anvil_head.vmdl"
+    },
+    {
+      "id": "13227",
+      "name": "Godhammer - Weapon",
+      "item_name": "#DOTA_Item_Godhammer__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/divine_anvil_weapon/divine_anvil_weapon.vmdl"
+    },
+    {
+      "id": "13228",
+      "name": "Godhammer - Back",
+      "item_name": "#DOTA_Item_Godhammer__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/divine_anvil_back/divine_anvil_back.vmdl"
+    },
+    {
+      "id": "13229",
+      "name": "Godhammer - Shoulder",
+      "item_name": "#DOTA_Item_Godhammer__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/divine_anvil_shoulder/divine_anvil_shoulder.vmdl"
+    },
+    {
+      "id": "13237",
+      "name": "Godhammer - Arms",
+      "item_name": "#DOTA_Item_Godhammer__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/divine_anvil_arms/divine_anvil_arms.vmdl"
+    },
+    {
+      "id": "13756",
+      "name": "Fetters of Omniscience",
+      "item_name": "#DOTA_Item_Fetters_of_Omniscience",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/omni_fall20_immortal_shoulders/omni_fall20_immortal_shoulders.vmdl"
+    },
+    {
+      "id": "18199",
+      "name": "Paragon's Poise",
+      "item_name": "#DOTA_Item_Paragons_Poise",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/omni_2021_immortal_arms/omni_2021_immortal_arms.vmdl"
+    },
+    {
+      "id": "19204",
+      "name": "Paragon's Pride",
+      "item_name": "#DOTA_Item_Paragons_Pride",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/omni_2021_immortal/omni_2021_immortal.vmdl"
+    },
+    {
+      "id": "19636",
+      "name": "Lionheart - Arms",
+      "item_name": "#DOTA_Item_Lionheart__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/lionheart_guardian_arms/lionheart_guardian_arms.vmdl"
+    },
+    {
+      "id": "19637",
+      "name": "Lionheart - Back",
+      "item_name": "#DOTA_Item_Lionheart__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/lionheart_guardian_back/lionheart_guardian_back.vmdl"
+    },
+    {
+      "id": "19638",
+      "name": "Lionheart - Head",
+      "item_name": "#DOTA_Item_Lionheart__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/lionheart_guardian_head/lionheart_guardian_head.vmdl"
+    },
+    {
+      "id": "19639",
+      "name": "Lionheart - Shoulder",
+      "item_name": "#DOTA_Item_Lionheart__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/lionheart_guardian_shoulder/lionheart_guardian_shoulder.vmdl"
+    },
+    {
+      "id": "19640",
+      "name": "Lionheart - Weapon",
+      "item_name": "#DOTA_Item_Lionheart__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/lionheart_guardian_weapon/lionheart_guardian_weapon.vmdl"
+    },
+    {
+      "id": "20026",
+      "name": "The Radiance of the Crusade Set",
+      "item_name": "#DOTA_Item_The_Radiance_of_the_Crusade_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20036",
+      "name": "Armor of the Purist Champion Set",
+      "item_name": "#DOTA_Item_Armor_of_the_Purist_Champion_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20046",
+      "name": "The Hierophant's Protection Set",
+      "item_name": "#DOTA_Item_The_Hierophants_Protection_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20066",
+      "name": "Armor of Renewed Faith Set",
+      "item_name": "#DOTA_Item_Armor_of_Renewed_Faith_Set",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20067",
+      "name": "Thunderwrath's Calling Set",
+      "item_name": "#DOTA_Item_Thunderwraths_Calling_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20068",
+      "name": "Wings of the Paladin Set",
+      "item_name": "#DOTA_Item_Wings_of_the_Paladin_Set",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20643",
+      "name": "Armor of the Stalwart Soul",
+      "item_name": "#DOTA_Item_Armor_of_the_Stalwart_Soul",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20646",
+      "name": "TEvent Dota 2 Season 1",
+      "item_name": "#DOTA_Item_TEvent_Dota_2_Season_1",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20787",
+      "name": "The Grey Gallant",
+      "item_name": "#DOTA_Item_The_Grey_Gallant",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21064",
+      "name": "Sacred Light",
+      "item_name": "#DOTA_Item_Sacred_Light",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21152",
+      "name": "The Undying Light",
+      "item_name": "#DOTA_Item_The_Undying_Light",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21272",
+      "name": "Complete Sacred Light",
+      "item_name": "#DOTA_Item_Complete_Sacred_Light",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21368",
+      "name": "Godhammer",
+      "item_name": "#DOTA_Item_Godhammer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21926",
+      "name": "Lionheart",
+      "item_name": "#DOTA_Item_Lionheart",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22267",
+      "name": "Fetters of Omniscience of the Crimson Witness",
+      "item_name": "#DOTA_Item_Fetters_of_Omniscience_of_the_Crimson_Witness",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/omniknight/omni_fall20_immortal_shoulders/omni_fall20_immortal_shoulders.vmdl"
+    },
+    {
+      "id": "22274",
+      "name": "Paragon's Pride Bundle",
+      "item_name": "#DOTA_Item_Paragons_Pride_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    }
+  ]
+}

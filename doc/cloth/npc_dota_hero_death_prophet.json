@@ -1,0 +1,3221 @@
+{
+  "defaults": {
+    "legs": {
+      "id": "168",
+      "name": "Death Prophet's Dress",
+      "item_name": "#DOTA_Item_Death_Prophets_Dress",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "model_player": "models/heroes/death_prophet/death_prophet_dress.vmdl"
+    },
+    "head": {
+      "id": "169",
+      "name": "Death Prophet's Hair",
+      "item_name": "#DOTA_Item_Death_Prophets_Hair",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/death_prophet/death_prophet_hair.vmdl"
+    },
+    "armor": {
+      "id": "170",
+      "name": "Death Prophet's Corset",
+      "item_name": "#DOTA_Item_Death_Prophets_Corset",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "model_player": "models/heroes/death_prophet/death_prophet_dresstop.vmdl"
+    },
+    "belt": {
+      "id": "171",
+      "name": "Death Prophet's Scarf",
+      "item_name": "#DOTA_Item_Death_Prophets_Scarf",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "model_player": "models/heroes/death_prophet/death_prophet_scarf.vmdl"
+    },
+    "ambient_effects": {
+      "id": "505",
+      "name": "Death Prophet's Ambient Effects",
+      "item_name": "#DOTA_Item_Death_Prophets_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    },
+    "body_head": {
+      "id": "568",
+      "name": "Death Prophet's Head",
+      "item_name": "#DOTA_Item_Death_Prophets_Head",
+      "item_slot": "body_head",
+      "item_rarity": "common"
+    },
+    "misc": {
+      "id": "569",
+      "name": "Death Prophet's Miscellaneous",
+      "item_name": "#DOTA_Item_Death_Prophets_Miscellaneous",
+      "item_slot": "misc",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Augurs_Curse",
+      "store_bundle": "Augur's Curse Set",
+      "portrait_image": "econ/sets/v2/augurs_curse_set",
+      "items": [
+        {
+          "name": "Augur's Armor",
+          "id": "5597",
+          "item_name": "#DOTA_Item_Augurs_Armor",
+          "item_slot": "armor",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/armor_mugen_angurs_curse/armor_mugen_angurs_curse.vmdl"
+        },
+        {
+          "name": "Augur's Belt",
+          "id": "5598",
+          "item_name": "#DOTA_Item_Augurs_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/belt_mugen_augurs_curse/belt_mugen_augurs_curse.vmdl"
+        },
+        {
+          "name": "Augur's Hair",
+          "id": "5599",
+          "item_name": "#DOTA_Item_Augurs_Hair",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/hair_mugen_augurs_curse/hair_mugen_augurs_curse.vmdl"
+        },
+        {
+          "name": "Augur's Skirt",
+          "id": "5600",
+          "item_name": "#DOTA_Item_Augurs_Skirt",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/skirt_mugen_augurs_curse/skirt_mugen_augurs_curse.vmdl"
+        },
+        {
+          "name": "Augur's Ghosts",
+          "id": "5603",
+          "item_name": "#DOTA_Item_Augurs_Ghosts",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Bone_Scryer",
+      "store_bundle": "The Bone Scryer Set",
+      "portrait_image": "econ/sets/v2/bone_scryer",
+      "items": [
+        {
+          "name": "Horns of the Bone Scryer",
+          "id": "4202",
+          "item_name": "#DOTA_Item_Horns_of_the_Bone_Scryer",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/bone_scryer_head/bone_scryer_head.vmdl"
+        },
+        {
+          "name": "Funereal Dress of the Bone Scryer",
+          "id": "4339",
+          "item_name": "#DOTA_Item_Funereal_Dress_of_the_Bone_Scryer",
+          "item_slot": "legs",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/bone_scryer_legs/bone_scryer_legs.vmdl"
+        },
+        {
+          "name": "Scarf of the Bone Scryer",
+          "id": "4340",
+          "item_name": "#DOTA_Item_Scarf_of_the_Bone_Scryer",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/bone_scryer_scarf/bone_scryer_scarf.vmdl"
+        },
+        {
+          "name": "Decorative Armor of the Bone Scryer",
+          "id": "4551",
+          "item_name": "#DOTA_Item_Decorative_Armor_of_the_Bone_Scryer",
+          "item_slot": "armor",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/bone_scryer_armor/bone_scryer_armor.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dark_Debutante",
+      "store_bundle": "Dark Debutante",
+      "portrait_image": "econ/sets/v2/dark_debutante",
+      "items": [
+        {
+          "name": "Dark Debutante Ultimate",
+          "id": "23315",
+          "item_name": "#DOTA_Item_Dark_Debutante_Ultimate",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Dark Debutante Belt",
+          "id": "23314",
+          "item_name": "#DOTA_Item_Dark_Debutante_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/deaths_bloom_belt/deaths_bloom_belt.vmdl"
+        },
+        {
+          "name": "Dark Debutante Head",
+          "id": "23313",
+          "item_name": "#DOTA_Item_Dark_Debutante_Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/deaths_bloom_head/deaths_bloom_head.vmdl"
+        },
+        {
+          "name": "Dark Debutante Armor",
+          "id": "23312",
+          "item_name": "#DOTA_Item_Dark_Debutante_Armor",
+          "item_slot": "armor",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/deaths_bloom_armor/deaths_bloom_armor.vmdl"
+        },
+        {
+          "name": "Dark Debutante Skirt",
+          "id": "23311",
+          "item_name": "#DOTA_Item_Dark_Debutante_Skirt",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/deaths_bloom_deaths_bloom_skirt/deaths_bloom_deaths_bloom_skirt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dark_Realm_Oracles",
+      "store_bundle": "Dark Realm Oracles",
+      "portrait_image": "econ/sets/v2/dark_realm_oracles",
+      "items": [
+        {
+          "name": "Dark Realm Oracles Skirt",
+          "id": "17847",
+          "item_name": "#DOTA_Item_Dark_Realm_Oracles_Skirt",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/fateful_symbiosis_petals/fateful_symbiosis_petals.vmdl"
+        },
+        {
+          "name": "Dark Realm Oracles Belt",
+          "id": "17846",
+          "item_name": "#DOTA_Item_Dark_Realm_Oracles_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/fateful_symbiosis_belt/fateful_symbiosis_belt.vmdl"
+        },
+        {
+          "name": "Dark Realm Oracles Mask",
+          "id": "17845",
+          "item_name": "#DOTA_Item_Dark_Realm_Oracles_Mask",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/fateful_symbiosis_head/fateful_symbiosis_head.vmdl"
+        },
+        {
+          "name": "Dark Realm Oracles Wraps",
+          "id": "17844",
+          "item_name": "#DOTA_Item_Dark_Realm_Oracles_Wraps",
+          "item_slot": "misc",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/fateful_symbiosis_misc/fateful_symbiosis_misc.vmdl"
+        },
+        {
+          "name": "Dark Realm Oracles Ghost",
+          "id": "17843",
+          "item_name": "#DOTA_Item_Dark_Realm_Oracles_Ghost",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Dark Realm Oracles Armor",
+          "id": "17842",
+          "item_name": "#DOTA_Item_Dark_Realm_Oracles_Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/fateful_symbiosis_armor/fateful_symbiosis_armor.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Darkwood_Eulogy",
+      "store_bundle": "Darkwood Eulogy",
+      "portrait_image": "econ/sets/v2/darkwood_eulogy",
+      "items": [
+        {
+          "name": "Darkwood Eulogy Legs",
+          "id": "28613",
+          "item_name": "#DOTA_Item_Darkwood_Eulogy_Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/death_prophet_darkwood_eulogy_custom_wearable/death_prophet_darkwood_eulogy_custom_wearable.vmdl"
+        },
+        {
+          "name": "Darkwood Eulogy Belt",
+          "id": "28612",
+          "item_name": "#DOTA_Item_Darkwood_Eulogy_Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/death_prophet_darkwood_eulogy_belt/death_prophet_darkwood_eulogy_belt.vmdl"
+        },
+        {
+          "name": "Darkwood Eulogy Armor",
+          "id": "28611",
+          "item_name": "#DOTA_Item_Darkwood_Eulogy_Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/death_prophet_darkwood_eulogy_armor/death_prophet_darkwood_eulogy_armor.vmdl"
+        },
+        {
+          "name": "Darkwood Eulogy Head",
+          "id": "28610",
+          "item_name": "#DOTA_Item_Darkwood_Eulogy_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/death_prophet_darkwood_eulogy_head/death_prophet_darkwood_eulogy_head.vmdl"
+        },
+        {
+          "name": "Darkwood Eulogy Spirit",
+          "id": "28614",
+          "item_name": "#DOTA_Item_Darkwood_Eulogy_Spirit",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Corpse_Maiden",
+      "store_bundle": "The Corpse Maiden's Set",
+      "portrait_image": "econ/sets/v2/death_prophet_corpse_maiden",
+      "items": [
+        {
+          "name": "Dress of the Corpse Maiden",
+          "id": "4049",
+          "item_name": "#DOTA_Item_Dress_of_the_Corpse_Maiden",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/death_prophet_corpse_dress.vmdl"
+        },
+        {
+          "name": "Wicked Collar of the Corpse Maiden",
+          "id": "4190",
+          "item_name": "#DOTA_Item_Wicked_Collar_of_the_Corpse_Maiden",
+          "item_slot": "armor",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/death_prophet_corpse_dresstop.vmdl"
+        },
+        {
+          "name": "Ghastly Scarf of the Corpse Maiden",
+          "id": "4191",
+          "item_name": "#DOTA_Item_Ghastly_Scarf_of_the_Corpse_Maiden",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/death_prophet_corpse_scarf.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Curse_of_the_Iron_Maiden",
+      "store_bundle": "Curse of the Iron Maiden",
+      "portrait_image": "econ/sets/v2/death_prophet_curse_of_the_iron_maiden",
+      "items": [
+        {
+          "name": "Curse of the Iron Maiden Armor",
+          "id": "18148",
+          "item_name": "#DOTA_Item_Vote_Only_Curse_of_the_Iron_Maiden_Armor",
+          "item_slot": "armor",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/curse_of_the_iron_maiden_armor/curse_of_the_iron_maiden_armor.vmdl"
+        },
+        {
+          "name": "Curse of the Iron Maiden Belt",
+          "id": "18149",
+          "item_name": "#DOTA_Item_Vote_Only_Curse_of_the_Iron_Maiden_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/curse_of_the_iron_maiden_belt/curse_of_the_iron_maiden_belt.vmdl"
+        },
+        {
+          "name": "Curse of the Iron Maiden Head",
+          "id": "18150",
+          "item_name": "#DOTA_Item_Vote_Only_Curse_of_the_Iron_Maiden_Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/curse_of_the_iron_maiden_head/curse_of_the_iron_maiden_head.vmdl"
+        },
+        {
+          "name": "Curse of the Iron Maiden Legs",
+          "id": "18151",
+          "item_name": "#DOTA_Item_Vote_Only_Curse_of_the_Iron_Maiden_Legs",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/curse_of_the_iron_maiden_legs/curse_of_the_iron_maiden_legs.vmdl"
+        },
+        {
+          "name": "Curse of the Iron Maiden Misc",
+          "id": "18152",
+          "item_name": "#DOTA_Item_Vote_Only_Curse_of_the_Iron_Maiden_Misc",
+          "item_slot": "misc",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/curse_of_the_iron_maiden_misc/curse_of_the_iron_maiden_misc.vmdl"
+        },
+        {
+          "name": "Curse of the Iron Maiden Ghosts",
+          "id": "18153",
+          "item_name": "#DOTA_Curse_of_the_Iron_Maiden_Ghosts",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Feasts_of_the_Forlorn",
+      "store_bundle": "Feasts of the Forlorn",
+      "portrait_image": "econ/sets/v2/death_prophet_feasts_of_the_forlorn",
+      "items": [
+        {
+          "name": "Feasts of the Forlorn - Ghosts",
+          "id": "22742",
+          "item_name": "#DOTA_Item_Feasts_of_the_Forlorn__Ghosts",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Feasts of the Forlorn - Legs",
+          "id": "22741",
+          "item_name": "#DOTA_Item_Feasts_of_the_Forlorn__Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/carrion_bloom_legs/carrion_bloom_legs.vmdl"
+        },
+        {
+          "name": "Feasts of the Forlorn - Misc",
+          "id": "22740",
+          "item_name": "#DOTA_Item_Feasts_of_the_Forlorn__Misc",
+          "item_slot": "misc",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/carrion_bloom_misc/carrion_bloom_misc.vmdl"
+        },
+        {
+          "name": "Feasts of the Forlorn - Belt",
+          "id": "22739",
+          "item_name": "#DOTA_Item_Feasts_of_the_Forlorn__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/carrion_bloom_belt/carrion_bloom_belt.vmdl"
+        },
+        {
+          "name": "Feasts of the Forlorn - Armor",
+          "id": "22738",
+          "item_name": "#DOTA_Item_Feasts_of_the_Forlorn__Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/carrion_bloom_armor/carrion_bloom_armor.vmdl"
+        },
+        {
+          "name": "Feasts of the Forlorn - Head",
+          "id": "22737",
+          "item_name": "#DOTA_Item_Feasts_of_the_Forlorn__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/carrion_bloom_head/carrion_bloom_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Mothbinders_Omen",
+      "store_bundle": "Temptation of the Mothbinder",
+      "portrait_image": "econ/sets/v2/death_prophet_mothbinders_omen",
+      "items": [
+        {
+          "name": "Hood of the Mothbinder",
+          "id": "8571",
+          "item_name": "#DOTA_Item_Hood_of_the_Mothbinder",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/mothbinders_omen_head/mothbinders_omen_head.vmdl"
+        },
+        {
+          "name": "Skirt of the Mothbinder",
+          "id": "8569",
+          "item_name": "#DOTA_Item_Skirt_of_the_Mothbinder",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/mothbinders_omen_legs/mothbinders_omen_legs.vmdl"
+        },
+        {
+          "name": "Bracelets of the Mothbinder",
+          "id": "8567",
+          "item_name": "#DOTA_Item_Bracelets_of_the_Mothbinder",
+          "item_slot": "misc",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/mothbinders_omen_misc/mothbinders_omen_misc.vmdl"
+        },
+        {
+          "name": "Armor of the Mothbinder",
+          "id": "8570",
+          "item_name": "#DOTA_Item_Armor_of_the_Mothbinder",
+          "item_slot": "armor",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/mothbinders_omen_armor/mothbinders_omen_armor.vmdl"
+        },
+        {
+          "name": "Belt of the Mothbinder",
+          "id": "8568",
+          "item_name": "#DOTA_Item_Belt_of_the_Mothbinder",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/mothbinders_omen_belt/mothbinders_omen_belt.vmdl"
+        },
+        {
+          "name": "Spirits of the Mothbinder",
+          "id": "8566",
+          "item_name": "#DOTA_Item_Spirits_of_the_Mothbinder",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_TI9_Cache_DP_Voodoo_Priestess",
+      "store_bundle": "TI9 Cache DP Voodoo Priestess",
+      "portrait_image": "econ/sets/v2/death_prophet_ti9_cache_dp_voodoo_priestess",
+      "items": [
+        {
+          "name": "TI9 Cache DP Voodoo Priestess Head",
+          "id": "13161",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_DP_Voodoo_Priestess_Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/ti9_cache_dp_voodoo_priestess_head/ti9_cache_dp_voodoo_priestess_head.vmdl"
+        },
+        {
+          "name": "TI9 Cache DP Voodoo Priestess Armor",
+          "id": "13160",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_DP_Voodoo_Priestess_Armor",
+          "item_slot": "armor",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/ti9_cache_dp_voodoo_priestess_armor/ti9_cache_dp_voodoo_priestess_armor.vmdl"
+        },
+        {
+          "name": "TI9 Cache DP Voodoo Priestess Belt",
+          "id": "13159",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_DP_Voodoo_Priestess_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/ti9_cache_dp_voodoo_priestess_belt/ti9_cache_dp_voodoo_priestess_belt.vmdl"
+        },
+        {
+          "name": "TI9 Cache DP Voodoo Priestess Legs",
+          "id": "13158",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_DP_Voodoo_Priestess_Legs",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/ti9_cache_dp_voodoo_priestess_legs/ti9_cache_dp_voodoo_priestess_legs.vmdl"
+        },
+        {
+          "name": "TI9 Cache DP Voodoo Priestess Misc",
+          "id": "13157",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_DP_Voodoo_Priestess_Misc",
+          "item_slot": "misc",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/ti9_cache_dp_voodoo_priestess_misc/ti9_cache_dp_voodoo_priestess_misc.vmdl"
+        },
+        {
+          "name": "TI9 Cache DP Voodoo Priestess Ghosts",
+          "id": "13156",
+          "item_name": "#DOTA_TI9_Cache_DP_Voodoo_Priestess_Ghosts",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Regalia_of_the_Mortal_Coil",
+      "store_bundle": "Regalia of the Mortal Coil Set",
+      "portrait_image": "econ/sets/v2/deathprophet_mortalcoil",
+      "items": [
+        {
+          "name": "Coronet of the Mortal Coil",
+          "id": "5809",
+          "item_name": "#DOTA_Item_Coronet_of_the_Mortal_Coil",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/coronet_of_the_mortal_coil/coronet_of_the_mortal_coil.vmdl"
+        },
+        {
+          "name": "Cinch of the Mortal Coil",
+          "id": "5783",
+          "item_name": "#DOTA_Item_Cinch_of_the_Mortal_Coil",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/cinch_of_the_mortal_coil/cinch_of_the_mortal_coil.vmdl"
+        },
+        {
+          "name": "Gown of the Mortal Coil",
+          "id": "5782",
+          "item_name": "#DOTA_Item_Gown_of_the_Mortal_Coil",
+          "item_slot": "legs",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/gown_of_the_mortal_coil/gown_of_the_mortal_coil.vmdl"
+        },
+        {
+          "name": "Corset of the Mortal Coil",
+          "id": "5781",
+          "item_name": "#DOTA_Item_Corset_of_the_Mortal_Coil",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/corset_of_the_mortal_coil/corset_of_the_mortal_coil.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Witch_of_the_Outlands",
+      "store_bundle": "Witch of the Outlands Set",
+      "portrait_image": "econ/sets/v2/deathprophet_outland_witch",
+      "items": [
+        {
+          "name": "Outland Witch's Horns",
+          "id": "5959",
+          "item_name": "#DOTA_Item_Outland_Witchs_Horns",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/outland_witchs_horns/outland_witchs_horns.vmdl"
+        },
+        {
+          "name": "Outland Witch's Necklace",
+          "id": "5960",
+          "item_name": "#DOTA_Item_Outland_Witchs_Necklace",
+          "item_slot": "armor",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/outland_witchs_necklace/outland_witchs_necklace.vmdl"
+        },
+        {
+          "name": "Outland Witch's Hem",
+          "id": "5961",
+          "item_name": "#DOTA_Item_Outland_Witchs_Hem",
+          "item_slot": "legs",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/outland_witchs_hem/outland_witchs_hem.vmdl"
+        },
+        {
+          "name": "Outland Witch's Sash",
+          "id": "5963",
+          "item_name": "#DOTA_Item_Outland_Witchs_Sash",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/outland_witchs_sash/outland_witchs_sash.vmdl"
+        },
+        {
+          "name": "Outland Witch's Tatters",
+          "id": "5965",
+          "item_name": "#DOTA_Item_Outland_Witchs_Tatters",
+          "item_slot": "misc",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/outland_witchs_tatters/outland_witchs_tatters.vmdl"
+        },
+        {
+          "name": "Outland Witch's Spirits",
+          "id": "5973",
+          "item_name": "#DOTA_Item_Outland_Witchs_Spirits",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Draconic_Requiem",
+      "store_bundle": "Draconic Requiem",
+      "portrait_image": "econ/sets/v2/draconic_requiem",
+      "items": [
+        {
+          "name": "Draconic Requiem - Spirits",
+          "id": "13241",
+          "item_name": "#DOTA_Item_Draconic_Requiem__Spirits",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Draconic Requiem - Misc",
+          "id": "13240",
+          "item_name": "#DOTA_Item_Draconic_Requiem__Misc",
+          "item_slot": "misc",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/scalefiends_hatred_misc/scalefiends_hatred_misc.vmdl"
+        },
+        {
+          "name": "Draconic Requiem - Legs",
+          "id": "13239",
+          "item_name": "#DOTA_Item_Draconic_Requiem__Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/scalefiends_hatred_flight/scalefiends_hatred_flight.vmdl"
+        },
+        {
+          "name": "Draconic Requiem - Armor",
+          "id": "13175",
+          "item_name": "#DOTA_Item_Draconic_Requiem__Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/scalefiends_hatred_armor/scalefiends_hatred_armor.vmdl"
+        },
+        {
+          "name": "Draconic Requiem - Belt",
+          "id": "13141",
+          "item_name": "#DOTA_Item_Draconic_Requiem__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/scalefiends_hatred_belt/scalefiends_hatred_belt.vmdl"
+        },
+        {
+          "name": "Draconic Requiem - Head",
+          "id": "12474",
+          "item_name": "#DOTA_Item_Draconic_Requiem__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/scalefiends_hatred_head/scalefiends_hatred_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Eternal_Testament",
+      "store_bundle": "Eternal Testament",
+      "portrait_image": "econ/sets/v2/eternal_testament",
+      "items": [
+        {
+          "name": "Veil of Eternal Testament",
+          "id": "9257",
+          "item_name": "#DOTA_Item_Veil_of_Eternal_Testament",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/drowned_siren_head/drowned_siren_head.vmdl"
+        },
+        {
+          "name": "Dress of Eternal Testament",
+          "id": "9258",
+          "item_name": "#DOTA_Item_Dress_of_Eternal_Testament",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/drowned_siren_drowned_siren_skirt/drowned_siren_drowned_siren_skirt.vmdl"
+        },
+        {
+          "name": "Blouse of Eternal Testament",
+          "id": "9259",
+          "item_name": "#DOTA_Item_Blouse_of_Eternal_Testament",
+          "item_slot": "armor",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/drowned_siren_armor/drowned_siren_armor.vmdl"
+        },
+        {
+          "name": "Ghosts of Eternal Testament",
+          "id": "9260",
+          "item_name": "#DOTA_Item_Ghosts_of_Eternal_Testament",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Weeds of Eternal Testament",
+          "id": "9263",
+          "item_name": "#DOTA_Item_Weeds_of_Eternal_Testament",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/drowned_siren_misc/drowned_siren_misc.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Fatal_Blossom",
+      "store_bundle": "Fatal Blossom",
+      "portrait_image": "econ/sets/v2/fatal_blossom",
+      "items": [
+        {
+          "name": "Fatal Blossom Hairdress",
+          "id": "8028",
+          "item_name": "#DOTA_Item_Fatal_Blossom_Hairdress",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/fatal_blossom_head/fatal_blossom_head.vmdl"
+        },
+        {
+          "name": "Fatal Blossom Nails",
+          "id": "8029",
+          "item_name": "#DOTA_Item_Fatal_Blossom_Nails",
+          "item_slot": "misc",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/fatal_blossom_nails/fatal_blossom_nails.vmdl"
+        },
+        {
+          "name": "Fatal Blossom Scarf",
+          "id": "8030",
+          "item_name": "#DOTA_Item_Fatal_Blossom_Scarf",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/fatal_blossom_belt/fatal_blossom_belt.vmdl"
+        },
+        {
+          "name": "Fatal Blossom Robe",
+          "id": "8027",
+          "item_name": "#DOTA_Item_Fatal_Blossom_Robe",
+          "item_slot": "armor",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/fatal_blossom_armor/fatal_blossom_armor.vmdl"
+        },
+        {
+          "name": "Fatal Blossom Skirt",
+          "id": "8031",
+          "item_name": "#DOTA_Item_Fatal_Blossom_Skirt",
+          "item_slot": "legs",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/fatal_blossom_skirt/fatal_blossom_skirt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Flight_of_the_Crimson_Queen",
+      "store_bundle": "Flight of the Crimson Queen",
+      "portrait_image": "econ/sets/v2/flight_of_the_crimson_queen",
+      "items": [
+        {
+          "name": "Flight of the Crimson Queen - Belt",
+          "id": "13996",
+          "item_name": "#DOTA_Item_Flight_of_the_Crimson_Queen__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/queen_of_crimson_thorns_belt/queen_of_crimson_thorns_belt.vmdl"
+        },
+        {
+          "name": "Flight of the Crimson Queen - Armor",
+          "id": "13995",
+          "item_name": "#DOTA_Item_Flight_of_the_Crimson_Queen__Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/queen_of_crimson_thorns_armor/queen_of_crimson_thorns_armor.vmdl"
+        },
+        {
+          "name": "Flight of the Crimson Queen - Spirit",
+          "id": "13993",
+          "item_name": "#DOTA_Item_Flight_of_the_Crimson_Queen__Spirit",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Flight of the Crimson Queen - Misc",
+          "id": "13992",
+          "item_name": "#DOTA_Item_Flight_of_the_Crimson_Queen__Misc",
+          "item_slot": "misc",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/queen_of_crimson_thorns_misc/queen_of_crimson_thorns_misc.vmdl"
+        },
+        {
+          "name": "Flight of the Crimson Queen - Legs",
+          "id": "13991",
+          "item_name": "#DOTA_Item_Flight_of_the_Crimson_Queen__Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/queen_of_crimson_thorns_legs/queen_of_crimson_thorns_legs.vmdl"
+        },
+        {
+          "name": "Flight of the Crimson Queen - Head",
+          "id": "13990",
+          "item_name": "#DOTA_Item_Flight_of_the_Crimson_Queen__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/queen_of_crimson_thorns_head/queen_of_crimson_thorns_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Foretellers_Robes",
+      "store_bundle": "Foreteller's Robes Set",
+      "portrait_image": "econ/sets/v2/foretellers_robes",
+      "items": [
+        {
+          "name": "Foreteller's Haircomb",
+          "id": "6049",
+          "item_name": "#DOTA_Item_Foretellers_Haircomb",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/foreteller_head/foreteller_head.vmdl"
+        },
+        {
+          "name": "Foreteller's Garment",
+          "id": "6047",
+          "item_name": "#DOTA_Item_Foretellers_Garment",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/foreteller_belt/foreteller_belt.vmdl"
+        },
+        {
+          "name": "Foreteller's Drapes",
+          "id": "6048",
+          "item_name": "#DOTA_Item_Foretellers_Drapes",
+          "item_slot": "armor",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/foreteller_chest/foreteller_chest.vmdl"
+        },
+        {
+          "name": "Foreteller's Adorn",
+          "id": "6050",
+          "item_name": "#DOTA_Item_Foretellers_Adorn",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/foreteller_legs/foreteller_legs.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ghastly_Matriarch",
+      "store_bundle": "Ghastly Matriarch",
+      "portrait_image": "econ/sets/v2/ghastly_matriarch",
+      "items": [
+        {
+          "name": "Skirt of the Ghastly Matriarch",
+          "id": "7139",
+          "item_name": "#DOTA_Item_Skirt_of_the_Ghastly_Matriarch",
+          "item_slot": "legs",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/awakened_thirst_legs/awakened_thirst_legs.vmdl"
+        },
+        {
+          "name": "Tresses of the Ghastly Matriarch",
+          "id": "7086",
+          "item_name": "#DOTA_Item_Tresses_of_the_Ghastly_Matriarch",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/awakened_thirst_head/awakened_thirst_head.vmdl"
+        },
+        {
+          "name": "Scarf of the Ghastly Matriarch",
+          "id": "7085",
+          "item_name": "#DOTA_Item_Scarf_of_the_Ghastly_Matriarch",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/awakened_thirst_belt/awakened_thirst_belt.vmdl"
+        },
+        {
+          "name": "Collar of the Ghastly Matriarch",
+          "id": "7084",
+          "item_name": "#DOTA_Item_Collar_of_the_Ghastly_Matriarch",
+          "item_slot": "armor",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/awakened_thirst_armor/awakened_thirst_armor.vmdl"
+        },
+        {
+          "name": "Chiroptera of the Ghastly Matriarch",
+          "id": "7082",
+          "item_name": "#DOTA_Item_Chiroptera_of_the_Ghastly_Matriarch",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Gifts_from_the_Gloom",
+      "store_bundle": "Gifts from the Gloom Set",
+      "portrait_image": "econ/sets/v2/gifts_from_the_gloom",
+      "items": [
+        {
+          "name": "Wights from the Gloom",
+          "id": "5093",
+          "item_name": "#DOTA_Item_Wights_from_the_Gloom",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Armor from the Gloom",
+          "id": "5091",
+          "item_name": "#DOTA_Item_Armor_from_the_Gloom",
+          "item_slot": "armor",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/hecate_armor/hecate_armor.vmdl"
+        },
+        {
+          "name": "Belts from the Gloom",
+          "id": "5092",
+          "item_name": "#DOTA_Item_Belts_from_the_Gloom",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/hecate_belt/hecate_belt.vmdl"
+        },
+        {
+          "name": "Dress from the Gloom",
+          "id": "5094",
+          "item_name": "#DOTA_Item_Dress_from_the_Gloom",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/hecate_dress/hecate_dress.vmdl"
+        },
+        {
+          "name": "Blindfold from the Gloom",
+          "id": "5095",
+          "item_name": "#DOTA_Item_Blindfold_from_the_Gloom",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/hecate_head/hecate_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ire_of_the_Unwilted",
+      "store_bundle": "Ire of the Unwilted",
+      "portrait_image": "econ/sets/v2/ire_of_the_unwilted",
+      "items": [
+        {
+          "name": "Ire of the Unwilted Style",
+          "id": "17591",
+          "item_name": "#DOTA_Item_Ire_of_the_Unwilted_Style",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/deathblossom_head/deathblossom_head.vmdl"
+        },
+        {
+          "name": "Ire of the Unwilted Belt",
+          "id": "17590",
+          "item_name": "#DOTA_Item_Ire_of_the_Unwilted_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/deathblossom_belt/deathblossom_belt.vmdl"
+        },
+        {
+          "name": "Ire of the Unwilted Spirits",
+          "id": "17586",
+          "item_name": "#DOTA_Item_Ire_of_the_Unwilted_Spirits",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Ire of the Unwilted Armor",
+          "id": "17587",
+          "item_name": "#DOTA_Item_Ire_of_the_Unwilted_Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/deathblossom_armor/deathblossom_armor.vmdl"
+        },
+        {
+          "name": "Ire of the Unwilted Dress",
+          "id": "17589",
+          "item_name": "#DOTA_Item_Ire_of_the_Unwilted_Dress",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/deathblossom_legs/deathblossom_legs.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Mistress_of_the_Long_Night",
+      "store_bundle": "Mistress of the Long Night",
+      "portrait_image": "econ/sets/v2/mistress_of_the_long_night",
+      "items": [
+        {
+          "name": "Hood of the Long Night",
+          "id": "12742",
+          "item_name": "#DOTA_Item_Hood_of_the_Long_Night",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/frostivus2018_dp_mistress_of_the_blizzard_head/frostivus2018_dp_mistress_of_the_blizzard_head.vmdl"
+        },
+        {
+          "name": "Cape of the Long Night",
+          "id": "12741",
+          "item_name": "#DOTA_Item_Cape_of_the_Long_Night",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/frostivus2018_dp_mistress_of_the_blizzard_armor/frostivus2018_dp_mistress_of_the_blizzard_armor.vmdl"
+        },
+        {
+          "name": "Feathers of the Long Night",
+          "id": "12743",
+          "item_name": "#DOTA_Item_Feathers_of_the_Long_Night",
+          "item_slot": "misc",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/frostivus2018_dp_mistress_of_the_blizzard_misc/frostivus2018_dp_mistress_of_the_blizzard_misc.vmdl"
+        },
+        {
+          "name": "Belt of the Long Night",
+          "id": "12739",
+          "item_name": "#DOTA_Item_Belt_of_the_Long_Night",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/frostivus2018_dp_mistress_of_the_blizzard_belt/frostivus2018_dp_mistress_of_the_blizzard_belt.vmdl"
+        },
+        {
+          "name": "Spirit of the Long Night",
+          "id": "12738",
+          "item_name": "#DOTA_Item_Spirit_of_the_Long_Night",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Skirt of the Long Night",
+          "id": "12916",
+          "item_name": "#DOTA_Item_Skirt_of_the_Long_Night",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/skirt_of_the_blizzard/skirt_of_the_blizzard.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Oaths_of_the_Beloved",
+      "store_bundle": "Oaths of the Beloved",
+      "portrait_image": "econ/sets/v2/oaths_of_the_beloved",
+      "items": [
+        {
+          "name": "Oaths of the Beloved - Head",
+          "id": "14828",
+          "item_name": "#DOTA_Item_Oaths_of_the_Beloved__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/dp_bloody_bride_head/dp_bloody_bride_head.vmdl"
+        },
+        {
+          "name": "Oaths of the Beloved - Armor",
+          "id": "14827",
+          "item_name": "#DOTA_Item_Oaths_of_the_Beloved__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/dp_bloody_bride_armor/dp_bloody_bride_armor.vmdl"
+        },
+        {
+          "name": "Oaths of the Beloved - Belt",
+          "id": "14826",
+          "item_name": "#DOTA_Item_Oaths_of_the_Beloved__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/dp_bloody_bride_belt/dp_bloody_bride_belt.vmdl"
+        },
+        {
+          "name": "Oaths of the Beloved - Misc",
+          "id": "14825",
+          "item_name": "#DOTA_Item_Oaths_of_the_Beloved__Misc",
+          "item_slot": "misc",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/dp_bloody_bride_misc/dp_bloody_bride_misc.vmdl"
+        },
+        {
+          "name": "Oaths of the Beloved - Legs",
+          "id": "14824",
+          "item_name": "#DOTA_Item_Oaths_of_the_Beloved__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/dp_bloody_bride_legs/dp_bloody_bride_legs.vmdl"
+        },
+        {
+          "name": "Oaths of the Beloved - Ghosts",
+          "id": "14823",
+          "item_name": "#DOTA_Item_Oaths_of_the_Beloved__Ghosts",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Vestures_of_the_Unkind_Countess",
+      "store_bundle": "Vesture of the Unkind Countess",
+      "portrait_image": "econ/sets/v2/raven_vestures",
+      "items": [
+        {
+          "name": "Blouse of the Unkind Countess",
+          "id": "7205",
+          "item_name": "#DOTA_Item_Blouse_of_the_Unkind_Countess",
+          "item_slot": "armor",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/raven_vesture_armor/raven_vesture_armor.vmdl"
+        },
+        {
+          "name": "Sash of the Unkind Countess",
+          "id": "7206",
+          "item_name": "#DOTA_Item_Sash_of_the_Unkind_Countess",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/raven_vesture_belt/raven_vesture_belt.vmdl"
+        },
+        {
+          "name": "Dress of the Unkind Countess",
+          "id": "7317",
+          "item_name": "#DOTA_Item_Dress_of_the_Unkind_Countess",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/raven_vesture_dress/raven_vesture_dress.vmdl"
+        },
+        {
+          "name": "Spirits of the Unkind Countess",
+          "id": "7318",
+          "item_name": "#DOTA_Item_Spirits_of_the_Unkind_Countess",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Style of the Unkind Countess",
+          "id": "7319",
+          "item_name": "#DOTA_Item_Style_of_the_Unkind_Countess",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/raven_vesture_head/raven_vesture_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Secrets_of_the_Merqueen",
+      "store_bundle": "Secrets of the Merqueen",
+      "portrait_image": "econ/sets/v2/secrets_of_the_merqueen",
+      "items": [
+        {
+          "name": "Dress of the Merqueen",
+          "id": "8805",
+          "item_name": "#DOTA_Item_Dress_of_the_Merqueen",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/mermaids_queen_legs/mermaids_queen_legs.vmdl"
+        },
+        {
+          "name": "Crown of the Merqueen",
+          "id": "8804",
+          "item_name": "#DOTA_Item_Crown_of_the_Merqueen",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/mermaids_queen_head/mermaids_queen_head.vmdl"
+        },
+        {
+          "name": "Wraith of the Merqueen",
+          "id": "8803",
+          "item_name": "#DOTA_Item_Wraith_of_the_Merqueen",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Covers of the Merqueen",
+          "id": "8802",
+          "item_name": "#DOTA_Item_Covers_of_the_Merqueen",
+          "item_slot": "armor",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/mermaids_queen_armor/mermaids_queen_armor.vmdl"
+        },
+        {
+          "name": "Sleeves of the Merqueen",
+          "id": "8795",
+          "item_name": "#DOTA_Item_Sleeves_of_the_Merqueen",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/mermaids_queen_belt/mermaids_queen_belt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Soul_of_the_Brightshroud",
+      "store_bundle": "Soul of the Brightshroud",
+      "portrait_image": "econ/sets/v2/soul_of_the_brightshroud",
+      "items": [
+        {
+          "name": "Crown of the Brightshroud",
+          "id": "13104",
+          "item_name": "#DOTA_Item_Crown_of_the_Brightshroud",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/ti9_cache_dp_peacock_priest_head/ti9_cache_dp_peacock_priest_head.vmdl"
+        },
+        {
+          "name": "Belt of the Brightshroud",
+          "id": "13103",
+          "item_name": "#DOTA_Item_Belt_of_the_Brightshroud",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/ti9_cache_dp_peacock_priest_belt/ti9_cache_dp_peacock_priest_belt.vmdl"
+        },
+        {
+          "name": "Armor of the Brightshroud",
+          "id": "13102",
+          "item_name": "#DOTA_Item_Armor_of_the_Brightshroud",
+          "item_slot": "armor",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/ti9_cache_dp_peacock_priest_armor/ti9_cache_dp_peacock_priest_armor.vmdl"
+        },
+        {
+          "name": "Spirit of the Brightshroud",
+          "id": "13101",
+          "item_name": "#DOTA_Item_Spirit_of_the_Brightshroud",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bracer of the Brightshroud",
+          "id": "13100",
+          "item_name": "#DOTA_Item_Bracer_of_the_Brightshroud",
+          "item_slot": "misc",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/ti9_cache_dp_peacock_priest_misc/ti9_cache_dp_peacock_priest_misc.vmdl"
+        },
+        {
+          "name": "Skirt of the Brightshroud",
+          "id": "13099",
+          "item_name": "#DOTA_Item_Skirt_of_the_Brightshroud",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/ti9_cache_dp_peacock_priest_skirt/ti9_cache_dp_peacock_priest_skirt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Mourning_Mother",
+      "store_bundle": "The Mourning Mother",
+      "portrait_image": "econ/sets/v2/the_mourning_mother",
+      "items": [
+        {
+          "name": "Mourning Mother's Scarf",
+          "id": "6846",
+          "item_name": "#DOTA_Item_Mourning_Mothers_Scarf",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/mourning_belt/mourning_belt.vmdl"
+        },
+        {
+          "name": "Mourning Mother's Dress",
+          "id": "6843",
+          "item_name": "#DOTA_Item_Mourning_Mothers_Dress",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/mourning_legs/mourning_legs.vmdl"
+        },
+        {
+          "name": "Mourning Mother's Top",
+          "id": "6844",
+          "item_name": "#DOTA_Item_Mourning_Mothers_Top",
+          "item_slot": "armor",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/mourning_armor/mourning_armor.vmdl"
+        },
+        {
+          "name": "Mourning Mother's Veil",
+          "id": "6845",
+          "item_name": "#DOTA_Item_Mourning_Mothers_Veil",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/mourning_hair/mourning_hair.vmdl"
+        },
+        {
+          "name": "Spirits of the Mourning Mother",
+          "id": "6875",
+          "item_name": "#DOTA_Item_Spirits_of_the_Mourning_Mother",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Shaded_Eulogy",
+      "store_bundle": "The Shaded Eulogy",
+      "portrait_image": "econ/sets/v2/the_shaded_eulogy_set",
+      "items": [
+        {
+          "name": "Crest of the Shaded Eulogy",
+          "id": "9731",
+          "item_name": "#DOTA_Item_Crest_of_the_Shaded_Eulogy",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/burial_robes_head/burial_robes_head.vmdl"
+        },
+        {
+          "name": "Mantle of the Shaded Eulogy",
+          "id": "9732",
+          "item_name": "#DOTA_Item_Mantle_of_the_Shaded_Eulogy",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/burial_robes_armor/burial_robes_armor.vmdl"
+        },
+        {
+          "name": "Dress of the Shaded Eulogy",
+          "id": "9733",
+          "item_name": "#DOTA_Item_Dress_of_the_Shaded_Eulogy",
+          "item_slot": "legs",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/death_prophet/burial_robes_legs/burial_robes_legs.vmdl"
+        },
+        {
+          "name": "Tails of the Shaded Eulogy",
+          "id": "9734",
+          "item_name": "#DOTA_Item_Tails_of_the_Shaded_Eulogy",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/death_prophet/burial_robes_belt/burial_robes_belt.vmdl"
+        },
+        {
+          "name": "Witnesses of the Shaded Eulogy",
+          "id": "9736",
+          "item_name": "#DOTA_Item_Witnesses_of_the_Shaded_Eulogy",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Wail_of_the_Winter_Revenant",
+      "store_bundle": "Wail of the Winter Revenant",
+      "portrait_image": "econ/sets/v2/wail_of_the_winter_revenant",
+      "items": [
+        {
+          "name": "Crown of the Winter Revenant",
+          "id": "9686",
+          "item_name": "#DOTA_Item_Crown_of_the_Winter_Revenant",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/woman_of_the_snow_head/woman_of_the_snow_head.vmdl"
+        },
+        {
+          "name": "Robe of the Winter Revenant",
+          "id": "9687",
+          "item_name": "#DOTA_Item_Robe_of_the_Winter_Revenant",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/woman_of_the_snow_armor/woman_of_the_snow_armor.vmdl"
+        },
+        {
+          "name": "Tassle of the Winter Revenant",
+          "id": "9685",
+          "item_name": "#DOTA_Item_Tassle_of_the_Winter_Revenant",
+          "item_slot": "misc",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/woman_of_the_snow_misc/woman_of_the_snow_misc.vmdl"
+        },
+        {
+          "name": "Wraith of the Winter Revenant",
+          "id": "9656",
+          "item_name": "#DOTA_Item_Wraith_of_the_Winter_Revenant",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Skirt of the Winter Revenant",
+          "id": "9658",
+          "item_name": "#DOTA_Item_Skirt_of_the_Winter_Revenant",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/woman_of_the_snow_legs/woman_of_the_snow_legs.vmdl"
+        },
+        {
+          "name": "Belt of the Winter Revenant",
+          "id": "9657",
+          "item_name": "#DOTA_Item_Belt_of_the_Winter_Revenant",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/death_prophet/woman_of_the_snow_belt/woman_of_the_snow_belt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Winter_Lineage_Temptation_of_the_Mothbinder",
+      "store_bundle": "Winter Lineage Temptation of the Mothbinder",
+      "portrait_image": "econ/sets/v2/winter_lineage_temptation_of_the_mothbinder",
+      "items": [
+        {
+          "name": "Winter Lineage Spirits of the Mothbinder",
+          "id": "22782",
+          "item_name": "#DOTA_Item_Winter_Lineage_Spirits_of_the_Mothbinder",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Winter Lineage Bracelets of the Mothbinder",
+          "id": "22783",
+          "item_name": "#DOTA_Item_Winter_Lineage_Bracelets_of_the_Mothbinder",
+          "item_slot": "misc",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/mothbinders_omen_misc/mothbinders_omen_misc.vmdl"
+        },
+        {
+          "name": "Winter Lineage Belt of the Mothbinder",
+          "id": "22784",
+          "item_name": "#DOTA_Item_Winter_Lineage_Belt_of_the_Mothbinder",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/mothbinders_omen_belt/mothbinders_omen_belt.vmdl"
+        },
+        {
+          "name": "Winter Lineage Skirt of the Mothbinder",
+          "id": "22785",
+          "item_name": "#DOTA_Item_Winter_Lineage_Skirt_of_the_Mothbinder",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/mothbinders_omen_legs/mothbinders_omen_legs.vmdl"
+        },
+        {
+          "name": "Winter Lineage Armor of the Mothbinder",
+          "id": "22786",
+          "item_name": "#DOTA_Item_Winter_Lineage_Armor_of_the_Mothbinder",
+          "item_slot": "armor",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/mothbinders_omen_armor/mothbinders_omen_armor.vmdl"
+        },
+        {
+          "name": "Winter Lineage Hood of the Mothbinder",
+          "id": "22787",
+          "item_name": "#DOTA_Item_Winter_Lineage_Hood_of_the_Mothbinder",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/death_prophet/mothbinders_omen_head/mothbinders_omen_head.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "168",
+      "name": "Death Prophet's Dress",
+      "item_name": "#DOTA_Item_Death_Prophets_Dress",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/death_prophet/death_prophet_dress.vmdl"
+    },
+    {
+      "id": "169",
+      "name": "Death Prophet's Hair",
+      "item_name": "#DOTA_Item_Death_Prophets_Hair",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/death_prophet/death_prophet_hair.vmdl"
+    },
+    {
+      "id": "170",
+      "name": "Death Prophet's Corset",
+      "item_name": "#DOTA_Item_Death_Prophets_Corset",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/death_prophet/death_prophet_dresstop.vmdl"
+    },
+    {
+      "id": "171",
+      "name": "Death Prophet's Scarf",
+      "item_name": "#DOTA_Item_Death_Prophets_Scarf",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/death_prophet/death_prophet_scarf.vmdl"
+    },
+    {
+      "id": "505",
+      "name": "Death Prophet's Ambient Effects",
+      "item_name": "#DOTA_Item_Death_Prophets_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "568",
+      "name": "Death Prophet's Head",
+      "item_name": "#DOTA_Item_Death_Prophets_Head",
+      "item_slot": "body_head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "569",
+      "name": "Death Prophet's Miscellaneous",
+      "item_name": "#DOTA_Item_Death_Prophets_Miscellaneous",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4049",
+      "name": "Dress of the Corpse Maiden",
+      "item_name": "#DOTA_Item_Dress_of_the_Corpse_Maiden",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/death_prophet_corpse_dress.vmdl"
+    },
+    {
+      "id": "4190",
+      "name": "Wicked Collar of the Corpse Maiden",
+      "item_name": "#DOTA_Item_Wicked_Collar_of_the_Corpse_Maiden",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/death_prophet_corpse_dresstop.vmdl"
+    },
+    {
+      "id": "4191",
+      "name": "Ghastly Scarf of the Corpse Maiden",
+      "item_name": "#DOTA_Item_Ghastly_Scarf_of_the_Corpse_Maiden",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/death_prophet_corpse_scarf.vmdl"
+    },
+    {
+      "id": "4202",
+      "name": "Horns of the Bone Scryer",
+      "item_name": "#DOTA_Item_Horns_of_the_Bone_Scryer",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/bone_scryer_head/bone_scryer_head.vmdl"
+    },
+    {
+      "id": "4339",
+      "name": "Funereal Dress of the Bone Scryer",
+      "item_name": "#DOTA_Item_Funereal_Dress_of_the_Bone_Scryer",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/bone_scryer_legs/bone_scryer_legs.vmdl"
+    },
+    {
+      "id": "4340",
+      "name": "Scarf of the Bone Scryer",
+      "item_name": "#DOTA_Item_Scarf_of_the_Bone_Scryer",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/bone_scryer_scarf/bone_scryer_scarf.vmdl"
+    },
+    {
+      "id": "4396",
+      "name": "Sash of Death's Bride",
+      "item_name": "#DOTA_Item_Sash_of_Deaths_Bride",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/sashed_gown/sashed_gown.vmdl"
+    },
+    {
+      "id": "4397",
+      "name": "Brooch of Death's Bride",
+      "item_name": "#DOTA_Item_Brooch_of_Deaths_Bride",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/spookyhair2b/spookyhair2b.vmdl"
+    },
+    {
+      "id": "4551",
+      "name": "Decorative Armor of the Bone Scryer",
+      "item_name": "#DOTA_Item_Decorative_Armor_of_the_Bone_Scryer",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/bone_scryer_armor/bone_scryer_armor.vmdl"
+    },
+    {
+      "id": "5064",
+      "name": "Crown of the Death Priestess",
+      "item_name": "#DOTA_Item_Crown_of_the_Death_Priestess",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/priestess_crown/priestess_crown.vmdl"
+    },
+    {
+      "id": "5091",
+      "name": "Armor from the Gloom",
+      "item_name": "#DOTA_Item_Armor_from_the_Gloom",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/hecate_armor/hecate_armor.vmdl"
+    },
+    {
+      "id": "5092",
+      "name": "Belts from the Gloom",
+      "item_name": "#DOTA_Item_Belts_from_the_Gloom",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/hecate_belt/hecate_belt.vmdl"
+    },
+    {
+      "id": "5093",
+      "name": "Wights from the Gloom",
+      "item_name": "#DOTA_Item_Wights_from_the_Gloom",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5094",
+      "name": "Dress from the Gloom",
+      "item_name": "#DOTA_Item_Dress_from_the_Gloom",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/hecate_dress/hecate_dress.vmdl"
+    },
+    {
+      "id": "5095",
+      "name": "Blindfold from the Gloom",
+      "item_name": "#DOTA_Item_Blindfold_from_the_Gloom",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/hecate_head/hecate_head.vmdl"
+    },
+    {
+      "id": "5597",
+      "name": "Augur's Armor",
+      "item_name": "#DOTA_Item_Augurs_Armor",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/armor_mugen_angurs_curse/armor_mugen_angurs_curse.vmdl"
+    },
+    {
+      "id": "5598",
+      "name": "Augur's Belt",
+      "item_name": "#DOTA_Item_Augurs_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/belt_mugen_augurs_curse/belt_mugen_augurs_curse.vmdl"
+    },
+    {
+      "id": "5599",
+      "name": "Augur's Hair",
+      "item_name": "#DOTA_Item_Augurs_Hair",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/hair_mugen_augurs_curse/hair_mugen_augurs_curse.vmdl"
+    },
+    {
+      "id": "5600",
+      "name": "Augur's Skirt",
+      "item_name": "#DOTA_Item_Augurs_Skirt",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/skirt_mugen_augurs_curse/skirt_mugen_augurs_curse.vmdl"
+    },
+    {
+      "id": "5603",
+      "name": "Augur's Ghosts",
+      "item_name": "#DOTA_Item_Augurs_Ghosts",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5781",
+      "name": "Corset of the Mortal Coil",
+      "item_name": "#DOTA_Item_Corset_of_the_Mortal_Coil",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/corset_of_the_mortal_coil/corset_of_the_mortal_coil.vmdl"
+    },
+    {
+      "id": "5782",
+      "name": "Gown of the Mortal Coil",
+      "item_name": "#DOTA_Item_Gown_of_the_Mortal_Coil",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/gown_of_the_mortal_coil/gown_of_the_mortal_coil.vmdl"
+    },
+    {
+      "id": "5783",
+      "name": "Cinch of the Mortal Coil",
+      "item_name": "#DOTA_Item_Cinch_of_the_Mortal_Coil",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/cinch_of_the_mortal_coil/cinch_of_the_mortal_coil.vmdl"
+    },
+    {
+      "id": "5787",
+      "name": "Besieging Bow",
+      "item_name": "#DOTA_Item_Besieging_Bow",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/besieging_bow/besieging_bow.vmdl"
+    },
+    {
+      "id": "5809",
+      "name": "Coronet of the Mortal Coil",
+      "item_name": "#DOTA_Item_Coronet_of_the_Mortal_Coil",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/coronet_of_the_mortal_coil/coronet_of_the_mortal_coil.vmdl"
+    },
+    {
+      "id": "5959",
+      "name": "Outland Witch's Horns",
+      "item_name": "#DOTA_Item_Outland_Witchs_Horns",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/outland_witchs_horns/outland_witchs_horns.vmdl"
+    },
+    {
+      "id": "5960",
+      "name": "Outland Witch's Necklace",
+      "item_name": "#DOTA_Item_Outland_Witchs_Necklace",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/outland_witchs_necklace/outland_witchs_necklace.vmdl"
+    },
+    {
+      "id": "5961",
+      "name": "Outland Witch's Hem",
+      "item_name": "#DOTA_Item_Outland_Witchs_Hem",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/outland_witchs_hem/outland_witchs_hem.vmdl"
+    },
+    {
+      "id": "5963",
+      "name": "Outland Witch's Sash",
+      "item_name": "#DOTA_Item_Outland_Witchs_Sash",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/outland_witchs_sash/outland_witchs_sash.vmdl"
+    },
+    {
+      "id": "5965",
+      "name": "Outland Witch's Tatters",
+      "item_name": "#DOTA_Item_Outland_Witchs_Tatters",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/outland_witchs_tatters/outland_witchs_tatters.vmdl"
+    },
+    {
+      "id": "5973",
+      "name": "Outland Witch's Spirits",
+      "item_name": "#DOTA_Item_Outland_Witchs_Spirits",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6025",
+      "name": "Beautiful Haunting",
+      "item_name": "#DOTA_Item_Beautiful_Haunting",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6047",
+      "name": "Foreteller's Garment",
+      "item_name": "#DOTA_Item_Foretellers_Garment",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/foreteller_belt/foreteller_belt.vmdl"
+    },
+    {
+      "id": "6048",
+      "name": "Foreteller's Drapes",
+      "item_name": "#DOTA_Item_Foretellers_Drapes",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/foreteller_chest/foreteller_chest.vmdl"
+    },
+    {
+      "id": "6049",
+      "name": "Foreteller's Haircomb",
+      "item_name": "#DOTA_Item_Foretellers_Haircomb",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/foreteller_head/foreteller_head.vmdl"
+    },
+    {
+      "id": "6050",
+      "name": "Foreteller's Adorn",
+      "item_name": "#DOTA_Item_Foretellers_Adorn",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/foreteller_legs/foreteller_legs.vmdl"
+    },
+    {
+      "id": "6451",
+      "name": "Soothsayer's Spectral Strands",
+      "item_name": "#DOTA_Item_Soothsayers_Spectral_Strands",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/soothsayerspectralstrands_head/soothsayerspectralstrands_head.vmdl"
+    },
+    {
+      "id": "6585",
+      "name": "Style of Prophecy",
+      "item_name": "#DOTA_Item_Style_of_Prophecy",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/styleprophecy_head/styleprophecy_head.vmdl"
+    },
+    {
+      "id": "6694",
+      "name": "Fluttering Mortis",
+      "item_name": "#DOTA_Item_Fluttering_Mortis",
+      "item_slot": "legs",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/acherontia/acherontia_dress.vmdl"
+    },
+    {
+      "id": "6705",
+      "name": "Genuine Heretic Enclave",
+      "item_name": "#DOTA_Item_Genuine_Heretic_Enclave",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6783",
+      "name": "Heretic Enclave",
+      "item_name": "#DOTA_Item_Heretic_Enclave",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6843",
+      "name": "Mourning Mother's Dress",
+      "item_name": "#DOTA_Item_Mourning_Mothers_Dress",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mourning_legs/mourning_legs.vmdl"
+    },
+    {
+      "id": "6844",
+      "name": "Mourning Mother's Top",
+      "item_name": "#DOTA_Item_Mourning_Mothers_Top",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mourning_armor/mourning_armor.vmdl"
+    },
+    {
+      "id": "6845",
+      "name": "Mourning Mother's Veil",
+      "item_name": "#DOTA_Item_Mourning_Mothers_Veil",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mourning_hair/mourning_hair.vmdl"
+    },
+    {
+      "id": "6846",
+      "name": "Mourning Mother's Scarf",
+      "item_name": "#DOTA_Item_Mourning_Mothers_Scarf",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mourning_belt/mourning_belt.vmdl"
+    },
+    {
+      "id": "6875",
+      "name": "Spirits of the Mourning Mother",
+      "item_name": "#DOTA_Item_Spirits_of_the_Mourning_Mother",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7082",
+      "name": "Chiroptera of the Ghastly Matriarch",
+      "item_name": "#DOTA_Item_Chiroptera_of_the_Ghastly_Matriarch",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7084",
+      "name": "Collar of the Ghastly Matriarch",
+      "item_name": "#DOTA_Item_Collar_of_the_Ghastly_Matriarch",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/awakened_thirst_armor/awakened_thirst_armor.vmdl"
+    },
+    {
+      "id": "7085",
+      "name": "Scarf of the Ghastly Matriarch",
+      "item_name": "#DOTA_Item_Scarf_of_the_Ghastly_Matriarch",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/awakened_thirst_belt/awakened_thirst_belt.vmdl"
+    },
+    {
+      "id": "7086",
+      "name": "Tresses of the Ghastly Matriarch",
+      "item_name": "#DOTA_Item_Tresses_of_the_Ghastly_Matriarch",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/awakened_thirst_head/awakened_thirst_head.vmdl"
+    },
+    {
+      "id": "7139",
+      "name": "Skirt of the Ghastly Matriarch",
+      "item_name": "#DOTA_Item_Skirt_of_the_Ghastly_Matriarch",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/awakened_thirst_legs/awakened_thirst_legs.vmdl"
+    },
+    {
+      "id": "7205",
+      "name": "Blouse of the Unkind Countess",
+      "item_name": "#DOTA_Item_Blouse_of_the_Unkind_Countess",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/raven_vesture_armor/raven_vesture_armor.vmdl"
+    },
+    {
+      "id": "7206",
+      "name": "Sash of the Unkind Countess",
+      "item_name": "#DOTA_Item_Sash_of_the_Unkind_Countess",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/raven_vesture_belt/raven_vesture_belt.vmdl"
+    },
+    {
+      "id": "7317",
+      "name": "Dress of the Unkind Countess",
+      "item_name": "#DOTA_Item_Dress_of_the_Unkind_Countess",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/raven_vesture_dress/raven_vesture_dress.vmdl"
+    },
+    {
+      "id": "7318",
+      "name": "Spirits of the Unkind Countess",
+      "item_name": "#DOTA_Item_Spirits_of_the_Unkind_Countess",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7319",
+      "name": "Style of the Unkind Countess",
+      "item_name": "#DOTA_Item_Style_of_the_Unkind_Countess",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/raven_vesture_head/raven_vesture_head.vmdl"
+    },
+    {
+      "id": "8027",
+      "name": "Fatal Blossom Robe",
+      "item_name": "#DOTA_Item_Fatal_Blossom_Robe",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/fatal_blossom_armor/fatal_blossom_armor.vmdl"
+    },
+    {
+      "id": "8028",
+      "name": "Fatal Blossom Hairdress",
+      "item_name": "#DOTA_Item_Fatal_Blossom_Hairdress",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/fatal_blossom_head/fatal_blossom_head.vmdl"
+    },
+    {
+      "id": "8029",
+      "name": "Fatal Blossom Nails",
+      "item_name": "#DOTA_Item_Fatal_Blossom_Nails",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/fatal_blossom_nails/fatal_blossom_nails.vmdl"
+    },
+    {
+      "id": "8030",
+      "name": "Fatal Blossom Scarf",
+      "item_name": "#DOTA_Item_Fatal_Blossom_Scarf",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/fatal_blossom_belt/fatal_blossom_belt.vmdl"
+    },
+    {
+      "id": "8031",
+      "name": "Fatal Blossom Skirt",
+      "item_name": "#DOTA_Item_Fatal_Blossom_Skirt",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/fatal_blossom_skirt/fatal_blossom_skirt.vmdl"
+    },
+    {
+      "id": "8566",
+      "name": "Spirits of the Mothbinder",
+      "item_name": "#DOTA_Item_Spirits_of_the_Mothbinder",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8567",
+      "name": "Bracelets of the Mothbinder",
+      "item_name": "#DOTA_Item_Bracelets_of_the_Mothbinder",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mothbinders_omen_misc/mothbinders_omen_misc.vmdl"
+    },
+    {
+      "id": "8568",
+      "name": "Belt of the Mothbinder",
+      "item_name": "#DOTA_Item_Belt_of_the_Mothbinder",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mothbinders_omen_belt/mothbinders_omen_belt.vmdl"
+    },
+    {
+      "id": "8569",
+      "name": "Skirt of the Mothbinder",
+      "item_name": "#DOTA_Item_Skirt_of_the_Mothbinder",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mothbinders_omen_legs/mothbinders_omen_legs.vmdl"
+    },
+    {
+      "id": "8570",
+      "name": "Armor of the Mothbinder",
+      "item_name": "#DOTA_Item_Armor_of_the_Mothbinder",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mothbinders_omen_armor/mothbinders_omen_armor.vmdl"
+    },
+    {
+      "id": "8571",
+      "name": "Hood of the Mothbinder",
+      "item_name": "#DOTA_Item_Hood_of_the_Mothbinder",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mothbinders_omen_head/mothbinders_omen_head.vmdl"
+    },
+    {
+      "id": "8651",
+      "name": "Death Prophet's Death Spirits",
+      "item_name": "#DOTA_Item_Death_Prophets_Death_Spirits",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "8795",
+      "name": "Sleeves of the Merqueen",
+      "item_name": "#DOTA_Item_Sleeves_of_the_Merqueen",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mermaids_queen_belt/mermaids_queen_belt.vmdl"
+    },
+    {
+      "id": "8802",
+      "name": "Covers of the Merqueen",
+      "item_name": "#DOTA_Item_Covers_of_the_Merqueen",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mermaids_queen_armor/mermaids_queen_armor.vmdl"
+    },
+    {
+      "id": "8803",
+      "name": "Wraith of the Merqueen",
+      "item_name": "#DOTA_Item_Wraith_of_the_Merqueen",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8804",
+      "name": "Crown of the Merqueen",
+      "item_name": "#DOTA_Item_Crown_of_the_Merqueen",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mermaids_queen_head/mermaids_queen_head.vmdl"
+    },
+    {
+      "id": "8805",
+      "name": "Dress of the Merqueen",
+      "item_name": "#DOTA_Item_Dress_of_the_Merqueen",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mermaids_queen_legs/mermaids_queen_legs.vmdl"
+    },
+    {
+      "id": "9257",
+      "name": "Veil of Eternal Testament",
+      "item_name": "#DOTA_Item_Veil_of_Eternal_Testament",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/drowned_siren_head/drowned_siren_head.vmdl"
+    },
+    {
+      "id": "9258",
+      "name": "Dress of Eternal Testament",
+      "item_name": "#DOTA_Item_Dress_of_Eternal_Testament",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/drowned_siren_drowned_siren_skirt/drowned_siren_drowned_siren_skirt.vmdl"
+    },
+    {
+      "id": "9259",
+      "name": "Blouse of Eternal Testament",
+      "item_name": "#DOTA_Item_Blouse_of_Eternal_Testament",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/drowned_siren_armor/drowned_siren_armor.vmdl"
+    },
+    {
+      "id": "9260",
+      "name": "Ghosts of Eternal Testament",
+      "item_name": "#DOTA_Item_Ghosts_of_Eternal_Testament",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9263",
+      "name": "Weeds of Eternal Testament",
+      "item_name": "#DOTA_Item_Weeds_of_Eternal_Testament",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/drowned_siren_misc/drowned_siren_misc.vmdl"
+    },
+    {
+      "id": "9656",
+      "name": "Wraith of the Winter Revenant",
+      "item_name": "#DOTA_Item_Wraith_of_the_Winter_Revenant",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9657",
+      "name": "Belt of the Winter Revenant",
+      "item_name": "#DOTA_Item_Belt_of_the_Winter_Revenant",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/woman_of_the_snow_belt/woman_of_the_snow_belt.vmdl"
+    },
+    {
+      "id": "9658",
+      "name": "Skirt of the Winter Revenant",
+      "item_name": "#DOTA_Item_Skirt_of_the_Winter_Revenant",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/woman_of_the_snow_legs/woman_of_the_snow_legs.vmdl"
+    },
+    {
+      "id": "9667",
+      "name": "Taunt: All Sparkles n' Rainbows",
+      "item_name": "#DOTA_Item_Taunt_All_Sparkles_n_Rainbows",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "9685",
+      "name": "Tassle of the Winter Revenant",
+      "item_name": "#DOTA_Item_Tassle_of_the_Winter_Revenant",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/woman_of_the_snow_misc/woman_of_the_snow_misc.vmdl"
+    },
+    {
+      "id": "9686",
+      "name": "Crown of the Winter Revenant",
+      "item_name": "#DOTA_Item_Crown_of_the_Winter_Revenant",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/woman_of_the_snow_head/woman_of_the_snow_head.vmdl"
+    },
+    {
+      "id": "9687",
+      "name": "Robe of the Winter Revenant",
+      "item_name": "#DOTA_Item_Robe_of_the_Winter_Revenant",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/woman_of_the_snow_armor/woman_of_the_snow_armor.vmdl"
+    },
+    {
+      "id": "9731",
+      "name": "Crest of the Shaded Eulogy",
+      "item_name": "#DOTA_Item_Crest_of_the_Shaded_Eulogy",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/burial_robes_head/burial_robes_head.vmdl"
+    },
+    {
+      "id": "9732",
+      "name": "Mantle of the Shaded Eulogy",
+      "item_name": "#DOTA_Item_Mantle_of_the_Shaded_Eulogy",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/burial_robes_armor/burial_robes_armor.vmdl"
+    },
+    {
+      "id": "9733",
+      "name": "Dress of the Shaded Eulogy",
+      "item_name": "#DOTA_Item_Dress_of_the_Shaded_Eulogy",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/burial_robes_legs/burial_robes_legs.vmdl"
+    },
+    {
+      "id": "9734",
+      "name": "Tails of the Shaded Eulogy",
+      "item_name": "#DOTA_Item_Tails_of_the_Shaded_Eulogy",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/burial_robes_belt/burial_robes_belt.vmdl"
+    },
+    {
+      "id": "9736",
+      "name": "Witnesses of the Shaded Eulogy",
+      "item_name": "#DOTA_Item_Witnesses_of_the_Shaded_Eulogy",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12474",
+      "name": "Draconic Requiem - Head",
+      "item_name": "#DOTA_Item_Draconic_Requiem__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/scalefiends_hatred_head/scalefiends_hatred_head.vmdl"
+    },
+    {
+      "id": "12738",
+      "name": "Spirit of the Long Night",
+      "item_name": "#DOTA_Item_Spirit_of_the_Long_Night",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12739",
+      "name": "Belt of the Long Night",
+      "item_name": "#DOTA_Item_Belt_of_the_Long_Night",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/frostivus2018_dp_mistress_of_the_blizzard_belt/frostivus2018_dp_mistress_of_the_blizzard_belt.vmdl"
+    },
+    {
+      "id": "12741",
+      "name": "Cape of the Long Night",
+      "item_name": "#DOTA_Item_Cape_of_the_Long_Night",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/frostivus2018_dp_mistress_of_the_blizzard_armor/frostivus2018_dp_mistress_of_the_blizzard_armor.vmdl"
+    },
+    {
+      "id": "12742",
+      "name": "Hood of the Long Night",
+      "item_name": "#DOTA_Item_Hood_of_the_Long_Night",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/frostivus2018_dp_mistress_of_the_blizzard_head/frostivus2018_dp_mistress_of_the_blizzard_head.vmdl"
+    },
+    {
+      "id": "12743",
+      "name": "Feathers of the Long Night",
+      "item_name": "#DOTA_Item_Feathers_of_the_Long_Night",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/frostivus2018_dp_mistress_of_the_blizzard_misc/frostivus2018_dp_mistress_of_the_blizzard_misc.vmdl"
+    },
+    {
+      "id": "12916",
+      "name": "Skirt of the Long Night",
+      "item_name": "#DOTA_Item_Skirt_of_the_Long_Night",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/skirt_of_the_blizzard/skirt_of_the_blizzard.vmdl"
+    },
+    {
+      "id": "12931",
+      "name": "Mask of Mortis",
+      "item_name": "#DOTA_Item_Mask_of_Mortis",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/dp_ti9_immortal_head/dp_ti9_immortal_head.vmdl"
+    },
+    {
+      "id": "13099",
+      "name": "Skirt of the Brightshroud",
+      "item_name": "#DOTA_Item_Skirt_of_the_Brightshroud",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/ti9_cache_dp_peacock_priest_skirt/ti9_cache_dp_peacock_priest_skirt.vmdl"
+    },
+    {
+      "id": "13100",
+      "name": "Bracer of the Brightshroud",
+      "item_name": "#DOTA_Item_Bracer_of_the_Brightshroud",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/ti9_cache_dp_peacock_priest_misc/ti9_cache_dp_peacock_priest_misc.vmdl"
+    },
+    {
+      "id": "13101",
+      "name": "Spirit of the Brightshroud",
+      "item_name": "#DOTA_Item_Spirit_of_the_Brightshroud",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13102",
+      "name": "Armor of the Brightshroud",
+      "item_name": "#DOTA_Item_Armor_of_the_Brightshroud",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/ti9_cache_dp_peacock_priest_armor/ti9_cache_dp_peacock_priest_armor.vmdl"
+    },
+    {
+      "id": "13103",
+      "name": "Belt of the Brightshroud",
+      "item_name": "#DOTA_Item_Belt_of_the_Brightshroud",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/ti9_cache_dp_peacock_priest_belt/ti9_cache_dp_peacock_priest_belt.vmdl"
+    },
+    {
+      "id": "13104",
+      "name": "Crown of the Brightshroud",
+      "item_name": "#DOTA_Item_Crown_of_the_Brightshroud",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/ti9_cache_dp_peacock_priest_head/ti9_cache_dp_peacock_priest_head.vmdl"
+    },
+    {
+      "id": "13141",
+      "name": "Draconic Requiem - Belt",
+      "item_name": "#DOTA_Item_Draconic_Requiem__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/scalefiends_hatred_belt/scalefiends_hatred_belt.vmdl"
+    },
+    {
+      "id": "13156",
+      "name": "TI9 Cache DP Voodoo Priestess Ghosts",
+      "item_name": "#DOTA_TI9_Cache_DP_Voodoo_Priestess_Ghosts",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13157",
+      "name": "TI9 Cache DP Voodoo Priestess Misc",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_DP_Voodoo_Priestess_Misc",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/ti9_cache_dp_voodoo_priestess_misc/ti9_cache_dp_voodoo_priestess_misc.vmdl"
+    },
+    {
+      "id": "13158",
+      "name": "TI9 Cache DP Voodoo Priestess Legs",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_DP_Voodoo_Priestess_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/ti9_cache_dp_voodoo_priestess_legs/ti9_cache_dp_voodoo_priestess_legs.vmdl"
+    },
+    {
+      "id": "13159",
+      "name": "TI9 Cache DP Voodoo Priestess Belt",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_DP_Voodoo_Priestess_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/ti9_cache_dp_voodoo_priestess_belt/ti9_cache_dp_voodoo_priestess_belt.vmdl"
+    },
+    {
+      "id": "13160",
+      "name": "TI9 Cache DP Voodoo Priestess Armor",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_DP_Voodoo_Priestess_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/ti9_cache_dp_voodoo_priestess_armor/ti9_cache_dp_voodoo_priestess_armor.vmdl"
+    },
+    {
+      "id": "13161",
+      "name": "TI9 Cache DP Voodoo Priestess Head",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_DP_Voodoo_Priestess_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/ti9_cache_dp_voodoo_priestess_head/ti9_cache_dp_voodoo_priestess_head.vmdl"
+    },
+    {
+      "id": "13175",
+      "name": "Draconic Requiem - Armor",
+      "item_name": "#DOTA_Item_Draconic_Requiem__Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/scalefiends_hatred_armor/scalefiends_hatred_armor.vmdl"
+    },
+    {
+      "id": "13239",
+      "name": "Draconic Requiem - Legs",
+      "item_name": "#DOTA_Item_Draconic_Requiem__Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/scalefiends_hatred_flight/scalefiends_hatred_flight.vmdl"
+    },
+    {
+      "id": "13240",
+      "name": "Draconic Requiem - Misc",
+      "item_name": "#DOTA_Item_Draconic_Requiem__Misc",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/scalefiends_hatred_misc/scalefiends_hatred_misc.vmdl"
+    },
+    {
+      "id": "13241",
+      "name": "Draconic Requiem - Spirits",
+      "item_name": "#DOTA_Item_Draconic_Requiem__Spirits",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13990",
+      "name": "Flight of the Crimson Queen - Head",
+      "item_name": "#DOTA_Item_Flight_of_the_Crimson_Queen__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/queen_of_crimson_thorns_head/queen_of_crimson_thorns_head.vmdl"
+    },
+    {
+      "id": "13991",
+      "name": "Flight of the Crimson Queen - Legs",
+      "item_name": "#DOTA_Item_Flight_of_the_Crimson_Queen__Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/queen_of_crimson_thorns_legs/queen_of_crimson_thorns_legs.vmdl"
+    },
+    {
+      "id": "13992",
+      "name": "Flight of the Crimson Queen - Misc",
+      "item_name": "#DOTA_Item_Flight_of_the_Crimson_Queen__Misc",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/queen_of_crimson_thorns_misc/queen_of_crimson_thorns_misc.vmdl"
+    },
+    {
+      "id": "13993",
+      "name": "Flight of the Crimson Queen - Spirit",
+      "item_name": "#DOTA_Item_Flight_of_the_Crimson_Queen__Spirit",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13995",
+      "name": "Flight of the Crimson Queen - Armor",
+      "item_name": "#DOTA_Item_Flight_of_the_Crimson_Queen__Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/queen_of_crimson_thorns_armor/queen_of_crimson_thorns_armor.vmdl"
+    },
+    {
+      "id": "13996",
+      "name": "Flight of the Crimson Queen - Belt",
+      "item_name": "#DOTA_Item_Flight_of_the_Crimson_Queen__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/queen_of_crimson_thorns_belt/queen_of_crimson_thorns_belt.vmdl"
+    },
+    {
+      "id": "14823",
+      "name": "Oaths of the Beloved - Ghosts",
+      "item_name": "#DOTA_Item_Oaths_of_the_Beloved__Ghosts",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14824",
+      "name": "Oaths of the Beloved - Legs",
+      "item_name": "#DOTA_Item_Oaths_of_the_Beloved__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/dp_bloody_bride_legs/dp_bloody_bride_legs.vmdl"
+    },
+    {
+      "id": "14825",
+      "name": "Oaths of the Beloved - Misc",
+      "item_name": "#DOTA_Item_Oaths_of_the_Beloved__Misc",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/dp_bloody_bride_misc/dp_bloody_bride_misc.vmdl"
+    },
+    {
+      "id": "14826",
+      "name": "Oaths of the Beloved - Belt",
+      "item_name": "#DOTA_Item_Oaths_of_the_Beloved__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/dp_bloody_bride_belt/dp_bloody_bride_belt.vmdl"
+    },
+    {
+      "id": "14827",
+      "name": "Oaths of the Beloved - Armor",
+      "item_name": "#DOTA_Item_Oaths_of_the_Beloved__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/dp_bloody_bride_armor/dp_bloody_bride_armor.vmdl"
+    },
+    {
+      "id": "14828",
+      "name": "Oaths of the Beloved - Head",
+      "item_name": "#DOTA_Item_Oaths_of_the_Beloved__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/dp_bloody_bride_head/dp_bloody_bride_head.vmdl"
+    },
+    {
+      "id": "17586",
+      "name": "Ire of the Unwilted Spirits",
+      "item_name": "#DOTA_Item_Ire_of_the_Unwilted_Spirits",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17587",
+      "name": "Ire of the Unwilted Armor",
+      "item_name": "#DOTA_Item_Ire_of_the_Unwilted_Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/deathblossom_armor/deathblossom_armor.vmdl"
+    },
+    {
+      "id": "17589",
+      "name": "Ire of the Unwilted Dress",
+      "item_name": "#DOTA_Item_Ire_of_the_Unwilted_Dress",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/deathblossom_legs/deathblossom_legs.vmdl"
+    },
+    {
+      "id": "17590",
+      "name": "Ire of the Unwilted Belt",
+      "item_name": "#DOTA_Item_Ire_of_the_Unwilted_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/deathblossom_belt/deathblossom_belt.vmdl"
+    },
+    {
+      "id": "17591",
+      "name": "Ire of the Unwilted Style",
+      "item_name": "#DOTA_Item_Ire_of_the_Unwilted_Style",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/deathblossom_head/deathblossom_head.vmdl"
+    },
+    {
+      "id": "17842",
+      "name": "Dark Realm Oracles Armor",
+      "item_name": "#DOTA_Item_Dark_Realm_Oracles_Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/fateful_symbiosis_armor/fateful_symbiosis_armor.vmdl"
+    },
+    {
+      "id": "17843",
+      "name": "Dark Realm Oracles Ghost",
+      "item_name": "#DOTA_Item_Dark_Realm_Oracles_Ghost",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17844",
+      "name": "Dark Realm Oracles Wraps",
+      "item_name": "#DOTA_Item_Dark_Realm_Oracles_Wraps",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/fateful_symbiosis_misc/fateful_symbiosis_misc.vmdl"
+    },
+    {
+      "id": "17845",
+      "name": "Dark Realm Oracles Mask",
+      "item_name": "#DOTA_Item_Dark_Realm_Oracles_Mask",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/fateful_symbiosis_head/fateful_symbiosis_head.vmdl"
+    },
+    {
+      "id": "17846",
+      "name": "Dark Realm Oracles Belt",
+      "item_name": "#DOTA_Item_Dark_Realm_Oracles_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/fateful_symbiosis_belt/fateful_symbiosis_belt.vmdl"
+    },
+    {
+      "id": "17847",
+      "name": "Dark Realm Oracles Skirt",
+      "item_name": "#DOTA_Item_Dark_Realm_Oracles_Skirt",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/fateful_symbiosis_petals/fateful_symbiosis_petals.vmdl"
+    },
+    {
+      "id": "18148",
+      "name": "Curse of the Iron Maiden Armor",
+      "item_name": "#DOTA_Item_Vote_Only_Curse_of_the_Iron_Maiden_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/curse_of_the_iron_maiden_armor/curse_of_the_iron_maiden_armor.vmdl"
+    },
+    {
+      "id": "18149",
+      "name": "Curse of the Iron Maiden Belt",
+      "item_name": "#DOTA_Item_Vote_Only_Curse_of_the_Iron_Maiden_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/curse_of_the_iron_maiden_belt/curse_of_the_iron_maiden_belt.vmdl"
+    },
+    {
+      "id": "18150",
+      "name": "Curse of the Iron Maiden Head",
+      "item_name": "#DOTA_Item_Vote_Only_Curse_of_the_Iron_Maiden_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/curse_of_the_iron_maiden_head/curse_of_the_iron_maiden_head.vmdl"
+    },
+    {
+      "id": "18151",
+      "name": "Curse of the Iron Maiden Legs",
+      "item_name": "#DOTA_Item_Vote_Only_Curse_of_the_Iron_Maiden_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/curse_of_the_iron_maiden_legs/curse_of_the_iron_maiden_legs.vmdl"
+    },
+    {
+      "id": "18152",
+      "name": "Curse of the Iron Maiden Misc",
+      "item_name": "#DOTA_Item_Vote_Only_Curse_of_the_Iron_Maiden_Misc",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/curse_of_the_iron_maiden_misc/curse_of_the_iron_maiden_misc.vmdl"
+    },
+    {
+      "id": "18153",
+      "name": "Curse of the Iron Maiden Ghosts",
+      "item_name": "#DOTA_Curse_of_the_Iron_Maiden_Ghosts",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20079",
+      "name": "The Corpse Maiden's Set",
+      "item_name": "#DOTA_Item_The_Corpse_Maidens_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20115",
+      "name": "The Bone Scryer Set",
+      "item_name": "#DOTA_Item_The_Bone_Scryer_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20249",
+      "name": "Gifts from the Gloom Set",
+      "item_name": "#DOTA_Item_Gifts_from_the_Gloom_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20296",
+      "name": "Augur's Curse Set",
+      "item_name": "#DOTA_Item_Augurs_Curse_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20332",
+      "name": "Regalia of the Mortal Coil Set",
+      "item_name": "#DOTA_Item_Regalia_of_the_Mortal_Coil_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20376",
+      "name": "Foreteller's Robes Set",
+      "item_name": "#DOTA_Item_Foretellers_Robes_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20394",
+      "name": "Witch of the Outlands Set",
+      "item_name": "#DOTA_Item_Witch_of_the_Outlands_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20605",
+      "name": "The Mourning Mother",
+      "item_name": "#DOTA_Item_The_Mourning_Mother",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20675",
+      "name": "Ghastly Matriarch",
+      "item_name": "#DOTA_Item_Ghastly_Matriarch",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20753",
+      "name": "Fatal Blossom",
+      "item_name": "#DOTA_Item_Fatal_Blossom",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20831",
+      "name": "Vesture of the Unkind Countess",
+      "item_name": "#DOTA_Item_Vesture_of_the_Unkind_Countess",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20861",
+      "name": "The Shaded Eulogy",
+      "item_name": "#DOTA_Item_The_Shaded_Eulogy",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20977",
+      "name": "Secrets of the Merqueen",
+      "item_name": "#DOTA_Item_Secrets_of_the_Merqueen",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21042",
+      "name": "Temptation of the Mothbinder",
+      "item_name": "#DOTA_Item_Temptation_of_the_Mothbinder",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21109",
+      "name": "Eternal Testament",
+      "item_name": "#DOTA_Item_Eternal_Testament",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21179",
+      "name": "Wail of the Winter Revenant",
+      "item_name": "#DOTA_Item_Wail_of_the_Winter_Revenant",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21290",
+      "name": "Mistress of the Long Night",
+      "item_name": "#DOTA_Item_Mistress_of_the_Long_Night",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21346",
+      "name": "Soul of the Brightshroud",
+      "item_name": "#DOTA_Item_Soul_of_the_Brightshroud",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21357",
+      "name": "TI9 Cache DP Voodoo Priestess",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_DP_Voodoo_Priestess",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21382",
+      "name": "Draconic Requiem",
+      "item_name": "#DOTA_Item_Draconic_Requiem",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21476",
+      "name": "Flight of the Crimson Queen",
+      "item_name": "#DOTA_Item_Flight_of_the_Crimson_Queen",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21601",
+      "name": "Oaths of the Beloved",
+      "item_name": "#DOTA_Item_Oaths_of_the_Beloved",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21660",
+      "name": "Ire of the Unwilted",
+      "item_name": "#DOTA_Item_Ire_of_the_Unwilted",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21705",
+      "name": "Dark Realm Oracles",
+      "item_name": "#DOTA_Item_Dark_Realm_Oracles",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21737",
+      "name": "Curse of the Iron Maiden",
+      "item_name": "#DOTA_Item_Vote_Only_Curse_of_the_Iron_Maiden",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22737",
+      "name": "Feasts of the Forlorn - Head",
+      "item_name": "#DOTA_Item_Feasts_of_the_Forlorn__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/carrion_bloom_head/carrion_bloom_head.vmdl"
+    },
+    {
+      "id": "22738",
+      "name": "Feasts of the Forlorn - Armor",
+      "item_name": "#DOTA_Item_Feasts_of_the_Forlorn__Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/carrion_bloom_armor/carrion_bloom_armor.vmdl"
+    },
+    {
+      "id": "22739",
+      "name": "Feasts of the Forlorn - Belt",
+      "item_name": "#DOTA_Item_Feasts_of_the_Forlorn__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/carrion_bloom_belt/carrion_bloom_belt.vmdl"
+    },
+    {
+      "id": "22740",
+      "name": "Feasts of the Forlorn - Misc",
+      "item_name": "#DOTA_Item_Feasts_of_the_Forlorn__Misc",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/carrion_bloom_misc/carrion_bloom_misc.vmdl"
+    },
+    {
+      "id": "22741",
+      "name": "Feasts of the Forlorn - Legs",
+      "item_name": "#DOTA_Item_Feasts_of_the_Forlorn__Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/carrion_bloom_legs/carrion_bloom_legs.vmdl"
+    },
+    {
+      "id": "22742",
+      "name": "Feasts of the Forlorn - Ghosts",
+      "item_name": "#DOTA_Item_Feasts_of_the_Forlorn__Ghosts",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22782",
+      "name": "Winter Lineage Spirits of the Mothbinder",
+      "item_name": "#DOTA_Item_Winter_Lineage_Spirits_of_the_Mothbinder",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22783",
+      "name": "Winter Lineage Bracelets of the Mothbinder",
+      "item_name": "#DOTA_Item_Winter_Lineage_Bracelets_of_the_Mothbinder",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mothbinders_omen_misc/mothbinders_omen_misc.vmdl"
+    },
+    {
+      "id": "22784",
+      "name": "Winter Lineage Belt of the Mothbinder",
+      "item_name": "#DOTA_Item_Winter_Lineage_Belt_of_the_Mothbinder",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mothbinders_omen_belt/mothbinders_omen_belt.vmdl"
+    },
+    {
+      "id": "22785",
+      "name": "Winter Lineage Skirt of the Mothbinder",
+      "item_name": "#DOTA_Item_Winter_Lineage_Skirt_of_the_Mothbinder",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mothbinders_omen_legs/mothbinders_omen_legs.vmdl"
+    },
+    {
+      "id": "22786",
+      "name": "Winter Lineage Armor of the Mothbinder",
+      "item_name": "#DOTA_Item_Winter_Lineage_Armor_of_the_Mothbinder",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mothbinders_omen_armor/mothbinders_omen_armor.vmdl"
+    },
+    {
+      "id": "22787",
+      "name": "Winter Lineage Hood of the Mothbinder",
+      "item_name": "#DOTA_Item_Winter_Lineage_Hood_of_the_Mothbinder",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/mothbinders_omen_head/mothbinders_omen_head.vmdl"
+    },
+    {
+      "id": "22788",
+      "name": "Winter Lineage Temptation of the Mothbinder",
+      "item_name": "#DOTA_Item_Winter_Lineage_Temptation_of_the_Mothbinder",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22874",
+      "name": "Feasts of the Forlorn",
+      "item_name": "#DOTA_Item_Feasts_of_the_Forlorn",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23311",
+      "name": "Dark Debutante Skirt",
+      "item_name": "#DOTA_Item_Dark_Debutante_Skirt",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/deaths_bloom_deaths_bloom_skirt/deaths_bloom_deaths_bloom_skirt.vmdl"
+    },
+    {
+      "id": "23312",
+      "name": "Dark Debutante Armor",
+      "item_name": "#DOTA_Item_Dark_Debutante_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/deaths_bloom_armor/deaths_bloom_armor.vmdl"
+    },
+    {
+      "id": "23313",
+      "name": "Dark Debutante Head",
+      "item_name": "#DOTA_Item_Dark_Debutante_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/deaths_bloom_head/deaths_bloom_head.vmdl"
+    },
+    {
+      "id": "23314",
+      "name": "Dark Debutante Belt",
+      "item_name": "#DOTA_Item_Dark_Debutante_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/deaths_bloom_belt/deaths_bloom_belt.vmdl"
+    },
+    {
+      "id": "23315",
+      "name": "Dark Debutante Ultimate",
+      "item_name": "#DOTA_Item_Dark_Debutante_Ultimate",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23316",
+      "name": "Dark Debutante",
+      "item_name": "#DOTA_Item_Dark_Debutante",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28610",
+      "name": "Darkwood Eulogy Head",
+      "item_name": "#DOTA_Item_Darkwood_Eulogy_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/death_prophet_darkwood_eulogy_head/death_prophet_darkwood_eulogy_head.vmdl"
+    },
+    {
+      "id": "28611",
+      "name": "Darkwood Eulogy Armor",
+      "item_name": "#DOTA_Item_Darkwood_Eulogy_Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/death_prophet_darkwood_eulogy_armor/death_prophet_darkwood_eulogy_armor.vmdl"
+    },
+    {
+      "id": "28612",
+      "name": "Darkwood Eulogy Belt",
+      "item_name": "#DOTA_Item_Darkwood_Eulogy_Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/death_prophet_darkwood_eulogy_belt/death_prophet_darkwood_eulogy_belt.vmdl"
+    },
+    {
+      "id": "28613",
+      "name": "Darkwood Eulogy Legs",
+      "item_name": "#DOTA_Item_Darkwood_Eulogy_Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/death_prophet/death_prophet_darkwood_eulogy_custom_wearable/death_prophet_darkwood_eulogy_custom_wearable.vmdl"
+    },
+    {
+      "id": "28614",
+      "name": "Darkwood Eulogy Spirit",
+      "item_name": "#DOTA_Item_Darkwood_Eulogy_Spirit",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29017",
+      "name": "Darkwood Eulogy",
+      "item_name": "#DOTA_Item_Darkwood_Eulogy",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    }
+  ]
+}

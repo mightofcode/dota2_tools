@@ -1,0 +1,2890 @@
+{
+  "defaults": {
+    "back": {
+      "id": "117",
+      "name": "Alchemist's Goblin Body",
+      "item_name": "#DOTA_Item_Alchemists_Goblin_Body",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/alchemist/alchemist_goblin_body.vmdl"
+    },
+    "weapon": {
+      "id": "118",
+      "name": "Alchemist's Weapon",
+      "item_name": "#DOTA_Item_Alchemists_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/alchemist/alchemist_scabbard.vmdl"
+    },
+    "armor": {
+      "id": "119",
+      "name": "Alchemist's Saddle",
+      "item_name": "#DOTA_Item_Alchemists_Saddle",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "model_player": "models/heroes/alchemist/alchemist_saddlehat.vmdl"
+    },
+    "arms": {
+      "id": "120",
+      "name": "Alchemist's Gauntlets",
+      "item_name": "#DOTA_Item_Alchemists_Gauntlets",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/alchemist/alchemist_gauntlets.vmdl"
+    },
+    "neck": {
+      "id": "121",
+      "name": "Alchemist's Goblin Hat",
+      "item_name": "#DOTA_Item_Alchemists_Goblin_Hat",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "model_player": "models/heroes/alchemist/alchemist_goblinhat.vmdl"
+    },
+    "offhand_weapon": {
+      "id": "122",
+      "name": "Alchemist's Left Bottle",
+      "item_name": "#DOTA_Item_Alchemists_Left_Bottle",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/alchemist/alchemist_leftbottle.vmdl"
+    },
+    "head": {
+      "id": "123",
+      "name": "Alchemist's Goblin Head",
+      "item_name": "#DOTA_Item_Alchemists_Goblin_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/alchemist/alchemist_goblin_head.vmdl"
+    },
+    "body_head": {
+      "id": "124",
+      "name": "Alchemist's Ogre Head",
+      "item_name": "#DOTA_Item_Alchemists_Ogre_Head",
+      "item_slot": "body_head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/alchemist/alchemist_ogre_head.vmdl"
+    },
+    "shoulder": {
+      "id": "125",
+      "name": "Alchemist's Shoulder Bottle",
+      "item_name": "#DOTA_Item_Alchemists_Shoulder_Bottle",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/alchemist/alchemist_shoulderbottles.vmdl"
+    },
+    "costume": {
+      "id": "738",
+      "name": "Alchemist's Costume",
+      "item_name": "#DOTA_Item_Alchemists_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Alchemists_Diretide_Shimmer_Bundle",
+      "store_bundle": "Alchemist's Diretide Shimmer Bundle",
+      "portrait_image": "econ/sets/v2/alchemists_diretide_shimmer_bundle",
+      "items": [
+        {
+          "name": "Alchemist's Diretide Shimmer Costume",
+          "id": "18304",
+          "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Costume",
+          "item_slot": "costume",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Alchemist's Diretide Shimmer Armor",
+          "id": "18306",
+          "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Armor",
+          "item_slot": "armor",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/alchemist/alchemist_saddlehat.vmdl"
+        },
+        {
+          "name": "Alchemist's Diretide Shimmer Gauntlets",
+          "id": "18305",
+          "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Gauntlets",
+          "item_slot": "arms",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/alchemist/alchemist_gauntlets.vmdl"
+        },
+        {
+          "name": "Alchemist's Diretide Shimmer Weapon",
+          "id": "18307",
+          "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/alchemist/alchemist_scabbard.vmdl"
+        },
+        {
+          "name": "Alchemist's Diretide Shimmer Tiny Armor",
+          "id": "18308",
+          "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Tiny_Armor",
+          "item_slot": "back",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/alchemist/alchemist_goblin_body.vmdl"
+        },
+        {
+          "name": "Alchemist's Diretide Shimmer Goblin Head",
+          "id": "18309",
+          "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Goblin_Head",
+          "item_slot": "head",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/alchemist/alchemist_goblin_head.vmdl"
+        },
+        {
+          "name": "Alchemist's Diretide Shimmer Offhand",
+          "id": "18310",
+          "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Offhand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/alchemist/alchemist_leftbottle.vmdl"
+        },
+        {
+          "name": "Alchemist's Diretide Shimmer Ogre Head",
+          "id": "18373",
+          "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Ogre_Head",
+          "item_slot": "body_head",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/alchemist/alchemist_ogre_head.vmdl"
+        },
+        {
+          "name": "Alchemist's Diretide Shimmer Shoulder Bottle",
+          "id": "18382",
+          "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Shoulder_Bottle",
+          "item_slot": "shoulder",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/alchemist/alchemist_shoulderbottles.vmdl"
+        },
+        {
+          "name": "Alchemist's Diretide Shimmer Goblin Hat",
+          "id": "18383",
+          "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Goblin_Hat",
+          "item_slot": "neck",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/alchemist/alchemist_goblinhat.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Toxic_Siege_Armor",
+      "store_bundle": "Toxic Siege Armor Set",
+      "portrait_image": "econ/sets/v2/alchemist_toxic_siege_armor",
+      "items": [
+        {
+          "name": "Toxic Siege Bracers",
+          "id": "6117",
+          "item_name": "#DOTA_Item_Toxic_Siege_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/alchemist/toxic_siege_bracers/toxic_siege_bracers.vmdl"
+        },
+        {
+          "name": "Toxic Siege Garb",
+          "id": "6118",
+          "item_name": "#DOTA_Item_Toxic_Siege_Garb",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/toxic_siege_garb/toxic_siege_garb.vmdl"
+        },
+        {
+          "name": "Toxic Siege Corrosive Flasks",
+          "id": "6120",
+          "item_name": "#DOTA_Item_Toxic_Siege_Corrosive_Flasks",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/toxic_siege_corrosive_flasks/toxic_siege_corrosive_flasks.vmdl"
+        },
+        {
+          "name": "Toxic Siege Pauldrons",
+          "id": "6122",
+          "item_name": "#DOTA_Item_Toxic_Siege_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/toxic_siege_pauldrons/toxic_siege_pauldrons.vmdl"
+        },
+        {
+          "name": "Toxic Siege Armored Saddle",
+          "id": "6121",
+          "item_name": "#DOTA_Item_Toxic_Siege_Armored_Saddle",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/toxic_siege_armored_saddle/toxic_siege_armored_saddle.vmdl"
+        },
+        {
+          "name": "Toxic Siege Blades",
+          "id": "6123",
+          "item_name": "#DOTA_Item_Toxic_Siege_Blades",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/alchemist/toxic_siege_blades/toxic_siege_blades.vmdl"
+        },
+        {
+          "name": "Toxic Siege Safety Goggles",
+          "id": "6119",
+          "item_name": "#DOTA_Item_Toxic_Siege_Safety_Goggles",
+          "item_slot": "neck",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/alchemist/toxic_siege_safety_goggles/toxic_siege_safety_goggles.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Waaagh_Big_Un",
+      "store_bundle": "Waaagh Big 'Un",
+      "portrait_image": "econ/sets/v2/alchemist_waaagh_big_un",
+      "items": [
+        {
+          "name": "Waaagh Hatchets of Big 'Un",
+          "id": "8400",
+          "item_name": "#DOTA_Item_Waaagh_Hatchets_of_Big_Un",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/waaagh_alchemist_weapon/waaagh_alchemist_weapon.vmdl"
+        },
+        {
+          "name": "Waaagh Helm of Big 'Un",
+          "id": "8402",
+          "item_name": "#DOTA_Item_Waaagh_Helm_of_Big_Un",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/waaagh_alchemist_armor/waaagh_alchemist_armor.vmdl"
+        },
+        {
+          "name": "Waaagh Armguards of Big 'Un",
+          "id": "8404",
+          "item_name": "#DOTA_Item_Waaagh_Armguards_of_Big_Un",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/waaagh_alchemist_arms/waaagh_alchemist_arms.vmdl"
+        },
+        {
+          "name": "Waaagh Garb of Little Big 'Un",
+          "id": "8406",
+          "item_name": "#DOTA_Item_Waaagh_Garb_of_Little_Big_Un",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/waaagh_alchemist_back/waaagh_alchemist_back.vmdl"
+        },
+        {
+          "name": "Waaagh Cap of Little Big 'Un",
+          "id": "8407",
+          "item_name": "#DOTA_Item_Waaagh_Cap_of_Little_Big_Un",
+          "item_slot": "neck",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/waaagh_alchemist_neck/waaagh_alchemist_neck.vmdl"
+        },
+        {
+          "name": "Waaagh Flask of Little Big 'Un",
+          "id": "8409",
+          "item_name": "#DOTA_Item_Waaagh_Flask_of_Little_Big_Un",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/waaagh_alchemist_off_hand/waaagh_alchemist_off_hand.vmdl"
+        },
+        {
+          "name": "Waaagh Spaulders of Big 'Un",
+          "id": "8410",
+          "item_name": "#DOTA_Item_Waaagh_Spaulders_of_Big_Un",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/waaagh_alchemist_shoulder/waaagh_alchemist_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Alchemy_Essentials",
+      "store_bundle": "Alchemy Essentials Set",
+      "portrait_image": "econ/sets/v2/alchemy_essentials",
+      "items": [
+        {
+          "name": "Assistant's Respirator",
+          "id": "4511",
+          "item_name": "#DOTA_Item_Assistants_Respirator",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/therespirator/therespirator.vmdl"
+        },
+        {
+          "name": "Assistant's Cutter",
+          "id": "4724",
+          "item_name": "#DOTA_Item_Assistants_Cutter",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/alchemist/precisioncutter/precisioncutter.vmdl"
+        },
+        {
+          "name": "Assistant's Blades of Scientific Inquiry",
+          "id": "4798",
+          "item_name": "#DOTA_Item_Assistants_Blades_of_Scientific_Inquiry",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/brutalblades/brutalblades.vmdl"
+        },
+        {
+          "name": "Experimentalist's Laboratory Essentials",
+          "id": "4799",
+          "item_name": "#DOTA_Item_Experimentalists_Laboratory_Essentials",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/laboratoryessentials/laboratoryessentials.vmdl"
+        },
+        {
+          "name": "Experimentalist's Goggles",
+          "id": "4800",
+          "item_name": "#DOTA_Item_Experimentalists_Goggles",
+          "item_slot": "neck",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/goblingoggles/goblingoggles.vmdl"
+        },
+        {
+          "name": "Experimentalist's Unstable Flask",
+          "id": "4801",
+          "item_name": "#DOTA_Item_Experimentalists_Unstable_Flask",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/alchemeyerflask/alchemeyerflask.vmdl"
+        },
+        {
+          "name": "Assistant's Muscle Pump",
+          "id": "4802",
+          "item_name": "#DOTA_Item_Assistants_Muscle_Pump",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/alchemist/musclepump/musclepump.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Formed_Alloy_Set",
+      "store_bundle": "Formed Alloy Set",
+      "portrait_image": "econ/sets/v2/alliance_formed_alloy_set",
+      "items": [
+        {
+          "name": "Formed Alloy Apron",
+          "id": "5495",
+          "item_name": "#DOTA_Item_Formed_Alloy_Apron",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/body/body.vmdl"
+        },
+        {
+          "name": "Formed Alloy Pauldrons",
+          "id": "5104",
+          "item_name": "#DOTA_Item_Formed_Alloy_Pauldrons",
+          "item_slot": "armor",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/alchemist/armor/armor.vmdl"
+        },
+        {
+          "name": "Formed Alloy Wristplates",
+          "id": "5496",
+          "item_name": "#DOTA_Item_Formed_Alloy_Wristplates",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/bracer/bracer.vmdl"
+        },
+        {
+          "name": "Lovebear",
+          "id": "5423",
+          "item_name": "#DOTA_Item_Lovebear",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/bear/bear.vmdl"
+        },
+        {
+          "name": "Formed Alloy Flask",
+          "id": "5497",
+          "item_name": "#DOTA_Item_Formed_Alloy_Flask",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/flask/flask.vmdl"
+        },
+        {
+          "name": "Formed Alloy Goggles",
+          "id": "5498",
+          "item_name": "#DOTA_Item_Formed_Alloy_Goggles",
+          "item_slot": "neck",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/goggles/goggles.vmdl"
+        },
+        {
+          "name": "Formed Alloy Blades",
+          "id": "5571",
+          "item_name": "#DOTA_Item_Formed_Alloy_Blades",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/swords/swords.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Big_Un",
+      "store_bundle": "Big 'Un",
+      "portrait_image": "econ/sets/v2/big_un",
+      "items": [
+        {
+          "name": "Helm of Big 'Un",
+          "id": "8277",
+          "item_name": "#DOTA_Item_Helm_of_Big_Un",
+          "item_slot": "armor",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/alchemist/waaagh_alchemist_armor/waaagh_alchemist_armor.vmdl"
+        },
+        {
+          "name": "Armguards of Big 'Un",
+          "id": "8274",
+          "item_name": "#DOTA_Item_Armguards_of_Big_Un",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/alchemist/waaagh_alchemist_arms/waaagh_alchemist_arms.vmdl"
+        },
+        {
+          "name": "Garb of Little Big 'Un",
+          "id": "8272",
+          "item_name": "#DOTA_Item_Garb_of_Little_Big_Un",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/alchemist/waaagh_alchemist_back/waaagh_alchemist_back.vmdl"
+        },
+        {
+          "name": "Cap of Little Big 'Un",
+          "id": "8270",
+          "item_name": "#DOTA_Item_Cap_of_Little_Big_Un",
+          "item_slot": "neck",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/alchemist/waaagh_alchemist_neck/waaagh_alchemist_neck.vmdl"
+        },
+        {
+          "name": "Flask of Little Big 'Un",
+          "id": "8265",
+          "item_name": "#DOTA_Item_Flask_of_Little_Big_Un",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/alchemist/waaagh_alchemist_off_hand/waaagh_alchemist_off_hand.vmdl"
+        },
+        {
+          "name": "Spaulders of Big 'Un",
+          "id": "8264",
+          "item_name": "#DOTA_Item_Spaulders_of_Big_Un",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/alchemist/waaagh_alchemist_shoulder/waaagh_alchemist_shoulder.vmdl"
+        },
+        {
+          "name": "Hatchets of Big 'Un",
+          "id": "8262",
+          "item_name": "#DOTA_Item_Hatchets_of_Big_Un",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/alchemist/waaagh_alchemist_weapon/waaagh_alchemist_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Boilerplate_Bruiser",
+      "store_bundle": "Boilerplate Bruiser",
+      "portrait_image": "econ/sets/v2/boilerplate_bruiser",
+      "items": [
+        {
+          "name": "Armor of the Boilerplate Bruiser",
+          "id": "9404",
+          "item_name": "#DOTA_Item_Armor_of_the_Boilerplate_Bruiser",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/stove_guardian_armor/stove_guardian_armor.vmdl"
+        },
+        {
+          "name": "Arms of the Boilerplate Bruiser",
+          "id": "9402",
+          "item_name": "#DOTA_Item_Arms_of_the_Boilerplate_Bruiser",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/stove_guardian_arms/stove_guardian_arms.vmdl"
+        },
+        {
+          "name": "Weapons of the Boilerplate Bruiser",
+          "id": "9303",
+          "item_name": "#DOTA_Item_Weapons_of_the_Boilerplate_Bruiser",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/stove_guardian_weapon/stove_guardian_weapon.vmdl"
+        },
+        {
+          "name": "Off-Hand of the Boilerplate Bruiser",
+          "id": "9304",
+          "item_name": "#DOTA_Item_OffHand_of_the_Boilerplate_Bruiser",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/stove_guardian_off_hand/stove_guardian_off_hand.vmdl"
+        },
+        {
+          "name": "Neck of the Boilerplate Bruiser",
+          "id": "9315",
+          "item_name": "#DOTA_Item_Neck_of_the_Boilerplate_Bruiser",
+          "item_slot": "neck",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/stove_guardian_neck/stove_guardian_neck.vmdl"
+        },
+        {
+          "name": "Coat of the Boilerplate Bruiser",
+          "id": "9403",
+          "item_name": "#DOTA_Item_Coat_of_the_Boilerplate_Bruiser",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/stove_guardian_back/stove_guardian_back.vmdl"
+        },
+        {
+          "name": "Smokestacks of the Boilerplate Bruiser",
+          "id": "9329",
+          "item_name": "#DOTA_Item_Smokestacks_of_the_Boilerplate_Bruiser",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/stove_guardian_shoulder/stove_guardian_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Caustic_Steel",
+      "store_bundle": "Caustic Steel Set",
+      "portrait_image": "econ/sets/v2/caustic_steel",
+      "items": [
+        {
+          "name": "Ogre's Caustic Steel Blinders",
+          "id": "4947",
+          "item_name": "#DOTA_Item_Ogres_Caustic_Steel_Blinders",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/caustic_armor/caustic_armor.vmdl"
+        },
+        {
+          "name": "Ogre's Caustic Steel Bracers",
+          "id": "4946",
+          "item_name": "#DOTA_Item_Ogres_Caustic_Steel_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/caustic_bracer/caustic_bracer.vmdl"
+        },
+        {
+          "name": "Ogre's Caustic Steel Choppers",
+          "id": "4948",
+          "item_name": "#DOTA_Item_Ogres_Caustic_Steel_Choppers",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/alchemist/caustic_weapon/caustic_weapon.vmdl"
+        },
+        {
+          "name": "Young Alchemist's Knot",
+          "id": "4945",
+          "item_name": "#DOTA_Item_Young_Alchemists_Knot",
+          "item_slot": "neck",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/caustic_hair/caustic_hair.vmdl"
+        },
+        {
+          "name": "Young Alchemist's Protection",
+          "id": "4944",
+          "item_name": "#DOTA_Item_Young_Alchemists_Protection",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/alchemist/caustic_outfit/caustic_outfit.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Convicts_Trophies",
+      "store_bundle": "The Convicts' Trophies",
+      "portrait_image": "econ/sets/v2/convicts_trophies",
+      "items": [
+        {
+          "name": "Spiked Shoulder of the Convicts",
+          "id": "6455",
+          "item_name": "#DOTA_Item_Spiked_Shoulder_of_the_Convicts",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/alchemist/convict_trophy_shoulder/convict_trophy_shoulder.vmdl"
+        },
+        {
+          "name": "Gauntlets of the Convicts",
+          "id": "6363",
+          "item_name": "#DOTA_Item_Gauntlets_of_the_Convicts",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/convict_trophy_arms/convict_trophy_arms.vmdl"
+        },
+        {
+          "name": "Mohawk of the Convicts",
+          "id": "6454",
+          "item_name": "#DOTA_Item_Mohawk_of_the_Convicts",
+          "item_slot": "neck",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/convict_trophy_neck/convict_trophy_neck.vmdl"
+        },
+        {
+          "name": "Helmet of the Convicts",
+          "id": "6362",
+          "item_name": "#DOTA_Item_Helmet_of_the_Convicts",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/convict_trophy_armor/convict_trophy_armor.vmdl"
+        },
+        {
+          "name": "Flask of the Convicts",
+          "id": "6364",
+          "item_name": "#DOTA_Item_Flask_of_the_Convicts",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/convict_trophy_offhand/convict_trophy_offhand.vmdl"
+        },
+        {
+          "name": "Suit of the Convicts",
+          "id": "6456",
+          "item_name": "#DOTA_Item_Suit_of_the_Convicts",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/convict_trophy_back/convict_trophy_back.vmdl"
+        },
+        {
+          "name": "Kopesh of the Convicts",
+          "id": "6457",
+          "item_name": "#DOTA_Item_Kopesh_of_the_Convicts",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/alchemist/convict_trophy_weapon/convict_trophy_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Cosmic_Concoctioneers",
+      "store_bundle": "Cosmic Concoctioneers",
+      "portrait_image": "econ/sets/v2/cosmic_concoctioneers",
+      "items": [
+        {
+          "name": "Cosmic Concoctioneers - Weapon",
+          "id": "14194",
+          "item_name": "#DOTA_Item_Cosmic_Concoctioneers__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/spacefrog_hunter_weapon/spacefrog_hunter_weapon.vmdl"
+        },
+        {
+          "name": "Cosmic Concoctioneers - Shoulder",
+          "id": "14193",
+          "item_name": "#DOTA_Item_Cosmic_Concoctioneers__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/spacefrog_hunter_shoulder/spacefrog_hunter_shoulder.vmdl"
+        },
+        {
+          "name": "Cosmic Concoctioneers - Neck",
+          "id": "14192",
+          "item_name": "#DOTA_Item_Cosmic_Concoctioneers__Neck",
+          "item_slot": "neck",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/spacefrog_hunter_neck/spacefrog_hunter_neck.vmdl"
+        },
+        {
+          "name": "Cosmic Concoctioneers - Off-Hand",
+          "id": "14171",
+          "item_name": "#DOTA_Item_Cosmic_Concoctioneers__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/spacefrog_hunter_off_hand/spacefrog_hunter_off_hand.vmdl"
+        },
+        {
+          "name": "Cosmic Concoctioneers - Back",
+          "id": "14170",
+          "item_name": "#DOTA_Item_Cosmic_Concoctioneers__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/spacefrog_hunter_back/spacefrog_hunter_back.vmdl"
+        },
+        {
+          "name": "Cosmic Concoctioneers - Arms",
+          "id": "14169",
+          "item_name": "#DOTA_Item_Cosmic_Concoctioneers__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/spacefrog_hunter_arms/spacefrog_hunter_arms.vmdl"
+        },
+        {
+          "name": "Cosmic Concoctioneers - Armor",
+          "id": "14168",
+          "item_name": "#DOTA_Item_Cosmic_Concoctioneers__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/spacefrog_hunter_armor/spacefrog_hunter_armor.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Darkbrews_Transgression",
+      "store_bundle": "Darkbrew's Transgression",
+      "portrait_image": "econ/sets/v2/darkbrews_transgression",
+      "items": [
+        {
+          "name": "Darkbrew's Transgression - Weapon",
+          "id": "17940",
+          "item_name": "#DOTA_Item_Darkbrews_Transgression__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/crazy_experiment_weapon/crazy_experiment_weapon.vmdl"
+        },
+        {
+          "name": "Darkbrew's Transgression - Armor",
+          "id": "17939",
+          "item_name": "#DOTA_Item_Darkbrews_Transgression__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/crazy_experiment_armor/crazy_experiment_armor.vmdl"
+        },
+        {
+          "name": "Darkbrew's Transgression - Neck",
+          "id": "17938",
+          "item_name": "#DOTA_Item_Darkbrews_Transgression__Neck",
+          "item_slot": "neck",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/crazy_experiment_neck/crazy_experiment_neck.vmdl"
+        },
+        {
+          "name": "Darkbrew's Transgression - Shoulder",
+          "id": "17937",
+          "item_name": "#DOTA_Item_Darkbrews_Transgression__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/crazy_experiment_shoulder/crazy_experiment_shoulder.vmdl"
+        },
+        {
+          "name": "Darkbrew's Transgression - Arms",
+          "id": "17936",
+          "item_name": "#DOTA_Item_Darkbrews_Transgression__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/crazy_experiment_arms/crazy_experiment_arms.vmdl"
+        },
+        {
+          "name": "Darkbrew's Transgression - Back",
+          "id": "17935",
+          "item_name": "#DOTA_Item_Darkbrews_Transgression__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/crazy_experiment_back/crazy_experiment_back.vmdl"
+        },
+        {
+          "name": "Darkbrew's Transgression - Off-Hand",
+          "id": "17934",
+          "item_name": "#DOTA_Item_Darkbrews_Transgression__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/crazy_experiment_off_hand/crazy_experiment_off_hand.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Darkbrew_Enforcer",
+      "store_bundle": "Darkbrew Enforcer",
+      "portrait_image": "econ/sets/v2/darkbrew_enforcer",
+      "items": [
+        {
+          "name": "Top Hat of the Darkbrew Enforcer",
+          "id": "8533",
+          "item_name": "#DOTA_Item_Top_Hat_of_the_Darkbrew_Enforcer",
+          "item_slot": "neck",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/smooth_criminal_neck/smooth_criminal_neck.vmdl"
+        },
+        {
+          "name": "Suit of the Darkbrew Enforcer",
+          "id": "8532",
+          "item_name": "#DOTA_Item_Suit_of_the_Darkbrew_Enforcer",
+          "item_slot": "armor",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/smooth_criminal_armor/smooth_criminal_armor.vmdl"
+        },
+        {
+          "name": "Shotgun Sling of the Darkbrew Enforcer",
+          "id": "8531",
+          "item_name": "#DOTA_Item_Shotgun_Sling_of_the_Darkbrew_Enforcer",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/smooth_criminal_shoulder/smooth_criminal_shoulder.vmdl"
+        },
+        {
+          "name": "Garb of the Darkbrew Enforcer",
+          "id": "8530",
+          "item_name": "#DOTA_Item_Garb_of_the_Darkbrew_Enforcer",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/smooth_criminal_back/smooth_criminal_back.vmdl"
+        },
+        {
+          "name": "Shotgun Blade of the Darkbrew Enforcer",
+          "id": "8529",
+          "item_name": "#DOTA_Item_Shotgun_Blade_of_the_Darkbrew_Enforcer",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/smooth_criminal_weapon/smooth_criminal_weapon.vmdl"
+        },
+        {
+          "name": "Molotov Cocktail of the Darkbrew Enforcer",
+          "id": "8528",
+          "item_name": "#DOTA_Item_Molotov_Cocktail_of_the_Darkbrew_Enforcer",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/smooth_criminal_off_hand/smooth_criminal_off_hand.vmdl"
+        },
+        {
+          "name": "Armguards of the Darkbrew Enforcer",
+          "id": "8518",
+          "item_name": "#DOTA_Item_Armguards_of_the_Darkbrew_Enforcer",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/smooth_criminal_arms/smooth_criminal_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Frostreach_Brigands",
+      "store_bundle": "Frostreach Brigands",
+      "portrait_image": "econ/sets/v2/frostreach_brigands",
+      "items": [
+        {
+          "name": "Frostreach Brigands Axes",
+          "id": "12703",
+          "item_name": "#DOTA_Item_Frostreach_Brigands_Axes",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frostivus_2018_alchemist_yeti_rider_weapon/frostivus_2018_alchemist_yeti_rider_weapon.vmdl"
+        },
+        {
+          "name": "Frostreach Brigands Shoulders",
+          "id": "12702",
+          "item_name": "#DOTA_Item_Frostreach_Brigands_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frostivus_2018_alchemist_yeti_rider_shoulder/frostivus_2018_alchemist_yeti_rider_shoulder.vmdl"
+        },
+        {
+          "name": "Frostreach Brigands Thermos",
+          "id": "12701",
+          "item_name": "#DOTA_Item_Frostreach_Brigands_Thermos",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frostivus_2018_alchemist_yeti_rider_off_hand/frostivus_2018_alchemist_yeti_rider_off_hand.vmdl"
+        },
+        {
+          "name": "Frostreach Brigands Hat",
+          "id": "12700",
+          "item_name": "#DOTA_Item_Frostreach_Brigands_Hat",
+          "item_slot": "neck",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frostivus_2018_alchemist_yeti_rider_neck/frostivus_2018_alchemist_yeti_rider_neck.vmdl"
+        },
+        {
+          "name": "Frostreach Brigands Scarf",
+          "id": "12699",
+          "item_name": "#DOTA_Item_Frostreach_Brigands_Scarf",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frostivus_2018_alchemist_yeti_rider_back/frostivus_2018_alchemist_yeti_rider_back.vmdl"
+        },
+        {
+          "name": "Frostreach Brigands Bracers",
+          "id": "12698",
+          "item_name": "#DOTA_Item_Frostreach_Brigands_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frostivus_2018_alchemist_yeti_rider_arms/frostivus_2018_alchemist_yeti_rider_arms.vmdl"
+        },
+        {
+          "name": "Frostreach Brigands Harness",
+          "id": "12697",
+          "item_name": "#DOTA_Item_Frostreach_Brigands_Harness",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frostivus_2018_alchemist_yeti_rider_armor/frostivus_2018_alchemist_yeti_rider_armor.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Lumpo_and_Rupertus",
+      "store_bundle": "Lumpo and Rupertus",
+      "portrait_image": "econ/sets/v2/lumpo_and_rupertus",
+      "items": [
+        {
+          "name": "Lumpo and Rupertus - Shoulder",
+          "id": "30370",
+          "item_name": "#DOTA_Item_Lumpo_and_Rupertus__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "legendary",
+          "model_player": "models/items/alchemist/new_years_gift_shoudler/new_years_gift_shoudler.vmdl"
+        },
+        {
+          "name": "Lumpo and Rupertus - Offhand",
+          "id": "30369",
+          "item_name": "#DOTA_Item_Lumpo_and_Rupertus__Offhand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "legendary",
+          "model_player": "models/items/alchemist/new_years_gift_gift/new_years_gift_gift.vmdl"
+        },
+        {
+          "name": "Lumpo and Rupertus - Armor",
+          "id": "30368",
+          "item_name": "#DOTA_Item_Lumpo_and_Rupertus__Armor",
+          "item_slot": "armor",
+          "item_rarity": "legendary",
+          "model_player": "models/items/alchemist/new_years_gift_armor/new_years_gift_armor.vmdl"
+        },
+        {
+          "name": "Lumpo and Rupertus - Arms",
+          "id": "30367",
+          "item_name": "#DOTA_Item_Lumpo_and_Rupertus__Arms",
+          "item_slot": "arms",
+          "item_rarity": "legendary",
+          "model_player": "models/items/alchemist/new_years_gift_arms/new_years_gift_arms.vmdl"
+        },
+        {
+          "name": "Lumpo and Rupertus - Head",
+          "id": "30366",
+          "item_name": "#DOTA_Item_Lumpo_and_Rupertus__Head",
+          "item_slot": "neck",
+          "item_rarity": "legendary",
+          "model_player": "models/items/alchemist/new_years_gift_head/new_years_gift_head.vmdl"
+        },
+        {
+          "name": "Lumpo and Rupertus - Back",
+          "id": "30365",
+          "item_name": "#DOTA_Item_Lumpo_and_Rupertus__Back",
+          "item_slot": "back",
+          "item_rarity": "legendary",
+          "model_player": "models/items/alchemist/new_years_gift_body/new_years_gift_body.vmdl"
+        },
+        {
+          "name": "Lumpo and Rupertus - Weapon",
+          "id": "24894",
+          "item_name": "#DOTA_Item_Lumpo_and_Rupertus__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "legendary",
+          "model_player": "models/items/alchemist/new_years_gift_weapon/new_years_gift_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Potion_Potentate",
+      "store_bundle": "Potion Potentate",
+      "portrait_image": "econ/sets/v2/potion_potentate",
+      "items": [
+        {
+          "name": "Potion Potentate - Weapon",
+          "id": "30798",
+          "item_name": "#DOTA_Item_Potion_Potentate__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/royal_bartender_knight_weapon/royal_bartender_knight_weapon.vmdl"
+        },
+        {
+          "name": "Potion Potentate - Shoulder",
+          "id": "30797",
+          "item_name": "#DOTA_Item_Potion_Potentate__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/royal_bartender_knight_shoulders/royal_bartender_knight_shoulders.vmdl"
+        },
+        {
+          "name": "Potion Potentate - Offhand",
+          "id": "30796",
+          "item_name": "#DOTA_Item_Potion_Potentate__Offhand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/royal_bartender_knight_offhand/royal_bartender_knight_offhand.vmdl"
+        },
+        {
+          "name": "Potion Potentate - Neck",
+          "id": "30791",
+          "item_name": "#DOTA_Item_Potion_Potentate__Neck",
+          "item_slot": "neck",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/royal_bartender_knight_neck/royal_bartender_knight_neck.vmdl"
+        },
+        {
+          "name": "Potion Potentate - Back",
+          "id": "30790",
+          "item_name": "#DOTA_Item_Potion_Potentate__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/royal_bartender_knight_back/royal_bartender_knight_back.vmdl"
+        },
+        {
+          "name": "Potion Potentate - Arms",
+          "id": "30782",
+          "item_name": "#DOTA_Item_Potion_Potentate__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/royal_bartender_knight_arms/royal_bartender_knight_arms.vmdl"
+        },
+        {
+          "name": "Potion Potentate - Armor",
+          "id": "30781",
+          "item_name": "#DOTA_Item_Potion_Potentate__Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/royal_bartender_knight_armor/royal_bartender_knight_armor.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Raid_of_the_Northern_Exiles",
+      "store_bundle": "Raid of the Northern Exiles",
+      "portrait_image": "econ/sets/v2/raid_of_the_northern_exiles",
+      "items": [
+        {
+          "name": "Tools of the Northern Exiles",
+          "id": "12706",
+          "item_name": "#DOTA_Item_Tools_of_the_Northern_Exiles",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frostivus2018_alch_northern_raiders_weapon/frostivus2018_alch_northern_raiders_weapon.vmdl"
+        },
+        {
+          "name": "Arms of the Northern Exiles",
+          "id": "12709",
+          "item_name": "#DOTA_Item_Arms_of_the_Northern_Exiles",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frostivus2018_alch_northern_raiders_arms/frostivus2018_alch_northern_raiders_arms.vmdl"
+        },
+        {
+          "name": "Brains of the Northern Exiles",
+          "id": "12710",
+          "item_name": "#DOTA_Item_Brains_of_the_Northern_Exiles",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frostivus2018_alch_northern_raiders_back/frostivus2018_alch_northern_raiders_back.vmdl"
+        },
+        {
+          "name": "Helm of the Northern Exiles",
+          "id": "12704",
+          "item_name": "#DOTA_Item_Helm_of_the_Northern_Exiles",
+          "item_slot": "neck",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frostivus2018_alch_northern_raiders_neck/frostivus2018_alch_northern_raiders_neck.vmdl"
+        },
+        {
+          "name": "Delight of the Northern Exiles",
+          "id": "12708",
+          "item_name": "#DOTA_Item_Delight_of_the_Northern_Exiles",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frostivus2018_alch_northern_raiders_off_hand/frostivus2018_alch_northern_raiders_off_hand.vmdl"
+        },
+        {
+          "name": "Gear of the Northern Exiles",
+          "id": "12707",
+          "item_name": "#DOTA_Item_Gear_of_the_Northern_Exiles",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frostivus2018_alch_northern_raiders_shoulder/frostivus2018_alch_northern_raiders_shoulder.vmdl"
+        },
+        {
+          "name": "Braun of the Northern Exiles",
+          "id": "12711",
+          "item_name": "#DOTA_Item_Braun_of_the_Northern_Exiles",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frostivus2018_alch_northern_raiders_armor/frostivus2018_alch_northern_raiders_armor.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Razils_Revitalizer",
+      "store_bundle": "Razil's Revitalizer",
+      "portrait_image": "econ/sets/v2/razils_revitalizer",
+      "items": [
+        {
+          "name": "Razil's Revitalizer Weapons",
+          "id": "18083",
+          "item_name": "#DOTA_Item_Razils_Revitalizer_Weapons",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frankenstein_weapon/frankenstein_weapon.vmdl"
+        },
+        {
+          "name": "Razil's Revitalizer Pipes",
+          "id": "18082",
+          "item_name": "#DOTA_Item_Razils_Revitalizer_Pipes",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frankenstein_shoulder/frankenstein_shoulder.vmdl"
+        },
+        {
+          "name": "Razil's Revitalizer Potions",
+          "id": "18081",
+          "item_name": "#DOTA_Item_Razils_Revitalizer_Potions",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frankenstein_off_hand/frankenstein_off_hand.vmdl"
+        },
+        {
+          "name": "Razil's Revitalizer Cage",
+          "id": "18080",
+          "item_name": "#DOTA_Item_Razils_Revitalizer_Cage",
+          "item_slot": "neck",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frankenstein_neck/frankenstein_neck.vmdl"
+        },
+        {
+          "name": "Razil's Revitalizer Armor",
+          "id": "18079",
+          "item_name": "#DOTA_Item_Razils_Revitalizer_Armor",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frankenstein_back/frankenstein_back.vmdl"
+        },
+        {
+          "name": "Razil's Revitalizer Arms",
+          "id": "18078",
+          "item_name": "#DOTA_Item_Razils_Revitalizer_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frankenstein_arms/frankenstein_arms.vmdl"
+        },
+        {
+          "name": "Razil's Revitalizer Garb",
+          "id": "18077",
+          "item_name": "#DOTA_Item_Razils_Revitalizer_Garb",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/alchemist/frankenstein_armor/frankenstein_armor.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Taur_Rider",
+      "store_bundle": "Taur Rider",
+      "portrait_image": "econ/sets/v2/taur_rider",
+      "items": [
+        {
+          "name": "Taur Rider Armor",
+          "id": "25595",
+          "item_name": "#DOTA_Item_Taur_Rider_Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/alchemist_minotaur_champion_armor_regal/alchemist_minotaur_champion_armor_regal.vmdl"
+        },
+        {
+          "name": "Taur Rider Arms",
+          "id": "25598",
+          "item_name": "#DOTA_Item_Taur_Rider_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/alchemist_minotaur_champion_arms_regal/alchemist_minotaur_champion_arms_regal.vmdl"
+        },
+        {
+          "name": "Taur Rider Back",
+          "id": "25600",
+          "item_name": "#DOTA_Item_Taur_Rider_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/alchemist_minotaur_champion_back_regal/alchemist_minotaur_champion_back_regal.vmdl"
+        },
+        {
+          "name": "Taur Rider Offhand",
+          "id": "25602",
+          "item_name": "#DOTA_Item_Taur_Rider_Offhand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/alchemist_minotaur_champion_offhand_regal/alchemist_minotaur_champion_offhand_regal.vmdl"
+        },
+        {
+          "name": "Taur Rider Head",
+          "id": "25604",
+          "item_name": "#DOTA_Item_Taur_Rider_Head",
+          "item_slot": "neck",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/alchemist_minotaur_champion_head_regal/alchemist_minotaur_champion_head_regal.vmdl"
+        },
+        {
+          "name": "Taur Rider Shoulders",
+          "id": "25607",
+          "item_name": "#DOTA_Item_Taur_Rider_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/alchemist_minotaur_champion_shoulders_crimson_2/alchemist_minotaur_champion_shoulders_crimson_2.vmdl"
+        },
+        {
+          "name": "Taur Rider Weapons",
+          "id": "25611",
+          "item_name": "#DOTA_Item_Taur_Rider_Weapons",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/alchemist/alchemist_minotaur_champion_weapon_regal/alchemist_minotaur_champion_weapon_regal.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_TI9_Cache_Alchemist_New_Chieftain",
+      "store_bundle": "TI9 Cache Alchemist New Chieftain",
+      "portrait_image": "econ/sets/v2/ti9_cache_alchemist_new_chieftain",
+      "items": [
+        {
+          "name": "[TI9 Cache] Alchemist New Chieftain Arms",
+          "id": "13211",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Alchemist_New_Chieftain_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/ti9_cache_alchemist_new_chieftain_arms/ti9_cache_alchemist_new_chieftain_arms.vmdl"
+        },
+        {
+          "name": "[TI9 Cache] Alchemist New Chieftain Neck",
+          "id": "13209",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Alchemist_New_Chieftain_Neck",
+          "item_slot": "neck",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/ti9_cache_alchemist_new_chieftain_neck/ti9_cache_alchemist_new_chieftain_neck.vmdl"
+        },
+        {
+          "name": "[TI9 Cache] Alchemist New Chieftain Off-Hand",
+          "id": "13208",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Alchemist_New_Chieftain_OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/ti9_cache_alchemist_new_chieftain_off_hand/ti9_cache_alchemist_new_chieftain_off_hand.vmdl"
+        },
+        {
+          "name": "[TI9 Cache] Alchemist New Chieftain Armor",
+          "id": "13207",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Alchemist_New_Chieftain_Armor",
+          "item_slot": "armor",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/ti9_cache_alchemist_new_chieftain_armor/ti9_cache_alchemist_new_chieftain_armor.vmdl"
+        },
+        {
+          "name": "[TI9 Cache] Alchemist New Chieftain Shoulder",
+          "id": "13206",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Alchemist_New_Chieftain_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/ti9_cache_alchemist_new_chieftain_shoulder/ti9_cache_alchemist_new_chieftain_shoulder.vmdl"
+        },
+        {
+          "name": "[TI9 Cache] Alchemist New Chieftain Weapon",
+          "id": "13205",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Alchemist_New_Chieftain_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/alchemist/ti9_cache_alchemist_new_chieftain_weapon/ti9_cache_alchemist_new_chieftain_weapon.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "117",
+      "name": "Alchemist's Goblin Body",
+      "item_name": "#DOTA_Item_Alchemists_Goblin_Body",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/alchemist/alchemist_goblin_body.vmdl"
+    },
+    {
+      "id": "118",
+      "name": "Alchemist's Weapon",
+      "item_name": "#DOTA_Item_Alchemists_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/alchemist/alchemist_scabbard.vmdl"
+    },
+    {
+      "id": "119",
+      "name": "Alchemist's Saddle",
+      "item_name": "#DOTA_Item_Alchemists_Saddle",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/alchemist/alchemist_saddlehat.vmdl"
+    },
+    {
+      "id": "120",
+      "name": "Alchemist's Gauntlets",
+      "item_name": "#DOTA_Item_Alchemists_Gauntlets",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/alchemist/alchemist_gauntlets.vmdl"
+    },
+    {
+      "id": "121",
+      "name": "Alchemist's Goblin Hat",
+      "item_name": "#DOTA_Item_Alchemists_Goblin_Hat",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/alchemist/alchemist_goblinhat.vmdl"
+    },
+    {
+      "id": "122",
+      "name": "Alchemist's Left Bottle",
+      "item_name": "#DOTA_Item_Alchemists_Left_Bottle",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/alchemist/alchemist_leftbottle.vmdl"
+    },
+    {
+      "id": "123",
+      "name": "Alchemist's Goblin Head",
+      "item_name": "#DOTA_Item_Alchemists_Goblin_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/alchemist/alchemist_goblin_head.vmdl"
+    },
+    {
+      "id": "124",
+      "name": "Alchemist's Ogre Head",
+      "item_name": "#DOTA_Item_Alchemists_Ogre_Head",
+      "item_slot": "body_head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/alchemist/alchemist_ogre_head.vmdl"
+    },
+    {
+      "id": "125",
+      "name": "Alchemist's Shoulder Bottle",
+      "item_name": "#DOTA_Item_Alchemists_Shoulder_Bottle",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/alchemist/alchemist_shoulderbottles.vmdl"
+    },
+    {
+      "id": "738",
+      "name": "Alchemist's Costume",
+      "item_name": "#DOTA_Item_Alchemists_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4511",
+      "name": "Assistant's Respirator",
+      "item_name": "#DOTA_Item_Assistants_Respirator",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/therespirator/therespirator.vmdl"
+    },
+    {
+      "id": "4724",
+      "name": "Assistant's Cutter",
+      "item_name": "#DOTA_Item_Assistants_Cutter",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/precisioncutter/precisioncutter.vmdl"
+    },
+    {
+      "id": "4798",
+      "name": "Assistant's Blades of Scientific Inquiry",
+      "item_name": "#DOTA_Item_Assistants_Blades_of_Scientific_Inquiry",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/brutalblades/brutalblades.vmdl"
+    },
+    {
+      "id": "4799",
+      "name": "Experimentalist's Laboratory Essentials",
+      "item_name": "#DOTA_Item_Experimentalists_Laboratory_Essentials",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/laboratoryessentials/laboratoryessentials.vmdl"
+    },
+    {
+      "id": "4800",
+      "name": "Experimentalist's Goggles",
+      "item_name": "#DOTA_Item_Experimentalists_Goggles",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/goblingoggles/goblingoggles.vmdl"
+    },
+    {
+      "id": "4801",
+      "name": "Experimentalist's Unstable Flask",
+      "item_name": "#DOTA_Item_Experimentalists_Unstable_Flask",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/alchemeyerflask/alchemeyerflask.vmdl"
+    },
+    {
+      "id": "4802",
+      "name": "Assistant's Muscle Pump",
+      "item_name": "#DOTA_Item_Assistants_Muscle_Pump",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/musclepump/musclepump.vmdl"
+    },
+    {
+      "id": "4944",
+      "name": "Young Alchemist's Protection",
+      "item_name": "#DOTA_Item_Young_Alchemists_Protection",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/caustic_outfit/caustic_outfit.vmdl"
+    },
+    {
+      "id": "4945",
+      "name": "Young Alchemist's Knot",
+      "item_name": "#DOTA_Item_Young_Alchemists_Knot",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/caustic_hair/caustic_hair.vmdl"
+    },
+    {
+      "id": "4946",
+      "name": "Ogre's Caustic Steel Bracers",
+      "item_name": "#DOTA_Item_Ogres_Caustic_Steel_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/caustic_bracer/caustic_bracer.vmdl"
+    },
+    {
+      "id": "4947",
+      "name": "Ogre's Caustic Steel Blinders",
+      "item_name": "#DOTA_Item_Ogres_Caustic_Steel_Blinders",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/caustic_armor/caustic_armor.vmdl"
+    },
+    {
+      "id": "4948",
+      "name": "Ogre's Caustic Steel Choppers",
+      "item_name": "#DOTA_Item_Ogres_Caustic_Steel_Choppers",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/caustic_weapon/caustic_weapon.vmdl"
+    },
+    {
+      "id": "5104",
+      "name": "Formed Alloy Pauldrons",
+      "item_name": "#DOTA_Item_Formed_Alloy_Pauldrons",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/armor/armor.vmdl"
+    },
+    {
+      "id": "5113",
+      "name": "Cranial Clap Trap",
+      "item_name": "#DOTA_Item_Cranial_Clap_Trap",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/cranial_clap_trap/cranial_clap_trap.vmdl"
+    },
+    {
+      "id": "5340",
+      "name": "Broken Shackles",
+      "item_name": "#DOTA_Item_Broken_Shackles",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/prison_handcuff.vmdl"
+    },
+    {
+      "id": "5341",
+      "name": "Prisoner's Anchor",
+      "item_name": "#DOTA_Item_Prisoners_Anchor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/prison_ballchain.vmdl"
+    },
+    {
+      "id": "5423",
+      "name": "Lovebear",
+      "item_name": "#DOTA_Item_Lovebear",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/bear/bear.vmdl"
+    },
+    {
+      "id": "5495",
+      "name": "Formed Alloy Apron",
+      "item_name": "#DOTA_Item_Formed_Alloy_Apron",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/body/body.vmdl"
+    },
+    {
+      "id": "5496",
+      "name": "Formed Alloy Wristplates",
+      "item_name": "#DOTA_Item_Formed_Alloy_Wristplates",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/bracer/bracer.vmdl"
+    },
+    {
+      "id": "5497",
+      "name": "Formed Alloy Flask",
+      "item_name": "#DOTA_Item_Formed_Alloy_Flask",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/flask/flask.vmdl"
+    },
+    {
+      "id": "5498",
+      "name": "Formed Alloy Goggles",
+      "item_name": "#DOTA_Item_Formed_Alloy_Goggles",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/goggles/goggles.vmdl"
+    },
+    {
+      "id": "5571",
+      "name": "Formed Alloy Blades",
+      "item_name": "#DOTA_Item_Formed_Alloy_Blades",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/swords/swords.vmdl"
+    },
+    {
+      "id": "5827",
+      "name": "Alchemists Infuser",
+      "item_name": "#DOTA_Item_Alchemists_Infuser",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/alchemist_infuser/alchemist_infuser.vmdl"
+    },
+    {
+      "id": "6009",
+      "name": "Heavy Butterfly Blades",
+      "item_name": "#DOTA_Item_Heavy_Butterfly_Blades",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/butterflyswords/butterflyswords.vmdl"
+    },
+    {
+      "id": "6117",
+      "name": "Toxic Siege Bracers",
+      "item_name": "#DOTA_Item_Toxic_Siege_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/toxic_siege_bracers/toxic_siege_bracers.vmdl"
+    },
+    {
+      "id": "6118",
+      "name": "Toxic Siege Garb",
+      "item_name": "#DOTA_Item_Toxic_Siege_Garb",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/toxic_siege_garb/toxic_siege_garb.vmdl"
+    },
+    {
+      "id": "6119",
+      "name": "Toxic Siege Safety Goggles",
+      "item_name": "#DOTA_Item_Toxic_Siege_Safety_Goggles",
+      "item_slot": "neck",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/toxic_siege_safety_goggles/toxic_siege_safety_goggles.vmdl"
+    },
+    {
+      "id": "6120",
+      "name": "Toxic Siege Corrosive Flasks",
+      "item_name": "#DOTA_Item_Toxic_Siege_Corrosive_Flasks",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/toxic_siege_corrosive_flasks/toxic_siege_corrosive_flasks.vmdl"
+    },
+    {
+      "id": "6121",
+      "name": "Toxic Siege Armored Saddle",
+      "item_name": "#DOTA_Item_Toxic_Siege_Armored_Saddle",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/toxic_siege_armored_saddle/toxic_siege_armored_saddle.vmdl"
+    },
+    {
+      "id": "6122",
+      "name": "Toxic Siege Pauldrons",
+      "item_name": "#DOTA_Item_Toxic_Siege_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/toxic_siege_pauldrons/toxic_siege_pauldrons.vmdl"
+    },
+    {
+      "id": "6123",
+      "name": "Toxic Siege Blades",
+      "item_name": "#DOTA_Item_Toxic_Siege_Blades",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/toxic_siege_blades/toxic_siege_blades.vmdl"
+    },
+    {
+      "id": "6362",
+      "name": "Helmet of the Convicts",
+      "item_name": "#DOTA_Item_Helmet_of_the_Convicts",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/convict_trophy_armor/convict_trophy_armor.vmdl"
+    },
+    {
+      "id": "6363",
+      "name": "Gauntlets of the Convicts",
+      "item_name": "#DOTA_Item_Gauntlets_of_the_Convicts",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/convict_trophy_arms/convict_trophy_arms.vmdl"
+    },
+    {
+      "id": "6364",
+      "name": "Flask of the Convicts",
+      "item_name": "#DOTA_Item_Flask_of_the_Convicts",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/convict_trophy_offhand/convict_trophy_offhand.vmdl"
+    },
+    {
+      "id": "6454",
+      "name": "Mohawk of the Convicts",
+      "item_name": "#DOTA_Item_Mohawk_of_the_Convicts",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/convict_trophy_neck/convict_trophy_neck.vmdl"
+    },
+    {
+      "id": "6455",
+      "name": "Spiked Shoulder of the Convicts",
+      "item_name": "#DOTA_Item_Spiked_Shoulder_of_the_Convicts",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/convict_trophy_shoulder/convict_trophy_shoulder.vmdl"
+    },
+    {
+      "id": "6456",
+      "name": "Suit of the Convicts",
+      "item_name": "#DOTA_Item_Suit_of_the_Convicts",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/convict_trophy_back/convict_trophy_back.vmdl"
+    },
+    {
+      "id": "6457",
+      "name": "Kopesh of the Convicts",
+      "item_name": "#DOTA_Item_Kopesh_of_the_Convicts",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/convict_trophy_weapon/convict_trophy_weapon.vmdl"
+    },
+    {
+      "id": "7627",
+      "name": "Eternal Radiance Blades",
+      "item_name": "#DOTA_Item_Eternal_Radiance_Blades",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/twin_blades_aurelian/twin_blades_aurelian.vmdl"
+    },
+    {
+      "id": "7660",
+      "name": "Taunt: Ogre Hop",
+      "item_name": "#DOTA_Item_Taunt_Ogre_Hop",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "taunt"
+    },
+    {
+      "id": "7850",
+      "name": "Promo Twin Blades of Aurelian",
+      "item_name": "#DOTA_Item_Promo_Twin_Blades_of_Aurelian",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/twin_blades_aurelian/twin_blades_aurelian.vmdl"
+    },
+    {
+      "id": "8262",
+      "name": "Hatchets of Big 'Un",
+      "item_name": "#DOTA_Item_Hatchets_of_Big_Un",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/waaagh_alchemist_weapon/waaagh_alchemist_weapon.vmdl"
+    },
+    {
+      "id": "8264",
+      "name": "Spaulders of Big 'Un",
+      "item_name": "#DOTA_Item_Spaulders_of_Big_Un",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/waaagh_alchemist_shoulder/waaagh_alchemist_shoulder.vmdl"
+    },
+    {
+      "id": "8265",
+      "name": "Flask of Little Big 'Un",
+      "item_name": "#DOTA_Item_Flask_of_Little_Big_Un",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/waaagh_alchemist_off_hand/waaagh_alchemist_off_hand.vmdl"
+    },
+    {
+      "id": "8270",
+      "name": "Cap of Little Big 'Un",
+      "item_name": "#DOTA_Item_Cap_of_Little_Big_Un",
+      "item_slot": "neck",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/waaagh_alchemist_neck/waaagh_alchemist_neck.vmdl"
+    },
+    {
+      "id": "8272",
+      "name": "Garb of Little Big 'Un",
+      "item_name": "#DOTA_Item_Garb_of_Little_Big_Un",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/waaagh_alchemist_back/waaagh_alchemist_back.vmdl"
+    },
+    {
+      "id": "8274",
+      "name": "Armguards of Big 'Un",
+      "item_name": "#DOTA_Item_Armguards_of_Big_Un",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/waaagh_alchemist_arms/waaagh_alchemist_arms.vmdl"
+    },
+    {
+      "id": "8277",
+      "name": "Helm of Big 'Un",
+      "item_name": "#DOTA_Item_Helm_of_Big_Un",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/waaagh_alchemist_armor/waaagh_alchemist_armor.vmdl"
+    },
+    {
+      "id": "8400",
+      "name": "Waaagh Hatchets of Big 'Un",
+      "item_name": "#DOTA_Item_Waaagh_Hatchets_of_Big_Un",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/waaagh_alchemist_weapon/waaagh_alchemist_weapon.vmdl"
+    },
+    {
+      "id": "8402",
+      "name": "Waaagh Helm of Big 'Un",
+      "item_name": "#DOTA_Item_Waaagh_Helm_of_Big_Un",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/waaagh_alchemist_armor/waaagh_alchemist_armor.vmdl"
+    },
+    {
+      "id": "8404",
+      "name": "Waaagh Armguards of Big 'Un",
+      "item_name": "#DOTA_Item_Waaagh_Armguards_of_Big_Un",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/waaagh_alchemist_arms/waaagh_alchemist_arms.vmdl"
+    },
+    {
+      "id": "8406",
+      "name": "Waaagh Garb of Little Big 'Un",
+      "item_name": "#DOTA_Item_Waaagh_Garb_of_Little_Big_Un",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/waaagh_alchemist_back/waaagh_alchemist_back.vmdl"
+    },
+    {
+      "id": "8407",
+      "name": "Waaagh Cap of Little Big 'Un",
+      "item_name": "#DOTA_Item_Waaagh_Cap_of_Little_Big_Un",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/waaagh_alchemist_neck/waaagh_alchemist_neck.vmdl"
+    },
+    {
+      "id": "8409",
+      "name": "Waaagh Flask of Little Big 'Un",
+      "item_name": "#DOTA_Item_Waaagh_Flask_of_Little_Big_Un",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/waaagh_alchemist_off_hand/waaagh_alchemist_off_hand.vmdl"
+    },
+    {
+      "id": "8410",
+      "name": "Waaagh Spaulders of Big 'Un",
+      "item_name": "#DOTA_Item_Waaagh_Spaulders_of_Big_Un",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/waaagh_alchemist_shoulder/waaagh_alchemist_shoulder.vmdl"
+    },
+    {
+      "id": "8518",
+      "name": "Armguards of the Darkbrew Enforcer",
+      "item_name": "#DOTA_Item_Armguards_of_the_Darkbrew_Enforcer",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/smooth_criminal_arms/smooth_criminal_arms.vmdl"
+    },
+    {
+      "id": "8528",
+      "name": "Molotov Cocktail of the Darkbrew Enforcer",
+      "item_name": "#DOTA_Item_Molotov_Cocktail_of_the_Darkbrew_Enforcer",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/smooth_criminal_off_hand/smooth_criminal_off_hand.vmdl"
+    },
+    {
+      "id": "8529",
+      "name": "Shotgun Blade of the Darkbrew Enforcer",
+      "item_name": "#DOTA_Item_Shotgun_Blade_of_the_Darkbrew_Enforcer",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/smooth_criminal_weapon/smooth_criminal_weapon.vmdl"
+    },
+    {
+      "id": "8530",
+      "name": "Garb of the Darkbrew Enforcer",
+      "item_name": "#DOTA_Item_Garb_of_the_Darkbrew_Enforcer",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/smooth_criminal_back/smooth_criminal_back.vmdl"
+    },
+    {
+      "id": "8531",
+      "name": "Shotgun Sling of the Darkbrew Enforcer",
+      "item_name": "#DOTA_Item_Shotgun_Sling_of_the_Darkbrew_Enforcer",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/smooth_criminal_shoulder/smooth_criminal_shoulder.vmdl"
+    },
+    {
+      "id": "8532",
+      "name": "Suit of the Darkbrew Enforcer",
+      "item_name": "#DOTA_Item_Suit_of_the_Darkbrew_Enforcer",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/smooth_criminal_armor/smooth_criminal_armor.vmdl"
+    },
+    {
+      "id": "8533",
+      "name": "Top Hat of the Darkbrew Enforcer",
+      "item_name": "#DOTA_Item_Top_Hat_of_the_Darkbrew_Enforcer",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/smooth_criminal_neck/smooth_criminal_neck.vmdl"
+    },
+    {
+      "id": "8926",
+      "name": "Midas Knuckles",
+      "item_name": "#DOTA_Item_Midas_Knuckles",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/midasknuckles/midasknuckles.vmdl"
+    },
+    {
+      "id": "9303",
+      "name": "Weapons of the Boilerplate Bruiser",
+      "item_name": "#DOTA_Item_Weapons_of_the_Boilerplate_Bruiser",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/stove_guardian_weapon/stove_guardian_weapon.vmdl"
+    },
+    {
+      "id": "9304",
+      "name": "Off-Hand of the Boilerplate Bruiser",
+      "item_name": "#DOTA_Item_OffHand_of_the_Boilerplate_Bruiser",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/stove_guardian_off_hand/stove_guardian_off_hand.vmdl"
+    },
+    {
+      "id": "9315",
+      "name": "Neck of the Boilerplate Bruiser",
+      "item_name": "#DOTA_Item_Neck_of_the_Boilerplate_Bruiser",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/stove_guardian_neck/stove_guardian_neck.vmdl"
+    },
+    {
+      "id": "9329",
+      "name": "Smokestacks of the Boilerplate Bruiser",
+      "item_name": "#DOTA_Item_Smokestacks_of_the_Boilerplate_Bruiser",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/stove_guardian_shoulder/stove_guardian_shoulder.vmdl"
+    },
+    {
+      "id": "9402",
+      "name": "Arms of the Boilerplate Bruiser",
+      "item_name": "#DOTA_Item_Arms_of_the_Boilerplate_Bruiser",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/stove_guardian_arms/stove_guardian_arms.vmdl"
+    },
+    {
+      "id": "9403",
+      "name": "Coat of the Boilerplate Bruiser",
+      "item_name": "#DOTA_Item_Coat_of_the_Boilerplate_Bruiser",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/stove_guardian_back/stove_guardian_back.vmdl"
+    },
+    {
+      "id": "9404",
+      "name": "Armor of the Boilerplate Bruiser",
+      "item_name": "#DOTA_Item_Armor_of_the_Boilerplate_Bruiser",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/stove_guardian_armor/stove_guardian_armor.vmdl"
+    },
+    {
+      "id": "9568",
+      "name": "Razzil's Midas Knuckles",
+      "item_name": "#DOTA_Item_Razzils_Midas_Knuckles",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/midasknuckles/midasknuckles.vmdl"
+    },
+    {
+      "id": "12647",
+      "name": "Alchemist-Jungle Chief Armor",
+      "item_name": "#DOTA_Item_AlchemistJungle_Chief_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/alchemist_jungle_chief_armor/alchemist_jungle_chief_armor.vmdl"
+    },
+    {
+      "id": "12648",
+      "name": "Alchemist-Jungle Chief Arms",
+      "item_name": "#DOTA_Item_AlchemistJungle_Chief_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/alchemist_jungle_chief_arms/alchemist_jungle_chief_arms.vmdl"
+    },
+    {
+      "id": "12649",
+      "name": "Alchemist-Jungle Chief Weapon",
+      "item_name": "#DOTA_Item_AlchemistJungle_Chief_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/alchemist_jungle_chief_weapon/alchemist_jungle_chief_weapon.vmdl"
+    },
+    {
+      "id": "12650",
+      "name": "Alchemist-Jungle Chief Back",
+      "item_name": "#DOTA_Item_AlchemistJungle_Chief_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/alchemist_jungle_chief_back/alchemist_jungle_chief_back.vmdl"
+    },
+    {
+      "id": "12651",
+      "name": "Alchemist-Jungle Chief Shoulder",
+      "item_name": "#DOTA_Item_AlchemistJungle_Chief_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/alchemist_jungle_chief_shoulder/alchemist_jungle_chief_shoulder.vmdl"
+    },
+    {
+      "id": "12652",
+      "name": "Alchemist-Jungle Chief Neck",
+      "item_name": "#DOTA_Item_AlchemistJungle_Chief_Neck",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/alchemist_jungle_chief_neck/alchemist_jungle_chief_neck.vmdl"
+    },
+    {
+      "id": "12653",
+      "name": "Alchemist-Jungle Chief Off-Hand",
+      "item_name": "#DOTA_Item_AlchemistJungle_Chief_OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/alchemist_jungle_chief_off_hand/alchemist_jungle_chief_off_hand.vmdl"
+    },
+    {
+      "id": "12697",
+      "name": "Frostreach Brigands Harness",
+      "item_name": "#DOTA_Item_Frostreach_Brigands_Harness",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frostivus_2018_alchemist_yeti_rider_armor/frostivus_2018_alchemist_yeti_rider_armor.vmdl"
+    },
+    {
+      "id": "12698",
+      "name": "Frostreach Brigands Bracers",
+      "item_name": "#DOTA_Item_Frostreach_Brigands_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frostivus_2018_alchemist_yeti_rider_arms/frostivus_2018_alchemist_yeti_rider_arms.vmdl"
+    },
+    {
+      "id": "12699",
+      "name": "Frostreach Brigands Scarf",
+      "item_name": "#DOTA_Item_Frostreach_Brigands_Scarf",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frostivus_2018_alchemist_yeti_rider_back/frostivus_2018_alchemist_yeti_rider_back.vmdl"
+    },
+    {
+      "id": "12700",
+      "name": "Frostreach Brigands Hat",
+      "item_name": "#DOTA_Item_Frostreach_Brigands_Hat",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frostivus_2018_alchemist_yeti_rider_neck/frostivus_2018_alchemist_yeti_rider_neck.vmdl"
+    },
+    {
+      "id": "12701",
+      "name": "Frostreach Brigands Thermos",
+      "item_name": "#DOTA_Item_Frostreach_Brigands_Thermos",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frostivus_2018_alchemist_yeti_rider_off_hand/frostivus_2018_alchemist_yeti_rider_off_hand.vmdl"
+    },
+    {
+      "id": "12702",
+      "name": "Frostreach Brigands Shoulders",
+      "item_name": "#DOTA_Item_Frostreach_Brigands_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frostivus_2018_alchemist_yeti_rider_shoulder/frostivus_2018_alchemist_yeti_rider_shoulder.vmdl"
+    },
+    {
+      "id": "12703",
+      "name": "Frostreach Brigands Axes",
+      "item_name": "#DOTA_Item_Frostreach_Brigands_Axes",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frostivus_2018_alchemist_yeti_rider_weapon/frostivus_2018_alchemist_yeti_rider_weapon.vmdl"
+    },
+    {
+      "id": "12704",
+      "name": "Helm of the Northern Exiles",
+      "item_name": "#DOTA_Item_Helm_of_the_Northern_Exiles",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frostivus2018_alch_northern_raiders_neck/frostivus2018_alch_northern_raiders_neck.vmdl"
+    },
+    {
+      "id": "12706",
+      "name": "Tools of the Northern Exiles",
+      "item_name": "#DOTA_Item_Tools_of_the_Northern_Exiles",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frostivus2018_alch_northern_raiders_weapon/frostivus2018_alch_northern_raiders_weapon.vmdl"
+    },
+    {
+      "id": "12707",
+      "name": "Gear of the Northern Exiles",
+      "item_name": "#DOTA_Item_Gear_of_the_Northern_Exiles",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frostivus2018_alch_northern_raiders_shoulder/frostivus2018_alch_northern_raiders_shoulder.vmdl"
+    },
+    {
+      "id": "12708",
+      "name": "Delight of the Northern Exiles",
+      "item_name": "#DOTA_Item_Delight_of_the_Northern_Exiles",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frostivus2018_alch_northern_raiders_off_hand/frostivus2018_alch_northern_raiders_off_hand.vmdl"
+    },
+    {
+      "id": "12709",
+      "name": "Arms of the Northern Exiles",
+      "item_name": "#DOTA_Item_Arms_of_the_Northern_Exiles",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frostivus2018_alch_northern_raiders_arms/frostivus2018_alch_northern_raiders_arms.vmdl"
+    },
+    {
+      "id": "12710",
+      "name": "Brains of the Northern Exiles",
+      "item_name": "#DOTA_Item_Brains_of_the_Northern_Exiles",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frostivus2018_alch_northern_raiders_back/frostivus2018_alch_northern_raiders_back.vmdl"
+    },
+    {
+      "id": "12711",
+      "name": "Braun of the Northern Exiles",
+      "item_name": "#DOTA_Item_Braun_of_the_Northern_Exiles",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frostivus2018_alch_northern_raiders_armor/frostivus2018_alch_northern_raiders_armor.vmdl"
+    },
+    {
+      "id": "13205",
+      "name": "[TI9 Cache] Alchemist New Chieftain Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Alchemist_New_Chieftain_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/ti9_cache_alchemist_new_chieftain_weapon/ti9_cache_alchemist_new_chieftain_weapon.vmdl"
+    },
+    {
+      "id": "13206",
+      "name": "[TI9 Cache] Alchemist New Chieftain Shoulder",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Alchemist_New_Chieftain_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/ti9_cache_alchemist_new_chieftain_shoulder/ti9_cache_alchemist_new_chieftain_shoulder.vmdl"
+    },
+    {
+      "id": "13207",
+      "name": "[TI9 Cache] Alchemist New Chieftain Armor",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Alchemist_New_Chieftain_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/ti9_cache_alchemist_new_chieftain_armor/ti9_cache_alchemist_new_chieftain_armor.vmdl"
+    },
+    {
+      "id": "13208",
+      "name": "[TI9 Cache] Alchemist New Chieftain Off-Hand",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Alchemist_New_Chieftain_OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/ti9_cache_alchemist_new_chieftain_off_hand/ti9_cache_alchemist_new_chieftain_off_hand.vmdl"
+    },
+    {
+      "id": "13209",
+      "name": "[TI9 Cache] Alchemist New Chieftain Neck",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Alchemist_New_Chieftain_Neck",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/ti9_cache_alchemist_new_chieftain_neck/ti9_cache_alchemist_new_chieftain_neck.vmdl"
+    },
+    {
+      "id": "13211",
+      "name": "[TI9 Cache] Alchemist New Chieftain Arms",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Alchemist_New_Chieftain_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/ti9_cache_alchemist_new_chieftain_arms/ti9_cache_alchemist_new_chieftain_arms.vmdl"
+    },
+    {
+      "id": "13212",
+      "name": "[TI9 Cache] Alchemist New Chieftain Neck 2",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Alchemist_New_Chieftain_Neck_2",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/ti9_cache_alchemist_new_chieftain_neck_2/ti9_cache_alchemist_new_chieftain_neck_2.vmdl"
+    },
+    {
+      "id": "13213",
+      "name": "[TI9 Cache] Alchemist New Chieftain Back 2",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Alchemist_New_Chieftain_Back_2",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/ti9_cache_alchemist_new_chieftain_back_2/ti9_cache_alchemist_new_chieftain_back_2.vmdl"
+    },
+    {
+      "id": "14168",
+      "name": "Cosmic Concoctioneers - Armor",
+      "item_name": "#DOTA_Item_Cosmic_Concoctioneers__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/spacefrog_hunter_armor/spacefrog_hunter_armor.vmdl"
+    },
+    {
+      "id": "14169",
+      "name": "Cosmic Concoctioneers - Arms",
+      "item_name": "#DOTA_Item_Cosmic_Concoctioneers__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/spacefrog_hunter_arms/spacefrog_hunter_arms.vmdl"
+    },
+    {
+      "id": "14170",
+      "name": "Cosmic Concoctioneers - Back",
+      "item_name": "#DOTA_Item_Cosmic_Concoctioneers__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/spacefrog_hunter_back/spacefrog_hunter_back.vmdl"
+    },
+    {
+      "id": "14171",
+      "name": "Cosmic Concoctioneers - Off-Hand",
+      "item_name": "#DOTA_Item_Cosmic_Concoctioneers__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/spacefrog_hunter_off_hand/spacefrog_hunter_off_hand.vmdl"
+    },
+    {
+      "id": "14192",
+      "name": "Cosmic Concoctioneers - Neck",
+      "item_name": "#DOTA_Item_Cosmic_Concoctioneers__Neck",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/spacefrog_hunter_neck/spacefrog_hunter_neck.vmdl"
+    },
+    {
+      "id": "14193",
+      "name": "Cosmic Concoctioneers - Shoulder",
+      "item_name": "#DOTA_Item_Cosmic_Concoctioneers__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/spacefrog_hunter_shoulder/spacefrog_hunter_shoulder.vmdl"
+    },
+    {
+      "id": "14194",
+      "name": "Cosmic Concoctioneers - Weapon",
+      "item_name": "#DOTA_Item_Cosmic_Concoctioneers__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/spacefrog_hunter_weapon/spacefrog_hunter_weapon.vmdl"
+    },
+    {
+      "id": "17934",
+      "name": "Darkbrew's Transgression - Off-Hand",
+      "item_name": "#DOTA_Item_Darkbrews_Transgression__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/crazy_experiment_off_hand/crazy_experiment_off_hand.vmdl"
+    },
+    {
+      "id": "17935",
+      "name": "Darkbrew's Transgression - Back",
+      "item_name": "#DOTA_Item_Darkbrews_Transgression__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/crazy_experiment_back/crazy_experiment_back.vmdl"
+    },
+    {
+      "id": "17936",
+      "name": "Darkbrew's Transgression - Arms",
+      "item_name": "#DOTA_Item_Darkbrews_Transgression__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/crazy_experiment_arms/crazy_experiment_arms.vmdl"
+    },
+    {
+      "id": "17937",
+      "name": "Darkbrew's Transgression - Shoulder",
+      "item_name": "#DOTA_Item_Darkbrews_Transgression__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/crazy_experiment_shoulder/crazy_experiment_shoulder.vmdl"
+    },
+    {
+      "id": "17938",
+      "name": "Darkbrew's Transgression - Neck",
+      "item_name": "#DOTA_Item_Darkbrews_Transgression__Neck",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/crazy_experiment_neck/crazy_experiment_neck.vmdl"
+    },
+    {
+      "id": "17939",
+      "name": "Darkbrew's Transgression - Armor",
+      "item_name": "#DOTA_Item_Darkbrews_Transgression__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/crazy_experiment_armor/crazy_experiment_armor.vmdl"
+    },
+    {
+      "id": "17940",
+      "name": "Darkbrew's Transgression - Weapon",
+      "item_name": "#DOTA_Item_Darkbrews_Transgression__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/crazy_experiment_weapon/crazy_experiment_weapon.vmdl"
+    },
+    {
+      "id": "18077",
+      "name": "Razil's Revitalizer Garb",
+      "item_name": "#DOTA_Item_Razils_Revitalizer_Garb",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frankenstein_armor/frankenstein_armor.vmdl"
+    },
+    {
+      "id": "18078",
+      "name": "Razil's Revitalizer Arms",
+      "item_name": "#DOTA_Item_Razils_Revitalizer_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frankenstein_arms/frankenstein_arms.vmdl"
+    },
+    {
+      "id": "18079",
+      "name": "Razil's Revitalizer Armor",
+      "item_name": "#DOTA_Item_Razils_Revitalizer_Armor",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frankenstein_back/frankenstein_back.vmdl"
+    },
+    {
+      "id": "18080",
+      "name": "Razil's Revitalizer Cage",
+      "item_name": "#DOTA_Item_Razils_Revitalizer_Cage",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frankenstein_neck/frankenstein_neck.vmdl"
+    },
+    {
+      "id": "18081",
+      "name": "Razil's Revitalizer Potions",
+      "item_name": "#DOTA_Item_Razils_Revitalizer_Potions",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frankenstein_off_hand/frankenstein_off_hand.vmdl"
+    },
+    {
+      "id": "18082",
+      "name": "Razil's Revitalizer Pipes",
+      "item_name": "#DOTA_Item_Razils_Revitalizer_Pipes",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frankenstein_shoulder/frankenstein_shoulder.vmdl"
+    },
+    {
+      "id": "18083",
+      "name": "Razil's Revitalizer Weapons",
+      "item_name": "#DOTA_Item_Razils_Revitalizer_Weapons",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/frankenstein_weapon/frankenstein_weapon.vmdl"
+    },
+    {
+      "id": "18304",
+      "name": "Alchemist's Diretide Shimmer Costume",
+      "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Costume",
+      "item_slot": "costume",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18305",
+      "name": "Alchemist's Diretide Shimmer Gauntlets",
+      "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Gauntlets",
+      "item_slot": "arms",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/alchemist/alchemist_gauntlets.vmdl"
+    },
+    {
+      "id": "18306",
+      "name": "Alchemist's Diretide Shimmer Armor",
+      "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Armor",
+      "item_slot": "armor",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/alchemist/alchemist_saddlehat.vmdl"
+    },
+    {
+      "id": "18307",
+      "name": "Alchemist's Diretide Shimmer Weapon",
+      "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/alchemist/alchemist_scabbard.vmdl"
+    },
+    {
+      "id": "18308",
+      "name": "Alchemist's Diretide Shimmer Tiny Armor",
+      "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Tiny_Armor",
+      "item_slot": "back",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/alchemist/alchemist_goblin_body.vmdl"
+    },
+    {
+      "id": "18309",
+      "name": "Alchemist's Diretide Shimmer Goblin Head",
+      "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Goblin_Head",
+      "item_slot": "head",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/alchemist/alchemist_goblin_head.vmdl"
+    },
+    {
+      "id": "18310",
+      "name": "Alchemist's Diretide Shimmer Offhand",
+      "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/alchemist/alchemist_leftbottle.vmdl"
+    },
+    {
+      "id": "18373",
+      "name": "Alchemist's Diretide Shimmer Ogre Head",
+      "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Ogre_Head",
+      "item_slot": "body_head",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/alchemist/alchemist_ogre_head.vmdl"
+    },
+    {
+      "id": "18382",
+      "name": "Alchemist's Diretide Shimmer Shoulder Bottle",
+      "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Shoulder_Bottle",
+      "item_slot": "shoulder",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/alchemist/alchemist_shoulderbottles.vmdl"
+    },
+    {
+      "id": "18383",
+      "name": "Alchemist's Diretide Shimmer Goblin Hat",
+      "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Goblin_Hat",
+      "item_slot": "neck",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/alchemist/alchemist_goblinhat.vmdl"
+    },
+    {
+      "id": "20135",
+      "name": "Alchemy Essentials Set",
+      "item_name": "#DOTA_Item_Alchemy_Essentials_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20165",
+      "name": "Caustic Steel Set",
+      "item_name": "#DOTA_Item_Caustic_Steel_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20310",
+      "name": "Formed Alloy Set",
+      "item_name": "#DOTA_Item_Formed_Alloy_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20397",
+      "name": "Toxic Siege Armor Set",
+      "item_name": "#DOTA_Item_Toxic_Siege_Armor_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20494",
+      "name": "The Convicts' Trophies",
+      "item_name": "#DOTA_Item_The_Convicts_Trophies",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20961",
+      "name": "Big 'Un",
+      "item_name": "#DOTA_Item_Big_Un",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21026",
+      "name": "Waaagh Big 'Un",
+      "item_name": "#DOTA_Item_Waaagh_Big_Un",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21037",
+      "name": "Darkbrew Enforcer",
+      "item_name": "#DOTA_Item_Darkbrew_Enforcer",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21155",
+      "name": "Boilerplate Bruiser",
+      "item_name": "#DOTA_Item_Boilerplate_Bruiser",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21284",
+      "name": "Frostreach Brigands",
+      "item_name": "#DOTA_Item_Frostreach_Brigands",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21285",
+      "name": "Raid of the Northern Exiles",
+      "item_name": "#DOTA_Item_Raid_of_the_Northern_Exiles",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21365",
+      "name": "TI9 Cache Alchemist New Chieftain",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Alchemist_New_Chieftain",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21509",
+      "name": "Cosmic Concoctioneers",
+      "item_name": "#DOTA_Item_Cosmic_Concoctioneers",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21724",
+      "name": "Darkbrew's Transgression",
+      "item_name": "#DOTA_Item_Darkbrews_Transgression",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21746",
+      "name": "Razil's Revitalizer",
+      "item_name": "#DOTA_Item_Razils_Revitalizer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21788",
+      "name": "Alchemist's Diretide Shimmer Bundle",
+      "item_name": "#DOTA_Item_Alchemists_Diretide_Shimmer_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "24894",
+      "name": "Lumpo and Rupertus - Weapon",
+      "item_name": "#DOTA_Item_Lumpo_and_Rupertus__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/new_years_gift_weapon/new_years_gift_weapon.vmdl"
+    },
+    {
+      "id": "25594",
+      "name": "Taur Rider",
+      "item_name": "#DOTA_Item_Taur_Rider",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25595",
+      "name": "Taur Rider Armor",
+      "item_name": "#DOTA_Item_Taur_Rider_Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/alchemist_minotaur_champion_armor_regal/alchemist_minotaur_champion_armor_regal.vmdl"
+    },
+    {
+      "id": "25598",
+      "name": "Taur Rider Arms",
+      "item_name": "#DOTA_Item_Taur_Rider_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/alchemist_minotaur_champion_arms_regal/alchemist_minotaur_champion_arms_regal.vmdl"
+    },
+    {
+      "id": "25600",
+      "name": "Taur Rider Back",
+      "item_name": "#DOTA_Item_Taur_Rider_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/alchemist_minotaur_champion_back_regal/alchemist_minotaur_champion_back_regal.vmdl"
+    },
+    {
+      "id": "25602",
+      "name": "Taur Rider Offhand",
+      "item_name": "#DOTA_Item_Taur_Rider_Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/alchemist_minotaur_champion_offhand_regal/alchemist_minotaur_champion_offhand_regal.vmdl"
+    },
+    {
+      "id": "25604",
+      "name": "Taur Rider Head",
+      "item_name": "#DOTA_Item_Taur_Rider_Head",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/alchemist_minotaur_champion_head_regal/alchemist_minotaur_champion_head_regal.vmdl"
+    },
+    {
+      "id": "25607",
+      "name": "Taur Rider Shoulders",
+      "item_name": "#DOTA_Item_Taur_Rider_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/alchemist_minotaur_champion_shoulders_crimson_2/alchemist_minotaur_champion_shoulders_crimson_2.vmdl"
+    },
+    {
+      "id": "25611",
+      "name": "Taur Rider Weapons",
+      "item_name": "#DOTA_Item_Taur_Rider_Weapons",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/alchemist_minotaur_champion_weapon_regal/alchemist_minotaur_champion_weapon_regal.vmdl"
+    },
+    {
+      "id": "30365",
+      "name": "Lumpo and Rupertus - Back",
+      "item_name": "#DOTA_Item_Lumpo_and_Rupertus__Back",
+      "item_slot": "back",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/new_years_gift_body/new_years_gift_body.vmdl"
+    },
+    {
+      "id": "30366",
+      "name": "Lumpo and Rupertus - Head",
+      "item_name": "#DOTA_Item_Lumpo_and_Rupertus__Head",
+      "item_slot": "neck",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/new_years_gift_head/new_years_gift_head.vmdl"
+    },
+    {
+      "id": "30367",
+      "name": "Lumpo and Rupertus - Arms",
+      "item_name": "#DOTA_Item_Lumpo_and_Rupertus__Arms",
+      "item_slot": "arms",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/new_years_gift_arms/new_years_gift_arms.vmdl"
+    },
+    {
+      "id": "30368",
+      "name": "Lumpo and Rupertus - Armor",
+      "item_name": "#DOTA_Item_Lumpo_and_Rupertus__Armor",
+      "item_slot": "armor",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/new_years_gift_armor/new_years_gift_armor.vmdl"
+    },
+    {
+      "id": "30369",
+      "name": "Lumpo and Rupertus - Offhand",
+      "item_name": "#DOTA_Item_Lumpo_and_Rupertus__Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/new_years_gift_gift/new_years_gift_gift.vmdl"
+    },
+    {
+      "id": "30370",
+      "name": "Lumpo and Rupertus - Shoulder",
+      "item_name": "#DOTA_Item_Lumpo_and_Rupertus__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/new_years_gift_shoudler/new_years_gift_shoudler.vmdl"
+    },
+    {
+      "id": "30371",
+      "name": "Lumpo and Rupertus",
+      "item_name": "#DOTA_Item_Lumpo_and_Rupertus",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "bundle"
+    },
+    {
+      "id": "30781",
+      "name": "Potion Potentate - Armor",
+      "item_name": "#DOTA_Item_Potion_Potentate__Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/royal_bartender_knight_armor/royal_bartender_knight_armor.vmdl"
+    },
+    {
+      "id": "30782",
+      "name": "Potion Potentate - Arms",
+      "item_name": "#DOTA_Item_Potion_Potentate__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/royal_bartender_knight_arms/royal_bartender_knight_arms.vmdl"
+    },
+    {
+      "id": "30790",
+      "name": "Potion Potentate - Back",
+      "item_name": "#DOTA_Item_Potion_Potentate__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/royal_bartender_knight_back/royal_bartender_knight_back.vmdl"
+    },
+    {
+      "id": "30791",
+      "name": "Potion Potentate - Neck",
+      "item_name": "#DOTA_Item_Potion_Potentate__Neck",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/royal_bartender_knight_neck/royal_bartender_knight_neck.vmdl"
+    },
+    {
+      "id": "30796",
+      "name": "Potion Potentate - Offhand",
+      "item_name": "#DOTA_Item_Potion_Potentate__Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/royal_bartender_knight_offhand/royal_bartender_knight_offhand.vmdl"
+    },
+    {
+      "id": "30797",
+      "name": "Potion Potentate - Shoulder",
+      "item_name": "#DOTA_Item_Potion_Potentate__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/royal_bartender_knight_shoulders/royal_bartender_knight_shoulders.vmdl"
+    },
+    {
+      "id": "30798",
+      "name": "Potion Potentate - Weapon",
+      "item_name": "#DOTA_Item_Potion_Potentate__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/alchemist/royal_bartender_knight_weapon/royal_bartender_knight_weapon.vmdl"
+    },
+    {
+      "id": "30833",
+      "name": "Potion Potentate",
+      "item_name": "#DOTA_Item_Potion_Potentate",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    }
+  ]
+}

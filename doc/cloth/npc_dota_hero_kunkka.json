@@ -1,0 +1,3013 @@
+{
+  "defaults": {
+    "legs": {
+      "id": "10",
+      "name": "Kunkka's Boots",
+      "item_name": "#DOTA_Item_Kunkkas_Boots",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "model_player": "models/heroes/kunkka/kunkka_feet.vmdl"
+    },
+    "gloves": {
+      "id": "11",
+      "name": "Kunkka's Hands",
+      "item_name": "#DOTA_Item_Kunkkas_Hands",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "model_player": "models/heroes/kunkka/kunkka_hands.vmdl"
+    },
+    "weapon": {
+      "id": "12",
+      "name": "Kunkka's Sword",
+      "item_name": "#DOTA_Item_Kunkkas_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/kunkka/kunkka_sword.vmdl"
+    },
+    "head": {
+      "id": "14",
+      "name": "Kunkka's Hair",
+      "item_name": "#DOTA_Item_Kunkkas_Hair",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/kunkka/kunkka_hair.vmdl"
+    },
+    "belt": {
+      "id": "81",
+      "name": "Kunkka's Spyglass",
+      "item_name": "#DOTA_Item_Kunkkas_Spyglass",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "model_player": "models/heroes/kunkka/kunkka_spyglass.vmdl"
+    },
+    "shoulder": {
+      "id": "357",
+      "name": "Kunkka's Shoulder Guard",
+      "item_name": "#DOTA_Item_Kunkkas_Shoulder_Guard",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/kunkka/kunkka_shoulders.vmdl"
+    },
+    "back": {
+      "id": "8656",
+      "name": "Kunkka's Back",
+      "item_name": "#DOTA_Item_Kunkkas_Back",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "neck": {
+      "id": "8657",
+      "name": "Kunkka's Neck",
+      "item_name": "#DOTA_Item_Kunkkas_Neck",
+      "item_slot": "neck",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Anchors_of_the_Ageless_Deep",
+      "store_bundle": "Anchors of the Ageless Deep",
+      "portrait_image": "econ/sets/v2/anchors_of_the_ageless_deep",
+      "items": [
+        {
+          "name": "Anchors of the Ageless Deep - Weapon",
+          "id": "21990",
+          "item_name": "#DOTA_Item_Anchors_of_the_Ageless_Deep__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/kunkka_undead_weapon/kunkka_undead_weapon.vmdl"
+        },
+        {
+          "name": "Anchors of the Ageless Deep - Head",
+          "id": "21989",
+          "item_name": "#DOTA_Item_Anchors_of_the_Ageless_Deep__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/kunkka_undead_head/kunkka_undead_head.vmdl"
+        },
+        {
+          "name": "Anchors of the Ageless Deep - Legs",
+          "id": "21988",
+          "item_name": "#DOTA_Item_Anchors_of_the_Ageless_Deep__Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/kunkka_undead_legs/kunkka_undead_legs.vmdl"
+        },
+        {
+          "name": "Anchors of the Ageless Deep - Gloves",
+          "id": "21987",
+          "item_name": "#DOTA_Item_Anchors_of_the_Ageless_Deep__Gloves",
+          "item_slot": "gloves",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/kunkka_undead_gloves/kunkka_undead_gloves.vmdl"
+        },
+        {
+          "name": "Anchors of the Ageless Deep - Back",
+          "id": "21986",
+          "item_name": "#DOTA_Item_Anchors_of_the_Ageless_Deep__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/kunkka_undead_back/kunkka_undead_back.vmdl"
+        },
+        {
+          "name": "Anchors of the Ageless Deep - Shoulder",
+          "id": "21985",
+          "item_name": "#DOTA_Item_Anchors_of_the_Ageless_Deep__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/kunkka_undead_shoulder/kunkka_undead_shoulder.vmdl"
+        },
+        {
+          "name": "Anchors of the Ageless Deep - Neck",
+          "id": "21959",
+          "item_name": "#DOTA_Item_Anchors_of_the_Ageless_Deep__Neck",
+          "item_slot": "neck",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/kunkka_undead_neck/kunkka_undead_neck.vmdl"
+        },
+        {
+          "name": "Anchors of the Ageless Deep - Belt",
+          "id": "21934",
+          "item_name": "#DOTA_Item_Anchors_of_the_Ageless_Deep__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/kunkka_undead_belt/kunkka_undead_belt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Armaments_of_Leviathan",
+      "store_bundle": "Armaments of Leviathan Set",
+      "portrait_image": "econ/sets/v2/armaments_of_leviathan",
+      "items": [
+        {
+          "name": "Admiral's Foraged Cap",
+          "id": "5463",
+          "item_name": "#DOTA_Item_Admirals_Foraged_Cap",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/arm_lev_admiral_cap/arm_lev_admiral_cap.vmdl"
+        },
+        {
+          "name": "Admiral's Stash",
+          "id": "5464",
+          "item_name": "#DOTA_Item_Admirals_Stash",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/arm_lev_stash_belt/arm_lev_stash_belt.vmdl"
+        },
+        {
+          "name": "Claddish Gauntlets",
+          "id": "5465",
+          "item_name": "#DOTA_Item_Claddish_Gauntlets",
+          "item_slot": "gloves",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/arm_lev_claddish_gauntlets/arm_lev_claddish_gauntlets.vmdl"
+        },
+        {
+          "name": "Claddish Guard",
+          "id": "5466",
+          "item_name": "#DOTA_Item_Claddish_Guard",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/arm_lev_claddish_shoulders/arm_lev_claddish_shoulders.vmdl"
+        },
+        {
+          "name": "Claddish Hightops",
+          "id": "5467",
+          "item_name": "#DOTA_Item_Claddish_Hightops",
+          "item_slot": "legs",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/arm_lev_claddish_shoes/arm_lev_claddish_shoes.vmdl"
+        },
+        {
+          "name": "Neptunian Sabre",
+          "id": "5468",
+          "item_name": "#DOTA_Item_Neptunian_Sabre",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/arm_lev_neptunian_sabre/arm_lev_neptunian_sabre.vmdl"
+        },
+        {
+          "name": "Admiral's Salty Shawl",
+          "id": "5469",
+          "item_name": "#DOTA_Item_Admirals_Salty_Shawl",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/arm_lev_admiral_shawl/arm_lev_admiral_shawl.vmdl"
+        },
+        {
+          "name": "Ye Olde Pipe",
+          "id": "5470",
+          "item_name": "#DOTA_Item_Ye_Olde_Pipe",
+          "item_slot": "neck",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/arm_lev_pipe/arm_lev_pipe.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bestowments_of_the_Divine_Anchor",
+      "store_bundle": "Bestowments of the Divine Anchor",
+      "portrait_image": "econ/sets/v2/bestowments_divine_anchor",
+      "items": [
+        {
+          "name": "Style of the Divine Anchor",
+          "id": "6782",
+          "item_name": "#DOTA_Item_Style_of_the_Divine_Anchor",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/style_of_the_divine_anchor/style_of_the_divine_anchor.vmdl"
+        },
+        {
+          "name": "Medallion of the Divine Anchor",
+          "id": "6781",
+          "item_name": "#DOTA_Item_Medallion_of_the_Divine_Anchor",
+          "item_slot": "neck",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/medallion_of_the_divine_anchor/medallion_of_the_divine_anchor.vmdl"
+        },
+        {
+          "name": "Flintlock of the Divine Anchor",
+          "id": "6780",
+          "item_name": "#DOTA_Item_Flintlock_of_the_Divine_Anchor",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/flintlock_of_the_divine_anchor/flintlock_of_the_divine_anchor.vmdl"
+        },
+        {
+          "name": "Epaulets of the Divine Anchor",
+          "id": "6779",
+          "item_name": "#DOTA_Item_Epaulets_of_the_Divine_Anchor",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/epaulets_of_the_divine_anchor/epaulets_of_the_divine_anchor.vmdl"
+        },
+        {
+          "name": "Cyclone Wave Smasher of the Divine Anchor",
+          "id": "6778",
+          "item_name": "#DOTA_Item_Cyclone_Wave_Smasher_of_the_Divine_Anchor",
+          "item_slot": "weapon",
+          "item_rarity": "legendary",
+          "model_player": "models/items/kunkka/cyclone_wave_smasher_of_the_divine_anchor/cyclone_wave_smasher_of_the_divine_anchor.vmdl"
+        },
+        {
+          "name": "Cuffs of the Divine Anchor",
+          "id": "6777",
+          "item_name": "#DOTA_Item_Cuffs_of_the_Divine_Anchor",
+          "item_slot": "gloves",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/cuffs_of_the_divine_anchor/cuffs_of_the_divine_anchor.vmdl"
+        },
+        {
+          "name": "Collar of the Divine Anchor",
+          "id": "6430",
+          "item_name": "#DOTA_Item_Collar_of_the_Divine_Anchor",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/collar_of_the_divine_anchor/collar_of_the_divine_anchor.vmdl"
+        },
+        {
+          "name": "Boots of the Divine Anchor",
+          "id": "6428",
+          "item_name": "#DOTA_Item_Boots_of_the_Divine_Anchor",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/boots_of_the_divine_anchor/boots_of_the_divine_anchor.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Carronade_Corsair",
+      "store_bundle": "Carronade Corsair",
+      "portrait_image": "econ/sets/v2/carronade_corsair",
+      "items": [
+        {
+          "name": "Carronade Corsair - Armament",
+          "id": "31219",
+          "item_name": "#DOTA_Item_Carronade_Corsair__Armament",
+          "item_slot": "neck",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/admirals_ire/admirals_ire.vmdl"
+        },
+        {
+          "name": "Carronade Corsair - Belt",
+          "id": "31220",
+          "item_name": "#DOTA_Item_Carronade_Corsair__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/admirals_binding/admirals_binding.vmdl"
+        },
+        {
+          "name": "Carronade Corsair - Legs",
+          "id": "31221",
+          "item_name": "#DOTA_Item_Carronade_Corsair__Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/admirals_stride/admirals_stride.vmdl"
+        },
+        {
+          "name": "Carronade Corsair - Gloves",
+          "id": "31222",
+          "item_name": "#DOTA_Item_Carronade_Corsair__Gloves",
+          "item_slot": "gloves",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/admirals_grasp/admirals_grasp.vmdl"
+        },
+        {
+          "name": "Carronade Corsair - Back",
+          "id": "31223",
+          "item_name": "#DOTA_Item_Carronade_Corsair__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/admirals_girdle/admirals_girdle.vmdl"
+        },
+        {
+          "name": "Carronade Corsair - Shoulder",
+          "id": "31224",
+          "item_name": "#DOTA_Item_Carronade_Corsair__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/admirals_burden/admirals_burden.vmdl"
+        },
+        {
+          "name": "Carronade Corsair - Head",
+          "id": "31340",
+          "item_name": "#DOTA_Item_Carronade_Corsair__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/admirals_order/admirals_order.vmdl"
+        },
+        {
+          "name": "Carronade Corsair - Weapon",
+          "id": "31339",
+          "item_name": "#DOTA_Item_Carronade_Corsair__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/admirals_despair/admirals_despair.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Kunkka_Admirable_Admiral",
+      "store_bundle": "The Admirable Admiral Set",
+      "portrait_image": "econ/sets/v2/kunkka_admirable_admiral",
+      "items": [
+        {
+          "name": "Gloves of the Admirable Admiral",
+          "id": "4118",
+          "item_name": "#DOTA_Item_Gloves_of_the_Admirable_Admiral",
+          "item_slot": "gloves",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/glove_admirableadmiral.vmdl"
+        },
+        {
+          "name": "Ceremonial Rapier",
+          "id": "4119",
+          "item_name": "#DOTA_Item_Ceremonial_Rapier",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/rapier_admirableadmiral.vmdl"
+        },
+        {
+          "name": "Grand Curls of the Admirable Admiral",
+          "id": "4121",
+          "item_name": "#DOTA_Item_Grand_Curls_of_the_Admirable_Admiral",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/head_admirableadmiral.vmdl"
+        },
+        {
+          "name": "Seafarer's Shoes",
+          "id": "4122",
+          "item_name": "#DOTA_Item_Seafarers_Shoes",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/legs_admirableadmiral.vmdl"
+        },
+        {
+          "name": "Sword of the Admirable Admiral",
+          "id": "4160",
+          "item_name": "#DOTA_Item_Sword_of_the_Admirable_Admiral",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/sword_2_admirableadmiral.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Instruments_of_the_Claddish_Voyager",
+      "store_bundle": "Instruments of the Claddish Voyager Set",
+      "portrait_image": "econ/sets/v2/kunkka_claddish_voyager",
+      "items": [
+        {
+          "name": "Claddish Voyager's Second Chance",
+          "id": "5217",
+          "item_name": "#DOTA_Item_Claddish_Voyagers_Second_Chance",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/second_chance_of_the_kunkkistadore/second_chance_of_the_kunkkistadore.vmdl"
+        },
+        {
+          "name": "Claddish Voyager's First Chance",
+          "id": "5218",
+          "item_name": "#DOTA_Item_Claddish_Voyagers_First_Chance",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/first_chance_of_the_kunkkistadore/first_chance_of_the_kunkkistadore.vmdl"
+        },
+        {
+          "name": "Claddish Voyager's Gloves",
+          "id": "5219",
+          "item_name": "#DOTA_Item_Claddish_Voyagers_Gloves",
+          "item_slot": "gloves",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/kunkkistadores_gloves/kunkkistadores_gloves.vmdl"
+        },
+        {
+          "name": "Claddish Voyager's Helm",
+          "id": "5220",
+          "item_name": "#DOTA_Item_Claddish_Voyagers_Helm",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/kunkkistadores_helm/kunkkistadores_helm.vmdl"
+        },
+        {
+          "name": "Claddish Voyager's Treads",
+          "id": "5221",
+          "item_name": "#DOTA_Item_Claddish_Voyagers_Treads",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/treds_of_the_kunkkistadore/treds_of_the_kunkkistadore.vmdl"
+        },
+        {
+          "name": "Claddish Voyager's Chestplate",
+          "id": "5222",
+          "item_name": "#DOTA_Item_Claddish_Voyagers_Chestplate",
+          "item_slot": "neck",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/chestplate_of_the_kunkkistadore/chestplate_of_the_kunkkistadore.vmdl"
+        },
+        {
+          "name": "Claddish Voyager's Elegant Pauldron",
+          "id": "5223",
+          "item_name": "#DOTA_Item_Claddish_Voyagers_Elegant_Pauldron",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/elegant_shoulders_of_the_kunkkistadore/elegant_shoulders_of_the_kunkkistadore.vmdl"
+        },
+        {
+          "name": "Claddish Voyager's True North",
+          "id": "5224",
+          "item_name": "#DOTA_Item_Claddish_Voyagers_True_North",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/kunkkistadores_true_north/kunkkistadores_true_north.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Commendable_Commodore",
+      "store_bundle": "The Commendable Commodore Set",
+      "portrait_image": "econ/sets/v2/kunkka_commodore",
+      "items": [
+        {
+          "name": "Commodore's Kraken Slayer",
+          "id": "4765",
+          "item_name": "#DOTA_Item_Commodores_Kraken_Slayer",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/comm_sword/comm_sword.vmdl"
+        },
+        {
+          "name": "Commodore's Bicorne",
+          "id": "4766",
+          "item_name": "#DOTA_Item_Commodores_Bicorne",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/comm_bicorne/comm_bicorne.vmdl"
+        },
+        {
+          "name": "Commodore's Curtains",
+          "id": "4767",
+          "item_name": "#DOTA_Item_Commodores_Curtains",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/comm_cape/comm_cape.vmdl"
+        },
+        {
+          "name": "Commodore's Puffy Cuffs",
+          "id": "4768",
+          "item_name": "#DOTA_Item_Commodores_Puffy_Cuffs",
+          "item_slot": "gloves",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/comm_cuffs/comm_cuffs.vmdl"
+        },
+        {
+          "name": "Commodore's Facings",
+          "id": "4790",
+          "item_name": "#DOTA_Item_Commodores_Facings",
+          "item_slot": "neck",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/comm_chest/comm_chest.vmdl"
+        },
+        {
+          "name": "Commodore's Gaiters",
+          "id": "4791",
+          "item_name": "#DOTA_Item_Commodores_Gaiters",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/comm_boots/comm_boots.vmdl"
+        },
+        {
+          "name": "Commodore's Sash",
+          "id": "4792",
+          "item_name": "#DOTA_Item_Commodores_Sash",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/comm_sash/comm_sash.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Grand_Witch_Hunter_Templar",
+      "store_bundle": "Grand Witch Hunter Templar",
+      "portrait_image": "econ/sets/v2/kunkka_grand_witch_hunter_templar",
+      "items": [
+        {
+          "name": "Grand Mantle of the Witch Hunter Templar",
+          "id": "8412",
+          "item_name": "#DOTA_Item_Grand_Mantle_of_the_Witch_Hunter_Templar",
+          "item_slot": "neck",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/inquisitor_tide_misc/inquisitor_tide_misc.vmdl"
+        },
+        {
+          "name": "Grand Gloves of the Witch Hunter Templar",
+          "id": "8413",
+          "item_name": "#DOTA_Item_Grand_Gloves_of_the_Witch_Hunter_Templar",
+          "item_slot": "gloves",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/inquisitor_tide_glove/inquisitor_tide_glove.vmdl"
+        },
+        {
+          "name": "Grand Vestments of the Witch Hunter Templar",
+          "id": "8415",
+          "item_name": "#DOTA_Item_Grand_Vestments_of_the_Witch_Hunter_Templar",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/inquisitor_tide_back/inquisitor_tide_back.vmdl"
+        },
+        {
+          "name": "Grand Boots of the Witch Hunter Templar",
+          "id": "8417",
+          "item_name": "#DOTA_Item_Grand_Boots_of_the_Witch_Hunter_Templar",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/inquisitor_tide_legs/inquisitor_tide_legs.vmdl"
+        },
+        {
+          "name": "Grand Hat of the Witch Hunter Templar",
+          "id": "8419",
+          "item_name": "#DOTA_Item_Grand_Hat_of_the_Witch_Hunter_Templar",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/inquisitor_tide_head/inquisitor_tide_head.vmdl"
+        },
+        {
+          "name": "Grand Belt of the Witch Hunter Templar",
+          "id": "8421",
+          "item_name": "#DOTA_Item_Grand_Belt_of_the_Witch_Hunter_Templar",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/inquisitor_tide_belt/inquisitor_tide_belt.vmdl"
+        },
+        {
+          "name": "Grand Sword of the Witch Hunter Templar",
+          "id": "8423",
+          "item_name": "#DOTA_Item_Grand_Sword_of_the_Witch_Hunter_Templar",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/inquisitor_tide_weapon/inquisitor_tide_weapon.vmdl"
+        },
+        {
+          "name": "Grand Pauldrons of the Witch Hunter Templar",
+          "id": "8426",
+          "item_name": "#DOTA_Item_Grand_Pauldrons_of_the_Witch_Hunter_Templar",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/inquisitor_tide_shoulder/inquisitor_tide_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Steadfast_Voyager",
+      "store_bundle": "The Steadfast Voyager Set",
+      "portrait_image": "econ/sets/v2/kunkka_steadfast_voyager",
+      "items": [
+        {
+          "name": "Black Boots of the Voyager",
+          "id": "5250",
+          "item_name": "#DOTA_Item_Black_Boots_of_the_Voyager",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/black_boots_of_the_voyager/black_boots_of_the_voyager.vmdl"
+        },
+        {
+          "name": "Green Sleeves of the Voyager",
+          "id": "5251",
+          "item_name": "#DOTA_Item_Green_Sleeves_of_the_Voyager",
+          "item_slot": "gloves",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/green_sleeves_of_the_voyager/green_sleeves_of_the_voyager.vmdl"
+        },
+        {
+          "name": "Ernest Do of the Voyager",
+          "id": "5252",
+          "item_name": "#DOTA_Item_Ernest_Do_of_the_Voyager",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/ernest_do_of_the_voyager/ernest_do_of_the_voyager.vmdl"
+        },
+        {
+          "name": "Button Down of the Voyager",
+          "id": "5253",
+          "item_name": "#DOTA_Item_Button_Down_of_the_Voyager",
+          "item_slot": "neck",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/button_down_of_the_voyager/button_down_of_the_voyager.vmdl"
+        },
+        {
+          "name": "Firebreather of the Voyager",
+          "id": "5254",
+          "item_name": "#DOTA_Item_Firebreather_of_the_Voyager",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/firebreather_of_the_voyager/firebreather_of_the_voyager.vmdl"
+        },
+        {
+          "name": "Blue Stone Shoulder of the Voyager",
+          "id": "5255",
+          "item_name": "#DOTA_Item_Blue_Stone_Shoulder_of_the_Voyager",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/blue_stone_shoulder_of_the_voyager/blue_stone_shoulder_of_the_voyager.vmdl"
+        },
+        {
+          "name": "Compass Edge of the Voyager",
+          "id": "5256",
+          "item_name": "#DOTA_Item_Compass_Edge_of_the_Voyager",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/compass_edge_of_the_voyager/compass_edge_of_the_voyager.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Viking_Sailor",
+      "store_bundle": "Viking Sailor",
+      "portrait_image": "econ/sets/v2/kunkka_viking_sailor",
+      "items": [
+        {
+          "name": "Viking Sailor Head",
+          "id": "9968",
+          "item_name": "#DOTA_Item_Vote_Only_Viking_Sailor_Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/viking_sailor_head/viking_sailor_head.vmdl"
+        },
+        {
+          "name": "Viking Sailor Shoulder",
+          "id": "9967",
+          "item_name": "#DOTA_Item_Vote_Only_Viking_Sailor_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/viking_sailor_shoulder/viking_sailor_shoulder.vmdl"
+        },
+        {
+          "name": "Viking Sailor Belt",
+          "id": "9721",
+          "item_name": "#DOTA_Item_Vote_Only_Viking_Sailor_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/viking_sailor_belt/viking_sailor_belt.vmdl"
+        },
+        {
+          "name": "Viking Sailor Back",
+          "id": "9969",
+          "item_name": "#DOTA_Item_Vote_Only_Viking_Sailor_Back",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/viking_sailor_back/viking_sailor_back.vmdl"
+        },
+        {
+          "name": "Viking Sailor Neck",
+          "id": "9720",
+          "item_name": "#DOTA_Item_Vote_Only_Viking_Sailor_Neck",
+          "item_slot": "neck",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/viking_sailor_neck/viking_sailor_neck.vmdl"
+        },
+        {
+          "name": "Viking Sailor Gloves",
+          "id": "9719",
+          "item_name": "#DOTA_Item_Vote_Only_Viking_Sailor_Gloves",
+          "item_slot": "gloves",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/viking_sailor_gloves/viking_sailor_gloves.vmdl"
+        },
+        {
+          "name": "Viking Sailor Legs",
+          "id": "9708",
+          "item_name": "#DOTA_Item_Vote_Only_Viking_Sailor_Legs",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/viking_sailor_legs/viking_sailor_legs.vmdl"
+        },
+        {
+          "name": "Viking Sailor Weapon",
+          "id": "9707",
+          "item_name": "#DOTA_Item_Vote_Only_Viking_Sailor_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/viking_sailor_weapon/viking_sailor_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_PackIce_Privateer",
+      "store_bundle": "Pack-Ice Privateer",
+      "portrait_image": "econ/sets/v2/packice_privateer",
+      "items": [
+        {
+          "name": "Belt of the Pack-Ice Privateer",
+          "id": "12784",
+          "item_name": "#DOTA_Item_Belt_of_the_PackIce_Privateer",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/frostivus2018_kunkka_icebreaking_belt/frostivus2018_kunkka_icebreaking_belt.vmdl"
+        },
+        {
+          "name": "Gloves of the Pack-Ice Privateer",
+          "id": "12783",
+          "item_name": "#DOTA_Item_Gloves_of_the_PackIce_Privateer",
+          "item_slot": "gloves",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/frostivus2018_kunkka_icebreaking_gloves/frostivus2018_kunkka_icebreaking_gloves.vmdl"
+        },
+        {
+          "name": "Visage of the Pack-Ice Privateer",
+          "id": "12782",
+          "item_name": "#DOTA_Item_Visage_of_the_PackIce_Privateer",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/frostivus2018_kunkka_icebreaking_head/frostivus2018_kunkka_icebreaking_head.vmdl"
+        },
+        {
+          "name": "Legs of the Pack-Ice Privateer",
+          "id": "12781",
+          "item_name": "#DOTA_Item_Legs_of_the_PackIce_Privateer",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/frostivus2018_kunkka_icebreaking_legs/frostivus2018_kunkka_icebreaking_legs.vmdl"
+        },
+        {
+          "name": "Blade of the Pack-Ice Privateer",
+          "id": "12780",
+          "item_name": "#DOTA_Item_Blade_of_the_PackIce_Privateer",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/frostivus2018_kunkka_icebreaking_weapon/frostivus2018_kunkka_icebreaking_weapon.vmdl"
+        },
+        {
+          "name": "Coat of the Pack-Ice Privateer",
+          "id": "12779",
+          "item_name": "#DOTA_Item_Coat_of_the_PackIce_Privateer",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/frostivus2018_kunkka_icebreaking_shoulder/frostivus2018_kunkka_icebreaking_shoulder.vmdl"
+        },
+        {
+          "name": "Charm of the Pack-Ice Privateer",
+          "id": "12778",
+          "item_name": "#DOTA_Item_Charm_of_the_PackIce_Privateer",
+          "item_slot": "neck",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/frostivus2018_kunkka_icebreaking_neck/frostivus2018_kunkka_icebreaking_neck.vmdl"
+        },
+        {
+          "name": "Garb of the Pack-Ice Privateer",
+          "id": "12776",
+          "item_name": "#DOTA_Item_Garb_of_the_PackIce_Privateer",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/frostivus2018_kunkka_icebreaking_back/frostivus2018_kunkka_icebreaking_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sea_Spirit",
+      "store_bundle": "Sea Spirit",
+      "portrait_image": "econ/sets/v2/sea_spirit",
+      "items": [
+        {
+          "name": "Sea Spirit Weapon",
+          "id": "28561",
+          "item_name": "#DOTA_Item_Sea_Spirit_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/kunkka_admirals_revenge_weapon/kunkka_admirals_revenge_weapon.vmdl"
+        },
+        {
+          "name": "Sea Spirit Neck",
+          "id": "28560",
+          "item_name": "#DOTA_Item_Sea_Spirit_Neck",
+          "item_slot": "neck",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/kunkka_admirals_revenge_neck/kunkka_admirals_revenge_neck.vmdl"
+        },
+        {
+          "name": "Sea Spirit Legs",
+          "id": "28559",
+          "item_name": "#DOTA_Item_Sea_Spirit_Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/kunkka_admirals_revenge_legs/kunkka_admirals_revenge_legs.vmdl"
+        },
+        {
+          "name": "Sea Spirit Gloves",
+          "id": "28558",
+          "item_name": "#DOTA_Item_Sea_Spirit_Gloves",
+          "item_slot": "gloves",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/kunkka_admirals_revenge_gloves/kunkka_admirals_revenge_gloves.vmdl"
+        },
+        {
+          "name": "Sea Spirit Belt",
+          "id": "28557",
+          "item_name": "#DOTA_Item_Sea_Spirit_Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/kunkka_admirals_revenge_belt/kunkka_admirals_revenge_belt.vmdl"
+        },
+        {
+          "name": "Sea Spirit Back",
+          "id": "28556",
+          "item_name": "#DOTA_Item_Sea_Spirit_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/kunkka_admirals_revenge_back/kunkka_admirals_revenge_back.vmdl"
+        },
+        {
+          "name": "Sea Spirit Shoulder",
+          "id": "28555",
+          "item_name": "#DOTA_Item_Sea_Spirit_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/kunkka_admirals_revenge_shoulder/kunkka_admirals_revenge_shoulder.vmdl"
+        },
+        {
+          "name": "Sea Spirit Head",
+          "id": "28554",
+          "item_name": "#DOTA_Item_Sea_Spirit_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/kunkka_admirals_revenge_head/kunkka_admirals_revenge_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Seaborne_Reprisal",
+      "store_bundle": "Seaborne Reprisal",
+      "portrait_image": "econ/sets/v2/seaborne_reprisal",
+      "items": [
+        {
+          "name": "Ghost Blade of Seaborne Reprisal",
+          "id": "9339",
+          "item_name": "#DOTA_Item_Ghost_Blade_of_Seaborne_Reprisal",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/vengeful_ghost_captain_weapon/vengeful_ghost_captain_weapon.vmdl"
+        },
+        {
+          "name": "Image of Seaborne Reprisal",
+          "id": "9343",
+          "item_name": "#DOTA_Item_Image_of_Seaborne_Reprisal",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/vengeful_ghost_captain_head/vengeful_ghost_captain_head.vmdl"
+        },
+        {
+          "name": "Claw of Seaborne Reprisal",
+          "id": "9344",
+          "item_name": "#DOTA_Item_Claw_of_Seaborne_Reprisal",
+          "item_slot": "gloves",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/vengeful_ghost_captain_gloves/vengeful_ghost_captain_gloves.vmdl"
+        },
+        {
+          "name": "Folds of Seaborne Reprisal",
+          "id": "9346",
+          "item_name": "#DOTA_Item_Folds_of_Seaborne_Reprisal",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/vengeful_ghost_captain_back/vengeful_ghost_captain_back.vmdl"
+        },
+        {
+          "name": "Legs of the Seaborne Reprisal",
+          "id": "9342",
+          "item_name": "#DOTA_Item_Legs_of_the_Seaborne_Reprisal",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/vengeful_ghost_captain_legs/vengeful_ghost_captain_legs.vmdl"
+        },
+        {
+          "name": "Coat of Seaborne Reprisal",
+          "id": "9340",
+          "item_name": "#DOTA_Item_Coat_of_Seaborne_Reprisal",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/vengeful_ghost_captain_shoulder/vengeful_ghost_captain_shoulder.vmdl"
+        },
+        {
+          "name": "Belt of Seaborne Reprisal",
+          "id": "9345",
+          "item_name": "#DOTA_Item_Belt_of_Seaborne_Reprisal",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/vengeful_ghost_captain_belt/vengeful_ghost_captain_belt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Artillery_of_the_Crested_Cannoneer",
+      "store_bundle": "Artillery of the Crested Cannoneer Set",
+      "portrait_image": "econ/sets/v2/singsing_kunkka_set",
+      "items": [
+        {
+          "name": "Plume of the Crested Cannoneer",
+          "id": "5670",
+          "item_name": "#DOTA_Item_Plume_of_the_Crested_Cannoneer",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/singsingkunkkaset_head/singsingkunkkaset_head.vmdl"
+        },
+        {
+          "name": "Sash of the Crested Cannoneer",
+          "id": "4500",
+          "item_name": "#DOTA_Item_Sash_of_the_Crested_Cannoneer",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/singkunkabelt_final/singkunkabelt_final.vmdl"
+        },
+        {
+          "name": "Tabard of the Crested Cannoneer",
+          "id": "5373",
+          "item_name": "#DOTA_Item_Tabard_of_the_Crested_Cannoneer",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/singkunkkabackfinal/singkunkkabackfinal.vmdl"
+        },
+        {
+          "name": "Battery of the Crested Cannoneer",
+          "id": "5385",
+          "item_name": "#DOTA_Item_Battery_of_the_Crested_Cannoneer",
+          "item_slot": "neck",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/singsingkunkkaset__cannon/singsingkunkkaset__cannon.vmdl"
+        },
+        {
+          "name": "Sabatons of the Crested Cannoneer",
+          "id": "5661",
+          "item_name": "#DOTA_Item_Sabatons_of_the_Crested_Cannoneer",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/singsingkunkkaset_boots/singsingkunkkaset_boots.vmdl"
+        },
+        {
+          "name": "Gloves of the Crested Cannoneer",
+          "id": "5669",
+          "item_name": "#DOTA_Item_Gloves_of_the_Crested_Cannoneer",
+          "item_slot": "gloves",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/singsingkunkkaset_gloves/singsingkunkkaset_gloves.vmdl"
+        },
+        {
+          "name": "Mantle of the Crested Cannoneer",
+          "id": "5671",
+          "item_name": "#DOTA_Item_Mantle_of_the_Crested_Cannoneer",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/singsingkunkkaset_shoulders/singsingkunkkaset_shoulders.vmdl"
+        },
+        {
+          "name": "Cannonade",
+          "id": "5374",
+          "item_name": "#DOTA_Item_Cannonade",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/kunkka/singsingkunkka_sword/singsingkunkka_sword.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Claddish_Renegade",
+      "store_bundle": "The Claddish Renegade",
+      "portrait_image": "econ/sets/v2/the_claddish_renegade",
+      "items": [
+        {
+          "name": "Patch of the Renegade",
+          "id": "6180",
+          "item_name": "#DOTA_Item_Patch_of_the_Renegade",
+          "item_slot": "neck",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/claddish_neck/claddish_neck.vmdl"
+        },
+        {
+          "name": "The Crow's Nest",
+          "id": "6179",
+          "item_name": "#DOTA_Item_The_Crows_Nest",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/claddish_shoulder/claddish_shoulder.vmdl"
+        },
+        {
+          "name": "Peg Leg of the Renegade",
+          "id": "6181",
+          "item_name": "#DOTA_Item_Peg_Leg_of_the_Renegade",
+          "item_slot": "legs",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/claddish_legs/claddish_legs.vmdl"
+        },
+        {
+          "name": "Hook of the Renegade",
+          "id": "6182",
+          "item_name": "#DOTA_Item_Hook_of_the_Renegade",
+          "item_slot": "gloves",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/claddish_gloves/claddish_gloves.vmdl"
+        },
+        {
+          "name": "Cutlass of the Renegade",
+          "id": "6183",
+          "item_name": "#DOTA_Item_Cutlass_of_the_Renegade",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/claddish_weapon/claddish_weapon.vmdl"
+        },
+        {
+          "name": "Chest of the Renegade",
+          "id": "6184",
+          "item_name": "#DOTA_Item_Chest_of_the_Renegade",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/claddish_back/claddish_back.vmdl"
+        },
+        {
+          "name": "Rigging Rope of the Renegade",
+          "id": "6196",
+          "item_name": "#DOTA_Item_Rigging_Rope_of_the_Renegade",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/claddish_belt/claddish_belt.vmdl"
+        },
+        {
+          "name": "Bicorne of the Renegade",
+          "id": "6213",
+          "item_name": "#DOTA_Item_Bicorne_of_the_Renegade",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/kunkka/claddish_head/claddish_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Vengeance_of_the_Brine_Lords",
+      "store_bundle": "Vengeance of the Brine Lords",
+      "portrait_image": "econ/sets/v2/vengeance_of_the_brine_lords",
+      "items": [
+        {
+          "name": "Wheel of the Brine Lords",
+          "id": "14448",
+          "item_name": "#DOTA_Item_Wheel_of_the_Brine_Lords",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/kunkka_the_cursed_captain_back/kunkka_the_cursed_captain_back.vmdl"
+        },
+        {
+          "name": "Belt of the Brine Lords",
+          "id": "14447",
+          "item_name": "#DOTA_Item_Belt_of_the_Brine_Lords",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/kunkka_the_cursed_captain_belt/kunkka_the_cursed_captain_belt.vmdl"
+        },
+        {
+          "name": "Gloves of the Brine Lords",
+          "id": "14446",
+          "item_name": "#DOTA_Item_Gloves_of_the_Brine_Lords",
+          "item_slot": "gloves",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/kunkka_the_cursed_captain_gloves/kunkka_the_cursed_captain_gloves.vmdl"
+        },
+        {
+          "name": "Hat of the Brine Lords",
+          "id": "14445",
+          "item_name": "#DOTA_Item_Hat_of_the_Brine_Lords",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/kunkka_the_cursed_captain_head/kunkka_the_cursed_captain_head.vmdl"
+        },
+        {
+          "name": "Boots of the Brine Lords",
+          "id": "14444",
+          "item_name": "#DOTA_Item_Boots_of_the_Brine_Lords",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/kunkka_the_cursed_captain_legs/kunkka_the_cursed_captain_legs.vmdl"
+        },
+        {
+          "name": "Jacket of the Brine Lords",
+          "id": "14442",
+          "item_name": "#DOTA_Item_Jacket_of_the_Brine_Lords",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/kunkka_the_cursed_captain_shoulder/kunkka_the_cursed_captain_shoulder.vmdl"
+        },
+        {
+          "name": "Decor of the Brine Lords",
+          "id": "14443",
+          "item_name": "#DOTA_Item_Decor_of_the_Brine_Lords",
+          "item_slot": "neck",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/kunkka_the_cursed_captain_neck/kunkka_the_cursed_captain_neck.vmdl"
+        },
+        {
+          "name": "Sword of the Brine Lords",
+          "id": "14441",
+          "item_name": "#DOTA_Item_Sword_of_the_Brine_Lords",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/kunkka_the_cursed_captain_weapon/kunkka_the_cursed_captain_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Winds_of_Conquest",
+      "store_bundle": "Winds of Conquest",
+      "portrait_image": "econ/sets/v2/winds_of_conquest",
+      "items": [
+        {
+          "name": "Winds of Conquest Armor",
+          "id": "13198",
+          "item_name": "#DOTA_Item_Winds_of_Conquest_Armor",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/ti9_cache_kunkka_kunkkquistador_back/ti9_cache_kunkka_kunkkquistador_back.vmdl"
+        },
+        {
+          "name": "Winds of Conquest Belt",
+          "id": "13197",
+          "item_name": "#DOTA_Item_Winds_of_Conquest_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/ti9_cache_kunkka_kunkkquistador_belt/ti9_cache_kunkka_kunkkquistador_belt.vmdl"
+        },
+        {
+          "name": "Winds of Conquest Bracers",
+          "id": "13196",
+          "item_name": "#DOTA_Item_Winds_of_Conquest_Bracers",
+          "item_slot": "gloves",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/ti9_cache_kunkka_kunkkquistador_gloves/ti9_cache_kunkka_kunkkquistador_gloves.vmdl"
+        },
+        {
+          "name": "Winds of Conquest Helm",
+          "id": "13195",
+          "item_name": "#DOTA_Item_Winds_of_Conquest_Helm",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/ti9_cache_kunkka_kunkkquistador_head/ti9_cache_kunkka_kunkkquistador_head.vmdl"
+        },
+        {
+          "name": "Winds of Conquest Legs",
+          "id": "13194",
+          "item_name": "#DOTA_Item_Winds_of_Conquest_Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/ti9_cache_kunkka_kunkkquistador_legs/ti9_cache_kunkka_kunkkquistador_legs.vmdl"
+        },
+        {
+          "name": "Winds of Conquest Treasure",
+          "id": "13193",
+          "item_name": "#DOTA_Item_Winds_of_Conquest_Treasure",
+          "item_slot": "neck",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/ti9_cache_kunkka_kunkkquistador_neck/ti9_cache_kunkka_kunkkquistador_neck.vmdl"
+        },
+        {
+          "name": "Winds of Conquest Pauldrons",
+          "id": "13192",
+          "item_name": "#DOTA_Item_Winds_of_Conquest_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/ti9_cache_kunkka_kunkkquistador_shoulder/ti9_cache_kunkka_kunkkquistador_shoulder.vmdl"
+        },
+        {
+          "name": "Winds of Conquest Blade",
+          "id": "13191",
+          "item_name": "#DOTA_Item_Winds_of_Conquest_Blade",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/kunkka/ti9_cache_kunkka_kunkkquistador_weapon/ti9_cache_kunkka_kunkkquistador_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Witch_Hunter_Templar",
+      "store_bundle": "Witch Hunter Templar",
+      "portrait_image": "econ/sets/v2/witch_hunter_templar",
+      "items": [
+        {
+          "name": "Gloves of the Witch Hunter Templar",
+          "id": "8090",
+          "item_name": "#DOTA_Item_Gloves_of_the_Witch_Hunter_Templar",
+          "item_slot": "gloves",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/inquisitor_tide_glove/inquisitor_tide_glove.vmdl"
+        },
+        {
+          "name": "Boots of the Witch Hunter Templar",
+          "id": "8092",
+          "item_name": "#DOTA_Item_Boots_of_the_Witch_Hunter_Templar",
+          "item_slot": "legs",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/inquisitor_tide_legs/inquisitor_tide_legs.vmdl"
+        },
+        {
+          "name": "Sword of the Witch Hunter Templar",
+          "id": "8095",
+          "item_name": "#DOTA_Item_Sword_of_the_Witch_Hunter_Templar",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/inquisitor_tide_weapon/inquisitor_tide_weapon.vmdl"
+        },
+        {
+          "name": "Hat of the Witch Hunter Templar",
+          "id": "8093",
+          "item_name": "#DOTA_Item_Hat_of_the_Witch_Hunter_Templar",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/inquisitor_tide_head/inquisitor_tide_head.vmdl"
+        },
+        {
+          "name": "Belt of the Witch Hunter Templar",
+          "id": "8094",
+          "item_name": "#DOTA_Item_Belt_of_the_Witch_Hunter_Templar",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/inquisitor_tide_belt/inquisitor_tide_belt.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Witch Hunter Templar",
+          "id": "8096",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Witch_Hunter_Templar",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/inquisitor_tide_shoulder/inquisitor_tide_shoulder.vmdl"
+        },
+        {
+          "name": "Vestments of the Witch Hunter Templar",
+          "id": "8091",
+          "item_name": "#DOTA_Item_Vestments_of_the_Witch_Hunter_Templar",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/inquisitor_tide_back/inquisitor_tide_back.vmdl"
+        },
+        {
+          "name": "Mantle of the Witch Hunter Templar",
+          "id": "8089",
+          "item_name": "#DOTA_Item_Mantle_of_the_Witch_Hunter_Templar",
+          "item_slot": "neck",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/kunkka/inquisitor_tide_misc/inquisitor_tide_misc.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "10",
+      "name": "Kunkka's Boots",
+      "item_name": "#DOTA_Item_Kunkkas_Boots",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/kunkka/kunkka_feet.vmdl"
+    },
+    {
+      "id": "11",
+      "name": "Kunkka's Hands",
+      "item_name": "#DOTA_Item_Kunkkas_Hands",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/kunkka/kunkka_hands.vmdl"
+    },
+    {
+      "id": "12",
+      "name": "Kunkka's Sword",
+      "item_name": "#DOTA_Item_Kunkkas_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/kunkka/kunkka_sword.vmdl"
+    },
+    {
+      "id": "14",
+      "name": "Kunkka's Hair",
+      "item_name": "#DOTA_Item_Kunkkas_Hair",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/kunkka/kunkka_hair.vmdl"
+    },
+    {
+      "id": "81",
+      "name": "Kunkka's Spyglass",
+      "item_name": "#DOTA_Item_Kunkkas_Spyglass",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/kunkka/kunkka_spyglass.vmdl"
+    },
+    {
+      "id": "357",
+      "name": "Kunkka's Shoulder Guard",
+      "item_name": "#DOTA_Item_Kunkkas_Shoulder_Guard",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/kunkka/kunkka_shoulders.vmdl"
+    },
+    {
+      "id": "4011",
+      "name": "Pegleg of the Cursed Pirate",
+      "item_name": "#DOTA_Wearable_Kunkka_Pegleg",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_pegleg.vmdl"
+    },
+    {
+      "id": "4016",
+      "name": "Pride of the Crew",
+      "item_name": "#DOTA_Wearable_Kunkka_Bandana",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_bandana.vmdl"
+    },
+    {
+      "id": "4017",
+      "name": "Royal Admiral's Bicorne",
+      "item_name": "#DOTA_Wearable_Kunkka_Bicorne_Hat",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_bicorne.vmdl"
+    },
+    {
+      "id": "4018",
+      "name": "Tricorne of the Drowned",
+      "item_name": "#DOTA_Wearable_Kunkka_Tricorne_Hat",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_tricorne.vmdl"
+    },
+    {
+      "id": "4019",
+      "name": "Wavecrester",
+      "item_name": "#DOTA_Wearable_Kunkka_Wavecrester",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_harpoon.vmdl"
+    },
+    {
+      "id": "4032",
+      "name": "Lucky Tooth Necklace",
+      "item_name": "#DOTA_Item_Lucky_Tooth_Necklace",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_tooth_necklace.vmdl"
+    },
+    {
+      "id": "4033",
+      "name": "Captain's Hook",
+      "item_name": "#DOTA_Item_Captains_Hook",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_hook.vmdl"
+    },
+    {
+      "id": "4118",
+      "name": "Gloves of the Admirable Admiral",
+      "item_name": "#DOTA_Item_Gloves_of_the_Admirable_Admiral",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/glove_admirableadmiral.vmdl"
+    },
+    {
+      "id": "4119",
+      "name": "Ceremonial Rapier",
+      "item_name": "#DOTA_Item_Ceremonial_Rapier",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/rapier_admirableadmiral.vmdl"
+    },
+    {
+      "id": "4120",
+      "name": "Sword of the Seventy-Seven Seas",
+      "item_name": "#DOTA_Item_Sword_of_the_SeventySeven_Seas",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/sword_admirableadmiral.vmdl"
+    },
+    {
+      "id": "4121",
+      "name": "Grand Curls of the Admirable Admiral",
+      "item_name": "#DOTA_Item_Grand_Curls_of_the_Admirable_Admiral",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/head_admirableadmiral.vmdl"
+    },
+    {
+      "id": "4122",
+      "name": "Seafarer's Shoes",
+      "item_name": "#DOTA_Item_Seafarers_Shoes",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/legs_admirableadmiral.vmdl"
+    },
+    {
+      "id": "4160",
+      "name": "Sword of the Admirable Admiral",
+      "item_name": "#DOTA_Item_Sword_of_the_Admirable_Admiral",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/sword_2_admirableadmiral.vmdl"
+    },
+    {
+      "id": "4500",
+      "name": "Sash of the Crested Cannoneer",
+      "item_name": "#DOTA_Item_Sash_of_the_Crested_Cannoneer",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/singkunkabelt_final/singkunkabelt_final.vmdl"
+    },
+    {
+      "id": "4617",
+      "name": "Finblade",
+      "item_name": "#DOTA_Item_Finblade",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/weapon_finblade/weapon_finblade.vmdl"
+    },
+    {
+      "id": "4765",
+      "name": "Commodore's Kraken Slayer",
+      "item_name": "#DOTA_Item_Commodores_Kraken_Slayer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/comm_sword/comm_sword.vmdl"
+    },
+    {
+      "id": "4766",
+      "name": "Commodore's Bicorne",
+      "item_name": "#DOTA_Item_Commodores_Bicorne",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/comm_bicorne/comm_bicorne.vmdl"
+    },
+    {
+      "id": "4767",
+      "name": "Commodore's Curtains",
+      "item_name": "#DOTA_Item_Commodores_Curtains",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/comm_cape/comm_cape.vmdl"
+    },
+    {
+      "id": "4768",
+      "name": "Commodore's Puffy Cuffs",
+      "item_name": "#DOTA_Item_Commodores_Puffy_Cuffs",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/comm_cuffs/comm_cuffs.vmdl"
+    },
+    {
+      "id": "4790",
+      "name": "Commodore's Facings",
+      "item_name": "#DOTA_Item_Commodores_Facings",
+      "item_slot": "neck",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/comm_chest/comm_chest.vmdl"
+    },
+    {
+      "id": "4791",
+      "name": "Commodore's Gaiters",
+      "item_name": "#DOTA_Item_Commodores_Gaiters",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/comm_boots/comm_boots.vmdl"
+    },
+    {
+      "id": "4792",
+      "name": "Commodore's Sash",
+      "item_name": "#DOTA_Item_Commodores_Sash",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/comm_sash/comm_sash.vmdl"
+    },
+    {
+      "id": "5217",
+      "name": "Claddish Voyager's Second Chance",
+      "item_name": "#DOTA_Item_Claddish_Voyagers_Second_Chance",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/second_chance_of_the_kunkkistadore/second_chance_of_the_kunkkistadore.vmdl"
+    },
+    {
+      "id": "5218",
+      "name": "Claddish Voyager's First Chance",
+      "item_name": "#DOTA_Item_Claddish_Voyagers_First_Chance",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/first_chance_of_the_kunkkistadore/first_chance_of_the_kunkkistadore.vmdl"
+    },
+    {
+      "id": "5219",
+      "name": "Claddish Voyager's Gloves",
+      "item_name": "#DOTA_Item_Claddish_Voyagers_Gloves",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkkistadores_gloves/kunkkistadores_gloves.vmdl"
+    },
+    {
+      "id": "5220",
+      "name": "Claddish Voyager's Helm",
+      "item_name": "#DOTA_Item_Claddish_Voyagers_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkkistadores_helm/kunkkistadores_helm.vmdl"
+    },
+    {
+      "id": "5221",
+      "name": "Claddish Voyager's Treads",
+      "item_name": "#DOTA_Item_Claddish_Voyagers_Treads",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/treds_of_the_kunkkistadore/treds_of_the_kunkkistadore.vmdl"
+    },
+    {
+      "id": "5222",
+      "name": "Claddish Voyager's Chestplate",
+      "item_name": "#DOTA_Item_Claddish_Voyagers_Chestplate",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/chestplate_of_the_kunkkistadore/chestplate_of_the_kunkkistadore.vmdl"
+    },
+    {
+      "id": "5223",
+      "name": "Claddish Voyager's Elegant Pauldron",
+      "item_name": "#DOTA_Item_Claddish_Voyagers_Elegant_Pauldron",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/elegant_shoulders_of_the_kunkkistadore/elegant_shoulders_of_the_kunkkistadore.vmdl"
+    },
+    {
+      "id": "5224",
+      "name": "Claddish Voyager's True North",
+      "item_name": "#DOTA_Item_Claddish_Voyagers_True_North",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkkistadores_true_north/kunkkistadores_true_north.vmdl"
+    },
+    {
+      "id": "5250",
+      "name": "Black Boots of the Voyager",
+      "item_name": "#DOTA_Item_Black_Boots_of_the_Voyager",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/black_boots_of_the_voyager/black_boots_of_the_voyager.vmdl"
+    },
+    {
+      "id": "5251",
+      "name": "Green Sleeves of the Voyager",
+      "item_name": "#DOTA_Item_Green_Sleeves_of_the_Voyager",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/green_sleeves_of_the_voyager/green_sleeves_of_the_voyager.vmdl"
+    },
+    {
+      "id": "5252",
+      "name": "Ernest Do of the Voyager",
+      "item_name": "#DOTA_Item_Ernest_Do_of_the_Voyager",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/ernest_do_of_the_voyager/ernest_do_of_the_voyager.vmdl"
+    },
+    {
+      "id": "5253",
+      "name": "Button Down of the Voyager",
+      "item_name": "#DOTA_Item_Button_Down_of_the_Voyager",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/button_down_of_the_voyager/button_down_of_the_voyager.vmdl"
+    },
+    {
+      "id": "5254",
+      "name": "Firebreather of the Voyager",
+      "item_name": "#DOTA_Item_Firebreather_of_the_Voyager",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/firebreather_of_the_voyager/firebreather_of_the_voyager.vmdl"
+    },
+    {
+      "id": "5255",
+      "name": "Blue Stone Shoulder of the Voyager",
+      "item_name": "#DOTA_Item_Blue_Stone_Shoulder_of_the_Voyager",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/blue_stone_shoulder_of_the_voyager/blue_stone_shoulder_of_the_voyager.vmdl"
+    },
+    {
+      "id": "5256",
+      "name": "Compass Edge of the Voyager",
+      "item_name": "#DOTA_Item_Compass_Edge_of_the_Voyager",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/compass_edge_of_the_voyager/compass_edge_of_the_voyager.vmdl"
+    },
+    {
+      "id": "5321",
+      "name": "Kunkka's Shadow Blade",
+      "item_name": "#DOTA_Item_Kunkkas_Shadow_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_shadow_blade/kunkka_shadow_blade.vmdl"
+    },
+    {
+      "id": "5330",
+      "name": "Old Ironsides Pauldrons",
+      "item_name": "#DOTA_Item_Old_Ironsides_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/old_ironsides/old_ironsides_shoulders.vmdl"
+    },
+    {
+      "id": "5331",
+      "name": "Old Ironsides Gauntlet",
+      "item_name": "#DOTA_Item_Old_Ironsides_Gauntlet",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/old_ironsides/old_ironsides_gauntlet.vmdl"
+    },
+    {
+      "id": "5334",
+      "name": "Leviathan Whale Blade",
+      "item_name": "#DOTA_Item_Leviathan_Whale_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/whaleblade/kunkka_whaleblade.vmdl"
+    },
+    {
+      "id": "5335",
+      "name": "BladeBiter",
+      "item_name": "#DOTA_Item_BladeBiter",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/bladebiter/kunkka_bladebiter.vmdl"
+    },
+    {
+      "id": "5348",
+      "name": "Admiral's Prow",
+      "item_name": "#DOTA_Item_Admirals_Prow",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/admiralsprow/admiralsprow_helm.vmdl"
+    },
+    {
+      "id": "5373",
+      "name": "Tabard of the Crested Cannoneer",
+      "item_name": "#DOTA_Item_Tabard_of_the_Crested_Cannoneer",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/singkunkkabackfinal/singkunkkabackfinal.vmdl"
+    },
+    {
+      "id": "5374",
+      "name": "Cannonade",
+      "item_name": "#DOTA_Item_Cannonade",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/singsingkunkka_sword/singsingkunkka_sword.vmdl"
+    },
+    {
+      "id": "5385",
+      "name": "Battery of the Crested Cannoneer",
+      "item_name": "#DOTA_Item_Battery_of_the_Crested_Cannoneer",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/singsingkunkkaset__cannon/singsingkunkkaset__cannon.vmdl"
+    },
+    {
+      "id": "5427",
+      "name": "Plunder of the High Seas",
+      "item_name": "#DOTA_Item_Plunder_of_the_High_Seas",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/admirals_treasury/admirals_treasury.vmdl"
+    },
+    {
+      "id": "5463",
+      "name": "Admiral's Foraged Cap",
+      "item_name": "#DOTA_Item_Admirals_Foraged_Cap",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/arm_lev_admiral_cap/arm_lev_admiral_cap.vmdl"
+    },
+    {
+      "id": "5464",
+      "name": "Admiral's Stash",
+      "item_name": "#DOTA_Item_Admirals_Stash",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/arm_lev_stash_belt/arm_lev_stash_belt.vmdl"
+    },
+    {
+      "id": "5465",
+      "name": "Claddish Gauntlets",
+      "item_name": "#DOTA_Item_Claddish_Gauntlets",
+      "item_slot": "gloves",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/arm_lev_claddish_gauntlets/arm_lev_claddish_gauntlets.vmdl"
+    },
+    {
+      "id": "5466",
+      "name": "Claddish Guard",
+      "item_name": "#DOTA_Item_Claddish_Guard",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/arm_lev_claddish_shoulders/arm_lev_claddish_shoulders.vmdl"
+    },
+    {
+      "id": "5467",
+      "name": "Claddish Hightops",
+      "item_name": "#DOTA_Item_Claddish_Hightops",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/arm_lev_claddish_shoes/arm_lev_claddish_shoes.vmdl"
+    },
+    {
+      "id": "5468",
+      "name": "Neptunian Sabre",
+      "item_name": "#DOTA_Item_Neptunian_Sabre",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/arm_lev_neptunian_sabre/arm_lev_neptunian_sabre.vmdl"
+    },
+    {
+      "id": "5469",
+      "name": "Admiral's Salty Shawl",
+      "item_name": "#DOTA_Item_Admirals_Salty_Shawl",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/arm_lev_admiral_shawl/arm_lev_admiral_shawl.vmdl"
+    },
+    {
+      "id": "5470",
+      "name": "Ye Olde Pipe",
+      "item_name": "#DOTA_Item_Ye_Olde_Pipe",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/arm_lev_pipe/arm_lev_pipe.vmdl"
+    },
+    {
+      "id": "5517",
+      "name": "Tsunami Blade",
+      "item_name": "#DOTA_Item_Tsunami_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/tsunami_blade/tsunami_blade.vmdl"
+    },
+    {
+      "id": "5661",
+      "name": "Sabatons of the Crested Cannoneer",
+      "item_name": "#DOTA_Item_Sabatons_of_the_Crested_Cannoneer",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/singsingkunkkaset_boots/singsingkunkkaset_boots.vmdl"
+    },
+    {
+      "id": "5669",
+      "name": "Gloves of the Crested Cannoneer",
+      "item_name": "#DOTA_Item_Gloves_of_the_Crested_Cannoneer",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/singsingkunkkaset_gloves/singsingkunkkaset_gloves.vmdl"
+    },
+    {
+      "id": "5670",
+      "name": "Plume of the Crested Cannoneer",
+      "item_name": "#DOTA_Item_Plume_of_the_Crested_Cannoneer",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/singsingkunkkaset_head/singsingkunkkaset_head.vmdl"
+    },
+    {
+      "id": "5671",
+      "name": "Mantle of the Crested Cannoneer",
+      "item_name": "#DOTA_Item_Mantle_of_the_Crested_Cannoneer",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/singsingkunkkaset_shoulders/singsingkunkkaset_shoulders.vmdl"
+    },
+    {
+      "id": "5943",
+      "name": "Krakenbringer",
+      "item_name": "#DOTA_Item_Krakenbringer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/weapon1122/weapon1122.vmdl"
+    },
+    {
+      "id": "6179",
+      "name": "The Crow's Nest",
+      "item_name": "#DOTA_Item_The_Crows_Nest",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/claddish_shoulder/claddish_shoulder.vmdl"
+    },
+    {
+      "id": "6180",
+      "name": "Patch of the Renegade",
+      "item_name": "#DOTA_Item_Patch_of_the_Renegade",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/claddish_neck/claddish_neck.vmdl"
+    },
+    {
+      "id": "6181",
+      "name": "Peg Leg of the Renegade",
+      "item_name": "#DOTA_Item_Peg_Leg_of_the_Renegade",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/claddish_legs/claddish_legs.vmdl"
+    },
+    {
+      "id": "6182",
+      "name": "Hook of the Renegade",
+      "item_name": "#DOTA_Item_Hook_of_the_Renegade",
+      "item_slot": "gloves",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/claddish_gloves/claddish_gloves.vmdl"
+    },
+    {
+      "id": "6183",
+      "name": "Cutlass of the Renegade",
+      "item_name": "#DOTA_Item_Cutlass_of_the_Renegade",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/claddish_weapon/claddish_weapon.vmdl"
+    },
+    {
+      "id": "6184",
+      "name": "Chest of the Renegade",
+      "item_name": "#DOTA_Item_Chest_of_the_Renegade",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/claddish_back/claddish_back.vmdl"
+    },
+    {
+      "id": "6196",
+      "name": "Rigging Rope of the Renegade",
+      "item_name": "#DOTA_Item_Rigging_Rope_of_the_Renegade",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/claddish_belt/claddish_belt.vmdl"
+    },
+    {
+      "id": "6213",
+      "name": "Bicorne of the Renegade",
+      "item_name": "#DOTA_Item_Bicorne_of_the_Renegade",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/claddish_head/claddish_head.vmdl"
+    },
+    {
+      "id": "6338",
+      "name": "Hat of the Kraken",
+      "item_name": "#DOTA_Item_Hat_of_the_Kraken",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/pw_kraken_hat/kunkka_hair.vmdl"
+    },
+    {
+      "id": "6428",
+      "name": "Boots of the Divine Anchor",
+      "item_name": "#DOTA_Item_Boots_of_the_Divine_Anchor",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/boots_of_the_divine_anchor/boots_of_the_divine_anchor.vmdl"
+    },
+    {
+      "id": "6430",
+      "name": "Collar of the Divine Anchor",
+      "item_name": "#DOTA_Item_Collar_of_the_Divine_Anchor",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/collar_of_the_divine_anchor/collar_of_the_divine_anchor.vmdl"
+    },
+    {
+      "id": "6487",
+      "name": "Aged Spirit of Tide",
+      "item_name": "#DOTA_Item_Aged_Spirit_of_Tide",
+      "item_slot": "gloves",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/spiritoftide_gloves/spiritoftide_gloves.vmdl"
+    },
+    {
+      "id": "6704",
+      "name": "Genuine Aged Spirit of Tide",
+      "item_name": "#DOTA_Item_Genuine_Aged_Spirit_of_Tide",
+      "item_slot": "gloves",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/spiritoftide_gloves/spiritoftide_gloves.vmdl"
+    },
+    {
+      "id": "6757",
+      "name": "Inverse Bayonet",
+      "item_name": "#DOTA_Item_Inverse_Bayonet",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/gunsword/kunkka_gunsword.vmdl"
+    },
+    {
+      "id": "6777",
+      "name": "Cuffs of the Divine Anchor",
+      "item_name": "#DOTA_Item_Cuffs_of_the_Divine_Anchor",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/cuffs_of_the_divine_anchor/cuffs_of_the_divine_anchor.vmdl"
+    },
+    {
+      "id": "6778",
+      "name": "Cyclone Wave Smasher of the Divine Anchor",
+      "item_name": "#DOTA_Item_Cyclone_Wave_Smasher_of_the_Divine_Anchor",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/cyclone_wave_smasher_of_the_divine_anchor/cyclone_wave_smasher_of_the_divine_anchor.vmdl"
+    },
+    {
+      "id": "6779",
+      "name": "Epaulets of the Divine Anchor",
+      "item_name": "#DOTA_Item_Epaulets_of_the_Divine_Anchor",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/epaulets_of_the_divine_anchor/epaulets_of_the_divine_anchor.vmdl"
+    },
+    {
+      "id": "6780",
+      "name": "Flintlock of the Divine Anchor",
+      "item_name": "#DOTA_Item_Flintlock_of_the_Divine_Anchor",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/flintlock_of_the_divine_anchor/flintlock_of_the_divine_anchor.vmdl"
+    },
+    {
+      "id": "6781",
+      "name": "Medallion of the Divine Anchor",
+      "item_name": "#DOTA_Item_Medallion_of_the_Divine_Anchor",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/medallion_of_the_divine_anchor/medallion_of_the_divine_anchor.vmdl"
+    },
+    {
+      "id": "6782",
+      "name": "Style of the Divine Anchor",
+      "item_name": "#DOTA_Item_Style_of_the_Divine_Anchor",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/style_of_the_divine_anchor/style_of_the_divine_anchor.vmdl"
+    },
+    {
+      "id": "8089",
+      "name": "Mantle of the Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Mantle_of_the_Witch_Hunter_Templar",
+      "item_slot": "neck",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/inquisitor_tide_misc/inquisitor_tide_misc.vmdl"
+    },
+    {
+      "id": "8090",
+      "name": "Gloves of the Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Gloves_of_the_Witch_Hunter_Templar",
+      "item_slot": "gloves",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/inquisitor_tide_glove/inquisitor_tide_glove.vmdl"
+    },
+    {
+      "id": "8091",
+      "name": "Vestments of the Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Vestments_of_the_Witch_Hunter_Templar",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/inquisitor_tide_back/inquisitor_tide_back.vmdl"
+    },
+    {
+      "id": "8092",
+      "name": "Boots of the Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Boots_of_the_Witch_Hunter_Templar",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/inquisitor_tide_legs/inquisitor_tide_legs.vmdl"
+    },
+    {
+      "id": "8093",
+      "name": "Hat of the Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Hat_of_the_Witch_Hunter_Templar",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/inquisitor_tide_head/inquisitor_tide_head.vmdl"
+    },
+    {
+      "id": "8094",
+      "name": "Belt of the Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Belt_of_the_Witch_Hunter_Templar",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/inquisitor_tide_belt/inquisitor_tide_belt.vmdl"
+    },
+    {
+      "id": "8095",
+      "name": "Sword of the Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Sword_of_the_Witch_Hunter_Templar",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/inquisitor_tide_weapon/inquisitor_tide_weapon.vmdl"
+    },
+    {
+      "id": "8096",
+      "name": "Pauldrons of the Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Witch_Hunter_Templar",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/inquisitor_tide_shoulder/inquisitor_tide_shoulder.vmdl"
+    },
+    {
+      "id": "8412",
+      "name": "Grand Mantle of the Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Grand_Mantle_of_the_Witch_Hunter_Templar",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/inquisitor_tide_misc/inquisitor_tide_misc.vmdl"
+    },
+    {
+      "id": "8413",
+      "name": "Grand Gloves of the Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Grand_Gloves_of_the_Witch_Hunter_Templar",
+      "item_slot": "gloves",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/inquisitor_tide_glove/inquisitor_tide_glove.vmdl"
+    },
+    {
+      "id": "8415",
+      "name": "Grand Vestments of the Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Grand_Vestments_of_the_Witch_Hunter_Templar",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/inquisitor_tide_back/inquisitor_tide_back.vmdl"
+    },
+    {
+      "id": "8417",
+      "name": "Grand Boots of the Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Grand_Boots_of_the_Witch_Hunter_Templar",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/inquisitor_tide_legs/inquisitor_tide_legs.vmdl"
+    },
+    {
+      "id": "8419",
+      "name": "Grand Hat of the Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Grand_Hat_of_the_Witch_Hunter_Templar",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/inquisitor_tide_head/inquisitor_tide_head.vmdl"
+    },
+    {
+      "id": "8421",
+      "name": "Grand Belt of the Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Grand_Belt_of_the_Witch_Hunter_Templar",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/inquisitor_tide_belt/inquisitor_tide_belt.vmdl"
+    },
+    {
+      "id": "8423",
+      "name": "Grand Sword of the Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Grand_Sword_of_the_Witch_Hunter_Templar",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/inquisitor_tide_weapon/inquisitor_tide_weapon.vmdl"
+    },
+    {
+      "id": "8426",
+      "name": "Grand Pauldrons of the Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Grand_Pauldrons_of_the_Witch_Hunter_Templar",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/inquisitor_tide_shoulder/inquisitor_tide_shoulder.vmdl"
+    },
+    {
+      "id": "8656",
+      "name": "Kunkka's Back",
+      "item_name": "#DOTA_Item_Kunkkas_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "8657",
+      "name": "Kunkka's Neck",
+      "item_name": "#DOTA_Item_Kunkkas_Neck",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "9115",
+      "name": "Prize of the Saltworn Mariner",
+      "item_name": "#DOTA_Item_Prize_of_the_Saltworn_Mariner",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_immortal/kunkka_shoulder_immortal.vmdl"
+    },
+    {
+      "id": "9214",
+      "name": "Taunt: Step Lively",
+      "item_name": "#DOTA_Item_Taunt_Step_Lively",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "taunt"
+    },
+    {
+      "id": "9339",
+      "name": "Ghost Blade of Seaborne Reprisal",
+      "item_name": "#DOTA_Item_Ghost_Blade_of_Seaborne_Reprisal",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/vengeful_ghost_captain_weapon/vengeful_ghost_captain_weapon.vmdl"
+    },
+    {
+      "id": "9340",
+      "name": "Coat of Seaborne Reprisal",
+      "item_name": "#DOTA_Item_Coat_of_Seaborne_Reprisal",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/vengeful_ghost_captain_shoulder/vengeful_ghost_captain_shoulder.vmdl"
+    },
+    {
+      "id": "9342",
+      "name": "Legs of the Seaborne Reprisal",
+      "item_name": "#DOTA_Item_Legs_of_the_Seaborne_Reprisal",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/vengeful_ghost_captain_legs/vengeful_ghost_captain_legs.vmdl"
+    },
+    {
+      "id": "9343",
+      "name": "Image of Seaborne Reprisal",
+      "item_name": "#DOTA_Item_Image_of_Seaborne_Reprisal",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/vengeful_ghost_captain_head/vengeful_ghost_captain_head.vmdl"
+    },
+    {
+      "id": "9344",
+      "name": "Claw of Seaborne Reprisal",
+      "item_name": "#DOTA_Item_Claw_of_Seaborne_Reprisal",
+      "item_slot": "gloves",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/vengeful_ghost_captain_gloves/vengeful_ghost_captain_gloves.vmdl"
+    },
+    {
+      "id": "9345",
+      "name": "Belt of Seaborne Reprisal",
+      "item_name": "#DOTA_Item_Belt_of_Seaborne_Reprisal",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/vengeful_ghost_captain_belt/vengeful_ghost_captain_belt.vmdl"
+    },
+    {
+      "id": "9346",
+      "name": "Folds of Seaborne Reprisal",
+      "item_name": "#DOTA_Item_Folds_of_Seaborne_Reprisal",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/vengeful_ghost_captain_back/vengeful_ghost_captain_back.vmdl"
+    },
+    {
+      "id": "9707",
+      "name": "Viking Sailor Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_Viking_Sailor_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/viking_sailor_weapon/viking_sailor_weapon.vmdl"
+    },
+    {
+      "id": "9708",
+      "name": "Viking Sailor Legs",
+      "item_name": "#DOTA_Item_Vote_Only_Viking_Sailor_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/viking_sailor_legs/viking_sailor_legs.vmdl"
+    },
+    {
+      "id": "9719",
+      "name": "Viking Sailor Gloves",
+      "item_name": "#DOTA_Item_Vote_Only_Viking_Sailor_Gloves",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/viking_sailor_gloves/viking_sailor_gloves.vmdl"
+    },
+    {
+      "id": "9720",
+      "name": "Viking Sailor Neck",
+      "item_name": "#DOTA_Item_Vote_Only_Viking_Sailor_Neck",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/viking_sailor_neck/viking_sailor_neck.vmdl"
+    },
+    {
+      "id": "9721",
+      "name": "Viking Sailor Belt",
+      "item_name": "#DOTA_Item_Vote_Only_Viking_Sailor_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/viking_sailor_belt/viking_sailor_belt.vmdl"
+    },
+    {
+      "id": "9967",
+      "name": "Viking Sailor Shoulder",
+      "item_name": "#DOTA_Item_Vote_Only_Viking_Sailor_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/viking_sailor_shoulder/viking_sailor_shoulder.vmdl"
+    },
+    {
+      "id": "9968",
+      "name": "Viking Sailor Head",
+      "item_name": "#DOTA_Item_Vote_Only_Viking_Sailor_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/viking_sailor_head/viking_sailor_head.vmdl"
+    },
+    {
+      "id": "9969",
+      "name": "Viking Sailor Back",
+      "item_name": "#DOTA_Item_Vote_Only_Viking_Sailor_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/viking_sailor_back/viking_sailor_back.vmdl"
+    },
+    {
+      "id": "10153",
+      "name": "Expired Treasure of the Restless Seas",
+      "item_name": "#DOTA_Item_Expired_Treasure_of_the_Restless_Seas",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "retired_treasure_chest"
+    },
+    {
+      "id": "12291",
+      "name": "Leviathan Whale Blade of Eminent Revival",
+      "item_name": "#DOTA_Item_Leviathan_Whale_Blade_of_Eminent_Revival",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/whaleblade/ti8_kunkka_whaleblade.vmdl"
+    },
+    {
+      "id": "12776",
+      "name": "Garb of the Pack-Ice Privateer",
+      "item_name": "#DOTA_Item_Garb_of_the_PackIce_Privateer",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/frostivus2018_kunkka_icebreaking_back/frostivus2018_kunkka_icebreaking_back.vmdl"
+    },
+    {
+      "id": "12778",
+      "name": "Charm of the Pack-Ice Privateer",
+      "item_name": "#DOTA_Item_Charm_of_the_PackIce_Privateer",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/frostivus2018_kunkka_icebreaking_neck/frostivus2018_kunkka_icebreaking_neck.vmdl"
+    },
+    {
+      "id": "12779",
+      "name": "Coat of the Pack-Ice Privateer",
+      "item_name": "#DOTA_Item_Coat_of_the_PackIce_Privateer",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/frostivus2018_kunkka_icebreaking_shoulder/frostivus2018_kunkka_icebreaking_shoulder.vmdl"
+    },
+    {
+      "id": "12780",
+      "name": "Blade of the Pack-Ice Privateer",
+      "item_name": "#DOTA_Item_Blade_of_the_PackIce_Privateer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/frostivus2018_kunkka_icebreaking_weapon/frostivus2018_kunkka_icebreaking_weapon.vmdl"
+    },
+    {
+      "id": "12781",
+      "name": "Legs of the Pack-Ice Privateer",
+      "item_name": "#DOTA_Item_Legs_of_the_PackIce_Privateer",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/frostivus2018_kunkka_icebreaking_legs/frostivus2018_kunkka_icebreaking_legs.vmdl"
+    },
+    {
+      "id": "12782",
+      "name": "Visage of the Pack-Ice Privateer",
+      "item_name": "#DOTA_Item_Visage_of_the_PackIce_Privateer",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/frostivus2018_kunkka_icebreaking_head/frostivus2018_kunkka_icebreaking_head.vmdl"
+    },
+    {
+      "id": "12783",
+      "name": "Gloves of the Pack-Ice Privateer",
+      "item_name": "#DOTA_Item_Gloves_of_the_PackIce_Privateer",
+      "item_slot": "gloves",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/frostivus2018_kunkka_icebreaking_gloves/frostivus2018_kunkka_icebreaking_gloves.vmdl"
+    },
+    {
+      "id": "12784",
+      "name": "Belt of the Pack-Ice Privateer",
+      "item_name": "#DOTA_Item_Belt_of_the_PackIce_Privateer",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/frostivus2018_kunkka_icebreaking_belt/frostivus2018_kunkka_icebreaking_belt.vmdl"
+    },
+    {
+      "id": "13191",
+      "name": "Winds of Conquest Blade",
+      "item_name": "#DOTA_Item_Winds_of_Conquest_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/ti9_cache_kunkka_kunkkquistador_weapon/ti9_cache_kunkka_kunkkquistador_weapon.vmdl"
+    },
+    {
+      "id": "13192",
+      "name": "Winds of Conquest Pauldrons",
+      "item_name": "#DOTA_Item_Winds_of_Conquest_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/ti9_cache_kunkka_kunkkquistador_shoulder/ti9_cache_kunkka_kunkkquistador_shoulder.vmdl"
+    },
+    {
+      "id": "13193",
+      "name": "Winds of Conquest Treasure",
+      "item_name": "#DOTA_Item_Winds_of_Conquest_Treasure",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/ti9_cache_kunkka_kunkkquistador_neck/ti9_cache_kunkka_kunkkquistador_neck.vmdl"
+    },
+    {
+      "id": "13194",
+      "name": "Winds of Conquest Legs",
+      "item_name": "#DOTA_Item_Winds_of_Conquest_Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/ti9_cache_kunkka_kunkkquistador_legs/ti9_cache_kunkka_kunkkquistador_legs.vmdl"
+    },
+    {
+      "id": "13195",
+      "name": "Winds of Conquest Helm",
+      "item_name": "#DOTA_Item_Winds_of_Conquest_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/ti9_cache_kunkka_kunkkquistador_head/ti9_cache_kunkka_kunkkquistador_head.vmdl"
+    },
+    {
+      "id": "13196",
+      "name": "Winds of Conquest Bracers",
+      "item_name": "#DOTA_Item_Winds_of_Conquest_Bracers",
+      "item_slot": "gloves",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/ti9_cache_kunkka_kunkkquistador_gloves/ti9_cache_kunkka_kunkkquistador_gloves.vmdl"
+    },
+    {
+      "id": "13197",
+      "name": "Winds of Conquest Belt",
+      "item_name": "#DOTA_Item_Winds_of_Conquest_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/ti9_cache_kunkka_kunkkquistador_belt/ti9_cache_kunkka_kunkkquistador_belt.vmdl"
+    },
+    {
+      "id": "13198",
+      "name": "Winds of Conquest Armor",
+      "item_name": "#DOTA_Item_Winds_of_Conquest_Armor",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/ti9_cache_kunkka_kunkkquistador_back/ti9_cache_kunkka_kunkkquistador_back.vmdl"
+    },
+    {
+      "id": "14441",
+      "name": "Sword of the Brine Lords",
+      "item_name": "#DOTA_Item_Sword_of_the_Brine_Lords",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_the_cursed_captain_weapon/kunkka_the_cursed_captain_weapon.vmdl"
+    },
+    {
+      "id": "14442",
+      "name": "Jacket of the Brine Lords",
+      "item_name": "#DOTA_Item_Jacket_of_the_Brine_Lords",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_the_cursed_captain_shoulder/kunkka_the_cursed_captain_shoulder.vmdl"
+    },
+    {
+      "id": "14443",
+      "name": "Decor of the Brine Lords",
+      "item_name": "#DOTA_Item_Decor_of_the_Brine_Lords",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_the_cursed_captain_neck/kunkka_the_cursed_captain_neck.vmdl"
+    },
+    {
+      "id": "14444",
+      "name": "Boots of the Brine Lords",
+      "item_name": "#DOTA_Item_Boots_of_the_Brine_Lords",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_the_cursed_captain_legs/kunkka_the_cursed_captain_legs.vmdl"
+    },
+    {
+      "id": "14445",
+      "name": "Hat of the Brine Lords",
+      "item_name": "#DOTA_Item_Hat_of_the_Brine_Lords",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_the_cursed_captain_head/kunkka_the_cursed_captain_head.vmdl"
+    },
+    {
+      "id": "14446",
+      "name": "Gloves of the Brine Lords",
+      "item_name": "#DOTA_Item_Gloves_of_the_Brine_Lords",
+      "item_slot": "gloves",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_the_cursed_captain_gloves/kunkka_the_cursed_captain_gloves.vmdl"
+    },
+    {
+      "id": "14447",
+      "name": "Belt of the Brine Lords",
+      "item_name": "#DOTA_Item_Belt_of_the_Brine_Lords",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_the_cursed_captain_belt/kunkka_the_cursed_captain_belt.vmdl"
+    },
+    {
+      "id": "14448",
+      "name": "Wheel of the Brine Lords",
+      "item_name": "#DOTA_Item_Wheel_of_the_Brine_Lords",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_the_cursed_captain_back/kunkka_the_cursed_captain_back.vmdl"
+    },
+    {
+      "id": "14966",
+      "name": "Waterlogged Kunkka Shoes",
+      "item_name": "#DOTA_Item_Waterlogged_Kunkka_Shoes",
+      "item_slot": "legs",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_shoes/kunkka_shoes.vmdl"
+    },
+    {
+      "id": "20024",
+      "name": "The Admirable Admiral Set",
+      "item_name": "#DOTA_Item_The_Admirable_Admiral_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20055",
+      "name": "Kunkka's 'But I'm Not A Pirate!' Pack",
+      "item_name": "#DOTA_Item_Kunkkas_But_Im_Not_A_Pirate_Pack",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20128",
+      "name": "The Commendable Commodore Set",
+      "item_name": "#DOTA_Item_The_Commendable_Commodore_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20218",
+      "name": "Instruments of the Claddish Voyager Set",
+      "item_name": "#DOTA_Item_Instruments_of_the_Claddish_Voyager_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20219",
+      "name": "The Steadfast Voyager Set",
+      "item_name": "#DOTA_Item_The_Steadfast_Voyager_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20267",
+      "name": "Armaments of Leviathan Set",
+      "item_name": "#DOTA_Item_Armaments_of_Leviathan_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20311",
+      "name": "Artillery of the Crested Cannoneer Set",
+      "item_name": "#DOTA_Item_Artillery_of_the_Crested_Cannoneer_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20451",
+      "name": "The Claddish Renegade",
+      "item_name": "#DOTA_Item_The_Claddish_Renegade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20523",
+      "name": "Bestowments of the Divine Anchor",
+      "item_name": "#DOTA_Item_Bestowments_of_the_Divine_Anchor",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20563",
+      "name": "Promo Bestowments of the Divine Anchor",
+      "item_name": "#DOTA_Item_Promo_Bestowments_of_the_Divine_Anchor",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20957",
+      "name": "Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Witch_Hunter_Templar",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21027",
+      "name": "Grand Witch Hunter Templar",
+      "item_name": "#DOTA_Item_Grand_Witch_Hunter_Templar",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21120",
+      "name": "Seaborne Reprisal",
+      "item_name": "#DOTA_Item_Seaborne_Reprisal",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21212",
+      "name": "Viking Sailor",
+      "item_name": "#DOTA_Item_Vote_Only_Viking_Sailor",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21297",
+      "name": "Pack-Ice Privateer",
+      "item_name": "#DOTA_Item_PackIce_Privateer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21363",
+      "name": "Winds of Conquest",
+      "item_name": "#DOTA_Item_Winds_of_Conquest",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21560",
+      "name": "Vengeance of the Brine Lords",
+      "item_name": "#DOTA_Item_Vengeance_of_the_Brine_Lords",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21934",
+      "name": "Anchors of the Ageless Deep - Belt",
+      "item_name": "#DOTA_Item_Anchors_of_the_Ageless_Deep__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_undead_belt/kunkka_undead_belt.vmdl"
+    },
+    {
+      "id": "21959",
+      "name": "Anchors of the Ageless Deep - Neck",
+      "item_name": "#DOTA_Item_Anchors_of_the_Ageless_Deep__Neck",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_undead_neck/kunkka_undead_neck.vmdl"
+    },
+    {
+      "id": "21985",
+      "name": "Anchors of the Ageless Deep - Shoulder",
+      "item_name": "#DOTA_Item_Anchors_of_the_Ageless_Deep__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_undead_shoulder/kunkka_undead_shoulder.vmdl"
+    },
+    {
+      "id": "21986",
+      "name": "Anchors of the Ageless Deep - Back",
+      "item_name": "#DOTA_Item_Anchors_of_the_Ageless_Deep__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_undead_back/kunkka_undead_back.vmdl"
+    },
+    {
+      "id": "21987",
+      "name": "Anchors of the Ageless Deep - Gloves",
+      "item_name": "#DOTA_Item_Anchors_of_the_Ageless_Deep__Gloves",
+      "item_slot": "gloves",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_undead_gloves/kunkka_undead_gloves.vmdl"
+    },
+    {
+      "id": "21988",
+      "name": "Anchors of the Ageless Deep - Legs",
+      "item_name": "#DOTA_Item_Anchors_of_the_Ageless_Deep__Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_undead_legs/kunkka_undead_legs.vmdl"
+    },
+    {
+      "id": "21989",
+      "name": "Anchors of the Ageless Deep - Head",
+      "item_name": "#DOTA_Item_Anchors_of_the_Ageless_Deep__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_undead_head/kunkka_undead_head.vmdl"
+    },
+    {
+      "id": "21990",
+      "name": "Anchors of the Ageless Deep - Weapon",
+      "item_name": "#DOTA_Item_Anchors_of_the_Ageless_Deep__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_undead_weapon/kunkka_undead_weapon.vmdl"
+    },
+    {
+      "id": "22037",
+      "name": "Anchors of the Ageless Deep",
+      "item_name": "#DOTA_Item_Anchors_of_the_Ageless_Deep",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28554",
+      "name": "Sea Spirit Head",
+      "item_name": "#DOTA_Item_Sea_Spirit_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_admirals_revenge_head/kunkka_admirals_revenge_head.vmdl"
+    },
+    {
+      "id": "28555",
+      "name": "Sea Spirit Shoulder",
+      "item_name": "#DOTA_Item_Sea_Spirit_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_admirals_revenge_shoulder/kunkka_admirals_revenge_shoulder.vmdl"
+    },
+    {
+      "id": "28556",
+      "name": "Sea Spirit Back",
+      "item_name": "#DOTA_Item_Sea_Spirit_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_admirals_revenge_back/kunkka_admirals_revenge_back.vmdl"
+    },
+    {
+      "id": "28557",
+      "name": "Sea Spirit Belt",
+      "item_name": "#DOTA_Item_Sea_Spirit_Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_admirals_revenge_belt/kunkka_admirals_revenge_belt.vmdl"
+    },
+    {
+      "id": "28558",
+      "name": "Sea Spirit Gloves",
+      "item_name": "#DOTA_Item_Sea_Spirit_Gloves",
+      "item_slot": "gloves",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_admirals_revenge_gloves/kunkka_admirals_revenge_gloves.vmdl"
+    },
+    {
+      "id": "28559",
+      "name": "Sea Spirit Legs",
+      "item_name": "#DOTA_Item_Sea_Spirit_Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_admirals_revenge_legs/kunkka_admirals_revenge_legs.vmdl"
+    },
+    {
+      "id": "28560",
+      "name": "Sea Spirit Neck",
+      "item_name": "#DOTA_Item_Sea_Spirit_Neck",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_admirals_revenge_neck/kunkka_admirals_revenge_neck.vmdl"
+    },
+    {
+      "id": "28561",
+      "name": "Sea Spirit Weapon",
+      "item_name": "#DOTA_Item_Sea_Spirit_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/kunkka_admirals_revenge_weapon/kunkka_admirals_revenge_weapon.vmdl"
+    },
+    {
+      "id": "29122",
+      "name": "Sea Spirit",
+      "item_name": "#DOTA_Item_Sea_Spirit",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "31212",
+      "name": "Carronade Corsair",
+      "item_name": "#DOTA_Item_Carronade_Corsair",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "31219",
+      "name": "Carronade Corsair - Armament",
+      "item_name": "#DOTA_Item_Carronade_Corsair__Armament",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/admirals_ire/admirals_ire.vmdl"
+    },
+    {
+      "id": "31220",
+      "name": "Carronade Corsair - Belt",
+      "item_name": "#DOTA_Item_Carronade_Corsair__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/admirals_binding/admirals_binding.vmdl"
+    },
+    {
+      "id": "31221",
+      "name": "Carronade Corsair - Legs",
+      "item_name": "#DOTA_Item_Carronade_Corsair__Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/admirals_stride/admirals_stride.vmdl"
+    },
+    {
+      "id": "31222",
+      "name": "Carronade Corsair - Gloves",
+      "item_name": "#DOTA_Item_Carronade_Corsair__Gloves",
+      "item_slot": "gloves",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/admirals_grasp/admirals_grasp.vmdl"
+    },
+    {
+      "id": "31223",
+      "name": "Carronade Corsair - Back",
+      "item_name": "#DOTA_Item_Carronade_Corsair__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/admirals_girdle/admirals_girdle.vmdl"
+    },
+    {
+      "id": "31224",
+      "name": "Carronade Corsair - Shoulder",
+      "item_name": "#DOTA_Item_Carronade_Corsair__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/admirals_burden/admirals_burden.vmdl"
+    },
+    {
+      "id": "31339",
+      "name": "Carronade Corsair - Weapon",
+      "item_name": "#DOTA_Item_Carronade_Corsair__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/admirals_despair/admirals_despair.vmdl"
+    },
+    {
+      "id": "31340",
+      "name": "Carronade Corsair - Head",
+      "item_name": "#DOTA_Item_Carronade_Corsair__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/kunkka/admirals_order/admirals_order.vmdl"
+    }
+  ]
+}

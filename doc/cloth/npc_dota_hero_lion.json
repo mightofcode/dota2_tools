@@ -1,0 +1,1308 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "365",
+      "name": "Lion's Weapon",
+      "item_name": "#DOTA_Item_Lions_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/lion/lion_weapon.vmdl"
+    },
+    "back": {
+      "id": "366",
+      "name": "Lion's Cape",
+      "item_name": "#DOTA_Item_Lions_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/lion/lion_cape.vmdl"
+    },
+    "shoulder": {
+      "id": "368",
+      "name": "Lion's Shoulders",
+      "item_name": "#DOTA_Item_Lions_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/lion/lion_shoulder.vmdl"
+    },
+    "arms": {
+      "id": "369",
+      "name": "Lion's Demon Arm",
+      "item_name": "#DOTA_Item_Lions_Demon_Arm",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/lion/lion_demonarm.vmdl"
+    },
+    "head": {
+      "id": "572",
+      "name": "Lion's Head",
+      "item_name": "#DOTA_Item_Lions_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Cannonroar_Confessor",
+      "store_bundle": "Cannonroar Confessor",
+      "portrait_image": "econ/sets/v2/cannonroar_confessor",
+      "items": [
+        {
+          "name": "Cannonroar Confessor - Arms",
+          "id": "25680",
+          "item_name": "#DOTA_Item_Cannonroar_Confessor__Arms",
+          "item_slot": "arms",
+          "item_rarity": "immortal",
+          "model_player": "models/items/lion/lion_dungeon_poacher_arms/lion_dungeon_poacher_arms.vmdl"
+        },
+        {
+          "name": "Cannonroar Confessor - Back",
+          "id": "25681",
+          "item_name": "#DOTA_Item_Cannonroar_Confessor__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/lion_dungeon_poacher_back/lion_dungeon_poacher_back.vmdl"
+        },
+        {
+          "name": "Cannonroar Confessor - Head",
+          "id": "25700",
+          "item_name": "#DOTA_Item_Cannonroar_Confessor__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/lion_dungeon_poacher_wearable/lion_dungeon_poacher_wearable.vmdl"
+        },
+        {
+          "name": "Cannonroar Confessor - Shoulder",
+          "id": "25701",
+          "item_name": "#DOTA_Item_Cannonroar_Confessor__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/lion_dungeon_poacher_shoulder/lion_dungeon_poacher_shoulder.vmdl"
+        },
+        {
+          "name": "Cannonroar Confessor - Weapon",
+          "id": "25703",
+          "item_name": "#DOTA_Item_Cannonroar_Confessor__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "immortal",
+          "model_player": "models/items/lion/lion_dungeon_poacher_weapon/lion_dungeon_poacher_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Caprine_Chimera",
+      "store_bundle": "Caprine Chimera",
+      "portrait_image": "econ/sets/v2/caprine_chimera",
+      "items": [
+        {
+          "name": "Caprine Chimera - Back",
+          "id": "29224",
+          "item_name": "#DOTA_Item_Caprine_Chimera__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/lion_hellspawn_chimera_back/lion_hellspawn_chimera_back.vmdl"
+        },
+        {
+          "name": "Caprine Chimera - Wearable",
+          "id": "29223",
+          "item_name": "#DOTA_Item_Caprine_Chimera__Wearable",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/lion_hellspawn_chimera_wearable/lion_hellspawn_chimera_wearable.vmdl"
+        },
+        {
+          "name": "Caprine Chimera - Weapon",
+          "id": "29222",
+          "item_name": "#DOTA_Item_Caprine_Chimera__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/lion_hellspawn_chimera_weapon/lion_hellspawn_chimera_weapon.vmdl"
+        },
+        {
+          "name": "Caprine Chimera - Shoulder",
+          "id": "29221",
+          "item_name": "#DOTA_Item_Caprine_Chimera__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/lion_hellspawn_chimera_shoulder/lion_hellspawn_chimera_shoulder.vmdl"
+        },
+        {
+          "name": "Caprine Chimera - Arms",
+          "id": "29220",
+          "item_name": "#DOTA_Item_Caprine_Chimera__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/lion_hellspawn_chimera_arms/lion_hellspawn_chimera_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Demons_Bacchanal",
+      "store_bundle": "Demon's Bacchanal",
+      "portrait_image": "econ/sets/v2/demons_bacchanal",
+      "items": [
+        {
+          "name": "Demon's Bacchanal - Weapon",
+          "id": "22753",
+          "item_name": "#DOTA_Item_Demons_Bacchanal__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/lion/dangerous_collector_red_weapon/dangerous_collector_red_weapon.vmdl"
+        },
+        {
+          "name": "Demon's Bacchanal - Arms",
+          "id": "22752",
+          "item_name": "#DOTA_Item_Demons_Bacchanal__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/lion/dangerous_collector_red_arms/dangerous_collector_red_arms.vmdl"
+        },
+        {
+          "name": "Demon's Bacchanal - Back",
+          "id": "22751",
+          "item_name": "#DOTA_Item_Demons_Bacchanal__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/lion/dangerous_collector_red_back/dangerous_collector_red_back.vmdl"
+        },
+        {
+          "name": "Demon's Bacchanal - Shoulder",
+          "id": "22750",
+          "item_name": "#DOTA_Item_Demons_Bacchanal__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/lion/dangerous_collector_red_shoulder/dangerous_collector_red_shoulder.vmdl"
+        },
+        {
+          "name": "Demon's Bacchanal - Head",
+          "id": "22749",
+          "item_name": "#DOTA_Item_Demons_Bacchanal__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/lion/dangerous_collector_red_head/dangerous_collector_red_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Gruesome_Embrace",
+      "store_bundle": "Gruesome Embrace",
+      "portrait_image": "econ/sets/v2/gruesome_embrace_set",
+      "items": [
+        {
+          "name": "Visage of the Gruesome Embrace",
+          "id": "9442",
+          "item_name": "#DOTA_Item_Visage_of_the_Gruesome_Embrace",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/lion/ancient_evil_helm/ancient_evil_helm.vmdl"
+        },
+        {
+          "name": "Cloak of the Gruesome Embrace",
+          "id": "9443",
+          "item_name": "#DOTA_Item_Cloak_of_the_Gruesome_Embrace",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/lion/ancient_evil_back/ancient_evil_back.vmdl"
+        },
+        {
+          "name": "Writhe of the Gruesome Embrace",
+          "id": "9444",
+          "item_name": "#DOTA_Item_Writhe_of_the_Gruesome_Embrace",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/lion/ancient_evil_shoulders/ancient_evil_shoulders.vmdl"
+        },
+        {
+          "name": "Talon of the Gruesome Embrace",
+          "id": "9445",
+          "item_name": "#DOTA_Item_Talon_of_the_Gruesome_Embrace",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/lion/ancient_evil_gauntlets/ancient_evil_gauntlets.vmdl"
+        },
+        {
+          "name": "Scepter of the Gruesome Embrace",
+          "id": "9446",
+          "item_name": "#DOTA_Item_Scepter_of_the_Gruesome_Embrace",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/lion/ancient_evil_weapon/ancient_evil_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Hells_Ambassador",
+      "store_bundle": "Hell's Ambassador Set",
+      "portrait_image": "econ/sets/v2/hells_ambassador",
+      "items": [
+        {
+          "name": "Hand of Hell's Ambassador",
+          "id": "5459",
+          "item_name": "#DOTA_Item_Hand_of_Hells_Ambassador",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/lion/hell_arm/hell_arm.vmdl"
+        },
+        {
+          "name": "Mantle of Hell's Ambassador",
+          "id": "5460",
+          "item_name": "#DOTA_Item_Mantle_of_Hells_Ambassador",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/lion/hell_cape/hell_cape.vmdl"
+        },
+        {
+          "name": "Epaulets of Hell's Ambassador",
+          "id": "5461",
+          "item_name": "#DOTA_Item_Epaulets_of_Hells_Ambassador",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/lion/hell_shoulders/hell_shoulders.vmdl"
+        },
+        {
+          "name": "Strifemaul of Hell's Ambassador",
+          "id": "5462",
+          "item_name": "#DOTA_Item_Strifemaul_of_Hells_Ambassador",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/lion/hell_weapon/hell_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Infernal_Rambler",
+      "store_bundle": "Infernal Rambler",
+      "portrait_image": "econ/sets/v2/infernal_rambler",
+      "items": [
+        {
+          "name": "Helm of the Infernal Rambler",
+          "id": "9042",
+          "item_name": "#DOTA_Item_Helm_of_the_Infernal_Rambler",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/inferno_rambler_for_lion_head/inferno_rambler_for_lion_head.vmdl"
+        },
+        {
+          "name": "Shoulders of the Infernal Rambler",
+          "id": "9043",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Infernal_Rambler",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/inferno_rambler_for_lion_shoulder/inferno_rambler_for_lion_shoulder.vmdl"
+        },
+        {
+          "name": "Gauntlet of the Infernal Rambler",
+          "id": "9044",
+          "item_name": "#DOTA_Item_Gauntlet_of_the_Infernal_Rambler",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/inferno_rambler_for_lion_arms/inferno_rambler_for_lion_arms.vmdl"
+        },
+        {
+          "name": "Scepter of the Infernal Rambler",
+          "id": "9046",
+          "item_name": "#DOTA_Item_Scepter_of_the_Infernal_Rambler",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/inferno_rambler_for_lion_weapon/inferno_rambler_for_lion_weapon.vmdl"
+        },
+        {
+          "name": "Mantle of the Infernal Rambler",
+          "id": "9045",
+          "item_name": "#DOTA_Item_Mantle_of_the_Infernal_Rambler",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/inferno_rambler_for_lion_back/inferno_rambler_for_lion_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Legacy_of_Infernal_Wings",
+      "store_bundle": "Legacy of Infernal Wings",
+      "portrait_image": "econ/sets/v2/legacy_of_infernal_wings",
+      "items": [
+        {
+          "name": "Infernal Wings Mace",
+          "id": "6944",
+          "item_name": "#DOTA_Item_Infernal_Wings_Mace",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/lion/hells_bat_weapon/hells_bat_weapon.vmdl"
+        },
+        {
+          "name": "Infernal Wings Claw",
+          "id": "7067",
+          "item_name": "#DOTA_Item_Infernal_Wings_Claw",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/lion/hells_bat_arm/hells_bat_arm.vmdl"
+        },
+        {
+          "name": "Infernal Wings Jaw",
+          "id": "7073",
+          "item_name": "#DOTA_Item_Infernal_Wings_Jaw",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/lion/hells_bat_head/hells_bat_head.vmdl"
+        },
+        {
+          "name": "Infernal Wings Flare",
+          "id": "7074",
+          "item_name": "#DOTA_Item_Infernal_Wings_Flare",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/lion/hells_bat_shoulders/hells_bat_shoulders.vmdl"
+        },
+        {
+          "name": "Infernal Wings",
+          "id": "7068",
+          "item_name": "#DOTA_Item_Infernal_Wings",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/lion/hells_bat_wings/hells_bat_wings.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Curse_of_the_Malignant_Corruption",
+      "store_bundle": "Curse of the Malignant Corruption Set",
+      "portrait_image": "econ/sets/v2/lion_curse_ofthe_malignant_corruption",
+      "items": [
+        {
+          "name": "Cowl of the Malignant Corruption",
+          "id": "6141",
+          "item_name": "#DOTA_Item_Cowl_of_the_Malignant_Corruption",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/lion/cowl_of_the_malignant_corruption/cowl_of_the_malignant_corruption.vmdl"
+        },
+        {
+          "name": "Carapace of Buki'vak the Corrupted",
+          "id": "6024",
+          "item_name": "#DOTA_Item_Carapace_of_Bukivak_the_Corrupted",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/lion/carapace_of_bukivak_the_corrupted/carapace_of_bukivak_the_corrupted.vmdl"
+        },
+        {
+          "name": "Horns of the Malignant Corruption",
+          "id": "6142",
+          "item_name": "#DOTA_Item_Horns_of_the_Malignant_Corruption",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/lion/horns_of_the_malignant_corruption/horns_of_the_malignant_corruption.vmdl"
+        },
+        {
+          "name": "Shards of the Malignant Corruption",
+          "id": "6143",
+          "item_name": "#DOTA_Item_Shards_of_the_Malignant_Corruption",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/lion/shards_of_the_malignant_corruption/shards_of_the_malignant_corruption.vmdl"
+        },
+        {
+          "name": "Scepter of Corrupted Amber",
+          "id": "6144",
+          "item_name": "#DOTA_Item_Scepter_of_Corrupted_Amber",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/lion/scepter_of_corrupted_amber/scepter_of_corrupted_amber.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Nefarious_Fixations",
+      "store_bundle": "Nefarious Fixations",
+      "portrait_image": "econ/sets/v2/nefarious_fixations",
+      "items": [
+        {
+          "name": "Nefarious Fixations - Arms",
+          "id": "14553",
+          "item_name": "#DOTA_Item_Nefarious_Fixations__Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/lion/lion_greedy_king_arms/lion_greedy_king_arms.vmdl"
+        },
+        {
+          "name": "Nefarious Fixations - Back",
+          "id": "14552",
+          "item_name": "#DOTA_Item_Nefarious_Fixations__Back",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/lion/lion_greedy_king_back/lion_greedy_king_back.vmdl"
+        },
+        {
+          "name": "Nefarious Fixations - Head",
+          "id": "14551",
+          "item_name": "#DOTA_Item_Nefarious_Fixations__Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/lion/lion_greedy_king_head/lion_greedy_king_head.vmdl"
+        },
+        {
+          "name": "Nefarious Fixations - Shoulder",
+          "id": "14550",
+          "item_name": "#DOTA_Item_Nefarious_Fixations__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/lion/lion_greedy_king_shoulder/lion_greedy_king_shoulder.vmdl"
+        },
+        {
+          "name": "Nefarious Fixations - Weapon",
+          "id": "14549",
+          "item_name": "#DOTA_Item_Nefarious_Fixations__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/lion/lion_greedy_king_weapon/lion_greedy_king_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sacraments_of_the_Witch_Supreme",
+      "store_bundle": "Sacraments of the Witch Supreme",
+      "portrait_image": "econ/sets/v2/sacraments_of_the_witch_supreme",
+      "items": [
+        {
+          "name": "Crown of the Witch Supreme",
+          "id": "12950",
+          "item_name": "#DOTA_Item_Crown_of_the_Witch_Supreme",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/dota_plus_lion_head/dota_plus_lion_head.vmdl"
+        },
+        {
+          "name": "Pendant of the Witch Supreme",
+          "id": "12948",
+          "item_name": "#DOTA_Item_Pendant_of_the_Witch_Supreme",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/dota_plus_lion_back/dota_plus_lion_back.vmdl"
+        },
+        {
+          "name": "Left Hand of the Witch Supreme",
+          "id": "12949",
+          "item_name": "#DOTA_Item_Left_Hand_of_the_Witch_Supreme",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/dota_plus_lion_arms/dota_plus_lion_arms.vmdl"
+        },
+        {
+          "name": "Adornments of the Witch Supreme",
+          "id": "12951",
+          "item_name": "#DOTA_Item_Adornments_of_the_Witch_Supreme",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/dota_plus_lion_shoulder/dota_plus_lion_shoulder.vmdl"
+        },
+        {
+          "name": "Scepter of the Witch Supreme",
+          "id": "12952",
+          "item_name": "#DOTA_Item_Scepter_of_the_Witch_Supreme",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/lion/dota_plus_lion_weapon/dota_plus_lion_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Tools_of_the_Demon_Witch",
+      "store_bundle": "Tools of the Demon Witch Set",
+      "portrait_image": "econ/sets/v2/tools_of_the_demon_witch",
+      "items": [
+        {
+          "name": "Ruby Ring of Rak-noth Rak-nul",
+          "id": "4546",
+          "item_name": "#DOTA_Item_Ruby_Ring_of_Raknoth_Raknul",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/lion/hells_grasp/hells_grasp.vmdl"
+        },
+        {
+          "name": "Shroud of the Shattered Sect",
+          "id": "4585",
+          "item_name": "#DOTA_Item_Shroud_of_the_Shattered_Sect",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/lion/hellsreach_cape/hellsreach_cape.vmdl"
+        },
+        {
+          "name": "Scepter of the Sable Void",
+          "id": "4545",
+          "item_name": "#DOTA_Item_Scepter_of_the_Sable_Void",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/lion/hells_sceptre/hells_sceptre.vmdl"
+        },
+        {
+          "name": "Gazing Eye of the Demon Witch",
+          "id": "4544",
+          "item_name": "#DOTA_Item_Gazing_Eye_of_the_Demon_Witch",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/lion/hellssight_02/hellssight_02.vmdl"
+        },
+        {
+          "name": "Skins of the Incubus",
+          "id": "4582",
+          "item_name": "#DOTA_Item_Skins_of_the_Incubus",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/lion/hellsarray_02/hellsarray_02.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "365",
+      "name": "Lion's Weapon",
+      "item_name": "#DOTA_Item_Lions_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/lion/lion_weapon.vmdl"
+    },
+    {
+      "id": "366",
+      "name": "Lion's Cape",
+      "item_name": "#DOTA_Item_Lions_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/lion/lion_cape.vmdl"
+    },
+    {
+      "id": "368",
+      "name": "Lion's Shoulders",
+      "item_name": "#DOTA_Item_Lions_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/lion/lion_shoulder.vmdl"
+    },
+    {
+      "id": "369",
+      "name": "Lion's Demon Arm",
+      "item_name": "#DOTA_Item_Lions_Demon_Arm",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/lion/lion_demonarm.vmdl"
+    },
+    {
+      "id": "572",
+      "name": "Lion's Head",
+      "item_name": "#DOTA_Item_Lions_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4544",
+      "name": "Gazing Eye of the Demon Witch",
+      "item_name": "#DOTA_Item_Gazing_Eye_of_the_Demon_Witch",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/hellssight_02/hellssight_02.vmdl"
+    },
+    {
+      "id": "4545",
+      "name": "Scepter of the Sable Void",
+      "item_name": "#DOTA_Item_Scepter_of_the_Sable_Void",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/hells_sceptre/hells_sceptre.vmdl"
+    },
+    {
+      "id": "4546",
+      "name": "Ruby Ring of Rak-noth Rak-nul",
+      "item_name": "#DOTA_Item_Ruby_Ring_of_Raknoth_Raknul",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/hells_grasp/hells_grasp.vmdl"
+    },
+    {
+      "id": "4582",
+      "name": "Skins of the Incubus",
+      "item_name": "#DOTA_Item_Skins_of_the_Incubus",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/hellsarray_02/hellsarray_02.vmdl"
+    },
+    {
+      "id": "4585",
+      "name": "Shroud of the Shattered Sect",
+      "item_name": "#DOTA_Item_Shroud_of_the_Shattered_Sect",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/hellsreach_cape/hellsreach_cape.vmdl"
+    },
+    {
+      "id": "5163",
+      "name": "Stone Infusion",
+      "item_name": "#DOTA_Item_Stone_Infusion",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/stone_hand/stone_hand.vmdl"
+    },
+    {
+      "id": "5459",
+      "name": "Hand of Hell's Ambassador",
+      "item_name": "#DOTA_Item_Hand_of_Hells_Ambassador",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/hell_arm/hell_arm.vmdl"
+    },
+    {
+      "id": "5460",
+      "name": "Mantle of Hell's Ambassador",
+      "item_name": "#DOTA_Item_Mantle_of_Hells_Ambassador",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/hell_cape/hell_cape.vmdl"
+    },
+    {
+      "id": "5461",
+      "name": "Epaulets of Hell's Ambassador",
+      "item_name": "#DOTA_Item_Epaulets_of_Hells_Ambassador",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/hell_shoulders/hell_shoulders.vmdl"
+    },
+    {
+      "id": "5462",
+      "name": "Strifemaul of Hell's Ambassador",
+      "item_name": "#DOTA_Item_Strifemaul_of_Hells_Ambassador",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/hell_weapon/hell_weapon.vmdl"
+    },
+    {
+      "id": "5558",
+      "name": "Demonic Collar",
+      "item_name": "#DOTA_Item_Demonic_Collar",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/demonic_collar/demonic_collar.vmdl"
+    },
+    {
+      "id": "5586",
+      "name": "Hellthorn Scepter",
+      "item_name": "#DOTA_Item_Hellthorn_Scepter",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/hellthorn_scepter/hellthorn_scepter.vmdl"
+    },
+    {
+      "id": "5768",
+      "name": "Gauntlet of the Treacherous Demon",
+      "item_name": "#DOTA_Item_Gauntlet_of_the_Treacherous_Demon",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/demon_glove/demon_glove.vmdl"
+    },
+    {
+      "id": "5789",
+      "name": "Infernal Ram's Horns",
+      "item_name": "#DOTA_Item_Infernal_Rams_Horns",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/infernal_rams_horns/infernal_rams_horns.vmdl"
+    },
+    {
+      "id": "5818",
+      "name": "Abyssal Hellclaw",
+      "item_name": "#DOTA_Item_Abyssal_Hellclaw",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/hellclaw_of_maelrawn/hellclaw_of_maelrawn.vmdl"
+    },
+    {
+      "id": "6024",
+      "name": "Carapace of Buki'vak the Corrupted",
+      "item_name": "#DOTA_Item_Carapace_of_Bukivak_the_Corrupted",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/carapace_of_bukivak_the_corrupted/carapace_of_bukivak_the_corrupted.vmdl"
+    },
+    {
+      "id": "6141",
+      "name": "Cowl of the Malignant Corruption",
+      "item_name": "#DOTA_Item_Cowl_of_the_Malignant_Corruption",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/cowl_of_the_malignant_corruption/cowl_of_the_malignant_corruption.vmdl"
+    },
+    {
+      "id": "6142",
+      "name": "Horns of the Malignant Corruption",
+      "item_name": "#DOTA_Item_Horns_of_the_Malignant_Corruption",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/horns_of_the_malignant_corruption/horns_of_the_malignant_corruption.vmdl"
+    },
+    {
+      "id": "6143",
+      "name": "Shards of the Malignant Corruption",
+      "item_name": "#DOTA_Item_Shards_of_the_Malignant_Corruption",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/shards_of_the_malignant_corruption/shards_of_the_malignant_corruption.vmdl"
+    },
+    {
+      "id": "6144",
+      "name": "Scepter of Corrupted Amber",
+      "item_name": "#DOTA_Item_Scepter_of_Corrupted_Amber",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/scepter_of_corrupted_amber/scepter_of_corrupted_amber.vmdl"
+    },
+    {
+      "id": "6561",
+      "name": "Fin King's Charm",
+      "item_name": "#DOTA_Item_Fin_Kings_Charm",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/fish_stick/fish_stick.vmdl"
+    },
+    {
+      "id": "6944",
+      "name": "Infernal Wings Mace",
+      "item_name": "#DOTA_Item_Infernal_Wings_Mace",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/hells_bat_weapon/hells_bat_weapon.vmdl"
+    },
+    {
+      "id": "7067",
+      "name": "Infernal Wings Claw",
+      "item_name": "#DOTA_Item_Infernal_Wings_Claw",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/hells_bat_arm/hells_bat_arm.vmdl"
+    },
+    {
+      "id": "7068",
+      "name": "Infernal Wings",
+      "item_name": "#DOTA_Item_Infernal_Wings",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/hells_bat_wings/hells_bat_wings.vmdl"
+    },
+    {
+      "id": "7073",
+      "name": "Infernal Wings Jaw",
+      "item_name": "#DOTA_Item_Infernal_Wings_Jaw",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/hells_bat_head/hells_bat_head.vmdl"
+    },
+    {
+      "id": "7074",
+      "name": "Infernal Wings Flare",
+      "item_name": "#DOTA_Item_Infernal_Wings_Flare",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/hells_bat_shoulders/hells_bat_shoulders.vmdl"
+    },
+    {
+      "id": "7594",
+      "name": "Taunt: To Hell and Back!",
+      "item_name": "#DOTA_Item_Taunt_To_Hell_and_Back",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "taunt"
+    },
+    {
+      "id": "8007",
+      "name": "Mulctant Pall of the Crimson Witness",
+      "item_name": "#DOTA_Item_Mulctant_Pall_of_the_Crimson_Witness",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/mana_drain_immortal/mesh/mana_drain_immortal_model.vmdl"
+    },
+    {
+      "id": "8269",
+      "name": "Mulctant Pall",
+      "item_name": "#DOTA_Item_Mulctant_Pall",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/mana_drain_immortal/mesh/mana_drain_immortal_model.vmdl"
+    },
+    {
+      "id": "9042",
+      "name": "Helm of the Infernal Rambler",
+      "item_name": "#DOTA_Item_Helm_of_the_Infernal_Rambler",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/inferno_rambler_for_lion_head/inferno_rambler_for_lion_head.vmdl"
+    },
+    {
+      "id": "9043",
+      "name": "Shoulders of the Infernal Rambler",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Infernal_Rambler",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/inferno_rambler_for_lion_shoulder/inferno_rambler_for_lion_shoulder.vmdl"
+    },
+    {
+      "id": "9044",
+      "name": "Gauntlet of the Infernal Rambler",
+      "item_name": "#DOTA_Item_Gauntlet_of_the_Infernal_Rambler",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/inferno_rambler_for_lion_arms/inferno_rambler_for_lion_arms.vmdl"
+    },
+    {
+      "id": "9045",
+      "name": "Mantle of the Infernal Rambler",
+      "item_name": "#DOTA_Item_Mantle_of_the_Infernal_Rambler",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/inferno_rambler_for_lion_back/inferno_rambler_for_lion_back.vmdl"
+    },
+    {
+      "id": "9046",
+      "name": "Scepter of the Infernal Rambler",
+      "item_name": "#DOTA_Item_Scepter_of_the_Infernal_Rambler",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/inferno_rambler_for_lion_weapon/inferno_rambler_for_lion_weapon.vmdl"
+    },
+    {
+      "id": "9442",
+      "name": "Visage of the Gruesome Embrace",
+      "item_name": "#DOTA_Item_Visage_of_the_Gruesome_Embrace",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/ancient_evil_helm/ancient_evil_helm.vmdl"
+    },
+    {
+      "id": "9443",
+      "name": "Cloak of the Gruesome Embrace",
+      "item_name": "#DOTA_Item_Cloak_of_the_Gruesome_Embrace",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/ancient_evil_back/ancient_evil_back.vmdl"
+    },
+    {
+      "id": "9444",
+      "name": "Writhe of the Gruesome Embrace",
+      "item_name": "#DOTA_Item_Writhe_of_the_Gruesome_Embrace",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/ancient_evil_shoulders/ancient_evil_shoulders.vmdl"
+    },
+    {
+      "id": "9445",
+      "name": "Talon of the Gruesome Embrace",
+      "item_name": "#DOTA_Item_Talon_of_the_Gruesome_Embrace",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/ancient_evil_gauntlets/ancient_evil_gauntlets.vmdl"
+    },
+    {
+      "id": "9446",
+      "name": "Scepter of the Gruesome Embrace",
+      "item_name": "#DOTA_Item_Scepter_of_the_Gruesome_Embrace",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/ancient_evil_weapon/ancient_evil_weapon.vmdl"
+    },
+    {
+      "id": "9746",
+      "name": "Hell-Spar Anathema",
+      "item_name": "#DOTA_Item_HellSpar_Anathema",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_ti8_arm/lion_ti8_arm.vmdl"
+    },
+    {
+      "id": "12307",
+      "name": "Fin King's Charm of Eminent Revival",
+      "item_name": "#DOTA_Item_Fin_Kings_Charm_of_Eminent_Revival",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/fish_stick_retro/fish_stick_retro.vmdl"
+    },
+    {
+      "id": "12948",
+      "name": "Pendant of the Witch Supreme",
+      "item_name": "#DOTA_Item_Pendant_of_the_Witch_Supreme",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/dota_plus_lion_back/dota_plus_lion_back.vmdl"
+    },
+    {
+      "id": "12949",
+      "name": "Left Hand of the Witch Supreme",
+      "item_name": "#DOTA_Item_Left_Hand_of_the_Witch_Supreme",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/dota_plus_lion_arms/dota_plus_lion_arms.vmdl"
+    },
+    {
+      "id": "12950",
+      "name": "Crown of the Witch Supreme",
+      "item_name": "#DOTA_Item_Crown_of_the_Witch_Supreme",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/dota_plus_lion_head/dota_plus_lion_head.vmdl"
+    },
+    {
+      "id": "12951",
+      "name": "Adornments of the Witch Supreme",
+      "item_name": "#DOTA_Item_Adornments_of_the_Witch_Supreme",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/dota_plus_lion_shoulder/dota_plus_lion_shoulder.vmdl"
+    },
+    {
+      "id": "12952",
+      "name": "Scepter of the Witch Supreme",
+      "item_name": "#DOTA_Item_Scepter_of_the_Witch_Supreme",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/dota_plus_lion_weapon/dota_plus_lion_weapon.vmdl"
+    },
+    {
+      "id": "13474",
+      "name": "Horns of the Betrayer",
+      "item_name": "#DOTA_Item_Horns_of_the_Betrayer",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_ti9_immortal_head/lion_ti9_immortal_head.vmdl"
+    },
+    {
+      "id": "14549",
+      "name": "Nefarious Fixations - Weapon",
+      "item_name": "#DOTA_Item_Nefarious_Fixations__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_greedy_king_weapon/lion_greedy_king_weapon.vmdl"
+    },
+    {
+      "id": "14550",
+      "name": "Nefarious Fixations - Shoulder",
+      "item_name": "#DOTA_Item_Nefarious_Fixations__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_greedy_king_shoulder/lion_greedy_king_shoulder.vmdl"
+    },
+    {
+      "id": "14551",
+      "name": "Nefarious Fixations - Head",
+      "item_name": "#DOTA_Item_Nefarious_Fixations__Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_greedy_king_head/lion_greedy_king_head.vmdl"
+    },
+    {
+      "id": "14552",
+      "name": "Nefarious Fixations - Back",
+      "item_name": "#DOTA_Item_Nefarious_Fixations__Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_greedy_king_back/lion_greedy_king_back.vmdl"
+    },
+    {
+      "id": "14553",
+      "name": "Nefarious Fixations - Arms",
+      "item_name": "#DOTA_Item_Nefarious_Fixations__Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_greedy_king_arms/lion_greedy_king_arms.vmdl"
+    },
+    {
+      "id": "20124",
+      "name": "Tools of the Demon Witch Set",
+      "item_name": "#DOTA_Item_Tools_of_the_Demon_Witch_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20268",
+      "name": "Hell's Ambassador Set",
+      "item_name": "#DOTA_Item_Hells_Ambassador_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20400",
+      "name": "Curse of the Malignant Corruption Set",
+      "item_name": "#DOTA_Item_Curse_of_the_Malignant_Corruption_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20663",
+      "name": "Legacy of Infernal Wings",
+      "item_name": "#DOTA_Item_Legacy_of_Infernal_Wings",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20860",
+      "name": "Gruesome Embrace",
+      "item_name": "#DOTA_Item_Gruesome_Embrace",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21076",
+      "name": "Infernal Rambler",
+      "item_name": "#DOTA_Item_Infernal_Rambler",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21322",
+      "name": "Sacraments of the Witch Supreme",
+      "item_name": "#DOTA_Item_Sacraments_of_the_Witch_Supreme",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21643",
+      "name": "Nefarious Fixations",
+      "item_name": "#DOTA_Item_Nefarious_Fixations",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22749",
+      "name": "Demon's Bacchanal - Head",
+      "item_name": "#DOTA_Item_Demons_Bacchanal__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/dangerous_collector_red_head/dangerous_collector_red_head.vmdl"
+    },
+    {
+      "id": "22750",
+      "name": "Demon's Bacchanal - Shoulder",
+      "item_name": "#DOTA_Item_Demons_Bacchanal__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/dangerous_collector_red_shoulder/dangerous_collector_red_shoulder.vmdl"
+    },
+    {
+      "id": "22751",
+      "name": "Demon's Bacchanal - Back",
+      "item_name": "#DOTA_Item_Demons_Bacchanal__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/dangerous_collector_red_back/dangerous_collector_red_back.vmdl"
+    },
+    {
+      "id": "22752",
+      "name": "Demon's Bacchanal - Arms",
+      "item_name": "#DOTA_Item_Demons_Bacchanal__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/dangerous_collector_red_arms/dangerous_collector_red_arms.vmdl"
+    },
+    {
+      "id": "22753",
+      "name": "Demon's Bacchanal - Weapon",
+      "item_name": "#DOTA_Item_Demons_Bacchanal__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/dangerous_collector_red_weapon/dangerous_collector_red_weapon.vmdl"
+    },
+    {
+      "id": "22766",
+      "name": "Demon's Bacchanal",
+      "item_name": "#DOTA_Item_Demons_Bacchanal",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25460",
+      "name": "Cannonroar Confessor",
+      "item_name": "#DOTA_Item_Cannonroar_Confessor",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25680",
+      "name": "Cannonroar Confessor - Arms",
+      "item_name": "#DOTA_Item_Cannonroar_Confessor__Arms",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_dungeon_poacher_arms/lion_dungeon_poacher_arms.vmdl"
+    },
+    {
+      "id": "25681",
+      "name": "Cannonroar Confessor - Back",
+      "item_name": "#DOTA_Item_Cannonroar_Confessor__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_dungeon_poacher_back/lion_dungeon_poacher_back.vmdl"
+    },
+    {
+      "id": "25700",
+      "name": "Cannonroar Confessor - Head",
+      "item_name": "#DOTA_Item_Cannonroar_Confessor__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_dungeon_poacher_wearable/lion_dungeon_poacher_wearable.vmdl"
+    },
+    {
+      "id": "25701",
+      "name": "Cannonroar Confessor - Shoulder",
+      "item_name": "#DOTA_Item_Cannonroar_Confessor__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_dungeon_poacher_shoulder/lion_dungeon_poacher_shoulder.vmdl"
+    },
+    {
+      "id": "25703",
+      "name": "Cannonroar Confessor - Weapon",
+      "item_name": "#DOTA_Item_Cannonroar_Confessor__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_dungeon_poacher_weapon/lion_dungeon_poacher_weapon.vmdl"
+    },
+    {
+      "id": "29220",
+      "name": "Caprine Chimera - Arms",
+      "item_name": "#DOTA_Item_Caprine_Chimera__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_hellspawn_chimera_arms/lion_hellspawn_chimera_arms.vmdl"
+    },
+    {
+      "id": "29221",
+      "name": "Caprine Chimera - Shoulder",
+      "item_name": "#DOTA_Item_Caprine_Chimera__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_hellspawn_chimera_shoulder/lion_hellspawn_chimera_shoulder.vmdl"
+    },
+    {
+      "id": "29222",
+      "name": "Caprine Chimera - Weapon",
+      "item_name": "#DOTA_Item_Caprine_Chimera__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_hellspawn_chimera_weapon/lion_hellspawn_chimera_weapon.vmdl"
+    },
+    {
+      "id": "29223",
+      "name": "Caprine Chimera - Wearable",
+      "item_name": "#DOTA_Item_Caprine_Chimera__Wearable",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_hellspawn_chimera_wearable/lion_hellspawn_chimera_wearable.vmdl"
+    },
+    {
+      "id": "29224",
+      "name": "Caprine Chimera - Back",
+      "item_name": "#DOTA_Item_Caprine_Chimera__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_hellspawn_chimera_back/lion_hellspawn_chimera_back.vmdl"
+    },
+    {
+      "id": "29284",
+      "name": "Caprine Chimera",
+      "item_name": "#DOTA_Item_Caprine_Chimera",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "35385",
+      "name": "Tyrian Mulctant Pall",
+      "item_name": "#DOTA_Item_Tyrian_Mulctant_Pall",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/mana_drain_immortal/mesh/mana_drain_immortal_model.vmdl"
+    },
+    {
+      "id": "35387",
+      "name": "Hell-Spar Anathema of the Crimson Witness",
+      "item_name": "#DOTA_Item_HellSpar_Anathema_of_the_Crimson_Witness",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/lion/lion_ti8_arm/lion_ti8_arm_alt.vmdl"
+    }
+  ]
+}

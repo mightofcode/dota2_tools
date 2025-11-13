@@ -1,0 +1,1766 @@
+{
+  "defaults": {
+    "body_head": {
+      "id": "127",
+      "name": "Phantom Lancer's Head",
+      "item_name": "#DOTA_Item_Phantom_Lancers_Head",
+      "item_slot": "body_head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/phantom_lancer/phantom_lancer_head.vmdl"
+    },
+    "belt": {
+      "id": "128",
+      "name": "Phantom Lancer's Belt",
+      "item_name": "#DOTA_Item_Phantom_Lancers_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "model_player": "models/heroes/phantom_lancer/phantom_lancer_belt.vmdl"
+    },
+    "arms": {
+      "id": "129",
+      "name": "Phantom Lancer's Gauntlet",
+      "item_name": "#DOTA_Item_Phantom_Lancers_Gauntlet",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/phantom_lancer/phantom_lancer_gauntlet.vmdl"
+    },
+    "shoulder": {
+      "id": "130",
+      "name": "Phantom Lancer's Shoulderpad",
+      "item_name": "#DOTA_Item_Phantom_Lancers_Shoulderpad",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/phantom_lancer/phantom_lancer_shoulderpad.vmdl"
+    },
+    "weapon": {
+      "id": "132",
+      "name": "Phantom Lancer's Weapon",
+      "item_name": "#DOTA_Item_Phantom_Lancers_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/phantom_lancer/phantom_lancer_weapon.vmdl"
+    },
+    "head": {
+      "id": "637",
+      "name": "Phantom Lancer's Hat",
+      "item_name": "#DOTA_Item_Phantom_Lancers_Hat",
+      "item_slot": "head",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Ancestors_Pride",
+      "store_bundle": "Ancestors' Pride Set",
+      "portrait_image": "econ/sets/v2/ancestors_pride",
+      "items": [
+        {
+          "name": "Ancestors' Belt",
+          "id": "4858",
+          "item_name": "#DOTA_Item_Ancestors_Belt",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/ancestorspride_belt/ancestorspride_belt.vmdl"
+        },
+        {
+          "name": "Ancestors' Edge",
+          "id": "4855",
+          "item_name": "#DOTA_Item_Ancestors_Edge",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/ancestorspride_weapon/ancestorspride_weapon.vmdl"
+        },
+        {
+          "name": "Ancestors' Pauldron",
+          "id": "4856",
+          "item_name": "#DOTA_Item_Ancestors_Pauldron",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/ancestorspride_shoulders/ancestorspride_shoulders.vmdl"
+        },
+        {
+          "name": "Ancestors' Vambrace",
+          "id": "4857",
+          "item_name": "#DOTA_Item_Ancestors_Vambrace",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_lancer/ancestorspride_arms/ancestorspride_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Arms_of_the_Bramble_Lord",
+      "store_bundle": "Arms of the Bramble Lord Set",
+      "portrait_image": "econ/sets/v2/ancient_gods",
+      "items": [
+        {
+          "name": "Belt of the Bramble Lord",
+          "id": "4717",
+          "item_name": "#DOTA_Item_Belt_of_the_Bramble_Lord",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/ancient_gods_belt/ancient_gods_belt.vmdl"
+        },
+        {
+          "name": "Buckler of the Bramble Lord",
+          "id": "4718",
+          "item_name": "#DOTA_Item_Buckler_of_the_Bramble_Lord",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_lancer/ancient_gods_arms/ancient_gods_arms.vmdl"
+        },
+        {
+          "name": "Lance of the Bramble Lord",
+          "id": "4719",
+          "item_name": "#DOTA_Item_Lance_of_the_Bramble_Lord",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/ancient_gods_lance/ancient_gods_lance.vmdl"
+        },
+        {
+          "name": "Spaulder of the Bramble Lord",
+          "id": "4720",
+          "item_name": "#DOTA_Item_Spaulder_of_the_Bramble_Lord",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/ancient_gods_shoulder/ancient_gods_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Darkwater_Dominion",
+      "store_bundle": "Darkwater Dominion",
+      "portrait_image": "econ/sets/v2/darkwater_dominion",
+      "items": [
+        {
+          "name": "Darkwater Dominion - Arms",
+          "id": "14274",
+          "item_name": "#DOTA_Item_Darkwater_Dominion__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/army_of_the_vast_sea_arms/army_of_the_vast_sea_arms.vmdl"
+        },
+        {
+          "name": "Darkwater Dominion - Belt",
+          "id": "14267",
+          "item_name": "#DOTA_Item_Darkwater_Dominion__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/army_of_the_vast_sea_belt/army_of_the_vast_sea_belt.vmdl"
+        },
+        {
+          "name": "Darkwater Dominion - Shoulder",
+          "id": "14266",
+          "item_name": "#DOTA_Item_Darkwater_Dominion__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/army_of_the_vast_sea_shoulder/army_of_the_vast_sea_shoulder.vmdl"
+        },
+        {
+          "name": "Darkwater Dominion - Weapon",
+          "id": "14265",
+          "item_name": "#DOTA_Item_Darkwater_Dominion__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/army_of_the_vast_sea_weapon/army_of_the_vast_sea_weapon.vmdl"
+        },
+        {
+          "name": "Darkwater Dominion - Head",
+          "id": "14263",
+          "item_name": "#DOTA_Item_Darkwater_Dominion__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/army_of_the_vast_sea_head/army_of_the_vast_sea_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Disquiet_Solitude",
+      "store_bundle": "Disquiet Solitude",
+      "portrait_image": "econ/sets/v2/disquiet_solitude",
+      "items": [
+        {
+          "name": "Disquiet Solitude - Belt",
+          "id": "23798",
+          "item_name": "#DOTA_Item_Disquiet_Solitude__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/winning_buddha_belt/winning_buddha_belt.vmdl"
+        },
+        {
+          "name": "Disquiet Solitude - Weapon",
+          "id": "23797",
+          "item_name": "#DOTA_Item_Disquiet_Solitude__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/winning_buddha_weapon/winning_buddha_weapon.vmdl"
+        },
+        {
+          "name": "Disquiet Solitude - Head",
+          "id": "23796",
+          "item_name": "#DOTA_Item_Disquiet_Solitude__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/winning_buddha_head/winning_buddha_head.vmdl"
+        },
+        {
+          "name": "Disquiet Solitude - Shoulder",
+          "id": "23777",
+          "item_name": "#DOTA_Item_Disquiet_Solitude__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/winning_buddha_shoulder/winning_buddha_shoulder.vmdl"
+        },
+        {
+          "name": "Disquiet Solitude - Arms",
+          "id": "23771",
+          "item_name": "#DOTA_Item_Disquiet_Solitude__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/winning_buddha_arms/winning_buddha_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Flock_of_Avilliva",
+      "store_bundle": "Flock of Avilliva",
+      "portrait_image": "econ/sets/v2/flock_of_avilliva",
+      "items": [
+        {
+          "name": "Flock of Avilliva - Head",
+          "id": "28198",
+          "item_name": "#DOTA_Item_Flock_of_Avilliva__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_lancer/phantom_lancer_avilliva_head/phantom_lancer_avilliva_head.vmdl"
+        },
+        {
+          "name": "Flock of Avilliva - Belt",
+          "id": "28197",
+          "item_name": "#DOTA_Item_Flock_of_Avilliva__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_lancer/phantom_lancer_avilliva_belt/phantom_lancer_avilliva_belt.vmdl"
+        },
+        {
+          "name": "Flock of Avilliva - Arms",
+          "id": "28196",
+          "item_name": "#DOTA_Item_Flock_of_Avilliva__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_lancer/phantom_lancer_avilliva_arms/phantom_lancer_avilliva_arms.vmdl"
+        },
+        {
+          "name": "Flock of Avilliva - Shoulder",
+          "id": "28195",
+          "item_name": "#DOTA_Item_Flock_of_Avilliva__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_lancer/phantom_lancer_avilliva_shoulders/phantom_lancer_avilliva_shoulders.vmdl"
+        },
+        {
+          "name": "Flock of Avilliva - Weapon",
+          "id": "28175",
+          "item_name": "#DOTA_Item_Flock_of_Avilliva__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_lancer/phantom_lancer_avilliva_weapon/phantom_lancer_avilliva_weapon.vmdl"
+        },
+        {
+          "name": "Taunt: Pole Position",
+          "id": "13110",
+          "item_name": "#DOTA_Item_Taunt_Pole_Position",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Harsh_Sojourn",
+      "store_bundle": "Harsh Sojourn",
+      "portrait_image": "econ/sets/v2/harsh_sojourn",
+      "items": [
+        {
+          "name": "Arms of Harsh Sojourn",
+          "id": "12909",
+          "item_name": "#DOTA_Item_Arms_of_Harsh_Sojourn",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_lancer/hockey_goalie_arms/hockey_goalie_arms.vmdl"
+        },
+        {
+          "name": "Belt of Harsh Sojourn",
+          "id": "9302",
+          "item_name": "#DOTA_Item_Belt_of_Harsh_Sojourn",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_lancer/hockey_goalie_belt/hockey_goalie_belt.vmdl"
+        },
+        {
+          "name": "Mask of Harsh Sojourn",
+          "id": "9301",
+          "item_name": "#DOTA_Item_Mask_of_Harsh_Sojourn",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_lancer/hockey_goalie_head/hockey_goalie_head.vmdl"
+        },
+        {
+          "name": "Pauldrons of Harsh Sojourn",
+          "id": "9300",
+          "item_name": "#DOTA_Item_Pauldrons_of_Harsh_Sojourn",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_lancer/hockey_goalie_shoulder/hockey_goalie_shoulder.vmdl"
+        },
+        {
+          "name": "Lance of Harsh Sojourn",
+          "id": "9299",
+          "item_name": "#DOTA_Item_Lance_of_Harsh_Sojourn",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_lancer/hockey_goalie_weapon/hockey_goalie_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Humble_Drifter",
+      "store_bundle": "Humble Drifter",
+      "portrait_image": "econ/sets/v2/humble_drifter",
+      "items": [
+        {
+          "name": "Humble Drifter Garb",
+          "id": "7749",
+          "item_name": "#DOTA_Item_Humble_Drifter_Garb",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/vagabond_shoulders/vagabond_shoulders.vmdl"
+        },
+        {
+          "name": "Humble Drifter Bracers",
+          "id": "7746",
+          "item_name": "#DOTA_Item_Humble_Drifter_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/vagabond_arms/vagabond_arms.vmdl"
+        },
+        {
+          "name": "Humble Drifter Pants",
+          "id": "7747",
+          "item_name": "#DOTA_Item_Humble_Drifter_Pants",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/vagabond_pants/vagabond_pants.vmdl"
+        },
+        {
+          "name": "Humble Drifter Oar",
+          "id": "7748",
+          "item_name": "#DOTA_Item_Humble_Drifter_Oar",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_lancer/vagabond_oar/vagabond_oar.vmdl"
+        },
+        {
+          "name": "Humble Drifter Hat",
+          "id": "9460",
+          "item_name": "#DOTA_Item_Humble_Drifter_Hat",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/vagabond_hat/vagabond_hat.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Noble_Warrior",
+      "store_bundle": "Noble Warrior",
+      "portrait_image": "econ/sets/v2/noble_warrior",
+      "items": [
+        {
+          "name": "Noble Warrior Spear",
+          "id": "6341",
+          "item_name": "#DOTA_Item_Noble_Warrior_Spear",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/noble_warrior_spear/noble_warrior_spear.vmdl"
+        },
+        {
+          "name": "Noble Warrior Armlet",
+          "id": "6343",
+          "item_name": "#DOTA_Item_Noble_Warrior_Armlet",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_lancer/noble_warrior_armlet/noble_warrior_armlet.vmdl"
+        },
+        {
+          "name": "Noble Warrior Belt",
+          "id": "6344",
+          "item_name": "#DOTA_Item_Noble_Warrior_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_lancer/noble_warrior_belt/noble_warrior_belt.vmdl"
+        },
+        {
+          "name": "Noble Warrior Shoulder",
+          "id": "6351",
+          "item_name": "#DOTA_Item_Noble_Warrior_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/noble_warrior_shoulder/noble_warrior_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Jewels_of_Teardrop_Ice",
+      "store_bundle": "Jewels of Teardrop Ice Set",
+      "portrait_image": "econ/sets/v2/phantom_lancer_elemental_ice",
+      "items": [
+        {
+          "name": "Armlets of Teardrop Ice",
+          "id": "5552",
+          "item_name": "#DOTA_Item_Armlets_of_Teardrop_Ice",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/armlets_of_elemental_ice/armlets_of_elemental_ice.vmdl"
+        },
+        {
+          "name": "Belt of Teardrop Ice",
+          "id": "5553",
+          "item_name": "#DOTA_Item_Belt_of_Teardrop_Ice",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/belt_of_elemental_ice/belt_of_elemental_ice.vmdl"
+        },
+        {
+          "name": "Pauldron of Teardrop Ice",
+          "id": "5554",
+          "item_name": "#DOTA_Item_Pauldron_of_Teardrop_Ice",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/shoulder_of_elemental_ice/shoulder_of_elemental_ice.vmdl"
+        },
+        {
+          "name": "Spear of Teardrop Ice",
+          "id": "5555",
+          "item_name": "#DOTA_Item_Spear_of_Teardrop_Ice",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/spear_of_elemental_ice/spear_of_elemental_ice.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Honors_of_the_Golden_Mane",
+      "store_bundle": "Honors of the Golden Mane Set",
+      "portrait_image": "econ/sets/v2/phantom_lancer_golden_mane",
+      "items": [
+        {
+          "name": "Belt of the Golden Mane",
+          "id": "4547",
+          "item_name": "#DOTA_Item_Belt_of_the_Golden_Mane",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_lancer/belt_sunlit/belt_sunlit.vmdl"
+        },
+        {
+          "name": "Spear of the Golden Mane",
+          "id": "4575",
+          "item_name": "#DOTA_Item_Spear_of_the_Golden_Mane",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/weapon_sunli_spear/weapon_sunli_spear.vmdl"
+        },
+        {
+          "name": "Gauntlet of the Golden Mane",
+          "id": "4576",
+          "item_name": "#DOTA_Item_Gauntlet_of_the_Golden_Mane",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_lancer/arms_sunlit_ga/arms_sunlit_ga.vmdl"
+        },
+        {
+          "name": "Shoulder of the Golden Mane",
+          "id": "4577",
+          "item_name": "#DOTA_Item_Shoulder_of_the_Golden_Mane",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/shoulder_sunlit/shoulder_sunlit.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Revered_Arms",
+      "store_bundle": "Revered Arms Set",
+      "portrait_image": "econ/sets/v2/phantom_lancer_revered",
+      "items": [
+        {
+          "name": "Revered Bracers",
+          "id": "4402",
+          "item_name": "#DOTA_Item_Revered_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_lancer/arms_kinship/arms_kinship.vmdl"
+        },
+        {
+          "name": "Revered Spear",
+          "id": "4439",
+          "item_name": "#DOTA_Item_Revered_Spear",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_lancer/weapon_kinship/weapon_kinship.vmdl"
+        },
+        {
+          "name": "Revered Wrap",
+          "id": "4409",
+          "item_name": "#DOTA_Item_Revered_Wrap",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_lancer/belt_kinship/belt_kinship.vmdl"
+        },
+        {
+          "name": "Revered Shoulder",
+          "id": "4451",
+          "item_name": "#DOTA_Item_Revered_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/shoulder_kinship/shoulder_kinship.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Scales_of_the_Shadow_Walker",
+      "store_bundle": "Scales of the Shadow Walker",
+      "portrait_image": "econ/sets/v2/scales_of_the_shadow_walker",
+      "items": [
+        {
+          "name": "Scales of the Shadow Walker - Weapon",
+          "id": "18173",
+          "item_name": "#DOTA_Item_Scales_of_the_Shadow_Walker__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_lancer/anubis_phantom_lancer_weapon/anubis_phantom_lancer_weapon.vmdl"
+        },
+        {
+          "name": "Scales of the Shadow Walker - Shoulder",
+          "id": "18172",
+          "item_name": "#DOTA_Item_Scales_of_the_Shadow_Walker__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_lancer/anubis_phantom_lancer_shoulder/anubis_phantom_lancer_shoulder.vmdl"
+        },
+        {
+          "name": "Scales of the Shadow Walker - Head",
+          "id": "18171",
+          "item_name": "#DOTA_Item_Scales_of_the_Shadow_Walker__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_lancer/anubis_phantom_lancer_head/anubis_phantom_lancer_head.vmdl"
+        },
+        {
+          "name": "Scales of the Shadow Walker - Belt",
+          "id": "18170",
+          "item_name": "#DOTA_Item_Scales_of_the_Shadow_Walker__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_lancer/anubis_phantom_lancer_belt/anubis_phantom_lancer_belt.vmdl"
+        },
+        {
+          "name": "Scales of the Shadow Walker - Arms",
+          "id": "18169",
+          "item_name": "#DOTA_Item_Scales_of_the_Shadow_Walker__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_lancer/anubis_phantom_lancer_arms/anubis_phantom_lancer_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Vengeance_of_the_Sunwarrior",
+      "store_bundle": "Vengeance of the Sunwarrior",
+      "portrait_image": "econ/sets/v2/vengeance_of_the_sunwarrior",
+      "items": [
+        {
+          "name": "Bracers of the Sunwarrior",
+          "id": "6619",
+          "item_name": "#DOTA_Item_Bracers_of_the_Sunwarrior",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_lancer/sunwarrior_arms/sunwarrior_arms.vmdl"
+        },
+        {
+          "name": "Belt of the Sunwarrior",
+          "id": "6617",
+          "item_name": "#DOTA_Item_Belt_of_the_Sunwarrior",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/sunwarrior_belt/sunwarrior_belt.vmdl"
+        },
+        {
+          "name": "Lance of the Sunwarrior",
+          "id": "6620",
+          "item_name": "#DOTA_Item_Lance_of_the_Sunwarrior",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/sunwarrior_weapon/sunwarrior_weapon.vmdl"
+        },
+        {
+          "name": "Mane of the Sunwarrior",
+          "id": "6621",
+          "item_name": "#DOTA_Item_Mane_of_the_Sunwarrior",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/sunwarrior_head/sunwarrior_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Vestments_of_the_Infinite_Waves",
+      "store_bundle": "Vestments of the Infinite Waves",
+      "portrait_image": "econ/sets/v2/vestments_of_the_infinite_waves",
+      "items": [
+        {
+          "name": "Girdle of the Infinite Waves",
+          "id": "6753",
+          "item_name": "#DOTA_Item_Girdle_of_the_Infinite_Waves",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/infinite_waves_belt/infinite_waves_belt.vmdl"
+        },
+        {
+          "name": "Shoulder Guard of the Infinite Waves",
+          "id": "6755",
+          "item_name": "#DOTA_Item_Shoulder_Guard_of_the_Infinite_Waves",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/infinite_waves_shoulder/infinite_waves_shoulder.vmdl"
+        },
+        {
+          "name": "Bindings of the Infinite Waves",
+          "id": "6752",
+          "item_name": "#DOTA_Item_Bindings_of_the_Infinite_Waves",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_lancer/infinite_waves_arms/infinite_waves_arms.vmdl"
+        },
+        {
+          "name": "Staff of the Infinite Waves",
+          "id": "6317",
+          "item_name": "#DOTA_Item_Staff_of_the_Infinite_Waves",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Winter_Lineage_Humble_Drifter",
+      "store_bundle": "Winter Lineage Humble Drifter",
+      "portrait_image": "econ/sets/v2/winter_lineage_humble_drifter",
+      "items": [
+        {
+          "name": "Winter Lineage Humble Drifter Bracers",
+          "id": "22789",
+          "item_name": "#DOTA_Item_Winter_Lineage_Humble_Drifter_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/vagabond_arms/vagabond_arms.vmdl"
+        },
+        {
+          "name": "Winter Lineage Humble Drifter Pants",
+          "id": "22790",
+          "item_name": "#DOTA_Item_Winter_Lineage_Humble_Drifter_Pants",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_lancer/vagabond_pants/vagabond_pants.vmdl"
+        },
+        {
+          "name": "Winter Lineage Humble Drifter Oar",
+          "id": "22791",
+          "item_name": "#DOTA_Item_Winter_Lineage_Humble_Drifter_Oar",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_lancer/vagabond_oar/vagabond_oar.vmdl"
+        },
+        {
+          "name": "Winter Lineage Humble Drifter Garb",
+          "id": "22792",
+          "item_name": "#DOTA_Item_Winter_Lineage_Humble_Drifter_Garb",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/vagabond_shoulders/vagabond_shoulders.vmdl"
+        },
+        {
+          "name": "Winter Lineage Humble Drifter Hat",
+          "id": "22793",
+          "item_name": "#DOTA_Item_Winter_Lineage_Humble_Drifter_Hat",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/vagabond_hat/vagabond_hat.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Wraith_of_the_Red_Sands",
+      "store_bundle": "Wraith of the Red Sands",
+      "portrait_image": "econ/sets/v2/wraith_of_the_red_sands",
+      "items": [
+        {
+          "name": "Bracers of the Red Sands",
+          "id": "13976",
+          "item_name": "#DOTA_Item_Bracers_of_the_Red_Sands",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/rakshasa_arms/rakshasa_arms.vmdl"
+        },
+        {
+          "name": "Belt of the Red Sands",
+          "id": "13977",
+          "item_name": "#DOTA_Item_Belt_of_the_Red_Sands",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/rakshasa_belt/rakshasa_belt.vmdl"
+        },
+        {
+          "name": "Turban of the Red Sands",
+          "id": "13975",
+          "item_name": "#DOTA_Item_Turban_of_the_Red_Sands",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/rakshasa_head/rakshasa_head.vmdl"
+        },
+        {
+          "name": "Necklace of the Red Sands",
+          "id": "13973",
+          "item_name": "#DOTA_Item_Necklace_of_the_Red_Sands",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/rakshasa_shoulder/rakshasa_shoulder.vmdl"
+        },
+        {
+          "name": "Spear of the Red Sands",
+          "id": "13972",
+          "item_name": "#DOTA_Item_Spear_of_the_Red_Sands",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_lancer/rakshasa_weapon/rakshasa_weapon.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "127",
+      "name": "Phantom Lancer's Head",
+      "item_name": "#DOTA_Item_Phantom_Lancers_Head",
+      "item_slot": "body_head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/phantom_lancer/phantom_lancer_head.vmdl"
+    },
+    {
+      "id": "128",
+      "name": "Phantom Lancer's Belt",
+      "item_name": "#DOTA_Item_Phantom_Lancers_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/phantom_lancer/phantom_lancer_belt.vmdl"
+    },
+    {
+      "id": "129",
+      "name": "Phantom Lancer's Gauntlet",
+      "item_name": "#DOTA_Item_Phantom_Lancers_Gauntlet",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/phantom_lancer/phantom_lancer_gauntlet.vmdl"
+    },
+    {
+      "id": "130",
+      "name": "Phantom Lancer's Shoulderpad",
+      "item_name": "#DOTA_Item_Phantom_Lancers_Shoulderpad",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/phantom_lancer/phantom_lancer_shoulderpad.vmdl"
+    },
+    {
+      "id": "132",
+      "name": "Phantom Lancer's Weapon",
+      "item_name": "#DOTA_Item_Phantom_Lancers_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/phantom_lancer/phantom_lancer_weapon.vmdl"
+    },
+    {
+      "id": "637",
+      "name": "Phantom Lancer's Hat",
+      "item_name": "#DOTA_Item_Phantom_Lancers_Hat",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4242",
+      "name": "Manifold Spear",
+      "item_name": "#DOTA_Item_Manifold_Spear",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/weapon_trispear.vmdl"
+    },
+    {
+      "id": "4345",
+      "name": "Legion's Wrath",
+      "item_name": "#DOTA_Item_Legions_Wrath",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/legionswraith/legionswraith.vmdl"
+    },
+    {
+      "id": "4402",
+      "name": "Revered Bracers",
+      "item_name": "#DOTA_Item_Revered_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/arms_kinship/arms_kinship.vmdl"
+    },
+    {
+      "id": "4409",
+      "name": "Revered Wrap",
+      "item_name": "#DOTA_Item_Revered_Wrap",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/belt_kinship/belt_kinship.vmdl"
+    },
+    {
+      "id": "4439",
+      "name": "Revered Spear",
+      "item_name": "#DOTA_Item_Revered_Spear",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/weapon_kinship/weapon_kinship.vmdl"
+    },
+    {
+      "id": "4451",
+      "name": "Revered Shoulder",
+      "item_name": "#DOTA_Item_Revered_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/shoulder_kinship/shoulder_kinship.vmdl"
+    },
+    {
+      "id": "4459",
+      "name": "Merciless Spear",
+      "item_name": "#DOTA_Item_Merciless_Spear",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/merciless_spear/merciless_spear.vmdl"
+    },
+    {
+      "id": "4467",
+      "name": "Peregrine Lance",
+      "item_name": "#DOTA_Item_Peregrine_Lance",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/peregrine/peregrine.vmdl"
+    },
+    {
+      "id": "4482",
+      "name": "Royal Halberd",
+      "item_name": "#DOTA_Item_Royal_Halberd",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/lancershalberd/lancershalberd.vmdl"
+    },
+    {
+      "id": "4490",
+      "name": "Spetum of the Disciplined",
+      "item_name": "#DOTA_Item_Spetum_of_the_Disciplined",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/spetumdisciplined/spetumdisciplined.vmdl"
+    },
+    {
+      "id": "4502",
+      "name": "Feathered Naginata",
+      "item_name": "#DOTA_Item_Feathered_Naginata",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/feathered_naginata/feathered_naginata.vmdl"
+    },
+    {
+      "id": "4531",
+      "name": "Ring Spear of Soul Diffusion",
+      "item_name": "#DOTA_Item_Ring_Spear_of_Soul_Diffusion",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/anuxi_ring_spear/anuxi_ring_spear.vmdl"
+    },
+    {
+      "id": "4547",
+      "name": "Belt of the Golden Mane",
+      "item_name": "#DOTA_Item_Belt_of_the_Golden_Mane",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/belt_sunlit/belt_sunlit.vmdl"
+    },
+    {
+      "id": "4575",
+      "name": "Spear of the Golden Mane",
+      "item_name": "#DOTA_Item_Spear_of_the_Golden_Mane",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/weapon_sunli_spear/weapon_sunli_spear.vmdl"
+    },
+    {
+      "id": "4576",
+      "name": "Gauntlet of the Golden Mane",
+      "item_name": "#DOTA_Item_Gauntlet_of_the_Golden_Mane",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/arms_sunlit_ga/arms_sunlit_ga.vmdl"
+    },
+    {
+      "id": "4577",
+      "name": "Shoulder of the Golden Mane",
+      "item_name": "#DOTA_Item_Shoulder_of_the_Golden_Mane",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/shoulder_sunlit/shoulder_sunlit.vmdl"
+    },
+    {
+      "id": "4583",
+      "name": "Spear of the Herald",
+      "item_name": "#DOTA_Item_Spear_of_the_Herald",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/sun_forged_spear/sun_forged_spear.vmdl"
+    },
+    {
+      "id": "4616",
+      "name": "Fishing Halberd",
+      "item_name": "#DOTA_Item_Fishing_Halberd",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/fishlance/fishlance.vmdl"
+    },
+    {
+      "id": "4638",
+      "name": "Holy Spear of Images",
+      "item_name": "#DOTA_Item_Holy_Spear_of_Images",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/sa/sa.vmdl"
+    },
+    {
+      "id": "4717",
+      "name": "Belt of the Bramble Lord",
+      "item_name": "#DOTA_Item_Belt_of_the_Bramble_Lord",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/ancient_gods_belt/ancient_gods_belt.vmdl"
+    },
+    {
+      "id": "4718",
+      "name": "Buckler of the Bramble Lord",
+      "item_name": "#DOTA_Item_Buckler_of_the_Bramble_Lord",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/ancient_gods_arms/ancient_gods_arms.vmdl"
+    },
+    {
+      "id": "4719",
+      "name": "Lance of the Bramble Lord",
+      "item_name": "#DOTA_Item_Lance_of_the_Bramble_Lord",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/ancient_gods_lance/ancient_gods_lance.vmdl"
+    },
+    {
+      "id": "4720",
+      "name": "Spaulder of the Bramble Lord",
+      "item_name": "#DOTA_Item_Spaulder_of_the_Bramble_Lord",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/ancient_gods_shoulder/ancient_gods_shoulder.vmdl"
+    },
+    {
+      "id": "4855",
+      "name": "Ancestors' Edge",
+      "item_name": "#DOTA_Item_Ancestors_Edge",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/ancestorspride_weapon/ancestorspride_weapon.vmdl"
+    },
+    {
+      "id": "4856",
+      "name": "Ancestors' Pauldron",
+      "item_name": "#DOTA_Item_Ancestors_Pauldron",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/ancestorspride_shoulders/ancestorspride_shoulders.vmdl"
+    },
+    {
+      "id": "4857",
+      "name": "Ancestors' Vambrace",
+      "item_name": "#DOTA_Item_Ancestors_Vambrace",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/ancestorspride_arms/ancestorspride_arms.vmdl"
+    },
+    {
+      "id": "4858",
+      "name": "Ancestors' Belt",
+      "item_name": "#DOTA_Item_Ancestors_Belt",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/ancestorspride_belt/ancestorspride_belt.vmdl"
+    },
+    {
+      "id": "5388",
+      "name": "Diffusal Lance",
+      "item_name": "#DOTA_Item_Diffusal_Lance",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/diffusal_lance/diffusal_lance.vmdl"
+    },
+    {
+      "id": "5429",
+      "name": "Eye of Niuhi",
+      "item_name": "#DOTA_Item_Eye_of_Niuhi",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/eye_of_niuhi/eye_of_niuhi.vmdl"
+    },
+    {
+      "id": "5552",
+      "name": "Armlets of Teardrop Ice",
+      "item_name": "#DOTA_Item_Armlets_of_Teardrop_Ice",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/armlets_of_elemental_ice/armlets_of_elemental_ice.vmdl"
+    },
+    {
+      "id": "5553",
+      "name": "Belt of Teardrop Ice",
+      "item_name": "#DOTA_Item_Belt_of_Teardrop_Ice",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/belt_of_elemental_ice/belt_of_elemental_ice.vmdl"
+    },
+    {
+      "id": "5554",
+      "name": "Pauldron of Teardrop Ice",
+      "item_name": "#DOTA_Item_Pauldron_of_Teardrop_Ice",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/shoulder_of_elemental_ice/shoulder_of_elemental_ice.vmdl"
+    },
+    {
+      "id": "5555",
+      "name": "Spear of Teardrop Ice",
+      "item_name": "#DOTA_Item_Spear_of_Teardrop_Ice",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/spear_of_elemental_ice/spear_of_elemental_ice.vmdl"
+    },
+    {
+      "id": "6067",
+      "name": "Power of the Red Horse",
+      "item_name": "#DOTA_Item_Power_of_the_Red_Horse",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/weapon_plstaff/weapon_plstaff.vmdl"
+    },
+    {
+      "id": "6317",
+      "name": "Staff of the Infinite Waves",
+      "item_name": "#DOTA_Item_Staff_of_the_Infinite_Waves",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon.vmdl"
+    },
+    {
+      "id": "6341",
+      "name": "Noble Warrior Spear",
+      "item_name": "#DOTA_Item_Noble_Warrior_Spear",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/noble_warrior_spear/noble_warrior_spear.vmdl"
+    },
+    {
+      "id": "6343",
+      "name": "Noble Warrior Armlet",
+      "item_name": "#DOTA_Item_Noble_Warrior_Armlet",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/noble_warrior_armlet/noble_warrior_armlet.vmdl"
+    },
+    {
+      "id": "6344",
+      "name": "Noble Warrior Belt",
+      "item_name": "#DOTA_Item_Noble_Warrior_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/noble_warrior_belt/noble_warrior_belt.vmdl"
+    },
+    {
+      "id": "6351",
+      "name": "Noble Warrior Shoulder",
+      "item_name": "#DOTA_Item_Noble_Warrior_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/noble_warrior_shoulder/noble_warrior_shoulder.vmdl"
+    },
+    {
+      "id": "6617",
+      "name": "Belt of the Sunwarrior",
+      "item_name": "#DOTA_Item_Belt_of_the_Sunwarrior",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/sunwarrior_belt/sunwarrior_belt.vmdl"
+    },
+    {
+      "id": "6619",
+      "name": "Bracers of the Sunwarrior",
+      "item_name": "#DOTA_Item_Bracers_of_the_Sunwarrior",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/sunwarrior_arms/sunwarrior_arms.vmdl"
+    },
+    {
+      "id": "6620",
+      "name": "Lance of the Sunwarrior",
+      "item_name": "#DOTA_Item_Lance_of_the_Sunwarrior",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/sunwarrior_weapon/sunwarrior_weapon.vmdl"
+    },
+    {
+      "id": "6621",
+      "name": "Mane of the Sunwarrior",
+      "item_name": "#DOTA_Item_Mane_of_the_Sunwarrior",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/sunwarrior_head/sunwarrior_head.vmdl"
+    },
+    {
+      "id": "6752",
+      "name": "Bindings of the Infinite Waves",
+      "item_name": "#DOTA_Item_Bindings_of_the_Infinite_Waves",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/infinite_waves_arms/infinite_waves_arms.vmdl"
+    },
+    {
+      "id": "6753",
+      "name": "Girdle of the Infinite Waves",
+      "item_name": "#DOTA_Item_Girdle_of_the_Infinite_Waves",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/infinite_waves_belt/infinite_waves_belt.vmdl"
+    },
+    {
+      "id": "6755",
+      "name": "Shoulder Guard of the Infinite Waves",
+      "item_name": "#DOTA_Item_Shoulder_Guard_of_the_Infinite_Waves",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/infinite_waves_shoulder/infinite_waves_shoulder.vmdl"
+    },
+    {
+      "id": "7557",
+      "name": "Phantom Concord",
+      "item_name": "#DOTA_Item_Phantom_Concord",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/immortal_ti6/mesh/phantom_lancer_immortal_spear_mdoel.vmdl"
+    },
+    {
+      "id": "7746",
+      "name": "Humble Drifter Bracers",
+      "item_name": "#DOTA_Item_Humble_Drifter_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/vagabond_arms/vagabond_arms.vmdl"
+    },
+    {
+      "id": "7747",
+      "name": "Humble Drifter Pants",
+      "item_name": "#DOTA_Item_Humble_Drifter_Pants",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/vagabond_pants/vagabond_pants.vmdl"
+    },
+    {
+      "id": "7748",
+      "name": "Humble Drifter Oar",
+      "item_name": "#DOTA_Item_Humble_Drifter_Oar",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/vagabond_oar/vagabond_oar.vmdl"
+    },
+    {
+      "id": "7749",
+      "name": "Humble Drifter Garb",
+      "item_name": "#DOTA_Item_Humble_Drifter_Garb",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/vagabond_shoulders/vagabond_shoulders.vmdl"
+    },
+    {
+      "id": "7817",
+      "name": "Concord Dominion",
+      "item_name": "#DOTA_Item_Concord_Dominion",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/phantom_lancer_ti7_immortal_shoulder/phantom_lancer_ti7_immortal_shoulder.vmdl"
+    },
+    {
+      "id": "9299",
+      "name": "Lance of Harsh Sojourn",
+      "item_name": "#DOTA_Item_Lance_of_Harsh_Sojourn",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/hockey_goalie_weapon/hockey_goalie_weapon.vmdl"
+    },
+    {
+      "id": "9300",
+      "name": "Pauldrons of Harsh Sojourn",
+      "item_name": "#DOTA_Item_Pauldrons_of_Harsh_Sojourn",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/hockey_goalie_shoulder/hockey_goalie_shoulder.vmdl"
+    },
+    {
+      "id": "9301",
+      "name": "Mask of Harsh Sojourn",
+      "item_name": "#DOTA_Item_Mask_of_Harsh_Sojourn",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/hockey_goalie_head/hockey_goalie_head.vmdl"
+    },
+    {
+      "id": "9302",
+      "name": "Belt of Harsh Sojourn",
+      "item_name": "#DOTA_Item_Belt_of_Harsh_Sojourn",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/hockey_goalie_belt/hockey_goalie_belt.vmdl"
+    },
+    {
+      "id": "9460",
+      "name": "Humble Drifter Hat",
+      "item_name": "#DOTA_Item_Humble_Drifter_Hat",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/vagabond_hat/vagabond_hat.vmdl"
+    },
+    {
+      "id": "12909",
+      "name": "Arms of Harsh Sojourn",
+      "item_name": "#DOTA_Item_Arms_of_Harsh_Sojourn",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/hockey_goalie_arms/hockey_goalie_arms.vmdl"
+    },
+    {
+      "id": "13110",
+      "name": "Taunt: Pole Position",
+      "item_name": "#DOTA_Item_Taunt_Pole_Position",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "taunt"
+    },
+    {
+      "id": "13972",
+      "name": "Spear of the Red Sands",
+      "item_name": "#DOTA_Item_Spear_of_the_Red_Sands",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/rakshasa_weapon/rakshasa_weapon.vmdl"
+    },
+    {
+      "id": "13973",
+      "name": "Necklace of the Red Sands",
+      "item_name": "#DOTA_Item_Necklace_of_the_Red_Sands",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/rakshasa_shoulder/rakshasa_shoulder.vmdl"
+    },
+    {
+      "id": "13975",
+      "name": "Turban of the Red Sands",
+      "item_name": "#DOTA_Item_Turban_of_the_Red_Sands",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/rakshasa_head/rakshasa_head.vmdl"
+    },
+    {
+      "id": "13976",
+      "name": "Bracers of the Red Sands",
+      "item_name": "#DOTA_Item_Bracers_of_the_Red_Sands",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/rakshasa_arms/rakshasa_arms.vmdl"
+    },
+    {
+      "id": "13977",
+      "name": "Belt of the Red Sands",
+      "item_name": "#DOTA_Item_Belt_of_the_Red_Sands",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/rakshasa_belt/rakshasa_belt.vmdl"
+    },
+    {
+      "id": "14263",
+      "name": "Darkwater Dominion - Head",
+      "item_name": "#DOTA_Item_Darkwater_Dominion__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/army_of_the_vast_sea_head/army_of_the_vast_sea_head.vmdl"
+    },
+    {
+      "id": "14265",
+      "name": "Darkwater Dominion - Weapon",
+      "item_name": "#DOTA_Item_Darkwater_Dominion__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/army_of_the_vast_sea_weapon/army_of_the_vast_sea_weapon.vmdl"
+    },
+    {
+      "id": "14266",
+      "name": "Darkwater Dominion - Shoulder",
+      "item_name": "#DOTA_Item_Darkwater_Dominion__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/army_of_the_vast_sea_shoulder/army_of_the_vast_sea_shoulder.vmdl"
+    },
+    {
+      "id": "14267",
+      "name": "Darkwater Dominion - Belt",
+      "item_name": "#DOTA_Item_Darkwater_Dominion__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/army_of_the_vast_sea_belt/army_of_the_vast_sea_belt.vmdl"
+    },
+    {
+      "id": "14274",
+      "name": "Darkwater Dominion - Arms",
+      "item_name": "#DOTA_Item_Darkwater_Dominion__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/army_of_the_vast_sea_arms/army_of_the_vast_sea_arms.vmdl"
+    },
+    {
+      "id": "14995",
+      "name": "Concord Reversion",
+      "item_name": "#DOTA_Item_Concord_Reversion",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/pl_fall20_immortal_head/pl_fall20_immortal_head.vmdl"
+    },
+    {
+      "id": "18169",
+      "name": "Scales of the Shadow Walker - Arms",
+      "item_name": "#DOTA_Item_Scales_of_the_Shadow_Walker__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/anubis_phantom_lancer_arms/anubis_phantom_lancer_arms.vmdl"
+    },
+    {
+      "id": "18170",
+      "name": "Scales of the Shadow Walker - Belt",
+      "item_name": "#DOTA_Item_Scales_of_the_Shadow_Walker__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/anubis_phantom_lancer_belt/anubis_phantom_lancer_belt.vmdl"
+    },
+    {
+      "id": "18171",
+      "name": "Scales of the Shadow Walker - Head",
+      "item_name": "#DOTA_Item_Scales_of_the_Shadow_Walker__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/anubis_phantom_lancer_head/anubis_phantom_lancer_head.vmdl"
+    },
+    {
+      "id": "18172",
+      "name": "Scales of the Shadow Walker - Shoulder",
+      "item_name": "#DOTA_Item_Scales_of_the_Shadow_Walker__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/anubis_phantom_lancer_shoulder/anubis_phantom_lancer_shoulder.vmdl"
+    },
+    {
+      "id": "18173",
+      "name": "Scales of the Shadow Walker - Weapon",
+      "item_name": "#DOTA_Item_Scales_of_the_Shadow_Walker__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/anubis_phantom_lancer_weapon/anubis_phantom_lancer_weapon.vmdl"
+    },
+    {
+      "id": "20064",
+      "name": "Honors of the Golden Mane Set",
+      "item_name": "#DOTA_Item_Honors_of_the_Golden_Mane_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20065",
+      "name": "Revered Arms Set",
+      "item_name": "#DOTA_Item_Revered_Arms_Set",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20117",
+      "name": "Arms of the Bramble Lord Set",
+      "item_name": "#DOTA_Item_Arms_of_the_Bramble_Lord_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20146",
+      "name": "Ancestors' Pride Set",
+      "item_name": "#DOTA_Item_Ancestors_Pride_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20288",
+      "name": "Jewels of Teardrop Ice Set",
+      "item_name": "#DOTA_Item_Jewels_of_Teardrop_Ice_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20465",
+      "name": "Noble Warrior",
+      "item_name": "#DOTA_Item_Noble_Warrior",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20516",
+      "name": "Vengeance of the Sunwarrior",
+      "item_name": "#DOTA_Item_Vengeance_of_the_Sunwarrior",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20540",
+      "name": "Vestments of the Infinite Waves",
+      "item_name": "#DOTA_Item_Vestments_of_the_Infinite_Waves",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20565",
+      "name": "Promo Vengeance of the Sunwarrior",
+      "item_name": "#DOTA_Item_Promo_Vengeance_of_the_Sunwarrior",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20765",
+      "name": "Humble Drifter",
+      "item_name": "#DOTA_Item_Humble_Drifter",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21154",
+      "name": "Harsh Sojourn",
+      "item_name": "#DOTA_Item_Harsh_Sojourn",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21473",
+      "name": "Wraith of the Red Sands",
+      "item_name": "#DOTA_Item_Wraith_of_the_Red_Sands",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21526",
+      "name": "Darkwater Dominion",
+      "item_name": "#DOTA_Item_Darkwater_Dominion",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21707",
+      "name": "Scales of the Shadow Walker",
+      "item_name": "#DOTA_Item_Scales_of_the_Shadow_Walker",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22789",
+      "name": "Winter Lineage Humble Drifter Bracers",
+      "item_name": "#DOTA_Item_Winter_Lineage_Humble_Drifter_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/vagabond_arms/vagabond_arms.vmdl"
+    },
+    {
+      "id": "22790",
+      "name": "Winter Lineage Humble Drifter Pants",
+      "item_name": "#DOTA_Item_Winter_Lineage_Humble_Drifter_Pants",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/vagabond_pants/vagabond_pants.vmdl"
+    },
+    {
+      "id": "22791",
+      "name": "Winter Lineage Humble Drifter Oar",
+      "item_name": "#DOTA_Item_Winter_Lineage_Humble_Drifter_Oar",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/vagabond_oar/vagabond_oar.vmdl"
+    },
+    {
+      "id": "22792",
+      "name": "Winter Lineage Humble Drifter Garb",
+      "item_name": "#DOTA_Item_Winter_Lineage_Humble_Drifter_Garb",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/vagabond_shoulders/vagabond_shoulders.vmdl"
+    },
+    {
+      "id": "22793",
+      "name": "Winter Lineage Humble Drifter Hat",
+      "item_name": "#DOTA_Item_Winter_Lineage_Humble_Drifter_Hat",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/vagabond_hat/vagabond_hat.vmdl"
+    },
+    {
+      "id": "22794",
+      "name": "Winter Lineage Humble Drifter",
+      "item_name": "#DOTA_Item_Winter_Lineage_Humble_Drifter",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23771",
+      "name": "Disquiet Solitude - Arms",
+      "item_name": "#DOTA_Item_Disquiet_Solitude__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/winning_buddha_arms/winning_buddha_arms.vmdl"
+    },
+    {
+      "id": "23777",
+      "name": "Disquiet Solitude - Shoulder",
+      "item_name": "#DOTA_Item_Disquiet_Solitude__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/winning_buddha_shoulder/winning_buddha_shoulder.vmdl"
+    },
+    {
+      "id": "23796",
+      "name": "Disquiet Solitude - Head",
+      "item_name": "#DOTA_Item_Disquiet_Solitude__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/winning_buddha_head/winning_buddha_head.vmdl"
+    },
+    {
+      "id": "23797",
+      "name": "Disquiet Solitude - Weapon",
+      "item_name": "#DOTA_Item_Disquiet_Solitude__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/winning_buddha_weapon/winning_buddha_weapon.vmdl"
+    },
+    {
+      "id": "23798",
+      "name": "Disquiet Solitude - Belt",
+      "item_name": "#DOTA_Item_Disquiet_Solitude__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/winning_buddha_belt/winning_buddha_belt.vmdl"
+    },
+    {
+      "id": "23800",
+      "name": "Disquiet Solitude",
+      "item_name": "#DOTA_Item_Disquiet_Solitude",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28175",
+      "name": "Flock of Avilliva - Weapon",
+      "item_name": "#DOTA_Item_Flock_of_Avilliva__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/phantom_lancer_avilliva_weapon/phantom_lancer_avilliva_weapon.vmdl"
+    },
+    {
+      "id": "28195",
+      "name": "Flock of Avilliva - Shoulder",
+      "item_name": "#DOTA_Item_Flock_of_Avilliva__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/phantom_lancer_avilliva_shoulders/phantom_lancer_avilliva_shoulders.vmdl"
+    },
+    {
+      "id": "28196",
+      "name": "Flock of Avilliva - Arms",
+      "item_name": "#DOTA_Item_Flock_of_Avilliva__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/phantom_lancer_avilliva_arms/phantom_lancer_avilliva_arms.vmdl"
+    },
+    {
+      "id": "28197",
+      "name": "Flock of Avilliva - Belt",
+      "item_name": "#DOTA_Item_Flock_of_Avilliva__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/phantom_lancer_avilliva_belt/phantom_lancer_avilliva_belt.vmdl"
+    },
+    {
+      "id": "28198",
+      "name": "Flock of Avilliva - Head",
+      "item_name": "#DOTA_Item_Flock_of_Avilliva__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/phantom_lancer_avilliva_head/phantom_lancer_avilliva_head.vmdl"
+    },
+    {
+      "id": "28231",
+      "name": "Flock of Avilliva",
+      "item_name": "#DOTA_Item_Flock_of_Avilliva",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "31206",
+      "name": "Concord Dominion of the Crimson Witness",
+      "item_name": "#DOTA_Item_Concord_Dominion_of_the_Crimson_Witness",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/phantom_lancer_ti7_immortal_shoulder/phantom_lancer_ti7_immortal_shoulder.vmdl"
+    },
+    {
+      "id": "35384",
+      "name": "Tyrian Phantom Concord",
+      "item_name": "#DOTA_Item_Tyrian_Phantom_Concord",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_lancer/immortal_ti6/mesh/phantom_lancer_immortal_spear_mdoel.vmdl"
+    }
+  ]
+}

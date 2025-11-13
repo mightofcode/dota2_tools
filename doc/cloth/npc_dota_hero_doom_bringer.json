@@ -1,0 +1,2964 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "232",
+      "name": "Doom's Weapon",
+      "item_name": "#DOTA_Item_Dooms_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/doom/doom_sword.vmdl"
+    },
+    "head": {
+      "id": "233",
+      "name": "Doom's Helmet",
+      "item_name": "#DOTA_Item_Dooms_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/doom/doom_helm.vmdl"
+    },
+    "shoulder": {
+      "id": "234",
+      "name": "Doom's Shoulder Armor",
+      "item_name": "#DOTA_Item_Dooms_Shoulder_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/doom/shoulders.vmdl"
+    },
+    "arms": {
+      "id": "235",
+      "name": "Doom's Bracers",
+      "item_name": "#DOTA_Item_Dooms_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/doom/bracer.vmdl"
+    },
+    "belt": {
+      "id": "236",
+      "name": "Doom's Belt",
+      "item_name": "#DOTA_Item_Dooms_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "model_player": "models/heroes/doom/belt.vmdl"
+    },
+    "back": {
+      "id": "237",
+      "name": "Doom's Wings",
+      "item_name": "#DOTA_Item_Dooms_Wings",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/doom/wings.vmdl"
+    },
+    "tail": {
+      "id": "238",
+      "name": "Doom's Tail",
+      "item_name": "#DOTA_Item_Dooms_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "model_player": "models/heroes/doom/tail.vmdl"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Apocalyptic_Fire",
+      "store_bundle": "The Apocalyptic Fire Set",
+      "portrait_image": "econ/sets/v2/apocalyptic_doom",
+      "items": [
+        {
+          "name": "Steel Wings of Apocalyptic Fire",
+          "id": "4722",
+          "item_name": "#DOTA_Item_Steel_Wings_of_Apocalyptic_Fire",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/abysswings/abysswings.vmdl"
+        },
+        {
+          "name": "Runed Bracers of Apocalyptic Fire",
+          "id": "4723",
+          "item_name": "#DOTA_Item_Runed_Bracers_of_Apocalyptic_Fire",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/abyssarms/abyssarms.vmdl"
+        },
+        {
+          "name": "Demonhide Girdle of Apocalyptic Fire",
+          "id": "4737",
+          "item_name": "#DOTA_Item_Demonhide_Girdle_of_Apocalyptic_Fire",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/abyssbelt/abyssbelt.vmdl"
+        },
+        {
+          "name": "Steel Horns of Apocalyptic Fire",
+          "id": "4738",
+          "item_name": "#DOTA_Item_Steel_Horns_of_Apocalyptic_Fire",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/abysshelm/abysshelm.vmdl"
+        },
+        {
+          "name": "Infernal Pauldrons of Apocalyptic Fire",
+          "id": "4775",
+          "item_name": "#DOTA_Item_Infernal_Pauldrons_of_Apocalyptic_Fire",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/abyssshoulders/abyssshoulders.vmdl"
+        },
+        {
+          "name": "Demon Blade of Apocalyptic Fire",
+          "id": "4780",
+          "item_name": "#DOTA_Item_Demon_Blade_of_Apocalyptic_Fire",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/abysssword/abysssword.vmdl"
+        },
+        {
+          "name": "Tail Plates of Apocalyptic Fire",
+          "id": "4783",
+          "item_name": "#DOTA_Item_Tail_Plates_of_Apocalyptic_Fire",
+          "item_slot": "tail",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/abysstail/abysstail.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Onyx_Fume",
+      "store_bundle": "Onyx Fume",
+      "portrait_image": "econ/sets/v2/blazing_lord",
+      "items": [
+        {
+          "name": "Crest of the Onyx Fume",
+          "id": "7649",
+          "item_name": "#DOTA_Item_Crest_of_the_Onyx_Fume",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/blazing_lord_head/blazing_lord_head.vmdl"
+        },
+        {
+          "name": "Curl of the Onyx Fume",
+          "id": "7648",
+          "item_name": "#DOTA_Item_Curl_of_the_Onyx_Fume",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/blazing_lord_shoulder/blazing_lord_shoulder.vmdl"
+        },
+        {
+          "name": "Wings of the Onyx Fume",
+          "id": "7647",
+          "item_name": "#DOTA_Item_Wings_of_the_Onyx_Fume",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/blazing_lord_back/blazing_lord_back.vmdl"
+        },
+        {
+          "name": "Sash of the Onyx Fume",
+          "id": "7646",
+          "item_name": "#DOTA_Item_Sash_of_the_Onyx_Fume",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/blazing_lord_belt/blazing_lord_belt.vmdl"
+        },
+        {
+          "name": "Whip of the Onyx Fume",
+          "id": "7645",
+          "item_name": "#DOTA_Item_Whip_of_the_Onyx_Fume",
+          "item_slot": "tail",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/blazing_lord_tail/blazing_lord_tail.vmdl"
+        },
+        {
+          "name": "Shackles of the Onyx Fume",
+          "id": "7644",
+          "item_name": "#DOTA_Item_Shackles_of_the_Onyx_Fume",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/blazing_lord_arms/blazing_lord_arms.vmdl"
+        },
+        {
+          "name": "Blade of the Onyx Fume",
+          "id": "7643",
+          "item_name": "#DOTA_Item_Blade_of_the_Onyx_Fume",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/blazing_lord_weapon/blazing_lord_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Crown_of_Hells",
+      "store_bundle": "Crown of Hells",
+      "portrait_image": "econ/sets/v2/crown_of_hells",
+      "items": [
+        {
+          "name": "Hell at Arms",
+          "id": "6095",
+          "item_name": "#DOTA_Item_Hell_at_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/free2play_arms_hyhy/free2play_arms_hyhy.vmdl"
+        },
+        {
+          "name": "The Burning Banner",
+          "id": "6096",
+          "item_name": "#DOTA_Item_The_Burning_Banner",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/free2play_back_hyhy/free2play_back_hyhy.vmdl"
+        },
+        {
+          "name": "Belt of All Hells",
+          "id": "6097",
+          "item_name": "#DOTA_Item_Belt_of_All_Hells",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/free2play_belt_hyhy/free2play_belt_hyhy.vmdl"
+        },
+        {
+          "name": "Crown of Gore",
+          "id": "6098",
+          "item_name": "#DOTA_Item_Crown_of_Gore",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/free2play_head_closed_hyhy/free2play_head_closed_hyhy.vmdl"
+        },
+        {
+          "name": "Tail of Defilement",
+          "id": "6101",
+          "item_name": "#DOTA_Item_Tail_of_Defilement",
+          "item_slot": "tail",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/free2play_tail_hyhy/free2play_tail_hyhy.vmdl"
+        },
+        {
+          "name": "Blade of Soul Hunger",
+          "id": "6102",
+          "item_name": "#DOTA_Item_Blade_of_Soul_Hunger",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/free2play_weapon_hyhy/free2play_weapon_hyhy.vmdl"
+        },
+        {
+          "name": "Shoulders of Damnation",
+          "id": "6100",
+          "item_name": "#DOTA_Item_Shoulders_of_Damnation",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/free2play_shoulder_hyhy/free2play_shoulder_hyhy.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Daemon_Prince_of_Khorne",
+      "store_bundle": "Daemon Prince of Khorne",
+      "portrait_image": "econ/sets/v2/daemon_prince_of_khorne",
+      "items": [
+        {
+          "name": "Horns of the Daemon Prince",
+          "id": "8088",
+          "item_name": "#DOTA_Item_Horns_of_the_Daemon_Prince",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/herald_khorne_head/herald_khorne_head.vmdl"
+        },
+        {
+          "name": "Wings of the Daemon Prince",
+          "id": "8087",
+          "item_name": "#DOTA_Item_Wings_of_the_Daemon_Prince",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/herald_khorne_back/herald_khorne_back.vmdl"
+        },
+        {
+          "name": "Hellblade of the Daemon Prince",
+          "id": "8084",
+          "item_name": "#DOTA_Item_Hellblade_of_the_Daemon_Prince",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/herald_khorne_weapon/herald_khorne_weapon.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Daemon Prince",
+          "id": "8058",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Daemon_Prince",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/herald_khorne_shoulder/herald_khorne_shoulder.vmdl"
+        },
+        {
+          "name": "Bracers of the Daemon Prince",
+          "id": "8056",
+          "item_name": "#DOTA_Item_Bracers_of_the_Daemon_Prince",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/herald_khorne_arms/herald_khorne_arms.vmdl"
+        },
+        {
+          "name": "Ornate Belt of the Daemon Prince",
+          "id": "8048",
+          "item_name": "#DOTA_Item_Ornate_Belt_of_the_Daemon_Prince",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/herald_khorne_belt/herald_khorne_belt.vmdl"
+        },
+        {
+          "name": "Tail of the Daemon Prince",
+          "id": "8047",
+          "item_name": "#DOTA_Item_Tail_of_the_Daemon_Prince",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/herald_khorne_tail/herald_khorne_tail.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dawn_of_a_Darkness_Foretold",
+      "store_bundle": "Dawn of a Darkness Foretold",
+      "portrait_image": "econ/sets/v2/dawn_of_a_darkness_foretold",
+      "items": [
+        {
+          "name": "Dawn of a Darkness Foretold - Arms",
+          "id": "25400",
+          "item_name": "#DOTA_Item_Dawn_of_a_Darkness_Foretold__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/doom_cthulhu_arms/doom_cthulhu_arms.vmdl"
+        },
+        {
+          "name": "Dawn of a Darkness Foretold - Back",
+          "id": "25399",
+          "item_name": "#DOTA_Item_Dawn_of_a_Darkness_Foretold__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/doom_cthulhu_back/doom_cthulhu_back.vmdl"
+        },
+        {
+          "name": "Dawn of a Darkness Foretold - Belt",
+          "id": "25401",
+          "item_name": "#DOTA_Item_Dawn_of_a_Darkness_Foretold__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/doom_cthulhu_belt/doom_cthulhu_belt.vmdl"
+        },
+        {
+          "name": "Dawn of a Darkness Foretold - Head",
+          "id": "25314",
+          "item_name": "#DOTA_Item_Dawn_of_a_Darkness_Foretold__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/doom_cthulhu_head/doom_cthulhu_head.vmdl"
+        },
+        {
+          "name": "Dawn of a Darkness Foretold - Shoulder",
+          "id": "25396",
+          "item_name": "#DOTA_Item_Dawn_of_a_Darkness_Foretold__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/doom_cthulhu_shoulder/doom_cthulhu_shoulder.vmdl"
+        },
+        {
+          "name": "Dawn of a Darkness Foretold - Tail",
+          "id": "25398",
+          "item_name": "#DOTA_Item_Dawn_of_a_Darkness_Foretold__Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/doom_cthulhu_tail/doom_cthulhu_tail.vmdl"
+        },
+        {
+          "name": "Dawn of a Darkness Foretold - Weapon",
+          "id": "25397",
+          "item_name": "#DOTA_Item_Dawn_of_a_Darkness_Foretold__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/doom_cthulhu_weapon/doom_cthulhu_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Eternal_Daemon_Prince_of_Khorne",
+      "store_bundle": "Eternal Daemon Prince of Khorne",
+      "portrait_image": "econ/sets/v2/doom_eternal_daemon_prince_of_khorne",
+      "items": [
+        {
+          "name": "Eternal Pauldrons of the Daemon Prince",
+          "id": "8508",
+          "item_name": "#DOTA_Item_Eternal_Pauldrons_of_the_Daemon_Prince",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/herald_khorne_shoulder/herald_khorne_shoulder.vmdl"
+        },
+        {
+          "name": "Eternal Horns of the Daemon Prince",
+          "id": "8507",
+          "item_name": "#DOTA_Item_Eternal_Horns_of_the_Daemon_Prince",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/herald_khorne_head/herald_khorne_head.vmdl"
+        },
+        {
+          "name": "Eternal Ornate Belt of the Daemon Prince",
+          "id": "8506",
+          "item_name": "#DOTA_Item_Eternal_Ornate_Belt_of_the_Daemon_Prince",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/herald_khorne_belt/herald_khorne_belt.vmdl"
+        },
+        {
+          "name": "Eternal Wings of the Daemon Prince",
+          "id": "8505",
+          "item_name": "#DOTA_Item_Eternal_Wings_of_the_Daemon_Prince",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/herald_khorne_back/herald_khorne_back.vmdl"
+        },
+        {
+          "name": "Eternal Bracers of the Daemon Prince",
+          "id": "8504",
+          "item_name": "#DOTA_Item_Eternal_Bracers_of_the_Daemon_Prince",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/herald_khorne_arms/herald_khorne_arms.vmdl"
+        },
+        {
+          "name": "Eternal Tail of the Daemon Prince",
+          "id": "8503",
+          "item_name": "#DOTA_Item_Eternal_Tail_of_the_Daemon_Prince",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/herald_khorne_tail/herald_khorne_tail.vmdl"
+        },
+        {
+          "name": "Eternal Hellblade of the Daemon Prince",
+          "id": "8502",
+          "item_name": "#DOTA_Item_Eternal_Hellblade_of_the_Daemon_Prince",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/herald_khorne_weapon/herald_khorne_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Impending_Transgressions",
+      "store_bundle": "Impending Transgressions Set",
+      "portrait_image": "econ/sets/v2/doom_impending_transgressions",
+      "items": [
+        {
+          "name": "Wings of Impending Transgressions",
+          "id": "5121",
+          "item_name": "#DOTA_Item_Wings_of_Impending_Transgressions",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/impending_transgressions_back/impending_transgressions_back.vmdl"
+        },
+        {
+          "name": "Sword of Impending Transgressions",
+          "id": "5125",
+          "item_name": "#DOTA_Item_Sword_of_Impending_Transgressions",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/impending_transgressions_weapon/impending_transgressions_weapon.vmdl"
+        },
+        {
+          "name": "Bracers of Impending Transgressions",
+          "id": "5122",
+          "item_name": "#DOTA_Item_Bracers_of_Impending_Transgressions",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/impending_transgressions_arms/impending_transgressions_arms.vmdl"
+        },
+        {
+          "name": "Tail of Impending Transgressions",
+          "id": "5123",
+          "item_name": "#DOTA_Item_Tail_of_Impending_Transgressions",
+          "item_slot": "tail",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/impending_transgressions_tail/impending_transgressions_tail.vmdl"
+        },
+        {
+          "name": "Pauldrons of Impending Transgressions",
+          "id": "5124",
+          "item_name": "#DOTA_Item_Pauldrons_of_Impending_Transgressions",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/impending_transgressions_shoulders/impending_transgressions_shoulders.vmdl"
+        },
+        {
+          "name": "Tassets of Impending Transgressions",
+          "id": "5126",
+          "item_name": "#DOTA_Item_Tassets_of_Impending_Transgressions",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/impending_transgressions_belt/impending_transgressions_belt.vmdl"
+        },
+        {
+          "name": "Helm of Impending Transgressions",
+          "id": "5127",
+          "item_name": "#DOTA_Item_Helm_of_Impending_Transgressions",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/impending_transgressions_head/impending_transgressions_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ravens_Flame",
+      "store_bundle": "Raven's Flame",
+      "portrait_image": "econ/sets/v2/doom_ravens_flame",
+      "items": [
+        {
+          "name": "Raven's Flame Weapon",
+          "id": "17747",
+          "item_name": "#DOTA_Item_Ravens_Flame_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/ravens_flame_weapon/ravens_flame_weapon.vmdl"
+        },
+        {
+          "name": "Raven's Flame Tail",
+          "id": "17746",
+          "item_name": "#DOTA_Item_Ravens_Flame_Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/ravens_flame_tail/ravens_flame_tail.vmdl"
+        },
+        {
+          "name": "Raven's Flame Shoulder",
+          "id": "17745",
+          "item_name": "#DOTA_Item_Ravens_Flame_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/ravens_flame_shoulder/ravens_flame_shoulder.vmdl"
+        },
+        {
+          "name": "Raven's Flame Head",
+          "id": "17744",
+          "item_name": "#DOTA_Item_Ravens_Flame_Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/ravens_flame_head/ravens_flame_head.vmdl"
+        },
+        {
+          "name": "Raven's Flame Belt",
+          "id": "17743",
+          "item_name": "#DOTA_Item_Ravens_Flame_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/ravens_flame_belt/ravens_flame_belt.vmdl"
+        },
+        {
+          "name": "Raven's Flame Back",
+          "id": "17742",
+          "item_name": "#DOTA_Item_Ravens_Flame_Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/ravens_flame_back/ravens_flame_back.vmdl"
+        },
+        {
+          "name": "Raven's Flame Arms",
+          "id": "17741",
+          "item_name": "#DOTA_Item_Ravens_Flame_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/ravens_flame_arms/ravens_flame_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dread_Ascendance",
+      "store_bundle": "Dread Ascendance",
+      "portrait_image": "econ/sets/v2/dread_ascendance",
+      "items": [
+        {
+          "name": "Dread Ascendance Wings",
+          "id": "9991",
+          "item_name": "#DOTA_Item_Dread_Ascendance_Wings",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/ti8_doom_obsidian_overlord_back/ti8_doom_obsidian_overlord_back.vmdl"
+        },
+        {
+          "name": "Dread Ascendance Tail",
+          "id": "9990",
+          "item_name": "#DOTA_Item_Dread_Ascendance_Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/ti8_doom_obsidian_overlord_tail/ti8_doom_obsidian_overlord_tail.vmdl"
+        },
+        {
+          "name": "Dread Ascendance Sword",
+          "id": "9989",
+          "item_name": "#DOTA_Item_Dread_Ascendance_Sword",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/ti8_doom_obsidian_overlord_weapon/ti8_doom_obsidian_overlord_weapon.vmdl"
+        },
+        {
+          "name": "Dread Ascendance Armor",
+          "id": "9988",
+          "item_name": "#DOTA_Item_Dread_Ascendance_Armor",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/ti8_doom_obsidian_overlord_shoulder/ti8_doom_obsidian_overlord_shoulder.vmdl"
+        },
+        {
+          "name": "Dread Ascendance Helm",
+          "id": "9987",
+          "item_name": "#DOTA_Item_Dread_Ascendance_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/ti8_doom_obsidian_overlord_head/ti8_doom_obsidian_overlord_head.vmdl"
+        },
+        {
+          "name": "Dread Ascendance Belt",
+          "id": "9986",
+          "item_name": "#DOTA_Item_Dread_Ascendance_Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/ti8_doom_obsidian_overlord_belt/ti8_doom_obsidian_overlord_belt.vmdl"
+        },
+        {
+          "name": "Dread Ascendance Bracers",
+          "id": "9985",
+          "item_name": "#DOTA_Item_Dread_Ascendance_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/ti8_doom_obsidian_overlord_arms/ti8_doom_obsidian_overlord_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Burden_of_Eleven_Curses",
+      "store_bundle": "The Burden of Eleven Curses Set",
+      "portrait_image": "econ/sets/v2/eleven_curses",
+      "items": [
+        {
+          "name": "Sword of the Eleven Curses",
+          "id": "4623",
+          "item_name": "#DOTA_Item_Sword_of_the_Eleven_Curses",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/eleven_curses__sword/eleven_curses__sword.vmdl"
+        },
+        {
+          "name": "Tail of the Eleven Curses",
+          "id": "4620",
+          "item_name": "#DOTA_Item_Tail_of_the_Eleven_Curses",
+          "item_slot": "tail",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/eleven_curses__tail/eleven_curses__tail.vmdl"
+        },
+        {
+          "name": "Bracer of the Eleven Curses",
+          "id": "4627",
+          "item_name": "#DOTA_Item_Bracer_of_the_Eleven_Curses",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/eleven_curses__bracer/eleven_curses__bracer.vmdl"
+        },
+        {
+          "name": "Wings of the Eleven Curses",
+          "id": "4631",
+          "item_name": "#DOTA_Item_Wings_of_the_Eleven_Curses",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/eleven_curses__wings/eleven_curses__wings.vmdl"
+        },
+        {
+          "name": "Belt of the Eleven Curses",
+          "id": "4634",
+          "item_name": "#DOTA_Item_Belt_of_the_Eleven_Curses",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/eleven_curses__belt/eleven_curses__belt.vmdl"
+        },
+        {
+          "name": "Shoulder of the Eleven Curses",
+          "id": "4639",
+          "item_name": "#DOTA_Item_Shoulder_of_the_Eleven_Curses",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/eleven_curses__shoulder/eleven_curses__shoulder.vmdl"
+        },
+        {
+          "name": "Horns of the Eleven Curses",
+          "id": "4624",
+          "item_name": "#DOTA_Item_Horns_of_the_Eleven_Curses",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/eleven_curses__head/eleven_curses__head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Eternal_Fire",
+      "store_bundle": "Eternal Fire",
+      "portrait_image": "econ/sets/v2/eternal_fire",
+      "items": [
+        {
+          "name": "Tail of Eternal Fire",
+          "id": "6506",
+          "item_name": "#DOTA_Item_Tail_of_Eternal_Fire",
+          "item_slot": "tail",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/eternal_fire_tail/eternal_fire_tail.vmdl"
+        },
+        {
+          "name": "Armor of Eternal Fire",
+          "id": "6505",
+          "item_name": "#DOTA_Item_Armor_of_Eternal_Fire",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/eternal_fire_shoulders/eternal_fire_shoulders.vmdl"
+        },
+        {
+          "name": "Blade of Eternal Fire",
+          "id": "6507",
+          "item_name": "#DOTA_Item_Blade_of_Eternal_Fire",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/eternal_fire_weapon/eternal_fire_weapon.vmdl"
+        },
+        {
+          "name": "Helm of Eternal Fire",
+          "id": "6504",
+          "item_name": "#DOTA_Item_Helm_of_Eternal_Fire",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/eternal_fire_helmet/eternal_fire_helmet.vmdl"
+        },
+        {
+          "name": "Belt of Eternal Fire",
+          "id": "6503",
+          "item_name": "#DOTA_Item_Belt_of_Eternal_Fire",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/eternal_fire_belt/eternal_fire_belt.vmdl"
+        },
+        {
+          "name": "Wings of Eternal Fire",
+          "id": "6502",
+          "item_name": "#DOTA_Item_Wings_of_Eternal_Fire",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/eternal_fire_back/eternal_fire_back.vmdl"
+        },
+        {
+          "name": "Arms of Eternal Fire",
+          "id": "6501",
+          "item_name": "#DOTA_Item_Arms_of_Eternal_Fire",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/eternal_fire_arms/eternal_fire_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Fires_of_Vashundol",
+      "store_bundle": "Fires of Vashundol",
+      "portrait_image": "econ/sets/v2/fires_of_vashundol",
+      "items": [
+        {
+          "name": "Skull of Vashundol",
+          "id": "6947",
+          "item_name": "#DOTA_Item_Skull_of_Vashundol",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/baphomet_head/baphomet_head.vmdl"
+        },
+        {
+          "name": "Wings of Vashundol",
+          "id": "6888",
+          "item_name": "#DOTA_Item_Wings_of_Vashundol",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/baphomet_wings/baphomet_wings.vmdl"
+        },
+        {
+          "name": "Cloak of Vashundol",
+          "id": "6887",
+          "item_name": "#DOTA_Item_Cloak_of_Vashundol",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/baphomet_cloak/baphomet_cloak.vmdl"
+        },
+        {
+          "name": "Broken Blade of Vashundol",
+          "id": "6885",
+          "item_name": "#DOTA_Item_Broken_Blade_of_Vashundol",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/baphomet_weapon/baphomet_weapon.vmdl"
+        },
+        {
+          "name": "Belt of Vashundol",
+          "id": "6822",
+          "item_name": "#DOTA_Item_Belt_of_Vashundol",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/baphomet_belt/baphomet_belt.vmdl"
+        },
+        {
+          "name": "Tail of Vashundol",
+          "id": "6821",
+          "item_name": "#DOTA_Item_Tail_of_Vashundol",
+          "item_slot": "tail",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/baphomet_tail/baphomet_tail.vmdl"
+        },
+        {
+          "name": "Bindings of Vashundol",
+          "id": "6632",
+          "item_name": "#DOTA_Item_Bindings_of_Vashundol",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/baphomet_arms/baphomet_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Heat_of_the_Sixth_Hell",
+      "store_bundle": "Heat of the Sixth Hell",
+      "portrait_image": "econ/sets/v2/heat_of_the_sixth_hell",
+      "items": [
+        {
+          "name": "Heat of the Sixth Hell - Shoulder",
+          "id": "13864",
+          "item_name": "#DOTA_Item_Heat_of_the_Sixth_Hell__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/the_smoldering_tyrant_shoulder/the_smoldering_tyrant_shoulder.vmdl"
+        },
+        {
+          "name": "Heat of the Sixth Hell - Weapon",
+          "id": "13863",
+          "item_name": "#DOTA_Item_Heat_of_the_Sixth_Hell__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/the_smoldering_tyrant_weapon/the_smoldering_tyrant_weapon.vmdl"
+        },
+        {
+          "name": "Heat of the Sixth Hell - Back",
+          "id": "13862",
+          "item_name": "#DOTA_Item_Heat_of_the_Sixth_Hell__Back",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/the_smoldering_tyrant_back/the_smoldering_tyrant_back.vmdl"
+        },
+        {
+          "name": "Heat of the Sixth Hell - Head",
+          "id": "13861",
+          "item_name": "#DOTA_Item_Heat_of_the_Sixth_Hell__Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/the_smoldering_tyrant_head/the_smoldering_tyrant_head.vmdl"
+        },
+        {
+          "name": "Heat of the Sixth Hell - Arms",
+          "id": "13860",
+          "item_name": "#DOTA_Item_Heat_of_the_Sixth_Hell__Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/the_smoldering_tyrant_arms/the_smoldering_tyrant_arms.vmdl"
+        },
+        {
+          "name": "Heat of the Sixth Hell - Tail",
+          "id": "13859",
+          "item_name": "#DOTA_Item_Heat_of_the_Sixth_Hell__Tail",
+          "item_slot": "tail",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/the_smoldering_tyrant_tail/the_smoldering_tyrant_tail.vmdl"
+        },
+        {
+          "name": "Heat of the Sixth Hell - Belt",
+          "id": "13858",
+          "item_name": "#DOTA_Item_Heat_of_the_Sixth_Hell__Belt",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/the_smoldering_tyrant_belt/the_smoldering_tyrant_belt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Hells_Raider",
+      "store_bundle": "Hells Raider",
+      "portrait_image": "econ/sets/v2/hells_raider",
+      "items": [
+        {
+          "name": "Hells Raider - Head",
+          "id": "27450",
+          "item_name": "#DOTA_Item_Hells_Raider__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/sinister_prime_head/sinister_prime_head.vmdl"
+        },
+        {
+          "name": "Hells Raider - Back",
+          "id": "27448",
+          "item_name": "#DOTA_Item_Hells_Raider__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/sinister_prime_back/sinister_prime_back.vmdl"
+        },
+        {
+          "name": "Hells Raider - Arms",
+          "id": "27447",
+          "item_name": "#DOTA_Item_Hells_Raider__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/sinister_prime_arms/sinister_prime_arms.vmdl"
+        },
+        {
+          "name": "Hells Raider - Shoulder",
+          "id": "27446",
+          "item_name": "#DOTA_Item_Hells_Raider__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/sinister_prime_shoulder/sinister_prime_shoulder.vmdl"
+        },
+        {
+          "name": "Hells Raider - Tail",
+          "id": "27445",
+          "item_name": "#DOTA_Item_Hells_Raider__Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/sinister_prime_tail/sinister_prime_tail.vmdl"
+        },
+        {
+          "name": "Hells Raider - Belt",
+          "id": "27444",
+          "item_name": "#DOTA_Item_Hells_Raider__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/sinister_prime_belt/sinister_prime_belt.vmdl"
+        },
+        {
+          "name": "Hells Raider - Weapon",
+          "id": "27443",
+          "item_name": "#DOTA_Item_Hells_Raider__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/sinister_prime_sword/sinister_prime_sword.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Igneous_Infernal",
+      "store_bundle": "Igneous Infernal",
+      "portrait_image": "econ/sets/v2/igneous_infernal",
+      "items": [
+        {
+          "name": "Igneous Infernal - Head",
+          "id": "31093",
+          "item_name": "#DOTA_Item_Igneous_Infernal__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/lvbu_head/lvbu_head.vmdl"
+        },
+        {
+          "name": "Igneous Infernal - Weapon",
+          "id": "28269",
+          "item_name": "#DOTA_Item_Igneous_Infernal__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/lvbu_weapon/lvbu_weapon.vmdl"
+        },
+        {
+          "name": "Igneous Infernal - Tail",
+          "id": "28268",
+          "item_name": "#DOTA_Item_Igneous_Infernal__Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/lvbu_tail/lvbu_tail.vmdl"
+        },
+        {
+          "name": "Igneous Infernal - Shoulder",
+          "id": "28267",
+          "item_name": "#DOTA_Item_Igneous_Infernal__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/lvbu_shoudler/lvbu_shoudler.vmdl"
+        },
+        {
+          "name": "Igneous Infernal - Belt",
+          "id": "28266",
+          "item_name": "#DOTA_Item_Igneous_Infernal__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/lvbu_belt/lvbu_belt.vmdl"
+        },
+        {
+          "name": "Igneous Infernal - Back",
+          "id": "28265",
+          "item_name": "#DOTA_Item_Igneous_Infernal__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/lvbu_back/lvbu_back.vmdl"
+        },
+        {
+          "name": "Igneous Infernal - Arms",
+          "id": "28264",
+          "item_name": "#DOTA_Item_Igneous_Infernal__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/lvbu_arms/lvbu_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Incandescent_Liturgy",
+      "store_bundle": "Incandescent Liturgy",
+      "portrait_image": "econ/sets/v2/incandescent_liturgy",
+      "items": [
+        {
+          "name": "Wings of Incandescent Liturgy",
+          "id": "8099",
+          "item_name": "#DOTA_Item_Wings_of_Incandescent_Liturgy",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/ancient_beast_back/ancient_beast_back.vmdl"
+        },
+        {
+          "name": "Tail of Incandescent Liturgy",
+          "id": "8103",
+          "item_name": "#DOTA_Item_Tail_of_Incandescent_Liturgy",
+          "item_slot": "tail",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/ancient_beast_tail/ancient_beast_tail.vmdl"
+        },
+        {
+          "name": "Scales of Incandescent Liturgy",
+          "id": "8098",
+          "item_name": "#DOTA_Item_Scales_of_Incandescent_Liturgy",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/ancient_beast_arms/ancient_beast_arms.vmdl"
+        },
+        {
+          "name": "Visage of Incandescent Liturgy",
+          "id": "8101",
+          "item_name": "#DOTA_Item_Visage_of_Incandescent_Liturgy",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/ancient_beast_head/ancient_beast_head.vmdl"
+        },
+        {
+          "name": "Echo of Incandescent Liturgy",
+          "id": "8104",
+          "item_name": "#DOTA_Item_Echo_of_Incandescent_Liturgy",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/ancient_beast_weapon/ancient_beast_weapon.vmdl"
+        },
+        {
+          "name": "Spaulders of Incandescent Liturgy",
+          "id": "8102",
+          "item_name": "#DOTA_Item_Spaulders_of_Incandescent_Liturgy",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/ancient_beast_shoulders/ancient_beast_shoulders.vmdl"
+        },
+        {
+          "name": "Sternites of Incandescent Liturgy",
+          "id": "8100",
+          "item_name": "#DOTA_Item_Sternites_of_Incandescent_Liturgy",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/ancient_beast_belt/ancient_beast_belt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Incantations_of_Hell",
+      "store_bundle": "Incantations of Hell",
+      "portrait_image": "econ/sets/v2/incantations_of_hell",
+      "items": [
+        {
+          "name": "Tail Blade of Incantations",
+          "id": "6273",
+          "item_name": "#DOTA_Item_Tail_Blade_of_Incantations",
+          "item_slot": "tail",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/incantations_tail/incantations_tail.vmdl"
+        },
+        {
+          "name": "Horns of Incantations",
+          "id": "6274",
+          "item_name": "#DOTA_Item_Horns_of_Incantations",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/doom/incantations_helmet/incantations_helmet.vmdl"
+        },
+        {
+          "name": "Scorching Wings of Incantation",
+          "id": "6275",
+          "item_name": "#DOTA_Item_Scorching_Wings_of_Incantation",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/doom/incantations_wings/incantations_wings.vmdl"
+        },
+        {
+          "name": "Vehement Pauldrons of Incantations",
+          "id": "6276",
+          "item_name": "#DOTA_Item_Vehement_Pauldrons_of_Incantations",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/incantations_shoulder/incantations_shoulder.vmdl"
+        },
+        {
+          "name": "Head Opener of Incantations",
+          "id": "6277",
+          "item_name": "#DOTA_Item_Head_Opener_of_Incantations",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/incantations_weapon/incantations_weapon.vmdl"
+        },
+        {
+          "name": "Belt of Incantations",
+          "id": "6278",
+          "item_name": "#DOTA_Item_Belt_of_Incantations",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/incantations_belt/incantations_belt.vmdl"
+        },
+        {
+          "name": "Arm Harness of Incantations",
+          "id": "6279",
+          "item_name": "#DOTA_Item_Arm_Harness_of_Incantations",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/doom/incantations_arms/incantations_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Litany_of_the_Damned",
+      "store_bundle": "Litany of the Damned",
+      "portrait_image": "econ/sets/v2/litany_of_the_damned",
+      "items": [
+        {
+          "name": "Litany of the Damned - Head",
+          "id": "12276",
+          "item_name": "#DOTA_Item_Litany_of_the_Damned__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/bringer_of_troubles_head/bringer_of_troubles_head.vmdl"
+        },
+        {
+          "name": "Litany of the Damned - Arms",
+          "id": "12275",
+          "item_name": "#DOTA_Item_Litany_of_the_Damned__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/bringer_of_troubles_arms/bringer_of_troubles_arms.vmdl"
+        },
+        {
+          "name": "Litany of the Damned - Shoulder",
+          "id": "12274",
+          "item_name": "#DOTA_Item_Litany_of_the_Damned__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/bringer_of_troubles_shoulder/bringer_of_troubles_shoulder.vmdl"
+        },
+        {
+          "name": "Litany of the Damned - Back",
+          "id": "12273",
+          "item_name": "#DOTA_Item_Litany_of_the_Damned__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/bringer_of_troubles_back/bringer_of_troubles_back.vmdl"
+        },
+        {
+          "name": "Litany of the Damned - Tail",
+          "id": "12272",
+          "item_name": "#DOTA_Item_Litany_of_the_Damned__Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/bringer_of_troubles_tail/bringer_of_troubles_tail.vmdl"
+        },
+        {
+          "name": "Litany of the Damned - Belt",
+          "id": "12271",
+          "item_name": "#DOTA_Item_Litany_of_the_Damned__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/bringer_of_troubles_belt/bringer_of_troubles_belt.vmdl"
+        },
+        {
+          "name": "Litany of the Damned - Weapon",
+          "id": "12270",
+          "item_name": "#DOTA_Item_Litany_of_the_Damned__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/bringer_of_troubles_weapon/bringer_of_troubles_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Soul_Shredder_Bundle",
+      "store_bundle": "Soul Shredder Bundle",
+      "portrait_image": "econ/sets/v2/soul_shredder_bundle",
+      "items": [
+        {
+          "name": "Soul Shredder",
+          "id": "22273",
+          "item_name": "#DOTA_Item_Soul_Shredder",
+          "item_slot": "weapon",
+          "item_rarity": "immortal",
+          "model_player": "models/items/doom/doom_2021_immortal_weapon/doom_2021_immortal_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Whispers_of_the_Damned",
+      "store_bundle": "Whispers of the Damned",
+      "portrait_image": "econ/sets/v2/whispers_of_the_damned",
+      "items": [
+        {
+          "name": "Whispers of the Damned Sword",
+          "id": "17990",
+          "item_name": "#DOTA_Item_Whispers_of_the_Damned_Sword",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/cruel_gaze_weapon/cruel_gaze_weapon.vmdl"
+        },
+        {
+          "name": "Whispers of the Damned Tail",
+          "id": "17989",
+          "item_name": "#DOTA_Item_Whispers_of_the_Damned_Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/cruel_gaze_tail/cruel_gaze_tail.vmdl"
+        },
+        {
+          "name": "Whispers of the Damned Pauldrons",
+          "id": "17988",
+          "item_name": "#DOTA_Item_Whispers_of_the_Damned_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/cruel_gaze_shoulder/cruel_gaze_shoulder.vmdl"
+        },
+        {
+          "name": "Whispers of the Damned Head",
+          "id": "17987",
+          "item_name": "#DOTA_Item_Whispers_of_the_Damned_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/cruel_gaze_head/cruel_gaze_head.vmdl"
+        },
+        {
+          "name": "Whispers of the Damned Belt",
+          "id": "17986",
+          "item_name": "#DOTA_Item_Whispers_of_the_Damned_Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/cruel_gaze_belt/cruel_gaze_belt.vmdl"
+        },
+        {
+          "name": "Whispers of the Damned Bracers",
+          "id": "17984",
+          "item_name": "#DOTA_Item_Whispers_of_the_Damned_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/cruel_gaze_arms/cruel_gaze_arms.vmdl"
+        },
+        {
+          "name": "Whispers of the Damned Wings",
+          "id": "17985",
+          "item_name": "#DOTA_Item_Whispers_of_the_Damned_Wings",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/cruel_gaze_back/cruel_gaze_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Wrath_of_the_Fallen",
+      "store_bundle": "Wrath of the Fallen",
+      "portrait_image": "econ/sets/v2/wrath_of_the_fallen",
+      "items": [
+        {
+          "name": "Wrath of the Fallen Arms",
+          "id": "14497",
+          "item_name": "#DOTA_Item_Wrath_of_the_Fallen_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/doom_the_fallen_arms/doom_the_fallen_arms.vmdl"
+        },
+        {
+          "name": "Wrath of the Fallen Back",
+          "id": "14496",
+          "item_name": "#DOTA_Item_Wrath_of_the_Fallen_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/doom_the_fallen_back/doom_the_fallen_back.vmdl"
+        },
+        {
+          "name": "Wrath of the Fallen Belt",
+          "id": "14495",
+          "item_name": "#DOTA_Item_Wrath_of_the_Fallen_Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/doom_the_fallen_belt/doom_the_fallen_belt.vmdl"
+        },
+        {
+          "name": "Wrath of the Fallen Head",
+          "id": "14494",
+          "item_name": "#DOTA_Item_Wrath_of_the_Fallen_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/doom_the_fallen_head/doom_the_fallen_head.vmdl"
+        },
+        {
+          "name": "Wrath of the Fallen Shoulder",
+          "id": "14492",
+          "item_name": "#DOTA_Item_Wrath_of_the_Fallen_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/doom_the_fallen_shoulder/doom_the_fallen_shoulder.vmdl"
+        },
+        {
+          "name": "Wrath of the Fallen Tail",
+          "id": "14491",
+          "item_name": "#DOTA_Item_Wrath_of_the_Fallen_Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/doom_the_fallen_tail/doom_the_fallen_tail.vmdl"
+        },
+        {
+          "name": "Wrath of the Fallen Weapon",
+          "id": "14490",
+          "item_name": "#DOTA_Item_Wrath_of_the_Fallen_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/doom/doom_the_fallen_weapon/doom_the_fallen_weapon.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "232",
+      "name": "Doom's Weapon",
+      "item_name": "#DOTA_Item_Dooms_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/doom/doom_sword.vmdl"
+    },
+    {
+      "id": "233",
+      "name": "Doom's Helmet",
+      "item_name": "#DOTA_Item_Dooms_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/doom/doom_helm.vmdl"
+    },
+    {
+      "id": "234",
+      "name": "Doom's Shoulder Armor",
+      "item_name": "#DOTA_Item_Dooms_Shoulder_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/doom/shoulders.vmdl"
+    },
+    {
+      "id": "235",
+      "name": "Doom's Bracers",
+      "item_name": "#DOTA_Item_Dooms_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/doom/bracer.vmdl"
+    },
+    {
+      "id": "236",
+      "name": "Doom's Belt",
+      "item_name": "#DOTA_Item_Dooms_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/doom/belt.vmdl"
+    },
+    {
+      "id": "237",
+      "name": "Doom's Wings",
+      "item_name": "#DOTA_Item_Dooms_Wings",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/doom/wings.vmdl"
+    },
+    {
+      "id": "238",
+      "name": "Doom's Tail",
+      "item_name": "#DOTA_Item_Dooms_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/doom/tail.vmdl"
+    },
+    {
+      "id": "4446",
+      "name": "Pyre",
+      "item_name": "#DOTA_Item_Pyre",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/pyre/pyre.vmdl"
+    },
+    {
+      "id": "4523",
+      "name": "Molten Fracture",
+      "item_name": "#DOTA_Item_Molten_Fracture",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/anuxi_molten_fractur/anuxi_molten_fractur.vmdl"
+    },
+    {
+      "id": "4525",
+      "name": "Last Judgment",
+      "item_name": "#DOTA_Item_Last_Judgment",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/last_judgement/last_judgement.vmdl"
+    },
+    {
+      "id": "4620",
+      "name": "Tail of the Eleven Curses",
+      "item_name": "#DOTA_Item_Tail_of_the_Eleven_Curses",
+      "item_slot": "tail",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/eleven_curses__tail/eleven_curses__tail.vmdl"
+    },
+    {
+      "id": "4623",
+      "name": "Sword of the Eleven Curses",
+      "item_name": "#DOTA_Item_Sword_of_the_Eleven_Curses",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/eleven_curses__sword/eleven_curses__sword.vmdl"
+    },
+    {
+      "id": "4624",
+      "name": "Horns of the Eleven Curses",
+      "item_name": "#DOTA_Item_Horns_of_the_Eleven_Curses",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/eleven_curses__head/eleven_curses__head.vmdl"
+    },
+    {
+      "id": "4627",
+      "name": "Bracer of the Eleven Curses",
+      "item_name": "#DOTA_Item_Bracer_of_the_Eleven_Curses",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/eleven_curses__bracer/eleven_curses__bracer.vmdl"
+    },
+    {
+      "id": "4631",
+      "name": "Wings of the Eleven Curses",
+      "item_name": "#DOTA_Item_Wings_of_the_Eleven_Curses",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/eleven_curses__wings/eleven_curses__wings.vmdl"
+    },
+    {
+      "id": "4634",
+      "name": "Belt of the Eleven Curses",
+      "item_name": "#DOTA_Item_Belt_of_the_Eleven_Curses",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/eleven_curses__belt/eleven_curses__belt.vmdl"
+    },
+    {
+      "id": "4639",
+      "name": "Shoulder of the Eleven Curses",
+      "item_name": "#DOTA_Item_Shoulder_of_the_Eleven_Curses",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/eleven_curses__shoulder/eleven_curses__shoulder.vmdl"
+    },
+    {
+      "id": "4722",
+      "name": "Steel Wings of Apocalyptic Fire",
+      "item_name": "#DOTA_Item_Steel_Wings_of_Apocalyptic_Fire",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/abysswings/abysswings.vmdl"
+    },
+    {
+      "id": "4723",
+      "name": "Runed Bracers of Apocalyptic Fire",
+      "item_name": "#DOTA_Item_Runed_Bracers_of_Apocalyptic_Fire",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/abyssarms/abyssarms.vmdl"
+    },
+    {
+      "id": "4737",
+      "name": "Demonhide Girdle of Apocalyptic Fire",
+      "item_name": "#DOTA_Item_Demonhide_Girdle_of_Apocalyptic_Fire",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/abyssbelt/abyssbelt.vmdl"
+    },
+    {
+      "id": "4738",
+      "name": "Steel Horns of Apocalyptic Fire",
+      "item_name": "#DOTA_Item_Steel_Horns_of_Apocalyptic_Fire",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/abysshelm/abysshelm.vmdl"
+    },
+    {
+      "id": "4775",
+      "name": "Infernal Pauldrons of Apocalyptic Fire",
+      "item_name": "#DOTA_Item_Infernal_Pauldrons_of_Apocalyptic_Fire",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/abyssshoulders/abyssshoulders.vmdl"
+    },
+    {
+      "id": "4780",
+      "name": "Demon Blade of Apocalyptic Fire",
+      "item_name": "#DOTA_Item_Demon_Blade_of_Apocalyptic_Fire",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/abysssword/abysssword.vmdl"
+    },
+    {
+      "id": "4783",
+      "name": "Tail Plates of Apocalyptic Fire",
+      "item_name": "#DOTA_Item_Tail_Plates_of_Apocalyptic_Fire",
+      "item_slot": "tail",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/abysstail/abysstail.vmdl"
+    },
+    {
+      "id": "4788",
+      "name": "Corrupted Shard",
+      "item_name": "#DOTA_Item_Corrupted_Shard",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/corruptedshard_02/corruptedshard_02.vmdl"
+    },
+    {
+      "id": "4905",
+      "name": "Eye of Omoz",
+      "item_name": "#DOTA_Item_Eye_of_Omoz",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/weapon_eyeoffetitzu/weapon_eyeoffetitzu.vmdl"
+    },
+    {
+      "id": "5121",
+      "name": "Wings of Impending Transgressions",
+      "item_name": "#DOTA_Item_Wings_of_Impending_Transgressions",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/impending_transgressions_back/impending_transgressions_back.vmdl"
+    },
+    {
+      "id": "5122",
+      "name": "Bracers of Impending Transgressions",
+      "item_name": "#DOTA_Item_Bracers_of_Impending_Transgressions",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/impending_transgressions_arms/impending_transgressions_arms.vmdl"
+    },
+    {
+      "id": "5123",
+      "name": "Tail of Impending Transgressions",
+      "item_name": "#DOTA_Item_Tail_of_Impending_Transgressions",
+      "item_slot": "tail",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/impending_transgressions_tail/impending_transgressions_tail.vmdl"
+    },
+    {
+      "id": "5124",
+      "name": "Pauldrons of Impending Transgressions",
+      "item_name": "#DOTA_Item_Pauldrons_of_Impending_Transgressions",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/impending_transgressions_shoulders/impending_transgressions_shoulders.vmdl"
+    },
+    {
+      "id": "5125",
+      "name": "Sword of Impending Transgressions",
+      "item_name": "#DOTA_Item_Sword_of_Impending_Transgressions",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/impending_transgressions_weapon/impending_transgressions_weapon.vmdl"
+    },
+    {
+      "id": "5126",
+      "name": "Tassets of Impending Transgressions",
+      "item_name": "#DOTA_Item_Tassets_of_Impending_Transgressions",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/impending_transgressions_belt/impending_transgressions_belt.vmdl"
+    },
+    {
+      "id": "5127",
+      "name": "Helm of Impending Transgressions",
+      "item_name": "#DOTA_Item_Helm_of_Impending_Transgressions",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/impending_transgressions_head/impending_transgressions_head.vmdl"
+    },
+    {
+      "id": "5447",
+      "name": "Fallen Sword",
+      "item_name": "#DOTA_Item_Fallen_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/fallen_sword/fallen_sword.vmdl"
+    },
+    {
+      "id": "5471",
+      "name": "Demon Shard",
+      "item_name": "#DOTA_Item_Demon_Shard",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/demonshard_weapon/demonshard_weapon.vmdl"
+    },
+    {
+      "id": "5574",
+      "name": "Crown of Omoz",
+      "item_name": "#DOTA_Item_Crown_of_Omoz",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/crown_of_omoz/crown_of_omoz.vmdl"
+    },
+    {
+      "id": "5833",
+      "name": "Infernal Pactblade",
+      "item_name": "#DOTA_Item_Infernal_Pactblade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/theimmortalblade/theimmortalblade.vmdl"
+    },
+    {
+      "id": "5839",
+      "name": "Hellthorn's Sword",
+      "item_name": "#DOTA_Item_Hellthorns_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/hellthorns_sword/hellthorns_sword.vmdl"
+    },
+    {
+      "id": "6095",
+      "name": "Hell at Arms",
+      "item_name": "#DOTA_Item_Hell_at_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/free2play_arms_hyhy/free2play_arms_hyhy.vmdl"
+    },
+    {
+      "id": "6096",
+      "name": "The Burning Banner",
+      "item_name": "#DOTA_Item_The_Burning_Banner",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/free2play_back_hyhy/free2play_back_hyhy.vmdl"
+    },
+    {
+      "id": "6097",
+      "name": "Belt of All Hells",
+      "item_name": "#DOTA_Item_Belt_of_All_Hells",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/free2play_belt_hyhy/free2play_belt_hyhy.vmdl"
+    },
+    {
+      "id": "6098",
+      "name": "Crown of Gore",
+      "item_name": "#DOTA_Item_Crown_of_Gore",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/free2play_head_closed_hyhy/free2play_head_closed_hyhy.vmdl"
+    },
+    {
+      "id": "6100",
+      "name": "Shoulders of Damnation",
+      "item_name": "#DOTA_Item_Shoulders_of_Damnation",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/free2play_shoulder_hyhy/free2play_shoulder_hyhy.vmdl"
+    },
+    {
+      "id": "6101",
+      "name": "Tail of Defilement",
+      "item_name": "#DOTA_Item_Tail_of_Defilement",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/free2play_tail_hyhy/free2play_tail_hyhy.vmdl"
+    },
+    {
+      "id": "6102",
+      "name": "Blade of Soul Hunger",
+      "item_name": "#DOTA_Item_Blade_of_Soul_Hunger",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/free2play_weapon_hyhy/free2play_weapon_hyhy.vmdl"
+    },
+    {
+      "id": "6273",
+      "name": "Tail Blade of Incantations",
+      "item_name": "#DOTA_Item_Tail_Blade_of_Incantations",
+      "item_slot": "tail",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/incantations_tail/incantations_tail.vmdl"
+    },
+    {
+      "id": "6274",
+      "name": "Horns of Incantations",
+      "item_name": "#DOTA_Item_Horns_of_Incantations",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/incantations_helmet/incantations_helmet.vmdl"
+    },
+    {
+      "id": "6275",
+      "name": "Scorching Wings of Incantation",
+      "item_name": "#DOTA_Item_Scorching_Wings_of_Incantation",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/incantations_wings/incantations_wings.vmdl"
+    },
+    {
+      "id": "6276",
+      "name": "Vehement Pauldrons of Incantations",
+      "item_name": "#DOTA_Item_Vehement_Pauldrons_of_Incantations",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/incantations_shoulder/incantations_shoulder.vmdl"
+    },
+    {
+      "id": "6277",
+      "name": "Head Opener of Incantations",
+      "item_name": "#DOTA_Item_Head_Opener_of_Incantations",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/incantations_weapon/incantations_weapon.vmdl"
+    },
+    {
+      "id": "6278",
+      "name": "Belt of Incantations",
+      "item_name": "#DOTA_Item_Belt_of_Incantations",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/incantations_belt/incantations_belt.vmdl"
+    },
+    {
+      "id": "6279",
+      "name": "Arm Harness of Incantations",
+      "item_name": "#DOTA_Item_Arm_Harness_of_Incantations",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/incantations_arms/incantations_arms.vmdl"
+    },
+    {
+      "id": "6501",
+      "name": "Arms of Eternal Fire",
+      "item_name": "#DOTA_Item_Arms_of_Eternal_Fire",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/eternal_fire_arms/eternal_fire_arms.vmdl"
+    },
+    {
+      "id": "6502",
+      "name": "Wings of Eternal Fire",
+      "item_name": "#DOTA_Item_Wings_of_Eternal_Fire",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/eternal_fire_back/eternal_fire_back.vmdl"
+    },
+    {
+      "id": "6503",
+      "name": "Belt of Eternal Fire",
+      "item_name": "#DOTA_Item_Belt_of_Eternal_Fire",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/eternal_fire_belt/eternal_fire_belt.vmdl"
+    },
+    {
+      "id": "6504",
+      "name": "Helm of Eternal Fire",
+      "item_name": "#DOTA_Item_Helm_of_Eternal_Fire",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/eternal_fire_helmet/eternal_fire_helmet.vmdl"
+    },
+    {
+      "id": "6505",
+      "name": "Armor of Eternal Fire",
+      "item_name": "#DOTA_Item_Armor_of_Eternal_Fire",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/eternal_fire_shoulders/eternal_fire_shoulders.vmdl"
+    },
+    {
+      "id": "6506",
+      "name": "Tail of Eternal Fire",
+      "item_name": "#DOTA_Item_Tail_of_Eternal_Fire",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/eternal_fire_tail/eternal_fire_tail.vmdl"
+    },
+    {
+      "id": "6507",
+      "name": "Blade of Eternal Fire",
+      "item_name": "#DOTA_Item_Blade_of_Eternal_Fire",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/eternal_fire_weapon/eternal_fire_weapon.vmdl"
+    },
+    {
+      "id": "6609",
+      "name": "Hell's Glare",
+      "item_name": "#DOTA_Item_Hells_Glare",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/hells_glare/hells_glare.vmdl"
+    },
+    {
+      "id": "6632",
+      "name": "Bindings of Vashundol",
+      "item_name": "#DOTA_Item_Bindings_of_Vashundol",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/baphomet_arms/baphomet_arms.vmdl"
+    },
+    {
+      "id": "6821",
+      "name": "Tail of Vashundol",
+      "item_name": "#DOTA_Item_Tail_of_Vashundol",
+      "item_slot": "tail",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/baphomet_tail/baphomet_tail.vmdl"
+    },
+    {
+      "id": "6822",
+      "name": "Belt of Vashundol",
+      "item_name": "#DOTA_Item_Belt_of_Vashundol",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/baphomet_belt/baphomet_belt.vmdl"
+    },
+    {
+      "id": "6873",
+      "name": "Burning Fiend",
+      "item_name": "#DOTA_Item_Burning_Fiend",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/burning_fiend/burning_fiend.vmdl"
+    },
+    {
+      "id": "6885",
+      "name": "Broken Blade of Vashundol",
+      "item_name": "#DOTA_Item_Broken_Blade_of_Vashundol",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/baphomet_weapon/baphomet_weapon.vmdl"
+    },
+    {
+      "id": "6887",
+      "name": "Cloak of Vashundol",
+      "item_name": "#DOTA_Item_Cloak_of_Vashundol",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/baphomet_cloak/baphomet_cloak.vmdl"
+    },
+    {
+      "id": "6888",
+      "name": "Wings of Vashundol",
+      "item_name": "#DOTA_Item_Wings_of_Vashundol",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/baphomet_wings/baphomet_wings.vmdl"
+    },
+    {
+      "id": "6947",
+      "name": "Skull of Vashundol",
+      "item_name": "#DOTA_Item_Skull_of_Vashundol",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/baphomet_head/baphomet_head.vmdl"
+    },
+    {
+      "id": "7643",
+      "name": "Blade of the Onyx Fume",
+      "item_name": "#DOTA_Item_Blade_of_the_Onyx_Fume",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/blazing_lord_weapon/blazing_lord_weapon.vmdl"
+    },
+    {
+      "id": "7644",
+      "name": "Shackles of the Onyx Fume",
+      "item_name": "#DOTA_Item_Shackles_of_the_Onyx_Fume",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/blazing_lord_arms/blazing_lord_arms.vmdl"
+    },
+    {
+      "id": "7645",
+      "name": "Whip of the Onyx Fume",
+      "item_name": "#DOTA_Item_Whip_of_the_Onyx_Fume",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/blazing_lord_tail/blazing_lord_tail.vmdl"
+    },
+    {
+      "id": "7646",
+      "name": "Sash of the Onyx Fume",
+      "item_name": "#DOTA_Item_Sash_of_the_Onyx_Fume",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/blazing_lord_belt/blazing_lord_belt.vmdl"
+    },
+    {
+      "id": "7647",
+      "name": "Wings of the Onyx Fume",
+      "item_name": "#DOTA_Item_Wings_of_the_Onyx_Fume",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/blazing_lord_back/blazing_lord_back.vmdl"
+    },
+    {
+      "id": "7648",
+      "name": "Curl of the Onyx Fume",
+      "item_name": "#DOTA_Item_Curl_of_the_Onyx_Fume",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/blazing_lord_shoulder/blazing_lord_shoulder.vmdl"
+    },
+    {
+      "id": "7649",
+      "name": "Crest of the Onyx Fume",
+      "item_name": "#DOTA_Item_Crest_of_the_Onyx_Fume",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/blazing_lord_head/blazing_lord_head.vmdl"
+    },
+    {
+      "id": "8047",
+      "name": "Tail of the Daemon Prince",
+      "item_name": "#DOTA_Item_Tail_of_the_Daemon_Prince",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/herald_khorne_tail/herald_khorne_tail.vmdl"
+    },
+    {
+      "id": "8048",
+      "name": "Ornate Belt of the Daemon Prince",
+      "item_name": "#DOTA_Item_Ornate_Belt_of_the_Daemon_Prince",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/herald_khorne_belt/herald_khorne_belt.vmdl"
+    },
+    {
+      "id": "8056",
+      "name": "Bracers of the Daemon Prince",
+      "item_name": "#DOTA_Item_Bracers_of_the_Daemon_Prince",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/herald_khorne_arms/herald_khorne_arms.vmdl"
+    },
+    {
+      "id": "8058",
+      "name": "Pauldrons of the Daemon Prince",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Daemon_Prince",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/herald_khorne_shoulder/herald_khorne_shoulder.vmdl"
+    },
+    {
+      "id": "8084",
+      "name": "Hellblade of the Daemon Prince",
+      "item_name": "#DOTA_Item_Hellblade_of_the_Daemon_Prince",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/herald_khorne_weapon/herald_khorne_weapon.vmdl"
+    },
+    {
+      "id": "8087",
+      "name": "Wings of the Daemon Prince",
+      "item_name": "#DOTA_Item_Wings_of_the_Daemon_Prince",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/herald_khorne_back/herald_khorne_back.vmdl"
+    },
+    {
+      "id": "8088",
+      "name": "Horns of the Daemon Prince",
+      "item_name": "#DOTA_Item_Horns_of_the_Daemon_Prince",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/herald_khorne_head/herald_khorne_head.vmdl"
+    },
+    {
+      "id": "8098",
+      "name": "Scales of Incandescent Liturgy",
+      "item_name": "#DOTA_Item_Scales_of_Incandescent_Liturgy",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ancient_beast_arms/ancient_beast_arms.vmdl"
+    },
+    {
+      "id": "8099",
+      "name": "Wings of Incandescent Liturgy",
+      "item_name": "#DOTA_Item_Wings_of_Incandescent_Liturgy",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ancient_beast_back/ancient_beast_back.vmdl"
+    },
+    {
+      "id": "8100",
+      "name": "Sternites of Incandescent Liturgy",
+      "item_name": "#DOTA_Item_Sternites_of_Incandescent_Liturgy",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ancient_beast_belt/ancient_beast_belt.vmdl"
+    },
+    {
+      "id": "8101",
+      "name": "Visage of Incandescent Liturgy",
+      "item_name": "#DOTA_Item_Visage_of_Incandescent_Liturgy",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ancient_beast_head/ancient_beast_head.vmdl"
+    },
+    {
+      "id": "8102",
+      "name": "Spaulders of Incandescent Liturgy",
+      "item_name": "#DOTA_Item_Spaulders_of_Incandescent_Liturgy",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ancient_beast_shoulders/ancient_beast_shoulders.vmdl"
+    },
+    {
+      "id": "8103",
+      "name": "Tail of Incandescent Liturgy",
+      "item_name": "#DOTA_Item_Tail_of_Incandescent_Liturgy",
+      "item_slot": "tail",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ancient_beast_tail/ancient_beast_tail.vmdl"
+    },
+    {
+      "id": "8104",
+      "name": "Echo of Incandescent Liturgy",
+      "item_name": "#DOTA_Item_Echo_of_Incandescent_Liturgy",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ancient_beast_weapon/ancient_beast_weapon.vmdl"
+    },
+    {
+      "id": "8502",
+      "name": "Eternal Hellblade of the Daemon Prince",
+      "item_name": "#DOTA_Item_Eternal_Hellblade_of_the_Daemon_Prince",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/herald_khorne_weapon/herald_khorne_weapon.vmdl"
+    },
+    {
+      "id": "8503",
+      "name": "Eternal Tail of the Daemon Prince",
+      "item_name": "#DOTA_Item_Eternal_Tail_of_the_Daemon_Prince",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/herald_khorne_tail/herald_khorne_tail.vmdl"
+    },
+    {
+      "id": "8504",
+      "name": "Eternal Bracers of the Daemon Prince",
+      "item_name": "#DOTA_Item_Eternal_Bracers_of_the_Daemon_Prince",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/herald_khorne_arms/herald_khorne_arms.vmdl"
+    },
+    {
+      "id": "8505",
+      "name": "Eternal Wings of the Daemon Prince",
+      "item_name": "#DOTA_Item_Eternal_Wings_of_the_Daemon_Prince",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/herald_khorne_back/herald_khorne_back.vmdl"
+    },
+    {
+      "id": "8506",
+      "name": "Eternal Ornate Belt of the Daemon Prince",
+      "item_name": "#DOTA_Item_Eternal_Ornate_Belt_of_the_Daemon_Prince",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/herald_khorne_belt/herald_khorne_belt.vmdl"
+    },
+    {
+      "id": "8507",
+      "name": "Eternal Horns of the Daemon Prince",
+      "item_name": "#DOTA_Item_Eternal_Horns_of_the_Daemon_Prince",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/herald_khorne_head/herald_khorne_head.vmdl"
+    },
+    {
+      "id": "8508",
+      "name": "Eternal Pauldrons of the Daemon Prince",
+      "item_name": "#DOTA_Item_Eternal_Pauldrons_of_the_Daemon_Prince",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/herald_khorne_shoulder/herald_khorne_shoulder.vmdl"
+    },
+    {
+      "id": "9741",
+      "name": "Zeal of Omoz Arkosh",
+      "item_name": "#DOTA_Item_Zeal_of_Omoz_Arkosh",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/doom_ti8_immortal_arms/doom_ti8_immortal_arms.vmdl"
+    },
+    {
+      "id": "9985",
+      "name": "Dread Ascendance Bracers",
+      "item_name": "#DOTA_Item_Dread_Ascendance_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ti8_doom_obsidian_overlord_arms/ti8_doom_obsidian_overlord_arms.vmdl"
+    },
+    {
+      "id": "9986",
+      "name": "Dread Ascendance Belt",
+      "item_name": "#DOTA_Item_Dread_Ascendance_Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ti8_doom_obsidian_overlord_belt/ti8_doom_obsidian_overlord_belt.vmdl"
+    },
+    {
+      "id": "9987",
+      "name": "Dread Ascendance Helm",
+      "item_name": "#DOTA_Item_Dread_Ascendance_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ti8_doom_obsidian_overlord_head/ti8_doom_obsidian_overlord_head.vmdl"
+    },
+    {
+      "id": "9988",
+      "name": "Dread Ascendance Armor",
+      "item_name": "#DOTA_Item_Dread_Ascendance_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ti8_doom_obsidian_overlord_shoulder/ti8_doom_obsidian_overlord_shoulder.vmdl"
+    },
+    {
+      "id": "9989",
+      "name": "Dread Ascendance Sword",
+      "item_name": "#DOTA_Item_Dread_Ascendance_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ti8_doom_obsidian_overlord_weapon/ti8_doom_obsidian_overlord_weapon.vmdl"
+    },
+    {
+      "id": "9990",
+      "name": "Dread Ascendance Tail",
+      "item_name": "#DOTA_Item_Dread_Ascendance_Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ti8_doom_obsidian_overlord_tail/ti8_doom_obsidian_overlord_tail.vmdl"
+    },
+    {
+      "id": "9991",
+      "name": "Dread Ascendance Wings",
+      "item_name": "#DOTA_Item_Dread_Ascendance_Wings",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ti8_doom_obsidian_overlord_back/ti8_doom_obsidian_overlord_back.vmdl"
+    },
+    {
+      "id": "12270",
+      "name": "Litany of the Damned - Weapon",
+      "item_name": "#DOTA_Item_Litany_of_the_Damned__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/bringer_of_troubles_weapon/bringer_of_troubles_weapon.vmdl"
+    },
+    {
+      "id": "12271",
+      "name": "Litany of the Damned - Belt",
+      "item_name": "#DOTA_Item_Litany_of_the_Damned__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/bringer_of_troubles_belt/bringer_of_troubles_belt.vmdl"
+    },
+    {
+      "id": "12272",
+      "name": "Litany of the Damned - Tail",
+      "item_name": "#DOTA_Item_Litany_of_the_Damned__Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/bringer_of_troubles_tail/bringer_of_troubles_tail.vmdl"
+    },
+    {
+      "id": "12273",
+      "name": "Litany of the Damned - Back",
+      "item_name": "#DOTA_Item_Litany_of_the_Damned__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/bringer_of_troubles_back/bringer_of_troubles_back.vmdl"
+    },
+    {
+      "id": "12274",
+      "name": "Litany of the Damned - Shoulder",
+      "item_name": "#DOTA_Item_Litany_of_the_Damned__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/bringer_of_troubles_shoulder/bringer_of_troubles_shoulder.vmdl"
+    },
+    {
+      "id": "12275",
+      "name": "Litany of the Damned - Arms",
+      "item_name": "#DOTA_Item_Litany_of_the_Damned__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/bringer_of_troubles_arms/bringer_of_troubles_arms.vmdl"
+    },
+    {
+      "id": "12276",
+      "name": "Litany of the Damned - Head",
+      "item_name": "#DOTA_Item_Litany_of_the_Damned__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/bringer_of_troubles_head/bringer_of_troubles_head.vmdl"
+    },
+    {
+      "id": "12539",
+      "name": "Taunt: Doom Shreds",
+      "item_name": "#DOTA_Item_Taunt_Doom_Shreds",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "taunt"
+    },
+    {
+      "id": "13858",
+      "name": "Heat of the Sixth Hell - Belt",
+      "item_name": "#DOTA_Item_Heat_of_the_Sixth_Hell__Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/the_smoldering_tyrant_belt/the_smoldering_tyrant_belt.vmdl"
+    },
+    {
+      "id": "13859",
+      "name": "Heat of the Sixth Hell - Tail",
+      "item_name": "#DOTA_Item_Heat_of_the_Sixth_Hell__Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/the_smoldering_tyrant_tail/the_smoldering_tyrant_tail.vmdl"
+    },
+    {
+      "id": "13860",
+      "name": "Heat of the Sixth Hell - Arms",
+      "item_name": "#DOTA_Item_Heat_of_the_Sixth_Hell__Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/the_smoldering_tyrant_arms/the_smoldering_tyrant_arms.vmdl"
+    },
+    {
+      "id": "13861",
+      "name": "Heat of the Sixth Hell - Head",
+      "item_name": "#DOTA_Item_Heat_of_the_Sixth_Hell__Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/the_smoldering_tyrant_head/the_smoldering_tyrant_head.vmdl"
+    },
+    {
+      "id": "13862",
+      "name": "Heat of the Sixth Hell - Back",
+      "item_name": "#DOTA_Item_Heat_of_the_Sixth_Hell__Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/the_smoldering_tyrant_back/the_smoldering_tyrant_back.vmdl"
+    },
+    {
+      "id": "13863",
+      "name": "Heat of the Sixth Hell - Weapon",
+      "item_name": "#DOTA_Item_Heat_of_the_Sixth_Hell__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/the_smoldering_tyrant_weapon/the_smoldering_tyrant_weapon.vmdl"
+    },
+    {
+      "id": "13864",
+      "name": "Heat of the Sixth Hell - Shoulder",
+      "item_name": "#DOTA_Item_Heat_of_the_Sixth_Hell__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/the_smoldering_tyrant_shoulder/the_smoldering_tyrant_shoulder.vmdl"
+    },
+    {
+      "id": "14490",
+      "name": "Wrath of the Fallen Weapon",
+      "item_name": "#DOTA_Item_Wrath_of_the_Fallen_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/doom_the_fallen_weapon/doom_the_fallen_weapon.vmdl"
+    },
+    {
+      "id": "14491",
+      "name": "Wrath of the Fallen Tail",
+      "item_name": "#DOTA_Item_Wrath_of_the_Fallen_Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/doom_the_fallen_tail/doom_the_fallen_tail.vmdl"
+    },
+    {
+      "id": "14492",
+      "name": "Wrath of the Fallen Shoulder",
+      "item_name": "#DOTA_Item_Wrath_of_the_Fallen_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/doom_the_fallen_shoulder/doom_the_fallen_shoulder.vmdl"
+    },
+    {
+      "id": "14494",
+      "name": "Wrath of the Fallen Head",
+      "item_name": "#DOTA_Item_Wrath_of_the_Fallen_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/doom_the_fallen_head/doom_the_fallen_head.vmdl"
+    },
+    {
+      "id": "14495",
+      "name": "Wrath of the Fallen Belt",
+      "item_name": "#DOTA_Item_Wrath_of_the_Fallen_Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/doom_the_fallen_belt/doom_the_fallen_belt.vmdl"
+    },
+    {
+      "id": "14496",
+      "name": "Wrath of the Fallen Back",
+      "item_name": "#DOTA_Item_Wrath_of_the_Fallen_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/doom_the_fallen_back/doom_the_fallen_back.vmdl"
+    },
+    {
+      "id": "14497",
+      "name": "Wrath of the Fallen Arms",
+      "item_name": "#DOTA_Item_Wrath_of_the_Fallen_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/doom_the_fallen_arms/doom_the_fallen_arms.vmdl"
+    },
+    {
+      "id": "17741",
+      "name": "Raven's Flame Arms",
+      "item_name": "#DOTA_Item_Ravens_Flame_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ravens_flame_arms/ravens_flame_arms.vmdl"
+    },
+    {
+      "id": "17742",
+      "name": "Raven's Flame Back",
+      "item_name": "#DOTA_Item_Ravens_Flame_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ravens_flame_back/ravens_flame_back.vmdl"
+    },
+    {
+      "id": "17743",
+      "name": "Raven's Flame Belt",
+      "item_name": "#DOTA_Item_Ravens_Flame_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ravens_flame_belt/ravens_flame_belt.vmdl"
+    },
+    {
+      "id": "17744",
+      "name": "Raven's Flame Head",
+      "item_name": "#DOTA_Item_Ravens_Flame_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ravens_flame_head/ravens_flame_head.vmdl"
+    },
+    {
+      "id": "17745",
+      "name": "Raven's Flame Shoulder",
+      "item_name": "#DOTA_Item_Ravens_Flame_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ravens_flame_shoulder/ravens_flame_shoulder.vmdl"
+    },
+    {
+      "id": "17746",
+      "name": "Raven's Flame Tail",
+      "item_name": "#DOTA_Item_Ravens_Flame_Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ravens_flame_tail/ravens_flame_tail.vmdl"
+    },
+    {
+      "id": "17747",
+      "name": "Raven's Flame Weapon",
+      "item_name": "#DOTA_Item_Ravens_Flame_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/ravens_flame_weapon/ravens_flame_weapon.vmdl"
+    },
+    {
+      "id": "17984",
+      "name": "Whispers of the Damned Bracers",
+      "item_name": "#DOTA_Item_Whispers_of_the_Damned_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/cruel_gaze_arms/cruel_gaze_arms.vmdl"
+    },
+    {
+      "id": "17985",
+      "name": "Whispers of the Damned Wings",
+      "item_name": "#DOTA_Item_Whispers_of_the_Damned_Wings",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/cruel_gaze_back/cruel_gaze_back.vmdl"
+    },
+    {
+      "id": "17986",
+      "name": "Whispers of the Damned Belt",
+      "item_name": "#DOTA_Item_Whispers_of_the_Damned_Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/cruel_gaze_belt/cruel_gaze_belt.vmdl"
+    },
+    {
+      "id": "17987",
+      "name": "Whispers of the Damned Head",
+      "item_name": "#DOTA_Item_Whispers_of_the_Damned_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/cruel_gaze_head/cruel_gaze_head.vmdl"
+    },
+    {
+      "id": "17988",
+      "name": "Whispers of the Damned Pauldrons",
+      "item_name": "#DOTA_Item_Whispers_of_the_Damned_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/cruel_gaze_shoulder/cruel_gaze_shoulder.vmdl"
+    },
+    {
+      "id": "17989",
+      "name": "Whispers of the Damned Tail",
+      "item_name": "#DOTA_Item_Whispers_of_the_Damned_Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/cruel_gaze_tail/cruel_gaze_tail.vmdl"
+    },
+    {
+      "id": "17990",
+      "name": "Whispers of the Damned Sword",
+      "item_name": "#DOTA_Item_Whispers_of_the_Damned_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/cruel_gaze_weapon/cruel_gaze_weapon.vmdl"
+    },
+    {
+      "id": "20099",
+      "name": "The Burden of Eleven Curses Set",
+      "item_name": "#DOTA_Item_The_Burden_of_Eleven_Curses_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20118",
+      "name": "The Apocalyptic Fire Set",
+      "item_name": "#DOTA_Item_The_Apocalyptic_Fire_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20203",
+      "name": "Impending Transgressions Set",
+      "item_name": "#DOTA_Item_Impending_Transgressions_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20401",
+      "name": "Crown of Hells",
+      "item_name": "#DOTA_Item_Crown_of_Hells",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20433",
+      "name": "Incantations of Hell",
+      "item_name": "#DOTA_Item_Incantations_of_Hell",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20503",
+      "name": "Eternal Fire",
+      "item_name": "#DOTA_Item_Eternal_Fire",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20638",
+      "name": "Fires of Vashundol",
+      "item_name": "#DOTA_Item_Fires_of_Vashundol",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20761",
+      "name": "Onyx Fume",
+      "item_name": "#DOTA_Item_Onyx_Fume",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20774",
+      "name": "Incandescent Liturgy",
+      "item_name": "#DOTA_Item_Incandescent_Liturgy",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20956",
+      "name": "Daemon Prince of Khorne",
+      "item_name": "#DOTA_Item_Daemon_Prince_of_Khorne",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21033",
+      "name": "Eternal Daemon Prince of Khorne",
+      "item_name": "#DOTA_Item_Eternal_Daemon_Prince_of_Khorne",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21216",
+      "name": "Dread Ascendance",
+      "item_name": "#DOTA_Item_Dread_Ascendance",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21228",
+      "name": "Litany of the Damned",
+      "item_name": "#DOTA_Item_Litany_of_the_Damned",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21453",
+      "name": "Heat of the Sixth Hell",
+      "item_name": "#DOTA_Item_Heat_of_the_Sixth_Hell",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21568",
+      "name": "Wrath of the Fallen",
+      "item_name": "#DOTA_Item_Wrath_of_the_Fallen",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21678",
+      "name": "Raven's Flame",
+      "item_name": "#DOTA_Item_Ravens_Flame",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21734",
+      "name": "Whispers of the Damned",
+      "item_name": "#DOTA_Item_Whispers_of_the_Damned",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22273",
+      "name": "Soul Shredder",
+      "item_name": "#DOTA_Item_Soul_Shredder",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/doom_2021_immortal_weapon/doom_2021_immortal_weapon.vmdl"
+    },
+    {
+      "id": "22286",
+      "name": "Soul Shredder Bundle",
+      "item_name": "#DOTA_Item_Soul_Shredder_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25144",
+      "name": "Dawn of a Darkness Foretold",
+      "item_name": "#DOTA_Item_Dawn_of_a_Darkness_Foretold",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25314",
+      "name": "Dawn of a Darkness Foretold - Head",
+      "item_name": "#DOTA_Item_Dawn_of_a_Darkness_Foretold__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/doom_cthulhu_head/doom_cthulhu_head.vmdl"
+    },
+    {
+      "id": "25396",
+      "name": "Dawn of a Darkness Foretold - Shoulder",
+      "item_name": "#DOTA_Item_Dawn_of_a_Darkness_Foretold__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/doom_cthulhu_shoulder/doom_cthulhu_shoulder.vmdl"
+    },
+    {
+      "id": "25397",
+      "name": "Dawn of a Darkness Foretold - Weapon",
+      "item_name": "#DOTA_Item_Dawn_of_a_Darkness_Foretold__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/doom_cthulhu_weapon/doom_cthulhu_weapon.vmdl"
+    },
+    {
+      "id": "25398",
+      "name": "Dawn of a Darkness Foretold - Tail",
+      "item_name": "#DOTA_Item_Dawn_of_a_Darkness_Foretold__Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/doom_cthulhu_tail/doom_cthulhu_tail.vmdl"
+    },
+    {
+      "id": "25399",
+      "name": "Dawn of a Darkness Foretold - Back",
+      "item_name": "#DOTA_Item_Dawn_of_a_Darkness_Foretold__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/doom_cthulhu_back/doom_cthulhu_back.vmdl"
+    },
+    {
+      "id": "25400",
+      "name": "Dawn of a Darkness Foretold - Arms",
+      "item_name": "#DOTA_Item_Dawn_of_a_Darkness_Foretold__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/doom_cthulhu_arms/doom_cthulhu_arms.vmdl"
+    },
+    {
+      "id": "25401",
+      "name": "Dawn of a Darkness Foretold - Belt",
+      "item_name": "#DOTA_Item_Dawn_of_a_Darkness_Foretold__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/doom_cthulhu_belt/doom_cthulhu_belt.vmdl"
+    },
+    {
+      "id": "27443",
+      "name": "Hells Raider - Weapon",
+      "item_name": "#DOTA_Item_Hells_Raider__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/sinister_prime_sword/sinister_prime_sword.vmdl"
+    },
+    {
+      "id": "27444",
+      "name": "Hells Raider - Belt",
+      "item_name": "#DOTA_Item_Hells_Raider__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/sinister_prime_belt/sinister_prime_belt.vmdl"
+    },
+    {
+      "id": "27445",
+      "name": "Hells Raider - Tail",
+      "item_name": "#DOTA_Item_Hells_Raider__Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/sinister_prime_tail/sinister_prime_tail.vmdl"
+    },
+    {
+      "id": "27446",
+      "name": "Hells Raider - Shoulder",
+      "item_name": "#DOTA_Item_Hells_Raider__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/sinister_prime_shoulder/sinister_prime_shoulder.vmdl"
+    },
+    {
+      "id": "27447",
+      "name": "Hells Raider - Arms",
+      "item_name": "#DOTA_Item_Hells_Raider__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/sinister_prime_arms/sinister_prime_arms.vmdl"
+    },
+    {
+      "id": "27448",
+      "name": "Hells Raider - Back",
+      "item_name": "#DOTA_Item_Hells_Raider__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/sinister_prime_back/sinister_prime_back.vmdl"
+    },
+    {
+      "id": "27450",
+      "name": "Hells Raider - Head",
+      "item_name": "#DOTA_Item_Hells_Raider__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/sinister_prime_head/sinister_prime_head.vmdl"
+    },
+    {
+      "id": "27451",
+      "name": "Hells Raider",
+      "item_name": "#DOTA_Item_Hells_Raider",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28264",
+      "name": "Igneous Infernal - Arms",
+      "item_name": "#DOTA_Item_Igneous_Infernal__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/lvbu_arms/lvbu_arms.vmdl"
+    },
+    {
+      "id": "28265",
+      "name": "Igneous Infernal - Back",
+      "item_name": "#DOTA_Item_Igneous_Infernal__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/lvbu_back/lvbu_back.vmdl"
+    },
+    {
+      "id": "28266",
+      "name": "Igneous Infernal - Belt",
+      "item_name": "#DOTA_Item_Igneous_Infernal__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/lvbu_belt/lvbu_belt.vmdl"
+    },
+    {
+      "id": "28267",
+      "name": "Igneous Infernal - Shoulder",
+      "item_name": "#DOTA_Item_Igneous_Infernal__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/lvbu_shoudler/lvbu_shoudler.vmdl"
+    },
+    {
+      "id": "28268",
+      "name": "Igneous Infernal - Tail",
+      "item_name": "#DOTA_Item_Igneous_Infernal__Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/lvbu_tail/lvbu_tail.vmdl"
+    },
+    {
+      "id": "28269",
+      "name": "Igneous Infernal - Weapon",
+      "item_name": "#DOTA_Item_Igneous_Infernal__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/lvbu_weapon/lvbu_weapon.vmdl"
+    },
+    {
+      "id": "28279",
+      "name": "Igneous Infernal",
+      "item_name": "#DOTA_Item_Igneous_Infernal",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "31093",
+      "name": "Igneous Infernal - Head",
+      "item_name": "#DOTA_Item_Igneous_Infernal__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/doom/lvbu_head/lvbu_head.vmdl"
+    }
+  ]
+}

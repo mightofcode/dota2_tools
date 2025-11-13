@@ -1,0 +1,692 @@
+{
+  "defaults": {
+    "ambient_effects": {
+      "id": "535",
+      "name": "Phoenix's Ambient Effects",
+      "item_name": "#DOTA_Item_Phoenixs_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "592",
+      "name": "Phoenix's Head",
+      "item_name": "#DOTA_Item_Phoenixs_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/phoenix/phoenix_bird_head.vmdl"
+    },
+    "back": {
+      "id": "626",
+      "name": "Phoenix Wings",
+      "item_name": "#DOTA_Item_Phoenix_Wings",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/phoenix/phoenix_wings.vmdl"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Attunements_of_the_Ornate",
+      "store_bundle": "Attunements of the Ornate",
+      "portrait_image": "econ/sets/v2/attunements_of_the_ornate",
+      "items": [
+        {
+          "name": "Attunements of the Ornate - Supernova",
+          "id": "28495",
+          "item_name": "#DOTA_Item_Attunements_of_the_Ornate__Supernova",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Attunements of the Ornate - Head",
+          "id": "28493",
+          "item_name": "#DOTA_Item_Attunements_of_the_Ornate__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/phoenix/phoenix_lunar_new_year_head/phoenix_lunar_new_year_head.vmdl"
+        },
+        {
+          "name": "Attunements of the Ornate - Back",
+          "id": "28494",
+          "item_name": "#DOTA_Item_Attunements_of_the_Ornate__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/phoenix/phoenix_lunar_new_year_back/phoenix_lunar_new_year_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Blaze_of_Oblivion",
+      "store_bundle": "Blaze of Oblivion",
+      "portrait_image": "econ/sets/v2/blaze_of_oblivion",
+      "items": [
+        {
+          "name": "Blaze of Oblivion Head",
+          "id": "13408",
+          "item_name": "#DOTA_Item_Blaze_of_Oblivion_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phoenix/nirvana_spiritual_head/nirvana_spiritual_head.vmdl"
+        },
+        {
+          "name": "Blaze of Oblivion Supernova",
+          "id": "13414",
+          "item_name": "#DOTA_Item_Blaze_of_Oblivion_Supernova",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Blaze of Oblivion Back",
+          "id": "13413",
+          "item_name": "#DOTA_Item_Blaze_of_Oblivion_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phoenix/nirvana_spiritual_back/nirvana_spiritual_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Crimson_Dawn",
+      "store_bundle": "Crimson Dawn",
+      "portrait_image": "econ/sets/v2/crimson_dawn",
+      "items": [
+        {
+          "name": "Crimson Dawn - Head",
+          "id": "25964",
+          "item_name": "#DOTA_Item_Crimson_Dawn__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phoenix/phoenix_crimson_dawn_head/phoenix_crimson_dawn_head.vmdl"
+        },
+        {
+          "name": "Crimson Dawn - Back",
+          "id": "25963",
+          "item_name": "#DOTA_Item_Crimson_Dawn__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phoenix/phoenix_crimson_dawn_back/phoenix_crimson_dawn_back.vmdl"
+        },
+        {
+          "name": "Crimson Dawn - Supernova",
+          "id": "25962",
+          "item_name": "#DOTA_Item_Crimson_Dawn__Supernova",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Golden_Nirvana",
+      "store_bundle": "Golden Nirvana",
+      "portrait_image": "econ/sets/v2/golden_nirvana",
+      "items": [
+        {
+          "name": "Nova of Golden Nirvana",
+          "id": "9525",
+          "item_name": "#DOTA_Item_Nova_of_Golden_Nirvana",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Trappings of Golden Nirvana",
+          "id": "9524",
+          "item_name": "#DOTA_Item_Trappings_of_Golden_Nirvana",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/phoenix/golden_nirvana_golden_nirvana_wings_tail_armor/golden_nirvana_golden_nirvana_wings_tail_armor.vmdl"
+        },
+        {
+          "name": "Crown of Golden Nirvana",
+          "id": "9523",
+          "item_name": "#DOTA_Item_Crown_of_Golden_Nirvana",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/phoenix/golden_nirvana_head/golden_nirvana_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ire_of_Molten_Rebirth",
+      "store_bundle": "Ire of Molten Rebirth",
+      "portrait_image": "econ/sets/v2/ire_of_molten_rebirth",
+      "items": [
+        {
+          "name": "Egg of Molten Rebirth",
+          "id": "12249",
+          "item_name": "#DOTA_Item_Egg_of_Molten_Rebirth",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Wings of Molten Rebirth",
+          "id": "12248",
+          "item_name": "#DOTA_Item_Wings_of_Molten_Rebirth",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phoenix/ti8_phoenix_heart_of_volcano_wings/ti8_phoenix_heart_of_volcano_wings.vmdl"
+        },
+        {
+          "name": "Beak of Molten Rebirth",
+          "id": "12247",
+          "item_name": "#DOTA_Item_Beak_of_Molten_Rebirth",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phoenix/ti8_phoenix_heart_of_volcano_head/ti8_phoenix_heart_of_volcano_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Kitestar_Splendor",
+      "store_bundle": "Kitestar Splendor",
+      "portrait_image": "econ/sets/v2/kitestar_splendor",
+      "items": [
+        {
+          "name": "Kitestar Splendor Beak",
+          "id": "14273",
+          "item_name": "#DOTA_Item_Kitestar_Splendor_Beak",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/phoenix/aristocratic_rebirth_head/aristocratic_rebirth_head.vmdl"
+        },
+        {
+          "name": "Kitestar Splendor Supernova",
+          "id": "14270",
+          "item_name": "#DOTA_Item_Kitestar_Splendor_Supernova",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Kitestar Splendor Wings",
+          "id": "14271",
+          "item_name": "#DOTA_Item_Kitestar_Splendor_Wings",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/phoenix/aristocratic_rebirth_wings/aristocratic_rebirth_wings.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Star_Sage",
+      "store_bundle": "Star Sage",
+      "portrait_image": "econ/sets/v2/star_sage",
+      "items": [
+        {
+          "name": "Star Sage - Wings",
+          "id": "32926",
+          "item_name": "#DOTA_Item_Star_Sage__Wings",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phoenix/dark_owl_wings/dark_owl_wings.vmdl"
+        },
+        {
+          "name": "Star Sage - Rebirth",
+          "id": "32925",
+          "item_name": "#DOTA_Item_Star_Sage__Rebirth",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Star Sage - Head",
+          "id": "32924",
+          "item_name": "#DOTA_Item_Star_Sage__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phoenix/dark_owl_head/dark_owl_head.vmdl"
+        },
+        {
+          "name": "Star Sage - Back",
+          "id": "32923",
+          "item_name": "#DOTA_Item_Star_Sage__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phoenix/dark_owl_back/dark_owl_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Temple_of_the_Fallen_Sun",
+      "store_bundle": "Temple of the Fallen Sun",
+      "portrait_image": "econ/sets/v2/temple_of_the_fallen_sun",
+      "items": [
+        {
+          "name": "Crown of the Temple of the Fallen Sun",
+          "id": "13713",
+          "item_name": "#DOTA_Item_Crown_of_the_Temple_of_the_Fallen_Sun",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phoenix/eye_of_the_sun_head/eye_of_the_sun_head.vmdl"
+        },
+        {
+          "name": "Span of the Temple of the Fallen Sun",
+          "id": "13712",
+          "item_name": "#DOTA_Item_Span_of_the_Temple_of_the_Fallen_Sun",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phoenix/eye_of_the_sun_eye_of_the_sun/eye_of_the_sun_eye_of_the_sun.vmdl"
+        },
+        {
+          "name": "Honor of the Temple of the Fallen Sun",
+          "id": "13714",
+          "item_name": "#DOTA_Item_Honor_of_the_Temple_of_the_Fallen_Sun",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Vermillion_Crucible",
+      "store_bundle": "Vermillion Crucible",
+      "portrait_image": "econ/sets/v2/vermillion_crucible",
+      "items": [
+        {
+          "name": "Feathers of the Vermillion Crucible",
+          "id": "7837",
+          "item_name": "#DOTA_Item_Feathers_of_the_Vermillion_Crucible",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phoenix/blazing_wing_fire_wings/blazing_wing_fire_wings.vmdl"
+        },
+        {
+          "name": "Egg of the Vermillion Crucible",
+          "id": "7836",
+          "item_name": "#DOTA_Item_Egg_of_the_Vermillion_Crucible",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Crest of the Vermillion Crucible",
+          "id": "7835",
+          "item_name": "#DOTA_Item_Crest_of_the_Vermillion_Crucible",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phoenix/blazing_wing_head/blazing_wing_head.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "535",
+      "name": "Phoenix's Ambient Effects",
+      "item_name": "#DOTA_Item_Phoenixs_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "592",
+      "name": "Phoenix's Head",
+      "item_name": "#DOTA_Item_Phoenixs_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/phoenix/phoenix_bird_head.vmdl"
+    },
+    {
+      "id": "626",
+      "name": "Phoenix Wings",
+      "item_name": "#DOTA_Item_Phoenix_Wings",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/phoenix/phoenix_wings.vmdl"
+    },
+    {
+      "id": "627",
+      "name": "Phoenix Supernova",
+      "item_name": "#DOTA_Item_Phoenix_Supernova",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "7458",
+      "name": "Solar Forge",
+      "item_name": "#DOTA_Item_Solar_Forge",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/solar_forge/mesh/solar_forge_model.vmdl"
+    },
+    {
+      "id": "7835",
+      "name": "Crest of the Vermillion Crucible",
+      "item_name": "#DOTA_Item_Crest_of_the_Vermillion_Crucible",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/blazing_wing_head/blazing_wing_head.vmdl"
+    },
+    {
+      "id": "7836",
+      "name": "Egg of the Vermillion Crucible",
+      "item_name": "#DOTA_Item_Egg_of_the_Vermillion_Crucible",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7837",
+      "name": "Feathers of the Vermillion Crucible",
+      "item_name": "#DOTA_Item_Feathers_of_the_Vermillion_Crucible",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/blazing_wing_fire_wings/blazing_wing_fire_wings.vmdl"
+    },
+    {
+      "id": "9523",
+      "name": "Crown of Golden Nirvana",
+      "item_name": "#DOTA_Item_Crown_of_Golden_Nirvana",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/golden_nirvana_head/golden_nirvana_head.vmdl"
+    },
+    {
+      "id": "9524",
+      "name": "Trappings of Golden Nirvana",
+      "item_name": "#DOTA_Item_Trappings_of_Golden_Nirvana",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/golden_nirvana_golden_nirvana_wings_tail_armor/golden_nirvana_golden_nirvana_wings_tail_armor.vmdl"
+    },
+    {
+      "id": "9525",
+      "name": "Nova of Golden Nirvana",
+      "item_name": "#DOTA_Item_Nova_of_Golden_Nirvana",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9664",
+      "name": "Taunt: Cold Breakfast",
+      "item_name": "#DOTA_Item_Taunt_Cold_Breakfast",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "9680",
+      "name": "Taunt: Order Up!",
+      "item_name": "#DOTA_Item_Taunt_Order_Up",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "12247",
+      "name": "Beak of Molten Rebirth",
+      "item_name": "#DOTA_Item_Beak_of_Molten_Rebirth",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/ti8_phoenix_heart_of_volcano_head/ti8_phoenix_heart_of_volcano_head.vmdl"
+    },
+    {
+      "id": "12248",
+      "name": "Wings of Molten Rebirth",
+      "item_name": "#DOTA_Item_Wings_of_Molten_Rebirth",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/ti8_phoenix_heart_of_volcano_wings/ti8_phoenix_heart_of_volcano_wings.vmdl"
+    },
+    {
+      "id": "12249",
+      "name": "Egg of Molten Rebirth",
+      "item_name": "#DOTA_Item_Egg_of_Molten_Rebirth",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13408",
+      "name": "Blaze of Oblivion Head",
+      "item_name": "#DOTA_Item_Blaze_of_Oblivion_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/nirvana_spiritual_head/nirvana_spiritual_head.vmdl"
+    },
+    {
+      "id": "13413",
+      "name": "Blaze of Oblivion Back",
+      "item_name": "#DOTA_Item_Blaze_of_Oblivion_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/nirvana_spiritual_back/nirvana_spiritual_back.vmdl"
+    },
+    {
+      "id": "13414",
+      "name": "Blaze of Oblivion Supernova",
+      "item_name": "#DOTA_Item_Blaze_of_Oblivion_Supernova",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13712",
+      "name": "Span of the Temple of the Fallen Sun",
+      "item_name": "#DOTA_Item_Span_of_the_Temple_of_the_Fallen_Sun",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/eye_of_the_sun_eye_of_the_sun/eye_of_the_sun_eye_of_the_sun.vmdl"
+    },
+    {
+      "id": "13713",
+      "name": "Crown of the Temple of the Fallen Sun",
+      "item_name": "#DOTA_Item_Crown_of_the_Temple_of_the_Fallen_Sun",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/eye_of_the_sun_head/eye_of_the_sun_head.vmdl"
+    },
+    {
+      "id": "13714",
+      "name": "Honor of the Temple of the Fallen Sun",
+      "item_name": "#DOTA_Item_Honor_of_the_Temple_of_the_Fallen_Sun",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14270",
+      "name": "Kitestar Splendor Supernova",
+      "item_name": "#DOTA_Item_Kitestar_Splendor_Supernova",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14271",
+      "name": "Kitestar Splendor Wings",
+      "item_name": "#DOTA_Item_Kitestar_Splendor_Wings",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/aristocratic_rebirth_wings/aristocratic_rebirth_wings.vmdl"
+    },
+    {
+      "id": "14273",
+      "name": "Kitestar Splendor Beak",
+      "item_name": "#DOTA_Item_Kitestar_Splendor_Beak",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/aristocratic_rebirth_head/aristocratic_rebirth_head.vmdl"
+    },
+    {
+      "id": "14993",
+      "name": "Solar Gyre",
+      "item_name": "#DOTA_Item_Solar_Gyre",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/phoenix_ti10_immortal_back/phoenix_ti10_immortal_back.vmdl"
+    },
+    {
+      "id": "20938",
+      "name": "Vermillion Crucible",
+      "item_name": "#DOTA_Item_Vermillion_Crucible",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21147",
+      "name": "Golden Nirvana",
+      "item_name": "#DOTA_Item_Golden_Nirvana",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21224",
+      "name": "Ire of Molten Rebirth",
+      "item_name": "#DOTA_Item_Ire_of_Molten_Rebirth",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21374",
+      "name": "Blaze of Oblivion",
+      "item_name": "#DOTA_Item_Blaze_of_Oblivion",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21431",
+      "name": "Temple of the Fallen Sun",
+      "item_name": "#DOTA_Item_Temple_of_the_Fallen_Sun",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21527",
+      "name": "Kitestar Splendor",
+      "item_name": "#DOTA_Item_Kitestar_Splendor",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25962",
+      "name": "Crimson Dawn - Supernova",
+      "item_name": "#DOTA_Item_Crimson_Dawn__Supernova",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25963",
+      "name": "Crimson Dawn - Back",
+      "item_name": "#DOTA_Item_Crimson_Dawn__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/phoenix_crimson_dawn_back/phoenix_crimson_dawn_back.vmdl"
+    },
+    {
+      "id": "25964",
+      "name": "Crimson Dawn - Head",
+      "item_name": "#DOTA_Item_Crimson_Dawn__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/phoenix_crimson_dawn_head/phoenix_crimson_dawn_head.vmdl"
+    },
+    {
+      "id": "25973",
+      "name": "Crimson Dawn",
+      "item_name": "#DOTA_Item_Crimson_Dawn",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28154",
+      "name": "Attunements of the Ornate",
+      "item_name": "#DOTA_Item_Attunements_of_the_Ornate",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28493",
+      "name": "Attunements of the Ornate - Head",
+      "item_name": "#DOTA_Item_Attunements_of_the_Ornate__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/phoenix_lunar_new_year_head/phoenix_lunar_new_year_head.vmdl"
+    },
+    {
+      "id": "28494",
+      "name": "Attunements of the Ornate - Back",
+      "item_name": "#DOTA_Item_Attunements_of_the_Ornate__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/phoenix_lunar_new_year_back/phoenix_lunar_new_year_back.vmdl"
+    },
+    {
+      "id": "28495",
+      "name": "Attunements of the Ornate - Supernova",
+      "item_name": "#DOTA_Item_Attunements_of_the_Ornate__Supernova",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "32923",
+      "name": "Star Sage - Back",
+      "item_name": "#DOTA_Item_Star_Sage__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/dark_owl_back/dark_owl_back.vmdl"
+    },
+    {
+      "id": "32924",
+      "name": "Star Sage - Head",
+      "item_name": "#DOTA_Item_Star_Sage__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/dark_owl_head/dark_owl_head.vmdl"
+    },
+    {
+      "id": "32925",
+      "name": "Star Sage - Rebirth",
+      "item_name": "#DOTA_Item_Star_Sage__Rebirth",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "32926",
+      "name": "Star Sage - Wings",
+      "item_name": "#DOTA_Item_Star_Sage__Wings",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phoenix/dark_owl_wings/dark_owl_wings.vmdl"
+    },
+    {
+      "id": "32927",
+      "name": "Star Sage",
+      "item_name": "#DOTA_Item_Star_Sage",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    }
+  ]
+}

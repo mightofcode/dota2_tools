@@ -1,0 +1,133 @@
+{
+  "defaults": {
+    "hero_effigy": {
+      "id": "816",
+      "name": "All Heroes' Default Hero Effigy",
+      "item_name": "#DOTA_Item_All_Heroes_Default_Hero_Effigy",
+      "item_slot": "hero_effigy",
+      "item_rarity": "common"
+    },
+    "taunt": {
+      "id": "8632",
+      "name": "All Heroes' Default Taunt",
+      "item_name": "#DOTA_Wearable_All_Heroes_DefaultTaunt",
+      "item_slot": "taunt",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [],
+  "items": [
+    {
+      "id": "647",
+      "name": "All Heroes' Stat Tracker",
+      "item_name": "#DOTA_Item_All_Heroes_Stat_Tracker",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "misc"
+    },
+    {
+      "id": "790",
+      "name": "All Heroes' Default Ability Effects 1",
+      "item_name": "#DOTA_Wearable_All_Heroes_DefaultAbilityFX",
+      "item_slot": "ability_effects_1",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "791",
+      "name": "All Heroes' Default Ability Effects 2",
+      "item_name": "#DOTA_Wearable_All_Heroes_DefaultAbilityFX",
+      "item_slot": "ability_effects_2",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "792",
+      "name": "All Heroes' Default Ability Effects 3",
+      "item_name": "#DOTA_Wearable_All_Heroes_DefaultAbilityFX",
+      "item_slot": "ability_effects_3",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "793",
+      "name": "All Heroes' Default Ability Effects 4",
+      "item_name": "#DOTA_Wearable_All_Heroes_DefaultAbilityFX",
+      "item_slot": "ability_effects_4",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "794",
+      "name": "All Heroes' Default Ability Effects 5",
+      "item_name": "#DOTA_Wearable_All_Heroes_DefaultAbilityFX",
+      "item_slot": "ability_effects_5",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "795",
+      "name": "All Heroes' Default Ability Effects 6",
+      "item_name": "#DOTA_Wearable_All_Heroes_DefaultAbilityFX",
+      "item_slot": "ability_effects_6",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "796",
+      "name": "All Heroes' Default Ability Effects 7",
+      "item_name": "#DOTA_Wearable_All_Heroes_DefaultAbilityFX",
+      "item_slot": "ability_effects_7",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "797",
+      "name": "All Heroes' Default Ability Effects 8",
+      "item_name": "#DOTA_Wearable_All_Heroes_DefaultAbilityFX",
+      "item_slot": "ability_effects_8",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "798",
+      "name": "All Heroes' Default Ability Effects 9",
+      "item_name": "#DOTA_Wearable_All_Heroes_DefaultAbilityFX",
+      "item_slot": "ability_effects_9",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "816",
+      "name": "All Heroes' Default Hero Effigy",
+      "item_name": "#DOTA_Item_All_Heroes_Default_Hero_Effigy",
+      "item_slot": "hero_effigy",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "817",
+      "name": "All Heroes' Default Hero Effigy - Persona 1",
+      "item_name": "#DOTA_Item_All_Heroes_Default_Hero_Effigy__Persona_1",
+      "item_slot": "hero_effigy_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "8632",
+      "name": "All Heroes' Default Taunt",
+      "item_name": "#DOTA_Wearable_All_Heroes_DefaultTaunt",
+      "item_slot": "taunt",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "13078",
+      "name": "All Heroes' Default Taunt Persona 1",
+      "item_name": "#DOTA_Item_All_Heroes_Default_Taunt_Persona_1",
+      "item_slot": "taunt_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    }
+  ]
+}

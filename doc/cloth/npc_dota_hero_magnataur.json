@@ -1,0 +1,1475 @@
+{
+  "defaults": {
+    "head": {
+      "id": "326",
+      "name": "Magnus' Hair",
+      "item_name": "#DOTA_Item_Magnus_Hair",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/magnataur/magnataur_hair.vmdl"
+    },
+    "misc": {
+      "id": "327",
+      "name": "Magnus' Horn",
+      "item_name": "#DOTA_Item_Magnus_Horn",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "model_player": "models/heroes/magnataur/magnataur_horn.vmdl"
+    },
+    "arms": {
+      "id": "328",
+      "name": "Magnus' Bracers",
+      "item_name": "#DOTA_Item_Magnus_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/magnataur/magnataur_bracers.vmdl"
+    },
+    "belt": {
+      "id": "329",
+      "name": "Magnus' Belt",
+      "item_name": "#DOTA_Item_Magnus_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "model_player": "models/heroes/magnataur/magnataur_belt.vmdl"
+    },
+    "weapon": {
+      "id": "330",
+      "name": "Magnus' Weapon",
+      "item_name": "#DOTA_Item_Magnus_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/magnataur/magnataur_weapon.vmdl"
+    },
+    "costume": {
+      "id": "743",
+      "name": "Magnus's Costume",
+      "item_name": "#DOTA_Item_Magnuss_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Azurite_Warden",
+      "store_bundle": "Azurite Warden",
+      "portrait_image": "econ/sets/v2/azurite_warden",
+      "items": [
+        {
+          "name": "Belt of the Azurite Warden",
+          "id": "7321",
+          "item_name": "#DOTA_Item_Belt_of_the_Azurite_Warden",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/magnataur/defender_of_joerlak_belt/defender_of_joerlak_belt.vmdl"
+        },
+        {
+          "name": "Bracers of the Azurite Warden",
+          "id": "7322",
+          "item_name": "#DOTA_Item_Bracers_of_the_Azurite_Warden",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/magnataur/defender_of_joerlak_arms/defender_of_joerlak_arms.vmdl"
+        },
+        {
+          "name": "Helm of the Azurite Warden",
+          "id": "7428",
+          "item_name": "#DOTA_Item_Helm_of_the_Azurite_Warden",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/magnataur/defender_of_joerlak_head/defender_of_joerlak_head.vmdl"
+        },
+        {
+          "name": "Horn of the Azurite Warden",
+          "id": "7429",
+          "item_name": "#DOTA_Item_Horn_of_the_Azurite_Warden",
+          "item_slot": "misc",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/magnataur/defender_of_joerlak_misc/defender_of_joerlak_misc.vmdl"
+        },
+        {
+          "name": "Halberd of the Azurite Warden",
+          "id": "8825",
+          "item_name": "#DOTA_Item_Halberd_of_the_Azurite_Warden",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/magnataur/defender_of_joerlak_weapon/defender_of_joerlak_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Cruelties_of_the_Spiral_Bore",
+      "store_bundle": "Cruelties of the Spiral Bore",
+      "portrait_image": "econ/sets/v2/cruelties_of_the_spiral_bore",
+      "items": [
+        {
+          "name": "Belt of the Spiral Bore",
+          "id": "9974",
+          "item_name": "#DOTA_Item_Belt_of_the_Spiral_Bore",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/ti8_mag_undertyrant_belt/ti8_mag_undertyrant_belt.vmdl"
+        },
+        {
+          "name": "Bracer of the Spiral Bore",
+          "id": "9973",
+          "item_name": "#DOTA_Item_Bracer_of_the_Spiral_Bore",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/ti8_mag_undertyrant_arms/ti8_mag_undertyrant_arms.vmdl"
+        },
+        {
+          "name": "Helm of the Spiral Bore",
+          "id": "9972",
+          "item_name": "#DOTA_Item_Helm_of_the_Spiral_Bore",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/ti8_mag_undertyrant_head/ti8_mag_undertyrant_head.vmdl"
+        },
+        {
+          "name": "Horn of the Spiral Bore",
+          "id": "9971",
+          "item_name": "#DOTA_Item_Horn_of_the_Spiral_Bore",
+          "item_slot": "misc",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/ti8_mag_undertyrant_misc/ti8_mag_undertyrant_misc.vmdl"
+        },
+        {
+          "name": "Mallet of the Spiral Bore",
+          "id": "9970",
+          "item_name": "#DOTA_Item_Mallet_of_the_Spiral_Bore",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/ti8_mag_undertyrant_weapon/ti8_mag_undertyrant_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Defender_of_Matriarch",
+      "store_bundle": "Defender of Matriarch",
+      "portrait_image": "econ/sets/v2/defender_of_matriarch",
+      "items": [
+        {
+          "name": "Defender's Bracers",
+          "id": "6531",
+          "item_name": "#DOTA_Item_Defenders_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/magnataur/defender_arms/defender_arms.vmdl"
+        },
+        {
+          "name": "Defender's Armor",
+          "id": "6532",
+          "item_name": "#DOTA_Item_Defenders_Armor",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/magnataur/defender_belt/defender_belt.vmdl"
+        },
+        {
+          "name": "Defender's Helmet",
+          "id": "6533",
+          "item_name": "#DOTA_Item_Defenders_Helmet",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/magnataur/defender_head/defender_head.vmdl"
+        },
+        {
+          "name": "Defender's Horn",
+          "id": "6534",
+          "item_name": "#DOTA_Item_Defenders_Horn",
+          "item_slot": "misc",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/magnataur/defender_horn/defender_horn.vmdl"
+        },
+        {
+          "name": "Defender's Shanker",
+          "id": "6535",
+          "item_name": "#DOTA_Item_Defenders_Shanker",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/magnataur/defender_weapon/defender_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Engulfing_Spike",
+      "store_bundle": "Engulfing Spike",
+      "portrait_image": "econ/sets/v2/engulfing_spike",
+      "items": [
+        {
+          "name": "Bracers the Engulfing Spike",
+          "id": "6735",
+          "item_name": "#DOTA_Item_Bracers_the_Engulfing_Spike",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/magnataur/forgemaster_arms/forgemaster_arms.vmdl"
+        },
+        {
+          "name": "Belt of the Engulfing Spike",
+          "id": "6736",
+          "item_name": "#DOTA_Item_Belt_of_the_Engulfing_Spike",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/magnataur/forgemaster_belt/forgemaster_belt.vmdl"
+        },
+        {
+          "name": "Long Hair of the Engulfing Spike",
+          "id": "6737",
+          "item_name": "#DOTA_Item_Long_Hair_of_the_Engulfing_Spike",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/magnataur/forgemaster_head/forgemaster_head.vmdl"
+        },
+        {
+          "name": "Strength Horn of the Engulfing Spike",
+          "id": "6738",
+          "item_name": "#DOTA_Item_Strength_Horn_of_the_Engulfing_Spike",
+          "item_slot": "misc",
+          "item_rarity": "common",
+          "model_player": "models/items/magnataur/forgemaster_misc/forgemaster_misc.vmdl"
+        },
+        {
+          "name": "Spear of the Engulfing Spike",
+          "id": "6971",
+          "item_name": "#DOTA_Item_Spear_of_the_Engulfing_Spike",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/magnataur/forgemaster_weapon/forgemaster_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Erupting_Wrath",
+      "store_bundle": "Erupting Wrath",
+      "portrait_image": "econ/sets/v2/erupting_wrath",
+      "items": [
+        {
+          "name": "Cap of Erupting Wrath",
+          "id": "9866",
+          "item_name": "#DOTA_Item_Cap_of_Erupting_Wrath",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/rage_of_volcano_natives_head/rage_of_volcano_natives_head.vmdl"
+        },
+        {
+          "name": "Horn of Erupting Wrath",
+          "id": "9869",
+          "item_name": "#DOTA_Item_Horn_of_Erupting_Wrath",
+          "item_slot": "misc",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/rage_of_volcano_natives_misc/rage_of_volcano_natives_misc.vmdl"
+        },
+        {
+          "name": "Pauldron of Erupting Wrath",
+          "id": "9867",
+          "item_name": "#DOTA_Item_Pauldron_of_Erupting_Wrath",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/rage_of_volcano_natives_arms/rage_of_volcano_natives_arms.vmdl"
+        },
+        {
+          "name": "Girdle of Erupting Wrath",
+          "id": "9868",
+          "item_name": "#DOTA_Item_Girdle_of_Erupting_Wrath",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/rage_of_volcano_natives_belt/rage_of_volcano_natives_belt.vmdl"
+        },
+        {
+          "name": "Slab of Erupting Wrath",
+          "id": "9870",
+          "item_name": "#DOTA_Item_Slab_of_Erupting_Wrath",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/rage_of_volcano_natives_weapon/rage_of_volcano_natives_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Might_of_the_Galloping_Avenger",
+      "store_bundle": "Might of the Galloping Avenger",
+      "portrait_image": "econ/sets/v2/esl_avenging_crusader",
+      "items": [
+        {
+          "name": "War Helm of the Galloping Avenger",
+          "id": "8135",
+          "item_name": "#DOTA_Item_War_Helm_of_the_Galloping_Avenger",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/magnataur/esl_avenging_crusader_head/esl_avenging_crusader_head.vmdl"
+        },
+        {
+          "name": "Trappings of the Galloping Avenger",
+          "id": "8168",
+          "item_name": "#DOTA_Item_Trappings_of_the_Galloping_Avenger",
+          "item_slot": "misc",
+          "item_rarity": "rare",
+          "model_player": "models/items/magnataur/esl_avenging_crusader_misc/esl_avenging_crusader_misc.vmdl"
+        },
+        {
+          "name": "Harness of the Galloping Avenger",
+          "id": "8175",
+          "item_name": "#DOTA_Item_Harness_of_the_Galloping_Avenger",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/magnataur/esl_avenging_crusader_belt/esl_avenging_crusader_belt.vmdl"
+        },
+        {
+          "name": "Armor of the Galloping Avenger",
+          "id": "8186",
+          "item_name": "#DOTA_Item_Armor_of_the_Galloping_Avenger",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/magnataur/esl_avenging_crusader_arms/esl_avenging_crusader_arms.vmdl"
+        },
+        {
+          "name": "Halberd of the Galloping Avenger",
+          "id": "8187",
+          "item_name": "#DOTA_Item_Halberd_of_the_Galloping_Avenger",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/magnataur/esl_avenging_crusader_weapon/esl_avenging_crusader_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Legacy_Of_Joerlak",
+      "store_bundle": "Legacy Of Joerlak",
+      "portrait_image": "econ/sets/v2/magnataur_legacy_of_joerlak",
+      "items": [
+        {
+          "name": "Legacy Of Joerlak Weapon",
+          "id": "18448",
+          "item_name": "#DOTA_Item_Legacy_Of_Joerlak_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/magnataur/dplus_legacy_of_joerlak_weapon/dplus_legacy_of_joerlak_weapon.vmdl"
+        },
+        {
+          "name": "Legacy Of Joerlak Belt",
+          "id": "18447",
+          "item_name": "#DOTA_Item_Legacy_Of_Joerlak_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/magnataur/dplus_legacy_of_joerlak_belt/dplus_legacy_of_joerlak_belt.vmdl"
+        },
+        {
+          "name": "Legacy Of Joerlak Horn",
+          "id": "18446",
+          "item_name": "#DOTA_Item_Legacy_Of_Joerlak_Horn",
+          "item_slot": "misc",
+          "item_rarity": "rare",
+          "model_player": "models/items/magnataur/dplus_legacy_of_joerlak_misc/dplus_legacy_of_joerlak_misc.vmdl"
+        },
+        {
+          "name": "Legacy Of Joerlak Style",
+          "id": "18445",
+          "item_name": "#DOTA_Item_Legacy_Of_Joerlak_Style",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/magnataur/dplus_legacy_of_joerlak_head/dplus_legacy_of_joerlak_head.vmdl"
+        },
+        {
+          "name": "Legacy Of Joerlak Arms",
+          "id": "18444",
+          "item_name": "#DOTA_Item_Legacy_Of_Joerlak_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/magnataur/dplus_legacy_of_joerlak_arms/dplus_legacy_of_joerlak_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Magnuss_Diretide_Shimmer_Bundle",
+      "store_bundle": "Magnus's Diretide Shimmer Bundle",
+      "portrait_image": "econ/sets/v2/magnuss_diretide_shimmer_bundle",
+      "items": [
+        {
+          "name": "Magnus's Diretide Shimmer Costume",
+          "id": "18314",
+          "item_name": "#DOTA_Item_Magnuss_Diretide_Shimmer_Costume",
+          "item_slot": "costume",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Magnus's Diretide Shimmer Weapon",
+          "id": "18347",
+          "item_name": "#DOTA_Item_Magnuss_Diretide_Shimmer_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/magnataur/magnataur_weapon.vmdl"
+        },
+        {
+          "name": "Magnus's Diretide Shimmer Belt",
+          "id": "18348",
+          "item_name": "#DOTA_Item_Magnuss_Diretide_Shimmer_Belt",
+          "item_slot": "belt",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/magnataur/magnataur_belt.vmdl"
+        },
+        {
+          "name": "Magnus's Diretide Shimmer Bracers",
+          "id": "18349",
+          "item_name": "#DOTA_Item_Magnuss_Diretide_Shimmer_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/magnataur/magnataur_bracers.vmdl"
+        },
+        {
+          "name": "Magnus's Diretide Shimmer Hair",
+          "id": "18350",
+          "item_name": "#DOTA_Item_Magnuss_Diretide_Shimmer_Hair",
+          "item_slot": "head",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/magnataur/magnataur_hair.vmdl"
+        },
+        {
+          "name": "Magnus's Diretide Shimmer Horn",
+          "id": "18351",
+          "item_name": "#DOTA_Item_Magnuss_Diretide_Shimmer_Horn",
+          "item_slot": "misc",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/magnataur/magnataur_horn.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ornate_Cruelty",
+      "store_bundle": "Ornate Cruelty",
+      "portrait_image": "econ/sets/v2/ornate_cruelty",
+      "items": [
+        {
+          "name": "Bracers of Ornate Cruelty",
+          "id": "9713",
+          "item_name": "#DOTA_Item_Bracers_of_Ornate_Cruelty",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/magnus_thors_reward_arms/magnus_thors_reward_arms.vmdl"
+        },
+        {
+          "name": "Belt of Ornate Cruelty",
+          "id": "9712",
+          "item_name": "#DOTA_Item_Belt_of_Ornate_Cruelty",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/magnus_thors_reward_belt/magnus_thors_reward_belt.vmdl"
+        },
+        {
+          "name": "Trunk of the Ornate Cruelty",
+          "id": "9711",
+          "item_name": "#DOTA_Item_Trunk_of_the_Ornate_Cruelty",
+          "item_slot": "misc",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/magnus_thors_reward_misc/magnus_thors_reward_misc.vmdl"
+        },
+        {
+          "name": "Spear of Ornate Cruelty",
+          "id": "9709",
+          "item_name": "#DOTA_Item_Spear_of_Ornate_Cruelty",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/magnus_thors_reward_weapon/magnus_thors_reward_weapon.vmdl"
+        },
+        {
+          "name": "Helm of Ornate Cruelty",
+          "id": "9710",
+          "item_name": "#DOTA_Item_Helm_of_Ornate_Cruelty",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/magnus_thors_reward_head/magnus_thors_reward_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Rising_Glory",
+      "store_bundle": "Rising Glory",
+      "portrait_image": "econ/sets/v2/rising_glory",
+      "items": [
+        {
+          "name": "Bracers of Rising Glory",
+          "id": "7959",
+          "item_name": "#DOTA_Item_Bracers_of_Rising_Glory",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/horn_of_rising_glory_arms/horn_of_rising_glory_arms.vmdl"
+        },
+        {
+          "name": "Belt of Rising Glory",
+          "id": "7958",
+          "item_name": "#DOTA_Item_Belt_of_Rising_Glory",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/horn_of_rising_glory_belt/horn_of_rising_glory_belt.vmdl"
+        },
+        {
+          "name": "Helm of Rising Glory",
+          "id": "7957",
+          "item_name": "#DOTA_Item_Helm_of_Rising_Glory",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/horn_of_rising_glory_head/horn_of_rising_glory_head.vmdl"
+        },
+        {
+          "name": "Horn of Rising Glory",
+          "id": "7956",
+          "item_name": "#DOTA_Item_Horn_of_Rising_Glory",
+          "item_slot": "misc",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/horn_of_rising_glory_misc/horn_of_rising_glory_misc.vmdl"
+        },
+        {
+          "name": "Lance of Rising Glory",
+          "id": "7955",
+          "item_name": "#DOTA_Item_Lance_of_Rising_Glory",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/horn_of_rising_glory_weapon/horn_of_rising_glory_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Seismic_Berserker",
+      "store_bundle": "Seismic Berserker",
+      "portrait_image": "econ/sets/v2/seismic_berserker",
+      "items": [
+        {
+          "name": "Seismic Berserker Helm",
+          "id": "8642",
+          "item_name": "#DOTA_Item_Seismic_Berserker_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/seismic_berserker_head/seismic_berserker_head.vmdl"
+        },
+        {
+          "name": "Seismic Berserker Horn",
+          "id": "8674",
+          "item_name": "#DOTA_Item_Seismic_Berserker_Horn",
+          "item_slot": "misc",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/seismic_berserker_misc/seismic_berserker_misc.vmdl"
+        },
+        {
+          "name": "Seismic Berserker Club",
+          "id": "8675",
+          "item_name": "#DOTA_Item_Seismic_Berserker_Club",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/seismic_berserker_weapon/seismic_berserker_weapon.vmdl"
+        },
+        {
+          "name": "Seismic Berserker Bracers",
+          "id": "8676",
+          "item_name": "#DOTA_Item_Seismic_Berserker_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/seismic_berserker_arms/seismic_berserker_arms.vmdl"
+        },
+        {
+          "name": "Seismic Berserker Armor",
+          "id": "8677",
+          "item_name": "#DOTA_Item_Seismic_Berserker_Armor",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/magnataur/seismic_berserker_belt/seismic_berserker_belt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Vindictive_Protector",
+      "store_bundle": "Vindictive Protector",
+      "portrait_image": "econ/sets/v2/vindictive_protector",
+      "items": [
+        {
+          "name": "Blade of the Vindictive Protector",
+          "id": "8169",
+          "item_name": "#DOTA_Item_Blade_of_the_Vindictive_Protector",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/magnataur/dreamleague_vindictive_weapon/dreamleague_vindictive_weapon.vmdl"
+        },
+        {
+          "name": "Horn of the Vindictive Protector",
+          "id": "8156",
+          "item_name": "#DOTA_Item_Horn_of_the_Vindictive_Protector",
+          "item_slot": "misc",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/magnataur/dreamleague_vindictive_misc/dreamleague_vindictive_misc.vmdl"
+        },
+        {
+          "name": "Helmet of the Vindictive Protector",
+          "id": "8155",
+          "item_name": "#DOTA_Item_Helmet_of_the_Vindictive_Protector",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/magnataur/dreamleague_vindictive_head/dreamleague_vindictive_head.vmdl"
+        },
+        {
+          "name": "Belt of the Vindictive Protector",
+          "id": "8154",
+          "item_name": "#DOTA_Item_Belt_of_the_Vindictive_Protector",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/magnataur/dreamleague_vindictive_belt/dreamleague_vindictive_belt.vmdl"
+        },
+        {
+          "name": "Bracers of the Vindictive Protector",
+          "id": "8153",
+          "item_name": "#DOTA_Item_Bracers_of_the_Vindictive_Protector",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/magnataur/dreamleague_vindictive_arms/dreamleague_vindictive_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_WarVestments_of_the_Magnoceri",
+      "store_bundle": "War-Vestments of the Magnoceri",
+      "portrait_image": "econ/sets/v2/warvestments_of_the_magnoceri",
+      "items": [
+        {
+          "name": "Polearm of the Magnoceri",
+          "id": "6800",
+          "item_name": "#DOTA_Item_Polearm_of_the_Magnoceri",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/magnataur/magnoceri_weapon/magnoceri_weapon.vmdl"
+        },
+        {
+          "name": "Horn of the Magnoceri",
+          "id": "6801",
+          "item_name": "#DOTA_Item_Horn_of_the_Magnoceri",
+          "item_slot": "misc",
+          "item_rarity": "common",
+          "model_player": "models/items/magnataur/magoceri_misc/magoceri_misc.vmdl"
+        },
+        {
+          "name": "Mane of the Magnoceri",
+          "id": "6802",
+          "item_name": "#DOTA_Item_Mane_of_the_Magnoceri",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/magnataur/magnoceri_head/magnoceri_head.vmdl"
+        },
+        {
+          "name": "Bracers of the Magnoceri",
+          "id": "6803",
+          "item_name": "#DOTA_Item_Bracers_of_the_Magnoceri",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/magnataur/magnoceri_arms/magnoceri_arms.vmdl"
+        },
+        {
+          "name": "Belt of the Magnoceri",
+          "id": "6804",
+          "item_name": "#DOTA_Item_Belt_of_the_Magnoceri",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/magnataur/magnoceri_belt/magnoceri_belt.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "326",
+      "name": "Magnus' Hair",
+      "item_name": "#DOTA_Item_Magnus_Hair",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/magnataur/magnataur_hair.vmdl"
+    },
+    {
+      "id": "327",
+      "name": "Magnus' Horn",
+      "item_name": "#DOTA_Item_Magnus_Horn",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/magnataur/magnataur_horn.vmdl"
+    },
+    {
+      "id": "328",
+      "name": "Magnus' Bracers",
+      "item_name": "#DOTA_Item_Magnus_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/magnataur/magnataur_bracers.vmdl"
+    },
+    {
+      "id": "329",
+      "name": "Magnus' Belt",
+      "item_name": "#DOTA_Item_Magnus_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/magnataur/magnataur_belt.vmdl"
+    },
+    {
+      "id": "330",
+      "name": "Magnus' Weapon",
+      "item_name": "#DOTA_Item_Magnus_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/magnataur/magnataur_weapon.vmdl"
+    },
+    {
+      "id": "743",
+      "name": "Magnus's Costume",
+      "item_name": "#DOTA_Item_Magnuss_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "6388",
+      "name": "Horn of Luminous Crystal",
+      "item_name": "#DOTA_Item_Horn_of_Luminous_Crystal",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/luminouscrystal_misc/luminouscrystal_misc.vmdl"
+    },
+    {
+      "id": "6531",
+      "name": "Defender's Bracers",
+      "item_name": "#DOTA_Item_Defenders_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/defender_arms/defender_arms.vmdl"
+    },
+    {
+      "id": "6532",
+      "name": "Defender's Armor",
+      "item_name": "#DOTA_Item_Defenders_Armor",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/defender_belt/defender_belt.vmdl"
+    },
+    {
+      "id": "6533",
+      "name": "Defender's Helmet",
+      "item_name": "#DOTA_Item_Defenders_Helmet",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/defender_head/defender_head.vmdl"
+    },
+    {
+      "id": "6534",
+      "name": "Defender's Horn",
+      "item_name": "#DOTA_Item_Defenders_Horn",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/defender_horn/defender_horn.vmdl"
+    },
+    {
+      "id": "6535",
+      "name": "Defender's Shanker",
+      "item_name": "#DOTA_Item_Defenders_Shanker",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/defender_weapon/defender_weapon.vmdl"
+    },
+    {
+      "id": "6735",
+      "name": "Bracers the Engulfing Spike",
+      "item_name": "#DOTA_Item_Bracers_the_Engulfing_Spike",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/forgemaster_arms/forgemaster_arms.vmdl"
+    },
+    {
+      "id": "6736",
+      "name": "Belt of the Engulfing Spike",
+      "item_name": "#DOTA_Item_Belt_of_the_Engulfing_Spike",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/forgemaster_belt/forgemaster_belt.vmdl"
+    },
+    {
+      "id": "6737",
+      "name": "Long Hair of the Engulfing Spike",
+      "item_name": "#DOTA_Item_Long_Hair_of_the_Engulfing_Spike",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/forgemaster_head/forgemaster_head.vmdl"
+    },
+    {
+      "id": "6738",
+      "name": "Strength Horn of the Engulfing Spike",
+      "item_name": "#DOTA_Item_Strength_Horn_of_the_Engulfing_Spike",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/forgemaster_misc/forgemaster_misc.vmdl"
+    },
+    {
+      "id": "6800",
+      "name": "Polearm of the Magnoceri",
+      "item_name": "#DOTA_Item_Polearm_of_the_Magnoceri",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/magnoceri_weapon/magnoceri_weapon.vmdl"
+    },
+    {
+      "id": "6801",
+      "name": "Horn of the Magnoceri",
+      "item_name": "#DOTA_Item_Horn_of_the_Magnoceri",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/magoceri_misc/magoceri_misc.vmdl"
+    },
+    {
+      "id": "6802",
+      "name": "Mane of the Magnoceri",
+      "item_name": "#DOTA_Item_Mane_of_the_Magnoceri",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/magnoceri_head/magnoceri_head.vmdl"
+    },
+    {
+      "id": "6803",
+      "name": "Bracers of the Magnoceri",
+      "item_name": "#DOTA_Item_Bracers_of_the_Magnoceri",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/magnoceri_arms/magnoceri_arms.vmdl"
+    },
+    {
+      "id": "6804",
+      "name": "Belt of the Magnoceri",
+      "item_name": "#DOTA_Item_Belt_of_the_Magnoceri",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/magnoceri_belt/magnoceri_belt.vmdl"
+    },
+    {
+      "id": "6971",
+      "name": "Spear of the Engulfing Spike",
+      "item_name": "#DOTA_Item_Spear_of_the_Engulfing_Spike",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/forgemaster_weapon/forgemaster_weapon.vmdl"
+    },
+    {
+      "id": "7321",
+      "name": "Belt of the Azurite Warden",
+      "item_name": "#DOTA_Item_Belt_of_the_Azurite_Warden",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/defender_of_joerlak_belt/defender_of_joerlak_belt.vmdl"
+    },
+    {
+      "id": "7322",
+      "name": "Bracers of the Azurite Warden",
+      "item_name": "#DOTA_Item_Bracers_of_the_Azurite_Warden",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/defender_of_joerlak_arms/defender_of_joerlak_arms.vmdl"
+    },
+    {
+      "id": "7428",
+      "name": "Helm of the Azurite Warden",
+      "item_name": "#DOTA_Item_Helm_of_the_Azurite_Warden",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/defender_of_joerlak_head/defender_of_joerlak_head.vmdl"
+    },
+    {
+      "id": "7429",
+      "name": "Horn of the Azurite Warden",
+      "item_name": "#DOTA_Item_Horn_of_the_Azurite_Warden",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/defender_of_joerlak_misc/defender_of_joerlak_misc.vmdl"
+    },
+    {
+      "id": "7955",
+      "name": "Lance of Rising Glory",
+      "item_name": "#DOTA_Item_Lance_of_Rising_Glory",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/horn_of_rising_glory_weapon/horn_of_rising_glory_weapon.vmdl"
+    },
+    {
+      "id": "7956",
+      "name": "Horn of Rising Glory",
+      "item_name": "#DOTA_Item_Horn_of_Rising_Glory",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/horn_of_rising_glory_misc/horn_of_rising_glory_misc.vmdl"
+    },
+    {
+      "id": "7957",
+      "name": "Helm of Rising Glory",
+      "item_name": "#DOTA_Item_Helm_of_Rising_Glory",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/horn_of_rising_glory_head/horn_of_rising_glory_head.vmdl"
+    },
+    {
+      "id": "7958",
+      "name": "Belt of Rising Glory",
+      "item_name": "#DOTA_Item_Belt_of_Rising_Glory",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/horn_of_rising_glory_belt/horn_of_rising_glory_belt.vmdl"
+    },
+    {
+      "id": "7959",
+      "name": "Bracers of Rising Glory",
+      "item_name": "#DOTA_Item_Bracers_of_Rising_Glory",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/horn_of_rising_glory_arms/horn_of_rising_glory_arms.vmdl"
+    },
+    {
+      "id": "8059",
+      "name": "Taunt: Mag Power!",
+      "item_name": "#DOTA_Item_Taunt_Mag_Power",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "8135",
+      "name": "War Helm of the Galloping Avenger",
+      "item_name": "#DOTA_Item_War_Helm_of_the_Galloping_Avenger",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/esl_avenging_crusader_head/esl_avenging_crusader_head.vmdl"
+    },
+    {
+      "id": "8153",
+      "name": "Bracers of the Vindictive Protector",
+      "item_name": "#DOTA_Item_Bracers_of_the_Vindictive_Protector",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/dreamleague_vindictive_arms/dreamleague_vindictive_arms.vmdl"
+    },
+    {
+      "id": "8154",
+      "name": "Belt of the Vindictive Protector",
+      "item_name": "#DOTA_Item_Belt_of_the_Vindictive_Protector",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/dreamleague_vindictive_belt/dreamleague_vindictive_belt.vmdl"
+    },
+    {
+      "id": "8155",
+      "name": "Helmet of the Vindictive Protector",
+      "item_name": "#DOTA_Item_Helmet_of_the_Vindictive_Protector",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/dreamleague_vindictive_head/dreamleague_vindictive_head.vmdl"
+    },
+    {
+      "id": "8156",
+      "name": "Horn of the Vindictive Protector",
+      "item_name": "#DOTA_Item_Horn_of_the_Vindictive_Protector",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/dreamleague_vindictive_misc/dreamleague_vindictive_misc.vmdl"
+    },
+    {
+      "id": "8168",
+      "name": "Trappings of the Galloping Avenger",
+      "item_name": "#DOTA_Item_Trappings_of_the_Galloping_Avenger",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/esl_avenging_crusader_misc/esl_avenging_crusader_misc.vmdl"
+    },
+    {
+      "id": "8169",
+      "name": "Blade of the Vindictive Protector",
+      "item_name": "#DOTA_Item_Blade_of_the_Vindictive_Protector",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/dreamleague_vindictive_weapon/dreamleague_vindictive_weapon.vmdl"
+    },
+    {
+      "id": "8175",
+      "name": "Harness of the Galloping Avenger",
+      "item_name": "#DOTA_Item_Harness_of_the_Galloping_Avenger",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/esl_avenging_crusader_belt/esl_avenging_crusader_belt.vmdl"
+    },
+    {
+      "id": "8186",
+      "name": "Armor of the Galloping Avenger",
+      "item_name": "#DOTA_Item_Armor_of_the_Galloping_Avenger",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/esl_avenging_crusader_arms/esl_avenging_crusader_arms.vmdl"
+    },
+    {
+      "id": "8187",
+      "name": "Halberd of the Galloping Avenger",
+      "item_name": "#DOTA_Item_Halberd_of_the_Galloping_Avenger",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/esl_avenging_crusader_weapon/esl_avenging_crusader_weapon.vmdl"
+    },
+    {
+      "id": "8300",
+      "name": "Shock of the Anvil",
+      "item_name": "#DOTA_Item_Shock_of_the_Anvil",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/shock_of_the_anvil/shock_of_the_anvil.vmdl"
+    },
+    {
+      "id": "8642",
+      "name": "Seismic Berserker Helm",
+      "item_name": "#DOTA_Item_Seismic_Berserker_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/seismic_berserker_head/seismic_berserker_head.vmdl"
+    },
+    {
+      "id": "8674",
+      "name": "Seismic Berserker Horn",
+      "item_name": "#DOTA_Item_Seismic_Berserker_Horn",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/seismic_berserker_misc/seismic_berserker_misc.vmdl"
+    },
+    {
+      "id": "8675",
+      "name": "Seismic Berserker Club",
+      "item_name": "#DOTA_Item_Seismic_Berserker_Club",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/seismic_berserker_weapon/seismic_berserker_weapon.vmdl"
+    },
+    {
+      "id": "8676",
+      "name": "Seismic Berserker Bracers",
+      "item_name": "#DOTA_Item_Seismic_Berserker_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/seismic_berserker_arms/seismic_berserker_arms.vmdl"
+    },
+    {
+      "id": "8677",
+      "name": "Seismic Berserker Armor",
+      "item_name": "#DOTA_Item_Seismic_Berserker_Armor",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/seismic_berserker_belt/seismic_berserker_belt.vmdl"
+    },
+    {
+      "id": "8825",
+      "name": "Halberd of the Azurite Warden",
+      "item_name": "#DOTA_Item_Halberd_of_the_Azurite_Warden",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/defender_of_joerlak_weapon/defender_of_joerlak_weapon.vmdl"
+    },
+    {
+      "id": "9709",
+      "name": "Spear of Ornate Cruelty",
+      "item_name": "#DOTA_Item_Spear_of_Ornate_Cruelty",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/magnus_thors_reward_weapon/magnus_thors_reward_weapon.vmdl"
+    },
+    {
+      "id": "9710",
+      "name": "Helm of Ornate Cruelty",
+      "item_name": "#DOTA_Item_Helm_of_Ornate_Cruelty",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/magnus_thors_reward_head/magnus_thors_reward_head.vmdl"
+    },
+    {
+      "id": "9711",
+      "name": "Trunk of the Ornate Cruelty",
+      "item_name": "#DOTA_Item_Trunk_of_the_Ornate_Cruelty",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/magnus_thors_reward_misc/magnus_thors_reward_misc.vmdl"
+    },
+    {
+      "id": "9712",
+      "name": "Belt of Ornate Cruelty",
+      "item_name": "#DOTA_Item_Belt_of_Ornate_Cruelty",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/magnus_thors_reward_belt/magnus_thors_reward_belt.vmdl"
+    },
+    {
+      "id": "9713",
+      "name": "Bracers of Ornate Cruelty",
+      "item_name": "#DOTA_Item_Bracers_of_Ornate_Cruelty",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/magnus_thors_reward_arms/magnus_thors_reward_arms.vmdl"
+    },
+    {
+      "id": "9866",
+      "name": "Cap of Erupting Wrath",
+      "item_name": "#DOTA_Item_Cap_of_Erupting_Wrath",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/rage_of_volcano_natives_head/rage_of_volcano_natives_head.vmdl"
+    },
+    {
+      "id": "9867",
+      "name": "Pauldron of Erupting Wrath",
+      "item_name": "#DOTA_Item_Pauldron_of_Erupting_Wrath",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/rage_of_volcano_natives_arms/rage_of_volcano_natives_arms.vmdl"
+    },
+    {
+      "id": "9868",
+      "name": "Girdle of Erupting Wrath",
+      "item_name": "#DOTA_Item_Girdle_of_Erupting_Wrath",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/rage_of_volcano_natives_belt/rage_of_volcano_natives_belt.vmdl"
+    },
+    {
+      "id": "9869",
+      "name": "Horn of Erupting Wrath",
+      "item_name": "#DOTA_Item_Horn_of_Erupting_Wrath",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/rage_of_volcano_natives_misc/rage_of_volcano_natives_misc.vmdl"
+    },
+    {
+      "id": "9870",
+      "name": "Slab of Erupting Wrath",
+      "item_name": "#DOTA_Item_Slab_of_Erupting_Wrath",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/rage_of_volcano_natives_weapon/rage_of_volcano_natives_weapon.vmdl"
+    },
+    {
+      "id": "9970",
+      "name": "Mallet of the Spiral Bore",
+      "item_name": "#DOTA_Item_Mallet_of_the_Spiral_Bore",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/ti8_mag_undertyrant_weapon/ti8_mag_undertyrant_weapon.vmdl"
+    },
+    {
+      "id": "9971",
+      "name": "Horn of the Spiral Bore",
+      "item_name": "#DOTA_Item_Horn_of_the_Spiral_Bore",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/ti8_mag_undertyrant_misc/ti8_mag_undertyrant_misc.vmdl"
+    },
+    {
+      "id": "9972",
+      "name": "Helm of the Spiral Bore",
+      "item_name": "#DOTA_Item_Helm_of_the_Spiral_Bore",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/ti8_mag_undertyrant_head/ti8_mag_undertyrant_head.vmdl"
+    },
+    {
+      "id": "9973",
+      "name": "Bracer of the Spiral Bore",
+      "item_name": "#DOTA_Item_Bracer_of_the_Spiral_Bore",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/ti8_mag_undertyrant_arms/ti8_mag_undertyrant_arms.vmdl"
+    },
+    {
+      "id": "9974",
+      "name": "Belt of the Spiral Bore",
+      "item_name": "#DOTA_Item_Belt_of_the_Spiral_Bore",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/ti8_mag_undertyrant_belt/ti8_mag_undertyrant_belt.vmdl"
+    },
+    {
+      "id": "14295",
+      "name": "Eyes of Ardenok",
+      "item_name": "#DOTA_Item_Eyes_of_Ardenok",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/magnus_ti10_immortal_head/magnus_ti10_immortal_head.vmdl"
+    },
+    {
+      "id": "18314",
+      "name": "Magnus's Diretide Shimmer Costume",
+      "item_name": "#DOTA_Item_Magnuss_Diretide_Shimmer_Costume",
+      "item_slot": "costume",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18347",
+      "name": "Magnus's Diretide Shimmer Weapon",
+      "item_name": "#DOTA_Item_Magnuss_Diretide_Shimmer_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/magnataur/magnataur_weapon.vmdl"
+    },
+    {
+      "id": "18348",
+      "name": "Magnus's Diretide Shimmer Belt",
+      "item_name": "#DOTA_Item_Magnuss_Diretide_Shimmer_Belt",
+      "item_slot": "belt",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/magnataur/magnataur_belt.vmdl"
+    },
+    {
+      "id": "18349",
+      "name": "Magnus's Diretide Shimmer Bracers",
+      "item_name": "#DOTA_Item_Magnuss_Diretide_Shimmer_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/magnataur/magnataur_bracers.vmdl"
+    },
+    {
+      "id": "18350",
+      "name": "Magnus's Diretide Shimmer Hair",
+      "item_name": "#DOTA_Item_Magnuss_Diretide_Shimmer_Hair",
+      "item_slot": "head",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/magnataur/magnataur_hair.vmdl"
+    },
+    {
+      "id": "18351",
+      "name": "Magnus's Diretide Shimmer Horn",
+      "item_name": "#DOTA_Item_Magnuss_Diretide_Shimmer_Horn",
+      "item_slot": "misc",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/magnataur/magnataur_horn.vmdl"
+    },
+    {
+      "id": "18444",
+      "name": "Legacy Of Joerlak Arms",
+      "item_name": "#DOTA_Item_Legacy_Of_Joerlak_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/dplus_legacy_of_joerlak_arms/dplus_legacy_of_joerlak_arms.vmdl"
+    },
+    {
+      "id": "18445",
+      "name": "Legacy Of Joerlak Style",
+      "item_name": "#DOTA_Item_Legacy_Of_Joerlak_Style",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/dplus_legacy_of_joerlak_head/dplus_legacy_of_joerlak_head.vmdl"
+    },
+    {
+      "id": "18446",
+      "name": "Legacy Of Joerlak Horn",
+      "item_name": "#DOTA_Item_Legacy_Of_Joerlak_Horn",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/dplus_legacy_of_joerlak_misc/dplus_legacy_of_joerlak_misc.vmdl"
+    },
+    {
+      "id": "18447",
+      "name": "Legacy Of Joerlak Belt",
+      "item_name": "#DOTA_Item_Legacy_Of_Joerlak_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/dplus_legacy_of_joerlak_belt/dplus_legacy_of_joerlak_belt.vmdl"
+    },
+    {
+      "id": "18448",
+      "name": "Legacy Of Joerlak Weapon",
+      "item_name": "#DOTA_Item_Legacy_Of_Joerlak_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/dplus_legacy_of_joerlak_weapon/dplus_legacy_of_joerlak_weapon.vmdl"
+    },
+    {
+      "id": "20506",
+      "name": "Defender of Matriarch",
+      "item_name": "#DOTA_Item_Defender_of_Matriarch",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20552",
+      "name": "War-Vestments of the Magnoceri",
+      "item_name": "#DOTA_Item_WarVestments_of_the_Magnoceri",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20564",
+      "name": "Promo War-Vestments of the Magnoceri",
+      "item_name": "#DOTA_Item_Promo_WarVestments_of_the_Magnoceri",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20621",
+      "name": "Engulfing Spike",
+      "item_name": "#DOTA_Item_Engulfing_Spike",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20817",
+      "name": "Vindictive Protector",
+      "item_name": "#DOTA_Item_Vindictive_Protector",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20838",
+      "name": "Rising Glory",
+      "item_name": "#DOTA_Item_Rising_Glory",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20906",
+      "name": "Might of the Galloping Avenger",
+      "item_name": "#DOTA_Item_Might_of_the_Galloping_Avenger",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20917",
+      "name": "Erupting Wrath",
+      "item_name": "#DOTA_Item_Erupting_Wrath",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20952",
+      "name": "Seismic Berserker",
+      "item_name": "#DOTA_Item_Seismic_Berserker",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20985",
+      "name": "Azurite Warden",
+      "item_name": "#DOTA_Item_Azurite_Warden",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21183",
+      "name": "Ornate Cruelty",
+      "item_name": "#DOTA_Item_Ornate_Cruelty",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21213",
+      "name": "Cruelties of the Spiral Bore",
+      "item_name": "#DOTA_Item_Cruelties_of_the_Spiral_Bore",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21639",
+      "name": "Legacy Of Joerlak",
+      "item_name": "#DOTA_Item_Legacy_Of_Joerlak",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21794",
+      "name": "Magnus's Diretide Shimmer Bundle",
+      "item_name": "#DOTA_Item_Magnuss_Diretide_Shimmer_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "24679",
+      "name": "Eyes of Ardenok of the Crimson Witness",
+      "item_name": "#DOTA_Item_Eyes_of_Ardenok_of_the_Crimson_Witness",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/magnataur/magnus_ti10_immortal_head/magnus_ti10_immortal_head.vmdl"
+    }
+  ]
+}

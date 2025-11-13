@@ -1,0 +1,1222 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "381",
+      "name": "Medusa's Bow",
+      "item_name": "#DOTA_Item_Medusas_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/medusa/medusa_bow.vmdl"
+    },
+    "head": {
+      "id": "382",
+      "name": "Medusa's Veil",
+      "item_name": "#DOTA_Item_Medusas_Veil",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/medusa/medusa_veil.vmdl"
+    },
+    "armor": {
+      "id": "383",
+      "name": "Medusa's Chest Armor",
+      "item_name": "#DOTA_Item_Medusas_Chest_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "model_player": "models/heroes/medusa/medusa_torso.vmdl"
+    },
+    "arms": {
+      "id": "384",
+      "name": "Medusa's Bracers",
+      "item_name": "#DOTA_Item_Medusas_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/medusa/medusa_arms.vmdl"
+    },
+    "tail": {
+      "id": "385",
+      "name": "Medusa's Tail",
+      "item_name": "#DOTA_Item_Medusas_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "model_player": "models/heroes/medusa/medusa_tail.vmdl"
+    },
+    "ambient_effects": {
+      "id": "531",
+      "name": "Medusa's Ambient Effects",
+      "item_name": "#DOTA_Item_Medusas_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Convalescing_Empress",
+      "store_bundle": "Convalescing Empress",
+      "portrait_image": "econ/sets/v2/convalescing_empress",
+      "items": [
+        {
+          "name": "Convalescing Empress Arms",
+          "id": "14741",
+          "item_name": "#DOTA_Item_Convalescing_Empress_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/medusa_the_goddess_nuwa_arms/medusa_the_goddess_nuwa_arms.vmdl"
+        },
+        {
+          "name": "Convalescing Empress Tail",
+          "id": "14740",
+          "item_name": "#DOTA_Item_Convalescing_Empress_Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/medusa_the_goddess_nuwa_tail/medusa_the_goddess_nuwa_tail.vmdl"
+        },
+        {
+          "name": "Convalescing Empress Armor",
+          "id": "14739",
+          "item_name": "#DOTA_Item_Convalescing_Empress_Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/medusa_the_goddess_nuwa_armor/medusa_the_goddess_nuwa_armor.vmdl"
+        },
+        {
+          "name": "Convalescing Empress Head",
+          "id": "14738",
+          "item_name": "#DOTA_Item_Convalescing_Empress_Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/medusa_the_goddess_nuwa_head/medusa_the_goddess_nuwa_head.vmdl"
+        },
+        {
+          "name": "Convalescing Empress Bow",
+          "id": "14737",
+          "item_name": "#DOTA_Item_Convalescing_Empress_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/medusa_the_goddess_nuwa_weapon/medusa_the_goddess_nuwa_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Death_Adder",
+      "store_bundle": "Death Adder",
+      "portrait_image": "econ/sets/v2/death_adder",
+      "items": [
+        {
+          "name": "Bow of the Death Adder",
+          "id": "23793",
+          "item_name": "#DOTA_Item_Bow_of_the_Death_Adder",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/medusa/medusa_calavera/medusa_calavera_bow.vmdl"
+        },
+        {
+          "name": "Tail of the Death Adder",
+          "id": "23792",
+          "item_name": "#DOTA_Item_Tail_of_the_Death_Adder",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/medusa/medusa_calavera/medusa_calavera_tail.vmdl"
+        },
+        {
+          "name": "Band of the Death Adder",
+          "id": "23791",
+          "item_name": "#DOTA_Item_Band_of_the_Death_Adder",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/medusa/medusa_calavera/medusa_calavera_arm.vmdl"
+        },
+        {
+          "name": "Wings of the Death Adder",
+          "id": "23787",
+          "item_name": "#DOTA_Item_Wings_of_the_Death_Adder",
+          "item_slot": "armor",
+          "item_rarity": "mythical",
+          "model_player": "models/items/medusa/medusa_calavera/medusa_calavera_shoulders.vmdl"
+        },
+        {
+          "name": "Headdress of the Death Adder",
+          "id": "23774",
+          "item_name": "#DOTA_Item_Headdress_of_the_Death_Adder",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/medusa/medusa_calavera/medusa_calavera_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Eye_of_the_Beholder",
+      "store_bundle": "Eye of the Beholder",
+      "portrait_image": "econ/sets/v2/eye_of_the_beholder",
+      "items": [
+        {
+          "name": "Tail of the Beholder",
+          "id": "8196",
+          "item_name": "#DOTA_Item_Tail_of_the_Beholder",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/blueice_tail/blueice_tail.vmdl"
+        },
+        {
+          "name": "Bow of the Beholder",
+          "id": "8191",
+          "item_name": "#DOTA_Item_Bow_of_the_Beholder",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/medusa/blueice_weapon/blueice_weapon.vmdl"
+        },
+        {
+          "name": "Armor of the Beholder",
+          "id": "8193",
+          "item_name": "#DOTA_Item_Armor_of_the_Beholder",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/blueice_armor/blueice_armor.vmdl"
+        },
+        {
+          "name": "Bracers of the Beholder",
+          "id": "8194",
+          "item_name": "#DOTA_Item_Bracers_of_the_Beholder",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/medusa/blueice_arms/blueice_arms.vmdl"
+        },
+        {
+          "name": "Helm of the Beholder",
+          "id": "8195",
+          "item_name": "#DOTA_Item_Helm_of_the_Beholder",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/blueice_head/blueice_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Forsaken_Beauty",
+      "store_bundle": "Forsaken Beauty Set",
+      "portrait_image": "econ/sets/v2/forsaken_beauty_set",
+      "items": [
+        {
+          "name": "Bracers of Forsaken Beauty",
+          "id": "5004",
+          "item_name": "#DOTA_Item_Bracers_of_Forsaken_Beauty",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/medusa/forsaken_beauty_arms/forsaken_beauty_arms.vmdl"
+        },
+        {
+          "name": "Bow of Forsaken Beauty",
+          "id": "5005",
+          "item_name": "#DOTA_Item_Bow_of_Forsaken_Beauty",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/forsaken_beauty_bow/forsaken_beauty_bow.vmdl"
+        },
+        {
+          "name": "Blouse of Forsaken Beauty",
+          "id": "5006",
+          "item_name": "#DOTA_Item_Blouse_of_Forsaken_Beauty",
+          "item_slot": "armor",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/medusa/forsaken_beauty_chest/forsaken_beauty_chest.vmdl"
+        },
+        {
+          "name": "Circlet of Forsaken Beauty",
+          "id": "5007",
+          "item_name": "#DOTA_Item_Circlet_of_Forsaken_Beauty",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/medusa/forsaken_beauty_head/forsaken_beauty_head.vmdl"
+        },
+        {
+          "name": "Sweep of Forsaken Beauty",
+          "id": "5008",
+          "item_name": "#DOTA_Item_Sweep_of_Forsaken_Beauty",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/forsaken_beauty_tail/forsaken_beauty_tail.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Havoc_of_the_Hydras_Scorn",
+      "store_bundle": "Havoc of the Hydra's Scorn",
+      "portrait_image": "econ/sets/v2/havoc_of_the_hydras_scorn",
+      "items": [
+        {
+          "name": "Havoc of the Hydra's Scorn - Weapon",
+          "id": "26750",
+          "item_name": "#DOTA_Item_Havoc_of_the_Hydras_Scorn__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/medusa_gorgona_weapon/medusa_gorgona_weapon.vmdl"
+        },
+        {
+          "name": "Havoc of the Hydra's Scorn - Tail",
+          "id": "26749",
+          "item_name": "#DOTA_Item_Havoc_of_the_Hydras_Scorn__Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/medusa_gorgona_tail/medusa_gorgona_tail.vmdl"
+        },
+        {
+          "name": "Havoc of the Hydra's Scorn - Arms",
+          "id": "26748",
+          "item_name": "#DOTA_Item_Havoc_of_the_Hydras_Scorn__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/medusa_gorgona_arms/medusa_gorgona_arms.vmdl"
+        },
+        {
+          "name": "Havoc of the Hydra's Scorn - Armor",
+          "id": "26747",
+          "item_name": "#DOTA_Item_Havoc_of_the_Hydras_Scorn__Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/medusa_gorgona_armor/medusa_gorgona_armor.vmdl"
+        },
+        {
+          "name": "Havoc of the Hydra's Scorn - Head",
+          "id": "26746",
+          "item_name": "#DOTA_Item_Havoc_of_the_Hydras_Scorn__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/medusa_gorgona_head/medusa_gorgona_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Jewels_of_Anamnessa",
+      "store_bundle": "Jewels of Anamnessa",
+      "portrait_image": "econ/sets/v2/jewels_of_anamnessa",
+      "items": [
+        {
+          "name": "Jewels of Anamnessa - Armor",
+          "id": "18221",
+          "item_name": "#DOTA_Item_Jewels_of_Anamnessa__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical",
+          "model_player": "models/items/medusa/jewelled_splendor_armor/jewelled_splendor_armor.vmdl"
+        },
+        {
+          "name": "Jewels of Anamnessa - Arms",
+          "id": "18220",
+          "item_name": "#DOTA_Item_Jewels_of_Anamnessa__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/medusa/jewelled_splendor_arms/jewelled_splendor_arms.vmdl"
+        },
+        {
+          "name": "Jewels of Anamnessa - Head",
+          "id": "18219",
+          "item_name": "#DOTA_Item_Jewels_of_Anamnessa__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/medusa/jewelled_splendor_head/jewelled_splendor_head.vmdl"
+        },
+        {
+          "name": "Jewels of Anamnessa - Tail",
+          "id": "18217",
+          "item_name": "#DOTA_Item_Jewels_of_Anamnessa__Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/medusa/jewelled_splendor_tail/jewelled_splendor_tail.vmdl"
+        },
+        {
+          "name": "Jewels of Anamnessa - Weapon",
+          "id": "18188",
+          "item_name": "#DOTA_Item_Jewels_of_Anamnessa__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/medusa/jewelled_splendor_weapon/jewelled_splendor_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Memories_of_the_Vow_Eternal",
+      "store_bundle": "Memories of the Vow Eternal",
+      "portrait_image": "econ/sets/v2/memories_of_the_vow_eternal",
+      "items": [
+        {
+          "name": "Bow of the Vow Eternal",
+          "id": "12626",
+          "item_name": "#DOTA_Item_Bow_of_the_Vow_Eternal",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/medusa/dotaplus_medusa_weapon/dotaplus_medusa_weapon.vmdl"
+        },
+        {
+          "name": "Armor of the Vow Eternal",
+          "id": "12625",
+          "item_name": "#DOTA_Item_Armor_of_the_Vow_Eternal",
+          "item_slot": "armor",
+          "item_rarity": "mythical",
+          "model_player": "models/items/medusa/dotaplus_medusa_body/dotaplus_medusa_body.vmdl"
+        },
+        {
+          "name": "Tail of the Vow Eternal",
+          "id": "12624",
+          "item_name": "#DOTA_Item_Tail_of_the_Vow_Eternal",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/medusa/dotaplus_medusa_tail/dotaplus_medusa_tail.vmdl"
+        },
+        {
+          "name": "Mask of the Vow Eternal",
+          "id": "12623",
+          "item_name": "#DOTA_Item_Mask_of_the_Vow_Eternal",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/medusa/dotaplas_medusa_head/dotaplas_medusa_head.vmdl"
+        },
+        {
+          "name": "Arms of the Vow Eternal",
+          "id": "12622",
+          "item_name": "#DOTA_Item_Arms_of_the_Vow_Eternal",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/medusa/dotaplus_medusa_arms/dotaplus_medusa_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Obsidian_Ophis",
+      "store_bundle": "Obsidian Ophis",
+      "portrait_image": "econ/sets/v2/obsidian_ophis",
+      "items": [
+        {
+          "name": "Obsidian Ophis - Weapon",
+          "id": "32660",
+          "item_name": "#DOTA_Item_Obsidian_Ophis__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/bow_obsidian_basilisk_from_aziyog/bow_obsidian_basilisk_from_aziyog.vmdl"
+        },
+        {
+          "name": "Obsidian Ophis - Arms",
+          "id": "32661",
+          "item_name": "#DOTA_Item_Obsidian_Ophis__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/bracers_obsidian_basilisk_from_aziyog/bracers_obsidian_basilisk_from_aziyog.vmdl"
+        },
+        {
+          "name": "Obsidian Ophis - Head",
+          "id": "32662",
+          "item_name": "#DOTA_Item_Obsidian_Ophis__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/head_obsidian_basilisk_from_aziyog/head_obsidian_basilisk_from_aziyog.vmdl"
+        },
+        {
+          "name": "Obsidian Ophis - Armor",
+          "id": "32663",
+          "item_name": "#DOTA_Item_Obsidian_Ophis__Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/wings_armor_obsidian_basilisk_from_aziyog/wings_armor_obsidian_basilisk_from_aziyog.vmdl"
+        },
+        {
+          "name": "Obsidian Ophis - Tail",
+          "id": "32664",
+          "item_name": "#DOTA_Item_Obsidian_Ophis__Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/tail_obsidian_basilisk_from_aziyog/tail_obsidian_basilisk_from_aziyog.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Piercing_Grace",
+      "store_bundle": "Piercing Grace",
+      "portrait_image": "econ/sets/v2/piercing_grace",
+      "items": [
+        {
+          "name": "Piercing Grace - Head",
+          "id": "23749",
+          "item_name": "#DOTA_Item_Piercing_Grace__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/ti8_medusa_snake_and_scorpion_head/ti8_medusa_snake_and_scorpion_head.vmdl"
+        },
+        {
+          "name": "Piercing Grace - Armor",
+          "id": "23748",
+          "item_name": "#DOTA_Item_Piercing_Grace__Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/ti8_medusa_snake_and_scorpion_armor/ti8_medusa_snake_and_scorpion_armor.vmdl"
+        },
+        {
+          "name": "Piercing Grace - Arms",
+          "id": "23747",
+          "item_name": "#DOTA_Item_Piercing_Grace__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/ti8_medusa_snake_and_scorpion_arms/ti8_medusa_snake_and_scorpion_arms.vmdl"
+        },
+        {
+          "name": "Piercing Grace - Weapon",
+          "id": "23746",
+          "item_name": "#DOTA_Item_Piercing_Grace__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/ti8_medusa_snake_and_scorpion_weapon/ti8_medusa_snake_and_scorpion_weapon.vmdl"
+        },
+        {
+          "name": "Piercing Grace - Tail",
+          "id": "23745",
+          "item_name": "#DOTA_Item_Piercing_Grace__Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/ti8_medusa_snake_and_scorpion_tail/ti8_medusa_snake_and_scorpion_tail.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Serpent_of_the_Emerald_Sea",
+      "store_bundle": "Serpent of the Emerald Sea",
+      "portrait_image": "econ/sets/v2/serpent_of_the_emerald_sea",
+      "items": [
+        {
+          "name": "Crown of the Emerald Sea",
+          "id": "8716",
+          "item_name": "#DOTA_Item_Crown_of_the_Emerald_Sea",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/medusa/emerald_ocean_crown/emerald_ocean_crown.vmdl"
+        },
+        {
+          "name": "Heart of the Emerald Sea",
+          "id": "8717",
+          "item_name": "#DOTA_Item_Heart_of_the_Emerald_Sea",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/medusa/emerald_ocean_weapon/emerald_ocean_weapon.vmdl"
+        },
+        {
+          "name": "Armor of the Emerald Sea",
+          "id": "8718",
+          "item_name": "#DOTA_Item_Armor_of_the_Emerald_Sea",
+          "item_slot": "armor",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/medusa/emerald_ocean_armor/emerald_ocean_armor.vmdl"
+        },
+        {
+          "name": "Whip of the Emerald Sea",
+          "id": "8719",
+          "item_name": "#DOTA_Item_Whip_of_the_Emerald_Sea",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/medusa/emerald_ocean_tail_lvl_01/emerald_ocean_tail_lvl_01.vmdl"
+        },
+        {
+          "name": "Bracelets of the Emerald Sea",
+          "id": "8715",
+          "item_name": "#DOTA_Item_Bracelets_of_the_Emerald_Sea",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/medusa/emerald_ocean_arms/emerald_ocean_arms.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "381",
+      "name": "Medusa's Bow",
+      "item_name": "#DOTA_Item_Medusas_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/medusa/medusa_bow.vmdl"
+    },
+    {
+      "id": "382",
+      "name": "Medusa's Veil",
+      "item_name": "#DOTA_Item_Medusas_Veil",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/medusa/medusa_veil.vmdl"
+    },
+    {
+      "id": "383",
+      "name": "Medusa's Chest Armor",
+      "item_name": "#DOTA_Item_Medusas_Chest_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/medusa/medusa_torso.vmdl"
+    },
+    {
+      "id": "384",
+      "name": "Medusa's Bracers",
+      "item_name": "#DOTA_Item_Medusas_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/medusa/medusa_arms.vmdl"
+    },
+    {
+      "id": "385",
+      "name": "Medusa's Tail",
+      "item_name": "#DOTA_Item_Medusas_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/medusa/medusa_tail.vmdl"
+    },
+    {
+      "id": "531",
+      "name": "Medusa's Ambient Effects",
+      "item_name": "#DOTA_Item_Medusas_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "5004",
+      "name": "Bracers of Forsaken Beauty",
+      "item_name": "#DOTA_Item_Bracers_of_Forsaken_Beauty",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/forsaken_beauty_arms/forsaken_beauty_arms.vmdl"
+    },
+    {
+      "id": "5005",
+      "name": "Bow of Forsaken Beauty",
+      "item_name": "#DOTA_Item_Bow_of_Forsaken_Beauty",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/forsaken_beauty_bow/forsaken_beauty_bow.vmdl"
+    },
+    {
+      "id": "5006",
+      "name": "Blouse of Forsaken Beauty",
+      "item_name": "#DOTA_Item_Blouse_of_Forsaken_Beauty",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/forsaken_beauty_chest/forsaken_beauty_chest.vmdl"
+    },
+    {
+      "id": "5007",
+      "name": "Circlet of Forsaken Beauty",
+      "item_name": "#DOTA_Item_Circlet_of_Forsaken_Beauty",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/forsaken_beauty_head/forsaken_beauty_head.vmdl"
+    },
+    {
+      "id": "5008",
+      "name": "Sweep of Forsaken Beauty",
+      "item_name": "#DOTA_Item_Sweep_of_Forsaken_Beauty",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/forsaken_beauty_tail/forsaken_beauty_tail.vmdl"
+    },
+    {
+      "id": "5097",
+      "name": "Twin Serpent Bow",
+      "item_name": "#DOTA_Item_Twin_Serpent_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/twin_serpent_bow/twin_serpent_bow.vmdl"
+    },
+    {
+      "id": "5697",
+      "name": "Bow of the Serpent",
+      "item_name": "#DOTA_Item_Bow_of_the_Serpent",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/bow_of_the_serpent/bow_of_the_serpent.vmdl"
+    },
+    {
+      "id": "7911",
+      "name": "Daughters of Hydrophiinae",
+      "item_name": "#DOTA_Item_Daughters_of_Hydrophiinae",
+      "item_slot": "armor",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/daughters_of_hydrophiinae/daughters_of_hydrophiinae.vmdl"
+    },
+    {
+      "id": "8191",
+      "name": "Bow of the Beholder",
+      "item_name": "#DOTA_Item_Bow_of_the_Beholder",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/blueice_weapon/blueice_weapon.vmdl"
+    },
+    {
+      "id": "8193",
+      "name": "Armor of the Beholder",
+      "item_name": "#DOTA_Item_Armor_of_the_Beholder",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/blueice_armor/blueice_armor.vmdl"
+    },
+    {
+      "id": "8194",
+      "name": "Bracers of the Beholder",
+      "item_name": "#DOTA_Item_Bracers_of_the_Beholder",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/blueice_arms/blueice_arms.vmdl"
+    },
+    {
+      "id": "8195",
+      "name": "Helm of the Beholder",
+      "item_name": "#DOTA_Item_Helm_of_the_Beholder",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/blueice_head/blueice_head.vmdl"
+    },
+    {
+      "id": "8196",
+      "name": "Tail of the Beholder",
+      "item_name": "#DOTA_Item_Tail_of_the_Beholder",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/blueice_tail/blueice_tail.vmdl"
+    },
+    {
+      "id": "8715",
+      "name": "Bracelets of the Emerald Sea",
+      "item_name": "#DOTA_Item_Bracelets_of_the_Emerald_Sea",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/emerald_ocean_arms/emerald_ocean_arms.vmdl"
+    },
+    {
+      "id": "8716",
+      "name": "Crown of the Emerald Sea",
+      "item_name": "#DOTA_Item_Crown_of_the_Emerald_Sea",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/emerald_ocean_crown/emerald_ocean_crown.vmdl"
+    },
+    {
+      "id": "8717",
+      "name": "Heart of the Emerald Sea",
+      "item_name": "#DOTA_Item_Heart_of_the_Emerald_Sea",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/emerald_ocean_weapon/emerald_ocean_weapon.vmdl"
+    },
+    {
+      "id": "8718",
+      "name": "Armor of the Emerald Sea",
+      "item_name": "#DOTA_Item_Armor_of_the_Emerald_Sea",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/emerald_ocean_armor/emerald_ocean_armor.vmdl"
+    },
+    {
+      "id": "8719",
+      "name": "Whip of the Emerald Sea",
+      "item_name": "#DOTA_Item_Whip_of_the_Emerald_Sea",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/emerald_ocean_tail_lvl_01/emerald_ocean_tail_lvl_01.vmdl"
+    },
+    {
+      "id": "12567",
+      "name": "Taunt: Creep Creations",
+      "item_name": "#DOTA_Item_Taunt_Creep_Creations",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "taunt"
+    },
+    {
+      "id": "12622",
+      "name": "Arms of the Vow Eternal",
+      "item_name": "#DOTA_Item_Arms_of_the_Vow_Eternal",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/dotaplus_medusa_arms/dotaplus_medusa_arms.vmdl"
+    },
+    {
+      "id": "12623",
+      "name": "Mask of the Vow Eternal",
+      "item_name": "#DOTA_Item_Mask_of_the_Vow_Eternal",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/dotaplas_medusa_head/dotaplas_medusa_head.vmdl"
+    },
+    {
+      "id": "12624",
+      "name": "Tail of the Vow Eternal",
+      "item_name": "#DOTA_Item_Tail_of_the_Vow_Eternal",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/dotaplus_medusa_tail/dotaplus_medusa_tail.vmdl"
+    },
+    {
+      "id": "12625",
+      "name": "Armor of the Vow Eternal",
+      "item_name": "#DOTA_Item_Armor_of_the_Vow_Eternal",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/dotaplus_medusa_body/dotaplus_medusa_body.vmdl"
+    },
+    {
+      "id": "12626",
+      "name": "Bow of the Vow Eternal",
+      "item_name": "#DOTA_Item_Bow_of_the_Vow_Eternal",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/dotaplus_medusa_weapon/dotaplus_medusa_weapon.vmdl"
+    },
+    {
+      "id": "13778",
+      "name": "Fate of Hydrophiinae",
+      "item_name": "#DOTA_Item_Fate_of_Hydrophiinae",
+      "item_slot": "tail",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/medusa_ti10_immortal_tail/medusa_ti10_immortal_tail.vmdl"
+    },
+    {
+      "id": "14737",
+      "name": "Convalescing Empress Bow",
+      "item_name": "#DOTA_Item_Convalescing_Empress_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/medusa_the_goddess_nuwa_weapon/medusa_the_goddess_nuwa_weapon.vmdl"
+    },
+    {
+      "id": "14738",
+      "name": "Convalescing Empress Head",
+      "item_name": "#DOTA_Item_Convalescing_Empress_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/medusa_the_goddess_nuwa_head/medusa_the_goddess_nuwa_head.vmdl"
+    },
+    {
+      "id": "14739",
+      "name": "Convalescing Empress Armor",
+      "item_name": "#DOTA_Item_Convalescing_Empress_Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/medusa_the_goddess_nuwa_armor/medusa_the_goddess_nuwa_armor.vmdl"
+    },
+    {
+      "id": "14740",
+      "name": "Convalescing Empress Tail",
+      "item_name": "#DOTA_Item_Convalescing_Empress_Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/medusa_the_goddess_nuwa_tail/medusa_the_goddess_nuwa_tail.vmdl"
+    },
+    {
+      "id": "14741",
+      "name": "Convalescing Empress Arms",
+      "item_name": "#DOTA_Item_Convalescing_Empress_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/medusa_the_goddess_nuwa_arms/medusa_the_goddess_nuwa_arms.vmdl"
+    },
+    {
+      "id": "18188",
+      "name": "Jewels of Anamnessa - Weapon",
+      "item_name": "#DOTA_Item_Jewels_of_Anamnessa__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/jewelled_splendor_weapon/jewelled_splendor_weapon.vmdl"
+    },
+    {
+      "id": "18217",
+      "name": "Jewels of Anamnessa - Tail",
+      "item_name": "#DOTA_Item_Jewels_of_Anamnessa__Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/jewelled_splendor_tail/jewelled_splendor_tail.vmdl"
+    },
+    {
+      "id": "18219",
+      "name": "Jewels of Anamnessa - Head",
+      "item_name": "#DOTA_Item_Jewels_of_Anamnessa__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/jewelled_splendor_head/jewelled_splendor_head.vmdl"
+    },
+    {
+      "id": "18220",
+      "name": "Jewels of Anamnessa - Arms",
+      "item_name": "#DOTA_Item_Jewels_of_Anamnessa__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/jewelled_splendor_arms/jewelled_splendor_arms.vmdl"
+    },
+    {
+      "id": "18221",
+      "name": "Jewels of Anamnessa - Armor",
+      "item_name": "#DOTA_Item_Jewels_of_Anamnessa__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/jewelled_splendor_armor/jewelled_splendor_armor.vmdl"
+    },
+    {
+      "id": "18264",
+      "name": "Aghs BP Bracelets of the Emerald Sea",
+      "item_name": "#DOTA_Item_Aghs_BP_Bracelets_of_the_Emerald_Sea",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/emerald_ocean_arms/emerald_ocean_arms.vmdl"
+    },
+    {
+      "id": "18265",
+      "name": "Aghs BP Crown of the Emerald Sea",
+      "item_name": "#DOTA_Item_Aghs_BP_Crown_of_the_Emerald_Sea",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/emerald_ocean_crown/emerald_ocean_crown.vmdl"
+    },
+    {
+      "id": "18266",
+      "name": "Aghs BP Armor of the Emerald Sea",
+      "item_name": "#DOTA_Item_Aghs_BP_Armor_of_the_Emerald_Sea",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/emerald_ocean_armor/emerald_ocean_armor.vmdl"
+    },
+    {
+      "id": "18267",
+      "name": "Aghs BP Heart of the Emerald Sea",
+      "item_name": "#DOTA_Item_Aghs_BP_Heart_of_the_Emerald_Sea",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/emerald_ocean_weapon/emerald_ocean_weapon.vmdl"
+    },
+    {
+      "id": "18268",
+      "name": "Aghs BP Whip of the Emerald Sea",
+      "item_name": "#DOTA_Item_Aghs_BP_Whip_of_the_Emerald_Sea",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/emerald_ocean_tail_lvl_02/emerald_ocean_tail_lvl_02.vmdl"
+    },
+    {
+      "id": "20181",
+      "name": "Forsaken Beauty Set",
+      "item_name": "#DOTA_Item_Forsaken_Beauty_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20781",
+      "name": "i League Season 3",
+      "item_name": "#DOTA_Item_i_League_Season_3",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20807",
+      "name": "Serpent of the Emerald Sea",
+      "item_name": "#DOTA_Item_Serpent_of_the_Emerald_Sea",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20874",
+      "name": "Eye of the Beholder",
+      "item_name": "#DOTA_Item_Eye_of_the_Beholder",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21106",
+      "name": "Memories of the Vow Eternal",
+      "item_name": "#DOTA_Item_Memories_of_the_Vow_Eternal",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21582",
+      "name": "Convalescing Empress",
+      "item_name": "#DOTA_Item_Convalescing_Empress",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21765",
+      "name": "Jewels of Anamnessa",
+      "item_name": "#DOTA_Item_Jewels_of_Anamnessa",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22280",
+      "name": "Aghs BP Serpent of the Emerald Sea",
+      "item_name": "#DOTA_Item_Aghs_BP_Serpent_of_the_Emerald_Sea",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23745",
+      "name": "Piercing Grace - Tail",
+      "item_name": "#DOTA_Item_Piercing_Grace__Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/ti8_medusa_snake_and_scorpion_tail/ti8_medusa_snake_and_scorpion_tail.vmdl"
+    },
+    {
+      "id": "23746",
+      "name": "Piercing Grace - Weapon",
+      "item_name": "#DOTA_Item_Piercing_Grace__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/ti8_medusa_snake_and_scorpion_weapon/ti8_medusa_snake_and_scorpion_weapon.vmdl"
+    },
+    {
+      "id": "23747",
+      "name": "Piercing Grace - Arms",
+      "item_name": "#DOTA_Item_Piercing_Grace__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/ti8_medusa_snake_and_scorpion_arms/ti8_medusa_snake_and_scorpion_arms.vmdl"
+    },
+    {
+      "id": "23748",
+      "name": "Piercing Grace - Armor",
+      "item_name": "#DOTA_Item_Piercing_Grace__Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/ti8_medusa_snake_and_scorpion_armor/ti8_medusa_snake_and_scorpion_armor.vmdl"
+    },
+    {
+      "id": "23749",
+      "name": "Piercing Grace - Head",
+      "item_name": "#DOTA_Item_Piercing_Grace__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/ti8_medusa_snake_and_scorpion_head/ti8_medusa_snake_and_scorpion_head.vmdl"
+    },
+    {
+      "id": "23750",
+      "name": "Piercing Grace",
+      "item_name": "#DOTA_Item_Piercing_Grace",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23774",
+      "name": "Headdress of the Death Adder",
+      "item_name": "#DOTA_Item_Headdress_of_the_Death_Adder",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/medusa_calavera/medusa_calavera_head.vmdl"
+    },
+    {
+      "id": "23787",
+      "name": "Wings of the Death Adder",
+      "item_name": "#DOTA_Item_Wings_of_the_Death_Adder",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/medusa_calavera/medusa_calavera_shoulders.vmdl"
+    },
+    {
+      "id": "23791",
+      "name": "Band of the Death Adder",
+      "item_name": "#DOTA_Item_Band_of_the_Death_Adder",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/medusa_calavera/medusa_calavera_arm.vmdl"
+    },
+    {
+      "id": "23792",
+      "name": "Tail of the Death Adder",
+      "item_name": "#DOTA_Item_Tail_of_the_Death_Adder",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/medusa_calavera/medusa_calavera_tail.vmdl"
+    },
+    {
+      "id": "23793",
+      "name": "Bow of the Death Adder",
+      "item_name": "#DOTA_Item_Bow_of_the_Death_Adder",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/medusa_calavera/medusa_calavera_bow.vmdl"
+    },
+    {
+      "id": "23795",
+      "name": "Death Adder",
+      "item_name": "#DOTA_Item_Death_Adder",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "24090",
+      "name": "Fate of Hydrophiinae of the Crimson Witness",
+      "item_name": "#DOTA_Item_Fate_of_Hydrophiinae_of_the_Crimson_Witness",
+      "item_slot": "tail",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/medusa_ti10_immortal_tail/medusa_ti10_immortal_tail.vmdl"
+    },
+    {
+      "id": "26746",
+      "name": "Havoc of the Hydra's Scorn - Head",
+      "item_name": "#DOTA_Item_Havoc_of_the_Hydras_Scorn__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/medusa_gorgona_head/medusa_gorgona_head.vmdl"
+    },
+    {
+      "id": "26747",
+      "name": "Havoc of the Hydra's Scorn - Armor",
+      "item_name": "#DOTA_Item_Havoc_of_the_Hydras_Scorn__Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/medusa_gorgona_armor/medusa_gorgona_armor.vmdl"
+    },
+    {
+      "id": "26748",
+      "name": "Havoc of the Hydra's Scorn - Arms",
+      "item_name": "#DOTA_Item_Havoc_of_the_Hydras_Scorn__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/medusa_gorgona_arms/medusa_gorgona_arms.vmdl"
+    },
+    {
+      "id": "26749",
+      "name": "Havoc of the Hydra's Scorn - Tail",
+      "item_name": "#DOTA_Item_Havoc_of_the_Hydras_Scorn__Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/medusa_gorgona_tail/medusa_gorgona_tail.vmdl"
+    },
+    {
+      "id": "26750",
+      "name": "Havoc of the Hydra's Scorn - Weapon",
+      "item_name": "#DOTA_Item_Havoc_of_the_Hydras_Scorn__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/medusa_gorgona_weapon/medusa_gorgona_weapon.vmdl"
+    },
+    {
+      "id": "26796",
+      "name": "Havoc of the Hydra's Scorn",
+      "item_name": "#DOTA_Item_Havoc_of_the_Hydras_Scorn",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "32659",
+      "name": "Obsidian Ophis",
+      "item_name": "#DOTA_Item_Obsidian_Ophis",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "32660",
+      "name": "Obsidian Ophis - Weapon",
+      "item_name": "#DOTA_Item_Obsidian_Ophis__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/bow_obsidian_basilisk_from_aziyog/bow_obsidian_basilisk_from_aziyog.vmdl"
+    },
+    {
+      "id": "32661",
+      "name": "Obsidian Ophis - Arms",
+      "item_name": "#DOTA_Item_Obsidian_Ophis__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/bracers_obsidian_basilisk_from_aziyog/bracers_obsidian_basilisk_from_aziyog.vmdl"
+    },
+    {
+      "id": "32662",
+      "name": "Obsidian Ophis - Head",
+      "item_name": "#DOTA_Item_Obsidian_Ophis__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/head_obsidian_basilisk_from_aziyog/head_obsidian_basilisk_from_aziyog.vmdl"
+    },
+    {
+      "id": "32663",
+      "name": "Obsidian Ophis - Armor",
+      "item_name": "#DOTA_Item_Obsidian_Ophis__Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/wings_armor_obsidian_basilisk_from_aziyog/wings_armor_obsidian_basilisk_from_aziyog.vmdl"
+    },
+    {
+      "id": "32664",
+      "name": "Obsidian Ophis - Tail",
+      "item_name": "#DOTA_Item_Obsidian_Ophis__Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/medusa/tail_obsidian_basilisk_from_aziyog/tail_obsidian_basilisk_from_aziyog.vmdl"
+    }
+  ]
+}

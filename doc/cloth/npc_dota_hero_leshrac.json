@@ -1,0 +1,1081 @@
+{
+  "defaults": {
+    "back": {
+      "id": "345",
+      "name": "Leshrac's Armor",
+      "item_name": "#DOTA_Item_Leshracs_Armor",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/leshrac/leshrac_armor.vmdl"
+    },
+    "head": {
+      "id": "346",
+      "name": "Leshrac's Head",
+      "item_name": "#DOTA_Item_Leshracs_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/leshrac/leshrac_head.vmdl"
+    },
+    "tail": {
+      "id": "347",
+      "name": "Leshrac's Tail",
+      "item_name": "#DOTA_Item_Leshracs_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "model_player": "models/heroes/leshrac/leshrac_tail.vmdl"
+    },
+    "ambient_effects": {
+      "id": "529",
+      "name": "Leshrac's Ambient Effects",
+      "item_name": "#DOTA_Item_Leshracs_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    },
+    "misc": {
+      "id": "570",
+      "name": "Leshrac's Miscellaneous",
+      "item_name": "#DOTA_Item_Leshracs_Miscellaneous",
+      "item_slot": "misc",
+      "item_rarity": "common"
+    },
+    "weapon": {
+      "id": "591",
+      "name": "Leshrac's Weapon",
+      "item_name": "#DOTA_Item_Leshracs_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Fruits_of_Wane",
+      "store_bundle": "Fruits of Wane",
+      "portrait_image": "econ/sets/v2/fruits_of_wane",
+      "items": [
+        {
+          "name": "Fruits of Wane - Back",
+          "id": "14216",
+          "item_name": "#DOTA_Item_Fruits_of_Wane__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/dark_forest_punisher_back/dark_forest_punisher_back.vmdl"
+        },
+        {
+          "name": "Fruits of Wane - Misc",
+          "id": "14215",
+          "item_name": "#DOTA_Item_Fruits_of_Wane__Misc",
+          "item_slot": "misc",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/dark_forest_punisher_misc/dark_forest_punisher_misc.vmdl"
+        },
+        {
+          "name": "Fruits of Wane - Tail",
+          "id": "14214",
+          "item_name": "#DOTA_Item_Fruits_of_Wane__Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/dark_forest_punisher_tail/dark_forest_punisher_tail.vmdl"
+        },
+        {
+          "name": "Fruits of Wane - Weapon",
+          "id": "14213",
+          "item_name": "#DOTA_Item_Fruits_of_Wane__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/dark_forest_punisher_weapon/dark_forest_punisher_weapon.vmdl"
+        },
+        {
+          "name": "Fruits of Wane - Head",
+          "id": "14212",
+          "item_name": "#DOTA_Item_Fruits_of_Wane__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/dark_forest_punisher_head/dark_forest_punisher_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ire_of_the_Hinterlands",
+      "store_bundle": "Ire of the Hinterlands",
+      "portrait_image": "econ/sets/v2/ire_of_the_hinterlands",
+      "items": [
+        {
+          "name": "Ire of the Hinterlands Back",
+          "id": "12877",
+          "item_name": "#DOTA_Item_Ire_of_the_Hinterlands_Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/frostivus2018_leshrac_frost_unicorn_back/frostivus2018_leshrac_frost_unicorn_back.vmdl"
+        },
+        {
+          "name": "Ire of the Hinterlands Crown",
+          "id": "12876",
+          "item_name": "#DOTA_Item_Ire_of_the_Hinterlands_Crown",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/frostivus2018_leshrac_frost_unicorn_head/frostivus2018_leshrac_frost_unicorn_head.vmdl"
+        },
+        {
+          "name": "Ire of the Hinterlands Garb",
+          "id": "12875",
+          "item_name": "#DOTA_Item_Ire_of_the_Hinterlands_Garb",
+          "item_slot": "misc",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/frostivus2018_leshrac_frost_unicorn_misc/frostivus2018_leshrac_frost_unicorn_misc.vmdl"
+        },
+        {
+          "name": "Ire of the Hinterlands Tail",
+          "id": "12874",
+          "item_name": "#DOTA_Item_Ire_of_the_Hinterlands_Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/frostivus2018_leshrac_frost_unicorn_tail/frostivus2018_leshrac_frost_unicorn_tail.vmdl"
+        },
+        {
+          "name": "Ire of the Hinterlands Staff",
+          "id": "12878",
+          "item_name": "#DOTA_Item_Ire_of_the_Hinterlands_Staff",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/frostivus2018_leshrac_frost_unicorn_weapon/frostivus2018_leshrac_frost_unicorn_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Force_of_Kylin",
+      "store_bundle": "Force of Kylin",
+      "portrait_image": "econ/sets/v2/leshrac_force_of_kylin",
+      "items": [
+        {
+          "name": "Force of Kylin Back",
+          "id": "17780",
+          "item_name": "#DOTA_Item_Force_of_Kylin_Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/force_of_kylin_back/force_of_kylin_back.vmdl"
+        },
+        {
+          "name": "Force of Kylin Head",
+          "id": "17779",
+          "item_name": "#DOTA_Item_Force_of_Kylin_Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/force_of_kylin_head/force_of_kylin_head.vmdl"
+        },
+        {
+          "name": "Force of Kylin Tail",
+          "id": "17777",
+          "item_name": "#DOTA_Item_Force_of_Kylin_Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/force_of_kylin_tail/force_of_kylin_tail.vmdl"
+        },
+        {
+          "name": "Force of Kylin Weapon",
+          "id": "17776",
+          "item_name": "#DOTA_Item_Force_of_Kylin_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/force_of_kylin_weapon/force_of_kylin_weapon.vmdl"
+        },
+        {
+          "name": "Force of Kylin Bracers",
+          "id": "17778",
+          "item_name": "#DOTA_Item_Force_of_Kylin_Bracers",
+          "item_slot": "misc",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/force_of_kylin_misc/force_of_kylin_misc.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Leshrac_Thunder_Griffin",
+      "store_bundle": "Leshrac Thunder Griffin",
+      "portrait_image": "econ/sets/v2/leshrac_leshrac_thunder_griffin",
+      "items": [
+        {
+          "name": "Leshrac Thunder Griffin Head",
+          "id": "14432",
+          "item_name": "#DOTA_Item_Vote_Only_Leshrac_Thunder_Griffin_Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/leshrac/leshrac_thunder_griffin_head/leshrac_thunder_griffin_head.vmdl"
+        },
+        {
+          "name": "Leshrac Thunder Griffin Back",
+          "id": "14433",
+          "item_name": "#DOTA_Item_Vote_Only_Leshrac_Thunder_Griffin_Back",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/leshrac/leshrac_thunder_griffin_back/leshrac_thunder_griffin_back.vmdl"
+        },
+        {
+          "name": "Leshrac Thunder Griffin Misc",
+          "id": "14431",
+          "item_name": "#DOTA_Item_Vote_Only_Leshrac_Thunder_Griffin_Misc",
+          "item_slot": "misc",
+          "item_rarity": "common",
+          "model_player": "models/items/leshrac/leshrac_thunder_griffin_misc/leshrac_thunder_griffin_misc.vmdl"
+        },
+        {
+          "name": "Leshrac Thunder Griffin Tail",
+          "id": "14430",
+          "item_name": "#DOTA_Item_Vote_Only_Leshrac_Thunder_Griffin_Tail",
+          "item_slot": "tail",
+          "item_rarity": "common",
+          "model_player": "models/items/leshrac/leshrac_thunder_griffin_tail/leshrac_thunder_griffin_tail.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Lord_of_Chronoptic_Synthesis",
+      "store_bundle": "Lord of Chronoptic Synthesis",
+      "portrait_image": "econ/sets/v2/lord_of_chronopitc_synthesis",
+      "items": [
+        {
+          "name": "Rod of Chronoptic Synthesis",
+          "id": "7447",
+          "item_name": "#DOTA_Item_Rod_of_Chronoptic_Synthesis",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/dc_synthesis_weapon/dc_synthesis_weapon.vmdl"
+        },
+        {
+          "name": "Cluster of Chronoptic Synthesis",
+          "id": "7448",
+          "item_name": "#DOTA_Item_Cluster_of_Chronoptic_Synthesis",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/leshrac/dc_synthesis_back/dc_synthesis_back.vmdl"
+        },
+        {
+          "name": "Helm of Chronoptic Synthesis",
+          "id": "7449",
+          "item_name": "#DOTA_Item_Helm_of_Chronoptic_Synthesis",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/dc_synthesis_head/dc_synthesis_head.vmdl"
+        },
+        {
+          "name": "Tail of Chronoptic Synthesis",
+          "id": "7451",
+          "item_name": "#DOTA_Item_Tail_of_Chronoptic_Synthesis",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/dc_synthesis_tail/dc_synthesis_tail.vmdl"
+        },
+        {
+          "name": "Shards of Chronoptic Synthesis",
+          "id": "7450",
+          "item_name": "#DOTA_Item_Shards_of_Chronoptic_Synthesis",
+          "item_slot": "misc",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/leshrac/dc_synthesis_misc/dc_synthesis_misc.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Oath_of_the_Afflicted_Soul",
+      "store_bundle": "Oath of the Afflicted Soul",
+      "portrait_image": "econ/sets/v2/oath_of_the_afflicted_soul",
+      "items": [
+        {
+          "name": "Prongs of the Afflicted Soul ",
+          "id": "8110",
+          "item_name": "#DOTA_Item_Prongs_of_the_Afflicted_Soul_",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/bts_ethereal_guardian_head/bts_ethereal_guardian_head.vmdl"
+        },
+        {
+          "name": "Spines of the Afflicted Soul ",
+          "id": "8113",
+          "item_name": "#DOTA_Item_Spines_of_the_Afflicted_Soul_",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/bts_ethereal_guardian_back/bts_ethereal_guardian_back.vmdl"
+        },
+        {
+          "name": "Cord of the Afflicted Soul ",
+          "id": "8112",
+          "item_name": "#DOTA_Item_Cord_of_the_Afflicted_Soul_",
+          "item_slot": "tail",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/leshrac/bts_ethereal_guardian_tail/bts_ethereal_guardian_tail.vmdl"
+        },
+        {
+          "name": "Growths of the Afflicted Soul ",
+          "id": "8111",
+          "item_name": "#DOTA_Item_Growths_of_the_Afflicted_Soul_",
+          "item_slot": "misc",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/leshrac/bts_ethereal_guardian_misc/bts_ethereal_guardian_misc.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Seed_of_Sorrow",
+      "store_bundle": "Seed of Sorrow",
+      "portrait_image": "econ/sets/v2/seed_of_sorrow",
+      "items": [
+        {
+          "name": "Seed of Sorrow - Back",
+          "id": "25702",
+          "item_name": "#DOTA_Item_Seed_of_Sorrow__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/leshrac_keeper_of_the_caves_back/leshrac_keeper_of_the_caves_back.vmdl"
+        },
+        {
+          "name": "Seed of Sorrow - Head",
+          "id": "25707",
+          "item_name": "#DOTA_Item_Seed_of_Sorrow__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/leshrac_keeper_of_the_caves_head/leshrac_keeper_of_the_caves_head.vmdl"
+        },
+        {
+          "name": "Seed of Sorrow - Misc",
+          "id": "25734",
+          "item_name": "#DOTA_Item_Seed_of_Sorrow__Misc",
+          "item_slot": "misc",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/leshrac_keeper_of_the_caves_misc/leshrac_keeper_of_the_caves_misc.vmdl"
+        },
+        {
+          "name": "Seed of Sorrow - Tail",
+          "id": "25735",
+          "item_name": "#DOTA_Item_Seed_of_Sorrow__Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/leshrac_keeper_of_the_caves_tail/leshrac_keeper_of_the_caves_tail.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Spirethorn_Regalia",
+      "store_bundle": "Spirethorn Regalia",
+      "portrait_image": "econ/sets/v2/spirethorn_regalia",
+      "items": [
+        {
+          "name": "Spirethorn",
+          "id": "7734",
+          "item_name": "#DOTA_Item_Spirethorn",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon.vmdl"
+        },
+        {
+          "name": "Horns of the Spirethorn",
+          "id": "7731",
+          "item_name": "#DOTA_Item_Horns_of_the_Spirethorn",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/leshrac/darkthorn_regalia_head/darkthorn_regalia_head.vmdl"
+        },
+        {
+          "name": "Dressings of the Spirethorn",
+          "id": "7732",
+          "item_name": "#DOTA_Item_Dressings_of_the_Spirethorn",
+          "item_slot": "misc",
+          "item_rarity": "mythical",
+          "model_player": "models/items/leshrac/darkthorn_regalia_misc/darkthorn_regalia_misc.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Spirethorn",
+          "id": "7730",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Spirethorn",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/leshrac/darkthorn_regalia_back/darkthorn_regalia_back.vmdl"
+        },
+        {
+          "name": "Brush of the Spirethorn",
+          "id": "7733",
+          "item_name": "#DOTA_Item_Brush_of_the_Spirethorn",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/leshrac/darkthorn_regalia_tail/darkthorn_regalia_tail.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Thorns_of_Sundering",
+      "store_bundle": "The Thorns of Sundering Set",
+      "portrait_image": "econ/sets/v2/thorns_sundering",
+      "items": [
+        {
+          "name": "Roots of Sundering",
+          "id": "4991",
+          "item_name": "#DOTA_Item_Roots_of_Sundering",
+          "item_slot": "misc",
+          "item_rarity": "common",
+          "model_player": "models/items/leshrac/aboundedroots_thornsofsundering/aboundedroots_thornsofsundering.vmdl"
+        },
+        {
+          "name": "Plates of Sundering",
+          "id": "4990",
+          "item_name": "#DOTA_Item_Plates_of_Sundering",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/leshrac/pauldronsofsundering/pauldronsofsundering.vmdl"
+        },
+        {
+          "name": "Tail of Sundering",
+          "id": "4992",
+          "item_name": "#DOTA_Item_Tail_of_Sundering",
+          "item_slot": "tail",
+          "item_rarity": "common",
+          "model_player": "models/items/leshrac/tailofsundering/tailofsundering.vmdl"
+        },
+        {
+          "name": "Rack of Sundering",
+          "id": "4993",
+          "item_name": "#DOTA_Item_Rack_of_Sundering",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/horns_thornsofsundering/horns_thornsofsundering.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Twisted_Wisdom",
+      "store_bundle": "Twisted Wisdom Set",
+      "portrait_image": "econ/sets/v2/twisted_wisdom",
+      "items": [
+        {
+          "name": "Horns of Twisted Wisdom",
+          "id": "4840",
+          "item_name": "#DOTA_Item_Horns_of_Twisted_Wisdom",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/leshrac/horn_of_wisdom/horn_of_wisdom.vmdl"
+        },
+        {
+          "name": "Tail of Twisted Wisdom",
+          "id": "4841",
+          "item_name": "#DOTA_Item_Tail_of_Twisted_Wisdom",
+          "item_slot": "tail",
+          "item_rarity": "common",
+          "model_player": "models/items/leshrac/tail_of_fame/tail_of_fame.vmdl"
+        },
+        {
+          "name": "Armor of Twisted Wisdom",
+          "id": "4842",
+          "item_name": "#DOTA_Item_Armor_of_Twisted_Wisdom",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/leshrac/armor_of_torment/armor_of_torment.vmdl"
+        },
+        {
+          "name": "Vines of Twisted Wisdom",
+          "id": "4843",
+          "item_name": "#DOTA_Item_Vines_of_Twisted_Wisdom",
+          "item_slot": "misc",
+          "item_rarity": "common",
+          "model_player": "models/items/leshrac/vine_of_destruction/vine_of_destruction.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "345",
+      "name": "Leshrac's Armor",
+      "item_name": "#DOTA_Item_Leshracs_Armor",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/leshrac/leshrac_armor.vmdl"
+    },
+    {
+      "id": "346",
+      "name": "Leshrac's Head",
+      "item_name": "#DOTA_Item_Leshracs_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/leshrac/leshrac_head.vmdl"
+    },
+    {
+      "id": "347",
+      "name": "Leshrac's Tail",
+      "item_name": "#DOTA_Item_Leshracs_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/leshrac/leshrac_tail.vmdl"
+    },
+    {
+      "id": "529",
+      "name": "Leshrac's Ambient Effects",
+      "item_name": "#DOTA_Item_Leshracs_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "570",
+      "name": "Leshrac's Miscellaneous",
+      "item_name": "#DOTA_Item_Leshracs_Miscellaneous",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "591",
+      "name": "Leshrac's Weapon",
+      "item_name": "#DOTA_Item_Leshracs_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4453",
+      "name": "Crystalline Sickles",
+      "item_name": "#DOTA_Item_Crystalline_Sickles",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/anuxi_crystilline_sickles/anuxi_crystilline_sickles.vmdl"
+    },
+    {
+      "id": "4840",
+      "name": "Horns of Twisted Wisdom",
+      "item_name": "#DOTA_Item_Horns_of_Twisted_Wisdom",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/horn_of_wisdom/horn_of_wisdom.vmdl"
+    },
+    {
+      "id": "4841",
+      "name": "Tail of Twisted Wisdom",
+      "item_name": "#DOTA_Item_Tail_of_Twisted_Wisdom",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/tail_of_fame/tail_of_fame.vmdl"
+    },
+    {
+      "id": "4842",
+      "name": "Armor of Twisted Wisdom",
+      "item_name": "#DOTA_Item_Armor_of_Twisted_Wisdom",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/armor_of_torment/armor_of_torment.vmdl"
+    },
+    {
+      "id": "4843",
+      "name": "Vines of Twisted Wisdom",
+      "item_name": "#DOTA_Item_Vines_of_Twisted_Wisdom",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/vine_of_destruction/vine_of_destruction.vmdl"
+    },
+    {
+      "id": "4990",
+      "name": "Plates of Sundering",
+      "item_name": "#DOTA_Item_Plates_of_Sundering",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/pauldronsofsundering/pauldronsofsundering.vmdl"
+    },
+    {
+      "id": "4991",
+      "name": "Roots of Sundering",
+      "item_name": "#DOTA_Item_Roots_of_Sundering",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/aboundedroots_thornsofsundering/aboundedroots_thornsofsundering.vmdl"
+    },
+    {
+      "id": "4992",
+      "name": "Tail of Sundering",
+      "item_name": "#DOTA_Item_Tail_of_Sundering",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/tailofsundering/tailofsundering.vmdl"
+    },
+    {
+      "id": "4993",
+      "name": "Rack of Sundering",
+      "item_name": "#DOTA_Item_Rack_of_Sundering",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/horns_thornsofsundering/horns_thornsofsundering.vmdl"
+    },
+    {
+      "id": "5576",
+      "name": "Chronoptic Crown",
+      "item_name": "#DOTA_Item_Chronoptic_Crown",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/chronoptic_crown/chronoptic_crown.vmdl"
+    },
+    {
+      "id": "7447",
+      "name": "Rod of Chronoptic Synthesis",
+      "item_name": "#DOTA_Item_Rod_of_Chronoptic_Synthesis",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/dc_synthesis_weapon/dc_synthesis_weapon.vmdl"
+    },
+    {
+      "id": "7448",
+      "name": "Cluster of Chronoptic Synthesis",
+      "item_name": "#DOTA_Item_Cluster_of_Chronoptic_Synthesis",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/dc_synthesis_back/dc_synthesis_back.vmdl"
+    },
+    {
+      "id": "7449",
+      "name": "Helm of Chronoptic Synthesis",
+      "item_name": "#DOTA_Item_Helm_of_Chronoptic_Synthesis",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/dc_synthesis_head/dc_synthesis_head.vmdl"
+    },
+    {
+      "id": "7450",
+      "name": "Shards of Chronoptic Synthesis",
+      "item_name": "#DOTA_Item_Shards_of_Chronoptic_Synthesis",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/dc_synthesis_misc/dc_synthesis_misc.vmdl"
+    },
+    {
+      "id": "7451",
+      "name": "Tail of Chronoptic Synthesis",
+      "item_name": "#DOTA_Item_Tail_of_Chronoptic_Synthesis",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/dc_synthesis_tail/dc_synthesis_tail.vmdl"
+    },
+    {
+      "id": "7596",
+      "name": "Taunt: Party On?  Party Off!",
+      "item_name": "#DOTA_Item_Taunt_Party_On__Party_Off",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "taunt"
+    },
+    {
+      "id": "7730",
+      "name": "Pauldrons of the Spirethorn",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Spirethorn",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/darkthorn_regalia_back/darkthorn_regalia_back.vmdl"
+    },
+    {
+      "id": "7731",
+      "name": "Horns of the Spirethorn",
+      "item_name": "#DOTA_Item_Horns_of_the_Spirethorn",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/darkthorn_regalia_head/darkthorn_regalia_head.vmdl"
+    },
+    {
+      "id": "7732",
+      "name": "Dressings of the Spirethorn",
+      "item_name": "#DOTA_Item_Dressings_of_the_Spirethorn",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/darkthorn_regalia_misc/darkthorn_regalia_misc.vmdl"
+    },
+    {
+      "id": "7733",
+      "name": "Brush of the Spirethorn",
+      "item_name": "#DOTA_Item_Brush_of_the_Spirethorn",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/darkthorn_regalia_tail/darkthorn_regalia_tail.vmdl"
+    },
+    {
+      "id": "7734",
+      "name": "Spirethorn",
+      "item_name": "#DOTA_Item_Spirethorn",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon.vmdl"
+    },
+    {
+      "id": "8110",
+      "name": "Prongs of the Afflicted Soul ",
+      "item_name": "#DOTA_Item_Prongs_of_the_Afflicted_Soul_",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/bts_ethereal_guardian_head/bts_ethereal_guardian_head.vmdl"
+    },
+    {
+      "id": "8111",
+      "name": "Growths of the Afflicted Soul ",
+      "item_name": "#DOTA_Item_Growths_of_the_Afflicted_Soul_",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/bts_ethereal_guardian_misc/bts_ethereal_guardian_misc.vmdl"
+    },
+    {
+      "id": "8112",
+      "name": "Cord of the Afflicted Soul ",
+      "item_name": "#DOTA_Item_Cord_of_the_Afflicted_Soul_",
+      "item_slot": "tail",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/bts_ethereal_guardian_tail/bts_ethereal_guardian_tail.vmdl"
+    },
+    {
+      "id": "8113",
+      "name": "Spines of the Afflicted Soul ",
+      "item_name": "#DOTA_Item_Spines_of_the_Afflicted_Soul_",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/bts_ethereal_guardian_back/bts_ethereal_guardian_back.vmdl"
+    },
+    {
+      "id": "8612",
+      "name": "Tormented Staff",
+      "item_name": "#DOTA_Item_Tormented_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/tormented_staff/tormented_staff.vmdl"
+    },
+    {
+      "id": "12308",
+      "name": "Tormented Staff of Eminent Revival",
+      "item_name": "#DOTA_Item_Tormented_Staff_of_Eminent_Revival",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/tormented_staff_ti8_retro/tormented_staff_ti8_retro.vmdl"
+    },
+    {
+      "id": "12874",
+      "name": "Ire of the Hinterlands Tail",
+      "item_name": "#DOTA_Item_Ire_of_the_Hinterlands_Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/frostivus2018_leshrac_frost_unicorn_tail/frostivus2018_leshrac_frost_unicorn_tail.vmdl"
+    },
+    {
+      "id": "12875",
+      "name": "Ire of the Hinterlands Garb",
+      "item_name": "#DOTA_Item_Ire_of_the_Hinterlands_Garb",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/frostivus2018_leshrac_frost_unicorn_misc/frostivus2018_leshrac_frost_unicorn_misc.vmdl"
+    },
+    {
+      "id": "12876",
+      "name": "Ire of the Hinterlands Crown",
+      "item_name": "#DOTA_Item_Ire_of_the_Hinterlands_Crown",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/frostivus2018_leshrac_frost_unicorn_head/frostivus2018_leshrac_frost_unicorn_head.vmdl"
+    },
+    {
+      "id": "12877",
+      "name": "Ire of the Hinterlands Back",
+      "item_name": "#DOTA_Item_Ire_of_the_Hinterlands_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/frostivus2018_leshrac_frost_unicorn_back/frostivus2018_leshrac_frost_unicorn_back.vmdl"
+    },
+    {
+      "id": "12878",
+      "name": "Ire of the Hinterlands Staff",
+      "item_name": "#DOTA_Item_Ire_of_the_Hinterlands_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/frostivus2018_leshrac_frost_unicorn_weapon/frostivus2018_leshrac_frost_unicorn_weapon.vmdl"
+    },
+    {
+      "id": "12933",
+      "name": "Tormented Crown",
+      "item_name": "#DOTA_Item_Tormented_Crown",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/leshrac_ti9_immortal_head/leshrac_ti9_immortal_head.vmdl"
+    },
+    {
+      "id": "14212",
+      "name": "Fruits of Wane - Head",
+      "item_name": "#DOTA_Item_Fruits_of_Wane__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/dark_forest_punisher_head/dark_forest_punisher_head.vmdl"
+    },
+    {
+      "id": "14213",
+      "name": "Fruits of Wane - Weapon",
+      "item_name": "#DOTA_Item_Fruits_of_Wane__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/dark_forest_punisher_weapon/dark_forest_punisher_weapon.vmdl"
+    },
+    {
+      "id": "14214",
+      "name": "Fruits of Wane - Tail",
+      "item_name": "#DOTA_Item_Fruits_of_Wane__Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/dark_forest_punisher_tail/dark_forest_punisher_tail.vmdl"
+    },
+    {
+      "id": "14215",
+      "name": "Fruits of Wane - Misc",
+      "item_name": "#DOTA_Item_Fruits_of_Wane__Misc",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/dark_forest_punisher_misc/dark_forest_punisher_misc.vmdl"
+    },
+    {
+      "id": "14216",
+      "name": "Fruits of Wane - Back",
+      "item_name": "#DOTA_Item_Fruits_of_Wane__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/dark_forest_punisher_back/dark_forest_punisher_back.vmdl"
+    },
+    {
+      "id": "14430",
+      "name": "Leshrac Thunder Griffin Tail",
+      "item_name": "#DOTA_Item_Vote_Only_Leshrac_Thunder_Griffin_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/leshrac_thunder_griffin_tail/leshrac_thunder_griffin_tail.vmdl"
+    },
+    {
+      "id": "14431",
+      "name": "Leshrac Thunder Griffin Misc",
+      "item_name": "#DOTA_Item_Vote_Only_Leshrac_Thunder_Griffin_Misc",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/leshrac_thunder_griffin_misc/leshrac_thunder_griffin_misc.vmdl"
+    },
+    {
+      "id": "14432",
+      "name": "Leshrac Thunder Griffin Head",
+      "item_name": "#DOTA_Item_Vote_Only_Leshrac_Thunder_Griffin_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/leshrac_thunder_griffin_head/leshrac_thunder_griffin_head.vmdl"
+    },
+    {
+      "id": "14433",
+      "name": "Leshrac Thunder Griffin Back",
+      "item_name": "#DOTA_Item_Vote_Only_Leshrac_Thunder_Griffin_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/leshrac_thunder_griffin_back/leshrac_thunder_griffin_back.vmdl"
+    },
+    {
+      "id": "17776",
+      "name": "Force of Kylin Weapon",
+      "item_name": "#DOTA_Item_Force_of_Kylin_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/force_of_kylin_weapon/force_of_kylin_weapon.vmdl"
+    },
+    {
+      "id": "17777",
+      "name": "Force of Kylin Tail",
+      "item_name": "#DOTA_Item_Force_of_Kylin_Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/force_of_kylin_tail/force_of_kylin_tail.vmdl"
+    },
+    {
+      "id": "17778",
+      "name": "Force of Kylin Bracers",
+      "item_name": "#DOTA_Item_Force_of_Kylin_Bracers",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/force_of_kylin_misc/force_of_kylin_misc.vmdl"
+    },
+    {
+      "id": "17779",
+      "name": "Force of Kylin Head",
+      "item_name": "#DOTA_Item_Force_of_Kylin_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/force_of_kylin_head/force_of_kylin_head.vmdl"
+    },
+    {
+      "id": "17780",
+      "name": "Force of Kylin Back",
+      "item_name": "#DOTA_Item_Force_of_Kylin_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/force_of_kylin_back/force_of_kylin_back.vmdl"
+    },
+    {
+      "id": "20141",
+      "name": "Twisted Wisdom Set",
+      "item_name": "#DOTA_Item_Twisted_Wisdom_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20179",
+      "name": "The Thorns of Sundering Set",
+      "item_name": "#DOTA_Item_The_Thorns_of_Sundering_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20778",
+      "name": "Oath of the Afflicted Soul",
+      "item_name": "#DOTA_Item_Oath_of_the_Afflicted_Soul",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20892",
+      "name": "Spirethorn Regalia",
+      "item_name": "#DOTA_Item_Spirethorn_Regalia",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20988",
+      "name": "Lord of Chronoptic Synthesis",
+      "item_name": "#DOTA_Item_Lord_of_Chronoptic_Synthesis",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21313",
+      "name": "Ire of the Hinterlands",
+      "item_name": "#DOTA_Item_Ire_of_the_Hinterlands",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21518",
+      "name": "Fruits of Wane",
+      "item_name": "#DOTA_Item_Fruits_of_Wane",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21558",
+      "name": "Leshrac Thunder Griffin",
+      "item_name": "#DOTA_Item_Vote_Only_Leshrac_Thunder_Griffin",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21691",
+      "name": "Force of Kylin",
+      "item_name": "#DOTA_Item_Force_of_Kylin",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25679",
+      "name": "Seed of Sorrow",
+      "item_name": "#DOTA_Item_Seed_of_Sorrow",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25702",
+      "name": "Seed of Sorrow - Back",
+      "item_name": "#DOTA_Item_Seed_of_Sorrow__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/leshrac_keeper_of_the_caves_back/leshrac_keeper_of_the_caves_back.vmdl"
+    },
+    {
+      "id": "25707",
+      "name": "Seed of Sorrow - Head",
+      "item_name": "#DOTA_Item_Seed_of_Sorrow__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/leshrac_keeper_of_the_caves_head/leshrac_keeper_of_the_caves_head.vmdl"
+    },
+    {
+      "id": "25734",
+      "name": "Seed of Sorrow - Misc",
+      "item_name": "#DOTA_Item_Seed_of_Sorrow__Misc",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/leshrac_keeper_of_the_caves_misc/leshrac_keeper_of_the_caves_misc.vmdl"
+    },
+    {
+      "id": "25735",
+      "name": "Seed of Sorrow - Tail",
+      "item_name": "#DOTA_Item_Seed_of_Sorrow__Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/leshrac_keeper_of_the_caves_tail/leshrac_keeper_of_the_caves_tail.vmdl"
+    },
+    {
+      "id": "25736",
+      "name": "Seed of Sorrow - Weapon",
+      "item_name": "#DOTA_Item_Seed_of_Sorrow__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/leshrac/leshrac_keeper_of_the_caves_weapon/leshrac_keeper_of_the_caves_weapon.vmdl"
+    }
+  ]
+}

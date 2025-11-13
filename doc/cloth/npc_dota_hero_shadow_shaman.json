@@ -1,0 +1,1755 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "246",
+      "name": "Shadow Shaman's Weapon",
+      "item_name": "#DOTA_Item_Shadow_Shamans_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/shadowshaman/weapon.vmdl"
+    },
+    "offhand_weapon": {
+      "id": "247",
+      "name": "Shadow Shaman's Off-hand Weapon",
+      "item_name": "#DOTA_Item_Shadow_Shamans_Offhand_Weapon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/shadowshaman/weapon_offhand.vmdl"
+    },
+    "head": {
+      "id": "248",
+      "name": "Shadow Shaman's Headdress",
+      "item_name": "#DOTA_Item_Shadow_Shamans_Headdress",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/shadowshaman/helmet.vmdl"
+    },
+    "arms": {
+      "id": "249",
+      "name": "Shadow Shaman's Armor",
+      "item_name": "#DOTA_Item_Shadow_Shamans_Armor",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/shadowshaman/armarmor.vmdl"
+    },
+    "belt": {
+      "id": "250",
+      "name": "Shadow Shaman's Belt",
+      "item_name": "#DOTA_Item_Shadow_Shamans_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "model_player": "models/heroes/shadowshaman/belt.vmdl"
+    },
+    "body_head": {
+      "id": "251",
+      "name": "Shadow Shaman's Head",
+      "item_name": "#DOTA_Item_Shadow_Shamans_Head",
+      "item_slot": "body_head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/shadowshaman/head.vmdl"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Bantam_Blaze",
+      "store_bundle": "Bantam Blaze",
+      "portrait_image": "econ/sets/v2/bantam_blaze",
+      "items": [
+        {
+          "name": "Bantam Blaze - Weapon",
+          "id": "26283",
+          "item_name": "#DOTA_Item_Bantam_Blaze__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/shaman_yin_yang_master_weapon/shaman_yin_yang_master_weapon.vmdl"
+        },
+        {
+          "name": "Bantam Blaze - Offhand Weapon",
+          "id": "26282",
+          "item_name": "#DOTA_Item_Bantam_Blaze__Offhand_Weapon",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/shaman_yin_yang_master_offhand_weapon/shaman_yin_yang_master_offhand_weapon.vmdl"
+        },
+        {
+          "name": "Bantam Blaze - Head",
+          "id": "26281",
+          "item_name": "#DOTA_Item_Bantam_Blaze__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/shaman_yin_yang_master_head/shaman_yin_yang_master_head.vmdl"
+        },
+        {
+          "name": "Bantam Blaze - Belt",
+          "id": "26280",
+          "item_name": "#DOTA_Item_Bantam_Blaze__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/shaman_yin_yang_master_belt/shaman_yin_yang_master_belt.vmdl"
+        },
+        {
+          "name": "Bantam Blaze - Arms",
+          "id": "26279",
+          "item_name": "#DOTA_Item_Bantam_Blaze__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/shaman_yin_yang_master_arms/shaman_yin_yang_master_arms.vmdl"
+        },
+        {
+          "name": "Bantam Blaze - Ward",
+          "id": "19781",
+          "item_name": "#DOTA_Item_Bantam_Blaze__Ward",
+          "item_slot": "summon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dancer_of_the_Spiteful_Eye",
+      "store_bundle": "Dancer of the Spiteful Eye",
+      "portrait_image": "econ/sets/v2/dancer_of_the_spiteful_eye",
+      "items": [
+        {
+          "name": "Shade of the Spiteful Eye",
+          "id": "8341",
+          "item_name": "#DOTA_Item_Shade_of_the_Spiteful_Eye",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head.vmdl"
+        },
+        {
+          "name": "Glimpse of the Spiteful Eye",
+          "id": "9884",
+          "item_name": "#DOTA_Item_Glimpse_of_the_Spiteful_Eye",
+          "item_slot": "summon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Mantle of the Spiteful Eye",
+          "id": "9885",
+          "item_name": "#DOTA_Item_Mantle_of_the_Spiteful_Eye",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/shadowshaman/eyedancer_wrath_arms/eyedancer_wrath_arms.vmdl"
+        },
+        {
+          "name": "Sigil of the Spiteful Eye",
+          "id": "9886",
+          "item_name": "#DOTA_Item_Sigil_of_the_Spiteful_Eye",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/shadowshaman/eyedancer_wrath_belt/eyedancer_wrath_belt.vmdl"
+        },
+        {
+          "name": "Baton of the Spiteful Eye",
+          "id": "9888",
+          "item_name": "#DOTA_Item_Baton_of_the_Spiteful_Eye",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/shadowshaman/eyedancer_wrath_weapon/eyedancer_wrath_weapon.vmdl"
+        },
+        {
+          "name": "Off-Hand Baton of the Spiteful Eye",
+          "id": "9887",
+          "item_name": "#DOTA_Item_OffHand_Baton_of_the_Spiteful_Eye",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/shadowshaman/eyedancer_wrath_offhand/eyedancer_wrath_offhand.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Endowments_of_the_Lucent_Canopy",
+      "store_bundle": "Endowments of the Lucent Canopy",
+      "portrait_image": "econ/sets/v2/endowments_of_the_lucent_canopy",
+      "items": [
+        {
+          "name": "Arms of the Lucent Canopy",
+          "id": "9909",
+          "item_name": "#DOTA_Item_Arms_of_the_Lucent_Canopy",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/shadowshaman/ti8_ss_mushroomer_arms/ti8_ss_mushroomer_arms.vmdl"
+        },
+        {
+          "name": "Haul of the Lucent Canopy",
+          "id": "9908",
+          "item_name": "#DOTA_Item_Haul_of_the_Lucent_Canopy",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/shadowshaman/ti8_ss_mushroomer_belt/ti8_ss_mushroomer_belt.vmdl"
+        },
+        {
+          "name": "Crest of the Lucent Canopy",
+          "id": "9907",
+          "item_name": "#DOTA_Item_Crest_of_the_Lucent_Canopy",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/shadowshaman/ti8_ss_mushroomer_head/ti8_ss_mushroomer_head.vmdl"
+        },
+        {
+          "name": "Off-Hand of the Lucent Canopy",
+          "id": "9906",
+          "item_name": "#DOTA_Item_OffHand_of_the_Lucent_Canopy",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/shadowshaman/ti8_ss_mushroomer_off_hand/ti8_ss_mushroomer_off_hand.vmdl"
+        },
+        {
+          "name": "Ward of the Lucent Canopy",
+          "id": "9905",
+          "item_name": "#DOTA_Item_Ward_of_the_Lucent_Canopy",
+          "item_slot": "summon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Charm of the Lucent Canopy",
+          "id": "9904",
+          "item_name": "#DOTA_Item_Charm_of_the_Lucent_Canopy",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/shadowshaman/ti8_ss_mushroomer_weapon/ti8_ss_mushroomer_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Endurance_of_the_Bogmarch",
+      "store_bundle": "Endurance of the Bogmarch",
+      "portrait_image": "econ/sets/v2/endurance_of_the_bogmarch",
+      "items": [
+        {
+          "name": "Bogmarch Mask",
+          "id": "13367",
+          "item_name": "#DOTA_Item_Bogmarch_Mask",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_head/ti9_cache_shaman_swamp_shaman_head.vmdl"
+        },
+        {
+          "name": "Bogmarch Charm",
+          "id": "13366",
+          "item_name": "#DOTA_Item_Bogmarch_Charm",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_off_hand/ti9_cache_shaman_swamp_shaman_off_hand.vmdl"
+        },
+        {
+          "name": "Bogmarch Wand",
+          "id": "13364",
+          "item_name": "#DOTA_Item_Bogmarch_Wand",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_weapon/ti9_cache_shaman_swamp_shaman_weapon.vmdl"
+        },
+        {
+          "name": "Bogmarch Barrel",
+          "id": "13368",
+          "item_name": "#DOTA_Item_Bogmarch_Barrel",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_belt/ti9_cache_shaman_swamp_shaman_belt.vmdl"
+        },
+        {
+          "name": "Bogmarch Garb",
+          "id": "13369",
+          "item_name": "#DOTA_Item_Bogmarch_Garb",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_arms/ti9_cache_shaman_swamp_shaman_arms.vmdl"
+        },
+        {
+          "name": "Bogmarch Ward",
+          "id": "13365",
+          "item_name": "#DOTA_Item_Bogmarch_Ward",
+          "item_slot": "summon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Eyes_in_the_Endless_Dark",
+      "store_bundle": "Eyes in the Endless Dark",
+      "portrait_image": "econ/sets/v2/eyes_in_the_endless_dark",
+      "items": [
+        {
+          "name": "Eyes in the Endless Dark - Arms",
+          "id": "26277",
+          "item_name": "#DOTA_Item_Eyes_in_the_Endless_Dark__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/shaman_shadow_cultist_arms/shaman_shadow_cultist_arms.vmdl"
+        },
+        {
+          "name": "Eyes in the Endless Dark - Head",
+          "id": "26276",
+          "item_name": "#DOTA_Item_Eyes_in_the_Endless_Dark__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/shaman_shadow_cultist_head/shaman_shadow_cultist_head.vmdl"
+        },
+        {
+          "name": "Eyes in the Endless Dark - Belt",
+          "id": "26275",
+          "item_name": "#DOTA_Item_Eyes_in_the_Endless_Dark__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/shaman_shadow_cultist_belt/shaman_shadow_cultist_belt.vmdl"
+        },
+        {
+          "name": "Eyes in the Endless Dark - Offhand",
+          "id": "26274",
+          "item_name": "#DOTA_Item_Eyes_in_the_Endless_Dark__Offhand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/shaman_shadow_cultist_offhand_weapon/shaman_shadow_cultist_offhand_weapon.vmdl"
+        },
+        {
+          "name": "Eyes in the Endless Dark - Weapon",
+          "id": "26273",
+          "item_name": "#DOTA_Item_Eyes_in_the_Endless_Dark__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/shaman_shadow_cultist_weapon/shaman_shadow_cultist_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Garb_of_Shades",
+      "store_bundle": "Garb of Shades",
+      "portrait_image": "econ/sets/v2/garb_of_shades",
+      "items": [
+        {
+          "name": "Scepter of Shades",
+          "id": "6197",
+          "item_name": "#DOTA_Item_Scepter_of_Shades",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/shadowshaman/shades_weapon/shades_weapon.vmdl"
+        },
+        {
+          "name": "Cincture of Shades",
+          "id": "6206",
+          "item_name": "#DOTA_Item_Cincture_of_Shades",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/shadowshaman/shades_belt/shades_belt.vmdl"
+        },
+        {
+          "name": "Armwraps of Shades",
+          "id": "6309",
+          "item_name": "#DOTA_Item_Armwraps_of_Shades",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/shadowshaman/shades_arms/shades_arms.vmdl"
+        },
+        {
+          "name": "Visage of Shades",
+          "id": "6310",
+          "item_name": "#DOTA_Item_Visage_of_Shades",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/shades_head/shades_head.vmdl"
+        },
+        {
+          "name": "Scepter of Shades - Off-Hand",
+          "id": "6198",
+          "item_name": "#DOTA_Item_Scepter_of_Shades__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/shadowshaman/shades_offhand/shades_offhand.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Mysterious_Vagabond",
+      "store_bundle": "The Mysterious Vagabond Set",
+      "portrait_image": "econ/sets/v2/mysterious_vagabond",
+      "items": [
+        {
+          "name": "Mysterious Vagabond's Concoction",
+          "id": "4419",
+          "item_name": "#DOTA_Item_Mysterious_Vagabonds_Concoction",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/shadowshaman/vagabond_drink/vagabond_drink.vmdl"
+        },
+        {
+          "name": "Mysterious Vagabond's Hat",
+          "id": "4417",
+          "item_name": "#DOTA_Item_Mysterious_Vagabonds_Hat",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/vagabond_hat/vagabond_hat.vmdl"
+        },
+        {
+          "name": "Mysterious Vagabond's Pack",
+          "id": "4412",
+          "item_name": "#DOTA_Item_Mysterious_Vagabonds_Pack",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/vagabond_pack/vagabond_pack.vmdl"
+        },
+        {
+          "name": "Mysterious Vagabond's Wand",
+          "id": "4416",
+          "item_name": "#DOTA_Item_Mysterious_Vagabonds_Wand",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/shadowshaman/vagabond_wand/vagabond_wand.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Mystic_Instruments_of_TangKi",
+      "store_bundle": "Mystic Instruments of Tang-Ki",
+      "portrait_image": "econ/sets/v2/mystic_instruments_of_tang_ki",
+      "items": [
+        {
+          "name": "Tang-Ki Scepter Off-Hand",
+          "id": "6814",
+          "item_name": "#DOTA_Item_TangKi_Scepter_OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/shadowshaman/tangki_offhand/tangki_offhand.vmdl"
+        },
+        {
+          "name": "Serpent Ward of Tang-Ki",
+          "id": "6815",
+          "item_name": "#DOTA_Item_Serpent_Ward_of_TangKi",
+          "item_slot": "summon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Accursed Scrolls of Tang-Ki",
+          "id": "6817",
+          "item_name": "#DOTA_Item_Accursed_Scrolls_of_TangKi",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/tangki_arms/tangki_arms.vmdl"
+        },
+        {
+          "name": "Tang-Ki Scepter",
+          "id": "6816",
+          "item_name": "#DOTA_Item_TangKi_Scepter",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/shadowshaman/tangki_weapon/tangki_weapon.vmdl"
+        },
+        {
+          "name": "Possessed Shrine of Tang-Ki",
+          "id": "6818",
+          "item_name": "#DOTA_Item_Possessed_Shrine_of_TangKi",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/shadowshaman/tangki_belt/tangki_belt.vmdl"
+        },
+        {
+          "name": "Ornate Headdress of Tang-Ki",
+          "id": "6819",
+          "item_name": "#DOTA_Item_Ornate_Headdress_of_TangKi",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/tangki_head/tangki_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ququmatz_Charmer",
+      "store_bundle": "Q'uq'umatz Charmer",
+      "portrait_image": "econ/sets/v2/ququmatz_charmer",
+      "items": [
+        {
+          "name": "Q'uq'umatz Charmer - Arms",
+          "id": "19874",
+          "item_name": "#DOTA_Item_Ququmatz_Charmer__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/dragontooth_arms/dragontooth_arms.vmdl"
+        },
+        {
+          "name": "Q'uq'umatz Charmer - Belt",
+          "id": "19873",
+          "item_name": "#DOTA_Item_Ququmatz_Charmer__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/dragontooth_belt/dragontooth_belt.vmdl"
+        },
+        {
+          "name": "Q'uq'umatz Charmer - Head",
+          "id": "19872",
+          "item_name": "#DOTA_Item_Ququmatz_Charmer__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/dragontooth_head/dragontooth_head.vmdl"
+        },
+        {
+          "name": "Q'uq'umatz Charmer - Off-Hand",
+          "id": "19871",
+          "item_name": "#DOTA_Item_Ququmatz_Charmer__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/dragontooth_off_hand/dragontooth_off_hand.vmdl"
+        },
+        {
+          "name": "Q'uq'umatz Charmer - Weapon",
+          "id": "19870",
+          "item_name": "#DOTA_Item_Ququmatz_Charmer__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/dragontooth_weapon/dragontooth_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Red_Sands_Marauder",
+      "store_bundle": "Red Sands Marauder",
+      "portrait_image": "econ/sets/v2/red_sands_marauder",
+      "items": [
+        {
+          "name": "Red Sands Marauder - Summon",
+          "id": "14367",
+          "item_name": "#DOTA_Item_Red_Sands_Marauder__Summon",
+          "item_slot": "summon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Red Sands Marauder - Arms",
+          "id": "14366",
+          "item_name": "#DOTA_Item_Red_Sands_Marauder__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/shadowshaman/shaman_charmer_of_firesnake_arms/shaman_charmer_of_firesnake_arms.vmdl"
+        },
+        {
+          "name": "Red Sands Marauder - Belt",
+          "id": "14365",
+          "item_name": "#DOTA_Item_Red_Sands_Marauder__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/shadowshaman/shaman_charmer_of_firesnake_belt/shaman_charmer_of_firesnake_belt.vmdl"
+        },
+        {
+          "name": "Red Sands Marauder - Head",
+          "id": "14364",
+          "item_name": "#DOTA_Item_Red_Sands_Marauder__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/shadowshaman/shaman_charmer_of_firesnake_head/shaman_charmer_of_firesnake_head.vmdl"
+        },
+        {
+          "name": "Red Sands Marauder - Offhand",
+          "id": "14362",
+          "item_name": "#DOTA_Item_Red_Sands_Marauder__Offhand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/shadowshaman/shaman_charmer_of_firesnake_off_hand/shaman_charmer_of_firesnake_off_hand.vmdl"
+        },
+        {
+          "name": "Red Sands Marauder - Weapon",
+          "id": "14361",
+          "item_name": "#DOTA_Item_Red_Sands_Marauder__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/shadowshaman/shaman_charmer_of_firesnake_weapon/shaman_charmer_of_firesnake_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Favors_of_the_Shamanic_Light",
+      "store_bundle": "Favors of the Shamanic Light",
+      "portrait_image": "econ/sets/v2/shadow_shaman_shamanic_light",
+      "items": [
+        {
+          "name": "Armbands of Shamanic Light",
+          "id": "7511",
+          "item_name": "#DOTA_Item_Armbands_of_Shamanic_Light",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/shadowshaman/dotapit_s3_wild_tempest_arms/dotapit_s3_wild_tempest_arms.vmdl"
+        },
+        {
+          "name": "Skirt of Shamanic Light",
+          "id": "7512",
+          "item_name": "#DOTA_Item_Skirt_of_Shamanic_Light",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/dotapit_s3_wild_tempest_belt/dotapit_s3_wild_tempest_belt.vmdl"
+        },
+        {
+          "name": "Candelabra of Shamanic Light",
+          "id": "7514",
+          "item_name": "#DOTA_Item_Candelabra_of_Shamanic_Light",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/dotapit_s3_wild_tempest_offhand/dotapit_s3_wild_tempest_offhand.vmdl"
+        },
+        {
+          "name": "Wand of Shamanic Light",
+          "id": "7516",
+          "item_name": "#DOTA_Item_Wand_of_Shamanic_Light",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/shadowshaman/dotapit_s3_wild_tempest_weapon/dotapit_s3_wild_tempest_weapon.vmdl"
+        },
+        {
+          "name": "Serpent of Shamanic Light",
+          "id": "7515",
+          "item_name": "#DOTA_Item_Serpent_of_Shamanic_Light",
+          "item_slot": "summon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Hood of Shamanic Light",
+          "id": "7513",
+          "item_name": "#DOTA_Item_Hood_of_Shamanic_Light",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/shadowshaman/dotapit_s3_wild_tempest_head/dotapit_s3_wild_tempest_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Eki_Spiritual_Implements",
+      "store_bundle": "Eki Spiritual Implements Set",
+      "portrait_image": "econ/sets/v2/shadowshaman_eki_implements",
+      "items": [
+        {
+          "name": "Eki Bukaw Bracers",
+          "id": "5500",
+          "item_name": "#DOTA_Item_Eki_Bukaw_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/shadowshaman/eki_bukaw_bracers/eki_bukaw_bracers.vmdl"
+        },
+        {
+          "name": "Records of the Eki Bukaw",
+          "id": "5501",
+          "item_name": "#DOTA_Item_Records_of_the_Eki_Bukaw",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/shadowshaman/records_of_the_eki_bukaw/records_of_the_eki_bukaw.vmdl"
+        },
+        {
+          "name": "Eki Bukaw Wand - Off-Hand",
+          "id": "5503",
+          "item_name": "#DOTA_Item_Eki_Bukaw_Wand__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/shadowshaman/eki_bukaw_wand__offhand/eki_bukaw_wand__offhand.vmdl"
+        },
+        {
+          "name": "Eki Bukaw Wand",
+          "id": "5504",
+          "item_name": "#DOTA_Item_Eki_Bukaw_Wand",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/shadowshaman/eki_bukaw_wand/eki_bukaw_wand.vmdl"
+        },
+        {
+          "name": "Fiery Ward of Eki Bukaw",
+          "id": "5507",
+          "item_name": "#DOTA_Item_Fiery_Ward_of_Eki_Bukaw",
+          "item_slot": "summon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Visage of Eki Bukaw",
+          "id": "5548",
+          "item_name": "#DOTA_Item_Visage_of_Eki_Bukaw",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/shadowshaman/visage_of_eki_bukaw/visage_of_eki_bukaw.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_The_eagle_of_the_desert",
+      "store_bundle": "The eagle of the desert",
+      "portrait_image": "econ/sets/v2/shadowshaman_the_eagle_of_the_desert",
+      "items": [
+        {
+          "name": "The eagle of the desert Arms",
+          "id": "18274",
+          "item_name": "#DOTA_Item_Vote_Only_The_eagle_of_the_desert_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/shadowshaman/the_eagle_of_the_desert_arms/the_eagle_of_the_desert_arms.vmdl"
+        },
+        {
+          "name": "The eagle of the desert Belt",
+          "id": "18273",
+          "item_name": "#DOTA_Item_Vote_Only_The_eagle_of_the_desert_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/shadowshaman/the_eagle_of_the_desert_belt/the_eagle_of_the_desert_belt.vmdl"
+        },
+        {
+          "name": "The eagle of the desert Head",
+          "id": "18272",
+          "item_name": "#DOTA_Item_Vote_Only_The_eagle_of_the_desert_Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/shadowshaman/the_eagle_of_the_desert_head/the_eagle_of_the_desert_head.vmdl"
+        },
+        {
+          "name": "The eagle of the desert Ward",
+          "id": "18271",
+          "item_name": "#DOTA_The_eagle_of_the_desert_Ward",
+          "item_slot": "summon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "The eagle of the desert Weapon",
+          "id": "18270",
+          "item_name": "#DOTA_Item_Vote_Only_The_eagle_of_the_desert_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/shadowshaman/the_eagle_of_the_desert_weapon/the_eagle_of_the_desert_weapon.vmdl"
+        },
+        {
+          "name": "The eagle of the desert Off-Hand",
+          "id": "18269",
+          "item_name": "#DOTA_Item_Vote_Only_The_eagle_of_the_desert_OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/shadowshaman/the_eagle_of_the_desert_off_hand/the_eagle_of_the_desert_off_hand.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_True_Crow",
+      "store_bundle": "The True Crow",
+      "portrait_image": "econ/sets/v2/shadowshaman_true_crow",
+      "items": [
+        {
+          "name": "True Crow's Vision",
+          "id": "7386",
+          "item_name": "#DOTA_Item_True_Crows_Vision",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/shadowshaman/true_crow_vision/true_crow_vision.vmdl"
+        },
+        {
+          "name": "True Crow's Wings",
+          "id": "7275",
+          "item_name": "#DOTA_Item_True_Crows_Wings",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/shadowshaman/true_crow_armbands/true_crow_armbands.vmdl"
+        },
+        {
+          "name": "True Crow's Pelt",
+          "id": "7384",
+          "item_name": "#DOTA_Item_True_Crows_Pelt",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/shadowshaman/true_crow_pelt/true_crow_pelt.vmdl"
+        },
+        {
+          "name": "True Crow's Talon",
+          "id": "7387",
+          "item_name": "#DOTA_Item_True_Crows_Talon",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/shadowshaman/true_crow_talon/true_crow_talon.vmdl"
+        },
+        {
+          "name": "True Crow's Ward",
+          "id": "7388",
+          "item_name": "#DOTA_Item_True_Crows_Ward",
+          "item_slot": "summon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "True Crow's Bite",
+          "id": "7389",
+          "item_name": "#DOTA_Item_True_Crows_Bite",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/shadowshaman/true_form_bite/true_form_bite.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "246",
+      "name": "Shadow Shaman's Weapon",
+      "item_name": "#DOTA_Item_Shadow_Shamans_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/shadowshaman/weapon.vmdl"
+    },
+    {
+      "id": "247",
+      "name": "Shadow Shaman's Off-hand Weapon",
+      "item_name": "#DOTA_Item_Shadow_Shamans_Offhand_Weapon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/shadowshaman/weapon_offhand.vmdl"
+    },
+    {
+      "id": "248",
+      "name": "Shadow Shaman's Headdress",
+      "item_name": "#DOTA_Item_Shadow_Shamans_Headdress",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/shadowshaman/helmet.vmdl"
+    },
+    {
+      "id": "249",
+      "name": "Shadow Shaman's Armor",
+      "item_name": "#DOTA_Item_Shadow_Shamans_Armor",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/shadowshaman/armarmor.vmdl"
+    },
+    {
+      "id": "250",
+      "name": "Shadow Shaman's Belt",
+      "item_name": "#DOTA_Item_Shadow_Shamans_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/shadowshaman/belt.vmdl"
+    },
+    {
+      "id": "251",
+      "name": "Shadow Shaman's Head",
+      "item_name": "#DOTA_Item_Shadow_Shamans_Head",
+      "item_slot": "body_head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/shadowshaman/head.vmdl"
+    },
+    {
+      "id": "4412",
+      "name": "Mysterious Vagabond's Pack",
+      "item_name": "#DOTA_Item_Mysterious_Vagabonds_Pack",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/vagabond_pack/vagabond_pack.vmdl"
+    },
+    {
+      "id": "4416",
+      "name": "Mysterious Vagabond's Wand",
+      "item_name": "#DOTA_Item_Mysterious_Vagabonds_Wand",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/vagabond_wand/vagabond_wand.vmdl"
+    },
+    {
+      "id": "4417",
+      "name": "Mysterious Vagabond's Hat",
+      "item_name": "#DOTA_Item_Mysterious_Vagabonds_Hat",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/vagabond_hat/vagabond_hat.vmdl"
+    },
+    {
+      "id": "4419",
+      "name": "Mysterious Vagabond's Concoction",
+      "item_name": "#DOTA_Item_Mysterious_Vagabonds_Concoction",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/vagabond_drink/vagabond_drink.vmdl"
+    },
+    {
+      "id": "5500",
+      "name": "Eki Bukaw Bracers",
+      "item_name": "#DOTA_Item_Eki_Bukaw_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/eki_bukaw_bracers/eki_bukaw_bracers.vmdl"
+    },
+    {
+      "id": "5501",
+      "name": "Records of the Eki Bukaw",
+      "item_name": "#DOTA_Item_Records_of_the_Eki_Bukaw",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/records_of_the_eki_bukaw/records_of_the_eki_bukaw.vmdl"
+    },
+    {
+      "id": "5503",
+      "name": "Eki Bukaw Wand - Off-Hand",
+      "item_name": "#DOTA_Item_Eki_Bukaw_Wand__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/eki_bukaw_wand__offhand/eki_bukaw_wand__offhand.vmdl"
+    },
+    {
+      "id": "5504",
+      "name": "Eki Bukaw Wand",
+      "item_name": "#DOTA_Item_Eki_Bukaw_Wand",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/eki_bukaw_wand/eki_bukaw_wand.vmdl"
+    },
+    {
+      "id": "5507",
+      "name": "Fiery Ward of Eki Bukaw",
+      "item_name": "#DOTA_Item_Fiery_Ward_of_Eki_Bukaw",
+      "item_slot": "summon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5548",
+      "name": "Visage of Eki Bukaw",
+      "item_name": "#DOTA_Item_Visage_of_Eki_Bukaw",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/visage_of_eki_bukaw/visage_of_eki_bukaw.vmdl"
+    },
+    {
+      "id": "6066",
+      "name": "Cauldron of Summons",
+      "item_name": "#DOTA_Item_Cauldron_of_Summons",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/cauldron_of_summons/cauldron_of_summons.vmdl"
+    },
+    {
+      "id": "6197",
+      "name": "Scepter of Shades",
+      "item_name": "#DOTA_Item_Scepter_of_Shades",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shades_weapon/shades_weapon.vmdl"
+    },
+    {
+      "id": "6198",
+      "name": "Scepter of Shades - Off-Hand",
+      "item_name": "#DOTA_Item_Scepter_of_Shades__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shades_offhand/shades_offhand.vmdl"
+    },
+    {
+      "id": "6206",
+      "name": "Cincture of Shades",
+      "item_name": "#DOTA_Item_Cincture_of_Shades",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shades_belt/shades_belt.vmdl"
+    },
+    {
+      "id": "6309",
+      "name": "Armwraps of Shades",
+      "item_name": "#DOTA_Item_Armwraps_of_Shades",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shades_arms/shades_arms.vmdl"
+    },
+    {
+      "id": "6310",
+      "name": "Visage of Shades",
+      "item_name": "#DOTA_Item_Visage_of_Shades",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shades_head/shades_head.vmdl"
+    },
+    {
+      "id": "6647",
+      "name": "Lamb to the Slaughter",
+      "item_name": "#DOTA_Item_Lamb_to_the_Slaughter",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/sheep_stick/sheep_stick.vmdl"
+    },
+    {
+      "id": "6814",
+      "name": "Tang-Ki Scepter Off-Hand",
+      "item_name": "#DOTA_Item_TangKi_Scepter_OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/tangki_offhand/tangki_offhand.vmdl"
+    },
+    {
+      "id": "6815",
+      "name": "Serpent Ward of Tang-Ki",
+      "item_name": "#DOTA_Item_Serpent_Ward_of_TangKi",
+      "item_slot": "summon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6816",
+      "name": "Tang-Ki Scepter",
+      "item_name": "#DOTA_Item_TangKi_Scepter",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/tangki_weapon/tangki_weapon.vmdl"
+    },
+    {
+      "id": "6817",
+      "name": "Accursed Scrolls of Tang-Ki",
+      "item_name": "#DOTA_Item_Accursed_Scrolls_of_TangKi",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/tangki_arms/tangki_arms.vmdl"
+    },
+    {
+      "id": "6818",
+      "name": "Possessed Shrine of Tang-Ki",
+      "item_name": "#DOTA_Item_Possessed_Shrine_of_TangKi",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/tangki_belt/tangki_belt.vmdl"
+    },
+    {
+      "id": "6819",
+      "name": "Ornate Headdress of Tang-Ki",
+      "item_name": "#DOTA_Item_Ornate_Headdress_of_TangKi",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/tangki_head/tangki_head.vmdl"
+    },
+    {
+      "id": "6915",
+      "name": "Golden Lamb to the Slaughter",
+      "item_name": "#DOTA_Item_Golden_Lamb_to_the_Slaughter",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/sheep_stick/sheep_stick.vmdl"
+    },
+    {
+      "id": "7275",
+      "name": "True Crow's Wings",
+      "item_name": "#DOTA_Item_True_Crows_Wings",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/true_crow_armbands/true_crow_armbands.vmdl"
+    },
+    {
+      "id": "7384",
+      "name": "True Crow's Pelt",
+      "item_name": "#DOTA_Item_True_Crows_Pelt",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/true_crow_pelt/true_crow_pelt.vmdl"
+    },
+    {
+      "id": "7386",
+      "name": "True Crow's Vision",
+      "item_name": "#DOTA_Item_True_Crows_Vision",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/true_crow_vision/true_crow_vision.vmdl"
+    },
+    {
+      "id": "7387",
+      "name": "True Crow's Talon",
+      "item_name": "#DOTA_Item_True_Crows_Talon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/true_crow_talon/true_crow_talon.vmdl"
+    },
+    {
+      "id": "7388",
+      "name": "True Crow's Ward",
+      "item_name": "#DOTA_Item_True_Crows_Ward",
+      "item_slot": "summon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7389",
+      "name": "True Crow's Bite",
+      "item_name": "#DOTA_Item_True_Crows_Bite",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/true_form_bite/true_form_bite.vmdl"
+    },
+    {
+      "id": "7511",
+      "name": "Armbands of Shamanic Light",
+      "item_name": "#DOTA_Item_Armbands_of_Shamanic_Light",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/dotapit_s3_wild_tempest_arms/dotapit_s3_wild_tempest_arms.vmdl"
+    },
+    {
+      "id": "7512",
+      "name": "Skirt of Shamanic Light",
+      "item_name": "#DOTA_Item_Skirt_of_Shamanic_Light",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/dotapit_s3_wild_tempest_belt/dotapit_s3_wild_tempest_belt.vmdl"
+    },
+    {
+      "id": "7513",
+      "name": "Hood of Shamanic Light",
+      "item_name": "#DOTA_Item_Hood_of_Shamanic_Light",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/dotapit_s3_wild_tempest_head/dotapit_s3_wild_tempest_head.vmdl"
+    },
+    {
+      "id": "7514",
+      "name": "Candelabra of Shamanic Light",
+      "item_name": "#DOTA_Item_Candelabra_of_Shamanic_Light",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/dotapit_s3_wild_tempest_offhand/dotapit_s3_wild_tempest_offhand.vmdl"
+    },
+    {
+      "id": "7515",
+      "name": "Serpent of Shamanic Light",
+      "item_name": "#DOTA_Item_Serpent_of_Shamanic_Light",
+      "item_slot": "summon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7516",
+      "name": "Wand of Shamanic Light",
+      "item_name": "#DOTA_Item_Wand_of_Shamanic_Light",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/dotapit_s3_wild_tempest_weapon/dotapit_s3_wild_tempest_weapon.vmdl"
+    },
+    {
+      "id": "8085",
+      "name": "Taunt: Shaman Dance",
+      "item_name": "#DOTA_Item_Taunt_Shaman_Dance",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "8341",
+      "name": "Shade of the Spiteful Eye",
+      "item_name": "#DOTA_Item_Shade_of_the_Spiteful_Eye",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head.vmdl"
+    },
+    {
+      "id": "8370",
+      "name": "Shadow Shaman's Serpent Wards",
+      "item_name": "#DOTA_Item_Shadow_Shamans_Serpent_Wards",
+      "item_slot": "summon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "9794",
+      "name": "Censer of Gliss",
+      "item_name": "#DOTA_Item_Censer_of_Gliss",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/ss_ti8_immortal_offhand/ss_ti8_immortal_offhand.vmdl"
+    },
+    {
+      "id": "9884",
+      "name": "Glimpse of the Spiteful Eye",
+      "item_name": "#DOTA_Item_Glimpse_of_the_Spiteful_Eye",
+      "item_slot": "summon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9885",
+      "name": "Mantle of the Spiteful Eye",
+      "item_name": "#DOTA_Item_Mantle_of_the_Spiteful_Eye",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/eyedancer_wrath_arms/eyedancer_wrath_arms.vmdl"
+    },
+    {
+      "id": "9886",
+      "name": "Sigil of the Spiteful Eye",
+      "item_name": "#DOTA_Item_Sigil_of_the_Spiteful_Eye",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/eyedancer_wrath_belt/eyedancer_wrath_belt.vmdl"
+    },
+    {
+      "id": "9887",
+      "name": "Off-Hand Baton of the Spiteful Eye",
+      "item_name": "#DOTA_Item_OffHand_Baton_of_the_Spiteful_Eye",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/eyedancer_wrath_offhand/eyedancer_wrath_offhand.vmdl"
+    },
+    {
+      "id": "9888",
+      "name": "Baton of the Spiteful Eye",
+      "item_name": "#DOTA_Item_Baton_of_the_Spiteful_Eye",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/eyedancer_wrath_weapon/eyedancer_wrath_weapon.vmdl"
+    },
+    {
+      "id": "9904",
+      "name": "Charm of the Lucent Canopy",
+      "item_name": "#DOTA_Item_Charm_of_the_Lucent_Canopy",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/ti8_ss_mushroomer_weapon/ti8_ss_mushroomer_weapon.vmdl"
+    },
+    {
+      "id": "9905",
+      "name": "Ward of the Lucent Canopy",
+      "item_name": "#DOTA_Item_Ward_of_the_Lucent_Canopy",
+      "item_slot": "summon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9906",
+      "name": "Off-Hand of the Lucent Canopy",
+      "item_name": "#DOTA_Item_OffHand_of_the_Lucent_Canopy",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/ti8_ss_mushroomer_off_hand/ti8_ss_mushroomer_off_hand.vmdl"
+    },
+    {
+      "id": "9907",
+      "name": "Crest of the Lucent Canopy",
+      "item_name": "#DOTA_Item_Crest_of_the_Lucent_Canopy",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/ti8_ss_mushroomer_head/ti8_ss_mushroomer_head.vmdl"
+    },
+    {
+      "id": "9908",
+      "name": "Haul of the Lucent Canopy",
+      "item_name": "#DOTA_Item_Haul_of_the_Lucent_Canopy",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/ti8_ss_mushroomer_belt/ti8_ss_mushroomer_belt.vmdl"
+    },
+    {
+      "id": "9909",
+      "name": "Arms of the Lucent Canopy",
+      "item_name": "#DOTA_Item_Arms_of_the_Lucent_Canopy",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/ti8_ss_mushroomer_arms/ti8_ss_mushroomer_arms.vmdl"
+    },
+    {
+      "id": "12419",
+      "name": "Crimson Censer of Gliss",
+      "item_name": "#DOTA_Item_Crimson_Censer_of_Gliss",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/ss_ti8_immortal_offhand/ss_ti8_immortal_offhand.vmdl"
+    },
+    {
+      "id": "13364",
+      "name": "Bogmarch Wand",
+      "item_name": "#DOTA_Item_Bogmarch_Wand",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_weapon/ti9_cache_shaman_swamp_shaman_weapon.vmdl"
+    },
+    {
+      "id": "13365",
+      "name": "Bogmarch Ward",
+      "item_name": "#DOTA_Item_Bogmarch_Ward",
+      "item_slot": "summon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13366",
+      "name": "Bogmarch Charm",
+      "item_name": "#DOTA_Item_Bogmarch_Charm",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_off_hand/ti9_cache_shaman_swamp_shaman_off_hand.vmdl"
+    },
+    {
+      "id": "13367",
+      "name": "Bogmarch Mask",
+      "item_name": "#DOTA_Item_Bogmarch_Mask",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_head/ti9_cache_shaman_swamp_shaman_head.vmdl"
+    },
+    {
+      "id": "13368",
+      "name": "Bogmarch Barrel",
+      "item_name": "#DOTA_Item_Bogmarch_Barrel",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_belt/ti9_cache_shaman_swamp_shaman_belt.vmdl"
+    },
+    {
+      "id": "13369",
+      "name": "Bogmarch Garb",
+      "item_name": "#DOTA_Item_Bogmarch_Garb",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_arms/ti9_cache_shaman_swamp_shaman_arms.vmdl"
+    },
+    {
+      "id": "13757",
+      "name": "Lash of the Lizard Kin",
+      "item_name": "#DOTA_Item_Lash_of_the_Lizard_Kin",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.vmdl"
+    },
+    {
+      "id": "14361",
+      "name": "Red Sands Marauder - Weapon",
+      "item_name": "#DOTA_Item_Red_Sands_Marauder__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shaman_charmer_of_firesnake_weapon/shaman_charmer_of_firesnake_weapon.vmdl"
+    },
+    {
+      "id": "14362",
+      "name": "Red Sands Marauder - Offhand",
+      "item_name": "#DOTA_Item_Red_Sands_Marauder__Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shaman_charmer_of_firesnake_off_hand/shaman_charmer_of_firesnake_off_hand.vmdl"
+    },
+    {
+      "id": "14364",
+      "name": "Red Sands Marauder - Head",
+      "item_name": "#DOTA_Item_Red_Sands_Marauder__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shaman_charmer_of_firesnake_head/shaman_charmer_of_firesnake_head.vmdl"
+    },
+    {
+      "id": "14365",
+      "name": "Red Sands Marauder - Belt",
+      "item_name": "#DOTA_Item_Red_Sands_Marauder__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shaman_charmer_of_firesnake_belt/shaman_charmer_of_firesnake_belt.vmdl"
+    },
+    {
+      "id": "14366",
+      "name": "Red Sands Marauder - Arms",
+      "item_name": "#DOTA_Item_Red_Sands_Marauder__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shaman_charmer_of_firesnake_arms/shaman_charmer_of_firesnake_arms.vmdl"
+    },
+    {
+      "id": "14367",
+      "name": "Red Sands Marauder - Summon",
+      "item_name": "#DOTA_Item_Red_Sands_Marauder__Summon",
+      "item_slot": "summon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18269",
+      "name": "The eagle of the desert Off-Hand",
+      "item_name": "#DOTA_Item_Vote_Only_The_eagle_of_the_desert_OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/the_eagle_of_the_desert_off_hand/the_eagle_of_the_desert_off_hand.vmdl"
+    },
+    {
+      "id": "18270",
+      "name": "The eagle of the desert Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_The_eagle_of_the_desert_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/the_eagle_of_the_desert_weapon/the_eagle_of_the_desert_weapon.vmdl"
+    },
+    {
+      "id": "18271",
+      "name": "The eagle of the desert Ward",
+      "item_name": "#DOTA_The_eagle_of_the_desert_Ward",
+      "item_slot": "summon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18272",
+      "name": "The eagle of the desert Head",
+      "item_name": "#DOTA_Item_Vote_Only_The_eagle_of_the_desert_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/the_eagle_of_the_desert_head/the_eagle_of_the_desert_head.vmdl"
+    },
+    {
+      "id": "18273",
+      "name": "The eagle of the desert Belt",
+      "item_name": "#DOTA_Item_Vote_Only_The_eagle_of_the_desert_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/the_eagle_of_the_desert_belt/the_eagle_of_the_desert_belt.vmdl"
+    },
+    {
+      "id": "18274",
+      "name": "The eagle of the desert Arms",
+      "item_name": "#DOTA_Item_Vote_Only_The_eagle_of_the_desert_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/the_eagle_of_the_desert_arms/the_eagle_of_the_desert_arms.vmdl"
+    },
+    {
+      "id": "19781",
+      "name": "Bantam Blaze - Ward",
+      "item_name": "#DOTA_Item_Bantam_Blaze__Ward",
+      "item_slot": "summon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19870",
+      "name": "Q'uq'umatz Charmer - Weapon",
+      "item_name": "#DOTA_Item_Ququmatz_Charmer__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/dragontooth_weapon/dragontooth_weapon.vmdl"
+    },
+    {
+      "id": "19871",
+      "name": "Q'uq'umatz Charmer - Off-Hand",
+      "item_name": "#DOTA_Item_Ququmatz_Charmer__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/dragontooth_off_hand/dragontooth_off_hand.vmdl"
+    },
+    {
+      "id": "19872",
+      "name": "Q'uq'umatz Charmer - Head",
+      "item_name": "#DOTA_Item_Ququmatz_Charmer__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/dragontooth_head/dragontooth_head.vmdl"
+    },
+    {
+      "id": "19873",
+      "name": "Q'uq'umatz Charmer - Belt",
+      "item_name": "#DOTA_Item_Ququmatz_Charmer__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/dragontooth_belt/dragontooth_belt.vmdl"
+    },
+    {
+      "id": "19874",
+      "name": "Q'uq'umatz Charmer - Arms",
+      "item_name": "#DOTA_Item_Ququmatz_Charmer__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/dragontooth_arms/dragontooth_arms.vmdl"
+    },
+    {
+      "id": "20100",
+      "name": "The Mysterious Vagabond Set",
+      "item_name": "#DOTA_Item_The_Mysterious_Vagabond_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20275",
+      "name": "Eki Spiritual Implements Set",
+      "item_name": "#DOTA_Item_Eki_Spiritual_Implements_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20283",
+      "name": "Eki Bukaw Wand Pack",
+      "item_name": "#DOTA_Item_Eki_Bukaw_Wand_Pack",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20450",
+      "name": "Garb of Shades",
+      "item_name": "#DOTA_Item_Garb_of_Shades",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20554",
+      "name": "Mystic Instruments of Tang-Ki",
+      "item_name": "#DOTA_Item_Mystic_Instruments_of_TangKi",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20572",
+      "name": "Promo Mystic Instruments of Tang-Ki",
+      "item_name": "#DOTA_Item_Promo_Mystic_Instruments_of_TangKi",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20695",
+      "name": "The True Crow",
+      "item_name": "#DOTA_Item_The_True_Crow",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20719",
+      "name": "Favors of the Shamanic Light",
+      "item_name": "#DOTA_Item_Favors_of_the_Shamanic_Light",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20922",
+      "name": "Dancer of the Spiteful Eye",
+      "item_name": "#DOTA_Item_Dancer_of_the_Spiteful_Eye",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21201",
+      "name": "Endowments of the Lucent Canopy",
+      "item_name": "#DOTA_Item_Endowments_of_the_Lucent_Canopy",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21395",
+      "name": "Endurance of the Bogmarch",
+      "item_name": "#DOTA_Item_Endurance_of_the_Bogmarch",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21547",
+      "name": "Red Sands Marauder",
+      "item_name": "#DOTA_Item_Red_Sands_Marauder",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21781",
+      "name": "The eagle of the desert",
+      "item_name": "#DOTA_Item_Vote_Only_The_eagle_of_the_desert",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21970",
+      "name": "Q'uq'umatz Charmer",
+      "item_name": "#DOTA_Item_Ququmatz_Charmer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22269",
+      "name": "Lash of the Lizard Kin of the Crimson Witness",
+      "item_name": "#DOTA_Item_Lash_of_the_Lizard_Kin_of_the_Crimson_Witness",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.vmdl"
+    },
+    {
+      "id": "26271",
+      "name": "Eyes in the Endless Dark",
+      "item_name": "#DOTA_Item_Eyes_in_the_Endless_Dark",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26272",
+      "name": "Eyes in the Endless Dark - Serpent Wards",
+      "item_name": "#DOTA_Item_Eyes_in_the_Endless_Dark__Serpent_Wards",
+      "item_slot": "summon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26273",
+      "name": "Eyes in the Endless Dark - Weapon",
+      "item_name": "#DOTA_Item_Eyes_in_the_Endless_Dark__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shaman_shadow_cultist_weapon/shaman_shadow_cultist_weapon.vmdl"
+    },
+    {
+      "id": "26274",
+      "name": "Eyes in the Endless Dark - Offhand",
+      "item_name": "#DOTA_Item_Eyes_in_the_Endless_Dark__Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shaman_shadow_cultist_offhand_weapon/shaman_shadow_cultist_offhand_weapon.vmdl"
+    },
+    {
+      "id": "26275",
+      "name": "Eyes in the Endless Dark - Belt",
+      "item_name": "#DOTA_Item_Eyes_in_the_Endless_Dark__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shaman_shadow_cultist_belt/shaman_shadow_cultist_belt.vmdl"
+    },
+    {
+      "id": "26276",
+      "name": "Eyes in the Endless Dark - Head",
+      "item_name": "#DOTA_Item_Eyes_in_the_Endless_Dark__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shaman_shadow_cultist_head/shaman_shadow_cultist_head.vmdl"
+    },
+    {
+      "id": "26277",
+      "name": "Eyes in the Endless Dark - Arms",
+      "item_name": "#DOTA_Item_Eyes_in_the_Endless_Dark__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shaman_shadow_cultist_arms/shaman_shadow_cultist_arms.vmdl"
+    },
+    {
+      "id": "26278",
+      "name": "Bantam Blaze",
+      "item_name": "#DOTA_Item_Bantam_Blaze",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26279",
+      "name": "Bantam Blaze - Arms",
+      "item_name": "#DOTA_Item_Bantam_Blaze__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shaman_yin_yang_master_arms/shaman_yin_yang_master_arms.vmdl"
+    },
+    {
+      "id": "26280",
+      "name": "Bantam Blaze - Belt",
+      "item_name": "#DOTA_Item_Bantam_Blaze__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shaman_yin_yang_master_belt/shaman_yin_yang_master_belt.vmdl"
+    },
+    {
+      "id": "26281",
+      "name": "Bantam Blaze - Head",
+      "item_name": "#DOTA_Item_Bantam_Blaze__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shaman_yin_yang_master_head/shaman_yin_yang_master_head.vmdl"
+    },
+    {
+      "id": "26282",
+      "name": "Bantam Blaze - Offhand Weapon",
+      "item_name": "#DOTA_Item_Bantam_Blaze__Offhand_Weapon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shaman_yin_yang_master_offhand_weapon/shaman_yin_yang_master_offhand_weapon.vmdl"
+    },
+    {
+      "id": "26283",
+      "name": "Bantam Blaze - Weapon",
+      "item_name": "#DOTA_Item_Bantam_Blaze__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/shaman_yin_yang_master_weapon/shaman_yin_yang_master_weapon.vmdl"
+    },
+    {
+      "id": "35386",
+      "name": "Tyrian Lash of the Lizard Kin",
+      "item_name": "#DOTA_Item_Tyrian_Lash_of_the_Lizard_Kin",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.vmdl"
+    }
+  ]
+}

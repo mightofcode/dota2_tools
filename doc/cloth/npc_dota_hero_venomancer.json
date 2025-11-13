@@ -1,0 +1,1215 @@
+{
+  "defaults": {
+    "head": {
+      "id": "291",
+      "name": "Venomancer's Jaw",
+      "item_name": "#DOTA_Item_Venomancers_Jaw",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/venomancer/venomancer_jaw.vmdl"
+    },
+    "shoulder": {
+      "id": "292",
+      "name": "Venomancer's Shoulders",
+      "item_name": "#DOTA_Item_Venomancers_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/venomancer/venomancer_shoulder.vmdl"
+    },
+    "arms": {
+      "id": "293",
+      "name": "Venomancer's Arms",
+      "item_name": "#DOTA_Item_Venomancers_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/venomancer/venomancer_arms.vmdl"
+    },
+    "tail": {
+      "id": "294",
+      "name": "Venomancer's Tail",
+      "item_name": "#DOTA_Item_Venomancers_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "model_player": "models/heroes/venomancer/venomancer_tail.vmdl"
+    },
+    "ambient_effects": {
+      "id": "518",
+      "name": "Venomancer's Ambient Effects",
+      "item_name": "#DOTA_Item_Venomancers_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Acid_Hydra",
+      "store_bundle": "Acid Hydra",
+      "portrait_image": "econ/sets/v2/acid_hydra",
+      "items": [
+        {
+          "name": "Acidic Mandible of the Hydra",
+          "id": "6933",
+          "item_name": "#DOTA_Item_Acidic_Mandible_of_the_Hydra",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/venomancer/acidicflytrap_head/acidicflytrap_head.vmdl"
+        },
+        {
+          "name": "Acidic Tentacles of the Hydra",
+          "id": "6940",
+          "item_name": "#DOTA_Item_Acidic_Tentacles_of_the_Hydra",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles.vmdl"
+        },
+        {
+          "name": "Acidic Tail of the Hydra",
+          "id": "6942",
+          "item_name": "#DOTA_Item_Acidic_Tail_of_the_Hydra",
+          "item_slot": "tail",
+          "item_rarity": "common",
+          "model_player": "models/items/venomancer/acidflytrap_tail/acidflytrap_tail.vmdl"
+        },
+        {
+          "name": "Acidic Wings of the Hydra",
+          "id": "6943",
+          "item_name": "#DOTA_Item_Acidic_Wings_of_the_Hydra",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders.vmdl"
+        },
+        {
+          "name": "Acidic Ward of the Hydra",
+          "id": "7078",
+          "item_name": "#DOTA_Item_Acidic_Ward_of_the_Hydra",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Aktoks_Domain",
+      "store_bundle": "Aktok's Domain",
+      "portrait_image": "econ/sets/v2/aktoks_domain",
+      "items": [
+        {
+          "name": "Aktok's Armor",
+          "id": "5534",
+          "item_name": "#DOTA_Item_Aktoks_Armor",
+          "item_slot": "shoulder",
+          "item_rarity": "immortal",
+          "model_player": "models/items/venomancer/veno_2021_immortal_shoulders/veno_2021_immortal_shoulders.vmdl"
+        },
+        {
+          "name": "Aktok's Emissaries",
+          "id": "5533",
+          "item_name": "#DOTA_Item_Aktoks_Emissaries",
+          "item_slot": "arms",
+          "item_rarity": "immortal",
+          "model_player": "models/items/venomancer/veno_2021_immortal_arms/veno_2021_immortal_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Aktoks_Glory",
+      "store_bundle": "Aktok's Glory",
+      "portrait_image": "econ/sets/v2/aktoks_glory",
+      "items": [
+        {
+          "name": "The Orb of Aktok",
+          "id": "22847",
+          "item_name": "#DOTA_Item_The_Orb_of_Aktok",
+          "item_slot": "tail",
+          "item_rarity": "immortal",
+          "model_player": "models/items/venomancer/veno_2022_immortal_tail/veno_2022_immortal_tail.vmdl"
+        },
+        {
+          "name": "Avatars of Aktok",
+          "id": "19264",
+          "item_name": "#DOTA_Item_Avatars_of_Aktok",
+          "item_slot": "ability3",
+          "item_rarity": "immortal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Corruption_of_the_Virulent_Krait",
+      "store_bundle": "Corruption of the Virulent Krait",
+      "portrait_image": "econ/sets/v2/corruption_of_the_virulent_krait",
+      "items": [
+        {
+          "name": "Watcher of the Virulent Krait",
+          "id": "9337",
+          "item_name": "#DOTA_Item_Watcher_of_the_Virulent_Krait",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Spitters of the Virulent Krait",
+          "id": "9334",
+          "item_name": "#DOTA_Item_Spitters_of_the_Virulent_Krait",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/venomancer_hydra_switch_color_arms/venomancer_hydra_switch_color_arms.vmdl"
+        },
+        {
+          "name": "Spines of the Virulent Krait",
+          "id": "9335",
+          "item_name": "#DOTA_Item_Spines_of_the_Virulent_Krait",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/venomancer_hydra_switch_color_shoulder/venomancer_hydra_switch_color_shoulder.vmdl"
+        },
+        {
+          "name": "Jaws of the Virulent Krait",
+          "id": "9336",
+          "item_name": "#DOTA_Item_Jaws_of_the_Virulent_Krait",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/venomancer_hydra_switch_color_head/venomancer_hydra_switch_color_head.vmdl"
+        },
+        {
+          "name": "Tail of the Virulent Krait",
+          "id": "9338",
+          "item_name": "#DOTA_Item_Tail_of_the_Virulent_Krait",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/venomancer_hydra_switch_color_tail/venomancer_hydra_switch_color_tail.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Fatal_Bloom",
+      "store_bundle": "Fatal Bloom",
+      "portrait_image": "econ/sets/v2/fatal_bloom",
+      "items": [
+        {
+          "name": "Ward of the Fatal Bloom",
+          "id": "8711",
+          "item_name": "#DOTA_Item_Ward_of_the_Fatal_Bloom",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Wings of the Fatal Bloom",
+          "id": "8700",
+          "item_name": "#DOTA_Item_Wings_of_the_Fatal_Bloom",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/poison_touch_shoulder/poison_touch_shoulder.vmdl"
+        },
+        {
+          "name": "Tail of the Fatal Bloom",
+          "id": "8691",
+          "item_name": "#DOTA_Item_Tail_of_the_Fatal_Bloom",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/poison_touch_tail/poison_touch_tail.vmdl"
+        },
+        {
+          "name": "Crest of the Fatal Bloom",
+          "id": "8690",
+          "item_name": "#DOTA_Item_Crest_of_the_Fatal_Bloom",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/poison_touch_head/poison_touch_head.vmdl"
+        },
+        {
+          "name": "Stingers of the Fatal Bloom",
+          "id": "8699",
+          "item_name": "#DOTA_Item_Stingers_of_the_Fatal_Bloom",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/poison_touch_arms/poison_touch_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ferocious_Toxicant",
+      "store_bundle": "Ferocious Toxicant",
+      "portrait_image": "econ/sets/v2/ferocious_toxicant",
+      "items": [
+        {
+          "name": "Ward of the Ferocious Toxicant",
+          "id": "9893",
+          "item_name": "#DOTA_Item_Ward_of_the_Ferocious_Toxicant",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Crest of the Ferocious Toxicant",
+          "id": "9894",
+          "item_name": "#DOTA_Item_Crest_of_the_Ferocious_Toxicant",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/ferocious_toxicants_embrace_head/ferocious_toxicants_embrace_head.vmdl"
+        },
+        {
+          "name": "Spitters of the Ferocious Toxicant",
+          "id": "9896",
+          "item_name": "#DOTA_Item_Spitters_of_the_Ferocious_Toxicant",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/ferocious_toxicants_embrace_arms/ferocious_toxicants_embrace_arms.vmdl"
+        },
+        {
+          "name": "Tail of the Ferocious Toxicant",
+          "id": "9897",
+          "item_name": "#DOTA_Item_Tail_of_the_Ferocious_Toxicant",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail.vmdl"
+        },
+        {
+          "name": "Spines of the Ferocious Toxicant",
+          "id": "9895",
+          "item_name": "#DOTA_Item_Spines_of_the_Ferocious_Toxicant",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/ferocious_toxicants_embrace_shoulder/ferocious_toxicants_embrace_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Molokau_Stalker",
+      "store_bundle": "Molokau Stalker",
+      "portrait_image": "econ/sets/v2/molokau_stalker",
+      "items": [
+        {
+          "name": "Tail of the Molokau Stalker",
+          "id": "9918",
+          "item_name": "#DOTA_Item_Tail_of_the_Molokau_Stalker",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/ti8_veno_stalagmite_crawler_tail/ti8_veno_stalagmite_crawler_tail.vmdl"
+        },
+        {
+          "name": "Plates of the Molokau Stalker",
+          "id": "9915",
+          "item_name": "#DOTA_Item_Plates_of_the_Molokau_Stalker",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/ti8_veno_stalagmite_crawler_shoulder/ti8_veno_stalagmite_crawler_shoulder.vmdl"
+        },
+        {
+          "name": "Head of the Molokau Stalker",
+          "id": "9916",
+          "item_name": "#DOTA_Item_Head_of_the_Molokau_Stalker",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/ti8_veno_stalagmite_crawler_head/ti8_veno_stalagmite_crawler_head.vmdl"
+        },
+        {
+          "name": "Appendages of the Molokau Stalker",
+          "id": "9917",
+          "item_name": "#DOTA_Item_Appendages_of_the_Molokau_Stalker",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/ti8_veno_stalagmite_crawler_arms/ti8_veno_stalagmite_crawler_arms.vmdl"
+        },
+        {
+          "name": "Ward of the Molokau Stalker",
+          "id": "9914",
+          "item_name": "#DOTA_Item_Ward_of_the_Molokau_Stalker",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Nacreous_Stag",
+      "store_bundle": "Nacreous Stag",
+      "portrait_image": "econ/sets/v2/nacreous_stag",
+      "items": [
+        {
+          "name": "Nacreous Stag Plague Ward",
+          "id": "13109",
+          "item_name": "#DOTA_Item_Nacreous_Stag_Plague_Ward",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Nacreous Stag Tail",
+          "id": "13108",
+          "item_name": "#DOTA_Item_Nacreous_Stag_Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/venomancer_millipede_tail/venomancer_millipede_tail.vmdl"
+        },
+        {
+          "name": "Nacreous Stag Back",
+          "id": "13107",
+          "item_name": "#DOTA_Item_Nacreous_Stag_Back",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/venomancer_millipede_shoulder/venomancer_millipede_shoulder.vmdl"
+        },
+        {
+          "name": "Nacreous Stag Head",
+          "id": "13106",
+          "item_name": "#DOTA_Item_Nacreous_Stag_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/venomancer_millipede_head/venomancer_millipede_head.vmdl"
+        },
+        {
+          "name": "Nacreous Stag Claws",
+          "id": "13084",
+          "item_name": "#DOTA_Item_Nacreous_Stag_Claws",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/venomancer_millipede_arms/venomancer_millipede_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Mechamancer",
+      "store_bundle": "Mechamancer",
+      "portrait_image": "econ/sets/v2/venomancer_mechamancer",
+      "items": [
+        {
+          "name": "Mechamancer - Arms",
+          "id": "30328",
+          "item_name": "#DOTA_Item_Mechamancer__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/mechamancer/mechamancer_arms.vmdl"
+        },
+        {
+          "name": "Mechamancer - Tail",
+          "id": "30327",
+          "item_name": "#DOTA_Item_Mechamancer__Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/mechamancer/mechamancer_tail.vmdl"
+        },
+        {
+          "name": "Mechamancer - Back",
+          "id": "30326",
+          "item_name": "#DOTA_Item_Mechamancer__Back",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/mechamancer/mechamancer_shoulders.vmdl"
+        },
+        {
+          "name": "Mechamancer - Head",
+          "id": "30325",
+          "item_name": "#DOTA_Item_Mechamancer__Head",
+          "item_slot": "head",
+          "item_rarity": "immortal",
+          "model_player": "models/items/venomancer/mechamancer/mechamancer_head.vmdl"
+        },
+        {
+          "name": "Taunt: Mecha Bananadancer",
+          "id": "32655",
+          "item_name": "#DOTA_Item_Taunt_Mecha_Bananadancer",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Mechamancer - Ward",
+          "id": "31297",
+          "item_name": "#DOTA_Item_Mechamancer__Ward",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Venomancer_Slime",
+      "store_bundle": "Venomancer Slime",
+      "portrait_image": "econ/sets/v2/venomancer_venomancer_slime",
+      "items": [
+        {
+          "name": "Venomancer Slime Ward",
+          "id": "19731",
+          "item_name": "#DOTA_Venomancer_Slime_Ward",
+          "item_slot": "ability3",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Venomancer Slime Arms",
+          "id": "19735",
+          "item_name": "#DOTA_Item_Vote_Only_Venomancer_Slime_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/venomancer/venomancer_slime_arms/venomancer_slime_arms.vmdl"
+        },
+        {
+          "name": "Venomancer Slime Head",
+          "id": "19734",
+          "item_name": "#DOTA_Item_Vote_Only_Venomancer_Slime_Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/venomancer/venomancer_slime_head/venomancer_slime_head.vmdl"
+        },
+        {
+          "name": "Venomancer Slime Shoulder",
+          "id": "19733",
+          "item_name": "#DOTA_Item_Vote_Only_Venomancer_Slime_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/venomancer/venomancer_slime_shoulder/venomancer_slime_shoulder.vmdl"
+        },
+        {
+          "name": "Venomancer Slime Tail",
+          "id": "19732",
+          "item_name": "#DOTA_Item_Vote_Only_Venomancer_Slime_Tail",
+          "item_slot": "tail",
+          "item_rarity": "common",
+          "model_player": "models/items/venomancer/venomancer_slime_tail/venomancer_slime_tail.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Venomous_Deathbringer",
+      "store_bundle": "Venomous Deathbringer",
+      "portrait_image": "econ/sets/v2/venomous_deathbringer",
+      "items": [
+        {
+          "name": "Venomous Deathbringer Head",
+          "id": "6643",
+          "item_name": "#DOTA_Item_Venomous_Deathbringer_Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/venomancer/deathbringer_head/deathbringer_head.vmdl"
+        },
+        {
+          "name": "Venomous Deathbringer Stingers",
+          "id": "6642",
+          "item_name": "#DOTA_Item_Venomous_Deathbringer_Stingers",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/venomancer/deathbringer_arms/deathbringer_arms.vmdl"
+        },
+        {
+          "name": "Venomous Deathbringer Tail",
+          "id": "6644",
+          "item_name": "#DOTA_Item_Venomous_Deathbringer_Tail",
+          "item_slot": "tail",
+          "item_rarity": "common",
+          "model_player": "models/items/venomancer/deathbringer_tail/deathbringer_tail.vmdl"
+        },
+        {
+          "name": "Venomous Deathbringer Hood",
+          "id": "6645",
+          "item_name": "#DOTA_Item_Venomous_Deathbringer_Hood",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/venomancer/deathbringer_shoulders/deathbringer_shoulders.vmdl"
+        },
+        {
+          "name": "Venomous Deathbringer Ward",
+          "id": "6682",
+          "item_name": "#DOTA_Item_Venomous_Deathbringer_Ward",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Verdant_Predator",
+      "store_bundle": "Verdant Predator",
+      "portrait_image": "econ/sets/v2/verdant_predator",
+      "items": [
+        {
+          "name": "Verdant Predator Spitters",
+          "id": "12505",
+          "item_name": "#DOTA_Item_Verdant_Predator_Spitters",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/ti8_venomancer_chomper_arms/ti8_venomancer_chomper_arms.vmdl"
+        },
+        {
+          "name": "Verdant Predator Head",
+          "id": "12504",
+          "item_name": "#DOTA_Item_Verdant_Predator_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/ti8_venomancer_chomper_head/ti8_venomancer_chomper_head.vmdl"
+        },
+        {
+          "name": "Verdant Predator Back",
+          "id": "12506",
+          "item_name": "#DOTA_Item_Verdant_Predator_Back",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/ti8_venomancer_chomper_shoulder/ti8_venomancer_chomper_shoulder.vmdl"
+        },
+        {
+          "name": "Verdant Predator Tail",
+          "id": "12507",
+          "item_name": "#DOTA_Item_Verdant_Predator_Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/venomancer/ti8_venomancer_chomper_tail/ti8_venomancer_chomper_tail.vmdl"
+        },
+        {
+          "name": "Verdant Predator Ward",
+          "id": "12508",
+          "item_name": "#DOTA_Item_Verdant_Predator_Ward",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "291",
+      "name": "Venomancer's Jaw",
+      "item_name": "#DOTA_Item_Venomancers_Jaw",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/venomancer/venomancer_jaw.vmdl"
+    },
+    {
+      "id": "292",
+      "name": "Venomancer's Shoulders",
+      "item_name": "#DOTA_Item_Venomancers_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/venomancer/venomancer_shoulder.vmdl"
+    },
+    {
+      "id": "293",
+      "name": "Venomancer's Arms",
+      "item_name": "#DOTA_Item_Venomancers_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/venomancer/venomancer_arms.vmdl"
+    },
+    {
+      "id": "294",
+      "name": "Venomancer's Tail",
+      "item_name": "#DOTA_Item_Venomancers_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/venomancer/venomancer_tail.vmdl"
+    },
+    {
+      "id": "295",
+      "name": "Venomancer's Plague Wards",
+      "item_name": "#DOTA_Item_Venomancers_Plague_Wards",
+      "item_slot": "ability3",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "518",
+      "name": "Venomancer's Ambient Effects",
+      "item_name": "#DOTA_Item_Venomancers_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "5533",
+      "name": "Aktok's Emissaries",
+      "item_name": "#DOTA_Item_Aktoks_Emissaries",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/veno_2021_immortal_arms/veno_2021_immortal_arms.vmdl"
+    },
+    {
+      "id": "5534",
+      "name": "Aktok's Armor",
+      "item_name": "#DOTA_Item_Aktoks_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/veno_2021_immortal_shoulders/veno_2021_immortal_shoulders.vmdl"
+    },
+    {
+      "id": "6474",
+      "name": "Splattering Forcipule",
+      "item_name": "#DOTA_Item_Splattering_Forcipule",
+      "item_slot": "ability3",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6642",
+      "name": "Venomous Deathbringer Stingers",
+      "item_name": "#DOTA_Item_Venomous_Deathbringer_Stingers",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/deathbringer_arms/deathbringer_arms.vmdl"
+    },
+    {
+      "id": "6643",
+      "name": "Venomous Deathbringer Head",
+      "item_name": "#DOTA_Item_Venomous_Deathbringer_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/deathbringer_head/deathbringer_head.vmdl"
+    },
+    {
+      "id": "6644",
+      "name": "Venomous Deathbringer Tail",
+      "item_name": "#DOTA_Item_Venomous_Deathbringer_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/deathbringer_tail/deathbringer_tail.vmdl"
+    },
+    {
+      "id": "6645",
+      "name": "Venomous Deathbringer Hood",
+      "item_name": "#DOTA_Item_Venomous_Deathbringer_Hood",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/deathbringer_shoulders/deathbringer_shoulders.vmdl"
+    },
+    {
+      "id": "6682",
+      "name": "Venomous Deathbringer Ward",
+      "item_name": "#DOTA_Item_Venomous_Deathbringer_Ward",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6933",
+      "name": "Acidic Mandible of the Hydra",
+      "item_name": "#DOTA_Item_Acidic_Mandible_of_the_Hydra",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/acidicflytrap_head/acidicflytrap_head.vmdl"
+    },
+    {
+      "id": "6940",
+      "name": "Acidic Tentacles of the Hydra",
+      "item_name": "#DOTA_Item_Acidic_Tentacles_of_the_Hydra",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles.vmdl"
+    },
+    {
+      "id": "6942",
+      "name": "Acidic Tail of the Hydra",
+      "item_name": "#DOTA_Item_Acidic_Tail_of_the_Hydra",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/acidflytrap_tail/acidflytrap_tail.vmdl"
+    },
+    {
+      "id": "6943",
+      "name": "Acidic Wings of the Hydra",
+      "item_name": "#DOTA_Item_Acidic_Wings_of_the_Hydra",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders.vmdl"
+    },
+    {
+      "id": "7078",
+      "name": "Acidic Ward of the Hydra",
+      "item_name": "#DOTA_Item_Acidic_Ward_of_the_Hydra",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7399",
+      "name": "Taunt: Bananadancer",
+      "item_name": "#DOTA_Item_Taunt_Bananadancer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "8690",
+      "name": "Crest of the Fatal Bloom",
+      "item_name": "#DOTA_Item_Crest_of_the_Fatal_Bloom",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/poison_touch_head/poison_touch_head.vmdl"
+    },
+    {
+      "id": "8691",
+      "name": "Tail of the Fatal Bloom",
+      "item_name": "#DOTA_Item_Tail_of_the_Fatal_Bloom",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/poison_touch_tail/poison_touch_tail.vmdl"
+    },
+    {
+      "id": "8699",
+      "name": "Stingers of the Fatal Bloom",
+      "item_name": "#DOTA_Item_Stingers_of_the_Fatal_Bloom",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/poison_touch_arms/poison_touch_arms.vmdl"
+    },
+    {
+      "id": "8700",
+      "name": "Wings of the Fatal Bloom",
+      "item_name": "#DOTA_Item_Wings_of_the_Fatal_Bloom",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/poison_touch_shoulder/poison_touch_shoulder.vmdl"
+    },
+    {
+      "id": "8711",
+      "name": "Ward of the Fatal Bloom",
+      "item_name": "#DOTA_Item_Ward_of_the_Fatal_Bloom",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9334",
+      "name": "Spitters of the Virulent Krait",
+      "item_name": "#DOTA_Item_Spitters_of_the_Virulent_Krait",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/venomancer_hydra_switch_color_arms/venomancer_hydra_switch_color_arms.vmdl"
+    },
+    {
+      "id": "9335",
+      "name": "Spines of the Virulent Krait",
+      "item_name": "#DOTA_Item_Spines_of_the_Virulent_Krait",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/venomancer_hydra_switch_color_shoulder/venomancer_hydra_switch_color_shoulder.vmdl"
+    },
+    {
+      "id": "9336",
+      "name": "Jaws of the Virulent Krait",
+      "item_name": "#DOTA_Item_Jaws_of_the_Virulent_Krait",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/venomancer_hydra_switch_color_head/venomancer_hydra_switch_color_head.vmdl"
+    },
+    {
+      "id": "9337",
+      "name": "Watcher of the Virulent Krait",
+      "item_name": "#DOTA_Item_Watcher_of_the_Virulent_Krait",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9338",
+      "name": "Tail of the Virulent Krait",
+      "item_name": "#DOTA_Item_Tail_of_the_Virulent_Krait",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/venomancer_hydra_switch_color_tail/venomancer_hydra_switch_color_tail.vmdl"
+    },
+    {
+      "id": "9558",
+      "name": "Cult of Aktok",
+      "item_name": "#DOTA_Item_Cult_of_Aktok",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/veno_ti8_immortal_head/veno_ti8_immortal_head.vmdl"
+    },
+    {
+      "id": "9893",
+      "name": "Ward of the Ferocious Toxicant",
+      "item_name": "#DOTA_Item_Ward_of_the_Ferocious_Toxicant",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9894",
+      "name": "Crest of the Ferocious Toxicant",
+      "item_name": "#DOTA_Item_Crest_of_the_Ferocious_Toxicant",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/ferocious_toxicants_embrace_head/ferocious_toxicants_embrace_head.vmdl"
+    },
+    {
+      "id": "9895",
+      "name": "Spines of the Ferocious Toxicant",
+      "item_name": "#DOTA_Item_Spines_of_the_Ferocious_Toxicant",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/ferocious_toxicants_embrace_shoulder/ferocious_toxicants_embrace_shoulder.vmdl"
+    },
+    {
+      "id": "9896",
+      "name": "Spitters of the Ferocious Toxicant",
+      "item_name": "#DOTA_Item_Spitters_of_the_Ferocious_Toxicant",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/ferocious_toxicants_embrace_arms/ferocious_toxicants_embrace_arms.vmdl"
+    },
+    {
+      "id": "9897",
+      "name": "Tail of the Ferocious Toxicant",
+      "item_name": "#DOTA_Item_Tail_of_the_Ferocious_Toxicant",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail.vmdl"
+    },
+    {
+      "id": "9914",
+      "name": "Ward of the Molokau Stalker",
+      "item_name": "#DOTA_Item_Ward_of_the_Molokau_Stalker",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9915",
+      "name": "Plates of the Molokau Stalker",
+      "item_name": "#DOTA_Item_Plates_of_the_Molokau_Stalker",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/ti8_veno_stalagmite_crawler_shoulder/ti8_veno_stalagmite_crawler_shoulder.vmdl"
+    },
+    {
+      "id": "9916",
+      "name": "Head of the Molokau Stalker",
+      "item_name": "#DOTA_Item_Head_of_the_Molokau_Stalker",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/ti8_veno_stalagmite_crawler_head/ti8_veno_stalagmite_crawler_head.vmdl"
+    },
+    {
+      "id": "9917",
+      "name": "Appendages of the Molokau Stalker",
+      "item_name": "#DOTA_Item_Appendages_of_the_Molokau_Stalker",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/ti8_veno_stalagmite_crawler_arms/ti8_veno_stalagmite_crawler_arms.vmdl"
+    },
+    {
+      "id": "9918",
+      "name": "Tail of the Molokau Stalker",
+      "item_name": "#DOTA_Item_Tail_of_the_Molokau_Stalker",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/ti8_veno_stalagmite_crawler_tail/ti8_veno_stalagmite_crawler_tail.vmdl"
+    },
+    {
+      "id": "12504",
+      "name": "Verdant Predator Head",
+      "item_name": "#DOTA_Item_Verdant_Predator_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/ti8_venomancer_chomper_head/ti8_venomancer_chomper_head.vmdl"
+    },
+    {
+      "id": "12505",
+      "name": "Verdant Predator Spitters",
+      "item_name": "#DOTA_Item_Verdant_Predator_Spitters",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/ti8_venomancer_chomper_arms/ti8_venomancer_chomper_arms.vmdl"
+    },
+    {
+      "id": "12506",
+      "name": "Verdant Predator Back",
+      "item_name": "#DOTA_Item_Verdant_Predator_Back",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/ti8_venomancer_chomper_shoulder/ti8_venomancer_chomper_shoulder.vmdl"
+    },
+    {
+      "id": "12507",
+      "name": "Verdant Predator Tail",
+      "item_name": "#DOTA_Item_Verdant_Predator_Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/ti8_venomancer_chomper_tail/ti8_venomancer_chomper_tail.vmdl"
+    },
+    {
+      "id": "12508",
+      "name": "Verdant Predator Ward",
+      "item_name": "#DOTA_Item_Verdant_Predator_Ward",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13084",
+      "name": "Nacreous Stag Claws",
+      "item_name": "#DOTA_Item_Nacreous_Stag_Claws",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/venomancer_millipede_arms/venomancer_millipede_arms.vmdl"
+    },
+    {
+      "id": "13106",
+      "name": "Nacreous Stag Head",
+      "item_name": "#DOTA_Item_Nacreous_Stag_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/venomancer_millipede_head/venomancer_millipede_head.vmdl"
+    },
+    {
+      "id": "13107",
+      "name": "Nacreous Stag Back",
+      "item_name": "#DOTA_Item_Nacreous_Stag_Back",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/venomancer_millipede_shoulder/venomancer_millipede_shoulder.vmdl"
+    },
+    {
+      "id": "13108",
+      "name": "Nacreous Stag Tail",
+      "item_name": "#DOTA_Item_Nacreous_Stag_Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/venomancer_millipede_tail/venomancer_millipede_tail.vmdl"
+    },
+    {
+      "id": "13109",
+      "name": "Nacreous Stag Plague Ward",
+      "item_name": "#DOTA_Item_Nacreous_Stag_Plague_Ward",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19264",
+      "name": "Avatars of Aktok",
+      "item_name": "#DOTA_Item_Avatars_of_Aktok",
+      "item_slot": "ability3",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19731",
+      "name": "Venomancer Slime Ward",
+      "item_name": "#DOTA_Venomancer_Slime_Ward",
+      "item_slot": "ability3",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19732",
+      "name": "Venomancer Slime Tail",
+      "item_name": "#DOTA_Item_Vote_Only_Venomancer_Slime_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/venomancer_slime_tail/venomancer_slime_tail.vmdl"
+    },
+    {
+      "id": "19733",
+      "name": "Venomancer Slime Shoulder",
+      "item_name": "#DOTA_Item_Vote_Only_Venomancer_Slime_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/venomancer_slime_shoulder/venomancer_slime_shoulder.vmdl"
+    },
+    {
+      "id": "19734",
+      "name": "Venomancer Slime Head",
+      "item_name": "#DOTA_Item_Vote_Only_Venomancer_Slime_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/venomancer_slime_head/venomancer_slime_head.vmdl"
+    },
+    {
+      "id": "19735",
+      "name": "Venomancer Slime Arms",
+      "item_name": "#DOTA_Item_Vote_Only_Venomancer_Slime_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/venomancer_slime_arms/venomancer_slime_arms.vmdl"
+    },
+    {
+      "id": "20522",
+      "name": "Venomous Deathbringer",
+      "item_name": "#DOTA_Item_Venomous_Deathbringer",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20660",
+      "name": "Acid Hydra",
+      "item_name": "#DOTA_Item_Acid_Hydra",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20924",
+      "name": "Ferocious Toxicant",
+      "item_name": "#DOTA_Item_Ferocious_Toxicant",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21047",
+      "name": "Fatal Bloom",
+      "item_name": "#DOTA_Item_Fatal_Bloom",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21119",
+      "name": "Corruption of the Virulent Krait",
+      "item_name": "#DOTA_Item_Corruption_of_the_Virulent_Krait",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21203",
+      "name": "Molokau Stalker",
+      "item_name": "#DOTA_Item_Molokau_Stalker",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21249",
+      "name": "Verdant Predator",
+      "item_name": "#DOTA_Item_Verdant_Predator",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21335",
+      "name": "Nacreous Stag",
+      "item_name": "#DOTA_Item_Nacreous_Stag",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21943",
+      "name": "Venomancer Slime",
+      "item_name": "#DOTA_Item_Vote_Only_Venomancer_Slime",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22271",
+      "name": "Aktok's Domain",
+      "item_name": "#DOTA_Item_Aktoks_Domain",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22847",
+      "name": "The Orb of Aktok",
+      "item_name": "#DOTA_Item_The_Orb_of_Aktok",
+      "item_slot": "tail",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/veno_2022_immortal_tail/veno_2022_immortal_tail.vmdl"
+    },
+    {
+      "id": "23716",
+      "name": "Aktok's Glory",
+      "item_name": "#DOTA_Item_Aktoks_Glory",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "30325",
+      "name": "Mechamancer - Head",
+      "item_name": "#DOTA_Item_Mechamancer__Head",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/mechamancer/mechamancer_head.vmdl"
+    },
+    {
+      "id": "30326",
+      "name": "Mechamancer - Back",
+      "item_name": "#DOTA_Item_Mechamancer__Back",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/mechamancer/mechamancer_shoulders.vmdl"
+    },
+    {
+      "id": "30327",
+      "name": "Mechamancer - Tail",
+      "item_name": "#DOTA_Item_Mechamancer__Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/mechamancer/mechamancer_tail.vmdl"
+    },
+    {
+      "id": "30328",
+      "name": "Mechamancer - Arms",
+      "item_name": "#DOTA_Item_Mechamancer__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/venomancer/mechamancer/mechamancer_arms.vmdl"
+    },
+    {
+      "id": "31295",
+      "name": "Mechamancer",
+      "item_name": "#DOTA_Item_Mechamancer",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "31297",
+      "name": "Mechamancer - Ward",
+      "item_name": "#DOTA_Item_Mechamancer__Ward",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "32655",
+      "name": "Taunt: Mecha Bananadancer",
+      "item_name": "#DOTA_Item_Taunt_Mecha_Bananadancer",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "taunt"
+    }
+  ]
+}

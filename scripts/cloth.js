@@ -286,9 +286,10 @@ function analyzeDefaultItems(data) {
                 item_name: item.item_name || '未知',
                 item_slot: item.item_slot || 'weapon',
                 item_rarity: item.item_rarity || 'common',
+                model_player: item.model_player,
                 used_by_heroes: item.used_by_heroes || {}
             };
-            
+
             defaultItems.push(itemInfo);
         }
     });

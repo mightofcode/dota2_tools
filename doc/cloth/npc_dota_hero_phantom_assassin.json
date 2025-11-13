@@ -1,0 +1,2769 @@
+{
+  "defaults": {
+    "head": {
+      "id": "137",
+      "name": "Phantom Assassin's Helmet",
+      "item_name": "#DOTA_Item_Phantom_Assassins_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/phantom_assassin/phantom_assassin_helmet.vmdl"
+    },
+    "shoulder": {
+      "id": "138",
+      "name": "Phantom Assassin's Shoulder Pads",
+      "item_name": "#DOTA_Item_Phantom_Assassins_Shoulder_Pads",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/phantom_assassin/phantom_assassin_shoulders.vmdl"
+    },
+    "back": {
+      "id": "139",
+      "name": "Phantom Assassin's Cape",
+      "item_name": "#DOTA_Item_Phantom_Assassins_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/phantom_assassin/phantom_assassin_cape.vmdl"
+    },
+    "weapon": {
+      "id": "140",
+      "name": "Phantom Assassin's Weapon",
+      "item_name": "#DOTA_Item_Phantom_Assassins_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/phantom_assassin/phantom_assassin_weapon.vmdl"
+    },
+    "belt": {
+      "id": "141",
+      "name": "Phantom Assassin's Daggers",
+      "item_name": "#DOTA_Item_Phantom_Assassins_Daggers",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "model_player": "models/heroes/phantom_assassin/phantom_assassin_daggers.vmdl"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Bane_of_the_Deathstalkers",
+      "store_bundle": "Bane of the Deathstalkers",
+      "portrait_image": "econ/sets/v2/bane_of_the_deathstalkers",
+      "items": [
+        {
+          "name": "Bane of the Deathstalkers - Weapon",
+          "id": "19180",
+          "item_name": "#DOTA_Item_Bane_of_the_Deathstalkers__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/athena_pa_weapon/athena_pa_weapon.vmdl"
+        },
+        {
+          "name": "Bane of the Deathstalkers - Shoulder",
+          "id": "19179",
+          "item_name": "#DOTA_Item_Bane_of_the_Deathstalkers__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/athena_pa_shoulder/athena_pa_shoulder.vmdl"
+        },
+        {
+          "name": "Bane of the Deathstalkers - Belt",
+          "id": "19178",
+          "item_name": "#DOTA_Item_Bane_of_the_Deathstalkers__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/athena_pa_belt/athena_pa_belt.vmdl"
+        },
+        {
+          "name": "Bane of the Deathstalkers - Back",
+          "id": "19177",
+          "item_name": "#DOTA_Item_Bane_of_the_Deathstalkers__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/athena_pa_back/athena_pa_back.vmdl"
+        },
+        {
+          "name": "Bane of the Deathstalkers - Head",
+          "id": "19176",
+          "item_name": "#DOTA_Item_Bane_of_the_Deathstalkers__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/athena_pa_head/athena_pa_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bloodroot_Guard",
+      "store_bundle": "Bloodroot Guard",
+      "portrait_image": "econ/sets/v2/bloodroot_guard",
+      "items": [
+        {
+          "name": "Blade of the Bloodroot Guard",
+          "id": "8586",
+          "item_name": "#DOTA_Item_Blade_of_the_Bloodroot_Guard",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/phantom_knight_weapon/phantom_knight_weapon.vmdl"
+        },
+        {
+          "name": "Belt of the Bloodroot Guard",
+          "id": "8587",
+          "item_name": "#DOTA_Item_Belt_of_the_Bloodroot_Guard",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/phantom_knight_belt/phantom_knight_belt.vmdl"
+        },
+        {
+          "name": "Vest of the Bloodroot Guard",
+          "id": "8588",
+          "item_name": "#DOTA_Item_Vest_of_the_Bloodroot_Guard",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/phantom_knight_shoulder/phantom_knight_shoulder.vmdl"
+        },
+        {
+          "name": "Cape of the Bloodroot Guard",
+          "id": "8589",
+          "item_name": "#DOTA_Item_Cape_of_the_Bloodroot_Guard",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/phantom_knight_back/phantom_knight_back.vmdl"
+        },
+        {
+          "name": "Helm of the Bloodroot Guard",
+          "id": "8590",
+          "item_name": "#DOTA_Item_Helm_of_the_Bloodroot_Guard",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/phantom_knight_head/phantom_knight_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Capricious_Fate",
+      "store_bundle": "Capricious Fate",
+      "portrait_image": "econ/sets/v2/capricious_fate",
+      "items": [
+        {
+          "name": "Capricious Fate Weapon",
+          "id": "18455",
+          "item_name": "#DOTA_Item_Capricious_Fate_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/dplus_capricious_fate_weapon/dplus_capricious_fate_weapon.vmdl"
+        },
+        {
+          "name": "Capricious Fate Head",
+          "id": "18453",
+          "item_name": "#DOTA_Item_Capricious_Fate_Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/dplus_capricious_fate_head/dplus_capricious_fate_head.vmdl"
+        },
+        {
+          "name": "Capricious Fate Shoulder",
+          "id": "18452",
+          "item_name": "#DOTA_Item_Capricious_Fate_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/dplus_capricious_fate_shoulder/dplus_capricious_fate_shoulder.vmdl"
+        },
+        {
+          "name": "Capricious Fate Back",
+          "id": "18451",
+          "item_name": "#DOTA_Item_Capricious_Fate_Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/dplus_capricious_fate_back/dplus_capricious_fate_back.vmdl"
+        },
+        {
+          "name": "Capricious Fate Belt",
+          "id": "18450",
+          "item_name": "#DOTA_Item_Capricious_Fate_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/dplus_capricious_fate_belt/dplus_capricious_fate_belt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Creeping_Shadow",
+      "store_bundle": "Creeping Shadow",
+      "portrait_image": "econ/sets/v2/creeping_shadow",
+      "items": [
+        {
+          "name": "Cape of the Creeping Shadow",
+          "id": "7297",
+          "item_name": "#DOTA_Item_Cape_of_the_Creeping_Shadow",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/creeping_shadow_back/creeping_shadow_back.vmdl"
+        },
+        {
+          "name": "Blade of the Creeping Shadow",
+          "id": "7310",
+          "item_name": "#DOTA_Item_Blade_of_the_Creeping_Shadow",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/creeping_shadow_weapon/creeping_shadow_weapon.vmdl"
+        },
+        {
+          "name": "Belt of the Creeping Shadow",
+          "id": "7307",
+          "item_name": "#DOTA_Item_Belt_of_the_Creeping_Shadow",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/creeping_shadow_belt/creeping_shadow_belt.vmdl"
+        },
+        {
+          "name": "Hood of the Creeping Shadow",
+          "id": "7308",
+          "item_name": "#DOTA_Item_Hood_of_the_Creeping_Shadow",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/creeping_shadow_head/creeping_shadow_head.vmdl"
+        },
+        {
+          "name": "Shawl of the Creeping Shadow",
+          "id": "7309",
+          "item_name": "#DOTA_Item_Shawl_of_the_Creeping_Shadow",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/creeping_shadow_shoulder/creeping_shadow_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Cruel_Reprisal",
+      "store_bundle": "Cruel Reprisal",
+      "portrait_image": "econ/sets/v2/cruel_reprisal",
+      "items": [
+        {
+          "name": "Armor of Cruel Reprisal",
+          "id": "12598",
+          "item_name": "#DOTA_Item_Armor_of_Cruel_Reprisal",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/armor_reprisal_shoulder/armor_reprisal_shoulder.vmdl"
+        },
+        {
+          "name": "Helm of Cruel Reprisal",
+          "id": "12597",
+          "item_name": "#DOTA_Item_Helm_of_Cruel_Reprisal",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/armor_reprisal_head/armor_reprisal_head.vmdl"
+        },
+        {
+          "name": "Cape of Cruel Reprisal",
+          "id": "12596",
+          "item_name": "#DOTA_Item_Cape_of_Cruel_Reprisal",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/armor_reprisal_back/armor_reprisal_back.vmdl"
+        },
+        {
+          "name": "Blade of Cruel Reprisal",
+          "id": "12594",
+          "item_name": "#DOTA_Item_Blade_of_Cruel_Reprisal",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/armor_reprisal_weapon/armor_reprisal_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dame_de_Carreau",
+      "store_bundle": "Dame de Carreau",
+      "portrait_image": "econ/sets/v2/dame_de_carreau",
+      "items": [
+        {
+          "name": "Carreau's Honor",
+          "id": "7113",
+          "item_name": "#DOTA_Item_Carreaus_Honor",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/carreau_weapon/carreau_weapon.vmdl"
+        },
+        {
+          "name": "Carreau's Agony",
+          "id": "7114",
+          "item_name": "#DOTA_Item_Carreaus_Agony",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/carreau_back/carreau_back.vmdl"
+        },
+        {
+          "name": "Carreau's Tradition",
+          "id": "7115",
+          "item_name": "#DOTA_Item_Carreaus_Tradition",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/carreau_belt/carreau_belt.vmdl"
+        },
+        {
+          "name": "Carreau's Etiquette",
+          "id": "7116",
+          "item_name": "#DOTA_Item_Carreaus_Etiquette",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/carreau_shoulder/carreau_shoulder.vmdl"
+        },
+        {
+          "name": "Carreau's Deception",
+          "id": "7117",
+          "item_name": "#DOTA_Item_Carreaus_Deception",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/carreau_head/carreau_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dark_Wraith",
+      "store_bundle": "Dark Wraith Set",
+      "portrait_image": "econ/sets/v2/dark_wraith",
+      "items": [
+        {
+          "name": "Cloak of the Dark Wraith",
+          "id": "5350",
+          "item_name": "#DOTA_Item_Cloak_of_the_Dark_Wraith",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/dark_wraith_back/dark_wraith_back.vmdl"
+        },
+        {
+          "name": "Girdle of the Dark Wraith",
+          "id": "5351",
+          "item_name": "#DOTA_Item_Girdle_of_the_Dark_Wraith",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/dark_wraith_belt/dark_wraith_belt.vmdl"
+        },
+        {
+          "name": "Helm of the Dark Wraith",
+          "id": "5352",
+          "item_name": "#DOTA_Item_Helm_of_the_Dark_Wraith",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/dark_wraith_helmet/dark_wraith_helmet.vmdl"
+        },
+        {
+          "name": "Guard of the Dark Wraith",
+          "id": "5353",
+          "item_name": "#DOTA_Item_Guard_of_the_Dark_Wraith",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/dark_wraith_shoulder/dark_wraith_shoulder.vmdl"
+        },
+        {
+          "name": "Blade of the Dark Wraith",
+          "id": "5354",
+          "item_name": "#DOTA_Item_Blade_of_the_Dark_Wraith",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/dark_wraith_weapon/dark_wraith_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Darkfeather_Factioneer",
+      "store_bundle": "Darkfeather Factioneer",
+      "portrait_image": "econ/sets/v2/darkfeather_factioneer",
+      "items": [
+        {
+          "name": "Darkfeather Factioneer - Back",
+          "id": "17942",
+          "item_name": "#DOTA_Item_Darkfeather_Factioneer__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/assassination_of_dark_feather_back/assassination_of_dark_feather_back.vmdl"
+        },
+        {
+          "name": "Darkfeather Factioneer - Belt",
+          "id": "17944",
+          "item_name": "#DOTA_Item_Darkfeather_Factioneer__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/assassination_of_dark_feather_belt/assassination_of_dark_feather_belt.vmdl"
+        },
+        {
+          "name": "Darkfeather Factioneer - Head",
+          "id": "17945",
+          "item_name": "#DOTA_Item_Darkfeather_Factioneer__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/assassination_of_dark_feather_head/assassination_of_dark_feather_head.vmdl"
+        },
+        {
+          "name": "Darkfeather Factioneer - Shoulder",
+          "id": "17941",
+          "item_name": "#DOTA_Item_Darkfeather_Factioneer__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/assassination_of_dark_feather_shoulder/assassination_of_dark_feather_shoulder.vmdl"
+        },
+        {
+          "name": "Darkfeather Factioneer - Weapon",
+          "id": "17943",
+          "item_name": "#DOTA_Item_Darkfeather_Factioneer__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/assassination_of_dark_feather_weapon/assassination_of_dark_feather_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dragonterror",
+      "store_bundle": "Dragonterror",
+      "portrait_image": "econ/sets/v2/dragonterror",
+      "items": [
+        {
+          "name": "Dragonterror Cape",
+          "id": "6666",
+          "item_name": "#DOTA_Item_Dragonterror_Cape",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/dragonterror_cape/dragonterror_cape.vmdl"
+        },
+        {
+          "name": "Dragonterror Armor",
+          "id": "6664",
+          "item_name": "#DOTA_Item_Dragonterror_Armor",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/dragonterror_shoulder/dragonterror_shoulder.vmdl"
+        },
+        {
+          "name": "Dragonterror Belt",
+          "id": "6665",
+          "item_name": "#DOTA_Item_Dragonterror_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/dragonterror_belt/dragonterror_belt.vmdl"
+        },
+        {
+          "name": "Dragonterror Helmet",
+          "id": "6667",
+          "item_name": "#DOTA_Item_Dragonterror_Helmet",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/dragonterror_helmet/dragonterror_helmet.vmdl"
+        },
+        {
+          "name": "Dragonterror Sword",
+          "id": "6668",
+          "item_name": "#DOTA_Item_Dragonterror_Sword",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/dragonterror_sword/dragonterror_sword.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dread_of_the_Gleaming_Seal_Set",
+      "store_bundle": "Dread of the Gleaming Seal Set",
+      "portrait_image": "econ/sets/v2/dread_gleaming_seal",
+      "items": [
+        {
+          "name": "Belt of the Gleaming Seal",
+          "id": "5654",
+          "item_name": "#DOTA_Item_Belt_of_the_Gleaming_Seal",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/lodas_pa_set__belt/lodas_pa_set__belt.vmdl"
+        },
+        {
+          "name": "Cape of the Gleaming Seal",
+          "id": "5655",
+          "item_name": "#DOTA_Item_Cape_of_the_Gleaming_Seal",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/lodas_pa_set__cape/lodas_pa_set__cape.vmdl"
+        },
+        {
+          "name": "Brooch of the Gleaming Seal",
+          "id": "5656",
+          "item_name": "#DOTA_Item_Brooch_of_the_Gleaming_Seal",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/lodas_pa_set__head/lodas_pa_set__head.vmdl"
+        },
+        {
+          "name": "Ornaments of the Gleaming Seal",
+          "id": "5657",
+          "item_name": "#DOTA_Item_Ornaments_of_the_Gleaming_Seal",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/lodas_pa_set__shoulders/lodas_pa_set__shoulders.vmdl"
+        },
+        {
+          "name": "Gleaming Seal",
+          "id": "5658",
+          "item_name": "#DOTA_Item_Gleaming_Seal",
+          "item_slot": "weapon",
+          "item_rarity": "legendary",
+          "model_player": "models/items/phantom_assassin/lodas_pa_set__weapon/lodas_pa_set__weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Gothic_Whisper",
+      "store_bundle": "Gothic Whisper",
+      "portrait_image": "econ/sets/v2/gothic_whisper",
+      "items": [
+        {
+          "name": "Gothic Whisper Cape",
+          "id": "13480",
+          "item_name": "#DOTA_Item_Gothic_Whisper_Cape",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/ti9_cache_pa_gothic_hunter_back/ti9_cache_pa_gothic_hunter_back.vmdl"
+        },
+        {
+          "name": "Gothic Whisper Belt",
+          "id": "13479",
+          "item_name": "#DOTA_Item_Gothic_Whisper_Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/ti9_cache_pa_gothic_hunter_belt/ti9_cache_pa_gothic_hunter_belt.vmdl"
+        },
+        {
+          "name": "Gothic Whisper Mask",
+          "id": "13478",
+          "item_name": "#DOTA_Item_Gothic_Whisper_Mask",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/ti9_cache_pa_gothic_hunter_head/ti9_cache_pa_gothic_hunter_head.vmdl"
+        },
+        {
+          "name": "Gothic Whisper Armor",
+          "id": "13477",
+          "item_name": "#DOTA_Item_Gothic_Whisper_Armor",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/ti9_cache_pa_gothic_hunter_shoulder/ti9_cache_pa_gothic_hunter_shoulder.vmdl"
+        },
+        {
+          "name": "Gothic Whisper Blade",
+          "id": "13476",
+          "item_name": "#DOTA_Item_Gothic_Whisper_Blade",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/ti9_cache_pa_gothic_hunter_weapon/ti9_cache_pa_gothic_hunter_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Manifold_Paradox",
+      "store_bundle": "Manifold Paradox Bundle",
+      "portrait_image": "econ/sets/v2/manifold_paradox",
+      "items": [
+        {
+          "name": "Manifold Paradox",
+          "id": "7247",
+          "item_name": "#DOTA_Item_Manifold_Paradox",
+          "item_slot": "weapon",
+          "item_rarity": "arcana",
+          "model_player": "models/heroes/phantom_assassin/pa_arcana_weapons.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Nimble_Edge",
+      "store_bundle": "Nimble Edge Set",
+      "portrait_image": "econ/sets/v2/nimble_edge",
+      "items": [
+        {
+          "name": "Helm of the Nimble Edge",
+          "id": "4966",
+          "item_name": "#DOTA_Item_Helm_of_the_Nimble_Edge",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/senhelm_001/senhelm_001.vmdl"
+        },
+        {
+          "name": "Leaf of the Nimble Edge",
+          "id": "4967",
+          "item_name": "#DOTA_Item_Leaf_of_the_Nimble_Edge",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/sentblade_001/sentblade_001.vmdl"
+        },
+        {
+          "name": "Cloak of the Nimble Edge",
+          "id": "4968",
+          "item_name": "#DOTA_Item_Cloak_of_the_Nimble_Edge",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/sentcloak_001/sentcloak_001.vmdl"
+        },
+        {
+          "name": "Pauldron of the Nimble Edge",
+          "id": "4969",
+          "item_name": "#DOTA_Item_Pauldron_of_the_Nimble_Edge",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/sentshoulders_001/sentshoulders_001.vmdl"
+        },
+        {
+          "name": "Girdle of the Nimble Edge",
+          "id": "4970",
+          "item_name": "#DOTA_Item_Girdle_of_the_Nimble_Edge",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/belt_001/belt_001.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Onikage_Disciple",
+      "store_bundle": "Onikage Disciple",
+      "portrait_image": "econ/sets/v2/onikage_disciple",
+      "items": [
+        {
+          "name": "Onikage Disciple - Weapon",
+          "id": "28648",
+          "item_name": "#DOTA_Item_Onikage_Disciple__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/phantom_assassin_emerald_kunoichi_weapon/phantom_assassin_emerald_kunoichi_weapon.vmdl"
+        },
+        {
+          "name": "Onikage Disciple - Back",
+          "id": "28647",
+          "item_name": "#DOTA_Item_Onikage_Disciple__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/phantom_assassin_emerald_kunoichi_back/phantom_assassin_emerald_kunoichi_back.vmdl"
+        },
+        {
+          "name": "Onikage Disciple - Belt",
+          "id": "28646",
+          "item_name": "#DOTA_Item_Onikage_Disciple__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/phantom_assassin_emerald_kunoichi_belt/phantom_assassin_emerald_kunoichi_belt.vmdl"
+        },
+        {
+          "name": "Onikage Disciple - Shoulder",
+          "id": "28645",
+          "item_name": "#DOTA_Item_Onikage_Disciple__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/phantom_assassin_emerald_kunoichi_shoulder/phantom_assassin_emerald_kunoichi_shoulder.vmdl"
+        },
+        {
+          "name": "Onikage Disciple - Head",
+          "id": "28637",
+          "item_name": "#DOTA_Item_Onikage_Disciple__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/phantom_assassin_emerald_kunoichi_head/phantom_assassin_emerald_kunoichi_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Penumbral_Vesture",
+      "store_bundle": "Penumbral Vesture Set",
+      "portrait_image": "econ/sets/v2/penumbral_vesture",
+      "items": [
+        {
+          "name": "Penumbral Crest",
+          "id": "4933",
+          "item_name": "#DOTA_Item_Penumbral_Crest",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/pa_veil_of_the_shadow_assassin_veil_veil/pa_veil_of_the_shadow_assassin_veil_veil.vmdl"
+        },
+        {
+          "name": "Penumbral Cloak",
+          "id": "4934",
+          "item_name": "#DOTA_Item_Penumbral_Cloak",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/pa_veil_of_the_shadow_assassin_back_final/pa_veil_of_the_shadow_assassin_back_final.vmdl"
+        },
+        {
+          "name": "Penumbral Hood",
+          "id": "4932",
+          "item_name": "#DOTA_Item_Penumbral_Hood",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/veil_of_the_shadow_assassin_head_final/veil_of_the_shadow_assassin_head_final.vmdl"
+        },
+        {
+          "name": "Penumbral Shawl",
+          "id": "4931",
+          "item_name": "#DOTA_Item_Penumbral_Shawl",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/pa_veil_of_the_shadow_assassin_shoulder_final/pa_veil_of_the_shadow_assassin_shoulder_final.vmdl"
+        },
+        {
+          "name": "Penumbral Warblade",
+          "id": "4930",
+          "item_name": "#DOTA_Item_Penumbral_Warblade",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/pa_veil_of_the_shadow_assassin/pa_veil_of_the_shadow_assassin.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Phantoms_Facade",
+      "store_bundle": "Phantom's Facade",
+      "portrait_image": "econ/sets/v2/phantoms_facade",
+      "items": [
+        {
+          "name": "Phantom's Facade - Weapon",
+          "id": "31007",
+          "item_name": "#DOTA_Item_Phantoms_Facade__Weapon",
+          "item_slot": "weapon_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/weapon_dark_carnival/weapon_dark_carnival.vmdl"
+        },
+        {
+          "name": "Phantom's Facade - Legs",
+          "id": "31006",
+          "item_name": "#DOTA_Item_Phantoms_Facade__Legs",
+          "item_slot": "legs_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/legs_dark_carnival/legs_dark_carnival.vmdl"
+        },
+        {
+          "name": "Phantom's Facade - Head",
+          "id": "31005",
+          "item_name": "#DOTA_Item_Phantoms_Facade__Head",
+          "item_slot": "head_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/head_dark_carnival/head_dark_carnival.vmdl"
+        },
+        {
+          "name": "Phantom's Facade - Armor",
+          "id": "31004",
+          "item_name": "#DOTA_Item_Phantoms_Facade__Armor",
+          "item_slot": "armor_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/armor_dark_carnival/armor_dark_carnival.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Raiments_of_the_Eventide",
+      "store_bundle": "Raiments of the Eventide",
+      "portrait_image": "econ/sets/v2/raiments_of_the_eventide",
+      "items": [
+        {
+          "name": "Tasset of the Eventide",
+          "id": "7598",
+          "item_name": "#DOTA_Item_Tasset_of_the_Eventide",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/raiments_of_the_shadow_slayer_set_belt/raiments_of_the_shadow_slayer_set_belt.vmdl"
+        },
+        {
+          "name": "Mantle of the Eventide",
+          "id": "7597",
+          "item_name": "#DOTA_Item_Mantle_of_the_Eventide",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/raiments_of_the_shadow_slayer_set_shoulder/raiments_of_the_shadow_slayer_set_shoulder.vmdl"
+        },
+        {
+          "name": "Blade of the Eventide",
+          "id": "7600",
+          "item_name": "#DOTA_Item_Blade_of_the_Eventide",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/raiments_of_the_shadow_slayer_set_weapon/raiments_of_the_shadow_slayer_set_weapon.vmdl"
+        },
+        {
+          "name": "Cloak of the Eventide",
+          "id": "7599",
+          "item_name": "#DOTA_Item_Cloak_of_the_Eventide",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/raiments_of_the_shadow_slayer_set_back/raiments_of_the_shadow_slayer_set_back.vmdl"
+        },
+        {
+          "name": "Headdress of the Eventide",
+          "id": "7601",
+          "item_name": "#DOTA_Item_Headdress_of_the_Eventide",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/raiments_of_the_shadow_slayer_set_head/raiments_of_the_shadow_slayer_set_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Raiments_of_the_Sacrosanct",
+      "store_bundle": "Raiments of the Sacrosanct",
+      "portrait_image": "econ/sets/v2/raiments_of_the_sacrosanct",
+      "items": [
+        {
+          "name": "Helm of the Sacrosanct",
+          "id": "8015",
+          "item_name": "#DOTA_Item_Helm_of_the_Sacrosanct",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/raiment_of_the_sacred_blossom_head/raiment_of_the_sacred_blossom_head.vmdl"
+        },
+        {
+          "name": "Blade of the Sacrosanct",
+          "id": "8011",
+          "item_name": "#DOTA_Item_Blade_of_the_Sacrosanct",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/raiment_of_the_sacred_blossom_weapon/raiment_of_the_sacred_blossom_weapon.vmdl"
+        },
+        {
+          "name": "Shoulders of the Sacrosanct",
+          "id": "8012",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Sacrosanct",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/raiment_of_the_sacred_blossom_shoulder/raiment_of_the_sacred_blossom_shoulder.vmdl"
+        },
+        {
+          "name": "Cape of the Sacrosanct",
+          "id": "8014",
+          "item_name": "#DOTA_Item_Cape_of_the_Sacrosanct",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/raiment_of_the_sacred_blossom_back/raiment_of_the_sacred_blossom_back.vmdl"
+        },
+        {
+          "name": "Belt of the Sacrosanct",
+          "id": "8013",
+          "item_name": "#DOTA_Item_Belt_of_the_Sacrosanct",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/raiment_of_the_sacred_blossom_belt/raiment_of_the_sacred_blossom_belt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ravening_Wings",
+      "store_bundle": "Ravening Wings",
+      "portrait_image": "econ/sets/v2/ravening_wings",
+      "items": [
+        {
+          "name": "Glaive of the Ravening Wings",
+          "id": "8138",
+          "item_name": "#DOTA_Item_Glaive_of_the_Ravening_Wings",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/kiss_of_crows_weapon/kiss_of_crows_weapon.vmdl"
+        },
+        {
+          "name": "Belt of the Ravening Wings",
+          "id": "8136",
+          "item_name": "#DOTA_Item_Belt_of_the_Ravening_Wings",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/kiss_of_crows_belt/kiss_of_crows_belt.vmdl"
+        },
+        {
+          "name": "Cape of the Ravening Wings",
+          "id": "8137",
+          "item_name": "#DOTA_Item_Cape_of_the_Ravening_Wings",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/kiss_of_crows_back/kiss_of_crows_back.vmdl"
+        },
+        {
+          "name": "Helm of the Ravening Wings",
+          "id": "8139",
+          "item_name": "#DOTA_Item_Helm_of_the_Ravening_Wings",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/kiss_of_crows_head/kiss_of_crows_head.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Ravening Wings",
+          "id": "8140",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Ravening_Wings",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/kiss_of_crows_shoulders/kiss_of_crows_shoulders.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Reaper_of_the_Waning_Veil",
+      "store_bundle": "Reaper of the Waning Veil",
+      "portrait_image": "econ/sets/v2/reaper_of_the_waning_veil",
+      "items": [
+        {
+          "name": "Reaper of the Waning Veil - Weapon",
+          "id": "32984",
+          "item_name": "#DOTA_Item_Reaper_of_the_Waning_Veil__Weapon",
+          "item_slot": "weapon_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/veilstrider_weapon/veilstrider_weapon.vmdl"
+        },
+        {
+          "name": "Reaper of the Waning Veil - Legs",
+          "id": "32983",
+          "item_name": "#DOTA_Item_Reaper_of_the_Waning_Veil__Legs",
+          "item_slot": "legs_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/veilstrider_legs/veilstrider_legs.vmdl"
+        },
+        {
+          "name": "Reaper of the Waning Veil - Head",
+          "id": "32982",
+          "item_name": "#DOTA_Item_Reaper_of_the_Waning_Veil__Head",
+          "item_slot": "head_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/veilstrider_head/veilstrider_head.vmdl"
+        },
+        {
+          "name": "Reaper of the Waning Veil - Armor",
+          "id": "32981",
+          "item_name": "#DOTA_Item_Reaper_of_the_Waning_Veil__Armor",
+          "item_slot": "armor_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/veilstrider_armor/veilstrider_armor.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Shadow_Stalker",
+      "store_bundle": "Shadow Stalker",
+      "portrait_image": "econ/sets/v2/shadow_stalker",
+      "items": [
+        {
+          "name": "Shadow Stalker - Weapon",
+          "id": "28323",
+          "item_name": "#DOTA_Item_Shadow_Stalker__Weapon",
+          "item_slot": "weapon_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/2023panther_shadow_weapon/2023panther_shadow_weapon.vmdl"
+        },
+        {
+          "name": "Shadow Stalker - Legs",
+          "id": "28322",
+          "item_name": "#DOTA_Item_Shadow_Stalker__Legs",
+          "item_slot": "legs_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/2023panther_shadow_belt/2023panther_shadow_belt.vmdl"
+        },
+        {
+          "name": "Shadow Stalker - Head",
+          "id": "28321",
+          "item_name": "#DOTA_Item_Shadow_Stalker__Head",
+          "item_slot": "head_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/2023panther_shadow_hair/2023panther_shadow_hair.vmdl"
+        },
+        {
+          "name": "Shadow Stalker - Armor",
+          "id": "28320",
+          "item_name": "#DOTA_Item_Shadow_Stalker__Armor",
+          "item_slot": "armor_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/2023panther_shadow_armor/2023panther_shadow_armor.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Song_of_the_Shadow_Dragon",
+      "store_bundle": "Song of the Shadow Dragon",
+      "portrait_image": "econ/sets/v2/song_of_the_shadow_dragon",
+      "items": [
+        {
+          "name": "Song of the Shadow Dragon - Belt",
+          "id": "28170",
+          "item_name": "#DOTA_Item_Song_of_the_Shadow_Dragon__Belt",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_pa_belt.vmdl"
+        },
+        {
+          "name": "Song of the Shadow Dragon - Head",
+          "id": "28171",
+          "item_name": "#DOTA_Item_Song_of_the_Shadow_Dragon__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_pa_head.vmdl"
+        },
+        {
+          "name": "Song of the Shadow Dragon - Shoulders",
+          "id": "28172",
+          "item_name": "#DOTA_Item_Song_of_the_Shadow_Dragon__Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_pa_shoulder.vmdl"
+        },
+        {
+          "name": "Song of the Shadow Dragon - Back",
+          "id": "28238",
+          "item_name": "#DOTA_Item_Song_of_the_Shadow_Dragon__Back",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_pa_back.vmdl"
+        },
+        {
+          "name": "Song of the Shadow Dragon - Blade",
+          "id": "28239",
+          "item_name": "#DOTA_Item_Song_of_the_Shadow_Dragon__Blade",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_pa_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Thalassic_Slayer",
+      "store_bundle": "Thalassic Slayer",
+      "portrait_image": "econ/sets/v2/thalassic_slayer",
+      "items": [
+        {
+          "name": "Thalassic Slayer - Shoulder",
+          "id": "31231",
+          "item_name": "#DOTA_Item_Thalassic_Slayer__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/shore_assassin_armor/shore_assassin_armor.vmdl"
+        },
+        {
+          "name": "Thalassic Slayer - Head",
+          "id": "31232",
+          "item_name": "#DOTA_Item_Thalassic_Slayer__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/shore_assassin_head/shore_assassin_head.vmdl"
+        },
+        {
+          "name": "Thalassic Slayer - Pike",
+          "id": "31233",
+          "item_name": "#DOTA_Item_Thalassic_Slayer__Pike",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/shore_assassin_weapon2/shore_assassin_weapon2.vmdl"
+        },
+        {
+          "name": "Thalassic Slayer - Weapon",
+          "id": "31234",
+          "item_name": "#DOTA_Item_Thalassic_Slayer__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/shore_assassin_weapon1/shore_assassin_weapon1.vmdl"
+        },
+        {
+          "name": "Thalassic Slayer - Belt",
+          "id": "31235",
+          "item_name": "#DOTA_Item_Thalassic_Slayer__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/shore_assassin_belt/shore_assassin_belt.vmdl"
+        },
+        {
+          "name": "Thalassic Slayer - Back",
+          "id": "31236",
+          "item_name": "#DOTA_Item_Thalassic_Slayer__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/shore_assassin_back/shore_assassin_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Toll_of_the_Fearful_Aria",
+      "store_bundle": "Toll of the Fearful Aria",
+      "portrait_image": "econ/sets/v2/toll_of_the_fearful_aria",
+      "items": [
+        {
+          "name": "Curve of the Fearful Aria",
+          "id": "9319",
+          "item_name": "#DOTA_Item_Curve_of_the_Fearful_Aria",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/toll_of_the_fearful_aria_weapon/toll_of_the_fearful_aria_weapon.vmdl"
+        },
+        {
+          "name": "Style of the Fearful Aria",
+          "id": "9320",
+          "item_name": "#DOTA_Item_Style_of_the_Fearful_Aria",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/toll_of_the_fearful_aria_head/toll_of_the_fearful_aria_head.vmdl"
+        },
+        {
+          "name": "Armor of the Fearful Aria",
+          "id": "9321",
+          "item_name": "#DOTA_Item_Armor_of_the_Fearful_Aria",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/toll_of_the_fearful_aria_shoulder/toll_of_the_fearful_aria_shoulder.vmdl"
+        },
+        {
+          "name": "Trail of the Fearful Aria",
+          "id": "9322",
+          "item_name": "#DOTA_Item_Trail_of_the_Fearful_Aria",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/toll_of_the_fearful_aria_back/toll_of_the_fearful_aria_back.vmdl"
+        },
+        {
+          "name": "Sash of the Fearful Aria",
+          "id": "9323",
+          "item_name": "#DOTA_Item_Sash_of_the_Fearful_Aria",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/toll_of_the_fearful_aria_belt/toll_of_the_fearful_aria_belt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Valkyries_Shade",
+      "store_bundle": "Valkyrie's Shade",
+      "portrait_image": "econ/sets/v2/valkyries_shade",
+      "items": [
+        {
+          "name": "Valkyrie's Shade Shoulder",
+          "id": "13842",
+          "item_name": "#DOTA_Item_Valkyries_Shade_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/valkyries_shade_shoulder/valkyries_shade_shoulder.vmdl"
+        },
+        {
+          "name": "Valkyrie's Shade Weapon",
+          "id": "13841",
+          "item_name": "#DOTA_Item_Valkyries_Shade_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/valkyries_shade_weapon/valkyries_shade_weapon.vmdl"
+        },
+        {
+          "name": "Valkyrie's Shade Head",
+          "id": "13840",
+          "item_name": "#DOTA_Item_Valkyries_Shade_Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/valkyries_shade_head/valkyries_shade_head.vmdl"
+        },
+        {
+          "name": "Valkyrie's Shade Back",
+          "id": "13839",
+          "item_name": "#DOTA_Item_Valkyries_Shade_Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/valkyries_shade_back/valkyries_shade_back.vmdl"
+        },
+        {
+          "name": "Valkyrie's Shade Belt",
+          "id": "13838",
+          "item_name": "#DOTA_Item_Valkyries_Shade_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/phantom_assassin/valkyries_shade_belt/valkyries_shade_belt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Visions_of_the_Lifted_Veil",
+      "store_bundle": "Visions of the Lifted Veil",
+      "portrait_image": "econ/sets/v2/visions_of_the_lifted_veil",
+      "items": [
+        {
+          "name": "Armor of the Lifted Veil",
+          "id": "9847",
+          "item_name": "#DOTA_Item_Armor_of_the_Lifted_Veil",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/ti8_pathe_gloomy_veil_shoulder/ti8_pathe_gloomy_veil_shoulder.vmdl"
+        },
+        {
+          "name": "Cape of the Lifted Veil",
+          "id": "9846",
+          "item_name": "#DOTA_Item_Cape_of_the_Lifted_Veil",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/ti8_pathe_gloomy_veil_back/ti8_pathe_gloomy_veil_back.vmdl"
+        },
+        {
+          "name": "Belt of the Lifted Veil",
+          "id": "9845",
+          "item_name": "#DOTA_Item_Belt_of_the_Lifted_Veil",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/ti8_pathe_gloomy_veil_belt/ti8_pathe_gloomy_veil_belt.vmdl"
+        },
+        {
+          "name": "Blade of the Lifted Veil",
+          "id": "9844",
+          "item_name": "#DOTA_Item_Blade_of_the_Lifted_Veil",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/ti8_pathe_gloomy_veil_weapon/ti8_pathe_gloomy_veil_weapon.vmdl"
+        },
+        {
+          "name": "Helm of the Lifted Veil",
+          "id": "9843",
+          "item_name": "#DOTA_Item_Helm_of_the_Lifted_Veil",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/phantom_assassin/ti8_pathe_gloomy_veil_head/ti8_pathe_gloomy_veil_head.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "137",
+      "name": "Phantom Assassin's Helmet",
+      "item_name": "#DOTA_Item_Phantom_Assassins_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/phantom_assassin/phantom_assassin_helmet.vmdl"
+    },
+    {
+      "id": "138",
+      "name": "Phantom Assassin's Shoulder Pads",
+      "item_name": "#DOTA_Item_Phantom_Assassins_Shoulder_Pads",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/phantom_assassin/phantom_assassin_shoulders.vmdl"
+    },
+    {
+      "id": "139",
+      "name": "Phantom Assassin's Cape",
+      "item_name": "#DOTA_Item_Phantom_Assassins_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/phantom_assassin/phantom_assassin_cape.vmdl"
+    },
+    {
+      "id": "140",
+      "name": "Phantom Assassin's Weapon",
+      "item_name": "#DOTA_Item_Phantom_Assassins_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/phantom_assassin/phantom_assassin_weapon.vmdl"
+    },
+    {
+      "id": "141",
+      "name": "Phantom Assassin's Daggers",
+      "item_name": "#DOTA_Item_Phantom_Assassins_Daggers",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/phantom_assassin/phantom_assassin_daggers.vmdl"
+    },
+    {
+      "id": "764",
+      "name": "Phantom Assassin's Persona",
+      "item_name": "#DOTA_Item_Phantom_Assassins_Persona",
+      "item_slot": "persona_selector",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "783",
+      "name": "Phantom Assassin Persona Head",
+      "item_name": "#DOTA_Item_Phantom_Assassin_Persona_Head",
+      "item_slot": "head_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/phantom_assassin_persona/phantom_assassin_persona_head.vmdl"
+    },
+    {
+      "id": "784",
+      "name": "Phantom Assassin Persona Armor",
+      "item_name": "#DOTA_Item_Phantom_Assassin_Persona_Armor",
+      "item_slot": "armor_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/phantom_assassin_persona/phantom_assassin_persona_armor.vmdl"
+    },
+    {
+      "id": "785",
+      "name": "Phantom Assassin Persona Legs",
+      "item_name": "#DOTA_Item_Phantom_Assassin_Persona_Legs",
+      "item_slot": "legs_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/phantom_assassin_persona/phantom_assassin_persona_legs.vmdl"
+    },
+    {
+      "id": "786",
+      "name": "Phantom Assassin Persona Weapon",
+      "item_name": "#DOTA_Item_Phantom_Assassin_Persona_Weapon",
+      "item_slot": "weapon_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/phantom_assassin_persona/phantom_assassin_persona_weapon.vmdl"
+    },
+    {
+      "id": "4167",
+      "name": "Twinblade of the Veil",
+      "item_name": "#DOTA_Item_Twinblade_of_the_Veil",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/phantom_assasin_doubleblade.vmdl"
+    },
+    {
+      "id": "4257",
+      "name": "Deathwielder",
+      "item_name": "#DOTA_Item_Deathwielder",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/weapon_reaper.vmdl"
+    },
+    {
+      "id": "4271",
+      "name": "Exquisite Doubled Axe of the Veil",
+      "item_name": "#DOTA_Item_Exquisite_Doubled_Axe_of_the_Veil",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/phantom_assasin_doubleaxe.vmdl"
+    },
+    {
+      "id": "4671",
+      "name": "Scythe of Sacrifice",
+      "item_name": "#DOTA_Item_Scythe_of_Sacrifice",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/scythe_of_sacrifice/scythe_of_sacrifice.vmdl"
+    },
+    {
+      "id": "4930",
+      "name": "Penumbral Warblade",
+      "item_name": "#DOTA_Item_Penumbral_Warblade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/pa_veil_of_the_shadow_assassin/pa_veil_of_the_shadow_assassin.vmdl"
+    },
+    {
+      "id": "4931",
+      "name": "Penumbral Shawl",
+      "item_name": "#DOTA_Item_Penumbral_Shawl",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/pa_veil_of_the_shadow_assassin_shoulder_final/pa_veil_of_the_shadow_assassin_shoulder_final.vmdl"
+    },
+    {
+      "id": "4932",
+      "name": "Penumbral Hood",
+      "item_name": "#DOTA_Item_Penumbral_Hood",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/veil_of_the_shadow_assassin_head_final/veil_of_the_shadow_assassin_head_final.vmdl"
+    },
+    {
+      "id": "4933",
+      "name": "Penumbral Crest",
+      "item_name": "#DOTA_Item_Penumbral_Crest",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/pa_veil_of_the_shadow_assassin_veil_veil/pa_veil_of_the_shadow_assassin_veil_veil.vmdl"
+    },
+    {
+      "id": "4934",
+      "name": "Penumbral Cloak",
+      "item_name": "#DOTA_Item_Penumbral_Cloak",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/pa_veil_of_the_shadow_assassin_back_final/pa_veil_of_the_shadow_assassin_back_final.vmdl"
+    },
+    {
+      "id": "4964",
+      "name": "Gloomblade",
+      "item_name": "#DOTA_Item_Gloomblade",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/shard_of_the_corrupted6/shard_of_the_corrupted6.vmdl"
+    },
+    {
+      "id": "4966",
+      "name": "Helm of the Nimble Edge",
+      "item_name": "#DOTA_Item_Helm_of_the_Nimble_Edge",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/senhelm_001/senhelm_001.vmdl"
+    },
+    {
+      "id": "4967",
+      "name": "Leaf of the Nimble Edge",
+      "item_name": "#DOTA_Item_Leaf_of_the_Nimble_Edge",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/sentblade_001/sentblade_001.vmdl"
+    },
+    {
+      "id": "4968",
+      "name": "Cloak of the Nimble Edge",
+      "item_name": "#DOTA_Item_Cloak_of_the_Nimble_Edge",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/sentcloak_001/sentcloak_001.vmdl"
+    },
+    {
+      "id": "4969",
+      "name": "Pauldron of the Nimble Edge",
+      "item_name": "#DOTA_Item_Pauldron_of_the_Nimble_Edge",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/sentshoulders_001/sentshoulders_001.vmdl"
+    },
+    {
+      "id": "4970",
+      "name": "Girdle of the Nimble Edge",
+      "item_name": "#DOTA_Item_Girdle_of_the_Nimble_Edge",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/belt_001/belt_001.vmdl"
+    },
+    {
+      "id": "5102",
+      "name": "Evildoer",
+      "item_name": "#DOTA_Item_Evildoer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/evildoer/evildoer.vmdl"
+    },
+    {
+      "id": "5350",
+      "name": "Cloak of the Dark Wraith",
+      "item_name": "#DOTA_Item_Cloak_of_the_Dark_Wraith",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/dark_wraith_back/dark_wraith_back.vmdl"
+    },
+    {
+      "id": "5351",
+      "name": "Girdle of the Dark Wraith",
+      "item_name": "#DOTA_Item_Girdle_of_the_Dark_Wraith",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/dark_wraith_belt/dark_wraith_belt.vmdl"
+    },
+    {
+      "id": "5352",
+      "name": "Helm of the Dark Wraith",
+      "item_name": "#DOTA_Item_Helm_of_the_Dark_Wraith",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/dark_wraith_helmet/dark_wraith_helmet.vmdl"
+    },
+    {
+      "id": "5353",
+      "name": "Guard of the Dark Wraith",
+      "item_name": "#DOTA_Item_Guard_of_the_Dark_Wraith",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/dark_wraith_shoulder/dark_wraith_shoulder.vmdl"
+    },
+    {
+      "id": "5354",
+      "name": "Blade of the Dark Wraith",
+      "item_name": "#DOTA_Item_Blade_of_the_Dark_Wraith",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/dark_wraith_weapon/dark_wraith_weapon.vmdl"
+    },
+    {
+      "id": "5583",
+      "name": "Blade of Misery",
+      "item_name": "#DOTA_Item_Blade_of_Misery",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/blade_of_misery/blade_of_misery.vmdl"
+    },
+    {
+      "id": "5654",
+      "name": "Belt of the Gleaming Seal",
+      "item_name": "#DOTA_Item_Belt_of_the_Gleaming_Seal",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/lodas_pa_set__belt/lodas_pa_set__belt.vmdl"
+    },
+    {
+      "id": "5655",
+      "name": "Cape of the Gleaming Seal",
+      "item_name": "#DOTA_Item_Cape_of_the_Gleaming_Seal",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/lodas_pa_set__cape/lodas_pa_set__cape.vmdl"
+    },
+    {
+      "id": "5656",
+      "name": "Brooch of the Gleaming Seal",
+      "item_name": "#DOTA_Item_Brooch_of_the_Gleaming_Seal",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/lodas_pa_set__head/lodas_pa_set__head.vmdl"
+    },
+    {
+      "id": "5657",
+      "name": "Ornaments of the Gleaming Seal",
+      "item_name": "#DOTA_Item_Ornaments_of_the_Gleaming_Seal",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/lodas_pa_set__shoulders/lodas_pa_set__shoulders.vmdl"
+    },
+    {
+      "id": "5658",
+      "name": "Gleaming Seal",
+      "item_name": "#DOTA_Item_Gleaming_Seal",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/lodas_pa_set__weapon/lodas_pa_set__weapon.vmdl"
+    },
+    {
+      "id": "5788",
+      "name": "Lament of the Slain",
+      "item_name": "#DOTA_Item_Lament_of_the_Slain",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/lament_of_the_slain/lament_of_the_slain.vmdl"
+    },
+    {
+      "id": "6594",
+      "name": "Seven-edged Blade",
+      "item_name": "#DOTA_Item_Sevenedged_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/sevenedgedblade_weapon/sevenedgedblade_weapon.vmdl"
+    },
+    {
+      "id": "6664",
+      "name": "Dragonterror Armor",
+      "item_name": "#DOTA_Item_Dragonterror_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/dragonterror_shoulder/dragonterror_shoulder.vmdl"
+    },
+    {
+      "id": "6665",
+      "name": "Dragonterror Belt",
+      "item_name": "#DOTA_Item_Dragonterror_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/dragonterror_belt/dragonterror_belt.vmdl"
+    },
+    {
+      "id": "6666",
+      "name": "Dragonterror Cape",
+      "item_name": "#DOTA_Item_Dragonterror_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/dragonterror_cape/dragonterror_cape.vmdl"
+    },
+    {
+      "id": "6667",
+      "name": "Dragonterror Helmet",
+      "item_name": "#DOTA_Item_Dragonterror_Helmet",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/dragonterror_helmet/dragonterror_helmet.vmdl"
+    },
+    {
+      "id": "6668",
+      "name": "Dragonterror Sword",
+      "item_name": "#DOTA_Item_Dragonterror_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/dragonterror_sword/dragonterror_sword.vmdl"
+    },
+    {
+      "id": "6872",
+      "name": "Hell's Guide",
+      "item_name": "#DOTA_Item_Hells_Guide",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/hells_guide/hells_guide.vmdl"
+    },
+    {
+      "id": "7113",
+      "name": "Carreau's Honor",
+      "item_name": "#DOTA_Item_Carreaus_Honor",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/carreau_weapon/carreau_weapon.vmdl"
+    },
+    {
+      "id": "7114",
+      "name": "Carreau's Agony",
+      "item_name": "#DOTA_Item_Carreaus_Agony",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/carreau_back/carreau_back.vmdl"
+    },
+    {
+      "id": "7115",
+      "name": "Carreau's Tradition",
+      "item_name": "#DOTA_Item_Carreaus_Tradition",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/carreau_belt/carreau_belt.vmdl"
+    },
+    {
+      "id": "7116",
+      "name": "Carreau's Etiquette",
+      "item_name": "#DOTA_Item_Carreaus_Etiquette",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/carreau_shoulder/carreau_shoulder.vmdl"
+    },
+    {
+      "id": "7117",
+      "name": "Carreau's Deception",
+      "item_name": "#DOTA_Item_Carreaus_Deception",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/carreau_head/carreau_head.vmdl"
+    },
+    {
+      "id": "7247",
+      "name": "Manifold Paradox",
+      "item_name": "#DOTA_Item_Manifold_Paradox",
+      "item_slot": "weapon",
+      "item_rarity": "arcana",
+      "prefab": "wearable",
+      "model_player": "models/heroes/phantom_assassin/pa_arcana_weapons.vmdl"
+    },
+    {
+      "id": "7297",
+      "name": "Cape of the Creeping Shadow",
+      "item_name": "#DOTA_Item_Cape_of_the_Creeping_Shadow",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/creeping_shadow_back/creeping_shadow_back.vmdl"
+    },
+    {
+      "id": "7307",
+      "name": "Belt of the Creeping Shadow",
+      "item_name": "#DOTA_Item_Belt_of_the_Creeping_Shadow",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/creeping_shadow_belt/creeping_shadow_belt.vmdl"
+    },
+    {
+      "id": "7308",
+      "name": "Hood of the Creeping Shadow",
+      "item_name": "#DOTA_Item_Hood_of_the_Creeping_Shadow",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/creeping_shadow_head/creeping_shadow_head.vmdl"
+    },
+    {
+      "id": "7309",
+      "name": "Shawl of the Creeping Shadow",
+      "item_name": "#DOTA_Item_Shawl_of_the_Creeping_Shadow",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/creeping_shadow_shoulder/creeping_shadow_shoulder.vmdl"
+    },
+    {
+      "id": "7310",
+      "name": "Blade of the Creeping Shadow",
+      "item_name": "#DOTA_Item_Blade_of_the_Creeping_Shadow",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/creeping_shadow_weapon/creeping_shadow_weapon.vmdl"
+    },
+    {
+      "id": "7397",
+      "name": "Hell's Usher",
+      "item_name": "#DOTA_Item_Hells_Usher",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/hells_guide/hells_guide.vmdl"
+    },
+    {
+      "id": "7597",
+      "name": "Mantle of the Eventide",
+      "item_name": "#DOTA_Item_Mantle_of_the_Eventide",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/raiments_of_the_shadow_slayer_set_shoulder/raiments_of_the_shadow_slayer_set_shoulder.vmdl"
+    },
+    {
+      "id": "7598",
+      "name": "Tasset of the Eventide",
+      "item_name": "#DOTA_Item_Tasset_of_the_Eventide",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/raiments_of_the_shadow_slayer_set_belt/raiments_of_the_shadow_slayer_set_belt.vmdl"
+    },
+    {
+      "id": "7599",
+      "name": "Cloak of the Eventide",
+      "item_name": "#DOTA_Item_Cloak_of_the_Eventide",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/raiments_of_the_shadow_slayer_set_back/raiments_of_the_shadow_slayer_set_back.vmdl"
+    },
+    {
+      "id": "7600",
+      "name": "Blade of the Eventide",
+      "item_name": "#DOTA_Item_Blade_of_the_Eventide",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/raiments_of_the_shadow_slayer_set_weapon/raiments_of_the_shadow_slayer_set_weapon.vmdl"
+    },
+    {
+      "id": "7601",
+      "name": "Headdress of the Eventide",
+      "item_name": "#DOTA_Item_Headdress_of_the_Eventide",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/raiments_of_the_shadow_slayer_set_head/raiments_of_the_shadow_slayer_set_head.vmdl"
+    },
+    {
+      "id": "7607",
+      "name": "Solace of Divinity",
+      "item_name": "#DOTA_Item_Solace_of_Divinity",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/weta_solace_of_divinity_weapon/weta_solace_of_divinity_weapon.vmdl"
+    },
+    {
+      "id": "8011",
+      "name": "Blade of the Sacrosanct",
+      "item_name": "#DOTA_Item_Blade_of_the_Sacrosanct",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/raiment_of_the_sacred_blossom_weapon/raiment_of_the_sacred_blossom_weapon.vmdl"
+    },
+    {
+      "id": "8012",
+      "name": "Shoulders of the Sacrosanct",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Sacrosanct",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/raiment_of_the_sacred_blossom_shoulder/raiment_of_the_sacred_blossom_shoulder.vmdl"
+    },
+    {
+      "id": "8013",
+      "name": "Belt of the Sacrosanct",
+      "item_name": "#DOTA_Item_Belt_of_the_Sacrosanct",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/raiment_of_the_sacred_blossom_belt/raiment_of_the_sacred_blossom_belt.vmdl"
+    },
+    {
+      "id": "8014",
+      "name": "Cape of the Sacrosanct",
+      "item_name": "#DOTA_Item_Cape_of_the_Sacrosanct",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/raiment_of_the_sacred_blossom_back/raiment_of_the_sacred_blossom_back.vmdl"
+    },
+    {
+      "id": "8015",
+      "name": "Helm of the Sacrosanct",
+      "item_name": "#DOTA_Item_Helm_of_the_Sacrosanct",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/raiment_of_the_sacred_blossom_head/raiment_of_the_sacred_blossom_head.vmdl"
+    },
+    {
+      "id": "8136",
+      "name": "Belt of the Ravening Wings",
+      "item_name": "#DOTA_Item_Belt_of_the_Ravening_Wings",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/kiss_of_crows_belt/kiss_of_crows_belt.vmdl"
+    },
+    {
+      "id": "8137",
+      "name": "Cape of the Ravening Wings",
+      "item_name": "#DOTA_Item_Cape_of_the_Ravening_Wings",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/kiss_of_crows_back/kiss_of_crows_back.vmdl"
+    },
+    {
+      "id": "8138",
+      "name": "Glaive of the Ravening Wings",
+      "item_name": "#DOTA_Item_Glaive_of_the_Ravening_Wings",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/kiss_of_crows_weapon/kiss_of_crows_weapon.vmdl"
+    },
+    {
+      "id": "8139",
+      "name": "Helm of the Ravening Wings",
+      "item_name": "#DOTA_Item_Helm_of_the_Ravening_Wings",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/kiss_of_crows_head/kiss_of_crows_head.vmdl"
+    },
+    {
+      "id": "8140",
+      "name": "Pauldrons of the Ravening Wings",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Ravening_Wings",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/kiss_of_crows_shoulders/kiss_of_crows_shoulders.vmdl"
+    },
+    {
+      "id": "8586",
+      "name": "Blade of the Bloodroot Guard",
+      "item_name": "#DOTA_Item_Blade_of_the_Bloodroot_Guard",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/phantom_knight_weapon/phantom_knight_weapon.vmdl"
+    },
+    {
+      "id": "8587",
+      "name": "Belt of the Bloodroot Guard",
+      "item_name": "#DOTA_Item_Belt_of_the_Bloodroot_Guard",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/phantom_knight_belt/phantom_knight_belt.vmdl"
+    },
+    {
+      "id": "8588",
+      "name": "Vest of the Bloodroot Guard",
+      "item_name": "#DOTA_Item_Vest_of_the_Bloodroot_Guard",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/phantom_knight_shoulder/phantom_knight_shoulder.vmdl"
+    },
+    {
+      "id": "8589",
+      "name": "Cape of the Bloodroot Guard",
+      "item_name": "#DOTA_Item_Cape_of_the_Bloodroot_Guard",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/phantom_knight_back/phantom_knight_back.vmdl"
+    },
+    {
+      "id": "8590",
+      "name": "Helm of the Bloodroot Guard",
+      "item_name": "#DOTA_Item_Helm_of_the_Bloodroot_Guard",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/phantom_knight_head/phantom_knight_head.vmdl"
+    },
+    {
+      "id": "9202",
+      "name": "Taunt: Deadly Grace",
+      "item_name": "#DOTA_Item_Taunt_Deadly_Grace",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "9319",
+      "name": "Curve of the Fearful Aria",
+      "item_name": "#DOTA_Item_Curve_of_the_Fearful_Aria",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/toll_of_the_fearful_aria_weapon/toll_of_the_fearful_aria_weapon.vmdl"
+    },
+    {
+      "id": "9320",
+      "name": "Style of the Fearful Aria",
+      "item_name": "#DOTA_Item_Style_of_the_Fearful_Aria",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/toll_of_the_fearful_aria_head/toll_of_the_fearful_aria_head.vmdl"
+    },
+    {
+      "id": "9321",
+      "name": "Armor of the Fearful Aria",
+      "item_name": "#DOTA_Item_Armor_of_the_Fearful_Aria",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/toll_of_the_fearful_aria_shoulder/toll_of_the_fearful_aria_shoulder.vmdl"
+    },
+    {
+      "id": "9322",
+      "name": "Trail of the Fearful Aria",
+      "item_name": "#DOTA_Item_Trail_of_the_Fearful_Aria",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/toll_of_the_fearful_aria_back/toll_of_the_fearful_aria_back.vmdl"
+    },
+    {
+      "id": "9323",
+      "name": "Sash of the Fearful Aria",
+      "item_name": "#DOTA_Item_Sash_of_the_Fearful_Aria",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/toll_of_the_fearful_aria_belt/toll_of_the_fearful_aria_belt.vmdl"
+    },
+    {
+      "id": "9757",
+      "name": "Codicil of the Veiled Ones",
+      "item_name": "#DOTA_Item_Codicil_of_the_Veiled_Ones",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/pa_ti8_immortal_head/pa_ti8_immortal_head.vmdl"
+    },
+    {
+      "id": "9843",
+      "name": "Helm of the Lifted Veil",
+      "item_name": "#DOTA_Item_Helm_of_the_Lifted_Veil",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/ti8_pathe_gloomy_veil_head/ti8_pathe_gloomy_veil_head.vmdl"
+    },
+    {
+      "id": "9844",
+      "name": "Blade of the Lifted Veil",
+      "item_name": "#DOTA_Item_Blade_of_the_Lifted_Veil",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/ti8_pathe_gloomy_veil_weapon/ti8_pathe_gloomy_veil_weapon.vmdl"
+    },
+    {
+      "id": "9845",
+      "name": "Belt of the Lifted Veil",
+      "item_name": "#DOTA_Item_Belt_of_the_Lifted_Veil",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/ti8_pathe_gloomy_veil_belt/ti8_pathe_gloomy_veil_belt.vmdl"
+    },
+    {
+      "id": "9846",
+      "name": "Cape of the Lifted Veil",
+      "item_name": "#DOTA_Item_Cape_of_the_Lifted_Veil",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/ti8_pathe_gloomy_veil_back/ti8_pathe_gloomy_veil_back.vmdl"
+    },
+    {
+      "id": "9847",
+      "name": "Armor of the Lifted Veil",
+      "item_name": "#DOTA_Item_Armor_of_the_Lifted_Veil",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/ti8_pathe_gloomy_veil_shoulder/ti8_pathe_gloomy_veil_shoulder.vmdl"
+    },
+    {
+      "id": "12594",
+      "name": "Blade of Cruel Reprisal",
+      "item_name": "#DOTA_Item_Blade_of_Cruel_Reprisal",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/armor_reprisal_weapon/armor_reprisal_weapon.vmdl"
+    },
+    {
+      "id": "12596",
+      "name": "Cape of Cruel Reprisal",
+      "item_name": "#DOTA_Item_Cape_of_Cruel_Reprisal",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/armor_reprisal_back/armor_reprisal_back.vmdl"
+    },
+    {
+      "id": "12597",
+      "name": "Helm of Cruel Reprisal",
+      "item_name": "#DOTA_Item_Helm_of_Cruel_Reprisal",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/armor_reprisal_head/armor_reprisal_head.vmdl"
+    },
+    {
+      "id": "12598",
+      "name": "Armor of Cruel Reprisal",
+      "item_name": "#DOTA_Item_Armor_of_Cruel_Reprisal",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/armor_reprisal_shoulder/armor_reprisal_shoulder.vmdl"
+    },
+    {
+      "id": "13476",
+      "name": "Gothic Whisper Blade",
+      "item_name": "#DOTA_Item_Gothic_Whisper_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/ti9_cache_pa_gothic_hunter_weapon/ti9_cache_pa_gothic_hunter_weapon.vmdl"
+    },
+    {
+      "id": "13477",
+      "name": "Gothic Whisper Armor",
+      "item_name": "#DOTA_Item_Gothic_Whisper_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/ti9_cache_pa_gothic_hunter_shoulder/ti9_cache_pa_gothic_hunter_shoulder.vmdl"
+    },
+    {
+      "id": "13478",
+      "name": "Gothic Whisper Mask",
+      "item_name": "#DOTA_Item_Gothic_Whisper_Mask",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/ti9_cache_pa_gothic_hunter_head/ti9_cache_pa_gothic_hunter_head.vmdl"
+    },
+    {
+      "id": "13479",
+      "name": "Gothic Whisper Belt",
+      "item_name": "#DOTA_Item_Gothic_Whisper_Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/ti9_cache_pa_gothic_hunter_belt/ti9_cache_pa_gothic_hunter_belt.vmdl"
+    },
+    {
+      "id": "13480",
+      "name": "Gothic Whisper Cape",
+      "item_name": "#DOTA_Item_Gothic_Whisper_Cape",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/ti9_cache_pa_gothic_hunter_back/ti9_cache_pa_gothic_hunter_back.vmdl"
+    },
+    {
+      "id": "13838",
+      "name": "Valkyrie's Shade Belt",
+      "item_name": "#DOTA_Item_Valkyries_Shade_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/valkyries_shade_belt/valkyries_shade_belt.vmdl"
+    },
+    {
+      "id": "13839",
+      "name": "Valkyrie's Shade Back",
+      "item_name": "#DOTA_Item_Valkyries_Shade_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/valkyries_shade_back/valkyries_shade_back.vmdl"
+    },
+    {
+      "id": "13840",
+      "name": "Valkyrie's Shade Head",
+      "item_name": "#DOTA_Item_Valkyries_Shade_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/valkyries_shade_head/valkyries_shade_head.vmdl"
+    },
+    {
+      "id": "13841",
+      "name": "Valkyrie's Shade Weapon",
+      "item_name": "#DOTA_Item_Valkyries_Shade_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/valkyries_shade_weapon/valkyries_shade_weapon.vmdl"
+    },
+    {
+      "id": "13842",
+      "name": "Valkyrie's Shade Shoulder",
+      "item_name": "#DOTA_Item_Valkyries_Shade_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/valkyries_shade_shoulder/valkyries_shade_shoulder.vmdl"
+    },
+    {
+      "id": "14948",
+      "name": "Avowance of the Veiled Ones",
+      "item_name": "#DOTA_Item_Avowance_of_the_Veiled_Ones",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/pa_fall20_immortal_shoulders/pa_fall20_immortal_shoulders.vmdl"
+    },
+    {
+      "id": "17941",
+      "name": "Darkfeather Factioneer - Shoulder",
+      "item_name": "#DOTA_Item_Darkfeather_Factioneer__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/assassination_of_dark_feather_shoulder/assassination_of_dark_feather_shoulder.vmdl"
+    },
+    {
+      "id": "17942",
+      "name": "Darkfeather Factioneer - Back",
+      "item_name": "#DOTA_Item_Darkfeather_Factioneer__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/assassination_of_dark_feather_back/assassination_of_dark_feather_back.vmdl"
+    },
+    {
+      "id": "17943",
+      "name": "Darkfeather Factioneer - Weapon",
+      "item_name": "#DOTA_Item_Darkfeather_Factioneer__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/assassination_of_dark_feather_weapon/assassination_of_dark_feather_weapon.vmdl"
+    },
+    {
+      "id": "17944",
+      "name": "Darkfeather Factioneer - Belt",
+      "item_name": "#DOTA_Item_Darkfeather_Factioneer__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/assassination_of_dark_feather_belt/assassination_of_dark_feather_belt.vmdl"
+    },
+    {
+      "id": "17945",
+      "name": "Darkfeather Factioneer - Head",
+      "item_name": "#DOTA_Item_Darkfeather_Factioneer__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/assassination_of_dark_feather_head/assassination_of_dark_feather_head.vmdl"
+    },
+    {
+      "id": "18450",
+      "name": "Capricious Fate Belt",
+      "item_name": "#DOTA_Item_Capricious_Fate_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/dplus_capricious_fate_belt/dplus_capricious_fate_belt.vmdl"
+    },
+    {
+      "id": "18451",
+      "name": "Capricious Fate Back",
+      "item_name": "#DOTA_Item_Capricious_Fate_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/dplus_capricious_fate_back/dplus_capricious_fate_back.vmdl"
+    },
+    {
+      "id": "18452",
+      "name": "Capricious Fate Shoulder",
+      "item_name": "#DOTA_Item_Capricious_Fate_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/dplus_capricious_fate_shoulder/dplus_capricious_fate_shoulder.vmdl"
+    },
+    {
+      "id": "18453",
+      "name": "Capricious Fate Head",
+      "item_name": "#DOTA_Item_Capricious_Fate_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/dplus_capricious_fate_head/dplus_capricious_fate_head.vmdl"
+    },
+    {
+      "id": "18455",
+      "name": "Capricious Fate Weapon",
+      "item_name": "#DOTA_Item_Capricious_Fate_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/dplus_capricious_fate_weapon/dplus_capricious_fate_weapon.vmdl"
+    },
+    {
+      "id": "19176",
+      "name": "Bane of the Deathstalkers - Head",
+      "item_name": "#DOTA_Item_Bane_of_the_Deathstalkers__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/athena_pa_head/athena_pa_head.vmdl"
+    },
+    {
+      "id": "19177",
+      "name": "Bane of the Deathstalkers - Back",
+      "item_name": "#DOTA_Item_Bane_of_the_Deathstalkers__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/athena_pa_back/athena_pa_back.vmdl"
+    },
+    {
+      "id": "19178",
+      "name": "Bane of the Deathstalkers - Belt",
+      "item_name": "#DOTA_Item_Bane_of_the_Deathstalkers__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/athena_pa_belt/athena_pa_belt.vmdl"
+    },
+    {
+      "id": "19179",
+      "name": "Bane of the Deathstalkers - Shoulder",
+      "item_name": "#DOTA_Item_Bane_of_the_Deathstalkers__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/athena_pa_shoulder/athena_pa_shoulder.vmdl"
+    },
+    {
+      "id": "19180",
+      "name": "Bane of the Deathstalkers - Weapon",
+      "item_name": "#DOTA_Item_Bane_of_the_Deathstalkers__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/athena_pa_weapon/athena_pa_weapon.vmdl"
+    },
+    {
+      "id": "20162",
+      "name": "Penumbral Vesture Set",
+      "item_name": "#DOTA_Item_Penumbral_Vesture_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20173",
+      "name": "Nimble Edge Set",
+      "item_name": "#DOTA_Item_Nimble_Edge_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20246",
+      "name": "Dark Wraith Set",
+      "item_name": "#DOTA_Item_Dark_Wraith_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20306",
+      "name": "Dread of the Gleaming Seal Set",
+      "item_name": "#DOTA_Item_Dread_of_the_Gleaming_Seal_Set",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20529",
+      "name": "Dragonterror",
+      "item_name": "#DOTA_Item_Dragonterror",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20654",
+      "name": "Dame de Carreau",
+      "item_name": "#DOTA_Item_Dame_de_Carreau",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20684",
+      "name": "Manifold Paradox Bundle",
+      "item_name": "#DOTA_Item_Manifold_Paradox_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "arcana",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20763",
+      "name": "Raiments of the Sacrosanct",
+      "item_name": "#DOTA_Item_Raiments_of_the_Sacrosanct",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20785",
+      "name": "Ravening Wings",
+      "item_name": "#DOTA_Item_Ravening_Wings",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20822",
+      "name": "Creeping Shadow",
+      "item_name": "#DOTA_Item_Creeping_Shadow",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20848",
+      "name": "Toll of the Fearful Aria",
+      "item_name": "#DOTA_Item_Toll_of_the_Fearful_Aria",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20878",
+      "name": "Raiments of the Eventide",
+      "item_name": "#DOTA_Item_Raiments_of_the_Eventide",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20945",
+      "name": "Bloodroot Guard",
+      "item_name": "#DOTA_Item_Bloodroot_Guard",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21196",
+      "name": "Visions of the Lifted Veil",
+      "item_name": "#DOTA_Item_Visions_of_the_Lifted_Veil",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21265",
+      "name": "Cruel Reprisal",
+      "item_name": "#DOTA_Item_Cruel_Reprisal",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21417",
+      "name": "Gothic Whisper",
+      "item_name": "#DOTA_Item_Gothic_Whisper",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21449",
+      "name": "Valkyrie's Shade",
+      "item_name": "#DOTA_Item_Valkyries_Shade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21725",
+      "name": "Darkfeather Factioneer",
+      "item_name": "#DOTA_Item_Darkfeather_Factioneer",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21809",
+      "name": "Capricious Fate",
+      "item_name": "#DOTA_Item_Capricious_Fate",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21845",
+      "name": "Bane of the Deathstalkers",
+      "item_name": "#DOTA_Item_Bane_of_the_Deathstalkers",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22268",
+      "name": "Avowance of the Crimson Witness",
+      "item_name": "#DOTA_Item_Avowance_of_the_Crimson_Witness",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/pa_fall20_immortal_shoulders/pa_fall20_immortal_shoulders.vmdl"
+    },
+    {
+      "id": "22723",
+      "name": "Exile Unveiled",
+      "item_name": "#DOTA_Item_Exile_Unveiled",
+      "item_slot": "persona_selector",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28170",
+      "name": "Song of the Shadow Dragon - Belt",
+      "item_name": "#DOTA_Item_Song_of_the_Shadow_Dragon__Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_pa_belt.vmdl"
+    },
+    {
+      "id": "28171",
+      "name": "Song of the Shadow Dragon - Head",
+      "item_name": "#DOTA_Item_Song_of_the_Shadow_Dragon__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_pa_head.vmdl"
+    },
+    {
+      "id": "28172",
+      "name": "Song of the Shadow Dragon - Shoulders",
+      "item_name": "#DOTA_Item_Song_of_the_Shadow_Dragon__Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_pa_shoulder.vmdl"
+    },
+    {
+      "id": "28235",
+      "name": "Song of the Shadow Dragon",
+      "item_name": "#DOTA_Item_Song_of_the_Shadow_Dragon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28238",
+      "name": "Song of the Shadow Dragon - Back",
+      "item_name": "#DOTA_Item_Song_of_the_Shadow_Dragon__Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_pa_back.vmdl"
+    },
+    {
+      "id": "28239",
+      "name": "Song of the Shadow Dragon - Blade",
+      "item_name": "#DOTA_Item_Song_of_the_Shadow_Dragon__Blade",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_pa_weapon.vmdl"
+    },
+    {
+      "id": "28320",
+      "name": "Shadow Stalker - Armor",
+      "item_name": "#DOTA_Item_Shadow_Stalker__Armor",
+      "item_slot": "armor_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/2023panther_shadow_armor/2023panther_shadow_armor.vmdl"
+    },
+    {
+      "id": "28321",
+      "name": "Shadow Stalker - Head",
+      "item_name": "#DOTA_Item_Shadow_Stalker__Head",
+      "item_slot": "head_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/2023panther_shadow_hair/2023panther_shadow_hair.vmdl"
+    },
+    {
+      "id": "28322",
+      "name": "Shadow Stalker - Legs",
+      "item_name": "#DOTA_Item_Shadow_Stalker__Legs",
+      "item_slot": "legs_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/2023panther_shadow_belt/2023panther_shadow_belt.vmdl"
+    },
+    {
+      "id": "28323",
+      "name": "Shadow Stalker - Weapon",
+      "item_name": "#DOTA_Item_Shadow_Stalker__Weapon",
+      "item_slot": "weapon_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/2023panther_shadow_weapon/2023panther_shadow_weapon.vmdl"
+    },
+    {
+      "id": "28338",
+      "name": "Shadow Stalker",
+      "item_name": "#DOTA_Item_Shadow_Stalker",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28637",
+      "name": "Onikage Disciple - Head",
+      "item_name": "#DOTA_Item_Onikage_Disciple__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/phantom_assassin_emerald_kunoichi_head/phantom_assassin_emerald_kunoichi_head.vmdl"
+    },
+    {
+      "id": "28645",
+      "name": "Onikage Disciple - Shoulder",
+      "item_name": "#DOTA_Item_Onikage_Disciple__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/phantom_assassin_emerald_kunoichi_shoulder/phantom_assassin_emerald_kunoichi_shoulder.vmdl"
+    },
+    {
+      "id": "28646",
+      "name": "Onikage Disciple - Belt",
+      "item_name": "#DOTA_Item_Onikage_Disciple__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/phantom_assassin_emerald_kunoichi_belt/phantom_assassin_emerald_kunoichi_belt.vmdl"
+    },
+    {
+      "id": "28647",
+      "name": "Onikage Disciple - Back",
+      "item_name": "#DOTA_Item_Onikage_Disciple__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/phantom_assassin_emerald_kunoichi_back/phantom_assassin_emerald_kunoichi_back.vmdl"
+    },
+    {
+      "id": "28648",
+      "name": "Onikage Disciple - Weapon",
+      "item_name": "#DOTA_Item_Onikage_Disciple__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/phantom_assassin_emerald_kunoichi_weapon/phantom_assassin_emerald_kunoichi_weapon.vmdl"
+    },
+    {
+      "id": "29159",
+      "name": "Onikage Disciple",
+      "item_name": "#DOTA_Item_Onikage_Disciple",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "31004",
+      "name": "Phantom's Facade - Armor",
+      "item_name": "#DOTA_Item_Phantoms_Facade__Armor",
+      "item_slot": "armor_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/armor_dark_carnival/armor_dark_carnival.vmdl"
+    },
+    {
+      "id": "31005",
+      "name": "Phantom's Facade - Head",
+      "item_name": "#DOTA_Item_Phantoms_Facade__Head",
+      "item_slot": "head_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/head_dark_carnival/head_dark_carnival.vmdl"
+    },
+    {
+      "id": "31006",
+      "name": "Phantom's Facade - Legs",
+      "item_name": "#DOTA_Item_Phantoms_Facade__Legs",
+      "item_slot": "legs_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/legs_dark_carnival/legs_dark_carnival.vmdl"
+    },
+    {
+      "id": "31007",
+      "name": "Phantom's Facade - Weapon",
+      "item_name": "#DOTA_Item_Phantoms_Facade__Weapon",
+      "item_slot": "weapon_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/weapon_dark_carnival/weapon_dark_carnival.vmdl"
+    },
+    {
+      "id": "31081",
+      "name": "Phantom's Facade",
+      "item_name": "#DOTA_Item_Phantoms_Facade",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "31214",
+      "name": "Thalassic Slayer",
+      "item_name": "#DOTA_Item_Thalassic_Slayer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "31231",
+      "name": "Thalassic Slayer - Shoulder",
+      "item_name": "#DOTA_Item_Thalassic_Slayer__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/shore_assassin_armor/shore_assassin_armor.vmdl"
+    },
+    {
+      "id": "31232",
+      "name": "Thalassic Slayer - Head",
+      "item_name": "#DOTA_Item_Thalassic_Slayer__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/shore_assassin_head/shore_assassin_head.vmdl"
+    },
+    {
+      "id": "31233",
+      "name": "Thalassic Slayer - Pike",
+      "item_name": "#DOTA_Item_Thalassic_Slayer__Pike",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/shore_assassin_weapon2/shore_assassin_weapon2.vmdl"
+    },
+    {
+      "id": "31234",
+      "name": "Thalassic Slayer - Weapon",
+      "item_name": "#DOTA_Item_Thalassic_Slayer__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/shore_assassin_weapon1/shore_assassin_weapon1.vmdl"
+    },
+    {
+      "id": "31235",
+      "name": "Thalassic Slayer - Belt",
+      "item_name": "#DOTA_Item_Thalassic_Slayer__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/shore_assassin_belt/shore_assassin_belt.vmdl"
+    },
+    {
+      "id": "31236",
+      "name": "Thalassic Slayer - Back",
+      "item_name": "#DOTA_Item_Thalassic_Slayer__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/shore_assassin_back/shore_assassin_back.vmdl"
+    },
+    {
+      "id": "32981",
+      "name": "Reaper of the Waning Veil - Armor",
+      "item_name": "#DOTA_Item_Reaper_of_the_Waning_Veil__Armor",
+      "item_slot": "armor_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/veilstrider_armor/veilstrider_armor.vmdl"
+    },
+    {
+      "id": "32982",
+      "name": "Reaper of the Waning Veil - Head",
+      "item_name": "#DOTA_Item_Reaper_of_the_Waning_Veil__Head",
+      "item_slot": "head_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/veilstrider_head/veilstrider_head.vmdl"
+    },
+    {
+      "id": "32983",
+      "name": "Reaper of the Waning Veil - Legs",
+      "item_name": "#DOTA_Item_Reaper_of_the_Waning_Veil__Legs",
+      "item_slot": "legs_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/veilstrider_legs/veilstrider_legs.vmdl"
+    },
+    {
+      "id": "32984",
+      "name": "Reaper of the Waning Veil - Weapon",
+      "item_name": "#DOTA_Item_Reaper_of_the_Waning_Veil__Weapon",
+      "item_slot": "weapon_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/phantom_assassin/veilstrider_weapon/veilstrider_weapon.vmdl"
+    },
+    {
+      "id": "32985",
+      "name": "Reaper of the Waning Veil",
+      "item_name": "#DOTA_Item_Reaper_of_the_Waning_Veil",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    }
+  ]
+}

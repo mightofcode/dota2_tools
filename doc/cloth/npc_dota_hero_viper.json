@@ -1,0 +1,674 @@
+{
+  "defaults": {
+    "ambient_effects": {
+      "id": "519",
+      "name": "Viper's Ambient Effects",
+      "item_name": "#DOTA_Item_Vipers_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "611",
+      "name": "Viper's Wings",
+      "item_name": "#DOTA_Item_Vipers_Wings",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/viper/viper_back.vmdl"
+    },
+    "head": {
+      "id": "623",
+      "name": "Viper's Head",
+      "item_name": "#DOTA_Item_Vipers_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "tail": {
+      "id": "654",
+      "name": "Viper's Tail",
+      "item_name": "#DOTA_Item_Vipers_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Caustic_Corruption",
+      "store_bundle": "Caustic Corruption",
+      "portrait_image": "econ/sets/v2/caustic_corruption",
+      "items": [
+        {
+          "name": "Caustic Corruption - Wings",
+          "id": "31296",
+          "item_name": "#DOTA_Item_Caustic_Corruption__Wings",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/viper/malevolent_netherdrake_wings/malevolent_netherdrake_wings.vmdl"
+        },
+        {
+          "name": "Caustic Corruption - Head",
+          "id": "31338",
+          "item_name": "#DOTA_Item_Caustic_Corruption__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/viper/malevolent_netherdrake_head/malevolent_netherdrake_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Fervid_Monarch",
+      "store_bundle": "Fervid Monarch",
+      "portrait_image": "econ/sets/v2/fervid_monarch",
+      "items": [
+        {
+          "name": "Crown of the Fervid Monarch",
+          "id": "9230",
+          "item_name": "#DOTA_Item_Crown_of_the_Fervid_Monarch",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/viper/king_viper_head/king_viper_head.vmdl"
+        },
+        {
+          "name": "Form of the Fervid Monarch",
+          "id": "9233",
+          "item_name": "#DOTA_Item_Form_of_the_Fervid_Monarch",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/viper/king_viper_back/king_viper_back.vmdl"
+        },
+        {
+          "name": "Tail of the Fervid Monarch",
+          "id": "9670",
+          "item_name": "#DOTA_Item_Tail_of_the_Fervid_Monarch",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/viper/king_viper_tail/viper_king_viper_tail.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_King_of_the_Corrupted_Nest",
+      "store_bundle": "King of the Corrupted Nest",
+      "portrait_image": "econ/sets/v2/king_of_the_corrupted_nest",
+      "items": [
+        {
+          "name": "King of the Corrupted Nest Head",
+          "id": "18489",
+          "item_name": "#DOTA_Item_King_of_the_Corrupted_Nest_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/viper/spring2021_king_of_corrupted_nest_head/spring2021_king_of_corrupted_nest_head.vmdl"
+        },
+        {
+          "name": "King of the Corrupted Nest Back",
+          "id": "18488",
+          "item_name": "#DOTA_Item_King_of_the_Corrupted_Nest_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/viper/spring2021_king_of_corrupted_nest_back/spring2021_king_of_corrupted_nest_back.vmdl"
+        },
+        {
+          "name": "King of the Corrupted Nest Tail",
+          "id": "18491",
+          "item_name": "#DOTA_Item_King_of_the_Corrupted_Nest_Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/viper/spring2021_king_of_corrupted_nest_tail/spring2021_king_of_corrupted_nest_tail.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sign_of_the_Netherfrost",
+      "store_bundle": "Sign of the Netherfrost",
+      "portrait_image": "econ/sets/v2/sign_of_the_netherfrost",
+      "items": [
+        {
+          "name": "Scales of the Netherfrost",
+          "id": "9630",
+          "item_name": "#DOTA_Item_Scales_of_the_Netherfrost",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/viper/viper_frigid_serpent_back/viper_frigid_serpent_back.vmdl"
+        },
+        {
+          "name": "Crown of the Netherfrost",
+          "id": "9629",
+          "item_name": "#DOTA_Item_Crown_of_the_Netherfrost",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/viper/viper_frigid_serpent_head/viper_frigid_serpent_head.vmdl"
+        },
+        {
+          "name": "Tail of the Netherfrost",
+          "id": "9669",
+          "item_name": "#DOTA_Item_Tail_of_the_Netherfrost",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/viper/viper_frigid_serpent_tail/viper_frigid_serpent_tail.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sunken_Snapper",
+      "store_bundle": "Sunken Snapper",
+      "portrait_image": "econ/sets/v2/sunken_snapper",
+      "items": [
+        {
+          "name": "Sunken Snapper Wings",
+          "id": "17862",
+          "item_name": "#DOTA_Item_Sunken_Snapper_Wings",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/viper/mutant_nether_turtle_back/mutant_nether_turtle_back.vmdl"
+        },
+        {
+          "name": "Sunken Snapper Tail",
+          "id": "17861",
+          "item_name": "#DOTA_Item_Sunken_Snapper_Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/viper/mutant_nether_turtle_tail/mutant_nether_turtle_tail.vmdl"
+        },
+        {
+          "name": "Sunken Snapper Head",
+          "id": "17860",
+          "item_name": "#DOTA_Item_Sunken_Snapper_Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/viper/mutant_nether_turtle_head/mutant_nether_turtle_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Toll_of_the_Netherblight",
+      "store_bundle": "Toll of the Netherblight",
+      "portrait_image": "econ/sets/v2/toll_of_the_netherblight",
+      "items": [
+        {
+          "name": "Toll of the Netherblight Tail",
+          "id": "19451",
+          "item_name": "#DOTA_Item_Toll_of_the_Netherblight_Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/viper/symbiotic_dreadwyrm_tail/symbiotic_dreadwyrm_tail.vmdl"
+        },
+        {
+          "name": "Toll of the Netherblight Head",
+          "id": "19452",
+          "item_name": "#DOTA_Item_Toll_of_the_Netherblight_Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/viper/symbiotic_dreadwyrm_head/symbiotic_dreadwyrm_head.vmdl"
+        },
+        {
+          "name": "Toll of the Netherblight Back",
+          "id": "19453",
+          "item_name": "#DOTA_Item_Toll_of_the_Netherblight_Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/viper/symbiotic_dreadwyrm_back/symbiotic_dreadwyrm_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Vanguard_of_the_Netherswarm",
+      "store_bundle": "Vanguard of the Netherswarm",
+      "portrait_image": "econ/sets/v2/vanguard_of_the_netherswarm",
+      "items": [
+        {
+          "name": "Maw of the Netherswarm Vanguard",
+          "id": "12476",
+          "item_name": "#DOTA_Item_Maw_of_the_Netherswarm_Vanguard",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/viper/viper_beetle_head/viper_beetle_head.vmdl"
+        },
+        {
+          "name": "Plating of the Netherswarm Vanguard",
+          "id": "12477",
+          "item_name": "#DOTA_Item_Plating_of_the_Netherswarm_Vanguard",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/viper/viper_beetle_back/viper_beetle_back.vmdl"
+        },
+        {
+          "name": "Sting of the Netherswarm Vanguard",
+          "id": "12475",
+          "item_name": "#DOTA_Item_Sting_of_the_Netherswarm_Vanguard",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/viper/viper_beetle_tail/viper_beetle_tail.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Advance_of_the_SiegeDrake",
+      "store_bundle": "Advance of the Siege-Drake",
+      "portrait_image": "econ/sets/v2/viper_advance_of_the_siegedrake",
+      "items": [
+        {
+          "name": "Helm of the Siege-Drake",
+          "id": "13701",
+          "item_name": "#DOTA_Item_Helm_of_the_SiegeDrake",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/viper/blight_wyrm_head/blight_wyrm_head.vmdl"
+        },
+        {
+          "name": "Tail of the Siege-Drake",
+          "id": "13702",
+          "item_name": "#DOTA_Item_Tail_of_the_SiegeDrake",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/viper/blight_wyrm_tail/blight_wyrm_tail.vmdl"
+        },
+        {
+          "name": "Barding of the Siege-Drake",
+          "id": "13728",
+          "item_name": "#DOTA_Item_Barding_of_the_SiegeDrake",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/viper/blight_wyrm_back/blight_wyrm_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Soul_Serpent",
+      "store_bundle": "Soul Serpent",
+      "portrait_image": "econ/sets/v2/viper_soul_serpent",
+      "items": [
+        {
+          "name": "Quill of the Soul Serpent",
+          "id": "27570",
+          "item_name": "#DOTA_Item_Quill_of_the_Soul_Serpent",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/viper/viper_calavera/viper_calavera_tail.vmdl"
+        },
+        {
+          "name": "Mask of the Soul Serpent",
+          "id": "27569",
+          "item_name": "#DOTA_Item_Mask_of_the_Soul_Serpent",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/viper/viper_calavera/viper_calavera_head.vmdl"
+        },
+        {
+          "name": "Wings of the Soul Serpent",
+          "id": "27568",
+          "item_name": "#DOTA_Item_Wings_of_the_Soul_Serpent",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/viper/viper_calavera/viper_calavera_back.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "519",
+      "name": "Viper's Ambient Effects",
+      "item_name": "#DOTA_Item_Vipers_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "611",
+      "name": "Viper's Wings",
+      "item_name": "#DOTA_Item_Vipers_Wings",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/viper/viper_back.vmdl"
+    },
+    {
+      "id": "623",
+      "name": "Viper's Head",
+      "item_name": "#DOTA_Item_Vipers_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "654",
+      "name": "Viper's Tail",
+      "item_name": "#DOTA_Item_Vipers_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "7811",
+      "name": "Malefic Drake's Hood",
+      "item_name": "#DOTA_Item_Malefic_Drakes_Hood",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/viper_immortal_head_ti7/viper_immortal_head_ti7.vmdl"
+    },
+    {
+      "id": "7995",
+      "name": "Malefic Drake's Hood of the Crimson Witness",
+      "item_name": "#DOTA_Item_Malefic_Drakes_Hood_of_the_Crimson_Witness",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/viper_immortal_head_ti7/viper_immortal_head_ti7.vmdl"
+    },
+    {
+      "id": "9230",
+      "name": "Crown of the Fervid Monarch",
+      "item_name": "#DOTA_Item_Crown_of_the_Fervid_Monarch",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/king_viper_head/king_viper_head.vmdl"
+    },
+    {
+      "id": "9233",
+      "name": "Form of the Fervid Monarch",
+      "item_name": "#DOTA_Item_Form_of_the_Fervid_Monarch",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/king_viper_back/king_viper_back.vmdl"
+    },
+    {
+      "id": "9629",
+      "name": "Crown of the Netherfrost",
+      "item_name": "#DOTA_Item_Crown_of_the_Netherfrost",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/viper_frigid_serpent_head/viper_frigid_serpent_head.vmdl"
+    },
+    {
+      "id": "9630",
+      "name": "Scales of the Netherfrost",
+      "item_name": "#DOTA_Item_Scales_of_the_Netherfrost",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/viper_frigid_serpent_back/viper_frigid_serpent_back.vmdl"
+    },
+    {
+      "id": "9669",
+      "name": "Tail of the Netherfrost",
+      "item_name": "#DOTA_Item_Tail_of_the_Netherfrost",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/viper_frigid_serpent_tail/viper_frigid_serpent_tail.vmdl"
+    },
+    {
+      "id": "9670",
+      "name": "Tail of the Fervid Monarch",
+      "item_name": "#DOTA_Item_Tail_of_the_Fervid_Monarch",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/king_viper_tail/viper_king_viper_tail.vmdl"
+    },
+    {
+      "id": "9758",
+      "name": "Malefic Drake's Strike",
+      "item_name": "#DOTA_Item_Malefic_Drakes_Strike",
+      "item_slot": "tail",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/viper_immortal_tail_ti8/viper_immortal_tail_ti8.vmdl"
+    },
+    {
+      "id": "12475",
+      "name": "Sting of the Netherswarm Vanguard",
+      "item_name": "#DOTA_Item_Sting_of_the_Netherswarm_Vanguard",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/viper_beetle_tail/viper_beetle_tail.vmdl"
+    },
+    {
+      "id": "12476",
+      "name": "Maw of the Netherswarm Vanguard",
+      "item_name": "#DOTA_Item_Maw_of_the_Netherswarm_Vanguard",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/viper_beetle_head/viper_beetle_head.vmdl"
+    },
+    {
+      "id": "12477",
+      "name": "Plating of the Netherswarm Vanguard",
+      "item_name": "#DOTA_Item_Plating_of_the_Netherswarm_Vanguard",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/viper_beetle_back/viper_beetle_back.vmdl"
+    },
+    {
+      "id": "13701",
+      "name": "Helm of the Siege-Drake",
+      "item_name": "#DOTA_Item_Helm_of_the_SiegeDrake",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/blight_wyrm_head/blight_wyrm_head.vmdl"
+    },
+    {
+      "id": "13702",
+      "name": "Tail of the Siege-Drake",
+      "item_name": "#DOTA_Item_Tail_of_the_SiegeDrake",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/blight_wyrm_tail/blight_wyrm_tail.vmdl"
+    },
+    {
+      "id": "13728",
+      "name": "Barding of the Siege-Drake",
+      "item_name": "#DOTA_Item_Barding_of_the_SiegeDrake",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/blight_wyrm_back/blight_wyrm_back.vmdl"
+    },
+    {
+      "id": "17860",
+      "name": "Sunken Snapper Head",
+      "item_name": "#DOTA_Item_Sunken_Snapper_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/mutant_nether_turtle_head/mutant_nether_turtle_head.vmdl"
+    },
+    {
+      "id": "17861",
+      "name": "Sunken Snapper Tail",
+      "item_name": "#DOTA_Item_Sunken_Snapper_Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/mutant_nether_turtle_tail/mutant_nether_turtle_tail.vmdl"
+    },
+    {
+      "id": "17862",
+      "name": "Sunken Snapper Wings",
+      "item_name": "#DOTA_Item_Sunken_Snapper_Wings",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/mutant_nether_turtle_back/mutant_nether_turtle_back.vmdl"
+    },
+    {
+      "id": "18488",
+      "name": "King of the Corrupted Nest Back",
+      "item_name": "#DOTA_Item_King_of_the_Corrupted_Nest_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/spring2021_king_of_corrupted_nest_back/spring2021_king_of_corrupted_nest_back.vmdl"
+    },
+    {
+      "id": "18489",
+      "name": "King of the Corrupted Nest Head",
+      "item_name": "#DOTA_Item_King_of_the_Corrupted_Nest_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/spring2021_king_of_corrupted_nest_head/spring2021_king_of_corrupted_nest_head.vmdl"
+    },
+    {
+      "id": "18491",
+      "name": "King of the Corrupted Nest Tail",
+      "item_name": "#DOTA_Item_King_of_the_Corrupted_Nest_Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/spring2021_king_of_corrupted_nest_tail/spring2021_king_of_corrupted_nest_tail.vmdl"
+    },
+    {
+      "id": "19451",
+      "name": "Toll of the Netherblight Tail",
+      "item_name": "#DOTA_Item_Toll_of_the_Netherblight_Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/symbiotic_dreadwyrm_tail/symbiotic_dreadwyrm_tail.vmdl"
+    },
+    {
+      "id": "19452",
+      "name": "Toll of the Netherblight Head",
+      "item_name": "#DOTA_Item_Toll_of_the_Netherblight_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/symbiotic_dreadwyrm_head/symbiotic_dreadwyrm_head.vmdl"
+    },
+    {
+      "id": "19453",
+      "name": "Toll of the Netherblight Back",
+      "item_name": "#DOTA_Item_Toll_of_the_Netherblight_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/symbiotic_dreadwyrm_back/symbiotic_dreadwyrm_back.vmdl"
+    },
+    {
+      "id": "21143",
+      "name": "Fervid Monarch",
+      "item_name": "#DOTA_Item_Fervid_Monarch",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21172",
+      "name": "Sign of the Netherfrost",
+      "item_name": "#DOTA_Item_Sign_of_the_Netherfrost",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21253",
+      "name": "Vanguard of the Netherswarm",
+      "item_name": "#DOTA_Item_Vanguard_of_the_Netherswarm",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21436",
+      "name": "Advance of the Siege-Drake",
+      "item_name": "#DOTA_Item_Advance_of_the_SiegeDrake",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21708",
+      "name": "Sunken Snapper",
+      "item_name": "#DOTA_Item_Sunken_Snapper",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21814",
+      "name": "King of the Corrupted Nest",
+      "item_name": "#DOTA_Item_King_of_the_Corrupted_Nest",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21892",
+      "name": "Toll of the Netherblight",
+      "item_name": "#DOTA_Item_Toll_of_the_Netherblight",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "27568",
+      "name": "Wings of the Soul Serpent",
+      "item_name": "#DOTA_Item_Wings_of_the_Soul_Serpent",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/viper_calavera/viper_calavera_back.vmdl"
+    },
+    {
+      "id": "27569",
+      "name": "Mask of the Soul Serpent",
+      "item_name": "#DOTA_Item_Mask_of_the_Soul_Serpent",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/viper_calavera/viper_calavera_head.vmdl"
+    },
+    {
+      "id": "27570",
+      "name": "Quill of the Soul Serpent",
+      "item_name": "#DOTA_Item_Quill_of_the_Soul_Serpent",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/viper_calavera/viper_calavera_tail.vmdl"
+    },
+    {
+      "id": "27571",
+      "name": "Soul Serpent",
+      "item_name": "#DOTA_Item_Soul_Serpent",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "31211",
+      "name": "Caustic Corruption",
+      "item_name": "#DOTA_Item_Caustic_Corruption",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "31296",
+      "name": "Caustic Corruption - Wings",
+      "item_name": "#DOTA_Item_Caustic_Corruption__Wings",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/malevolent_netherdrake_wings/malevolent_netherdrake_wings.vmdl"
+    },
+    {
+      "id": "31338",
+      "name": "Caustic Corruption - Head",
+      "item_name": "#DOTA_Item_Caustic_Corruption__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/viper/malevolent_netherdrake_head/malevolent_netherdrake_head.vmdl"
+    }
+  ]
+}

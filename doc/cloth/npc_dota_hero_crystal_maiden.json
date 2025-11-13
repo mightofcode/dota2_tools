@@ -1,0 +1,2842 @@
+{
+  "defaults": {
+    "back": {
+      "id": "38",
+      "name": "Crystal Maiden's Cape",
+      "item_name": "#DOTA_Item_Crystal_Maidens_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/crystal_maiden/crystal_maiden_cape.vmdl"
+    },
+    "shoulder": {
+      "id": "39",
+      "name": "Crystal Maiden's Shoulder Pads",
+      "item_name": "#DOTA_Item_Crystal_Maidens_Shoulder_Pads",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/crystal_maiden/crystal_maiden_shoulders.vmdl"
+    },
+    "weapon": {
+      "id": "40",
+      "name": "Crystal Maiden's Weapon",
+      "item_name": "#DOTA_Item_Crystal_Maidens_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/crystal_maiden/crystal_maiden_staff.vmdl"
+    },
+    "arms": {
+      "id": "41",
+      "name": "Crystal Maiden's Cuffs",
+      "item_name": "#DOTA_Item_Crystal_Maidens_Cuffs",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/crystal_maiden/crystal_maiden_cuffs.vmdl"
+    },
+    "head": {
+      "id": "311",
+      "name": "Crystal Maiden's Headdress",
+      "item_name": "#DOTA_Item_Crystal_Maidens_Headdress",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/crystal_maiden/head_item.vmdl"
+    },
+    "ambient_effects": {
+      "id": "502",
+      "name": "Crystal Maiden's Ambient Effects",
+      "item_name": "#DOTA_Item_Crystal_Maidens_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Blueheart_Sovereign",
+      "store_bundle": "Blueheart Sovereign",
+      "portrait_image": "econ/sets/v2/blueheart_sovereign",
+      "items": [
+        {
+          "name": "Staff of the Blueheart Sovereign",
+          "id": "7665",
+          "item_name": "#DOTA_Item_Staff_of_the_Blueheart_Sovereign",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/crystalline_empress_weapon/crystalline_empress_weapon.vmdl"
+        },
+        {
+          "name": "Cape of the Blueheart Sovereign",
+          "id": "7664",
+          "item_name": "#DOTA_Item_Cape_of_the_Blueheart_Sovereign",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/crystalline_empress_back/crystalline_empress_back.vmdl"
+        },
+        {
+          "name": "Bracers of the Blueheart Sovereign",
+          "id": "7663",
+          "item_name": "#DOTA_Item_Bracers_of_the_Blueheart_Sovereign",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/crystalline_empress_arms/crystalline_empress_arms.vmdl"
+        },
+        {
+          "name": "Mantle of the Blueheart Sovereign",
+          "id": "7662",
+          "item_name": "#DOTA_Item_Mantle_of_the_Blueheart_Sovereign",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/crystalline_empress_shoulder/crystalline_empress_shoulder.vmdl"
+        },
+        {
+          "name": "Crown of the Blueheart Sovereign",
+          "id": "7661",
+          "item_name": "#DOTA_Item_Crown_of_the_Blueheart_Sovereign",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/crystalline_empress_head/crystalline_empress_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Canis_Crystallum",
+      "store_bundle": "Canis Crystallum",
+      "portrait_image": "econ/sets/v2/canis_crystallum",
+      "items": [
+        {
+          "name": "Canis Crystallum - Misc",
+          "id": "29577",
+          "item_name": "#DOTA_Item_Canis_Crystallum__Misc",
+          "item_slot": "misc_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/crystal_diviner_misc/crystal_diviner_misc.vmdl"
+        },
+        {
+          "name": "Canis Crystallum - Head",
+          "id": "29576",
+          "item_name": "#DOTA_Item_Canis_Crystallum__Head",
+          "item_slot": "head_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/crystal_diviner_head/crystal_diviner_head.vmdl"
+        },
+        {
+          "name": "Canis Crystallum - Armor",
+          "id": "29566",
+          "item_name": "#DOTA_Item_Canis_Crystallum__Armor",
+          "item_slot": "armor_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/crystal_diviner_armor/crystal_diviner_armor.vmdl"
+        },
+        {
+          "name": "Canis Crystallum - Tail",
+          "id": "24121",
+          "item_name": "#DOTA_Item_Canis_Crystallum__Tail",
+          "item_slot": "tail_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/crystal_diviner_tail/crystal_diviner_tail.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Charge_of_the_Tundra_Warden",
+      "store_bundle": "Charge of the Tundra Warden",
+      "portrait_image": "econ/sets/v2/charge_of_the_tundra_warden",
+      "items": [
+        {
+          "name": "Gauntlets of the Tundra Warden",
+          "id": "9324",
+          "item_name": "#DOTA_Item_Gauntlets_of_the_Tundra_Warden",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/warden_icewrack_arms/warden_icewrack_arms.vmdl"
+        },
+        {
+          "name": "Tails of the Tundra Warden",
+          "id": "9325",
+          "item_name": "#DOTA_Item_Tails_of_the_Tundra_Warden",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/warden_icewrack_back/warden_icewrack_back.vmdl"
+        },
+        {
+          "name": "Guard of the Tundra Warden",
+          "id": "9326",
+          "item_name": "#DOTA_Item_Guard_of_the_Tundra_Warden",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/warden_icewrack_shoulder/warden_icewrack_shoulder.vmdl"
+        },
+        {
+          "name": "Crown of the Tundra Warden",
+          "id": "9327",
+          "item_name": "#DOTA_Item_Crown_of_the_Tundra_Warden",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/warden_icewrack_head/warden_icewrack_head.vmdl"
+        },
+        {
+          "name": "North Star",
+          "id": "9328",
+          "item_name": "#DOTA_Item_North_Star",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/warden_icewrack_staff/warden_icewrack_staff.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Heart_of_the_North",
+      "store_bundle": "Heart of the North Set",
+      "portrait_image": "econ/sets/v2/cm_heart_ofth_north",
+      "items": [
+        {
+          "name": "Arctic Bracers of the North",
+          "id": "5212",
+          "item_name": "#DOTA_Item_Arctic_Bracers_of_the_North",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/arctic_bracers_of_the_north/arctic_bracers_of_the_north.vmdl"
+        },
+        {
+          "name": "Frostbitten Cloak of the North",
+          "id": "5213",
+          "item_name": "#DOTA_Item_Frostbitten_Cloak_of_the_North",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/frostbitten_cloak_of_the_north/frostbitten_cloak_of_the_north.vmdl"
+        },
+        {
+          "name": "Ice Capped Hood of the North",
+          "id": "5214",
+          "item_name": "#DOTA_Item_Ice_Capped_Hood_of_the_North",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/ice_capped_hood_of_the_north/ice_capped_hood_of_the_north.vmdl"
+        },
+        {
+          "name": "Wizardry Staff of the North",
+          "id": "5215",
+          "item_name": "#DOTA_Item_Wizardry_Staff_of_the_North",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/wizardry_staff_of_the_north/wizardry_staff_of_the_north.vmdl"
+        },
+        {
+          "name": "Shoulders of the North",
+          "id": "5216",
+          "item_name": "#DOTA_Item_Shoulders_of_the_North",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/shoulders_of_the_north/shoulders_of_the_north.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Conduit_of_the_Blueheart_Bundle",
+      "store_bundle": "Conduit of the Blueheart Bundle",
+      "portrait_image": "econ/sets/v2/crystal_maiden_conduit_of_the_blueheart_bundle",
+      "items": [
+        {
+          "name": "Conduit of the Blueheart",
+          "id": "19205",
+          "item_name": "#DOTA_Item_Conduit_of_the_Blueheart",
+          "item_slot": "persona_selector",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Blueheart Familiar",
+          "id": "24910",
+          "item_name": "#DOTA_Item_Blueheart_Familiar",
+          "item_slot": "summon_persona_1",
+          "item_rarity": "legendary"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Lineage_Charge_of_the_Tundra_Warden",
+      "store_bundle": "Lineage Charge of the Tundra Warden",
+      "portrait_image": "econ/sets/v2/crystal_maiden_lineage_charge_of_the_tundra_warden",
+      "items": [
+        {
+          "name": "Lineage Crown of the Tundra Warden",
+          "id": "18114",
+          "item_name": "#DOTA_Item_Lineage_Crown_of_the_Tundra_Warden",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/warden_icewrack_head/warden_icewrack_head.vmdl"
+        },
+        {
+          "name": "Lineage North Star",
+          "id": "18115",
+          "item_name": "#DOTA_Item_Lineage_North_Star",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/warden_icewrack_staff/warden_icewrack_staff.vmdl"
+        },
+        {
+          "name": "Lineage Guard of the Tundra Warden",
+          "id": "18116",
+          "item_name": "#DOTA_Item_Lineage_Guard_of_the_Tundra_Warden",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/warden_icewrack_shoulder/warden_icewrack_shoulder.vmdl"
+        },
+        {
+          "name": "Lineage Tails of the Tundra Warden",
+          "id": "18159",
+          "item_name": "#DOTA_Item_Lineage_Tails_of_the_Tundra_Warden",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/warden_icewrack_back/ti10_warden_icewrack_back.vmdl"
+        },
+        {
+          "name": "Lineage Gauntlets of the Tundra Warden",
+          "id": "18160",
+          "item_name": "#DOTA_Item_Lineage_Gauntlets_of_the_Tundra_Warden",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/warden_icewrack_arms/warden_icewrack_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Lady_of_the_Lumini_Polare",
+      "store_bundle": "Lady of the Lumini Polare",
+      "portrait_image": "econ/sets/v2/crystal_maiden_lumini_polare",
+      "items": [
+        {
+          "name": "Sleeves of the Lumini Polare",
+          "id": "8398",
+          "item_name": "#DOTA_Item_Sleeves_of_the_Lumini_Polare",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/lumini_polare_arms/lumini_polare_arms.vmdl"
+        },
+        {
+          "name": "Shawl of the Lumini Polare",
+          "id": "8401",
+          "item_name": "#DOTA_Item_Shawl_of_the_Lumini_Polare",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/lumini_polare_shoulder/lumini_polare_shoulder.vmdl"
+        },
+        {
+          "name": "Staff of the Lumini Polare",
+          "id": "8403",
+          "item_name": "#DOTA_Item_Staff_of_the_Lumini_Polare",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/lumini_polare_weapon/lumini_polare_weapon.vmdl"
+        },
+        {
+          "name": "Style of the Lumini Polare",
+          "id": "8408",
+          "item_name": "#DOTA_Item_Style_of_the_Lumini_Polare",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/lumini_polare_head/lumini_polare_head.vmdl"
+        },
+        {
+          "name": "Cape of the Lumini Polare",
+          "id": "8405",
+          "item_name": "#DOTA_Item_Cape_of_the_Lumini_Polare",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/lumini_polare_back/lumini_polare_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Prelate_of_the_Wyvern_Legion",
+      "store_bundle": "Prelate of the Wyvern Legion",
+      "portrait_image": "econ/sets/v2/crystal_maiden_prelate_of_the_wyvern_legion",
+      "items": [
+        {
+          "name": "Prelate's Staff of the Wyvern Legion",
+          "id": "13490",
+          "item_name": "#DOTA_Item_Prelates_Staff_of_the_Wyvern_Legion",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/dota_plus_crystal_maiden_weapon/dota_plus_crystal_maiden_weapon.vmdl"
+        },
+        {
+          "name": "Prelate's Bracers of the Wyvern Legion",
+          "id": "13489",
+          "item_name": "#DOTA_Item_Prelates_Bracers_of_the_Wyvern_Legion",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/dota_plus_crystal_maiden_arms/dota_plus_crystal_maiden_arms.vmdl"
+        },
+        {
+          "name": "Prelate's Cloak of the Wyvern Legion",
+          "id": "13488",
+          "item_name": "#DOTA_Item_Prelates_Cloak_of_the_Wyvern_Legion",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/dota_plus_crystal_maiden_back/dota_plus_crystal_maiden_back.vmdl"
+        },
+        {
+          "name": "Prelate's Mantle of the Wyvern Legion",
+          "id": "13487",
+          "item_name": "#DOTA_Item_Prelates_Mantle_of_the_Wyvern_Legion",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/dota_plus_crystal_maiden_head/dota_plus_crystal_maiden_head.vmdl"
+        },
+        {
+          "name": "Prelate's Armor of the Wyvern Legion",
+          "id": "13486",
+          "item_name": "#DOTA_Item_Prelates_Armor_of_the_Wyvern_Legion",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/dota_plus_crystal_maiden_shoulder/dota_plus_crystal_maiden_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Roost_of_the_Winter_Raven",
+      "store_bundle": "Roost of the Winter Raven",
+      "portrait_image": "econ/sets/v2/crystal_maiden_roost_of_the_winter_raven",
+      "items": [
+        {
+          "name": "Frost Avalanche",
+          "id": "7385",
+          "item_name": "#DOTA_Item_Frost_Avalanche",
+          "item_slot": "back",
+          "item_rarity": "arcana",
+          "model_player": "models/heroes/crystal_maiden/crystal_maiden_arcana_back.vmdl"
+        },
+        {
+          "name": "Roost of the Winter Raven - Arms",
+          "id": "27212",
+          "item_name": "#DOTA_Item_Roost_of_the_Winter_Raven__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/cm_screeauk/cm_screeauk_arms.vmdl"
+        },
+        {
+          "name": "Roost of the Winter Raven - Back",
+          "id": "27295",
+          "item_name": "#DOTA_Item_Roost_of_the_Winter_Raven__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/cm_screeauk/cm_screeauk_back.vmdl"
+        },
+        {
+          "name": "Roost of the Winter Raven - Head",
+          "id": "27561",
+          "item_name": "#DOTA_Item_Roost_of_the_Winter_Raven__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/cm_screeauk/cm_screeauk_head.vmdl"
+        },
+        {
+          "name": "Roost of the Winter Raven - Shoulder",
+          "id": "27562",
+          "item_name": "#DOTA_Item_Roost_of_the_Winter_Raven__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/cm_screeauk/cm_screeauk_shoulder.vmdl"
+        },
+        {
+          "name": "Roost of the Winter Raven - Weapon",
+          "id": "27563",
+          "item_name": "#DOTA_Item_Roost_of_the_Winter_Raven__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/cm_screeauk/cm_screeauk_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Royal_Winterbloom",
+      "store_bundle": "Royal Winterbloom",
+      "portrait_image": "econ/sets/v2/crystal_maiden_royal_winterbloom",
+      "items": [
+        {
+          "name": "Royal Winterbloom Head",
+          "id": "17760",
+          "item_name": "#DOTA_Item_Royal_Winterbloom_Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/royal_winterbloom_head/royal_winterbloom_head.vmdl"
+        },
+        {
+          "name": "Royal Winterbloom Shoulder",
+          "id": "17758",
+          "item_name": "#DOTA_Item_Royal_Winterbloom_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/royal_winterbloom_shoulder/royal_winterbloom_shoulder.vmdl"
+        },
+        {
+          "name": "Royal Winterbloom Arms",
+          "id": "17757",
+          "item_name": "#DOTA_Item_Royal_Winterbloom_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/royal_winterbloom_arms/royal_winterbloom_arms.vmdl"
+        },
+        {
+          "name": "Royal Winterbloom Back",
+          "id": "17756",
+          "item_name": "#DOTA_Item_Royal_Winterbloom_Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/royal_winterbloom_back/royal_winterbloom_back.vmdl"
+        },
+        {
+          "name": "Royal Winterbloom Weapon",
+          "id": "17755",
+          "item_name": "#DOTA_Item_Royal_Winterbloom_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/royal_winterbloom_weapon/royal_winterbloom_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Witch_Rylai",
+      "store_bundle": "Witch Rylai",
+      "portrait_image": "econ/sets/v2/crystal_maiden_witch_rylai",
+      "items": [
+        {
+          "name": "Witch Rylai Arms",
+          "id": "18384",
+          "item_name": "#DOTA_Item_Vote_Only_Witch_Rylai_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/witch_rylai_arms/witch_rylai_arms.vmdl"
+        },
+        {
+          "name": "Witch Rylai Back",
+          "id": "18385",
+          "item_name": "#DOTA_Item_Vote_Only_Witch_Rylai_Back",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/witch_rylai_back/witch_rylai_back.vmdl"
+        },
+        {
+          "name": "Witch Rylai Head",
+          "id": "18386",
+          "item_name": "#DOTA_Item_Vote_Only_Witch_Rylai_Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/witch_rylai_head/witch_rylai_head.vmdl"
+        },
+        {
+          "name": "Witch Rylai Shoulder",
+          "id": "18387",
+          "item_name": "#DOTA_Item_Vote_Only_Witch_Rylai_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/witch_rylai_shoulder/witch_rylai_shoulder.vmdl"
+        },
+        {
+          "name": "Witch Rylai Weapon",
+          "id": "18388",
+          "item_name": "#DOTA_Item_Vote_Only_Witch_Rylai_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/witch_rylai_weapon/witch_rylai_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Glacial_Duster_Set",
+      "store_bundle": "Glacier Duster Set",
+      "portrait_image": "econ/sets/v2/crystal_mustache",
+      "items": [
+        {
+          "name": "Cape of the Glacier Duster",
+          "id": "5615",
+          "item_name": "#DOTA_Item_Cape_of_the_Glacier_Duster",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/cm_mike_back/cm_mike_back.vmdl"
+        },
+        {
+          "name": "Staff of the Glacier Duster",
+          "id": "5616",
+          "item_name": "#DOTA_Item_Staff_of_the_Glacier_Duster",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/cm_mike_staff/cm_mike_staff.vmdl"
+        },
+        {
+          "name": "Style of the Glacier Duster",
+          "id": "5612",
+          "item_name": "#DOTA_Item_Style_of_the_Glacier_Duster",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/cm_mike_head/cm_mike_head.vmdl"
+        },
+        {
+          "name": "Shawl of the Glacier Duster",
+          "id": "5613",
+          "item_name": "#DOTA_Item_Shawl_of_the_Glacier_Duster",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/cm_mike_shoulder/cm_mike_shoulder.vmdl"
+        },
+        {
+          "name": "Wraps of the Glacier Duster",
+          "id": "5614",
+          "item_name": "#DOTA_Item_Wraps_of_the_Glacier_Duster",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/cm_mike_arms/cm_mike_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Regalia_of_the_Crystalline_Queen",
+      "store_bundle": "Regalia of the Crystalline Queen Set",
+      "portrait_image": "econ/sets/v2/crystalline_regalia",
+      "items": [
+        {
+          "name": "Staff of the Crystalline Queen",
+          "id": "4383",
+          "item_name": "#DOTA_Item_Staff_of_the_Crystalline_Queen",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/northstar_staff/northstar_staff.vmdl"
+        },
+        {
+          "name": "Cape of the Crystalline Queen",
+          "id": "4386",
+          "item_name": "#DOTA_Item_Cape_of_the_Crystalline_Queen",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/polarisbelle_cape/polarisbelle_cape.vmdl"
+        },
+        {
+          "name": "Mantle of the Crystalline Queen",
+          "id": "4389",
+          "item_name": "#DOTA_Item_Mantle_of_the_Crystalline_Queen",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/belle_shoulders/belle_shoulders.vmdl"
+        },
+        {
+          "name": "Bracers of the Crystalline Queen",
+          "id": "4420",
+          "item_name": "#DOTA_Item_Bracers_of_the_Crystalline_Queen",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/belle_arms_bracers/belle_arms_bracers.vmdl"
+        },
+        {
+          "name": "Tiara of the Crystalline Queen",
+          "id": "4540",
+          "item_name": "#DOTA_Item_Tiara_of_the_Crystalline_Queen",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/belle_head_hair/belle_head_hair.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ensemble_of_the_Crystalline_Comet",
+      "store_bundle": "Ensemble of the Crystalline Comet",
+      "portrait_image": "econ/sets/v2/ensemble_of_the_crystalline_comet",
+      "items": [
+        {
+          "name": "Cape of the Crystalline Comet",
+          "id": "6765",
+          "item_name": "#DOTA_Item_Cape_of_the_Crystalline_Comet",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/crystalline_comet_cape/crystalline_comet_cape.vmdl"
+        },
+        {
+          "name": "Cuffs of the Crystalline Comet",
+          "id": "6766",
+          "item_name": "#DOTA_Item_Cuffs_of_the_Crystalline_Comet",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/crystalline_comet_cuffs/crystalline_comet_cuffs.vmdl"
+        },
+        {
+          "name": "Shelter of the Crystalline Comet",
+          "id": "6767",
+          "item_name": "#DOTA_Item_Shelter_of_the_Crystalline_Comet",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/crystalline_comet_shoulders/crystalline_comet_shoulders.vmdl"
+        },
+        {
+          "name": "Ties of the Crystalline Comet",
+          "id": "6768",
+          "item_name": "#DOTA_Item_Ties_of_the_Crystalline_Comet",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/crystalline_comet_head/crystalline_comet_head.vmdl"
+        },
+        {
+          "name": "Shards of the Crystalline Comet",
+          "id": "6769",
+          "item_name": "#DOTA_Item_Shards_of_the_Crystalline_Comet",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/crystalline_comet_weapon/crystalline_comet_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Icebound_Floret",
+      "store_bundle": "Icebound Floret",
+      "portrait_image": "econ/sets/v2/esl_frozen_lotus",
+      "items": [
+        {
+          "name": "Scepter of the Icebound Floret",
+          "id": "8228",
+          "item_name": "#DOTA_Item_Scepter_of_the_Icebound_Floret",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/esl_frozen_lotus_weapon/esl_frozen_lotus_weapon.vmdl"
+        },
+        {
+          "name": "Brooch of the Icebound Floret",
+          "id": "8225",
+          "item_name": "#DOTA_Item_Brooch_of_the_Icebound_Floret",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/esl_frozen_lotus_head/esl_frozen_lotus_head.vmdl"
+        },
+        {
+          "name": "Kimono of the Icebound Floret",
+          "id": "8226",
+          "item_name": "#DOTA_Item_Kimono_of_the_Icebound_Floret",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/esl_frozen_lotus_shoulder/esl_frozen_lotus_shoulder.vmdl"
+        },
+        {
+          "name": "Sleeves of the Icebound Floret",
+          "id": "8227",
+          "item_name": "#DOTA_Item_Sleeves_of_the_Icebound_Floret",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/esl_frozen_lotus_arms/esl_frozen_lotus_arms.vmdl"
+        },
+        {
+          "name": "Ribbon of the Icebound Floret",
+          "id": "8229",
+          "item_name": "#DOTA_Item_Ribbon_of_the_Icebound_Floret",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/esl_frozen_lotus_back/esl_frozen_lotus_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Frost_Avalanche",
+      "store_bundle": "Frost Avalanche Bundle",
+      "portrait_image": "econ/sets/v2/frost_avalanche",
+      "items": [
+        {
+          "name": "Frost Avalanche",
+          "id": "7385",
+          "item_name": "#DOTA_Item_Frost_Avalanche",
+          "item_slot": "back",
+          "item_rarity": "arcana",
+          "model_player": "models/heroes/crystal_maiden/crystal_maiden_arcana_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Frostiron_Sorcess",
+      "store_bundle": "Frostiron Sorceress Set",
+      "portrait_image": "econ/sets/v2/frostiron_sorceress",
+      "items": [
+        {
+          "name": "Frostiron Sorceress Cape",
+          "id": "5017",
+          "item_name": "#DOTA_Item_Frostiron_Sorceress_Cape",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/np_back/np_back.vmdl"
+        },
+        {
+          "name": "Frostiron Sorceress Cuffs",
+          "id": "5018",
+          "item_name": "#DOTA_Item_Frostiron_Sorceress_Cuffs",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/np_arms/np_arms.vmdl"
+        },
+        {
+          "name": "Frostiron Sorceress Pads",
+          "id": "5019",
+          "item_name": "#DOTA_Item_Frostiron_Sorceress_Pads",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/np_shoulder/np_shoulder.vmdl"
+        },
+        {
+          "name": "Frostiron Sorceress Staff",
+          "id": "5020",
+          "item_name": "#DOTA_Item_Frostiron_Sorceress_Staff",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/np_weapon/np_weapon.vmdl"
+        },
+        {
+          "name": "Frostiron Sorceress Brooch",
+          "id": "5016",
+          "item_name": "#DOTA_Item_Frostiron_Sorceress_Brooch",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/np_hair/np_hair.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Frozen_Feather",
+      "store_bundle": "Frozen Feather Set",
+      "portrait_image": "econ/sets/v2/frozen_feather",
+      "items": [
+        {
+          "name": "Bracers of the Frozen Feather",
+          "id": "5734",
+          "item_name": "#DOTA_Item_Bracers_of_the_Frozen_Feather",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/frozen_feather_bracers/frozen_feather_bracers.vmdl"
+        },
+        {
+          "name": "Cape of the Frozen Feather",
+          "id": "5735",
+          "item_name": "#DOTA_Item_Cape_of_the_Frozen_Feather",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/frozen_feathers_cape/frozen_feathers_cape.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Frozen Feather",
+          "id": "5736",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Frozen_Feather",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/frozen_feathers_shoulders/frozen_feathers_shoulders.vmdl"
+        },
+        {
+          "name": "Staff of the Frozen Feather",
+          "id": "5737",
+          "item_name": "#DOTA_Item_Staff_of_the_Frozen_Feather",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/frozen_feathers_staff/frozen_feathers_staff.vmdl"
+        },
+        {
+          "name": "Hood of the Frozen Feather",
+          "id": "5738",
+          "item_name": "#DOTA_Item_Hood_of_the_Frozen_Feather",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/frozen_feathers_head/frozen_feathers_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Glacial_Gardens",
+      "store_bundle": "Glacial Gardens",
+      "portrait_image": "econ/sets/v2/glacial_gardens",
+      "items": [
+        {
+          "name": "Glacial Gardens Weapon",
+          "id": "18467",
+          "item_name": "#DOTA_Item_Glacial_Gardens_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/the_winter_monarch_weapon/the_winter_monarch_weapon.vmdl"
+        },
+        {
+          "name": "Glacial Gardens Back",
+          "id": "18466",
+          "item_name": "#DOTA_Item_Glacial_Gardens_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/the_winter_monarch_back/the_winter_monarch_back.vmdl"
+        },
+        {
+          "name": "Glacial Gardens Arms",
+          "id": "18465",
+          "item_name": "#DOTA_Item_Glacial_Gardens_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/the_winter_monarch_arms/the_winter_monarch_arms.vmdl"
+        },
+        {
+          "name": "Glacial Gardens Shoulder",
+          "id": "18464",
+          "item_name": "#DOTA_Item_Glacial_Gardens_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/the_winter_monarch_shoulder/the_winter_monarch_shoulder.vmdl"
+        },
+        {
+          "name": "Glacial Gardens Head",
+          "id": "18463",
+          "item_name": "#DOTA_Item_Glacial_Gardens_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/the_winter_monarch_head/the_winter_monarch_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Glacial_Magnolia",
+      "store_bundle": "Glacial Magnolia",
+      "portrait_image": "econ/sets/v2/glacial_magnolia",
+      "items": [
+        {
+          "name": "Staff of the Glacial Magnolia",
+          "id": "8694",
+          "item_name": "#DOTA_Item_Staff_of_the_Glacial_Magnolia",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/magnolia_weapon/magnolia_weapon.vmdl"
+        },
+        {
+          "name": "Cape of the Glacial Magnolia",
+          "id": "8695",
+          "item_name": "#DOTA_Item_Cape_of_the_Glacial_Magnolia",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/magnolia_back/magnolia_back.vmdl"
+        },
+        {
+          "name": "Sleeves of the Glacial Magnolia",
+          "id": "8696",
+          "item_name": "#DOTA_Item_Sleeves_of_the_Glacial_Magnolia",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/magnolia_arms/magnolia_arms.vmdl"
+        },
+        {
+          "name": "Mantle of the Glacial Magnolia",
+          "id": "8697",
+          "item_name": "#DOTA_Item_Mantle_of_the_Glacial_Magnolia",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/magnolia_shoulder/magnolia_shoulder.vmdl"
+        },
+        {
+          "name": "Style of the Glacial Magnolia",
+          "id": "8698",
+          "item_name": "#DOTA_Item_Style_of_the_Glacial_Magnolia",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/magnolia_head/magnolia_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Guardian_Snow_Angel",
+      "store_bundle": "Guardian Snow Angel",
+      "portrait_image": "econ/sets/v2/guardian_snow_angel",
+      "items": [
+        {
+          "name": "Guardian Snow Angel - Armor",
+          "id": "24883",
+          "item_name": "#DOTA_Item_Guardian_Snow_Angel__Armor",
+          "item_slot": "armor_persona_1",
+          "item_rarity": "legendary",
+          "model_player": "models/items/crystal_maiden/guardiana_glacial_armor/guardiana_glacial_armor_no_baby.vmdl"
+        },
+        {
+          "name": "Guardian Snow Angel - Tail",
+          "id": "24882",
+          "item_name": "#DOTA_Item_Guardian_Snow_Angel__Tail",
+          "item_slot": "tail_persona_1",
+          "item_rarity": "legendary",
+          "model_player": "models/items/crystal_maiden/guardiana_glacial_tail/guardiana_glacial_tail.vmdl"
+        },
+        {
+          "name": "Guardian Snow Angel - Head",
+          "id": "24881",
+          "item_name": "#DOTA_Item_Guardian_Snow_Angel__Head",
+          "item_slot": "head_persona_1",
+          "item_rarity": "legendary",
+          "model_player": "models/items/crystal_maiden/guardiana_glacial_head/guardiana_glacial_head.vmdl"
+        },
+        {
+          "name": "Guardian Snow Angel - Crystals",
+          "id": "24857",
+          "item_name": "#DOTA_Item_Guardian_Snow_Angel__Crystals",
+          "item_slot": "misc_persona_1",
+          "item_rarity": "legendary",
+          "model_player": "models/items/crystal_maiden/guardiana_glacial_cristals/guardiana_glacial_cristals.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Narwolf_Nebula",
+      "store_bundle": "Narwolf Nebula",
+      "portrait_image": "econ/sets/v2/narwolf_nebula",
+      "items": [
+        {
+          "name": "Narwolf Nebula - Head",
+          "id": "33506",
+          "item_name": "#DOTA_Item_Narwolf_Nebula__Head",
+          "item_slot": "head_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/avatar_of_crystal_nova_head/avatar_of_crystal_nova_head.vmdl"
+        },
+        {
+          "name": "Narwolf Nebula - Stars",
+          "id": "33505",
+          "item_name": "#DOTA_Item_Narwolf_Nebula__Stars",
+          "item_slot": "misc_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/avatar_of_crystal_nova_crystals/avatar_of_crystal_nova_crystals.vmdl"
+        },
+        {
+          "name": "Narwolf Nebula - Armor",
+          "id": "33504",
+          "item_name": "#DOTA_Item_Narwolf_Nebula__Armor",
+          "item_slot": "armor_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/avatar_of_crystal_nova_armor/avatar_of_crystal_nova_armor.vmdl"
+        },
+        {
+          "name": "Narwolf Nebula - Tail",
+          "id": "33503",
+          "item_name": "#DOTA_Item_Narwolf_Nebula__Tail",
+          "item_slot": "tail_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/avatar_of_crystal_nova_tail/avatar_of_crystal_nova_tail.vmdl"
+        },
+        {
+          "name": "Conduit of the Blueheart",
+          "id": "19205",
+          "item_name": "#DOTA_Item_Conduit_of_the_Blueheart",
+          "item_slot": "persona_selector",
+          "item_rarity": "legendary"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Spirit_of_the_Frozen_Flow",
+      "store_bundle": "Spirit of the Frozen Flow",
+      "portrait_image": "econ/sets/v2/spirit_of_the_frozen_flow",
+      "items": [
+        {
+          "name": "Spirit of the Frozen Flow - Armor",
+          "id": "28141",
+          "item_name": "#DOTA_Item_Spirit_of_the_Frozen_Flow__Armor",
+          "item_slot": "armor_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/familiars_regalia/familiars_regalia.vmdl"
+        },
+        {
+          "name": "Spirit of the Frozen Flow - Tail",
+          "id": "28143",
+          "item_name": "#DOTA_Item_Spirit_of_the_Frozen_Flow__Tail",
+          "item_slot": "tail_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/familiars_tail/familiars_tail.vmdl"
+        },
+        {
+          "name": "Spirit of the Frozen Flow - Head",
+          "id": "28144",
+          "item_name": "#DOTA_Item_Spirit_of_the_Frozen_Flow__Head",
+          "item_slot": "head_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/familiars_sacred_horns/familiars_sacred_horns.vmdl"
+        },
+        {
+          "name": "Spirit of the Frozen Flow - Orbs",
+          "id": "28152",
+          "item_name": "#DOTA_Item_Spirit_of_the_Frozen_Flow__Orbs",
+          "item_slot": "misc_persona_1",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/frostfire_beads/frostfire_beads.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Whitewind_Battlemage",
+      "store_bundle": "Whitewind Battlemage",
+      "portrait_image": "econ/sets/v2/whitewind_battlemage",
+      "items": [
+        {
+          "name": "Whitewind Battlemage Crown",
+          "id": "14560",
+          "item_name": "#DOTA_Item_Whitewind_Battlemage_Crown",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/lady_whitewind_head/lady_whitewind_head.vmdl"
+        },
+        {
+          "name": "Whitewind Battlemage Skirt",
+          "id": "14558",
+          "item_name": "#DOTA_Item_Whitewind_Battlemage_Skirt",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/lady_whitewind_back/lady_whitewind_back.vmdl"
+        },
+        {
+          "name": "Whitewind Battlemage Bracers",
+          "id": "14559",
+          "item_name": "#DOTA_Item_Whitewind_Battlemage_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/lady_whitewind_arms/lady_whitewind_arms.vmdl"
+        },
+        {
+          "name": "Whitewind Battlemage Staff",
+          "id": "14562",
+          "item_name": "#DOTA_Item_Whitewind_Battlemage_Staff",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/lady_whitewind_weapon/lady_whitewind_weapon.vmdl"
+        },
+        {
+          "name": "Whitewind Battlemage Mantle",
+          "id": "14561",
+          "item_name": "#DOTA_Item_Whitewind_Battlemage_Mantle",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/crystal_maiden/lady_whitewind_shoulder/lady_whitewind_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Winters_Warden",
+      "store_bundle": "Winter's Warden",
+      "portrait_image": "econ/sets/v2/winters_warden",
+      "items": [
+        {
+          "name": "Mantle of Winter's Warden",
+          "id": "9628",
+          "item_name": "#DOTA_Item_Mantle_of_Winters_Warden",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/frosty_valkyrie_shoulder/frosty_valkyrie_shoulder.vmdl"
+        },
+        {
+          "name": "Skirt of Winter's Warden",
+          "id": "9627",
+          "item_name": "#DOTA_Item_Skirt_of_Winters_Warden",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/frosty_valkyrie_back/frosty_valkyrie_back.vmdl"
+        },
+        {
+          "name": "Helm of Winter's Warden",
+          "id": "9626",
+          "item_name": "#DOTA_Item_Helm_of_Winters_Warden",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/frosty_valkyrie_head/frosty_valkyrie_head.vmdl"
+        },
+        {
+          "name": "Arms of Winter's Warden",
+          "id": "9625",
+          "item_name": "#DOTA_Item_Arms_of_Winters_Warden",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/frosty_valkyrie_arms/frosty_valkyrie_arms.vmdl"
+        },
+        {
+          "name": "Staff of Winter's Warden",
+          "id": "9624",
+          "item_name": "#DOTA_Item_Staff_of_Winters_Warden",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/frosty_valkyrie_weapon/frosty_valkyrie_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Winter_Snowdrop",
+      "store_bundle": "Winter Snowdrop",
+      "portrait_image": "econ/sets/v2/winter_snowdrop",
+      "items": [
+        {
+          "name": "Snowdrop Hood",
+          "id": "4388",
+          "item_name": "#DOTA_Item_Snowdrop_Hood",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/anuxi_snowdrop_hood/anuxi_snowdrop_hood.vmdl"
+        },
+        {
+          "name": "Snowdrop Mantle",
+          "id": "4438",
+          "item_name": "#DOTA_Item_Snowdrop_Mantle",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/anuxi_snowdrop_shoulders/anuxi_snowdrop_shoulders.vmdl"
+        },
+        {
+          "name": "Snowdrop Mittens",
+          "id": "4440",
+          "item_name": "#DOTA_Item_Snowdrop_Mittens",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/anuxi_snowdrop_glove/anuxi_snowdrop_glove.vmdl"
+        },
+        {
+          "name": "Snowdrop Tassels",
+          "id": "4442",
+          "item_name": "#DOTA_Item_Snowdrop_Tassels",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/anuxi_snowdrop_cape/anuxi_snowdrop_cape.vmdl"
+        },
+        {
+          "name": "Snowdrop Staff",
+          "id": "4444",
+          "item_name": "#DOTA_Item_Snowdrop_Staff",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/anuxi_snowdrop_staff/anuxi_snowdrop_staff.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Winterbringer",
+      "store_bundle": "Wraps of the Winterbringer",
+      "portrait_image": "econ/sets/v2/winterbringer",
+      "items": [
+        {
+          "name": "Style of the Winterbringer",
+          "id": "8456",
+          "item_name": "#DOTA_Item_Style_of_the_Winterbringer",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/frostbringer_hair/frostbringer_hair.vmdl"
+        },
+        {
+          "name": "Shawl of the Winterbringer",
+          "id": "8450",
+          "item_name": "#DOTA_Item_Shawl_of_the_Winterbringer",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/crystal_maiden/frostbringer_shoulders/frostbringer_shoulders.vmdl"
+        },
+        {
+          "name": "Staff of the Winterbringer",
+          "id": "8449",
+          "item_name": "#DOTA_Item_Staff_of_the_Winterbringer",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/frostbringer_staff/frostbringer_staff.vmdl"
+        },
+        {
+          "name": "Sleeves of the Winterbringer",
+          "id": "8448",
+          "item_name": "#DOTA_Item_Sleeves_of_the_Winterbringer",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/crystal_maiden/frostbringer_sleeves/frostbringer_sleeves.vmdl"
+        },
+        {
+          "name": "Cape of the Winterbringer",
+          "id": "8447",
+          "item_name": "#DOTA_Item_Cape_of_the_Winterbringer",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/crystal_maiden/frostbring_cape/frostbring_cape.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "38",
+      "name": "Crystal Maiden's Cape",
+      "item_name": "#DOTA_Item_Crystal_Maidens_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/crystal_maiden/crystal_maiden_cape.vmdl"
+    },
+    {
+      "id": "39",
+      "name": "Crystal Maiden's Shoulder Pads",
+      "item_name": "#DOTA_Item_Crystal_Maidens_Shoulder_Pads",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/crystal_maiden/crystal_maiden_shoulders.vmdl"
+    },
+    {
+      "id": "40",
+      "name": "Crystal Maiden's Weapon",
+      "item_name": "#DOTA_Item_Crystal_Maidens_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/crystal_maiden/crystal_maiden_staff.vmdl"
+    },
+    {
+      "id": "41",
+      "name": "Crystal Maiden's Cuffs",
+      "item_name": "#DOTA_Item_Crystal_Maidens_Cuffs",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/crystal_maiden/crystal_maiden_cuffs.vmdl"
+    },
+    {
+      "id": "311",
+      "name": "Crystal Maiden's Headdress",
+      "item_name": "#DOTA_Item_Crystal_Maidens_Headdress",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/crystal_maiden/head_item.vmdl"
+    },
+    {
+      "id": "502",
+      "name": "Crystal Maiden's Ambient Effects",
+      "item_name": "#DOTA_Item_Crystal_Maidens_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "707",
+      "name": "Crystal Maiden's Persona",
+      "item_name": "#DOTA_Item_Crystal_Maidens_Persona",
+      "item_slot": "persona_selector",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "787",
+      "name": "Cystal Maiden Persona Conduit of the blueheart Ambient Effects",
+      "item_name": "#DOTA_Item_Cystal_Maiden_Persona_Conduit_of_the_blueheart_Ambient_Effects",
+      "item_slot": "ambient_effects_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "788",
+      "name": "Crystal Maiden's Persona Mane",
+      "item_name": "#DOTA_Item_Crystal_Maidens_Persona_Mane",
+      "item_slot": "head_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/crystal_maiden_persona/crystal_maiden_persona_mane.vmdl"
+    },
+    {
+      "id": "789",
+      "name": "Crystal Maiden's Persona Crystals",
+      "item_name": "#DOTA_Item_Crystal_Maidens_Persona_Crystals",
+      "item_slot": "misc_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/crystal_maiden_persona/crystal_maiden_persona_crystals.vmdl"
+    },
+    {
+      "id": "799",
+      "name": "Crystal Maiden's Persona Tail",
+      "item_name": "#DOTA_Item_Crystal_Maidens_Persona_Tail",
+      "item_slot": "tail_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/crystal_maiden_persona/crystal_maiden_persona_tail.vmdl"
+    },
+    {
+      "id": "800",
+      "name": "Crystal Maiden's Persona Armor",
+      "item_name": "#DOTA_Item_Crystal_Maidens_Persona_Armor",
+      "item_slot": "armor_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/crystal_maiden_persona/crystal_maiden_persona_armor.vmdl"
+    },
+    {
+      "id": "803",
+      "name": "All Heroes' Default Pet Persona 1",
+      "item_name": "#DOTA_Item_All_Heroes_Default_Pet_Persona_1",
+      "item_slot": "summon_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4041",
+      "name": "Taunt: Beautiful Snowangel",
+      "item_name": "#DOTA_Item_Taunt_Beautiful_Snowangel",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "4255",
+      "name": "Eul's Scepter of Divinity",
+      "item_name": "#DOTA_Item_Euls_Scepter_of_Divinity",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/euls_scepterdivinity.vmdl"
+    },
+    {
+      "id": "4270",
+      "name": "Force Staff",
+      "item_name": "#DOTA_Item_Force_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/force_staff.vmdl"
+    },
+    {
+      "id": "4383",
+      "name": "Staff of the Crystalline Queen",
+      "item_name": "#DOTA_Item_Staff_of_the_Crystalline_Queen",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/northstar_staff/northstar_staff.vmdl"
+    },
+    {
+      "id": "4386",
+      "name": "Cape of the Crystalline Queen",
+      "item_name": "#DOTA_Item_Cape_of_the_Crystalline_Queen",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/polarisbelle_cape/polarisbelle_cape.vmdl"
+    },
+    {
+      "id": "4388",
+      "name": "Snowdrop Hood",
+      "item_name": "#DOTA_Item_Snowdrop_Hood",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/anuxi_snowdrop_hood/anuxi_snowdrop_hood.vmdl"
+    },
+    {
+      "id": "4389",
+      "name": "Mantle of the Crystalline Queen",
+      "item_name": "#DOTA_Item_Mantle_of_the_Crystalline_Queen",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/belle_shoulders/belle_shoulders.vmdl"
+    },
+    {
+      "id": "4420",
+      "name": "Bracers of the Crystalline Queen",
+      "item_name": "#DOTA_Item_Bracers_of_the_Crystalline_Queen",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/belle_arms_bracers/belle_arms_bracers.vmdl"
+    },
+    {
+      "id": "4438",
+      "name": "Snowdrop Mantle",
+      "item_name": "#DOTA_Item_Snowdrop_Mantle",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/anuxi_snowdrop_shoulders/anuxi_snowdrop_shoulders.vmdl"
+    },
+    {
+      "id": "4440",
+      "name": "Snowdrop Mittens",
+      "item_name": "#DOTA_Item_Snowdrop_Mittens",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/anuxi_snowdrop_glove/anuxi_snowdrop_glove.vmdl"
+    },
+    {
+      "id": "4442",
+      "name": "Snowdrop Tassels",
+      "item_name": "#DOTA_Item_Snowdrop_Tassels",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/anuxi_snowdrop_cape/anuxi_snowdrop_cape.vmdl"
+    },
+    {
+      "id": "4444",
+      "name": "Snowdrop Staff",
+      "item_name": "#DOTA_Item_Snowdrop_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/anuxi_snowdrop_staff/anuxi_snowdrop_staff.vmdl"
+    },
+    {
+      "id": "4540",
+      "name": "Tiara of the Crystalline Queen",
+      "item_name": "#DOTA_Item_Tiara_of_the_Crystalline_Queen",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/belle_head_hair/belle_head_hair.vmdl"
+    },
+    {
+      "id": "5016",
+      "name": "Frostiron Sorceress Brooch",
+      "item_name": "#DOTA_Item_Frostiron_Sorceress_Brooch",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/np_hair/np_hair.vmdl"
+    },
+    {
+      "id": "5017",
+      "name": "Frostiron Sorceress Cape",
+      "item_name": "#DOTA_Item_Frostiron_Sorceress_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/np_back/np_back.vmdl"
+    },
+    {
+      "id": "5018",
+      "name": "Frostiron Sorceress Cuffs",
+      "item_name": "#DOTA_Item_Frostiron_Sorceress_Cuffs",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/np_arms/np_arms.vmdl"
+    },
+    {
+      "id": "5019",
+      "name": "Frostiron Sorceress Pads",
+      "item_name": "#DOTA_Item_Frostiron_Sorceress_Pads",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/np_shoulder/np_shoulder.vmdl"
+    },
+    {
+      "id": "5020",
+      "name": "Frostiron Sorceress Staff",
+      "item_name": "#DOTA_Item_Frostiron_Sorceress_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/np_weapon/np_weapon.vmdl"
+    },
+    {
+      "id": "5070",
+      "name": "Frost Owl's Beacon",
+      "item_name": "#DOTA_Item_Frost_Owls_Beacon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/owl_staff/owl_staff.vmdl"
+    },
+    {
+      "id": "5212",
+      "name": "Arctic Bracers of the North",
+      "item_name": "#DOTA_Item_Arctic_Bracers_of_the_North",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/arctic_bracers_of_the_north/arctic_bracers_of_the_north.vmdl"
+    },
+    {
+      "id": "5213",
+      "name": "Frostbitten Cloak of the North",
+      "item_name": "#DOTA_Item_Frostbitten_Cloak_of_the_North",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/frostbitten_cloak_of_the_north/frostbitten_cloak_of_the_north.vmdl"
+    },
+    {
+      "id": "5214",
+      "name": "Ice Capped Hood of the North",
+      "item_name": "#DOTA_Item_Ice_Capped_Hood_of_the_North",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/ice_capped_hood_of_the_north/ice_capped_hood_of_the_north.vmdl"
+    },
+    {
+      "id": "5215",
+      "name": "Wizardry Staff of the North",
+      "item_name": "#DOTA_Item_Wizardry_Staff_of_the_North",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/wizardry_staff_of_the_north/wizardry_staff_of_the_north.vmdl"
+    },
+    {
+      "id": "5216",
+      "name": "Shoulders of the North",
+      "item_name": "#DOTA_Item_Shoulders_of_the_North",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/shoulders_of_the_north/shoulders_of_the_north.vmdl"
+    },
+    {
+      "id": "5486",
+      "name": "Winter Solstice Fashion",
+      "item_name": "#DOTA_Item_Winter_Solstice_Fashion",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/winter_solstice_fashion/winter_solstice_fashion.vmdl"
+    },
+    {
+      "id": "5581",
+      "name": "Blueheart Tails",
+      "item_name": "#DOTA_Item_Blueheart_Tails",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/blueheart_tails/blueheart_tails.vmdl"
+    },
+    {
+      "id": "5612",
+      "name": "Style of the Glacier Duster",
+      "item_name": "#DOTA_Item_Style_of_the_Glacier_Duster",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/cm_mike_head/cm_mike_head.vmdl"
+    },
+    {
+      "id": "5613",
+      "name": "Shawl of the Glacier Duster",
+      "item_name": "#DOTA_Item_Shawl_of_the_Glacier_Duster",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/cm_mike_shoulder/cm_mike_shoulder.vmdl"
+    },
+    {
+      "id": "5614",
+      "name": "Wraps of the Glacier Duster",
+      "item_name": "#DOTA_Item_Wraps_of_the_Glacier_Duster",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/cm_mike_arms/cm_mike_arms.vmdl"
+    },
+    {
+      "id": "5615",
+      "name": "Cape of the Glacier Duster",
+      "item_name": "#DOTA_Item_Cape_of_the_Glacier_Duster",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/cm_mike_back/cm_mike_back.vmdl"
+    },
+    {
+      "id": "5616",
+      "name": "Staff of the Glacier Duster",
+      "item_name": "#DOTA_Item_Staff_of_the_Glacier_Duster",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/cm_mike_staff/cm_mike_staff.vmdl"
+    },
+    {
+      "id": "5734",
+      "name": "Bracers of the Frozen Feather",
+      "item_name": "#DOTA_Item_Bracers_of_the_Frozen_Feather",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/frozen_feather_bracers/frozen_feather_bracers.vmdl"
+    },
+    {
+      "id": "5735",
+      "name": "Cape of the Frozen Feather",
+      "item_name": "#DOTA_Item_Cape_of_the_Frozen_Feather",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/frozen_feathers_cape/frozen_feathers_cape.vmdl"
+    },
+    {
+      "id": "5736",
+      "name": "Pauldrons of the Frozen Feather",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Frozen_Feather",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/frozen_feathers_shoulders/frozen_feathers_shoulders.vmdl"
+    },
+    {
+      "id": "5737",
+      "name": "Staff of the Frozen Feather",
+      "item_name": "#DOTA_Item_Staff_of_the_Frozen_Feather",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/frozen_feathers_staff/frozen_feathers_staff.vmdl"
+    },
+    {
+      "id": "5738",
+      "name": "Hood of the Frozen Feather",
+      "item_name": "#DOTA_Item_Hood_of_the_Frozen_Feather",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/frozen_feathers_head/frozen_feathers_head.vmdl"
+    },
+    {
+      "id": "5786",
+      "name": "Wolfsden Gift",
+      "item_name": "#DOTA_Item_Wolfsden_Gift",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/wolfsden_gift/wolfsden_gift.vmdl"
+    },
+    {
+      "id": "6065",
+      "name": "Dragonfish Sceptre",
+      "item_name": "#DOTA_Item_Dragonfish_Sceptre",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/dragonfish_sceptre/dragonfish_sceptre.vmdl"
+    },
+    {
+      "id": "6573",
+      "name": "Sceptre of Icewrack",
+      "item_name": "#DOTA_Item_Sceptre_of_Icewrack",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/pw_cm_staff/crystal_maiden_weapon.vmdl"
+    },
+    {
+      "id": "6670",
+      "name": "Luscious Locks",
+      "item_name": "#DOTA_Item_Luscious_Locks",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/lusciouslocks_head/lusciouslocks_head.vmdl"
+    },
+    {
+      "id": "6686",
+      "name": "Yulsaria's Glacier",
+      "item_name": "#DOTA_Item_Yulsarias_Glacier",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/cowl_of_ice/cowl_of_ice.vmdl"
+    },
+    {
+      "id": "6765",
+      "name": "Cape of the Crystalline Comet",
+      "item_name": "#DOTA_Item_Cape_of_the_Crystalline_Comet",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/crystalline_comet_cape/crystalline_comet_cape.vmdl"
+    },
+    {
+      "id": "6766",
+      "name": "Cuffs of the Crystalline Comet",
+      "item_name": "#DOTA_Item_Cuffs_of_the_Crystalline_Comet",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/crystalline_comet_cuffs/crystalline_comet_cuffs.vmdl"
+    },
+    {
+      "id": "6767",
+      "name": "Shelter of the Crystalline Comet",
+      "item_name": "#DOTA_Item_Shelter_of_the_Crystalline_Comet",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/crystalline_comet_shoulders/crystalline_comet_shoulders.vmdl"
+    },
+    {
+      "id": "6768",
+      "name": "Ties of the Crystalline Comet",
+      "item_name": "#DOTA_Item_Ties_of_the_Crystalline_Comet",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/crystalline_comet_head/crystalline_comet_head.vmdl"
+    },
+    {
+      "id": "6769",
+      "name": "Shards of the Crystalline Comet",
+      "item_name": "#DOTA_Item_Shards_of_the_Crystalline_Comet",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/crystalline_comet_weapon/crystalline_comet_weapon.vmdl"
+    },
+    {
+      "id": "6784",
+      "name": "White Sentry",
+      "item_name": "#DOTA_Item_White_Sentry",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/ward_staff/ward_staff.vmdl"
+    },
+    {
+      "id": "7385",
+      "name": "Frost Avalanche",
+      "item_name": "#DOTA_Item_Frost_Avalanche",
+      "item_slot": "back",
+      "item_rarity": "arcana",
+      "prefab": "wearable",
+      "model_player": "models/heroes/crystal_maiden/crystal_maiden_arcana_back.vmdl"
+    },
+    {
+      "id": "7661",
+      "name": "Crown of the Blueheart Sovereign",
+      "item_name": "#DOTA_Item_Crown_of_the_Blueheart_Sovereign",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/crystalline_empress_head/crystalline_empress_head.vmdl"
+    },
+    {
+      "id": "7662",
+      "name": "Mantle of the Blueheart Sovereign",
+      "item_name": "#DOTA_Item_Mantle_of_the_Blueheart_Sovereign",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/crystalline_empress_shoulder/crystalline_empress_shoulder.vmdl"
+    },
+    {
+      "id": "7663",
+      "name": "Bracers of the Blueheart Sovereign",
+      "item_name": "#DOTA_Item_Bracers_of_the_Blueheart_Sovereign",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/crystalline_empress_arms/crystalline_empress_arms.vmdl"
+    },
+    {
+      "id": "7664",
+      "name": "Cape of the Blueheart Sovereign",
+      "item_name": "#DOTA_Item_Cape_of_the_Blueheart_Sovereign",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/crystalline_empress_back/crystalline_empress_back.vmdl"
+    },
+    {
+      "id": "7665",
+      "name": "Staff of the Blueheart Sovereign",
+      "item_name": "#DOTA_Item_Staff_of_the_Blueheart_Sovereign",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/crystalline_empress_weapon/crystalline_empress_weapon.vmdl"
+    },
+    {
+      "id": "8225",
+      "name": "Brooch of the Icebound Floret",
+      "item_name": "#DOTA_Item_Brooch_of_the_Icebound_Floret",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/esl_frozen_lotus_head/esl_frozen_lotus_head.vmdl"
+    },
+    {
+      "id": "8226",
+      "name": "Kimono of the Icebound Floret",
+      "item_name": "#DOTA_Item_Kimono_of_the_Icebound_Floret",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/esl_frozen_lotus_shoulder/esl_frozen_lotus_shoulder.vmdl"
+    },
+    {
+      "id": "8227",
+      "name": "Sleeves of the Icebound Floret",
+      "item_name": "#DOTA_Item_Sleeves_of_the_Icebound_Floret",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/esl_frozen_lotus_arms/esl_frozen_lotus_arms.vmdl"
+    },
+    {
+      "id": "8228",
+      "name": "Scepter of the Icebound Floret",
+      "item_name": "#DOTA_Item_Scepter_of_the_Icebound_Floret",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/esl_frozen_lotus_weapon/esl_frozen_lotus_weapon.vmdl"
+    },
+    {
+      "id": "8229",
+      "name": "Ribbon of the Icebound Floret",
+      "item_name": "#DOTA_Item_Ribbon_of_the_Icebound_Floret",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/esl_frozen_lotus_back/esl_frozen_lotus_back.vmdl"
+    },
+    {
+      "id": "8398",
+      "name": "Sleeves of the Lumini Polare",
+      "item_name": "#DOTA_Item_Sleeves_of_the_Lumini_Polare",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/lumini_polare_arms/lumini_polare_arms.vmdl"
+    },
+    {
+      "id": "8401",
+      "name": "Shawl of the Lumini Polare",
+      "item_name": "#DOTA_Item_Shawl_of_the_Lumini_Polare",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/lumini_polare_shoulder/lumini_polare_shoulder.vmdl"
+    },
+    {
+      "id": "8403",
+      "name": "Staff of the Lumini Polare",
+      "item_name": "#DOTA_Item_Staff_of_the_Lumini_Polare",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/lumini_polare_weapon/lumini_polare_weapon.vmdl"
+    },
+    {
+      "id": "8405",
+      "name": "Cape of the Lumini Polare",
+      "item_name": "#DOTA_Item_Cape_of_the_Lumini_Polare",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/lumini_polare_back/lumini_polare_back.vmdl"
+    },
+    {
+      "id": "8408",
+      "name": "Style of the Lumini Polare",
+      "item_name": "#DOTA_Item_Style_of_the_Lumini_Polare",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/lumini_polare_head/lumini_polare_head.vmdl"
+    },
+    {
+      "id": "8447",
+      "name": "Cape of the Winterbringer",
+      "item_name": "#DOTA_Item_Cape_of_the_Winterbringer",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/frostbring_cape/frostbring_cape.vmdl"
+    },
+    {
+      "id": "8448",
+      "name": "Sleeves of the Winterbringer",
+      "item_name": "#DOTA_Item_Sleeves_of_the_Winterbringer",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/frostbringer_sleeves/frostbringer_sleeves.vmdl"
+    },
+    {
+      "id": "8449",
+      "name": "Staff of the Winterbringer",
+      "item_name": "#DOTA_Item_Staff_of_the_Winterbringer",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/frostbringer_staff/frostbringer_staff.vmdl"
+    },
+    {
+      "id": "8450",
+      "name": "Shawl of the Winterbringer",
+      "item_name": "#DOTA_Item_Shawl_of_the_Winterbringer",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/frostbringer_shoulders/frostbringer_shoulders.vmdl"
+    },
+    {
+      "id": "8456",
+      "name": "Style of the Winterbringer",
+      "item_name": "#DOTA_Item_Style_of_the_Winterbringer",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/frostbringer_hair/frostbringer_hair.vmdl"
+    },
+    {
+      "id": "8694",
+      "name": "Staff of the Glacial Magnolia",
+      "item_name": "#DOTA_Item_Staff_of_the_Glacial_Magnolia",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/magnolia_weapon/magnolia_weapon.vmdl"
+    },
+    {
+      "id": "8695",
+      "name": "Cape of the Glacial Magnolia",
+      "item_name": "#DOTA_Item_Cape_of_the_Glacial_Magnolia",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/magnolia_back/magnolia_back.vmdl"
+    },
+    {
+      "id": "8696",
+      "name": "Sleeves of the Glacial Magnolia",
+      "item_name": "#DOTA_Item_Sleeves_of_the_Glacial_Magnolia",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/magnolia_arms/magnolia_arms.vmdl"
+    },
+    {
+      "id": "8697",
+      "name": "Mantle of the Glacial Magnolia",
+      "item_name": "#DOTA_Item_Mantle_of_the_Glacial_Magnolia",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/magnolia_shoulder/magnolia_shoulder.vmdl"
+    },
+    {
+      "id": "8698",
+      "name": "Style of the Glacial Magnolia",
+      "item_name": "#DOTA_Item_Style_of_the_Glacial_Magnolia",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/magnolia_head/magnolia_head.vmdl"
+    },
+    {
+      "id": "9041",
+      "name": "Taunt: Making Friends",
+      "item_name": "#DOTA_Item_Taunt_Making_Friends",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "taunt"
+    },
+    {
+      "id": "9205",
+      "name": "Yulsaria's Mantle",
+      "item_name": "#DOTA_Item_Yulsarias_Mantle",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/immortal_shoulders/cm_immortal_shoulders.vmdl"
+    },
+    {
+      "id": "9324",
+      "name": "Gauntlets of the Tundra Warden",
+      "item_name": "#DOTA_Item_Gauntlets_of_the_Tundra_Warden",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/warden_icewrack_arms/warden_icewrack_arms.vmdl"
+    },
+    {
+      "id": "9325",
+      "name": "Tails of the Tundra Warden",
+      "item_name": "#DOTA_Item_Tails_of_the_Tundra_Warden",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/warden_icewrack_back/warden_icewrack_back.vmdl"
+    },
+    {
+      "id": "9326",
+      "name": "Guard of the Tundra Warden",
+      "item_name": "#DOTA_Item_Guard_of_the_Tundra_Warden",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/warden_icewrack_shoulder/warden_icewrack_shoulder.vmdl"
+    },
+    {
+      "id": "9327",
+      "name": "Crown of the Tundra Warden",
+      "item_name": "#DOTA_Item_Crown_of_the_Tundra_Warden",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/warden_icewrack_head/warden_icewrack_head.vmdl"
+    },
+    {
+      "id": "9328",
+      "name": "North Star",
+      "item_name": "#DOTA_Item_North_Star",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/warden_icewrack_staff/warden_icewrack_staff.vmdl"
+    },
+    {
+      "id": "9624",
+      "name": "Staff of Winter's Warden",
+      "item_name": "#DOTA_Item_Staff_of_Winters_Warden",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/frosty_valkyrie_weapon/frosty_valkyrie_weapon.vmdl"
+    },
+    {
+      "id": "9625",
+      "name": "Arms of Winter's Warden",
+      "item_name": "#DOTA_Item_Arms_of_Winters_Warden",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/frosty_valkyrie_arms/frosty_valkyrie_arms.vmdl"
+    },
+    {
+      "id": "9626",
+      "name": "Helm of Winter's Warden",
+      "item_name": "#DOTA_Item_Helm_of_Winters_Warden",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/frosty_valkyrie_head/frosty_valkyrie_head.vmdl"
+    },
+    {
+      "id": "9627",
+      "name": "Skirt of Winter's Warden",
+      "item_name": "#DOTA_Item_Skirt_of_Winters_Warden",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/frosty_valkyrie_back/frosty_valkyrie_back.vmdl"
+    },
+    {
+      "id": "9628",
+      "name": "Mantle of Winter's Warden",
+      "item_name": "#DOTA_Item_Mantle_of_Winters_Warden",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/frosty_valkyrie_shoulder/frosty_valkyrie_shoulder.vmdl"
+    },
+    {
+      "id": "13486",
+      "name": "Prelate's Armor of the Wyvern Legion",
+      "item_name": "#DOTA_Item_Prelates_Armor_of_the_Wyvern_Legion",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/dota_plus_crystal_maiden_shoulder/dota_plus_crystal_maiden_shoulder.vmdl"
+    },
+    {
+      "id": "13487",
+      "name": "Prelate's Mantle of the Wyvern Legion",
+      "item_name": "#DOTA_Item_Prelates_Mantle_of_the_Wyvern_Legion",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/dota_plus_crystal_maiden_head/dota_plus_crystal_maiden_head.vmdl"
+    },
+    {
+      "id": "13488",
+      "name": "Prelate's Cloak of the Wyvern Legion",
+      "item_name": "#DOTA_Item_Prelates_Cloak_of_the_Wyvern_Legion",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/dota_plus_crystal_maiden_back/dota_plus_crystal_maiden_back.vmdl"
+    },
+    {
+      "id": "13489",
+      "name": "Prelate's Bracers of the Wyvern Legion",
+      "item_name": "#DOTA_Item_Prelates_Bracers_of_the_Wyvern_Legion",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/dota_plus_crystal_maiden_arms/dota_plus_crystal_maiden_arms.vmdl"
+    },
+    {
+      "id": "13490",
+      "name": "Prelate's Staff of the Wyvern Legion",
+      "item_name": "#DOTA_Item_Prelates_Staff_of_the_Wyvern_Legion",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/dota_plus_crystal_maiden_weapon/dota_plus_crystal_maiden_weapon.vmdl"
+    },
+    {
+      "id": "13532",
+      "name": "Ice Blossom",
+      "item_name": "#DOTA_Item_Ice_Blossom",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/cm_ti9_immortal_weapon/cm_ti9_immortal_weapon.vmdl"
+    },
+    {
+      "id": "13669",
+      "name": "Golden Ice Blossom",
+      "item_name": "#DOTA_Item_Golden_Ice_Blossom",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/cm_ti9_immortal_weapon/cm_ti9_immortal_weapon.vmdl"
+    },
+    {
+      "id": "14558",
+      "name": "Whitewind Battlemage Skirt",
+      "item_name": "#DOTA_Item_Whitewind_Battlemage_Skirt",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/lady_whitewind_back/lady_whitewind_back.vmdl"
+    },
+    {
+      "id": "14559",
+      "name": "Whitewind Battlemage Bracers",
+      "item_name": "#DOTA_Item_Whitewind_Battlemage_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/lady_whitewind_arms/lady_whitewind_arms.vmdl"
+    },
+    {
+      "id": "14560",
+      "name": "Whitewind Battlemage Crown",
+      "item_name": "#DOTA_Item_Whitewind_Battlemage_Crown",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/lady_whitewind_head/lady_whitewind_head.vmdl"
+    },
+    {
+      "id": "14561",
+      "name": "Whitewind Battlemage Mantle",
+      "item_name": "#DOTA_Item_Whitewind_Battlemage_Mantle",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/lady_whitewind_shoulder/lady_whitewind_shoulder.vmdl"
+    },
+    {
+      "id": "14562",
+      "name": "Whitewind Battlemage Staff",
+      "item_name": "#DOTA_Item_Whitewind_Battlemage_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/lady_whitewind_weapon/lady_whitewind_weapon.vmdl"
+    },
+    {
+      "id": "17755",
+      "name": "Royal Winterbloom Weapon",
+      "item_name": "#DOTA_Item_Royal_Winterbloom_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/royal_winterbloom_weapon/royal_winterbloom_weapon.vmdl"
+    },
+    {
+      "id": "17756",
+      "name": "Royal Winterbloom Back",
+      "item_name": "#DOTA_Item_Royal_Winterbloom_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/royal_winterbloom_back/royal_winterbloom_back.vmdl"
+    },
+    {
+      "id": "17757",
+      "name": "Royal Winterbloom Arms",
+      "item_name": "#DOTA_Item_Royal_Winterbloom_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/royal_winterbloom_arms/royal_winterbloom_arms.vmdl"
+    },
+    {
+      "id": "17758",
+      "name": "Royal Winterbloom Shoulder",
+      "item_name": "#DOTA_Item_Royal_Winterbloom_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/royal_winterbloom_shoulder/royal_winterbloom_shoulder.vmdl"
+    },
+    {
+      "id": "17760",
+      "name": "Royal Winterbloom Head",
+      "item_name": "#DOTA_Item_Royal_Winterbloom_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/royal_winterbloom_head/royal_winterbloom_head.vmdl"
+    },
+    {
+      "id": "18114",
+      "name": "Lineage Crown of the Tundra Warden",
+      "item_name": "#DOTA_Item_Lineage_Crown_of_the_Tundra_Warden",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/warden_icewrack_head/warden_icewrack_head.vmdl"
+    },
+    {
+      "id": "18115",
+      "name": "Lineage North Star",
+      "item_name": "#DOTA_Item_Lineage_North_Star",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/warden_icewrack_staff/warden_icewrack_staff.vmdl"
+    },
+    {
+      "id": "18116",
+      "name": "Lineage Guard of the Tundra Warden",
+      "item_name": "#DOTA_Item_Lineage_Guard_of_the_Tundra_Warden",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/warden_icewrack_shoulder/warden_icewrack_shoulder.vmdl"
+    },
+    {
+      "id": "18159",
+      "name": "Lineage Tails of the Tundra Warden",
+      "item_name": "#DOTA_Item_Lineage_Tails_of_the_Tundra_Warden",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/warden_icewrack_back/ti10_warden_icewrack_back.vmdl"
+    },
+    {
+      "id": "18160",
+      "name": "Lineage Gauntlets of the Tundra Warden",
+      "item_name": "#DOTA_Item_Lineage_Gauntlets_of_the_Tundra_Warden",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/warden_icewrack_arms/warden_icewrack_arms.vmdl"
+    },
+    {
+      "id": "18384",
+      "name": "Witch Rylai Arms",
+      "item_name": "#DOTA_Item_Vote_Only_Witch_Rylai_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/witch_rylai_arms/witch_rylai_arms.vmdl"
+    },
+    {
+      "id": "18385",
+      "name": "Witch Rylai Back",
+      "item_name": "#DOTA_Item_Vote_Only_Witch_Rylai_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/witch_rylai_back/witch_rylai_back.vmdl"
+    },
+    {
+      "id": "18386",
+      "name": "Witch Rylai Head",
+      "item_name": "#DOTA_Item_Vote_Only_Witch_Rylai_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/witch_rylai_head/witch_rylai_head.vmdl"
+    },
+    {
+      "id": "18387",
+      "name": "Witch Rylai Shoulder",
+      "item_name": "#DOTA_Item_Vote_Only_Witch_Rylai_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/witch_rylai_shoulder/witch_rylai_shoulder.vmdl"
+    },
+    {
+      "id": "18388",
+      "name": "Witch Rylai Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_Witch_Rylai_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/witch_rylai_weapon/witch_rylai_weapon.vmdl"
+    },
+    {
+      "id": "18463",
+      "name": "Glacial Gardens Head",
+      "item_name": "#DOTA_Item_Glacial_Gardens_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/the_winter_monarch_head/the_winter_monarch_head.vmdl"
+    },
+    {
+      "id": "18464",
+      "name": "Glacial Gardens Shoulder",
+      "item_name": "#DOTA_Item_Glacial_Gardens_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/the_winter_monarch_shoulder/the_winter_monarch_shoulder.vmdl"
+    },
+    {
+      "id": "18465",
+      "name": "Glacial Gardens Arms",
+      "item_name": "#DOTA_Item_Glacial_Gardens_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/the_winter_monarch_arms/the_winter_monarch_arms.vmdl"
+    },
+    {
+      "id": "18466",
+      "name": "Glacial Gardens Back",
+      "item_name": "#DOTA_Item_Glacial_Gardens_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/the_winter_monarch_back/the_winter_monarch_back.vmdl"
+    },
+    {
+      "id": "18467",
+      "name": "Glacial Gardens Weapon",
+      "item_name": "#DOTA_Item_Glacial_Gardens_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/the_winter_monarch_weapon/the_winter_monarch_weapon.vmdl"
+    },
+    {
+      "id": "19205",
+      "name": "Conduit of the Blueheart",
+      "item_name": "#DOTA_Item_Conduit_of_the_Blueheart",
+      "item_slot": "persona_selector",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20088",
+      "name": "Winter Snowdrop",
+      "item_name": "#DOTA_Item_Winter_Snowdrop",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20123",
+      "name": "Regalia of the Crystalline Queen Set",
+      "item_name": "#DOTA_Item_Regalia_of_the_Crystalline_Queen_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20184",
+      "name": "Frostiron Sorceress Set",
+      "item_name": "#DOTA_Item_Frostiron_Sorceress_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20211",
+      "name": "Heart of the North Set",
+      "item_name": "#DOTA_Item_Heart_of_the_North_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20301",
+      "name": "Glacier Duster Set",
+      "item_name": "#DOTA_Item_Glacier_Duster_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20320",
+      "name": "Frozen Feather Set",
+      "item_name": "#DOTA_Item_Frozen_Feather_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20539",
+      "name": "Ensemble of the Crystalline Comet",
+      "item_name": "#DOTA_Item_Ensemble_of_the_Crystalline_Comet",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20571",
+      "name": "Promo Ensemble of the Crystalline Comet",
+      "item_name": "#DOTA_Item_Promo_Ensemble_of_the_Crystalline_Comet",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20624",
+      "name": "Whitewind Battlemage",
+      "item_name": "#DOTA_Item_Whitewind_Battlemage",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20738",
+      "name": "Frost Avalanche Bundle",
+      "item_name": "#DOTA_Item_Frost_Avalanche_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "arcana",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20800",
+      "name": "Wraps of the Winterbringer",
+      "item_name": "#DOTA_Item_Wraps_of_the_Winterbringer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20852",
+      "name": "Charge of the Tundra Warden",
+      "item_name": "#DOTA_Item_Charge_of_the_Tundra_Warden",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20883",
+      "name": "Blueheart Sovereign",
+      "item_name": "#DOTA_Item_Blueheart_Sovereign",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20910",
+      "name": "Icebound Floret",
+      "item_name": "#DOTA_Item_Icebound_Floret",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20929",
+      "name": "Lady of the Lumini Polare",
+      "item_name": "#DOTA_Item_Lady_of_the_Lumini_Polare",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20955",
+      "name": "Glacial Magnolia",
+      "item_name": "#DOTA_Item_Glacial_Magnolia",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21171",
+      "name": "Winter's Warden",
+      "item_name": "#DOTA_Item_Winters_Warden",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21329",
+      "name": "Glacial Gardens",
+      "item_name": "#DOTA_Item_Glacial_Gardens",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21427",
+      "name": "Prelate of the Wyvern Legion",
+      "item_name": "#DOTA_Item_Prelate_of_the_Wyvern_Legion",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21676",
+      "name": "Royal Winterbloom",
+      "item_name": "#DOTA_Item_Royal_Winterbloom",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21799",
+      "name": "Witch Rylai",
+      "item_name": "#DOTA_Item_Vote_Only_Witch_Rylai",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21865",
+      "name": "Lineage Charge of the Tundra Warden",
+      "item_name": "#DOTA_Item_Lineage_Charge_of_the_Tundra_Warden",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "24121",
+      "name": "Canis Crystallum - Tail",
+      "item_name": "#DOTA_Item_Canis_Crystallum__Tail",
+      "item_slot": "tail_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/crystal_diviner_tail/crystal_diviner_tail.vmdl"
+    },
+    {
+      "id": "24857",
+      "name": "Guardian Snow Angel - Crystals",
+      "item_name": "#DOTA_Item_Guardian_Snow_Angel__Crystals",
+      "item_slot": "misc_persona_1",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/guardiana_glacial_cristals/guardiana_glacial_cristals.vmdl"
+    },
+    {
+      "id": "24881",
+      "name": "Guardian Snow Angel - Head",
+      "item_name": "#DOTA_Item_Guardian_Snow_Angel__Head",
+      "item_slot": "head_persona_1",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/guardiana_glacial_head/guardiana_glacial_head.vmdl"
+    },
+    {
+      "id": "24882",
+      "name": "Guardian Snow Angel - Tail",
+      "item_name": "#DOTA_Item_Guardian_Snow_Angel__Tail",
+      "item_slot": "tail_persona_1",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/guardiana_glacial_tail/guardiana_glacial_tail.vmdl"
+    },
+    {
+      "id": "24883",
+      "name": "Guardian Snow Angel - Armor",
+      "item_name": "#DOTA_Item_Guardian_Snow_Angel__Armor",
+      "item_slot": "armor_persona_1",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/guardiana_glacial_armor/guardiana_glacial_armor_no_baby.vmdl"
+    },
+    {
+      "id": "24884",
+      "name": "Guardian Snow Angel",
+      "item_name": "#DOTA_Item_Guardian_Snow_Angel",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "bundle"
+    },
+    {
+      "id": "24910",
+      "name": "Blueheart Familiar",
+      "item_name": "#DOTA_Item_Blueheart_Familiar",
+      "item_slot": "summon_persona_1",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26559",
+      "name": "Conduit of the Blueheart Bundle",
+      "item_name": "#DOTA_Item_Conduit_of_the_Blueheart_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "bundle"
+    },
+    {
+      "id": "27212",
+      "name": "Roost of the Winter Raven - Arms",
+      "item_name": "#DOTA_Item_Roost_of_the_Winter_Raven__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/cm_screeauk/cm_screeauk_arms.vmdl"
+    },
+    {
+      "id": "27295",
+      "name": "Roost of the Winter Raven - Back",
+      "item_name": "#DOTA_Item_Roost_of_the_Winter_Raven__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/cm_screeauk/cm_screeauk_back.vmdl"
+    },
+    {
+      "id": "27561",
+      "name": "Roost of the Winter Raven - Head",
+      "item_name": "#DOTA_Item_Roost_of_the_Winter_Raven__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/cm_screeauk/cm_screeauk_head.vmdl"
+    },
+    {
+      "id": "27562",
+      "name": "Roost of the Winter Raven - Shoulder",
+      "item_name": "#DOTA_Item_Roost_of_the_Winter_Raven__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/cm_screeauk/cm_screeauk_shoulder.vmdl"
+    },
+    {
+      "id": "27563",
+      "name": "Roost of the Winter Raven - Weapon",
+      "item_name": "#DOTA_Item_Roost_of_the_Winter_Raven__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/cm_screeauk/cm_screeauk_weapon.vmdl"
+    },
+    {
+      "id": "27600",
+      "name": "Roost of the Winter Raven",
+      "item_name": "#DOTA_Item_Roost_of_the_Winter_Raven",
+      "item_slot": "weapon",
+      "item_rarity": "arcana",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28140",
+      "name": "Spirit of the Frozen Flow",
+      "item_name": "#DOTA_Item_Spirit_of_the_Frozen_Flow",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28141",
+      "name": "Spirit of the Frozen Flow - Armor",
+      "item_name": "#DOTA_Item_Spirit_of_the_Frozen_Flow__Armor",
+      "item_slot": "armor_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/familiars_regalia/familiars_regalia.vmdl"
+    },
+    {
+      "id": "28143",
+      "name": "Spirit of the Frozen Flow - Tail",
+      "item_name": "#DOTA_Item_Spirit_of_the_Frozen_Flow__Tail",
+      "item_slot": "tail_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/familiars_tail/familiars_tail.vmdl"
+    },
+    {
+      "id": "28144",
+      "name": "Spirit of the Frozen Flow - Head",
+      "item_name": "#DOTA_Item_Spirit_of_the_Frozen_Flow__Head",
+      "item_slot": "head_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/familiars_sacred_horns/familiars_sacred_horns.vmdl"
+    },
+    {
+      "id": "28152",
+      "name": "Spirit of the Frozen Flow - Orbs",
+      "item_name": "#DOTA_Item_Spirit_of_the_Frozen_Flow__Orbs",
+      "item_slot": "misc_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/frostfire_beads/frostfire_beads.vmdl"
+    },
+    {
+      "id": "29566",
+      "name": "Canis Crystallum - Armor",
+      "item_name": "#DOTA_Item_Canis_Crystallum__Armor",
+      "item_slot": "armor_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/crystal_diviner_armor/crystal_diviner_armor.vmdl"
+    },
+    {
+      "id": "29576",
+      "name": "Canis Crystallum - Head",
+      "item_name": "#DOTA_Item_Canis_Crystallum__Head",
+      "item_slot": "head_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/crystal_diviner_head/crystal_diviner_head.vmdl"
+    },
+    {
+      "id": "29577",
+      "name": "Canis Crystallum - Misc",
+      "item_name": "#DOTA_Item_Canis_Crystallum__Misc",
+      "item_slot": "misc_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/crystal_diviner_misc/crystal_diviner_misc.vmdl"
+    },
+    {
+      "id": "29578",
+      "name": "Canis Crystallum",
+      "item_name": "#DOTA_Item_Canis_Crystallum",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "33503",
+      "name": "Narwolf Nebula - Tail",
+      "item_name": "#DOTA_Item_Narwolf_Nebula__Tail",
+      "item_slot": "tail_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/avatar_of_crystal_nova_tail/avatar_of_crystal_nova_tail.vmdl"
+    },
+    {
+      "id": "33504",
+      "name": "Narwolf Nebula - Armor",
+      "item_name": "#DOTA_Item_Narwolf_Nebula__Armor",
+      "item_slot": "armor_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/avatar_of_crystal_nova_armor/avatar_of_crystal_nova_armor.vmdl"
+    },
+    {
+      "id": "33505",
+      "name": "Narwolf Nebula - Stars",
+      "item_name": "#DOTA_Item_Narwolf_Nebula__Stars",
+      "item_slot": "misc_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/avatar_of_crystal_nova_crystals/avatar_of_crystal_nova_crystals.vmdl"
+    },
+    {
+      "id": "33506",
+      "name": "Narwolf Nebula - Head",
+      "item_name": "#DOTA_Item_Narwolf_Nebula__Head",
+      "item_slot": "head_persona_1",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/crystal_maiden/avatar_of_crystal_nova_head/avatar_of_crystal_nova_head.vmdl"
+    },
+    {
+      "id": "33507",
+      "name": "Narwolf Nebula",
+      "item_name": "#DOTA_Item_Narwolf_Nebula",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    }
+  ]
+}

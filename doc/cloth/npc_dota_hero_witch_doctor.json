@@ -1,0 +1,2429 @@
+{
+  "defaults": {
+    "head": {
+      "id": "94",
+      "name": "Witch Doctor's Head",
+      "item_name": "#DOTA_Item_Witch_Doctors_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/witchdoctor/witchdoctor_head.vmdl"
+    },
+    "shoulder": {
+      "id": "95",
+      "name": "Witch Doctor's Bag",
+      "item_name": "#DOTA_Item_Witch_Doctors_Bag",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/witchdoctor/witchdoctor_bag.vmdl"
+    },
+    "belt": {
+      "id": "96",
+      "name": "Witch Doctor's Belt",
+      "item_name": "#DOTA_Item_Witch_Doctors_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "model_player": "models/heroes/witchdoctor/witchdoctor_belt.vmdl"
+    },
+    "weapon": {
+      "id": "97",
+      "name": "Witch Doctor's Staff",
+      "item_name": "#DOTA_Item_Witch_Doctors_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/witchdoctor/witchdoctor_staff.vmdl"
+    },
+    "back": {
+      "id": "8367",
+      "name": "Witch Doctor's Bare Back",
+      "item_name": "#DOTA_Item_Witch_Doctor_Bare_Back",
+      "item_slot": "back",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Awaleb",
+      "store_bundle": "Masque of Awaleb Bundle",
+      "portrait_image": "econ/sets/v2/awaleb",
+      "items": [
+        {
+          "name": "Masque of Awaleb",
+          "id": "12328",
+          "item_name": "#DOTA_Item_Masque_of_Awaleb",
+          "item_slot": "head",
+          "item_rarity": "immortal",
+          "model_player": "models/items/witchdoctor/wd_ti8_immortal_head/wd_ti8_immortal_head.vmdl"
+        },
+        {
+          "name": "Bonkers of Awaleb",
+          "id": "9679",
+          "item_name": "#DOTA_Item_Bonkers_of_Awaleb",
+          "item_slot": "back",
+          "item_rarity": "immortal",
+          "model_player": "models/items/witchdoctor/wd_ti8_immortal_bonkers/wd_ti8_immortal_bonkers.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bearer_of_the_Arkturan_Talon",
+      "store_bundle": "Bearer of the Arkturan Talon",
+      "portrait_image": "econ/sets/v2/bearer_of_the_arkturan_talon",
+      "items": [
+        {
+          "name": "Ornaments of the Arkturan Talon",
+          "id": "9057",
+          "item_name": "#DOTA_Item_Ornaments_of_the_Arkturan_Talon",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/vermilion_juju_of_the_south_back/vermilion_juju_of_the_south_back.vmdl"
+        },
+        {
+          "name": "Headdress of the Arkturan Talon",
+          "id": "9056",
+          "item_name": "#DOTA_Item_Headdress_of_the_Arkturan_Talon",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/vermilion_juju_of_the_south_head/vermilion_juju_of_the_south_head.vmdl"
+        },
+        {
+          "name": "Belt of the Arkturan Talon",
+          "id": "9055",
+          "item_name": "#DOTA_Item_Belt_of_the_Arkturan_Talon",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/vermilion_juju_of_the_south_belt/vermilion_juju_of_the_south_belt.vmdl"
+        },
+        {
+          "name": "Staff of the Arkturan Talon",
+          "id": "9054",
+          "item_name": "#DOTA_Item_Staff_of_the_Arkturan_Talon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/vermilion_juju_of_the_south_weapon/vermilion_juju_of_the_south_weapon.vmdl"
+        },
+        {
+          "name": "Feathered Mantle of the Arkturan Talon",
+          "id": "9053",
+          "item_name": "#DOTA_Item_Feathered_Mantle_of_the_Arkturan_Talon",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/vermilion_juju_of_the_south_shoulder/vermilion_juju_of_the_south_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bone_Collector",
+      "store_bundle": "Bone Collector",
+      "portrait_image": "econ/sets/v2/bone_collector",
+      "items": [
+        {
+          "name": "Bone Collector - Head",
+          "id": "19230",
+          "item_name": "#DOTA_Item_Bone_Collector__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/primeval_doctor_head/primeval_doctor_head.vmdl"
+        },
+        {
+          "name": "Bone Collector - Back",
+          "id": "19229",
+          "item_name": "#DOTA_Item_Bone_Collector__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/primeval_doctor_back/primeval_doctor_back.vmdl"
+        },
+        {
+          "name": "Bone Collector - Shoulder",
+          "id": "19228",
+          "item_name": "#DOTA_Item_Bone_Collector__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/primeval_doctor_shoulder/primeval_doctor_shoulder.vmdl"
+        },
+        {
+          "name": "Bone Collector - Weapon",
+          "id": "19227",
+          "item_name": "#DOTA_Item_Bone_Collector__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/primeval_doctor_weapon/primeval_doctor_weapon.vmdl"
+        },
+        {
+          "name": "Bone Collector - Belt",
+          "id": "19226",
+          "item_name": "#DOTA_Item_Bone_Collector__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/primeval_doctor_belt/primeval_doctor_belt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Cunning_Cultivations",
+      "store_bundle": "Cunning Cultivations",
+      "portrait_image": "econ/sets/v2/cunning_cultivations",
+      "items": [
+        {
+          "name": "Cunning Cultivations Shoulder",
+          "id": "17878",
+          "item_name": "#DOTA_Item_Cunning_Cultivations_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/record_holder_grower_shoulder/record_holder_grower_shoulder.vmdl"
+        },
+        {
+          "name": "Cunning Cultivations Mask",
+          "id": "17876",
+          "item_name": "#DOTA_Item_Cunning_Cultivations_Mask",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/record_holder_grower_head/record_holder_grower_head.vmdl"
+        },
+        {
+          "name": "Cunning Cultivations Staff",
+          "id": "17873",
+          "item_name": "#DOTA_Item_Cunning_Cultivations_Staff",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/record_holder_grower_weapon/record_holder_grower_weapon.vmdl"
+        },
+        {
+          "name": "Cunning Cultivations Pumpkin",
+          "id": "17872",
+          "item_name": "#DOTA_Item_Cunning_Cultivations_Pumpkin",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/record_holder_grower_back/record_holder_grower_back.vmdl"
+        },
+        {
+          "name": "Cunning Cultivations Belt",
+          "id": "17874",
+          "item_name": "#DOTA_Item_Cunning_Cultivations_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/record_holder_grower_belt/record_holder_grower_belt.vmdl"
+        },
+        {
+          "name": "Cunning Cultivations Ward",
+          "id": "17875",
+          "item_name": "#DOTA_Item_Cunning_Cultivations_Ward",
+          "item_slot": "summon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Deathstitch_Shaman",
+      "store_bundle": "Deathstitch Shaman",
+      "portrait_image": "econ/sets/v2/deathstitch_shaman",
+      "items": [
+        {
+          "name": "Deathstitch Shaman - Shoulder",
+          "id": "26627",
+          "item_name": "#DOTA_Item_Deathstitch_Shaman__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/wd_voodoo_harvest_shoulder/wd_voodoo_harvest_shoulder.vmdl"
+        },
+        {
+          "name": "Deathstitch Shaman - Weapon",
+          "id": "26628",
+          "item_name": "#DOTA_Item_Deathstitch_Shaman__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/wd_voodoo_harvest_weapon_2/wd_voodoo_harvest_weapon_2.vmdl"
+        },
+        {
+          "name": "Deathstitch Shaman - Belt",
+          "id": "26693",
+          "item_name": "#DOTA_Item_Deathstitch_Shaman__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/wd_voodoo_harvest_belt/wd_voodoo_harvest_belt.vmdl"
+        },
+        {
+          "name": "Deathstitch Shaman - Back",
+          "id": "26691",
+          "item_name": "#DOTA_Item_Deathstitch_Shaman__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/wd_voodoo_harvest_back/wd_voodoo_harvest_back.vmdl"
+        },
+        {
+          "name": "Deathstitch Shaman - Head",
+          "id": "26689",
+          "item_name": "#DOTA_Item_Deathstitch_Shaman__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/wd_voodoo_harvest_weapon/wd_voodoo_harvest_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Footfalls_of_the_Sporefathers",
+      "store_bundle": "Footfalls of the Sporefathers",
+      "portrait_image": "econ/sets/v2/footfalls_of_the_sporefathers",
+      "items": [
+        {
+          "name": "Footfalls of the Sporefathers - Back",
+          "id": "19150",
+          "item_name": "#DOTA_Item_Footfalls_of_the_Sporefathers__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/father_of_the_fungal_forest_back/father_of_the_fungal_forest_back.vmdl"
+        },
+        {
+          "name": "Footfalls of the Sporefathers - Belt",
+          "id": "19151",
+          "item_name": "#DOTA_Item_Footfalls_of_the_Sporefathers__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/father_of_the_fungal_forest_belt/father_of_the_fungal_forest_belt.vmdl"
+        },
+        {
+          "name": "Footfalls of the Sporefathers - Death Ward",
+          "id": "19153",
+          "item_name": "#DOTA_Item_Footfalls_of_the_Sporefathers__Death_Ward",
+          "item_slot": "summon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Footfalls of the Sporefathers - Head",
+          "id": "19152",
+          "item_name": "#DOTA_Item_Footfalls_of_the_Sporefathers__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/father_of_the_fungal_forest_head/father_of_the_fungal_forest_head.vmdl"
+        },
+        {
+          "name": "Footfalls of the Sporefathers - Shoulder",
+          "id": "19154",
+          "item_name": "#DOTA_Item_Footfalls_of_the_Sporefathers__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/father_of_the_fungal_forest_shoulder/father_of_the_fungal_forest_shoulder.vmdl"
+        },
+        {
+          "name": "Footfalls of the Sporefathers - Weapon",
+          "id": "19155",
+          "item_name": "#DOTA_Item_Footfalls_of_the_Sporefathers__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/father_of_the_fungal_forest_weapon/father_of_the_fungal_forest_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Foretellers_Oath",
+      "store_bundle": "Foreteller's Oath",
+      "portrait_image": "econ/sets/v2/foretellers_oath",
+      "items": [
+        {
+          "name": "Belt of the Foreteller's Oath",
+          "id": "9172",
+          "item_name": "#DOTA_Item_Belt_of_the_Foretellers_Oath",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/teller_of_the_auspice_belt/teller_of_the_auspice_belt.vmdl"
+        },
+        {
+          "name": "Hat of the Foreteller's Oath",
+          "id": "9173",
+          "item_name": "#DOTA_Item_Hat_of_the_Foretellers_Oath",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/teller_of_the_auspice_head/teller_of_the_auspice_head.vmdl"
+        },
+        {
+          "name": "Staff of the Foreteller's Oath",
+          "id": "9174",
+          "item_name": "#DOTA_Item_Staff_of_the_Foretellers_Oath",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/teller_of_the_auspice_weapon/teller_of_the_auspice_weapon.vmdl"
+        },
+        {
+          "name": "Death Ward of the Foreteller's Oath",
+          "id": "9175",
+          "item_name": "#DOTA_Item_Death_Ward_of_the_Foretellers_Oath",
+          "item_slot": "summon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Basket of the Foreteller's Oath",
+          "id": "9176",
+          "item_name": "#DOTA_Item_Basket_of_the_Foretellers_Oath",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/teller_of_the_auspice_back/teller_of_the_auspice_back.vmdl"
+        },
+        {
+          "name": "Covers of the Foreteller's Oath",
+          "id": "9177",
+          "item_name": "#DOTA_Item_Covers_of_the_Foretellers_Oath",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/teller_of_the_auspice_shoulder/teller_of_the_auspice_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Morbific_Provision",
+      "store_bundle": "Morbific Provision",
+      "portrait_image": "econ/sets/v2/morbific_provision",
+      "items": [
+        {
+          "name": "Staff of Morbific Provision",
+          "id": "9937",
+          "item_name": "#DOTA_Item_Staff_of_Morbific_Provision",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/ti8_wd_spore_gardener_weapon/ti8_wd_spore_gardener_weapon.vmdl"
+        },
+        {
+          "name": "Garb of Morbific Provision",
+          "id": "9936",
+          "item_name": "#DOTA_Item_Garb_of_Morbific_Provision",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/ti8_wd_spore_gardener_back/ti8_wd_spore_gardener_back.vmdl"
+        },
+        {
+          "name": "Belt of Morbific Provision",
+          "id": "9935",
+          "item_name": "#DOTA_Item_Belt_of_Morbific_Provision",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/ti8_wd_spore_gardener_belt/ti8_wd_spore_gardener_belt.vmdl"
+        },
+        {
+          "name": "Head of Morbific Provision",
+          "id": "9934",
+          "item_name": "#DOTA_Item_Head_of_Morbific_Provision",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/ti8_wd_spore_gardener_head/ti8_wd_spore_gardener_head.vmdl"
+        },
+        {
+          "name": "Satchel of Morbific Provision",
+          "id": "9933",
+          "item_name": "#DOTA_Item_Satchel_of_Morbific_Provision",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/ti8_wd_spore_gardener_shoulder/ti8_wd_spore_gardener_shoulder.vmdl"
+        },
+        {
+          "name": "Servant of Morbific Provision",
+          "id": "9932",
+          "item_name": "#DOTA_Item_Servant_of_Morbific_Provision",
+          "item_slot": "summon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Outlandish_Gourmet",
+      "store_bundle": "Outlandish Gourmet",
+      "portrait_image": "econ/sets/v2/outlandish_gourmet",
+      "items": [
+        {
+          "name": "Apron of the Outlandish Gourmet",
+          "id": "9522",
+          "item_name": "#DOTA_Item_Apron_of_the_Outlandish_Gourmet",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_belt/poison_cook_witch_doctor_belt.vmdl"
+        },
+        {
+          "name": "Implements of the Outlandish Gourmet",
+          "id": "9520",
+          "item_name": "#DOTA_Item_Implements_of_the_Outlandish_Gourmet",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_weapon/poison_cook_witch_doctor_weapon.vmdl"
+        },
+        {
+          "name": "Visage of the Outlandish Gourmet",
+          "id": "9519",
+          "item_name": "#DOTA_Item_Visage_of_the_Outlandish_Gourmet",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_head/poison_cook_witch_doctor_head.vmdl"
+        },
+        {
+          "name": "Garb of the Outlandish Gourmet",
+          "id": "9518",
+          "item_name": "#DOTA_Item_Garb_of_the_Outlandish_Gourmet",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_shoulder/poison_cook_witch_doctor_shoulder.vmdl"
+        },
+        {
+          "name": "Cauldron of the Outlandish Gourmet",
+          "id": "9517",
+          "item_name": "#DOTA_Item_Cauldron_of_the_Outlandish_Gourmet",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_back/poison_cook_witch_doctor_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Papa_Wanga",
+      "store_bundle": "Papa Wanga",
+      "portrait_image": "econ/sets/v2/papa_wanga",
+      "items": [
+        {
+          "name": "Papa Wanga's Staff",
+          "id": "14312",
+          "item_name": "#DOTA_Item_Papa_Wangas_Staff",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/wd_voodoo_doc_weapon/wd_voodoo_doc_weapon.vmdl"
+        },
+        {
+          "name": "Papa Wanga's Poppet",
+          "id": "14313",
+          "item_name": "#DOTA_Item_Papa_Wangas_Poppet",
+          "item_slot": "summon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Papa Wanga's Basket",
+          "id": "14314",
+          "item_name": "#DOTA_Item_Papa_Wangas_Basket",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/wd_voodoo_doc_shoulder/wd_voodoo_doc_shoulder.vmdl"
+        },
+        {
+          "name": "Papa Wanga's Mask",
+          "id": "14316",
+          "item_name": "#DOTA_Item_Papa_Wangas_Mask",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/wd_voodoo_doc_head/wd_voodoo_doc_head.vmdl"
+        },
+        {
+          "name": "Papa Wanga's Belt",
+          "id": "14317",
+          "item_name": "#DOTA_Item_Papa_Wangas_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/wd_voodoo_doc_belt/wd_voodoo_doc_belt.vmdl"
+        },
+        {
+          "name": "Papa Wanga's Backplate",
+          "id": "14318",
+          "item_name": "#DOTA_Item_Papa_Wangas_Backplate",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/wd_voodoo_doc_back/wd_voodoo_doc_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Prodigy_of_Prefectura",
+      "store_bundle": "Prodigy of Prefectura",
+      "portrait_image": "econ/sets/v2/prodigy_of_prefectura",
+      "items": [
+        {
+          "name": "Prodigy of Prefectura - Back",
+          "id": "18551",
+          "item_name": "#DOTA_Item_Prodigy_of_Prefectura__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/aghsbp_2021_witch_doctor_back/aghsbp_2021_witch_doctor_back.vmdl"
+        },
+        {
+          "name": "Prodigy of Prefectura - Belt",
+          "id": "18552",
+          "item_name": "#DOTA_Item_Prodigy_of_Prefectura__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/aghsbp_2021_witch_doctor_belt/aghsbp_2021_witch_doctor_belt.vmdl"
+        },
+        {
+          "name": "Prodigy of Prefectura - Head",
+          "id": "18553",
+          "item_name": "#DOTA_Item_Prodigy_of_Prefectura__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/aghsbp_2021_witch_doctor_head/aghsbp_2021_witch_doctor_head.vmdl"
+        },
+        {
+          "name": "Prodigy of Prefectura - Shoulder",
+          "id": "18554",
+          "item_name": "#DOTA_Item_Prodigy_of_Prefectura__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/aghsbp_2021_witch_doctor_shoulder/aghsbp_2021_witch_doctor_shoulder.vmdl"
+        },
+        {
+          "name": "Prodigy of Prefectura - Weapon",
+          "id": "18555",
+          "item_name": "#DOTA_Item_Prodigy_of_Prefectura__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/aghsbp_2021_witch_doctor_weapon/aghsbp_2021_witch_doctor_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Relics_of_Ribbitar",
+      "store_bundle": "Relics of Ribbi'tar",
+      "portrait_image": "econ/sets/v2/relics_of_ribbitar",
+      "items": [
+        {
+          "name": "Padda'pon of Ribbi'tar",
+          "id": "7380",
+          "item_name": "#DOTA_Item_Paddapon_of_Ribbitar",
+          "item_slot": "summon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Visage of Ribbi'tar",
+          "id": "8336",
+          "item_name": "#DOTA_Item_Visage_of_Ribbitar",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/ribbitar_head/ribbitar_head_model.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Servant_of_the_Sightless_Shamans",
+      "store_bundle": "Servant of the Sightless Shamans",
+      "portrait_image": "econ/sets/v2/servant_of_the_sightless_shamans",
+      "items": [
+        {
+          "name": "Servant of the Sightless Shamans Weapon",
+          "id": "19662",
+          "item_name": "#DOTA_Item_Servant_of_the_Sightless_Shamans_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/monke_weapon/monke_weapon.vmdl"
+        },
+        {
+          "name": "Servant of the Sightless Shamans Shoulder",
+          "id": "19661",
+          "item_name": "#DOTA_Item_Servant_of_the_Sightless_Shamans_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/monke_shoulder/monke_shoulder.vmdl"
+        },
+        {
+          "name": "Servant of the Sightless Shamans Ward",
+          "id": "19660",
+          "item_name": "#DOTA_Item_Servant_of_the_Sightless_Shamans_Ward",
+          "item_slot": "summon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Servant of the Sightless Shamans Head",
+          "id": "19659",
+          "item_name": "#DOTA_Item_Servant_of_the_Sightless_Shamans_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/monke_head/monke_head.vmdl"
+        },
+        {
+          "name": "Servant of the Sightless Shamans Belt",
+          "id": "19658",
+          "item_name": "#DOTA_Item_Servant_of_the_Sightless_Shamans_Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/monke_belt/monke_belt.vmdl"
+        },
+        {
+          "name": "Servant of the Sightless Shamans Back",
+          "id": "19657",
+          "item_name": "#DOTA_Item_Servant_of_the_Sightless_Shamans_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/monke_back/monke_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Shambling_Trickster",
+      "store_bundle": "Razer Think Fast Season 2",
+      "portrait_image": "econ/sets/v2/shambling_trickster",
+      "items": [
+        {
+          "name": "Shambling Trickster Ritual Bowl",
+          "id": "8063",
+          "item_name": "#DOTA_Item_Shambling_Trickster_Ritual_Bowl",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/wanderer_ticket_backpart/wanderer_ticket_backpart.vmdl"
+        },
+        {
+          "name": "Shambling Trickster Belt",
+          "id": "8064",
+          "item_name": "#DOTA_Item_Shambling_Trickster_Belt",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/witchdoctor/wanderer_ticket_cloth/wanderer_ticket_cloth.vmdl"
+        },
+        {
+          "name": "Shambling Trickster Mask",
+          "id": "8065",
+          "item_name": "#DOTA_Item_Shambling_Trickster_Mask",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/witchdoctor/wanderer_ticket_mask/wanderer_ticket_mask.vmdl"
+        },
+        {
+          "name": "Shambling Trickster Ingredients",
+          "id": "8066",
+          "item_name": "#DOTA_Item_Shambling_Trickster_Ingredients",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/witchdoctor/wanderer_ticket_shoulderpart/wanderer_ticket_shoulderpart.vmdl"
+        },
+        {
+          "name": "Shambling Trickster Staff",
+          "id": "8071",
+          "item_name": "#DOTA_Item_Shambling_Trickster_Staff",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/witchdoctor/wanderer_ticket_staff/wanderer_ticket_staff.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Spider_of_Purple_Nightmare",
+      "store_bundle": "Spider of Purple Nightmare",
+      "portrait_image": "econ/sets/v2/spider_of_purple_nightmare",
+      "items": [
+        {
+          "name": "Spider Drapes of Purple Nightmare",
+          "id": "6953",
+          "item_name": "#DOTA_Item_Spider_Drapes_of_Purple_Nightmare",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/witchdoctor/purplenightmare_back/purplenightmare_back.vmdl"
+        },
+        {
+          "name": "Spider Shoulders of Purple Nightmare",
+          "id": "6951",
+          "item_name": "#DOTA_Item_Spider_Shoulders_of_Purple_Nightmare",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/purplenightmare_shoulder/purplenightmare_shoulder.vmdl"
+        },
+        {
+          "name": "Spider Helm of Purple Nightmare",
+          "id": "6954",
+          "item_name": "#DOTA_Item_Spider_Helm_of_Purple_Nightmare",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/witchdoctor/purplenightmare_head/purplenightmare_head.vmdl"
+        },
+        {
+          "name": "Spider Belt of Purple Nightmare",
+          "id": "6955",
+          "item_name": "#DOTA_Item_Spider_Belt_of_Purple_Nightmare",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/witchdoctor/purplenightmare_belt/purplenightmare_belt.vmdl"
+        },
+        {
+          "name": "Spider Staff of Purple Nightmare",
+          "id": "6956",
+          "item_name": "#DOTA_Item_Spider_Staff_of_Purple_Nightmare",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/witchdoctor/purplenightmare_weapon/purplenightmare_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Spoils_of_the_Vodou_Rover",
+      "store_bundle": "Spoils of the Vodou Rover",
+      "portrait_image": "econ/sets/v2/spoils_of_the_vodou_rover",
+      "items": [
+        {
+          "name": "Coat of the Vodou Rover",
+          "id": "9374",
+          "item_name": "#DOTA_Item_Coat_of_the_Vodou_Rover",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/salted_voodoo_dog_shoulder/salted_voodoo_dog_shoulder.vmdl"
+        },
+        {
+          "name": "Mast of the Vodou Rover",
+          "id": "9382",
+          "item_name": "#DOTA_Item_Mast_of_the_Vodou_Rover",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/salted_voodoo_dog_weapon/salted_voodoo_dog_weapon.vmdl"
+        },
+        {
+          "name": "Beard of the Vodou Rover",
+          "id": "9383",
+          "item_name": "#DOTA_Item_Beard_of_the_Vodou_Rover",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/salted_voodoo_dog_head/salted_voodoo_dog_head.vmdl"
+        },
+        {
+          "name": "Pantaloons of the Vodou Rover",
+          "id": "9384",
+          "item_name": "#DOTA_Item_Pantaloons_of_the_Vodou_Rover",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/salted_voodoo_dog_belt/salted_voodoo_dog_belt.vmdl"
+        },
+        {
+          "name": "Parrot of the Vodou Rover",
+          "id": "9385",
+          "item_name": "#DOTA_Item_Parrot_of_the_Vodou_Rover",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/salted_voodoo_dog_back/salted_voodoo_dog_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Stormcrows_Spirit",
+      "store_bundle": "The Stormcrow's Spirit Set",
+      "portrait_image": "econ/sets/v2/stormcrow_spirit",
+      "items": [
+        {
+          "name": "Egg of the Stormcrow",
+          "id": "4707",
+          "item_name": "#DOTA_Item_Egg_of_the_Stormcrow",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/witchdoctor/stormcrowbag/stormcrowbag.vmdl"
+        },
+        {
+          "name": "Beak of the Stormcrow",
+          "id": "4708",
+          "item_name": "#DOTA_Item_Beak_of_the_Stormcrow",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/stormcrowmask/stormcrowmask.vmdl"
+        },
+        {
+          "name": "Cloak of the Stormcrow",
+          "id": "4709",
+          "item_name": "#DOTA_Item_Cloak_of_the_Stormcrow",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/witchdoctor/stormcrowcloak/stormcrowcloak.vmdl"
+        },
+        {
+          "name": "Tail of the Stormcrow",
+          "id": "4710",
+          "item_name": "#DOTA_Item_Tail_of_the_Stormcrow",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/witchdoctor/stormcrow_belt/stormcrow_belt.vmdl"
+        },
+        {
+          "name": "Sigil of the Stormcrow",
+          "id": "4711",
+          "item_name": "#DOTA_Item_Sigil_of_the_Stormcrow",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/stormcrow_staff/stormcrow_staff.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Twilights_Rest",
+      "store_bundle": "Twilight's Rest",
+      "portrait_image": "econ/sets/v2/twilights_rest",
+      "items": [
+        {
+          "name": "Mask of Twilight's Rest",
+          "id": "7553",
+          "item_name": "#DOTA_Item_Mask_of_Twilights_Rest",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/twilights_rest_head/twilights_rest_head.vmdl"
+        },
+        {
+          "name": "Wrap of Twilight's Rest",
+          "id": "7554",
+          "item_name": "#DOTA_Item_Wrap_of_Twilights_Rest",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/twilights_rest_belt/twilights_rest_belt.vmdl"
+        },
+        {
+          "name": "Cloak of Twilight's Rest",
+          "id": "7550",
+          "item_name": "#DOTA_Item_Cloak_of_Twilights_Rest",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/twilights_rest_back/twilights_rest_back.vmdl"
+        },
+        {
+          "name": "Mantle of Twilight's Rest",
+          "id": "7551",
+          "item_name": "#DOTA_Item_Mantle_of_Twilights_Rest",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/twilights_rest_shoulder/twilights_rest_shoulder.vmdl"
+        },
+        {
+          "name": "Scourge of Twilight's Rest",
+          "id": "7552",
+          "item_name": "#DOTA_Item_Scourge_of_Twilights_Rest",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/witchdoctor/twilights_rest_weapon/twilights_rest_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Garments_of_the_Devilish_Conjurer",
+      "store_bundle": "joinDOTA MLG Pro League Season 2 Bundle",
+      "portrait_image": "econ/sets/v2/witchdoctor_devilish_conjurer",
+      "items": [
+        {
+          "name": "Vest of the Devilish Conjurer",
+          "id": "8304",
+          "item_name": "#DOTA_Item_Vest_of_the_Devilish_Conjurer",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/witchdoctor/lacroix_back/lacroix_back.vmdl"
+        },
+        {
+          "name": "Crook of the Devilish Conjurer",
+          "id": "8097",
+          "item_name": "#DOTA_Item_Crook_of_the_Devilish_Conjurer",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/baron_la_croix_staff/baron_la_croix_staff.vmdl"
+        },
+        {
+          "name": "Hat of the Devilish Conjurer",
+          "id": "8305",
+          "item_name": "#DOTA_Item_Hat_of_the_Devilish_Conjurer",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/lacroix_head/lacroix_head.vmdl"
+        },
+        {
+          "name": "Satchel of the Devilish Conjurer",
+          "id": "8306",
+          "item_name": "#DOTA_Item_Satchel_of_the_Devilish_Conjurer",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/witchdoctor/lacroix_shoulder/lacroix_shoulder.vmdl"
+        },
+        {
+          "name": "Pants of the Devilish Conjurer",
+          "id": "8307",
+          "item_name": "#DOTA_Item_Pants_of_the_Devilish_Conjurer",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/witchdoctor/lacroix_belt/lacroix_belt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Summer_Lineage_Outlandish_Gourmet",
+      "store_bundle": "Summer Lineage Outlandish Gourmet",
+      "portrait_image": "econ/sets/v2/witchdoctor_summer_lineage_outlandish_gourmet",
+      "items": [
+        {
+          "name": "Summer Lineage Cauldron of the Outlandish Gourmet",
+          "id": "23222",
+          "item_name": "#DOTA_Item_Summer_Lineage_Cauldron_of_the_Outlandish_Gourmet",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_back/poison_cook_witch_doctor_back.vmdl"
+        },
+        {
+          "name": "Summer Lineage Garb of the Outlandish Gourmet",
+          "id": "23223",
+          "item_name": "#DOTA_Item_Summer_Lineage_Garb_of_the_Outlandish_Gourmet",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_shoulder/poison_cook_witch_doctor_shoulder.vmdl"
+        },
+        {
+          "name": "Summer Lineage Visage of the Outlandish Gourmet",
+          "id": "23224",
+          "item_name": "#DOTA_Item_Summer_Lineage_Visage_of_the_Outlandish_Gourmet",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_head/poison_cook_witch_doctor_head.vmdl"
+        },
+        {
+          "name": "Summer Lineage Implements of the Outlandish Gourmet",
+          "id": "23225",
+          "item_name": "#DOTA_Item_Summer_Lineage_Implements_of_the_Outlandish_Gourmet",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_weapon/poison_cook_witch_doctor_weapon.vmdl"
+        },
+        {
+          "name": "Summer Lineage Apron of the Outlandish Gourmet",
+          "id": "23226",
+          "item_name": "#DOTA_Item_Summer_Lineage_Apron_of_the_Outlandish_Gourmet",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_belt/poison_cook_witch_doctor_belt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Witchdoctor_Tale_Teller",
+      "store_bundle": "Traveling Tale-Teller's Set",
+      "portrait_image": "econ/sets/v2/witchdoctor_tale_teller",
+      "items": [
+        {
+          "name": "Veil of Fables",
+          "id": "4254",
+          "item_name": "#DOTA_Item_Veil_of_Fables",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/witchdoctor/tale_tellers_hairhat.vmdl"
+        },
+        {
+          "name": "Sacral Apparel",
+          "id": "4251",
+          "item_name": "#DOTA_Item_Sacral_Apparel",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/witchdoctor/tale_tellers_dress.vmdl"
+        },
+        {
+          "name": "Drum of Tales",
+          "id": "4252",
+          "item_name": "#DOTA_Item_Drum_of_Tales",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/witchdoctor/tale_tellers_drum.vmdl"
+        },
+        {
+          "name": "Mantle of Mysteries",
+          "id": "4253",
+          "item_name": "#DOTA_Item_Mantle_of_Mysteries",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/witchdoctor/tale_tellers_poncho.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Wicked_Bad_Voodoo",
+      "store_bundle": "Wicked Bad Voodoo Set",
+      "portrait_image": "econ/sets/v2/witchdoctor_wicked_badness",
+      "items": [
+        {
+          "name": "Juju o' Wicked Badness",
+          "id": "4220",
+          "item_name": "#DOTA_Item_Juju_o_Wicked_Badness",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/witchdoctor/voodoo_backpack.vmdl"
+        },
+        {
+          "name": "Belt o' Wicked Badness",
+          "id": "4096",
+          "item_name": "#DOTA_Item_Belt_o_Wicked_Badness",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/witchdoctor/voodoo_belt.vmdl"
+        },
+        {
+          "name": "Staff o' Wicked Badness",
+          "id": "4221",
+          "item_name": "#DOTA_Item_Staff_o_Wicked_Badness",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/witchdoctor/voodo_staff.vmdl"
+        },
+        {
+          "name": "Mask o' Wicked Badness",
+          "id": "4222",
+          "item_name": "#DOTA_Item_Mask_o_Wicked_Badness",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/witchdoctor/voodoo_skullmask.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "94",
+      "name": "Witch Doctor's Head",
+      "item_name": "#DOTA_Item_Witch_Doctors_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/witchdoctor/witchdoctor_head.vmdl"
+    },
+    {
+      "id": "95",
+      "name": "Witch Doctor's Bag",
+      "item_name": "#DOTA_Item_Witch_Doctors_Bag",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/witchdoctor/witchdoctor_bag.vmdl"
+    },
+    {
+      "id": "96",
+      "name": "Witch Doctor's Belt",
+      "item_name": "#DOTA_Item_Witch_Doctors_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/witchdoctor/witchdoctor_belt.vmdl"
+    },
+    {
+      "id": "97",
+      "name": "Witch Doctor's Staff",
+      "item_name": "#DOTA_Item_Witch_Doctors_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/witchdoctor/witchdoctor_staff.vmdl"
+    },
+    {
+      "id": "558",
+      "name": "Witch Doctor's Death Ward",
+      "item_name": "#DOTA_Item_Witch_Doctors_Death_Ward",
+      "item_slot": "summon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4000",
+      "name": "Horn Mask",
+      "item_name": "#DOTA_Item_Horn_Mask",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/horn_mask.vmdl"
+    },
+    {
+      "id": "4002",
+      "name": "Ol' Snaggletooth",
+      "item_name": "#DOTA_Item_Ol_Snaggletooth",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/alligator_mask.vmdl"
+    },
+    {
+      "id": "4003",
+      "name": "Grandfather's Ribs",
+      "item_name": "#DOTA_Item_Grandfathers_Ribs",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/ribcage_backpack.vmdl"
+    },
+    {
+      "id": "4040",
+      "name": "Rattlebite",
+      "item_name": "#DOTA_Item_Rattlebite",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/pet_snake.vmdl"
+    },
+    {
+      "id": "4054",
+      "name": "Taunt: Celebration of Death",
+      "item_name": "#DOTA_Item_Taunt_Celebration_of_Death",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "4096",
+      "name": "Belt o' Wicked Badness",
+      "item_name": "#DOTA_Item_Belt_o_Wicked_Badness",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/voodoo_belt.vmdl"
+    },
+    {
+      "id": "4193",
+      "name": "Spiral Staff",
+      "item_name": "#DOTA_Item_Spiral_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/spiral_staff.vmdl"
+    },
+    {
+      "id": "4218",
+      "name": "Vile Carnival Hat",
+      "item_name": "#DOTA_Item_Vile_Carnival_Hat",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/voodoo_hat.vmdl"
+    },
+    {
+      "id": "4219",
+      "name": "Dreaded Dreads",
+      "item_name": "#DOTA_Item_Dreaded_Dreads",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/voodoo_dreads.vmdl"
+    },
+    {
+      "id": "4220",
+      "name": "Juju o' Wicked Badness",
+      "item_name": "#DOTA_Item_Juju_o_Wicked_Badness",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/voodoo_backpack.vmdl"
+    },
+    {
+      "id": "4221",
+      "name": "Staff o' Wicked Badness",
+      "item_name": "#DOTA_Item_Staff_o_Wicked_Badness",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/voodo_staff.vmdl"
+    },
+    {
+      "id": "4222",
+      "name": "Mask o' Wicked Badness",
+      "item_name": "#DOTA_Item_Mask_o_Wicked_Badness",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/voodoo_skullmask.vmdl"
+    },
+    {
+      "id": "4223",
+      "name": "Shrunken Head Staff",
+      "item_name": "#DOTA_Item_Shrunken_Head_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/shrunken_head_staff.vmdl"
+    },
+    {
+      "id": "4224",
+      "name": "Wooden Fetish Mask",
+      "item_name": "#DOTA_Item_Wooden_Fetish_Mask",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wooden_mask.vmdl"
+    },
+    {
+      "id": "4225",
+      "name": "Tribal Totem Mask",
+      "item_name": "#DOTA_Item_Tribal_Totem_Mask",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/tribal_mask.vmdl"
+    },
+    {
+      "id": "4240",
+      "name": "Demon Skull Staff",
+      "item_name": "#DOTA_Item_Demon_Skull_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/demon_skull_staff.vmdl"
+    },
+    {
+      "id": "4241",
+      "name": "Staff of the Old Doctor",
+      "item_name": "#DOTA_Item_Staff_of_the_Old_Doctor",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/skullhammer_staff.vmdl"
+    },
+    {
+      "id": "4251",
+      "name": "Sacral Apparel",
+      "item_name": "#DOTA_Item_Sacral_Apparel",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/tale_tellers_dress.vmdl"
+    },
+    {
+      "id": "4252",
+      "name": "Drum of Tales",
+      "item_name": "#DOTA_Item_Drum_of_Tales",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/tale_tellers_drum.vmdl"
+    },
+    {
+      "id": "4253",
+      "name": "Mantle of Mysteries",
+      "item_name": "#DOTA_Item_Mantle_of_Mysteries",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/tale_tellers_poncho.vmdl"
+    },
+    {
+      "id": "4254",
+      "name": "Veil of Fables",
+      "item_name": "#DOTA_Item_Veil_of_Fables",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/tale_tellers_hairhat.vmdl"
+    },
+    {
+      "id": "4707",
+      "name": "Egg of the Stormcrow",
+      "item_name": "#DOTA_Item_Egg_of_the_Stormcrow",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/stormcrowbag/stormcrowbag.vmdl"
+    },
+    {
+      "id": "4708",
+      "name": "Beak of the Stormcrow",
+      "item_name": "#DOTA_Item_Beak_of_the_Stormcrow",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/stormcrowmask/stormcrowmask.vmdl"
+    },
+    {
+      "id": "4709",
+      "name": "Cloak of the Stormcrow",
+      "item_name": "#DOTA_Item_Cloak_of_the_Stormcrow",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/stormcrowcloak/stormcrowcloak.vmdl"
+    },
+    {
+      "id": "4710",
+      "name": "Tail of the Stormcrow",
+      "item_name": "#DOTA_Item_Tail_of_the_Stormcrow",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/stormcrow_belt/stormcrow_belt.vmdl"
+    },
+    {
+      "id": "4711",
+      "name": "Sigil of the Stormcrow",
+      "item_name": "#DOTA_Item_Sigil_of_the_Stormcrow",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/stormcrow_staff/stormcrow_staff.vmdl"
+    },
+    {
+      "id": "5176",
+      "name": "Tribal Megadon Mask",
+      "item_name": "#DOTA_Item_Tribal_Megadon_Mask",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/megadon_mask/megadon_mask.vmdl"
+    },
+    {
+      "id": "6577",
+      "name": "Witch Staff",
+      "item_name": "#DOTA_Item_Witch_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/witchstaff_weapon/witchstaff_weapon.vmdl"
+    },
+    {
+      "id": "6951",
+      "name": "Spider Shoulders of Purple Nightmare",
+      "item_name": "#DOTA_Item_Spider_Shoulders_of_Purple_Nightmare",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/purplenightmare_shoulder/purplenightmare_shoulder.vmdl"
+    },
+    {
+      "id": "6953",
+      "name": "Spider Drapes of Purple Nightmare",
+      "item_name": "#DOTA_Item_Spider_Drapes_of_Purple_Nightmare",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/purplenightmare_back/purplenightmare_back.vmdl"
+    },
+    {
+      "id": "6954",
+      "name": "Spider Helm of Purple Nightmare",
+      "item_name": "#DOTA_Item_Spider_Helm_of_Purple_Nightmare",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/purplenightmare_head/purplenightmare_head.vmdl"
+    },
+    {
+      "id": "6955",
+      "name": "Spider Belt of Purple Nightmare",
+      "item_name": "#DOTA_Item_Spider_Belt_of_Purple_Nightmare",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/purplenightmare_belt/purplenightmare_belt.vmdl"
+    },
+    {
+      "id": "6956",
+      "name": "Spider Staff of Purple Nightmare",
+      "item_name": "#DOTA_Item_Spider_Staff_of_Purple_Nightmare",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/purplenightmare_weapon/purplenightmare_weapon.vmdl"
+    },
+    {
+      "id": "7380",
+      "name": "Padda'pon of Ribbi'tar",
+      "item_name": "#DOTA_Item_Paddapon_of_Ribbitar",
+      "item_slot": "summon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7550",
+      "name": "Cloak of Twilight's Rest",
+      "item_name": "#DOTA_Item_Cloak_of_Twilights_Rest",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/twilights_rest_back/twilights_rest_back.vmdl"
+    },
+    {
+      "id": "7551",
+      "name": "Mantle of Twilight's Rest",
+      "item_name": "#DOTA_Item_Mantle_of_Twilights_Rest",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/twilights_rest_shoulder/twilights_rest_shoulder.vmdl"
+    },
+    {
+      "id": "7552",
+      "name": "Scourge of Twilight's Rest",
+      "item_name": "#DOTA_Item_Scourge_of_Twilights_Rest",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/twilights_rest_weapon/twilights_rest_weapon.vmdl"
+    },
+    {
+      "id": "7553",
+      "name": "Mask of Twilight's Rest",
+      "item_name": "#DOTA_Item_Mask_of_Twilights_Rest",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/twilights_rest_head/twilights_rest_head.vmdl"
+    },
+    {
+      "id": "7554",
+      "name": "Wrap of Twilight's Rest",
+      "item_name": "#DOTA_Item_Wrap_of_Twilights_Rest",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/twilights_rest_belt/twilights_rest_belt.vmdl"
+    },
+    {
+      "id": "8063",
+      "name": "Shambling Trickster Ritual Bowl",
+      "item_name": "#DOTA_Item_Shambling_Trickster_Ritual_Bowl",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wanderer_ticket_backpart/wanderer_ticket_backpart.vmdl"
+    },
+    {
+      "id": "8064",
+      "name": "Shambling Trickster Belt",
+      "item_name": "#DOTA_Item_Shambling_Trickster_Belt",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wanderer_ticket_cloth/wanderer_ticket_cloth.vmdl"
+    },
+    {
+      "id": "8065",
+      "name": "Shambling Trickster Mask",
+      "item_name": "#DOTA_Item_Shambling_Trickster_Mask",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wanderer_ticket_mask/wanderer_ticket_mask.vmdl"
+    },
+    {
+      "id": "8066",
+      "name": "Shambling Trickster Ingredients",
+      "item_name": "#DOTA_Item_Shambling_Trickster_Ingredients",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wanderer_ticket_shoulderpart/wanderer_ticket_shoulderpart.vmdl"
+    },
+    {
+      "id": "8071",
+      "name": "Shambling Trickster Staff",
+      "item_name": "#DOTA_Item_Shambling_Trickster_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wanderer_ticket_staff/wanderer_ticket_staff.vmdl"
+    },
+    {
+      "id": "8097",
+      "name": "Crook of the Devilish Conjurer",
+      "item_name": "#DOTA_Item_Crook_of_the_Devilish_Conjurer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/baron_la_croix_staff/baron_la_croix_staff.vmdl"
+    },
+    {
+      "id": "8267",
+      "name": "Bonkers the Mad",
+      "item_name": "#DOTA_Item_Bonkers_the_Mad",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/bonkers_the_mad/bonkers_the_mad.vmdl"
+    },
+    {
+      "id": "8304",
+      "name": "Vest of the Devilish Conjurer",
+      "item_name": "#DOTA_Item_Vest_of_the_Devilish_Conjurer",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/lacroix_back/lacroix_back.vmdl"
+    },
+    {
+      "id": "8305",
+      "name": "Hat of the Devilish Conjurer",
+      "item_name": "#DOTA_Item_Hat_of_the_Devilish_Conjurer",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/lacroix_head/lacroix_head.vmdl"
+    },
+    {
+      "id": "8306",
+      "name": "Satchel of the Devilish Conjurer",
+      "item_name": "#DOTA_Item_Satchel_of_the_Devilish_Conjurer",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/lacroix_shoulder/lacroix_shoulder.vmdl"
+    },
+    {
+      "id": "8307",
+      "name": "Pants of the Devilish Conjurer",
+      "item_name": "#DOTA_Item_Pants_of_the_Devilish_Conjurer",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/lacroix_belt/lacroix_belt.vmdl"
+    },
+    {
+      "id": "8336",
+      "name": "Visage of Ribbi'tar",
+      "item_name": "#DOTA_Item_Visage_of_Ribbitar",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/ribbitar_head/ribbitar_head_model.vmdl"
+    },
+    {
+      "id": "8367",
+      "name": "Witch Doctor's Bare Back",
+      "item_name": "#DOTA_Item_Witch_Doctor_Bare_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "9053",
+      "name": "Feathered Mantle of the Arkturan Talon",
+      "item_name": "#DOTA_Item_Feathered_Mantle_of_the_Arkturan_Talon",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/vermilion_juju_of_the_south_shoulder/vermilion_juju_of_the_south_shoulder.vmdl"
+    },
+    {
+      "id": "9054",
+      "name": "Staff of the Arkturan Talon",
+      "item_name": "#DOTA_Item_Staff_of_the_Arkturan_Talon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/vermilion_juju_of_the_south_weapon/vermilion_juju_of_the_south_weapon.vmdl"
+    },
+    {
+      "id": "9055",
+      "name": "Belt of the Arkturan Talon",
+      "item_name": "#DOTA_Item_Belt_of_the_Arkturan_Talon",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/vermilion_juju_of_the_south_belt/vermilion_juju_of_the_south_belt.vmdl"
+    },
+    {
+      "id": "9056",
+      "name": "Headdress of the Arkturan Talon",
+      "item_name": "#DOTA_Item_Headdress_of_the_Arkturan_Talon",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/vermilion_juju_of_the_south_head/vermilion_juju_of_the_south_head.vmdl"
+    },
+    {
+      "id": "9057",
+      "name": "Ornaments of the Arkturan Talon",
+      "item_name": "#DOTA_Item_Ornaments_of_the_Arkturan_Talon",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/vermilion_juju_of_the_south_back/vermilion_juju_of_the_south_back.vmdl"
+    },
+    {
+      "id": "9172",
+      "name": "Belt of the Foreteller's Oath",
+      "item_name": "#DOTA_Item_Belt_of_the_Foretellers_Oath",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/teller_of_the_auspice_belt/teller_of_the_auspice_belt.vmdl"
+    },
+    {
+      "id": "9173",
+      "name": "Hat of the Foreteller's Oath",
+      "item_name": "#DOTA_Item_Hat_of_the_Foretellers_Oath",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/teller_of_the_auspice_head/teller_of_the_auspice_head.vmdl"
+    },
+    {
+      "id": "9174",
+      "name": "Staff of the Foreteller's Oath",
+      "item_name": "#DOTA_Item_Staff_of_the_Foretellers_Oath",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/teller_of_the_auspice_weapon/teller_of_the_auspice_weapon.vmdl"
+    },
+    {
+      "id": "9175",
+      "name": "Death Ward of the Foreteller's Oath",
+      "item_name": "#DOTA_Item_Death_Ward_of_the_Foretellers_Oath",
+      "item_slot": "summon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9176",
+      "name": "Basket of the Foreteller's Oath",
+      "item_name": "#DOTA_Item_Basket_of_the_Foretellers_Oath",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/teller_of_the_auspice_back/teller_of_the_auspice_back.vmdl"
+    },
+    {
+      "id": "9177",
+      "name": "Covers of the Foreteller's Oath",
+      "item_name": "#DOTA_Item_Covers_of_the_Foretellers_Oath",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/teller_of_the_auspice_shoulder/teller_of_the_auspice_shoulder.vmdl"
+    },
+    {
+      "id": "9374",
+      "name": "Coat of the Vodou Rover",
+      "item_name": "#DOTA_Item_Coat_of_the_Vodou_Rover",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/salted_voodoo_dog_shoulder/salted_voodoo_dog_shoulder.vmdl"
+    },
+    {
+      "id": "9382",
+      "name": "Mast of the Vodou Rover",
+      "item_name": "#DOTA_Item_Mast_of_the_Vodou_Rover",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/salted_voodoo_dog_weapon/salted_voodoo_dog_weapon.vmdl"
+    },
+    {
+      "id": "9383",
+      "name": "Beard of the Vodou Rover",
+      "item_name": "#DOTA_Item_Beard_of_the_Vodou_Rover",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/salted_voodoo_dog_head/salted_voodoo_dog_head.vmdl"
+    },
+    {
+      "id": "9384",
+      "name": "Pantaloons of the Vodou Rover",
+      "item_name": "#DOTA_Item_Pantaloons_of_the_Vodou_Rover",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/salted_voodoo_dog_belt/salted_voodoo_dog_belt.vmdl"
+    },
+    {
+      "id": "9385",
+      "name": "Parrot of the Vodou Rover",
+      "item_name": "#DOTA_Item_Parrot_of_the_Vodou_Rover",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/salted_voodoo_dog_back/salted_voodoo_dog_back.vmdl"
+    },
+    {
+      "id": "9517",
+      "name": "Cauldron of the Outlandish Gourmet",
+      "item_name": "#DOTA_Item_Cauldron_of_the_Outlandish_Gourmet",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_back/poison_cook_witch_doctor_back.vmdl"
+    },
+    {
+      "id": "9518",
+      "name": "Garb of the Outlandish Gourmet",
+      "item_name": "#DOTA_Item_Garb_of_the_Outlandish_Gourmet",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_shoulder/poison_cook_witch_doctor_shoulder.vmdl"
+    },
+    {
+      "id": "9519",
+      "name": "Visage of the Outlandish Gourmet",
+      "item_name": "#DOTA_Item_Visage_of_the_Outlandish_Gourmet",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_head/poison_cook_witch_doctor_head.vmdl"
+    },
+    {
+      "id": "9520",
+      "name": "Implements of the Outlandish Gourmet",
+      "item_name": "#DOTA_Item_Implements_of_the_Outlandish_Gourmet",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_weapon/poison_cook_witch_doctor_weapon.vmdl"
+    },
+    {
+      "id": "9522",
+      "name": "Apron of the Outlandish Gourmet",
+      "item_name": "#DOTA_Item_Apron_of_the_Outlandish_Gourmet",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_belt/poison_cook_witch_doctor_belt.vmdl"
+    },
+    {
+      "id": "9679",
+      "name": "Bonkers of Awaleb",
+      "item_name": "#DOTA_Item_Bonkers_of_Awaleb",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wd_ti8_immortal_bonkers/wd_ti8_immortal_bonkers.vmdl"
+    },
+    {
+      "id": "9932",
+      "name": "Servant of Morbific Provision",
+      "item_name": "#DOTA_Item_Servant_of_Morbific_Provision",
+      "item_slot": "summon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9933",
+      "name": "Satchel of Morbific Provision",
+      "item_name": "#DOTA_Item_Satchel_of_Morbific_Provision",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/ti8_wd_spore_gardener_shoulder/ti8_wd_spore_gardener_shoulder.vmdl"
+    },
+    {
+      "id": "9934",
+      "name": "Head of Morbific Provision",
+      "item_name": "#DOTA_Item_Head_of_Morbific_Provision",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/ti8_wd_spore_gardener_head/ti8_wd_spore_gardener_head.vmdl"
+    },
+    {
+      "id": "9935",
+      "name": "Belt of Morbific Provision",
+      "item_name": "#DOTA_Item_Belt_of_Morbific_Provision",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/ti8_wd_spore_gardener_belt/ti8_wd_spore_gardener_belt.vmdl"
+    },
+    {
+      "id": "9936",
+      "name": "Garb of Morbific Provision",
+      "item_name": "#DOTA_Item_Garb_of_Morbific_Provision",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/ti8_wd_spore_gardener_back/ti8_wd_spore_gardener_back.vmdl"
+    },
+    {
+      "id": "9937",
+      "name": "Staff of Morbific Provision",
+      "item_name": "#DOTA_Item_Staff_of_Morbific_Provision",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/ti8_wd_spore_gardener_weapon/ti8_wd_spore_gardener_weapon.vmdl"
+    },
+    {
+      "id": "10034",
+      "name": "Expired Treasure of the Ancestor Spirits",
+      "item_name": "#DOTA_Item_Expired_Treasure_of_the_Ancestor_Spirits",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "retired_treasure_chest"
+    },
+    {
+      "id": "12328",
+      "name": "Masque of Awaleb",
+      "item_name": "#DOTA_Item_Masque_of_Awaleb",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wd_ti8_immortal_head/wd_ti8_immortal_head.vmdl"
+    },
+    {
+      "id": "13819",
+      "name": "Awaleb's Trundleweed",
+      "item_name": "#DOTA_Item_Awalebs_Trundleweed",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wd_ti10_immortal_weapon/wd_ti10_immortal_weapon.vmdl"
+    },
+    {
+      "id": "14312",
+      "name": "Papa Wanga's Staff",
+      "item_name": "#DOTA_Item_Papa_Wangas_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wd_voodoo_doc_weapon/wd_voodoo_doc_weapon.vmdl"
+    },
+    {
+      "id": "14313",
+      "name": "Papa Wanga's Poppet",
+      "item_name": "#DOTA_Item_Papa_Wangas_Poppet",
+      "item_slot": "summon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14314",
+      "name": "Papa Wanga's Basket",
+      "item_name": "#DOTA_Item_Papa_Wangas_Basket",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wd_voodoo_doc_shoulder/wd_voodoo_doc_shoulder.vmdl"
+    },
+    {
+      "id": "14316",
+      "name": "Papa Wanga's Mask",
+      "item_name": "#DOTA_Item_Papa_Wangas_Mask",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wd_voodoo_doc_head/wd_voodoo_doc_head.vmdl"
+    },
+    {
+      "id": "14317",
+      "name": "Papa Wanga's Belt",
+      "item_name": "#DOTA_Item_Papa_Wangas_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wd_voodoo_doc_belt/wd_voodoo_doc_belt.vmdl"
+    },
+    {
+      "id": "14318",
+      "name": "Papa Wanga's Backplate",
+      "item_name": "#DOTA_Item_Papa_Wangas_Backplate",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wd_voodoo_doc_back/wd_voodoo_doc_back.vmdl"
+    },
+    {
+      "id": "14975",
+      "name": "Golden Awaleb's Trundleweed",
+      "item_name": "#DOTA_Item_Golden_Awalebs_Trundleweed",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wd_ti10_immortal_weapon/wd_ti10_immortal_weapon.vmdl"
+    },
+    {
+      "id": "17872",
+      "name": "Cunning Cultivations Pumpkin",
+      "item_name": "#DOTA_Item_Cunning_Cultivations_Pumpkin",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/record_holder_grower_back/record_holder_grower_back.vmdl"
+    },
+    {
+      "id": "17873",
+      "name": "Cunning Cultivations Staff",
+      "item_name": "#DOTA_Item_Cunning_Cultivations_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/record_holder_grower_weapon/record_holder_grower_weapon.vmdl"
+    },
+    {
+      "id": "17874",
+      "name": "Cunning Cultivations Belt",
+      "item_name": "#DOTA_Item_Cunning_Cultivations_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/record_holder_grower_belt/record_holder_grower_belt.vmdl"
+    },
+    {
+      "id": "17875",
+      "name": "Cunning Cultivations Ward",
+      "item_name": "#DOTA_Item_Cunning_Cultivations_Ward",
+      "item_slot": "summon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17876",
+      "name": "Cunning Cultivations Mask",
+      "item_name": "#DOTA_Item_Cunning_Cultivations_Mask",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/record_holder_grower_head/record_holder_grower_head.vmdl"
+    },
+    {
+      "id": "17878",
+      "name": "Cunning Cultivations Shoulder",
+      "item_name": "#DOTA_Item_Cunning_Cultivations_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/record_holder_grower_shoulder/record_holder_grower_shoulder.vmdl"
+    },
+    {
+      "id": "18551",
+      "name": "Prodigy of Prefectura - Back",
+      "item_name": "#DOTA_Item_Prodigy_of_Prefectura__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/aghsbp_2021_witch_doctor_back/aghsbp_2021_witch_doctor_back.vmdl"
+    },
+    {
+      "id": "18552",
+      "name": "Prodigy of Prefectura - Belt",
+      "item_name": "#DOTA_Item_Prodigy_of_Prefectura__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/aghsbp_2021_witch_doctor_belt/aghsbp_2021_witch_doctor_belt.vmdl"
+    },
+    {
+      "id": "18553",
+      "name": "Prodigy of Prefectura - Head",
+      "item_name": "#DOTA_Item_Prodigy_of_Prefectura__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/aghsbp_2021_witch_doctor_head/aghsbp_2021_witch_doctor_head.vmdl"
+    },
+    {
+      "id": "18554",
+      "name": "Prodigy of Prefectura - Shoulder",
+      "item_name": "#DOTA_Item_Prodigy_of_Prefectura__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/aghsbp_2021_witch_doctor_shoulder/aghsbp_2021_witch_doctor_shoulder.vmdl"
+    },
+    {
+      "id": "18555",
+      "name": "Prodigy of Prefectura - Weapon",
+      "item_name": "#DOTA_Item_Prodigy_of_Prefectura__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/aghsbp_2021_witch_doctor_weapon/aghsbp_2021_witch_doctor_weapon.vmdl"
+    },
+    {
+      "id": "19150",
+      "name": "Footfalls of the Sporefathers - Back",
+      "item_name": "#DOTA_Item_Footfalls_of_the_Sporefathers__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/father_of_the_fungal_forest_back/father_of_the_fungal_forest_back.vmdl"
+    },
+    {
+      "id": "19151",
+      "name": "Footfalls of the Sporefathers - Belt",
+      "item_name": "#DOTA_Item_Footfalls_of_the_Sporefathers__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/father_of_the_fungal_forest_belt/father_of_the_fungal_forest_belt.vmdl"
+    },
+    {
+      "id": "19152",
+      "name": "Footfalls of the Sporefathers - Head",
+      "item_name": "#DOTA_Item_Footfalls_of_the_Sporefathers__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/father_of_the_fungal_forest_head/father_of_the_fungal_forest_head.vmdl"
+    },
+    {
+      "id": "19153",
+      "name": "Footfalls of the Sporefathers - Death Ward",
+      "item_name": "#DOTA_Item_Footfalls_of_the_Sporefathers__Death_Ward",
+      "item_slot": "summon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19154",
+      "name": "Footfalls of the Sporefathers - Shoulder",
+      "item_name": "#DOTA_Item_Footfalls_of_the_Sporefathers__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/father_of_the_fungal_forest_shoulder/father_of_the_fungal_forest_shoulder.vmdl"
+    },
+    {
+      "id": "19155",
+      "name": "Footfalls of the Sporefathers - Weapon",
+      "item_name": "#DOTA_Item_Footfalls_of_the_Sporefathers__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/father_of_the_fungal_forest_weapon/father_of_the_fungal_forest_weapon.vmdl"
+    },
+    {
+      "id": "19226",
+      "name": "Bone Collector - Belt",
+      "item_name": "#DOTA_Item_Bone_Collector__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/primeval_doctor_belt/primeval_doctor_belt.vmdl"
+    },
+    {
+      "id": "19227",
+      "name": "Bone Collector - Weapon",
+      "item_name": "#DOTA_Item_Bone_Collector__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/primeval_doctor_weapon/primeval_doctor_weapon.vmdl"
+    },
+    {
+      "id": "19228",
+      "name": "Bone Collector - Shoulder",
+      "item_name": "#DOTA_Item_Bone_Collector__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/primeval_doctor_shoulder/primeval_doctor_shoulder.vmdl"
+    },
+    {
+      "id": "19229",
+      "name": "Bone Collector - Back",
+      "item_name": "#DOTA_Item_Bone_Collector__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/primeval_doctor_back/primeval_doctor_back.vmdl"
+    },
+    {
+      "id": "19230",
+      "name": "Bone Collector - Head",
+      "item_name": "#DOTA_Item_Bone_Collector__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/primeval_doctor_head/primeval_doctor_head.vmdl"
+    },
+    {
+      "id": "19657",
+      "name": "Servant of the Sightless Shamans Back",
+      "item_name": "#DOTA_Item_Servant_of_the_Sightless_Shamans_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/monke_back/monke_back.vmdl"
+    },
+    {
+      "id": "19658",
+      "name": "Servant of the Sightless Shamans Belt",
+      "item_name": "#DOTA_Item_Servant_of_the_Sightless_Shamans_Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/monke_belt/monke_belt.vmdl"
+    },
+    {
+      "id": "19659",
+      "name": "Servant of the Sightless Shamans Head",
+      "item_name": "#DOTA_Item_Servant_of_the_Sightless_Shamans_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/monke_head/monke_head.vmdl"
+    },
+    {
+      "id": "19660",
+      "name": "Servant of the Sightless Shamans Ward",
+      "item_name": "#DOTA_Item_Servant_of_the_Sightless_Shamans_Ward",
+      "item_slot": "summon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19661",
+      "name": "Servant of the Sightless Shamans Shoulder",
+      "item_name": "#DOTA_Item_Servant_of_the_Sightless_Shamans_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/monke_shoulder/monke_shoulder.vmdl"
+    },
+    {
+      "id": "19662",
+      "name": "Servant of the Sightless Shamans Weapon",
+      "item_name": "#DOTA_Item_Servant_of_the_Sightless_Shamans_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/monke_weapon/monke_weapon.vmdl"
+    },
+    {
+      "id": "20001",
+      "name": "Wicked Bad Voodoo Set",
+      "item_name": "#DOTA_Item_Wicked_Bad_Voodoo_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20037",
+      "name": "Traveling Tale-Teller's Set",
+      "item_name": "#DOTA_Item_Traveling_TaleTellers_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20087",
+      "name": "The Stormcrow's Spirit Set",
+      "item_name": "#DOTA_Item_The_Stormcrows_Spirit_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20613",
+      "name": "Spider of Purple Nightmare",
+      "item_name": "#DOTA_Item_Spider_of_Purple_Nightmare",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20754",
+      "name": "Razer Think Fast Season 2",
+      "item_name": "#DOTA_Item_Razer_Think_Fast_Season_2",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20885",
+      "name": "Twilight's Rest",
+      "item_name": "#DOTA_Item_Twilights_Rest",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20909",
+      "name": "Masque of Awaleb Bundle",
+      "item_name": "#DOTA_Item_Masque_of_Awaleb_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20920",
+      "name": "Relics of Ribbi'tar",
+      "item_name": "#DOTA_Item_Relics_of_Ribbitar",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21080",
+      "name": "Bearer of the Arkturan Talon",
+      "item_name": "#DOTA_Item_Bearer_of_the_Arkturan_Talon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21098",
+      "name": "Foreteller's Oath",
+      "item_name": "#DOTA_Item_Foretellers_Oath",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21123",
+      "name": "Spoils of the Vodou Rover",
+      "item_name": "#DOTA_Item_Spoils_of_the_Vodou_Rover",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21146",
+      "name": "Outlandish Gourmet",
+      "item_name": "#DOTA_Item_Outlandish_Gourmet",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21206",
+      "name": "Morbific Provision",
+      "item_name": "#DOTA_Item_Morbific_Provision",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21537",
+      "name": "Papa Wanga",
+      "item_name": "#DOTA_Item_Papa_Wanga",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21711",
+      "name": "Cunning Cultivations",
+      "item_name": "#DOTA_Item_Cunning_Cultivations",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21841",
+      "name": "Footfalls of the Sporefathers",
+      "item_name": "#DOTA_Item_Footfalls_of_the_Sporefathers",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21853",
+      "name": "Bone Collector",
+      "item_name": "#DOTA_Item_Bone_Collector",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21930",
+      "name": "Servant of the Sightless Shamans",
+      "item_name": "#DOTA_Item_Servant_of_the_Sightless_Shamans",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22279",
+      "name": "Prodigy of Prefectura",
+      "item_name": "#DOTA_Item_Prodigy_of_Prefectura",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23222",
+      "name": "Summer Lineage Cauldron of the Outlandish Gourmet",
+      "item_name": "#DOTA_Item_Summer_Lineage_Cauldron_of_the_Outlandish_Gourmet",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_back/poison_cook_witch_doctor_back.vmdl"
+    },
+    {
+      "id": "23223",
+      "name": "Summer Lineage Garb of the Outlandish Gourmet",
+      "item_name": "#DOTA_Item_Summer_Lineage_Garb_of_the_Outlandish_Gourmet",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_shoulder/poison_cook_witch_doctor_shoulder.vmdl"
+    },
+    {
+      "id": "23224",
+      "name": "Summer Lineage Visage of the Outlandish Gourmet",
+      "item_name": "#DOTA_Item_Summer_Lineage_Visage_of_the_Outlandish_Gourmet",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_head/poison_cook_witch_doctor_head.vmdl"
+    },
+    {
+      "id": "23225",
+      "name": "Summer Lineage Implements of the Outlandish Gourmet",
+      "item_name": "#DOTA_Item_Summer_Lineage_Implements_of_the_Outlandish_Gourmet",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_weapon/poison_cook_witch_doctor_weapon.vmdl"
+    },
+    {
+      "id": "23226",
+      "name": "Summer Lineage Apron of the Outlandish Gourmet",
+      "item_name": "#DOTA_Item_Summer_Lineage_Apron_of_the_Outlandish_Gourmet",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/poison_cook_witch_doctor_belt/poison_cook_witch_doctor_belt.vmdl"
+    },
+    {
+      "id": "23227",
+      "name": "Summer Lineage Outlandish Gourmet",
+      "item_name": "#DOTA_Item_Summer_Lineage_Outlandish_Gourmet",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26620",
+      "name": "Deathstitch Shaman",
+      "item_name": "#DOTA_Item_Deathstitch_Shaman",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26627",
+      "name": "Deathstitch Shaman - Shoulder",
+      "item_name": "#DOTA_Item_Deathstitch_Shaman__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wd_voodoo_harvest_shoulder/wd_voodoo_harvest_shoulder.vmdl"
+    },
+    {
+      "id": "26628",
+      "name": "Deathstitch Shaman - Weapon",
+      "item_name": "#DOTA_Item_Deathstitch_Shaman__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wd_voodoo_harvest_weapon_2/wd_voodoo_harvest_weapon_2.vmdl"
+    },
+    {
+      "id": "26629",
+      "name": "Deathstitch Shaman - Death Ward",
+      "item_name": "#DOTA_Item_Deathstitch_Shaman__Death_Ward",
+      "item_slot": "summon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26689",
+      "name": "Deathstitch Shaman - Head",
+      "item_name": "#DOTA_Item_Deathstitch_Shaman__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wd_voodoo_harvest_weapon/wd_voodoo_harvest_weapon.vmdl"
+    },
+    {
+      "id": "26691",
+      "name": "Deathstitch Shaman - Back",
+      "item_name": "#DOTA_Item_Deathstitch_Shaman__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wd_voodoo_harvest_back/wd_voodoo_harvest_back.vmdl"
+    },
+    {
+      "id": "26693",
+      "name": "Deathstitch Shaman - Belt",
+      "item_name": "#DOTA_Item_Deathstitch_Shaman__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wd_voodoo_harvest_belt/wd_voodoo_harvest_belt.vmdl"
+    },
+    {
+      "id": "29575",
+      "name": "Awaleb's Trundleweed of the Crimson Witness",
+      "item_name": "#DOTA_Item_Awalebs_Trundleweed_of_the_Crimson_Witness",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/witchdoctor/wd_ti10_immortal_weapon/wd_ti10_immortal_weapon.vmdl"
+    }
+  ]
+}

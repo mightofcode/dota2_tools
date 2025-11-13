@@ -1,0 +1,1987 @@
+{
+  "defaults": {
+    "head": {
+      "id": "462",
+      "name": "Ember Spirit's Head Item",
+      "item_name": "#DOTA_Item_Ember_Spirits_Head_Item",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/ember_spirit/back.vmdl"
+    },
+    "shoulder": {
+      "id": "469",
+      "name": "Ember Spirit's Shoulders",
+      "item_name": "#DOTA_Item_Ember_Spirits_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/ember_spirit/shoulder.vmdl"
+    },
+    "belt": {
+      "id": "471",
+      "name": "Ember Spirit's Belt Item",
+      "item_name": "#DOTA_Item_Ember_Spirits_Belt_Item",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "model_player": "models/heroes/ember_spirit/belt.vmdl"
+    },
+    "weapon": {
+      "id": "472",
+      "name": "Ember Spirit's Main Weapon",
+      "item_name": "#DOTA_Item_Ember_Spirits_Main_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/ember_spirit/weapon1.vmdl"
+    },
+    "offhand_weapon": {
+      "id": "473",
+      "name": "Ember Spirit's Offhand Weapon",
+      "item_name": "#DOTA_Item_Ember_Spirits_Offhand_Weapon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/ember_spirit/weapon2.vmdl"
+    },
+    "arms": {
+      "id": "474",
+      "name": "Ember Spirit's Arms",
+      "item_name": "#DOTA_Item_Ember_Spirits_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/ember_spirit/arm.vmdl"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Adage_of_the_Smoldering_Sage",
+      "store_bundle": "Adage of the Smoldering Sage",
+      "portrait_image": "econ/sets/v2/adage_of_the_smoldering_sage",
+      "items": [
+        {
+          "name": "Belt of the Smoldering Sage",
+          "id": "7884",
+          "item_name": "#DOTA_Item_Belt_of_the_Smoldering_Sage",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/wu_sheng_belt_v2/wu_sheng_belt_v2.vmdl"
+        },
+        {
+          "name": "Armguards of the Smoldering Sage",
+          "id": "7883",
+          "item_name": "#DOTA_Item_Armguards_of_the_Smoldering_Sage",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/wu_sheng_arms_v2/wu_sheng_arms_v2.vmdl"
+        },
+        {
+          "name": "Mantle of the Smoldering Sage",
+          "id": "7881",
+          "item_name": "#DOTA_Item_Mantle_of_the_Smoldering_Sage",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/wu_sheng_shoulder_v2/wu_sheng_shoulder_v2.vmdl"
+        },
+        {
+          "name": "Sword of the Smoldering Sage",
+          "id": "7880",
+          "item_name": "#DOTA_Item_Sword_of_the_Smoldering_Sage",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/wu_sheng_weapon_v2/wu_sheng_weapon_v2.vmdl"
+        },
+        {
+          "name": "Off-Hand Sword of the Smoldering Sage",
+          "id": "7879",
+          "item_name": "#DOTA_Item_OffHand_Sword_of_the_Smoldering_Sage",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/wu_sheng_off_hand_v2/wu_sheng_off_hand_v2.vmdl"
+        },
+        {
+          "name": "Cap of the Smoldering Sage",
+          "id": "7882",
+          "item_name": "#DOTA_Item_Cap_of_the_Smoldering_Sage",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/wu_sheng_head_v2/wu_sheng_head_v2.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Blaze_Armor",
+      "store_bundle": "Blaze Armor",
+      "portrait_image": "econ/sets/v2/blaze_armor",
+      "items": [
+        {
+          "name": "Orbs of Blaze Armor",
+          "id": "7001",
+          "item_name": "#DOTA_Item_Orbs_of_Blaze_Armor",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/blazearmor_arms/blazearmor_arms.vmdl"
+        },
+        {
+          "name": "Robes of Blaze Armor",
+          "id": "7002",
+          "item_name": "#DOTA_Item_Robes_of_Blaze_Armor",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/blazearmor_belt/blazearmor_belt.vmdl"
+        },
+        {
+          "name": "Pauldrons of Blaze Armor",
+          "id": "7003",
+          "item_name": "#DOTA_Item_Pauldrons_of_Blaze_Armor",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/blazearmor_shoulder/blazearmor_shoulder.vmdl"
+        },
+        {
+          "name": "Flaming Hair of Blaze Armor",
+          "id": "7004",
+          "item_name": "#DOTA_Item_Flaming_Hair_of_Blaze_Armor",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/ember_spirit/blazearmor_head/blazearmor_head.vmdl"
+        },
+        {
+          "name": "Zhuo -  Blade of Blaze Armor",
+          "id": "7006",
+          "item_name": "#DOTA_Item_Zhuo___Blade_of_Blaze_Armor",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/ember_spirit/blazearmor_offhand/blazearmor_offhand.vmdl"
+        },
+        {
+          "name": "Xin - Blade of Blaze Armor",
+          "id": "7007",
+          "item_name": "#DOTA_Item_Xin__Blade_of_Blaze_Armor",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/ember_spirit/blazearmor_weapon/blazearmor_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Blazing_Tiger",
+      "store_bundle": "Blazing Tiger",
+      "portrait_image": "econ/sets/v2/blazing_tiger",
+      "items": [
+        {
+          "name": "Blazing Tiger Weapon",
+          "id": "23342",
+          "item_name": "#DOTA_Item_Blazing_Tiger_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/fire_cat_spring2017_weapon/fire_cat_spring2017_weapon.vmdl"
+        },
+        {
+          "name": "Blazing Tiger Shoulder",
+          "id": "23341",
+          "item_name": "#DOTA_Item_Blazing_Tiger_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/fire_cat_spring2017_shoulder/fire_cat_spring2017_shoulder.vmdl"
+        },
+        {
+          "name": "Blazing Tiger Off-Hand",
+          "id": "23340",
+          "item_name": "#DOTA_Item_Blazing_Tiger_OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/fire_cat_spring2017_off_hand/fire_cat_spring2017_off_hand.vmdl"
+        },
+        {
+          "name": "Blazing Tiger Head",
+          "id": "23339",
+          "item_name": "#DOTA_Item_Blazing_Tiger_Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/fire_cat_spring2017_head/fire_cat_spring2017_head.vmdl"
+        },
+        {
+          "name": "Blazing Tiger Belt",
+          "id": "23338",
+          "item_name": "#DOTA_Item_Blazing_Tiger_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/fire_cat_spring2017_belt/fire_cat_spring2017_belt.vmdl"
+        },
+        {
+          "name": "Blazing Tiger Arms",
+          "id": "23337",
+          "item_name": "#DOTA_Item_Blazing_Tiger_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/fire_cat_spring2017_arms/fire_cat_spring2017_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Champion_of_the_Phoenix_Clan",
+      "store_bundle": "Champion of the Phoenix Clan",
+      "portrait_image": "econ/sets/v2/champion_of_the_phoenix_clan",
+      "items": [
+        {
+          "name": "Belt of the Phoenix Clan",
+          "id": "8198",
+          "item_name": "#DOTA_Item_Belt_of_the_Phoenix_Clan",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/ember_spirit/dplus_firebirds_awakening_belt/dplus_firebirds_awakening_belt.vmdl"
+        },
+        {
+          "name": "Offhand of the Phoenix Clan",
+          "id": "7898",
+          "item_name": "#DOTA_Item_Offhand_of_the_Phoenix_Clan",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/ember_spirit/dplus_firebirds_awakening_offhand/dplus_firebirds_awakening_offhand.vmdl"
+        },
+        {
+          "name": "Helm of the Phoenix Clan",
+          "id": "7897",
+          "item_name": "#DOTA_Item_Helm_of_the_Phoenix_Clan",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/ember_spirit/dplus_firebirds_awakening_head/dplus_firebirds_awakening_head.vmdl"
+        },
+        {
+          "name": "Weapon of the Phoenix Clan",
+          "id": "7896",
+          "item_name": "#DOTA_Item_Weapon_of_the_Phoenix_Clan",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/ember_spirit/dplus_firebirds_awakening_weapon/dplus_firebirds_awakening_weapon.vmdl"
+        },
+        {
+          "name": "Shoulders of the Phoenix Clan",
+          "id": "7895",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Phoenix_Clan",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/ember_spirit/dplus_firebirds_awakening_shoulder/dplus_firebirds_awakening_shoulder.vmdl"
+        },
+        {
+          "name": "Arms of the Phoenix Clan",
+          "id": "7894",
+          "item_name": "#DOTA_Item_Arms_of_the_Phoenix_Clan",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/ember_spirit/dplus_firebirds_awakening_arms/dplus_firebirds_awakening_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Cinder_Sensei",
+      "store_bundle": "Cinder Sensei",
+      "portrait_image": "econ/sets/v2/cinder_sensei",
+      "items": [
+        {
+          "name": "Cinder Sensei Bracer",
+          "id": "13442",
+          "item_name": "#DOTA_Item_Cinder_Sensei_Bracer",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/ember_sindur_sensei_arms/ember_sindur_sensei_arms.vmdl"
+        },
+        {
+          "name": "Cinder Sensei Belt",
+          "id": "13441",
+          "item_name": "#DOTA_Item_Cinder_Sensei_Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/ember_sindur_sensei_belt/ember_sindur_sensei_belt.vmdl"
+        },
+        {
+          "name": "Cinder Sensei Style",
+          "id": "13381",
+          "item_name": "#DOTA_Item_Cinder_Sensei_Style",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/ember_sindur_sensei_head/ember_sindur_sensei_head.vmdl"
+        },
+        {
+          "name": "Cinder Sensei Off-Hand Weapon",
+          "id": "13440",
+          "item_name": "#DOTA_Item_Cinder_Sensei_OffHand_Weapon",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/ember_sindur_sensei_offhand/ember_sindur_sensei_offhand.vmdl"
+        },
+        {
+          "name": "Cinder Sensei Shoulders",
+          "id": "13383",
+          "item_name": "#DOTA_Item_Cinder_Sensei_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/ember_sindur_sensei_shoulder/ember_sindur_sensei_shoulder.vmdl"
+        },
+        {
+          "name": "Cinder Sensei Weapon",
+          "id": "13382",
+          "item_name": "#DOTA_Item_Cinder_Sensei_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/ember_sindur_sensei_weapon/ember_sindur_sensei_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Efrit_Sultan",
+      "store_bundle": "Efrit Sultan",
+      "portrait_image": "econ/sets/v2/efrit_sultan",
+      "items": [
+        {
+          "name": "Efrit Sultan Arms",
+          "id": "14186",
+          "item_name": "#DOTA_Item_Vote_Only_Efrit_Sultan_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/efrit_sultan_arms/efrit_sultan_arms.vmdl"
+        },
+        {
+          "name": "Efrit Sultan Belt",
+          "id": "14185",
+          "item_name": "#DOTA_Item_Vote_Only_Efrit_Sultan_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/efrit_sultan_belt/efrit_sultan_belt.vmdl"
+        },
+        {
+          "name": "Efrit Sultan Head",
+          "id": "14184",
+          "item_name": "#DOTA_Item_Vote_Only_Efrit_Sultan_Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/efrit_sultan_head/efrit_sultan_head.vmdl"
+        },
+        {
+          "name": "Efrit Sultan Off-Hand",
+          "id": "14183",
+          "item_name": "#DOTA_Item_Vote_Only_Efrit_Sultan_OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/efrit_sultan_off_hand/efrit_sultan_off_hand.vmdl"
+        },
+        {
+          "name": "Efrit Sultan Shoulder",
+          "id": "14182",
+          "item_name": "#DOTA_Item_Vote_Only_Efrit_Sultan_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/efrit_sultan_shoulder/efrit_sultan_shoulder.vmdl"
+        },
+        {
+          "name": "Efrit Sultan Weapon",
+          "id": "14181",
+          "item_name": "#DOTA_Item_Vote_Only_Efrit_Sultan_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/efrit_sultan_weapon/efrit_sultan_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Hyakki_no_shou",
+      "store_bundle": "Hyakki no shou",
+      "portrait_image": "econ/sets/v2/ember_spirit_hyakki_no_shou",
+      "items": [
+        {
+          "name": "Hyakki no shou Arms",
+          "id": "13253",
+          "item_name": "#DOTA_Item_Vote_Only_Hyakki_no_shou_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/hyakki_no_shou_arms/hyakki_no_shou_arms.vmdl"
+        },
+        {
+          "name": "Hyakki no shou Belt",
+          "id": "13254",
+          "item_name": "#DOTA_Item_Vote_Only_Hyakki_no_shou_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/hyakki_no_shou_belt/hyakki_no_shou_belt.vmdl"
+        },
+        {
+          "name": "Hyakki no shou Head",
+          "id": "13255",
+          "item_name": "#DOTA_Item_Vote_Only_Hyakki_no_shou_Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/hyakki_no_shou_head/hyakki_no_shou_head.vmdl"
+        },
+        {
+          "name": "Hyakki no shou Offhand",
+          "id": "13256",
+          "item_name": "#DOTA_Item_Vote_Only_Hyakki_no_shou_Offhand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/hyakki_no_shou_offhand/hyakki_no_shou_offhand.vmdl"
+        },
+        {
+          "name": "Hyakki no shou Shoulder",
+          "id": "13284",
+          "item_name": "#DOTA_Item_Vote_Only_Hyakki_no_shou_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/hyakki_no_shou_shoulder/hyakki_no_shou_shoulder.vmdl"
+        },
+        {
+          "name": "Hyakki no shou Weapon",
+          "id": "13285",
+          "item_name": "#DOTA_Item_Vote_Only_Hyakki_no_shou_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/hyakki_no_shou_weapon/hyakki_no_shou_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Fangs_of_the_Firelord",
+      "store_bundle": "Fangs of the Firelord",
+      "portrait_image": "econ/sets/v2/fangs_of_the_firelord",
+      "items": [
+        {
+          "name": "Fangs of the Firelord - Shoulder",
+          "id": "24158",
+          "item_name": "#DOTA_Item_Fangs_of_the_Firelord__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/ember_spirit/ember_spirit_pauldronl_of_the_yanlong_gerneal/ember_spirit_pauldronl_of_the_yanlong_gerneal.vmdl"
+        },
+        {
+          "name": "Fangs of the Firelord - Arms",
+          "id": "24159",
+          "item_name": "#DOTA_Item_Fangs_of_the_Firelord__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/ember_spirit/ember_spirit_talons_of_the_yanlong_general/ember_spirit_talons_of_the_yanlong_general.vmdl"
+        },
+        {
+          "name": "Fangs of the Firelord - Belt",
+          "id": "24191",
+          "item_name": "#DOTA_Item_Fangs_of_the_Firelord__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/ember_spirit/ember_spirit_armor_of_the_yanlong_general/ember_spirit_armor_of_the_yanlong_general.vmdl"
+        },
+        {
+          "name": "Fangs of the Firelord - Head",
+          "id": "24192",
+          "item_name": "#DOTA_Item_Fangs_of_the_Firelord__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/ember_spirit/ember_spirit_horns_of_the_yanlong_general/ember_spirit_horns_of_the_yanlong_general.vmdl"
+        },
+        {
+          "name": "Fangs of the Firelord - Offhand",
+          "id": "24189",
+          "item_name": "#DOTA_Item_Fangs_of_the_Firelord__Offhand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/ember_spirit/ember_spirit_yan_blade_of_fierce_flame/ember_spirit_yan_blade_of_fierce_flame.vmdl"
+        },
+        {
+          "name": "Fangs of the Firelord - Weapon",
+          "id": "24188",
+          "item_name": "#DOTA_Item_Fangs_of_the_Firelord__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/ember_spirit/ember_spirit_yang_blade_of_burning_sun/ember_spirit_yang_blade_of_burning_sun.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Fires_of_the_Volcanic_Guard",
+      "store_bundle": "Fires of the Volcanic Guard",
+      "portrait_image": "econ/sets/v2/fires_of_the_volcanic_guard",
+      "items": [
+        {
+          "name": "Belt of the Volcanic Guard",
+          "id": "12268",
+          "item_name": "#DOTA_Item_Belt_of_the_Volcanic_Guard",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/magma_spirit_belt/magma_spirit_belt.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Volcanic Guard",
+          "id": "12267",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Volcanic_Guard",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/magma_spirit_shoulder/magma_spirit_shoulder.vmdl"
+        },
+        {
+          "name": "Bracers of the Volcanic Guard",
+          "id": "12263",
+          "item_name": "#DOTA_Item_Bracers_of_the_Volcanic_Guard",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/magma_spirit_arms/magma_spirit_arms.vmdl"
+        },
+        {
+          "name": "Off-hand Weapon of the Volcanic Guard",
+          "id": "12262",
+          "item_name": "#DOTA_Item_Offhand_Weapon_of_the_Volcanic_Guard",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/magma_spirit_off_hand/magma_spirit_off_hand.vmdl"
+        },
+        {
+          "name": "Helm of the Volcanic Guard",
+          "id": "12261",
+          "item_name": "#DOTA_Item_Helm_of_the_Volcanic_Guard",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/magma_spirit_head/magma_spirit_head.vmdl"
+        },
+        {
+          "name": "Sword of the Volcanic Guard",
+          "id": "12260",
+          "item_name": "#DOTA_Item_Sword_of_the_Volcanic_Guard",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/magma_spirit_weapon/magma_spirit_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Flames_of_Prosperity",
+      "store_bundle": "Flames of Prosperity Set",
+      "portrait_image": "econ/sets/v2/flames_of_prosperity",
+      "items": [
+        {
+          "name": "Arm Guards of Prosperity",
+          "id": "6013",
+          "item_name": "#DOTA_Item_Arm_Guards_of_Prosperity",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/arm_guards_of_prosperity/arm_guards_of_prosperity.vmdl"
+        },
+        {
+          "name": "Crimson Guard of Prosperity",
+          "id": "6014",
+          "item_name": "#DOTA_Item_Crimson_Guard_of_Prosperity",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/crimson_guard_of_prosperity/crimson_guard_of_prosperity.vmdl"
+        },
+        {
+          "name": "Phoenix Helm of Prosperity",
+          "id": "6015",
+          "item_name": "#DOTA_Item_Phoenix_Helm_of_Prosperity",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/ember_spirit/phoenix_helm_of_prosperity/phoenix_helm_of_prosperity.vmdl"
+        },
+        {
+          "name": "Jin - Blade of Prosperity",
+          "id": "6016",
+          "item_name": "#DOTA_Item_Jin__Blade_of_Prosperity",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/ember_spirit/jin__blade_of_prosperity/jin__blade_of_prosperity.vmdl"
+        },
+        {
+          "name": "Huo - Blade of Prosperity",
+          "id": "6017",
+          "item_name": "#DOTA_Item_Huo__Blade_of_Prosperity",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/ember_spirit/huo__blade_of_prosperity/huo__blade_of_prosperity.vmdl"
+        },
+        {
+          "name": "Ember Pauldrons of Prosperity",
+          "id": "6018",
+          "item_name": "#DOTA_Item_Ember_Pauldrons_of_Prosperity",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/ember_spirit/ember_pauldrons_of_prosperity/ember_pauldrons_of_prosperity.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Master_of_the_Searing_Path",
+      "store_bundle": "Master of the Searing Path",
+      "portrait_image": "econ/sets/v2/master_of_the_searing_path",
+      "items": [
+        {
+          "name": "Master of the Searing Path Belt",
+          "id": "13361",
+          "item_name": "#DOTA_Item_Master_of_the_Searing_Path_Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/kungfu_master_belt/kungfu_master_belt.vmdl"
+        },
+        {
+          "name": "Master of the Searing Path Off-Hand",
+          "id": "13302",
+          "item_name": "#DOTA_Item_Master_of_the_Searing_Path_OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/kungfu_master_off_hand/kungfu_master_off_hand.vmdl"
+        },
+        {
+          "name": "Master of the Searing Path Shoulder",
+          "id": "13301",
+          "item_name": "#DOTA_Item_Master_of_the_Searing_Path_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/kungfu_master_shoulder/kungfu_master_shoulder.vmdl"
+        },
+        {
+          "name": "Master of the Searing Path Weapon",
+          "id": "13300",
+          "item_name": "#DOTA_Item_Master_of_the_Searing_Path_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/kungfu_master_weapon/kungfu_master_weapon.vmdl"
+        },
+        {
+          "name": "Master of the Searing Path Head",
+          "id": "13299",
+          "item_name": "#DOTA_Item_Master_of_the_Searing_Path_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/kungfu_master_head/kungfu_master_head.vmdl"
+        },
+        {
+          "name": "Master of the Searing Path Arms",
+          "id": "13290",
+          "item_name": "#DOTA_Item_Master_of_the_Searing_Path_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/kungfu_master_arms/kungfu_master_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Mentor_of_the_High_Plains",
+      "store_bundle": "Mentor of the High Plains",
+      "portrait_image": "econ/sets/v2/mentor_of_the_high_plains",
+      "items": [
+        {
+          "name": "Mentor of the High Plains Ceremonial Banner",
+          "id": "6759",
+          "item_name": "#DOTA_Item_Mentor_of_the_High_Plains_Ceremonial_Banner",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/ember_spirit/mentor_high_plains_head/mentor_high_plains_head.vmdl"
+        },
+        {
+          "name": "Mentor of the High Plains Great Cuirass",
+          "id": "6760",
+          "item_name": "#DOTA_Item_Mentor_of_the_High_Plains_Great_Cuirass",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/ember_spirit/mentor_high_plains_belt/mentor_high_plains_belt.vmdl"
+        },
+        {
+          "name": "Mentor of the High Plains Guard",
+          "id": "6761",
+          "item_name": "#DOTA_Item_Mentor_of_the_High_Plains_Guard",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/mentor_high_plains_arms/mentor_high_plains_arms.vmdl"
+        },
+        {
+          "name": "Mentor of the High Plains Decorated Pauldrons",
+          "id": "6762",
+          "item_name": "#DOTA_Item_Mentor_of_the_High_Plains_Decorated_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/ember_spirit/mentor_high_plains_shoulder/mentor_high_plains_shoulder.vmdl"
+        },
+        {
+          "name": "Mentor of the High Plains Right Tiger Hook",
+          "id": "6763",
+          "item_name": "#DOTA_Item_Mentor_of_the_High_Plains_Right_Tiger_Hook",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/ember_spirit/mentor_high_plains_weapon/mentor_high_plains_weapon.vmdl"
+        },
+        {
+          "name": "Mentor of the High Plains Left Tiger Hook",
+          "id": "6764",
+          "item_name": "#DOTA_Item_Mentor_of_the_High_Plains_Left_Tiger_Hook",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/ember_spirit/mentor_high_plains_offhand/mentor_high_plains_offhand.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Order_of_the_Wandering_Flame",
+      "store_bundle": "Order of the Wandering Flame",
+      "portrait_image": "econ/sets/v2/order_of_the_wandering_flame",
+      "items": [
+        {
+          "name": "Blade of the Wandering Flame",
+          "id": "8884",
+          "item_name": "#DOTA_Item_Blade_of_the_Wandering_Flame",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/vanishing_flame_weapon/vanishing_flame_weapon.vmdl"
+        },
+        {
+          "name": "Off-Hand Blade of the Wandering Flame",
+          "id": "8883",
+          "item_name": "#DOTA_Item_OffHand_Blade_of_the_Wandering_Flame",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/vanishing_flame_off_hand/vanishing_flame_off_hand.vmdl"
+        },
+        {
+          "name": "Guard of the Wandering Flame",
+          "id": "8882",
+          "item_name": "#DOTA_Item_Guard_of_the_Wandering_Flame",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/vanishing_flame_arms/vanishing_flame_arms.vmdl"
+        },
+        {
+          "name": "Spaulder of the Wandering Flame",
+          "id": "8881",
+          "item_name": "#DOTA_Item_Spaulder_of_the_Wandering_Flame",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/vanishing_flame_shoulder/vanishing_flame_shoulder.vmdl"
+        },
+        {
+          "name": "Tunic of the Wandering Flame",
+          "id": "8880",
+          "item_name": "#DOTA_Item_Tunic_of_the_Wandering_Flame",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/vanishing_flame_belt/vanishing_flame_belt.vmdl"
+        },
+        {
+          "name": "Hood of the Wandering Flame",
+          "id": "8879",
+          "item_name": "#DOTA_Item_Hood_of_the_Wandering_Flame",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/vanishing_flame_head/vanishing_flame_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Rekindled_Ashes",
+      "store_bundle": "Rekindled Ashes",
+      "portrait_image": "econ/sets/v2/rekindled_ashes",
+      "items": [
+        {
+          "name": "Guard of the Rekindled Ashes",
+          "id": "8840",
+          "item_name": "#DOTA_Item_Guard_of_the_Rekindled_Ashes",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/rekindled_ashes_arms/rekindled_ashes_arms.vmdl"
+        },
+        {
+          "name": "Shoulders of the Rekindled Ashes",
+          "id": "8842",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Rekindled_Ashes",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/rekindled_ashes_shoulder/rekindled_ashes_shoulder.vmdl"
+        },
+        {
+          "name": "Off-Hand Blade of the Rekindled Ashes",
+          "id": "8845",
+          "item_name": "#DOTA_Item_OffHand_Blade_of_the_Rekindled_Ashes",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/rekindled_ashes_offhand/rekindled_ashes_offhand.vmdl"
+        },
+        {
+          "name": "Robe of the Rekindled Ashes",
+          "id": "8841",
+          "item_name": "#DOTA_Item_Robe_of_the_Rekindled_Ashes",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/rekindled_ashes_belt/rekindled_ashes_belt.vmdl"
+        },
+        {
+          "name": "Headdress of the Rekindled Ashes",
+          "id": "8843",
+          "item_name": "#DOTA_Item_Headdress_of_the_Rekindled_Ashes",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/rekindled_ashes_head/rekindled_ashes_head.vmdl"
+        },
+        {
+          "name": "Blade of the Rekindled Ashes",
+          "id": "8844",
+          "item_name": "#DOTA_Item_Blade_of_the_Rekindled_Ashes",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/ember_spirit/rekindled_ashes_weapon/rekindled_ashes_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Visions_of_the_Forsaken_Flame",
+      "store_bundle": "Visions of the Forsaken Flame",
+      "portrait_image": "econ/sets/v2/visions_of_the_forsaken_flame",
+      "items": [
+        {
+          "name": "Bracers of the Forsaken Flame",
+          "id": "12487",
+          "item_name": "#DOTA_Item_Bracers_of_the_Forsaken_Flame",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/ember_spirit/desert_warrior_arms/desert_warrior_arms.vmdl"
+        },
+        {
+          "name": "Hood of the Forsaken Flame",
+          "id": "12486",
+          "item_name": "#DOTA_Item_Hood_of_the_Forsaken_Flame",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/ember_spirit/desert_warrior_head/desert_warrior_head.vmdl"
+        },
+        {
+          "name": "Vetments of the Forsaken Flame",
+          "id": "12485",
+          "item_name": "#DOTA_Item_Vetments_of_the_Forsaken_Flame",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/ember_spirit/desert_warrior_shoulder/desert_warrior_shoulder.vmdl"
+        },
+        {
+          "name": "Belt of the Forsaken Flame",
+          "id": "12484",
+          "item_name": "#DOTA_Item_Belt_of_the_Forsaken_Flame",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/ember_spirit/desert_warrior_belt/desert_warrior_belt.vmdl"
+        },
+        {
+          "name": "Off-Hand Weapon of the Forsaken Flame",
+          "id": "12483",
+          "item_name": "#DOTA_Item_OffHand_Weapon_of_the_Forsaken_Flame",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/ember_spirit/desert_warrior_off_hand/desert_warrior_off_hand.vmdl"
+        },
+        {
+          "name": "Weapon of the Forsaken Flame",
+          "id": "12482",
+          "item_name": "#DOTA_Item_Weapon_of_the_Forsaken_Flame",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/ember_spirit/desert_warrior_weapon/desert_warrior_weapon.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "462",
+      "name": "Ember Spirit's Head Item",
+      "item_name": "#DOTA_Item_Ember_Spirits_Head_Item",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/ember_spirit/back.vmdl"
+    },
+    {
+      "id": "469",
+      "name": "Ember Spirit's Shoulders",
+      "item_name": "#DOTA_Item_Ember_Spirits_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/ember_spirit/shoulder.vmdl"
+    },
+    {
+      "id": "471",
+      "name": "Ember Spirit's Belt Item",
+      "item_name": "#DOTA_Item_Ember_Spirits_Belt_Item",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/ember_spirit/belt.vmdl"
+    },
+    {
+      "id": "472",
+      "name": "Ember Spirit's Main Weapon",
+      "item_name": "#DOTA_Item_Ember_Spirits_Main_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/ember_spirit/weapon1.vmdl"
+    },
+    {
+      "id": "473",
+      "name": "Ember Spirit's Offhand Weapon",
+      "item_name": "#DOTA_Item_Ember_Spirits_Offhand_Weapon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/ember_spirit/weapon2.vmdl"
+    },
+    {
+      "id": "474",
+      "name": "Ember Spirit's Arms",
+      "item_name": "#DOTA_Item_Ember_Spirits_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/ember_spirit/arm.vmdl"
+    },
+    {
+      "id": "5878",
+      "name": "Ember Spirit's Hat",
+      "item_name": "#DOTA_Item_Ember_Spirits_Hat",
+      "item_slot": "head",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/ember_hat/ember_hat.vmdl"
+    },
+    {
+      "id": "5966",
+      "name": "Fortune's Coin",
+      "item_name": "#DOTA_Item_Fortunes_Coin",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/lucky_disc/lucky_disc.vmdl"
+    },
+    {
+      "id": "5972",
+      "name": "Governor's Salakot",
+      "item_name": "#DOTA_Item_Governors_Salakot",
+      "item_slot": "head",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/salakot/salakot.vmdl"
+    },
+    {
+      "id": "6013",
+      "name": "Arm Guards of Prosperity",
+      "item_name": "#DOTA_Item_Arm_Guards_of_Prosperity",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/arm_guards_of_prosperity/arm_guards_of_prosperity.vmdl"
+    },
+    {
+      "id": "6014",
+      "name": "Crimson Guard of Prosperity",
+      "item_name": "#DOTA_Item_Crimson_Guard_of_Prosperity",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/crimson_guard_of_prosperity/crimson_guard_of_prosperity.vmdl"
+    },
+    {
+      "id": "6015",
+      "name": "Phoenix Helm of Prosperity",
+      "item_name": "#DOTA_Item_Phoenix_Helm_of_Prosperity",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/phoenix_helm_of_prosperity/phoenix_helm_of_prosperity.vmdl"
+    },
+    {
+      "id": "6016",
+      "name": "Jin - Blade of Prosperity",
+      "item_name": "#DOTA_Item_Jin__Blade_of_Prosperity",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/jin__blade_of_prosperity/jin__blade_of_prosperity.vmdl"
+    },
+    {
+      "id": "6017",
+      "name": "Huo - Blade of Prosperity",
+      "item_name": "#DOTA_Item_Huo__Blade_of_Prosperity",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/huo__blade_of_prosperity/huo__blade_of_prosperity.vmdl"
+    },
+    {
+      "id": "6018",
+      "name": "Ember Pauldrons of Prosperity",
+      "item_name": "#DOTA_Item_Ember_Pauldrons_of_Prosperity",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/ember_pauldrons_of_prosperity/ember_pauldrons_of_prosperity.vmdl"
+    },
+    {
+      "id": "6357",
+      "name": "Greater Purifier",
+      "item_name": "#DOTA_Item_Greater_Purifier",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/greaterpurifier_weapon/greaterpurifier_weapon.vmdl"
+    },
+    {
+      "id": "6358",
+      "name": "Lesser Purifier",
+      "item_name": "#DOTA_Item_Lesser_Purifier",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/lesserpurifier_offhand_weapon/lesserpurifier_offhand_weapon.vmdl"
+    },
+    {
+      "id": "6759",
+      "name": "Mentor of the High Plains Ceremonial Banner",
+      "item_name": "#DOTA_Item_Mentor_of_the_High_Plains_Ceremonial_Banner",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/mentor_high_plains_head/mentor_high_plains_head.vmdl"
+    },
+    {
+      "id": "6760",
+      "name": "Mentor of the High Plains Great Cuirass",
+      "item_name": "#DOTA_Item_Mentor_of_the_High_Plains_Great_Cuirass",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/mentor_high_plains_belt/mentor_high_plains_belt.vmdl"
+    },
+    {
+      "id": "6761",
+      "name": "Mentor of the High Plains Guard",
+      "item_name": "#DOTA_Item_Mentor_of_the_High_Plains_Guard",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/mentor_high_plains_arms/mentor_high_plains_arms.vmdl"
+    },
+    {
+      "id": "6762",
+      "name": "Mentor of the High Plains Decorated Pauldrons",
+      "item_name": "#DOTA_Item_Mentor_of_the_High_Plains_Decorated_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/mentor_high_plains_shoulder/mentor_high_plains_shoulder.vmdl"
+    },
+    {
+      "id": "6763",
+      "name": "Mentor of the High Plains Right Tiger Hook",
+      "item_name": "#DOTA_Item_Mentor_of_the_High_Plains_Right_Tiger_Hook",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/mentor_high_plains_weapon/mentor_high_plains_weapon.vmdl"
+    },
+    {
+      "id": "6764",
+      "name": "Mentor of the High Plains Left Tiger Hook",
+      "item_name": "#DOTA_Item_Mentor_of_the_High_Plains_Left_Tiger_Hook",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/mentor_high_plains_offhand/mentor_high_plains_offhand.vmdl"
+    },
+    {
+      "id": "7001",
+      "name": "Orbs of Blaze Armor",
+      "item_name": "#DOTA_Item_Orbs_of_Blaze_Armor",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/blazearmor_arms/blazearmor_arms.vmdl"
+    },
+    {
+      "id": "7002",
+      "name": "Robes of Blaze Armor",
+      "item_name": "#DOTA_Item_Robes_of_Blaze_Armor",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/blazearmor_belt/blazearmor_belt.vmdl"
+    },
+    {
+      "id": "7003",
+      "name": "Pauldrons of Blaze Armor",
+      "item_name": "#DOTA_Item_Pauldrons_of_Blaze_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/blazearmor_shoulder/blazearmor_shoulder.vmdl"
+    },
+    {
+      "id": "7004",
+      "name": "Flaming Hair of Blaze Armor",
+      "item_name": "#DOTA_Item_Flaming_Hair_of_Blaze_Armor",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/blazearmor_head/blazearmor_head.vmdl"
+    },
+    {
+      "id": "7006",
+      "name": "Zhuo -  Blade of Blaze Armor",
+      "item_name": "#DOTA_Item_Zhuo___Blade_of_Blaze_Armor",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/blazearmor_offhand/blazearmor_offhand.vmdl"
+    },
+    {
+      "id": "7007",
+      "name": "Xin - Blade of Blaze Armor",
+      "item_name": "#DOTA_Item_Xin__Blade_of_Blaze_Armor",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/blazearmor_weapon/blazearmor_weapon.vmdl"
+    },
+    {
+      "id": "7170",
+      "name": "Imperial Flame Offhand Sword",
+      "item_name": "#DOTA_Item_Imperial_Flame_Offhand_Sword",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/flame_imperial_offhand/flame_imperial_offhand.vmdl"
+    },
+    {
+      "id": "7175",
+      "name": "Imperial Flame Sword",
+      "item_name": "#DOTA_Item_Imperial_Flame_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/flame_imperial_weapon/flame_imperial_weapon.vmdl"
+    },
+    {
+      "id": "7470",
+      "name": "Rapier of the Burning God Offhand",
+      "item_name": "#DOTA_Item_Rapier_of_the_Burning_God_Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/rapier_burning_god_offhand/rapier_burning_god_offhand.vmdl"
+    },
+    {
+      "id": "7472",
+      "name": "Rapier of the Burning God",
+      "item_name": "#DOTA_Item_Rapier_of_the_Burning_God",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/rapier_burning_god_weapon/rapier_burning_god_weapon.vmdl"
+    },
+    {
+      "id": "7879",
+      "name": "Off-Hand Sword of the Smoldering Sage",
+      "item_name": "#DOTA_Item_OffHand_Sword_of_the_Smoldering_Sage",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/wu_sheng_off_hand_v2/wu_sheng_off_hand_v2.vmdl"
+    },
+    {
+      "id": "7880",
+      "name": "Sword of the Smoldering Sage",
+      "item_name": "#DOTA_Item_Sword_of_the_Smoldering_Sage",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/wu_sheng_weapon_v2/wu_sheng_weapon_v2.vmdl"
+    },
+    {
+      "id": "7881",
+      "name": "Mantle of the Smoldering Sage",
+      "item_name": "#DOTA_Item_Mantle_of_the_Smoldering_Sage",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/wu_sheng_shoulder_v2/wu_sheng_shoulder_v2.vmdl"
+    },
+    {
+      "id": "7882",
+      "name": "Cap of the Smoldering Sage",
+      "item_name": "#DOTA_Item_Cap_of_the_Smoldering_Sage",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/wu_sheng_head_v2/wu_sheng_head_v2.vmdl"
+    },
+    {
+      "id": "7883",
+      "name": "Armguards of the Smoldering Sage",
+      "item_name": "#DOTA_Item_Armguards_of_the_Smoldering_Sage",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/wu_sheng_arms_v2/wu_sheng_arms_v2.vmdl"
+    },
+    {
+      "id": "7884",
+      "name": "Belt of the Smoldering Sage",
+      "item_name": "#DOTA_Item_Belt_of_the_Smoldering_Sage",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/wu_sheng_belt_v2/wu_sheng_belt_v2.vmdl"
+    },
+    {
+      "id": "7894",
+      "name": "Arms of the Phoenix Clan",
+      "item_name": "#DOTA_Item_Arms_of_the_Phoenix_Clan",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/dplus_firebirds_awakening_arms/dplus_firebirds_awakening_arms.vmdl"
+    },
+    {
+      "id": "7895",
+      "name": "Shoulders of the Phoenix Clan",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Phoenix_Clan",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/dplus_firebirds_awakening_shoulder/dplus_firebirds_awakening_shoulder.vmdl"
+    },
+    {
+      "id": "7896",
+      "name": "Weapon of the Phoenix Clan",
+      "item_name": "#DOTA_Item_Weapon_of_the_Phoenix_Clan",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/dplus_firebirds_awakening_weapon/dplus_firebirds_awakening_weapon.vmdl"
+    },
+    {
+      "id": "7897",
+      "name": "Helm of the Phoenix Clan",
+      "item_name": "#DOTA_Item_Helm_of_the_Phoenix_Clan",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/dplus_firebirds_awakening_head/dplus_firebirds_awakening_head.vmdl"
+    },
+    {
+      "id": "7898",
+      "name": "Offhand of the Phoenix Clan",
+      "item_name": "#DOTA_Item_Offhand_of_the_Phoenix_Clan",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/dplus_firebirds_awakening_offhand/dplus_firebirds_awakening_offhand.vmdl"
+    },
+    {
+      "id": "8198",
+      "name": "Belt of the Phoenix Clan",
+      "item_name": "#DOTA_Item_Belt_of_the_Phoenix_Clan",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/dplus_firebirds_awakening_belt/dplus_firebirds_awakening_belt.vmdl"
+    },
+    {
+      "id": "8840",
+      "name": "Guard of the Rekindled Ashes",
+      "item_name": "#DOTA_Item_Guard_of_the_Rekindled_Ashes",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/rekindled_ashes_arms/rekindled_ashes_arms.vmdl"
+    },
+    {
+      "id": "8841",
+      "name": "Robe of the Rekindled Ashes",
+      "item_name": "#DOTA_Item_Robe_of_the_Rekindled_Ashes",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/rekindled_ashes_belt/rekindled_ashes_belt.vmdl"
+    },
+    {
+      "id": "8842",
+      "name": "Shoulders of the Rekindled Ashes",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Rekindled_Ashes",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/rekindled_ashes_shoulder/rekindled_ashes_shoulder.vmdl"
+    },
+    {
+      "id": "8843",
+      "name": "Headdress of the Rekindled Ashes",
+      "item_name": "#DOTA_Item_Headdress_of_the_Rekindled_Ashes",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/rekindled_ashes_head/rekindled_ashes_head.vmdl"
+    },
+    {
+      "id": "8844",
+      "name": "Blade of the Rekindled Ashes",
+      "item_name": "#DOTA_Item_Blade_of_the_Rekindled_Ashes",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/rekindled_ashes_weapon/rekindled_ashes_weapon.vmdl"
+    },
+    {
+      "id": "8845",
+      "name": "Off-Hand Blade of the Rekindled Ashes",
+      "item_name": "#DOTA_Item_OffHand_Blade_of_the_Rekindled_Ashes",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/rekindled_ashes_offhand/rekindled_ashes_offhand.vmdl"
+    },
+    {
+      "id": "8879",
+      "name": "Hood of the Wandering Flame",
+      "item_name": "#DOTA_Item_Hood_of_the_Wandering_Flame",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/vanishing_flame_head/vanishing_flame_head.vmdl"
+    },
+    {
+      "id": "8880",
+      "name": "Tunic of the Wandering Flame",
+      "item_name": "#DOTA_Item_Tunic_of_the_Wandering_Flame",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/vanishing_flame_belt/vanishing_flame_belt.vmdl"
+    },
+    {
+      "id": "8881",
+      "name": "Spaulder of the Wandering Flame",
+      "item_name": "#DOTA_Item_Spaulder_of_the_Wandering_Flame",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/vanishing_flame_shoulder/vanishing_flame_shoulder.vmdl"
+    },
+    {
+      "id": "8882",
+      "name": "Guard of the Wandering Flame",
+      "item_name": "#DOTA_Item_Guard_of_the_Wandering_Flame",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/vanishing_flame_arms/vanishing_flame_arms.vmdl"
+    },
+    {
+      "id": "8883",
+      "name": "Off-Hand Blade of the Wandering Flame",
+      "item_name": "#DOTA_Item_OffHand_Blade_of_the_Wandering_Flame",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/vanishing_flame_off_hand/vanishing_flame_off_hand.vmdl"
+    },
+    {
+      "id": "8884",
+      "name": "Blade of the Wandering Flame",
+      "item_name": "#DOTA_Item_Blade_of_the_Wandering_Flame",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/vanishing_flame_weapon/vanishing_flame_weapon.vmdl"
+    },
+    {
+      "id": "12260",
+      "name": "Sword of the Volcanic Guard",
+      "item_name": "#DOTA_Item_Sword_of_the_Volcanic_Guard",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/magma_spirit_weapon/magma_spirit_weapon.vmdl"
+    },
+    {
+      "id": "12261",
+      "name": "Helm of the Volcanic Guard",
+      "item_name": "#DOTA_Item_Helm_of_the_Volcanic_Guard",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/magma_spirit_head/magma_spirit_head.vmdl"
+    },
+    {
+      "id": "12262",
+      "name": "Off-hand Weapon of the Volcanic Guard",
+      "item_name": "#DOTA_Item_Offhand_Weapon_of_the_Volcanic_Guard",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/magma_spirit_off_hand/magma_spirit_off_hand.vmdl"
+    },
+    {
+      "id": "12263",
+      "name": "Bracers of the Volcanic Guard",
+      "item_name": "#DOTA_Item_Bracers_of_the_Volcanic_Guard",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/magma_spirit_arms/magma_spirit_arms.vmdl"
+    },
+    {
+      "id": "12267",
+      "name": "Pauldrons of the Volcanic Guard",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Volcanic_Guard",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/magma_spirit_shoulder/magma_spirit_shoulder.vmdl"
+    },
+    {
+      "id": "12268",
+      "name": "Belt of the Volcanic Guard",
+      "item_name": "#DOTA_Item_Belt_of_the_Volcanic_Guard",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/magma_spirit_belt/magma_spirit_belt.vmdl"
+    },
+    {
+      "id": "12482",
+      "name": "Weapon of the Forsaken Flame",
+      "item_name": "#DOTA_Item_Weapon_of_the_Forsaken_Flame",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/desert_warrior_weapon/desert_warrior_weapon.vmdl"
+    },
+    {
+      "id": "12483",
+      "name": "Off-Hand Weapon of the Forsaken Flame",
+      "item_name": "#DOTA_Item_OffHand_Weapon_of_the_Forsaken_Flame",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/desert_warrior_off_hand/desert_warrior_off_hand.vmdl"
+    },
+    {
+      "id": "12484",
+      "name": "Belt of the Forsaken Flame",
+      "item_name": "#DOTA_Item_Belt_of_the_Forsaken_Flame",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/desert_warrior_belt/desert_warrior_belt.vmdl"
+    },
+    {
+      "id": "12485",
+      "name": "Vetments of the Forsaken Flame",
+      "item_name": "#DOTA_Item_Vetments_of_the_Forsaken_Flame",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/desert_warrior_shoulder/desert_warrior_shoulder.vmdl"
+    },
+    {
+      "id": "12486",
+      "name": "Hood of the Forsaken Flame",
+      "item_name": "#DOTA_Item_Hood_of_the_Forsaken_Flame",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/desert_warrior_head/desert_warrior_head.vmdl"
+    },
+    {
+      "id": "12487",
+      "name": "Bracers of the Forsaken Flame",
+      "item_name": "#DOTA_Item_Bracers_of_the_Forsaken_Flame",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/desert_warrior_arms/desert_warrior_arms.vmdl"
+    },
+    {
+      "id": "13007",
+      "name": "Apogee of the Guardian Flame",
+      "item_name": "#DOTA_Item_Apogee_of_the_Guardian_Flame",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/ember_ti9_immortal_shoulder/ember_ti9_immortal_shoulder.vmdl"
+    },
+    {
+      "id": "13253",
+      "name": "Hyakki no shou Arms",
+      "item_name": "#DOTA_Item_Vote_Only_Hyakki_no_shou_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/hyakki_no_shou_arms/hyakki_no_shou_arms.vmdl"
+    },
+    {
+      "id": "13254",
+      "name": "Hyakki no shou Belt",
+      "item_name": "#DOTA_Item_Vote_Only_Hyakki_no_shou_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/hyakki_no_shou_belt/hyakki_no_shou_belt.vmdl"
+    },
+    {
+      "id": "13255",
+      "name": "Hyakki no shou Head",
+      "item_name": "#DOTA_Item_Vote_Only_Hyakki_no_shou_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/hyakki_no_shou_head/hyakki_no_shou_head.vmdl"
+    },
+    {
+      "id": "13256",
+      "name": "Hyakki no shou Offhand",
+      "item_name": "#DOTA_Item_Vote_Only_Hyakki_no_shou_Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/hyakki_no_shou_offhand/hyakki_no_shou_offhand.vmdl"
+    },
+    {
+      "id": "13284",
+      "name": "Hyakki no shou Shoulder",
+      "item_name": "#DOTA_Item_Vote_Only_Hyakki_no_shou_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/hyakki_no_shou_shoulder/hyakki_no_shou_shoulder.vmdl"
+    },
+    {
+      "id": "13285",
+      "name": "Hyakki no shou Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_Hyakki_no_shou_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/hyakki_no_shou_weapon/hyakki_no_shou_weapon.vmdl"
+    },
+    {
+      "id": "13290",
+      "name": "Master of the Searing Path Arms",
+      "item_name": "#DOTA_Item_Master_of_the_Searing_Path_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/kungfu_master_arms/kungfu_master_arms.vmdl"
+    },
+    {
+      "id": "13299",
+      "name": "Master of the Searing Path Head",
+      "item_name": "#DOTA_Item_Master_of_the_Searing_Path_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/kungfu_master_head/kungfu_master_head.vmdl"
+    },
+    {
+      "id": "13300",
+      "name": "Master of the Searing Path Weapon",
+      "item_name": "#DOTA_Item_Master_of_the_Searing_Path_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/kungfu_master_weapon/kungfu_master_weapon.vmdl"
+    },
+    {
+      "id": "13301",
+      "name": "Master of the Searing Path Shoulder",
+      "item_name": "#DOTA_Item_Master_of_the_Searing_Path_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/kungfu_master_shoulder/kungfu_master_shoulder.vmdl"
+    },
+    {
+      "id": "13302",
+      "name": "Master of the Searing Path Off-Hand",
+      "item_name": "#DOTA_Item_Master_of_the_Searing_Path_OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/kungfu_master_off_hand/kungfu_master_off_hand.vmdl"
+    },
+    {
+      "id": "13361",
+      "name": "Master of the Searing Path Belt",
+      "item_name": "#DOTA_Item_Master_of_the_Searing_Path_Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/kungfu_master_belt/kungfu_master_belt.vmdl"
+    },
+    {
+      "id": "13381",
+      "name": "Cinder Sensei Style",
+      "item_name": "#DOTA_Item_Cinder_Sensei_Style",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/ember_sindur_sensei_head/ember_sindur_sensei_head.vmdl"
+    },
+    {
+      "id": "13382",
+      "name": "Cinder Sensei Weapon",
+      "item_name": "#DOTA_Item_Cinder_Sensei_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/ember_sindur_sensei_weapon/ember_sindur_sensei_weapon.vmdl"
+    },
+    {
+      "id": "13383",
+      "name": "Cinder Sensei Shoulders",
+      "item_name": "#DOTA_Item_Cinder_Sensei_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/ember_sindur_sensei_shoulder/ember_sindur_sensei_shoulder.vmdl"
+    },
+    {
+      "id": "13440",
+      "name": "Cinder Sensei Off-Hand Weapon",
+      "item_name": "#DOTA_Item_Cinder_Sensei_OffHand_Weapon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/ember_sindur_sensei_offhand/ember_sindur_sensei_offhand.vmdl"
+    },
+    {
+      "id": "13441",
+      "name": "Cinder Sensei Belt",
+      "item_name": "#DOTA_Item_Cinder_Sensei_Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/ember_sindur_sensei_belt/ember_sindur_sensei_belt.vmdl"
+    },
+    {
+      "id": "13442",
+      "name": "Cinder Sensei Bracer",
+      "item_name": "#DOTA_Item_Cinder_Sensei_Bracer",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/ember_sindur_sensei_arms/ember_sindur_sensei_arms.vmdl"
+    },
+    {
+      "id": "13454",
+      "name": "Taunt: Hot Eats",
+      "item_name": "#DOTA_Item_Taunt_Hot_Eats",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "taunt"
+    },
+    {
+      "id": "14181",
+      "name": "Efrit Sultan Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_Efrit_Sultan_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/efrit_sultan_weapon/efrit_sultan_weapon.vmdl"
+    },
+    {
+      "id": "14182",
+      "name": "Efrit Sultan Shoulder",
+      "item_name": "#DOTA_Item_Vote_Only_Efrit_Sultan_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/efrit_sultan_shoulder/efrit_sultan_shoulder.vmdl"
+    },
+    {
+      "id": "14183",
+      "name": "Efrit Sultan Off-Hand",
+      "item_name": "#DOTA_Item_Vote_Only_Efrit_Sultan_OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/efrit_sultan_off_hand/efrit_sultan_off_hand.vmdl"
+    },
+    {
+      "id": "14184",
+      "name": "Efrit Sultan Head",
+      "item_name": "#DOTA_Item_Vote_Only_Efrit_Sultan_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/efrit_sultan_head/efrit_sultan_head.vmdl"
+    },
+    {
+      "id": "14185",
+      "name": "Efrit Sultan Belt",
+      "item_name": "#DOTA_Item_Vote_Only_Efrit_Sultan_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/efrit_sultan_belt/efrit_sultan_belt.vmdl"
+    },
+    {
+      "id": "14186",
+      "name": "Efrit Sultan Arms",
+      "item_name": "#DOTA_Item_Vote_Only_Efrit_Sultan_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/efrit_sultan_arms/efrit_sultan_arms.vmdl"
+    },
+    {
+      "id": "20370",
+      "name": "Flames of Prosperity Set",
+      "item_name": "#DOTA_Item_Flames_of_Prosperity_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20538",
+      "name": "Mentor of the High Plains",
+      "item_name": "#DOTA_Item_Mentor_of_the_High_Plains",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20566",
+      "name": "Promo Mentor of the High Plains",
+      "item_name": "#DOTA_Item_Promo_Mentor_of_the_High_Plains",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20631",
+      "name": "Blaze Armor",
+      "item_name": "#DOTA_Item_Blaze_Armor",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20674",
+      "name": "Imperial Flame Swords Pack",
+      "item_name": "#DOTA_Item_Imperial_Flame_Swords_Pack",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20707",
+      "name": "Rapiers of the Burning God",
+      "item_name": "#DOTA_Item_Rapiers_of_the_Burning_God",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20926",
+      "name": "Rekindled Ashes",
+      "item_name": "#DOTA_Item_Rekindled_Ashes",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21007",
+      "name": "Adage of the Smoldering Sage",
+      "item_name": "#DOTA_Item_Adage_of_the_Smoldering_Sage",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21054",
+      "name": "Order of the Wandering Flame",
+      "item_name": "#DOTA_Item_Order_of_the_Wandering_Flame",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21227",
+      "name": "Fires of the Volcanic Guard",
+      "item_name": "#DOTA_Item_Fires_of_the_Volcanic_Guard",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21234",
+      "name": "Champion of the Phoenix Clan",
+      "item_name": "#DOTA_Item_Champion_of_the_Phoenix_Clan",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21245",
+      "name": "Visions of the Forsaken Flame",
+      "item_name": "#DOTA_Item_Visions_of_the_Forsaken_Flame",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21383",
+      "name": "Master of the Searing Path",
+      "item_name": "#DOTA_Item_Master_of_the_Searing_Path",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21389",
+      "name": "Cinder Sensei",
+      "item_name": "#DOTA_Item_Cinder_Sensei",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21440",
+      "name": "Hyakki no shou",
+      "item_name": "#DOTA_Item_Vote_Only_Hyakki_no_shou",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21512",
+      "name": "Efrit Sultan",
+      "item_name": "#DOTA_Item_Vote_Only_Efrit_Sultan",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23337",
+      "name": "Blazing Tiger Arms",
+      "item_name": "#DOTA_Item_Blazing_Tiger_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/fire_cat_spring2017_arms/fire_cat_spring2017_arms.vmdl"
+    },
+    {
+      "id": "23338",
+      "name": "Blazing Tiger Belt",
+      "item_name": "#DOTA_Item_Blazing_Tiger_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/fire_cat_spring2017_belt/fire_cat_spring2017_belt.vmdl"
+    },
+    {
+      "id": "23339",
+      "name": "Blazing Tiger Head",
+      "item_name": "#DOTA_Item_Blazing_Tiger_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/fire_cat_spring2017_head/fire_cat_spring2017_head.vmdl"
+    },
+    {
+      "id": "23340",
+      "name": "Blazing Tiger Off-Hand",
+      "item_name": "#DOTA_Item_Blazing_Tiger_OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/fire_cat_spring2017_off_hand/fire_cat_spring2017_off_hand.vmdl"
+    },
+    {
+      "id": "23341",
+      "name": "Blazing Tiger Shoulder",
+      "item_name": "#DOTA_Item_Blazing_Tiger_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/fire_cat_spring2017_shoulder/fire_cat_spring2017_shoulder.vmdl"
+    },
+    {
+      "id": "23342",
+      "name": "Blazing Tiger Weapon",
+      "item_name": "#DOTA_Item_Blazing_Tiger_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/fire_cat_spring2017_weapon/fire_cat_spring2017_weapon.vmdl"
+    },
+    {
+      "id": "23343",
+      "name": "Blazing Tiger",
+      "item_name": "#DOTA_Item_Blazing_Tiger",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "24158",
+      "name": "Fangs of the Firelord - Shoulder",
+      "item_name": "#DOTA_Item_Fangs_of_the_Firelord__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/ember_spirit_pauldronl_of_the_yanlong_gerneal/ember_spirit_pauldronl_of_the_yanlong_gerneal.vmdl"
+    },
+    {
+      "id": "24159",
+      "name": "Fangs of the Firelord - Arms",
+      "item_name": "#DOTA_Item_Fangs_of_the_Firelord__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/ember_spirit_talons_of_the_yanlong_general/ember_spirit_talons_of_the_yanlong_general.vmdl"
+    },
+    {
+      "id": "24188",
+      "name": "Fangs of the Firelord - Weapon",
+      "item_name": "#DOTA_Item_Fangs_of_the_Firelord__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/ember_spirit_yang_blade_of_burning_sun/ember_spirit_yang_blade_of_burning_sun.vmdl"
+    },
+    {
+      "id": "24189",
+      "name": "Fangs of the Firelord - Offhand",
+      "item_name": "#DOTA_Item_Fangs_of_the_Firelord__Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/ember_spirit_yan_blade_of_fierce_flame/ember_spirit_yan_blade_of_fierce_flame.vmdl"
+    },
+    {
+      "id": "24190",
+      "name": "Fangs of the Firelord",
+      "item_name": "#DOTA_Item_Fangs_of_the_Firelord",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "24191",
+      "name": "Fangs of the Firelord - Belt",
+      "item_name": "#DOTA_Item_Fangs_of_the_Firelord__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/ember_spirit_armor_of_the_yanlong_general/ember_spirit_armor_of_the_yanlong_general.vmdl"
+    },
+    {
+      "id": "24192",
+      "name": "Fangs of the Firelord - Head",
+      "item_name": "#DOTA_Item_Fangs_of_the_Firelord__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/ember_spirit/ember_spirit_horns_of_the_yanlong_general/ember_spirit_horns_of_the_yanlong_general.vmdl"
+    }
+  ]
+}

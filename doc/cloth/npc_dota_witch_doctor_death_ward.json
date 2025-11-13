@@ -1,0 +1,22 @@
+{
+  "defaults": {
+    "ambient_effects": {
+      "id": "602",
+      "name": "Witch Doctor Ward's Ambient Effects",
+      "item_name": "#DOTA_Item_Witch_Doctor_Wards_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [],
+  "items": [
+    {
+      "id": "602",
+      "name": "Witch Doctor Ward's Ambient Effects",
+      "item_name": "#DOTA_Item_Witch_Doctor_Wards_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    }
+  ]
+}

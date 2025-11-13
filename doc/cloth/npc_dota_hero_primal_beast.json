@@ -1,0 +1,588 @@
+{
+  "defaults": {
+    "arms": {
+      "id": "769",
+      "name": "Primal Beast Shoulder",
+      "item_name": "#DOTA_Item_Primal_Beast_Shoulder",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/primal_beast/primal_beast_armor.vmdl"
+    },
+    "back": {
+      "id": "770",
+      "name": "Primal Beast Back",
+      "item_name": "#DOTA_Item_Primal_Beast_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/primal_beast/primal_beast_back.vmdl"
+    },
+    "legs": {
+      "id": "771",
+      "name": "Primal Beast Legs",
+      "item_name": "#DOTA_Item_Primal_Beast_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "model_player": "models/heroes/primal_beast/primal_beast_leg.vmdl"
+    },
+    "head": {
+      "id": "772",
+      "name": "Primal Beast Head",
+      "item_name": "#DOTA_Item_Primal_Beast_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Age_of_Attrition",
+      "store_bundle": "Age of Attrition",
+      "portrait_image": "econ/sets/v2/age_of_attrition",
+      "items": [
+        {
+          "name": "Age of Attrition - Head",
+          "id": "23785",
+          "item_name": "#DOTA_Item_Age_of_Attrition__Head",
+          "item_slot": "head",
+          "item_rarity": "immortal",
+          "model_player": "models/items/primal_beast/pb_2022_armor/pb_2022_armor_head.vmdl"
+        },
+        {
+          "name": "Age of Attrition - Body",
+          "id": "23770",
+          "item_name": "#DOTA_Item_Age_of_Attrition__Body",
+          "item_slot": "back",
+          "item_rarity": "immortal",
+          "model_player": "models/items/primal_beast/pb_2022_armor/pb_2022_armor_armor.vmdl"
+        },
+        {
+          "name": "Age of Attrition - Arms",
+          "id": "23766",
+          "item_name": "#DOTA_Item_Age_of_Attrition__Arms",
+          "item_slot": "arms",
+          "item_rarity": "immortal",
+          "model_player": "models/items/primal_beast/pb_2022_armor/pb_2022_armor_arms.vmdl"
+        },
+        {
+          "name": "Age of Attrition - Legs",
+          "id": "23765",
+          "item_name": "#DOTA_Item_Age_of_Attrition__Legs",
+          "item_slot": "legs",
+          "item_rarity": "immortal",
+          "model_player": "models/items/primal_beast/pb_2022_armor/pb_2022_armor_legs.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dark_Behemoth",
+      "store_bundle": "Dark Behemoth",
+      "portrait_image": "econ/sets/v2/dark_behemoth",
+      "items": [
+        {
+          "name": "Dark Behemoth - Arms",
+          "id": "26795",
+          "item_name": "#DOTA_Item_Dark_Behemoth__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/primal_beast/pb_dark_behemoth_arms/pb_dark_behemoth_arms.vmdl"
+        },
+        {
+          "name": "Dark Behemoth - Legs",
+          "id": "26772",
+          "item_name": "#DOTA_Item_Dark_Behemoth__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/primal_beast/pb_dark_behemoth_legs/pb_dark_behemoth_legs.vmdl"
+        },
+        {
+          "name": "Dark Behemoth - Head",
+          "id": "26771",
+          "item_name": "#DOTA_Item_Dark_Behemoth__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/primal_beast/pb_dark_behemoth_head/pb_dark_behemoth_head.vmdl"
+        },
+        {
+          "name": "Dark Behemoth - Back",
+          "id": "26770",
+          "item_name": "#DOTA_Item_Dark_Behemoth__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/primal_beast/pb_dark_behemoth_back/pb_dark_behemoth_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Primeval_Abomination",
+      "store_bundle": "Primeval Abomination",
+      "portrait_image": "econ/sets/v2/primeval_abomination",
+      "items": [
+        {
+          "name": "Primeval Abomination Arms",
+          "id": "26780",
+          "item_name": "#DOTA_Item_Primeval_Abomination_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/primal_beast/pb_unchained_calamity_arms/pb_unchained_calamity_arms.vmdl"
+        },
+        {
+          "name": "Primeval Abomination Legs",
+          "id": "26779",
+          "item_name": "#DOTA_Item_Primeval_Abomination_Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/primal_beast/pb_unchained_calamity_legs/pb_unchained_calamity_legs.vmdl"
+        },
+        {
+          "name": "Primeval Abomination Head",
+          "id": "26778",
+          "item_name": "#DOTA_Item_Primeval_Abomination_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/primal_beast/pb_unchained_calamity_head/pb_unchained_calamity_head.vmdl"
+        },
+        {
+          "name": "Primeval Abomination Back",
+          "id": "26777",
+          "item_name": "#DOTA_Item_Primeval_Abomination_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/primal_beast/pb_unchained_calamity_back/pb_unchained_calamity_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Svarog_the_Infernal",
+      "store_bundle": "Svarog the Infernal",
+      "portrait_image": "econ/sets/v2/svarog_the_infernal",
+      "items": [
+        {
+          "name": "Svarog the Infernal - Arms",
+          "id": "26765",
+          "item_name": "#DOTA_Item_Svarog_the_Infernal__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/primal_beast/pb_primal_feast_arms/pb_primal_feast_arms.vmdl"
+        },
+        {
+          "name": "Svarog the Infernal - Back",
+          "id": "26764",
+          "item_name": "#DOTA_Item_Svarog_the_Infernal__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/primal_beast/pb_primal_feast_back/pb_primal_feast_back.vmdl"
+        },
+        {
+          "name": "Svarog the Infernal - Head",
+          "id": "26763",
+          "item_name": "#DOTA_Item_Svarog_the_Infernal__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/primal_beast/pb_primal_feast_head/pb_primal_feast_head.vmdl"
+        },
+        {
+          "name": "Svarog the Infernal - Legs",
+          "id": "26762",
+          "item_name": "#DOTA_Item_Svarog_the_Infernal__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/primal_beast/pb_primal_feast_legs/pb_primal_feast_legs.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Temple_Guardian",
+      "store_bundle": "Temple Guardian",
+      "portrait_image": "econ/sets/v2/temple_guardian",
+      "items": [
+        {
+          "name": "Temple Guardian - Legs",
+          "id": "28133",
+          "item_name": "#DOTA_Item_Temple_Guardian__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/primal_beast/the_dragon_tortoise_legs/the_dragon_tortoise_legs.vmdl"
+        },
+        {
+          "name": "Temple Guardian - Back",
+          "id": "28134",
+          "item_name": "#DOTA_Item_Temple_Guardian__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/primal_beast/the_dragon_tortoise_back/the_dragon_tortoise_back.vmdl"
+        },
+        {
+          "name": "Temple Guardian - Arms",
+          "id": "28135",
+          "item_name": "#DOTA_Item_Temple_Guardian__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/primal_beast/the_dragon_tortoise_arms/the_dragon_tortoise_arms.vmdl"
+        },
+        {
+          "name": "Temple Guardian - Head",
+          "id": "28136",
+          "item_name": "#DOTA_Item_Temple_Guardian__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/primal_beast/the_dragon_tortoise_head/the_dragon_tortoise_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Abominable_Snowbeast",
+      "store_bundle": "The Abominable Snowbeast",
+      "portrait_image": "econ/sets/v2/the_abominable_snowbeast",
+      "items": [
+        {
+          "name": "The Abominable Snowbeast - Arms",
+          "id": "24759",
+          "item_name": "#DOTA_Item_The_Abominable_Snowbeast__Arms",
+          "item_slot": "arms",
+          "item_rarity": "legendary",
+          "model_player": "models/items/primal_beast/frostivus_pb/frostivus_pb_arms.vmdl"
+        },
+        {
+          "name": "The Abominable Snowbeast - Legs",
+          "id": "24747",
+          "item_name": "#DOTA_Item_The_Abominable_Snowbeast__Legs",
+          "item_slot": "legs",
+          "item_rarity": "legendary",
+          "model_player": "models/items/primal_beast/frostivus_pb/frostivus_pb_legs.vmdl"
+        },
+        {
+          "name": "The Abominable Snowbeast - Head",
+          "id": "24736",
+          "item_name": "#DOTA_Item_The_Abominable_Snowbeast__Head",
+          "item_slot": "head",
+          "item_rarity": "legendary",
+          "model_player": "models/items/primal_beast/frostivus_pb/frostivus_pb_head.vmdl"
+        },
+        {
+          "name": "The Abominable Snowbeast - Back",
+          "id": "24693",
+          "item_name": "#DOTA_Item_The_Abominable_Snowbeast__Back",
+          "item_slot": "back",
+          "item_rarity": "legendary",
+          "model_player": "models/items/primal_beast/frostivus_pb/frostivus_pb_back.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "769",
+      "name": "Primal Beast Shoulder",
+      "item_name": "#DOTA_Item_Primal_Beast_Shoulder",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/primal_beast/primal_beast_armor.vmdl"
+    },
+    {
+      "id": "770",
+      "name": "Primal Beast Back",
+      "item_name": "#DOTA_Item_Primal_Beast_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/primal_beast/primal_beast_back.vmdl"
+    },
+    {
+      "id": "771",
+      "name": "Primal Beast Legs",
+      "item_name": "#DOTA_Item_Primal_Beast_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/primal_beast/primal_beast_leg.vmdl"
+    },
+    {
+      "id": "772",
+      "name": "Primal Beast Head",
+      "item_name": "#DOTA_Item_Primal_Beast_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "18454",
+      "name": "Taunt: Temper Tramplum",
+      "item_name": "#DOTA_Item_Taunt_Temper_Tramplum",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "23765",
+      "name": "Age of Attrition - Legs",
+      "item_name": "#DOTA_Item_Age_of_Attrition__Legs",
+      "item_slot": "legs",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/pb_2022_armor/pb_2022_armor_legs.vmdl"
+    },
+    {
+      "id": "23766",
+      "name": "Age of Attrition - Arms",
+      "item_name": "#DOTA_Item_Age_of_Attrition__Arms",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/pb_2022_armor/pb_2022_armor_arms.vmdl"
+    },
+    {
+      "id": "23767",
+      "name": "Age of Attrition",
+      "item_name": "#DOTA_Item_Age_of_Attrition",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23770",
+      "name": "Age of Attrition - Body",
+      "item_name": "#DOTA_Item_Age_of_Attrition__Body",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/pb_2022_armor/pb_2022_armor_armor.vmdl"
+    },
+    {
+      "id": "23785",
+      "name": "Age of Attrition - Head",
+      "item_name": "#DOTA_Item_Age_of_Attrition__Head",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/pb_2022_armor/pb_2022_armor_head.vmdl"
+    },
+    {
+      "id": "24693",
+      "name": "The Abominable Snowbeast - Back",
+      "item_name": "#DOTA_Item_The_Abominable_Snowbeast__Back",
+      "item_slot": "back",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/frostivus_pb/frostivus_pb_back.vmdl"
+    },
+    {
+      "id": "24736",
+      "name": "The Abominable Snowbeast - Head",
+      "item_name": "#DOTA_Item_The_Abominable_Snowbeast__Head",
+      "item_slot": "head",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/frostivus_pb/frostivus_pb_head.vmdl"
+    },
+    {
+      "id": "24747",
+      "name": "The Abominable Snowbeast - Legs",
+      "item_name": "#DOTA_Item_The_Abominable_Snowbeast__Legs",
+      "item_slot": "legs",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/frostivus_pb/frostivus_pb_legs.vmdl"
+    },
+    {
+      "id": "24759",
+      "name": "The Abominable Snowbeast - Arms",
+      "item_name": "#DOTA_Item_The_Abominable_Snowbeast__Arms",
+      "item_slot": "arms",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/frostivus_pb/frostivus_pb_arms.vmdl"
+    },
+    {
+      "id": "24761",
+      "name": "The Abominable Snowbeast",
+      "item_name": "#DOTA_Item_The_Abominable_Snowbeast",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26762",
+      "name": "Svarog the Infernal - Legs",
+      "item_name": "#DOTA_Item_Svarog_the_Infernal__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/pb_primal_feast_legs/pb_primal_feast_legs.vmdl"
+    },
+    {
+      "id": "26763",
+      "name": "Svarog the Infernal - Head",
+      "item_name": "#DOTA_Item_Svarog_the_Infernal__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/pb_primal_feast_head/pb_primal_feast_head.vmdl"
+    },
+    {
+      "id": "26764",
+      "name": "Svarog the Infernal - Back",
+      "item_name": "#DOTA_Item_Svarog_the_Infernal__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/pb_primal_feast_back/pb_primal_feast_back.vmdl"
+    },
+    {
+      "id": "26765",
+      "name": "Svarog the Infernal - Arms",
+      "item_name": "#DOTA_Item_Svarog_the_Infernal__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/pb_primal_feast_arms/pb_primal_feast_arms.vmdl"
+    },
+    {
+      "id": "26770",
+      "name": "Dark Behemoth - Back",
+      "item_name": "#DOTA_Item_Dark_Behemoth__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/pb_dark_behemoth_back/pb_dark_behemoth_back.vmdl"
+    },
+    {
+      "id": "26771",
+      "name": "Dark Behemoth - Head",
+      "item_name": "#DOTA_Item_Dark_Behemoth__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/pb_dark_behemoth_head/pb_dark_behemoth_head.vmdl"
+    },
+    {
+      "id": "26772",
+      "name": "Dark Behemoth - Legs",
+      "item_name": "#DOTA_Item_Dark_Behemoth__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/pb_dark_behemoth_legs/pb_dark_behemoth_legs.vmdl"
+    },
+    {
+      "id": "26777",
+      "name": "Primeval Abomination Back",
+      "item_name": "#DOTA_Item_Primeval_Abomination_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/pb_unchained_calamity_back/pb_unchained_calamity_back.vmdl"
+    },
+    {
+      "id": "26778",
+      "name": "Primeval Abomination Head",
+      "item_name": "#DOTA_Item_Primeval_Abomination_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/pb_unchained_calamity_head/pb_unchained_calamity_head.vmdl"
+    },
+    {
+      "id": "26779",
+      "name": "Primeval Abomination Legs",
+      "item_name": "#DOTA_Item_Primeval_Abomination_Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/pb_unchained_calamity_legs/pb_unchained_calamity_legs.vmdl"
+    },
+    {
+      "id": "26780",
+      "name": "Primeval Abomination Arms",
+      "item_name": "#DOTA_Item_Primeval_Abomination_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/pb_unchained_calamity_arms/pb_unchained_calamity_arms.vmdl"
+    },
+    {
+      "id": "26795",
+      "name": "Dark Behemoth - Arms",
+      "item_name": "#DOTA_Item_Dark_Behemoth__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/pb_dark_behemoth_arms/pb_dark_behemoth_arms.vmdl"
+    },
+    {
+      "id": "26799",
+      "name": "Svarog the Infernal",
+      "item_name": "#DOTA_Item_Svarog_the_Infernal",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26802",
+      "name": "Primeval Abomination",
+      "item_name": "#DOTA_Item_Primeval_Abomination",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26805",
+      "name": "Dark Behemoth",
+      "item_name": "#DOTA_Item_Dark_Behemoth",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26942",
+      "name": "Temple Guardian",
+      "item_name": "#DOTA_Item_Temple_Guardian",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "27299",
+      "name": "newbloom_2024_primal_beast_loading_screen",
+      "item_name": "#DOTA_Item_newbloom_2024_primal_beast_loading_screen",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "loading_screen"
+    },
+    {
+      "id": "28133",
+      "name": "Temple Guardian - Legs",
+      "item_name": "#DOTA_Item_Temple_Guardian__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/the_dragon_tortoise_legs/the_dragon_tortoise_legs.vmdl"
+    },
+    {
+      "id": "28134",
+      "name": "Temple Guardian - Back",
+      "item_name": "#DOTA_Item_Temple_Guardian__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/the_dragon_tortoise_back/the_dragon_tortoise_back.vmdl"
+    },
+    {
+      "id": "28135",
+      "name": "Temple Guardian - Arms",
+      "item_name": "#DOTA_Item_Temple_Guardian__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/the_dragon_tortoise_arms/the_dragon_tortoise_arms.vmdl"
+    },
+    {
+      "id": "28136",
+      "name": "Temple Guardian - Head",
+      "item_name": "#DOTA_Item_Temple_Guardian__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/primal_beast/the_dragon_tortoise_head/the_dragon_tortoise_head.vmdl"
+    }
+  ]
+}

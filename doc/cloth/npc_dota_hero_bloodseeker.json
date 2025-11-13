@@ -1,0 +1,2541 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "69",
+      "name": "Blood Seeker's Blade",
+      "item_name": "#DOTA_Item_Blood_Seekers_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/blood_seeker/weapon.vmdl"
+    },
+    "head": {
+      "id": "70",
+      "name": "Blood Seeker's Headdress",
+      "item_name": "#DOTA_Item_Blood_Seekers_Headdress",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/blood_seeker/helmet.vmdl"
+    },
+    "offhand_weapon": {
+      "id": "71",
+      "name": "Blood Seeker's Offhand Blade",
+      "item_name": "#DOTA_Item_Blood_Seekers_Offhand_Blade",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/blood_seeker/weapon_offhand.vmdl"
+    },
+    "shoulder": {
+      "id": "72",
+      "name": "Blood Seeker's Necklace",
+      "item_name": "#DOTA_Item_Blood_Seekers_Necklace",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/blood_seeker/neck.vmdl"
+    },
+    "back": {
+      "id": "73",
+      "name": "Blood Seeker's Cape",
+      "item_name": "#DOTA_Item_Blood_Seekers_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/blood_seeker/cape.vmdl"
+    },
+    "arms": {
+      "id": "74",
+      "name": "Blood Seeker's Bracers",
+      "item_name": "#DOTA_Item_Blood_Seekers_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/blood_seeker/bracer.vmdl"
+    },
+    "belt": {
+      "id": "257",
+      "name": "Blood Seeker's Skirt",
+      "item_name": "#DOTA_Item_Blood_Seekers_Skirt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "model_player": "models/heroes/blood_seeker/belt.vmdl"
+    },
+    "costume": {
+      "id": "739",
+      "name": "Bloodseeker's Costume",
+      "item_name": "#DOTA_Item_Bloodseekers_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Blood_Raven",
+      "store_bundle": "Blood Raven",
+      "portrait_image": "econ/sets/v2/blood_raven",
+      "items": [
+        {
+          "name": "Blood Raven - Arms",
+          "id": "25436",
+          "item_name": "#DOTA_Item_Blood_Raven__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/bs_grim_harvester_arms/bs_grim_harvester_arms.vmdl"
+        },
+        {
+          "name": "Blood Raven - Beak",
+          "id": "25503",
+          "item_name": "#DOTA_Item_Blood_Raven__Beak",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/bs_grim_harvester_head/bs_grim_harvester_head.vmdl"
+        },
+        {
+          "name": "Blood Raven - Blade",
+          "id": "25506",
+          "item_name": "#DOTA_Item_Blood_Raven__Blade",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/bs_grim_harvester_blade/bs_grim_harvester_blade.vmdl"
+        },
+        {
+          "name": "Blood Raven - Offhand",
+          "id": "25504",
+          "item_name": "#DOTA_Item_Blood_Raven__Offhand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/bs_grim_harvester_offhand/bs_grim_harvester_offhand.vmdl"
+        },
+        {
+          "name": "Blood Raven - Cowl",
+          "id": "25505",
+          "item_name": "#DOTA_Item_Blood_Raven__Cowl",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/bs_grim_harvester_cape/bs_grim_harvester_cape.vmdl"
+        },
+        {
+          "name": "Blood Raven - Belt",
+          "id": "25507",
+          "item_name": "#DOTA_Item_Blood_Raven__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/bs_grim_harvester_belt/bs_grim_harvester_belt.vmdl"
+        },
+        {
+          "name": "Blood Raven - Tunic",
+          "id": "25508",
+          "item_name": "#DOTA_Item_Blood_Raven__Tunic",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/bs_grim_harvester_back/bs_grim_harvester_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bloodseeker_Hlotl",
+      "store_bundle": "Ritual Garb of the Seeker Set",
+      "portrait_image": "econ/sets/v2/blood_seeker_hlotl",
+      "items": [
+        {
+          "name": "Habit of the Seeker",
+          "id": "4110",
+          "item_name": "#DOTA_Item_Habit_of_the_Seeker",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/war_cape.vmdl"
+        },
+        {
+          "name": "Hlotl-Feather Gloves",
+          "id": "4111",
+          "item_name": "#DOTA_Item_HlotlFeather_Gloves",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/war_gloves.vmdl"
+        },
+        {
+          "name": "Hlotl-Tusk Headdress of the Seeker",
+          "id": "4112",
+          "item_name": "#DOTA_Item_HlotlTusk_Headdress_of_the_Seeker",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/war_helmet.vmdl"
+        },
+        {
+          "name": "Hlotl-Feather Necklace",
+          "id": "4113",
+          "item_name": "#DOTA_Item_HlotlFeather_Necklace",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/war_necklace.vmdl"
+        },
+        {
+          "name": "War Blade",
+          "id": "4203",
+          "item_name": "#DOTA_Item_War_Blade_Right",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/war_blade_right.vmdl"
+        },
+        {
+          "name": "War Blade - Off-Hand",
+          "id": "4204",
+          "item_name": "#DOTA_Item_War_Blade__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/war_blade_left.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bloodseekers_Diretide_Shimmer_Bundle",
+      "store_bundle": "Bloodseeker's Diretide Shimmer Bundle",
+      "portrait_image": "econ/sets/v2/bloodseekers_diretide_shimmer_bundle",
+      "items": [
+        {
+          "name": "Bloodseeker's Diretide Neck",
+          "id": "18322",
+          "item_name": "#DOTA_Item_Bloodseekers_Diretide_Neck",
+          "item_slot": "shoulder",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/blood_seeker/neck.vmdl"
+        },
+        {
+          "name": "Bloodseeker's Diretide Shimmer Costume",
+          "id": "18311",
+          "item_name": "#DOTA_Item_Bloodseekers_Diretide_Shimmer_Costume",
+          "item_slot": "costume",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Bloodseeker's Diretide Shimmer Belt",
+          "id": "18318",
+          "item_name": "#DOTA_Item_Bloodseekers_Diretide_Shimmer_Belt",
+          "item_slot": "belt",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/blood_seeker/belt.vmdl"
+        },
+        {
+          "name": "Bloodseeker's Diretide Shimmer Bracer",
+          "id": "18319",
+          "item_name": "#DOTA_Item_Bloodseekers_Diretide_Shimmer_Bracer",
+          "item_slot": "arms",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/blood_seeker/bracer.vmdl"
+        },
+        {
+          "name": "Bloodseeker's Diretide Shimmer Cape",
+          "id": "18320",
+          "item_name": "#DOTA_Item_Bloodseekers_Diretide_Shimmer_Cape",
+          "item_slot": "back",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/blood_seeker/cape.vmdl"
+        },
+        {
+          "name": "Bloodseeker's Diretide Shimmer Helmet",
+          "id": "18321",
+          "item_name": "#DOTA_Item_Bloodseekers_Diretide_Shimmer_Helmet",
+          "item_slot": "head",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/blood_seeker/helmet.vmdl"
+        },
+        {
+          "name": "Bloodseeker's Diretide Shimmer Weapon",
+          "id": "18323",
+          "item_name": "#DOTA_Item_Bloodseekers_Diretide_Shimmer_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/blood_seeker/weapon.vmdl"
+        },
+        {
+          "name": "Bloodseeker's Diretide Shimmer Offhand Weapon",
+          "id": "18324",
+          "item_name": "#DOTA_Item_Bloodseekers_Diretide_Shimmer_Offhand_Weapon",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/blood_seeker/weapon_offhand.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ardor_of_the_Scarlet_Raven",
+      "store_bundle": "Ardor of the Scarlet Raven Set",
+      "portrait_image": "econ/sets/v2/bloodseeker_ardor_ofth_scarlet_raven",
+      "items": [
+        {
+          "name": "Belt of the Scarlet Raven",
+          "id": "5505",
+          "item_name": "#DOTA_Item_Belt_of_the_Scarlet_Raven",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/belt_of_scarlet_claws/belt_of_scarlet_claws.vmdl"
+        },
+        {
+          "name": "Gauntlets of the Scarlet Raven",
+          "id": "5506",
+          "item_name": "#DOTA_Item_Gauntlets_of_the_Scarlet_Raven",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/scarlet_ravens_gauntlets/scarlet_ravens_gauntlets.vmdl"
+        },
+        {
+          "name": "Talon of the Scarlet Raven",
+          "id": "5509",
+          "item_name": "#DOTA_Item_Talon_of_the_Scarlet_Raven",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/blood_seeker/talon_of_the_scarlet_raven/talon_of_the_scarlet_raven.vmdl"
+        },
+        {
+          "name": "Coat of the Scarlet Raven",
+          "id": "5510",
+          "item_name": "#DOTA_Item_Coat_of_the_Scarlet_Raven",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/blood_seeker/coat_of_the_scarlet_raven/coat_of_the_scarlet_raven.vmdl"
+        },
+        {
+          "name": "Hood of the Scarlet Raven",
+          "id": "5511",
+          "item_name": "#DOTA_Item_Hood_of_the_Scarlet_Raven",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/hood_of_the_scarlet_raven/hood_of_the_scarlet_raven.vmdl"
+        },
+        {
+          "name": "Talon of the Scarlet Raven - Off-Hand",
+          "id": "5512",
+          "item_name": "#DOTA_Item_Talon_of_the_Scarlet_Raven__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/blood_seeker/talon_of_the_scarlet_raven__offhand/talon_of_the_scarlet_raven__offhand.vmdl"
+        },
+        {
+          "name": "Necklace of Scarlet Raven",
+          "id": "5508",
+          "item_name": "#DOTA_Item_Necklace_of_Scarlet_Raven",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/necklace_of_scarlet_claws/necklace_of_scarlet_claws.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Wrath_of_the_Blood_Covenant",
+      "store_bundle": "Wrath of the Blood Covenant Set",
+      "portrait_image": "econ/sets/v2/bloodseeker_blood_covenant",
+      "items": [
+        {
+          "name": "Wraps of the Blood Covenant",
+          "id": "5135",
+          "item_name": "#DOTA_Item_Wraps_of_the_Blood_Covenant",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/blood_covenant_arms/blood_covenant_arms.vmdl"
+        },
+        {
+          "name": "Mantle of the Blood Covenant",
+          "id": "5136",
+          "item_name": "#DOTA_Item_Mantle_of_the_Blood_Covenant",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/blood_covenant_back/blood_covenant_back.vmdl"
+        },
+        {
+          "name": "Belt of the Blood Covenant",
+          "id": "5137",
+          "item_name": "#DOTA_Item_Belt_of_the_Blood_Covenant",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/blood_covenant_belt/blood_covenant_belt.vmdl"
+        },
+        {
+          "name": "Pads of the Blood Covenant",
+          "id": "5139",
+          "item_name": "#DOTA_Item_Pads_of_the_Blood_Covenant",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/blood_seeker/blood_covenant_shoulder/blood_covenant_shoulder.vmdl"
+        },
+        {
+          "name": "Blade of the Blood Covenant",
+          "id": "5140",
+          "item_name": "#DOTA_Item_Blade_of_the_Blood_Covenant",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/blood_covenant_weapon/blood_covenant_weapon.vmdl"
+        },
+        {
+          "name": "Cowl of the Blood Covenant",
+          "id": "5141",
+          "item_name": "#DOTA_Item_Cowl_of_the_Blood_Covenant",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/blood_seeker/blood_covenant_head/blood_covenant_head.vmdl"
+        },
+        {
+          "name": "Blade of the Blood Covenant - Off-Hand",
+          "id": "5138",
+          "item_name": "#DOTA_Item_Blade_of_the_Blood_Covenant__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/blood_covenant_offhand/blood_covenant_offhand.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bloodseeker_Bonehunter",
+      "store_bundle": "The Bonehunter Set",
+      "portrait_image": "econ/sets/v2/bloodseeker_bonehunter",
+      "items": [
+        {
+          "name": "Bonehunter Bracers",
+          "id": "4327",
+          "item_name": "#DOTA_Item_Bonehunter_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/arms_savagebeast.vmdl"
+        },
+        {
+          "name": "Bonehunter Tuskguard",
+          "id": "4328",
+          "item_name": "#DOTA_Item_Bonehunter_Tuskguard",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/shoulder_savagebeast.vmdl"
+        },
+        {
+          "name": "Bonehunter Belt",
+          "id": "4329",
+          "item_name": "#DOTA_Item_Bonehunter_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/belt_savagebeast.vmdl"
+        },
+        {
+          "name": "Bonehunter Slicer",
+          "id": "4331",
+          "item_name": "#DOTA_Item_Bonehunter_Slicer",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/blood_seeker/weapon_savagebeast.vmdl"
+        },
+        {
+          "name": "Bonehunter Slicer - Off-Hand",
+          "id": "4332",
+          "item_name": "#DOTA_Item_Bonehunter_Slicer__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/blood_seeker/offhand_savagebeast.vmdl"
+        },
+        {
+          "name": "Bonehunter Spineguard",
+          "id": "4333",
+          "item_name": "#DOTA_Item_Bonehunter_Spineguard",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/blood_seeker/back_savagebeast.vmdl"
+        },
+        {
+          "name": "Bonehunter Skullguard",
+          "id": "4330",
+          "item_name": "#DOTA_Item_Bonehunter_Skullguard",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/head_savagebeast.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Feast_of_the_Unwilling",
+      "store_bundle": "Feast of the Unwilling",
+      "portrait_image": "econ/sets/v2/feast_of_the_unwilling",
+      "items": [
+        {
+          "name": "Feast of the Unwilling Bracers",
+          "id": "18109",
+          "item_name": "#DOTA_Item_Feast_of_the_Unwilling_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/blood_prince_corruption_arms/blood_prince_corruption_arms.vmdl"
+        },
+        {
+          "name": "Feast of the Unwilling Armor",
+          "id": "18108",
+          "item_name": "#DOTA_Item_Feast_of_the_Unwilling_Armor",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/blood_prince_corruption_back/blood_prince_corruption_back.vmdl"
+        },
+        {
+          "name": "Feast of the Unwilling Belt",
+          "id": "18107",
+          "item_name": "#DOTA_Item_Feast_of_the_Unwilling_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/blood_prince_corruption_belt/blood_prince_corruption_belt.vmdl"
+        },
+        {
+          "name": "Feast of the Unwilling Hood",
+          "id": "18106",
+          "item_name": "#DOTA_Item_Feast_of_the_Unwilling_Hood",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/blood_prince_corruption_head/blood_prince_corruption_head.vmdl"
+        },
+        {
+          "name": "Feast of the Unwilling Off-Hand Weapon",
+          "id": "18105",
+          "item_name": "#DOTA_Item_Feast_of_the_Unwilling_OffHand_Weapon",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/blood_prince_corruption_off_hand/blood_prince_corruption_off_hand.vmdl"
+        },
+        {
+          "name": "Feast of the Unwilling Shoulders",
+          "id": "18104",
+          "item_name": "#DOTA_Item_Feast_of_the_Unwilling_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/blood_prince_corruption_shoulder/blood_prince_corruption_shoulder.vmdl"
+        },
+        {
+          "name": "Feast of the Unwilling Weapon",
+          "id": "18103",
+          "item_name": "#DOTA_Item_Feast_of_the_Unwilling_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/blood_prince_corruption_weapon/blood_prince_corruption_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Fury_of_the_Bloodforge",
+      "store_bundle": "Fury of the Bloodforge",
+      "portrait_image": "econ/sets/v2/fury_of_the_bloodforge",
+      "items": [
+        {
+          "name": "Weapon of the Bloodforge",
+          "id": "13444",
+          "item_name": "#DOTA_Item_Weapon_of_the_Bloodforge",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/ti9_cache_bloodseeker_boiling_blood_weapon/ti9_cache_bloodseeker_boiling_blood_weapon.vmdl"
+        },
+        {
+          "name": "Shoulder of the Bloodforge",
+          "id": "13445",
+          "item_name": "#DOTA_Item_Shoulder_of_the_Bloodforge",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/ti9_cache_bloodseeker_boiling_blood_shoulder/ti9_cache_bloodseeker_boiling_blood_shoulder.vmdl"
+        },
+        {
+          "name": "Off-Hand Weapon of the Bloodforge",
+          "id": "13443",
+          "item_name": "#DOTA_Item_OffHand_Weapon_of_the_Bloodforge",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/ti9_cache_bloodseeker_boiling_blood_off_hand/ti9_cache_bloodseeker_boiling_blood_off_hand.vmdl"
+        },
+        {
+          "name": "Mask of the Bloodforge",
+          "id": "13446",
+          "item_name": "#DOTA_Item_Mask_of_the_Bloodforge",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/ti9_cache_bloodseeker_boiling_blood_head/ti9_cache_bloodseeker_boiling_blood_head.vmdl"
+        },
+        {
+          "name": "Belt of the Bloodforge",
+          "id": "13447",
+          "item_name": "#DOTA_Item_Belt_of_the_Bloodforge",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/ti9_cache_bloodseeker_boiling_blood_belt/ti9_cache_bloodseeker_boiling_blood_belt.vmdl"
+        },
+        {
+          "name": "Cape of the Bloodforge",
+          "id": "13448",
+          "item_name": "#DOTA_Item_Cape_of_the_Bloodforge",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/ti9_cache_bloodseeker_boiling_blood_back/ti9_cache_bloodseeker_boiling_blood_back.vmdl"
+        },
+        {
+          "name": "Bracer of the Bloodforge",
+          "id": "13449",
+          "item_name": "#DOTA_Item_Bracer_of_the_Bloodforge",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/ti9_cache_bloodseeker_boiling_blood_arms/ti9_cache_bloodseeker_boiling_blood_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Harvests_Hound",
+      "store_bundle": "Harvest's Hound",
+      "portrait_image": "econ/sets/v2/harvests_hound",
+      "items": [
+        {
+          "name": "Head of Harvest's Hound",
+          "id": "12723",
+          "item_name": "#DOTA_Item_Head_of_Harvests_Hound",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/frostivus2018_bs_iceblood_hound_head/frostivus2018_bs_iceblood_hound_head.vmdl"
+        },
+        {
+          "name": "Shoulder of Harvest's Hound",
+          "id": "12722",
+          "item_name": "#DOTA_Item_Shoulder_of_Harvests_Hound",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/frostivus2018_bs_iceblood_hound_shoulder/frostivus2018_bs_iceblood_hound_shoulder.vmdl"
+        },
+        {
+          "name": "Arms of Harvest's Hound",
+          "id": "12721",
+          "item_name": "#DOTA_Item_Arms_of_Harvests_Hound",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/frostivus2018_bs_iceblood_hound_arms/frostivus2018_bs_iceblood_hound_arms.vmdl"
+        },
+        {
+          "name": "Back of Harvest's Hound",
+          "id": "12720",
+          "item_name": "#DOTA_Item_Back_of_Harvests_Hound",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/frostivus2018_bs_iceblood_hound_back/frostivus2018_bs_iceblood_hound_back.vmdl"
+        },
+        {
+          "name": "Belt of Harvest's Hound",
+          "id": "12719",
+          "item_name": "#DOTA_Item_Belt_of_Harvests_Hound",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/frostivus2018_bs_iceblood_hound_belt/frostivus2018_bs_iceblood_hound_belt.vmdl"
+        },
+        {
+          "name": "Blade of Harvest's Hound",
+          "id": "12718",
+          "item_name": "#DOTA_Item_Blade_of_Harvests_Hound",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/frostivus2018_bs_iceblood_hound_weapon/frostivus2018_bs_iceblood_hound_weapon.vmdl"
+        },
+        {
+          "name": "Off-Hand of Harvest's Hound",
+          "id": "12717",
+          "item_name": "#DOTA_Item_OffHand_of_Harvests_Hound",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/frostivus2018_bs_iceblood_hound_off_hand/frostivus2018_bs_iceblood_hound_off_hand.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Hunt_of_the_Weeping_Beast",
+      "store_bundle": "Hunt of the Weeping Beast",
+      "portrait_image": "econ/sets/v2/hunt_of_the_weeping_beast",
+      "items": [
+        {
+          "name": "Blade of the Weeping Beast",
+          "id": "9311",
+          "item_name": "#DOTA_Item_Blade_of_the_Weeping_Beast",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/blood_seeker/hunt_of_the_weeping_beast_weapon/hunt_of_the_weeping_beast_weapon.vmdl"
+        },
+        {
+          "name": "Offhand Blade of the Weeping Beast",
+          "id": "9310",
+          "item_name": "#DOTA_Item_Offhand_Blade_of_the_Weeping_Beast",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/blood_seeker/hunt_of_the_weeping_beast_offhand/hunt_of_the_weeping_beast_offhand.vmdl"
+        },
+        {
+          "name": "Gauntlets of the Weeping Beast",
+          "id": "9309",
+          "item_name": "#DOTA_Item_Gauntlets_of_the_Weeping_Beast",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/hunt_of_the_weeping_beast_arms/hunt_of_the_weeping_beast_arms.vmdl"
+        },
+        {
+          "name": "Guard of the Weeping Beast",
+          "id": "9308",
+          "item_name": "#DOTA_Item_Guard_of_the_Weeping_Beast",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/hunt_of_the_weeping_beast_shoulder/hunt_of_the_weeping_beast_shoulder.vmdl"
+        },
+        {
+          "name": "Drape of the Weeping Beast",
+          "id": "9307",
+          "item_name": "#DOTA_Item_Drape_of_the_Weeping_Beast",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/hunt_of_the_weeping_beast_belt/hunt_of_the_weeping_beast_belt.vmdl"
+        },
+        {
+          "name": "Mask of the Weeping Beast",
+          "id": "9306",
+          "item_name": "#DOTA_Item_Mask_of_the_Weeping_Beast",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/hunt_of_the_weeping_beast_head/hunt_of_the_weeping_beast_head.vmdl"
+        },
+        {
+          "name": "Cape of the Weeping Beast",
+          "id": "9305",
+          "item_name": "#DOTA_Item_Cape_of_the_Weeping_Beast",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/blood_seeker/hunt_of_the_weeping_beast_back/hunt_of_the_weeping_beast_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Primeval_Predator",
+      "store_bundle": "Primeval Predator",
+      "portrait_image": "econ/sets/v2/primeval_predator",
+      "items": [
+        {
+          "name": "Blade of the Primeval Predator",
+          "id": "8873",
+          "item_name": "#DOTA_Item_Blade_of_the_Primeval_Predator",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_weapon/bloodseeker_relentless_hunter_weapon.vmdl"
+        },
+        {
+          "name": "Off-Hand Blade of the Primeval Predator",
+          "id": "8839",
+          "item_name": "#DOTA_Item_OffHand_Blade_of_the_Primeval_Predator",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_off_hand/bloodseeker_relentless_hunter_off_hand.vmdl"
+        },
+        {
+          "name": "Tattoo of the Primeval Predator",
+          "id": "8838",
+          "item_name": "#DOTA_Item_Tattoo_of_the_Primeval_Predator",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_shoulder/bloodseeker_relentless_hunter_shoulder.vmdl"
+        },
+        {
+          "name": "Belt of the Primeval Predator",
+          "id": "8837",
+          "item_name": "#DOTA_Item_Belt_of_the_Primeval_Predator",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_belt/bloodseeker_relentless_hunter_belt.vmdl"
+        },
+        {
+          "name": "Shield of the Primeval Predator",
+          "id": "8836",
+          "item_name": "#DOTA_Item_Shield_of_the_Primeval_Predator",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_back/bloodseeker_relentless_hunter_back.vmdl"
+        },
+        {
+          "name": "Gauntlets of the Primeval Predator",
+          "id": "8835",
+          "item_name": "#DOTA_Item_Gauntlets_of_the_Primeval_Predator",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_arms/bloodseeker_relentless_hunter_arms.vmdl"
+        },
+        {
+          "name": "Helm of the Primeval Predator",
+          "id": "8736",
+          "item_name": "#DOTA_Item_Helm_of_the_Primeval_Predator",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_head/bloodseeker_relentless_hunter_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sacrificial_Serpent",
+      "store_bundle": "Sacrificial Serpent",
+      "portrait_image": "econ/sets/v2/sacrificial_serpent",
+      "items": [
+        {
+          "name": "Arms of the Sacrificial Serpent",
+          "id": "9660",
+          "item_name": "#DOTA_Item_Arms_of_the_Sacrificial_Serpent",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/dplus_sacrificial_serpent_arms/dplus_sacrificial_serpent_arms.vmdl"
+        },
+        {
+          "name": "Back of the Sacrificial Serpent",
+          "id": "9659",
+          "item_name": "#DOTA_Item_Back_of_the_Sacrificial_Serpent",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/dplus_sacrificial_serpent_back/dplus_sacrificial_serpent_back.vmdl"
+        },
+        {
+          "name": "Offhand Weapon of the Sacrificial Serpent",
+          "id": "8833",
+          "item_name": "#DOTA_Item_Offhand_Weapon_of_the_Sacrificial_Serpent",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/dplus_sacrificial_serpent_offhand/dplus_sacrificial_serpent_offhand.vmdl"
+        },
+        {
+          "name": "Shoulders of the Sacrificial Serpent",
+          "id": "8208",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Sacrificial_Serpent",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/dplus_sacrificial_serpent_shoulder/dplus_sacrificial_serpent_shoulder.vmdl"
+        },
+        {
+          "name": "Weapon of the Sacrificial Serpent",
+          "id": "8204",
+          "item_name": "#DOTA_Item_Weapon_of_the_Sacrificial_Serpent",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/dplus_sacrificial_serpent_weapon/dplus_sacrificial_serpent_weapon.vmdl"
+        },
+        {
+          "name": "Head of the Sacrificial Serpent",
+          "id": "8202",
+          "item_name": "#DOTA_Item_Head_of_the_Sacrificial_Serpent",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/dplus_sacrificial_serpent_head/dplus_sacrificial_serpent_head.vmdl"
+        },
+        {
+          "name": "Belt of the Sacrificial Serpent",
+          "id": "8201",
+          "item_name": "#DOTA_Item_Belt_of_the_Sacrificial_Serpent",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/dplus_sacrificial_serpent_belt/dplus_sacrificial_serpent_belt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Gallows_Understudy",
+      "store_bundle": "The Gallows Understudy Set",
+      "portrait_image": "econ/sets/v2/the_gallows_understudy_set",
+      "items": [
+        {
+          "name": "Gallows Understudy Mantle",
+          "id": "5298",
+          "item_name": "#DOTA_Item_Gallows_Understudy_Mantle",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/blood_seeker_executioner_mantle/blood_seeker_executioner_mantle.vmdl"
+        },
+        {
+          "name": "Gallows Understudy Hood",
+          "id": "5300",
+          "item_name": "#DOTA_Item_Gallows_Understudy_Hood",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/blood_seeker/blood_seeker_executioner_hood/blood_seeker_executioner_hood.vmdl"
+        },
+        {
+          "name": "Gallows Understudy Back",
+          "id": "5306",
+          "item_name": "#DOTA_Item_Gallows_Understudy_Back",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/blood_seeker/blood_seeker_executioner_collar/blood_seeker_executioner_collar.vmdl"
+        },
+        {
+          "name": "Gallows Understudy Gauntlets",
+          "id": "5307",
+          "item_name": "#DOTA_Item_Gallows_Understudy_Gauntlets",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/blood_seeker_executioner_gauntlets/blood_seeker_executioner_gauntlets.vmdl"
+        },
+        {
+          "name": "Gallows Understudy Skirt",
+          "id": "5308",
+          "item_name": "#DOTA_Item_Gallows_Understudy_Skirt",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/blood_seeker/blood_seeker_executioner_skirt/blood_seeker_executioner_skirt.vmdl"
+        },
+        {
+          "name": "Gallows Understudy Blade",
+          "id": "5309",
+          "item_name": "#DOTA_Item_Gallows_Understudy_Blade",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/blood_seeker_executioner_weapon/blood_seeker_executioner_weapon.vmdl"
+        },
+        {
+          "name": "Gallows Understudy Blade - Off-Hand",
+          "id": "5310",
+          "item_name": "#DOTA_Item_Gallows_Understudy_Blade__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/blood_seeker_executioner_weapon_off/blood_seeker_executioner_weapon_off.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Trail_of_the_Sanguine_Spectrum",
+      "store_bundle": "Trail of the Sanguine Spectrum",
+      "portrait_image": "econ/sets/v2/trail_of_the_sanguine_spectrum",
+      "items": [
+        {
+          "name": "Belt of the Sanguine Spectrum",
+          "id": "9809",
+          "item_name": "#DOTA_Item_Belt_of_the_Sanguine_Spectrum",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/ti8_bs_sanguine_nightmare_belt/ti8_bs_sanguine_nightmare_belt.vmdl"
+        },
+        {
+          "name": "Head of the Sanguine Spectrum",
+          "id": "9810",
+          "item_name": "#DOTA_Item_Head_of_the_Sanguine_Spectrum",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/ti8_bs_sanguine_nightmare_head/ti8_bs_sanguine_nightmare_head.vmdl"
+        },
+        {
+          "name": "Back of the Sanguine Spectrum",
+          "id": "9811",
+          "item_name": "#DOTA_Item_Back_of_the_Sanguine_Spectrum",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/ti8_bs_sanguine_nightmare_back/ti8_bs_sanguine_nightmare_back.vmdl"
+        },
+        {
+          "name": "Off-Hand of the Sanguine Spectrum",
+          "id": "9817",
+          "item_name": "#DOTA_Item_OffHand_of_the_Sanguine_Spectrum",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/ti8_bs_sanguine_nightmare_off_hand/ti8_bs_sanguine_nightmare_off_hand.vmdl"
+        },
+        {
+          "name": "Shoulder of the Sanguine Spectrum",
+          "id": "9819",
+          "item_name": "#DOTA_Item_Shoulder_of_the_Sanguine_Spectrum",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/ti8_bs_sanguine_nightmare_shoulder/ti8_bs_sanguine_nightmare_shoulder.vmdl"
+        },
+        {
+          "name": "Blade of the Sanguine Spectrum",
+          "id": "9820",
+          "item_name": "#DOTA_Item_Blade_of_the_Sanguine_Spectrum",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/ti8_bs_sanguine_nightmare_weapon/ti8_bs_sanguine_nightmare_weapon.vmdl"
+        },
+        {
+          "name": "Arms of the Sanguine Spectrum",
+          "id": "9821",
+          "item_name": "#DOTA_Item_Arms_of_the_Sanguine_Spectrum",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/blood_seeker/ti8_bs_sanguine_nightmare_arms/ti8_bs_sanguine_nightmare_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Tribal_Terror",
+      "store_bundle": "Tribal Terror",
+      "portrait_image": "econ/sets/v2/tribal_terror",
+      "items": [
+        {
+          "name": "Tribal Terror Belt",
+          "id": "6650",
+          "item_name": "#DOTA_Item_Tribal_Terror_Belt",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/blood_seeker/tribal_terror_belt/tribal_terror_belt.vmdl"
+        },
+        {
+          "name": "Tribal Terror Cape",
+          "id": "6651",
+          "item_name": "#DOTA_Item_Tribal_Terror_Cape",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/blood_seeker/tribal_terror_back/tribal_terror_back.vmdl"
+        },
+        {
+          "name": "Tribal Terror Headdress",
+          "id": "6652",
+          "item_name": "#DOTA_Item_Tribal_Terror_Headdress",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/tribal_terror_head/tribal_terror_head.vmdl"
+        },
+        {
+          "name": "Tribal Terror Offhand",
+          "id": "6653",
+          "item_name": "#DOTA_Item_Tribal_Terror_Offhand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/tribal_terror_offhand/tribal_terror_offhand.vmdl"
+        },
+        {
+          "name": "Tribal Terror Bracers",
+          "id": "6654",
+          "item_name": "#DOTA_Item_Tribal_Terror_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/tribal_terror_arms/tribal_terror_arms.vmdl"
+        },
+        {
+          "name": "Tribal Terror Dreadlocks",
+          "id": "6655",
+          "item_name": "#DOTA_Item_Tribal_Terror_Dreadlocks",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/tribal_terror_shoulder/tribal_terror_shoulder.vmdl"
+        },
+        {
+          "name": "Tribal Terror Weapon",
+          "id": "6656",
+          "item_name": "#DOTA_Item_Tribal_Terror_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/blood_seeker/tribal_terror_weapon/tribal_terror_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Winter_Lineage_Primeval_Predator",
+      "store_bundle": "Winter Lineage Primeval Predator",
+      "portrait_image": "econ/sets/v2/winter_lineage_primeval_predator",
+      "items": [
+        {
+          "name": "Winter Lineage Helm of the Primeval Predator",
+          "id": "22806",
+          "item_name": "#DOTA_Item_Winter_Lineage_Helm_of_the_Primeval_Predator",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_head/bloodseeker_relentless_hunter_head.vmdl"
+        },
+        {
+          "name": "Winter Lineage Gauntlets of the Primeval Predator",
+          "id": "22807",
+          "item_name": "#DOTA_Item_Winter_Lineage_Gauntlets_of_the_Primeval_Predator",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_arms/bloodseeker_relentless_hunter_arms.vmdl"
+        },
+        {
+          "name": "Winter Lineage Shield of the Primeval Predator",
+          "id": "22808",
+          "item_name": "#DOTA_Item_Winter_Lineage_Shield_of_the_Primeval_Predator",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_back/bloodseeker_relentless_hunter_back.vmdl"
+        },
+        {
+          "name": "Winter Lineage Belt of the Primeval Predator",
+          "id": "22809",
+          "item_name": "#DOTA_Item_Winter_Lineage_Belt_of_the_Primeval_Predator",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_belt/bloodseeker_relentless_hunter_belt.vmdl"
+        },
+        {
+          "name": "Winter Lineage Tattoo of the Primeval Predator",
+          "id": "22810",
+          "item_name": "#DOTA_Item_Winter_Lineage_Tattoo_of_the_Primeval_Predator",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_shoulder/bloodseeker_relentless_hunter_shoulder.vmdl"
+        },
+        {
+          "name": "Winter Lineage Off-Hand Blade of the Primeval Predator",
+          "id": "22811",
+          "item_name": "#DOTA_Item_Winter_Lineage_OffHand_Blade_of_the_Primeval_Predator",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_off_hand/bloodseeker_relentless_hunter_off_hand.vmdl"
+        },
+        {
+          "name": "Winter Lineage Blade of the Primeval Predator",
+          "id": "22812",
+          "item_name": "#DOTA_Item_Winter_Lineage_Blade_of_the_Primeval_Predator",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_weapon/bloodseeker_relentless_hunter_weapon.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "69",
+      "name": "Blood Seeker's Blade",
+      "item_name": "#DOTA_Item_Blood_Seekers_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/blood_seeker/weapon.vmdl"
+    },
+    {
+      "id": "70",
+      "name": "Blood Seeker's Headdress",
+      "item_name": "#DOTA_Item_Blood_Seekers_Headdress",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/blood_seeker/helmet.vmdl"
+    },
+    {
+      "id": "71",
+      "name": "Blood Seeker's Offhand Blade",
+      "item_name": "#DOTA_Item_Blood_Seekers_Offhand_Blade",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/blood_seeker/weapon_offhand.vmdl"
+    },
+    {
+      "id": "72",
+      "name": "Blood Seeker's Necklace",
+      "item_name": "#DOTA_Item_Blood_Seekers_Necklace",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/blood_seeker/neck.vmdl"
+    },
+    {
+      "id": "73",
+      "name": "Blood Seeker's Cape",
+      "item_name": "#DOTA_Item_Blood_Seekers_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/blood_seeker/cape.vmdl"
+    },
+    {
+      "id": "74",
+      "name": "Blood Seeker's Bracers",
+      "item_name": "#DOTA_Item_Blood_Seekers_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/blood_seeker/bracer.vmdl"
+    },
+    {
+      "id": "257",
+      "name": "Blood Seeker's Skirt",
+      "item_name": "#DOTA_Item_Blood_Seekers_Skirt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/blood_seeker/belt.vmdl"
+    },
+    {
+      "id": "739",
+      "name": "Bloodseeker's Costume",
+      "item_name": "#DOTA_Item_Bloodseekers_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4110",
+      "name": "Habit of the Seeker",
+      "item_name": "#DOTA_Item_Habit_of_the_Seeker",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/war_cape.vmdl"
+    },
+    {
+      "id": "4111",
+      "name": "Hlotl-Feather Gloves",
+      "item_name": "#DOTA_Item_HlotlFeather_Gloves",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/war_gloves.vmdl"
+    },
+    {
+      "id": "4112",
+      "name": "Hlotl-Tusk Headdress of the Seeker",
+      "item_name": "#DOTA_Item_HlotlTusk_Headdress_of_the_Seeker",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/war_helmet.vmdl"
+    },
+    {
+      "id": "4113",
+      "name": "Hlotl-Feather Necklace",
+      "item_name": "#DOTA_Item_HlotlFeather_Necklace",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/war_necklace.vmdl"
+    },
+    {
+      "id": "4203",
+      "name": "War Blade",
+      "item_name": "#DOTA_Item_War_Blade_Right",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/war_blade_right.vmdl"
+    },
+    {
+      "id": "4204",
+      "name": "War Blade - Off-Hand",
+      "item_name": "#DOTA_Item_War_Blade__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/war_blade_left.vmdl"
+    },
+    {
+      "id": "4216",
+      "name": "Back Hook",
+      "item_name": "#DOTA_Item_Back_Hook_Right",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/backhook_right.vmdl"
+    },
+    {
+      "id": "4217",
+      "name": "Back Hook - Off-Hand",
+      "item_name": "#DOTA_Item_Back_Hook__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/backhook_left.vmdl"
+    },
+    {
+      "id": "4320",
+      "name": "Bloodletter",
+      "item_name": "#DOTA_Item_Bloodletter",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/weapon_bloodletter.vmdl"
+    },
+    {
+      "id": "4321",
+      "name": "Bloodletter - Off-Hand",
+      "item_name": "#DOTA_Item_Bloodletter__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/weapon_bloodletter_offhand.vmdl"
+    },
+    {
+      "id": "4327",
+      "name": "Bonehunter Bracers",
+      "item_name": "#DOTA_Item_Bonehunter_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/arms_savagebeast.vmdl"
+    },
+    {
+      "id": "4328",
+      "name": "Bonehunter Tuskguard",
+      "item_name": "#DOTA_Item_Bonehunter_Tuskguard",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/shoulder_savagebeast.vmdl"
+    },
+    {
+      "id": "4329",
+      "name": "Bonehunter Belt",
+      "item_name": "#DOTA_Item_Bonehunter_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/belt_savagebeast.vmdl"
+    },
+    {
+      "id": "4330",
+      "name": "Bonehunter Skullguard",
+      "item_name": "#DOTA_Item_Bonehunter_Skullguard",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/head_savagebeast.vmdl"
+    },
+    {
+      "id": "4331",
+      "name": "Bonehunter Slicer",
+      "item_name": "#DOTA_Item_Bonehunter_Slicer",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/weapon_savagebeast.vmdl"
+    },
+    {
+      "id": "4332",
+      "name": "Bonehunter Slicer - Off-Hand",
+      "item_name": "#DOTA_Item_Bonehunter_Slicer__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/offhand_savagebeast.vmdl"
+    },
+    {
+      "id": "4333",
+      "name": "Bonehunter Spineguard",
+      "item_name": "#DOTA_Item_Bonehunter_Spineguard",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/back_savagebeast.vmdl"
+    },
+    {
+      "id": "4430",
+      "name": "Furyblade",
+      "item_name": "#DOTA_Item_Furyblade",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/furyblade_model/furyblade_model.vmdl"
+    },
+    {
+      "id": "4431",
+      "name": "Furyblade - Off-Hand",
+      "item_name": "#DOTA_Item_Furyblade__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/furyblade_offhand_model/furyblade_offhand_model.vmdl"
+    },
+    {
+      "id": "4491",
+      "name": "Spinal Slicer - Off-Hand",
+      "item_name": "#DOTA_Item_Spinal_Slicer__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/spinal_offhand/spinal_offhand.vmdl"
+    },
+    {
+      "id": "4492",
+      "name": "Spinal Slicer",
+      "item_name": "#DOTA_Item_Spinal_Slicer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/spinal_weapon/spinal_weapon.vmdl"
+    },
+    {
+      "id": "5135",
+      "name": "Wraps of the Blood Covenant",
+      "item_name": "#DOTA_Item_Wraps_of_the_Blood_Covenant",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_covenant_arms/blood_covenant_arms.vmdl"
+    },
+    {
+      "id": "5136",
+      "name": "Mantle of the Blood Covenant",
+      "item_name": "#DOTA_Item_Mantle_of_the_Blood_Covenant",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_covenant_back/blood_covenant_back.vmdl"
+    },
+    {
+      "id": "5137",
+      "name": "Belt of the Blood Covenant",
+      "item_name": "#DOTA_Item_Belt_of_the_Blood_Covenant",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_covenant_belt/blood_covenant_belt.vmdl"
+    },
+    {
+      "id": "5138",
+      "name": "Blade of the Blood Covenant - Off-Hand",
+      "item_name": "#DOTA_Item_Blade_of_the_Blood_Covenant__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_covenant_offhand/blood_covenant_offhand.vmdl"
+    },
+    {
+      "id": "5139",
+      "name": "Pads of the Blood Covenant",
+      "item_name": "#DOTA_Item_Pads_of_the_Blood_Covenant",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_covenant_shoulder/blood_covenant_shoulder.vmdl"
+    },
+    {
+      "id": "5140",
+      "name": "Blade of the Blood Covenant",
+      "item_name": "#DOTA_Item_Blade_of_the_Blood_Covenant",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_covenant_weapon/blood_covenant_weapon.vmdl"
+    },
+    {
+      "id": "5141",
+      "name": "Cowl of the Blood Covenant",
+      "item_name": "#DOTA_Item_Cowl_of_the_Blood_Covenant",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_covenant_head/blood_covenant_head.vmdl"
+    },
+    {
+      "id": "5298",
+      "name": "Gallows Understudy Mantle",
+      "item_name": "#DOTA_Item_Gallows_Understudy_Mantle",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_seeker_executioner_mantle/blood_seeker_executioner_mantle.vmdl"
+    },
+    {
+      "id": "5300",
+      "name": "Gallows Understudy Hood",
+      "item_name": "#DOTA_Item_Gallows_Understudy_Hood",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_seeker_executioner_hood/blood_seeker_executioner_hood.vmdl"
+    },
+    {
+      "id": "5306",
+      "name": "Gallows Understudy Back",
+      "item_name": "#DOTA_Item_Gallows_Understudy_Back",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_seeker_executioner_collar/blood_seeker_executioner_collar.vmdl"
+    },
+    {
+      "id": "5307",
+      "name": "Gallows Understudy Gauntlets",
+      "item_name": "#DOTA_Item_Gallows_Understudy_Gauntlets",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_seeker_executioner_gauntlets/blood_seeker_executioner_gauntlets.vmdl"
+    },
+    {
+      "id": "5308",
+      "name": "Gallows Understudy Skirt",
+      "item_name": "#DOTA_Item_Gallows_Understudy_Skirt",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_seeker_executioner_skirt/blood_seeker_executioner_skirt.vmdl"
+    },
+    {
+      "id": "5309",
+      "name": "Gallows Understudy Blade",
+      "item_name": "#DOTA_Item_Gallows_Understudy_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_seeker_executioner_weapon/blood_seeker_executioner_weapon.vmdl"
+    },
+    {
+      "id": "5310",
+      "name": "Gallows Understudy Blade - Off-Hand",
+      "item_name": "#DOTA_Item_Gallows_Understudy_Blade__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_seeker_executioner_weapon_off/blood_seeker_executioner_weapon_off.vmdl"
+    },
+    {
+      "id": "5502",
+      "name": "Auspice of Iczoxtotec",
+      "item_name": "#DOTA_Item_Auspice_of_Iczoxtotec",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/auspice_of_iczoxtotec/auspice_of_iczoxtotec.vmdl"
+    },
+    {
+      "id": "5505",
+      "name": "Belt of the Scarlet Raven",
+      "item_name": "#DOTA_Item_Belt_of_the_Scarlet_Raven",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/belt_of_scarlet_claws/belt_of_scarlet_claws.vmdl"
+    },
+    {
+      "id": "5506",
+      "name": "Gauntlets of the Scarlet Raven",
+      "item_name": "#DOTA_Item_Gauntlets_of_the_Scarlet_Raven",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/scarlet_ravens_gauntlets/scarlet_ravens_gauntlets.vmdl"
+    },
+    {
+      "id": "5508",
+      "name": "Necklace of Scarlet Raven",
+      "item_name": "#DOTA_Item_Necklace_of_Scarlet_Raven",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/necklace_of_scarlet_claws/necklace_of_scarlet_claws.vmdl"
+    },
+    {
+      "id": "5509",
+      "name": "Talon of the Scarlet Raven",
+      "item_name": "#DOTA_Item_Talon_of_the_Scarlet_Raven",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/talon_of_the_scarlet_raven/talon_of_the_scarlet_raven.vmdl"
+    },
+    {
+      "id": "5510",
+      "name": "Coat of the Scarlet Raven",
+      "item_name": "#DOTA_Item_Coat_of_the_Scarlet_Raven",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/coat_of_the_scarlet_raven/coat_of_the_scarlet_raven.vmdl"
+    },
+    {
+      "id": "5511",
+      "name": "Hood of the Scarlet Raven",
+      "item_name": "#DOTA_Item_Hood_of_the_Scarlet_Raven",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/hood_of_the_scarlet_raven/hood_of_the_scarlet_raven.vmdl"
+    },
+    {
+      "id": "5512",
+      "name": "Talon of the Scarlet Raven - Off-Hand",
+      "item_name": "#DOTA_Item_Talon_of_the_Scarlet_Raven__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/talon_of_the_scarlet_raven__offhand/talon_of_the_scarlet_raven__offhand.vmdl"
+    },
+    {
+      "id": "5608",
+      "name": "Bloodstone Blade",
+      "item_name": "#DOTA_Item_Bloodstone_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodstone_blade/bloodstone_blade.vmdl"
+    },
+    {
+      "id": "5609",
+      "name": "Bloodstone Blade - Off-Hand",
+      "item_name": "#DOTA_Item_Bloodstone_Blade__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodstone_blade__offhand/bloodstone_blade__offhand.vmdl"
+    },
+    {
+      "id": "6650",
+      "name": "Tribal Terror Belt",
+      "item_name": "#DOTA_Item_Tribal_Terror_Belt",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/tribal_terror_belt/tribal_terror_belt.vmdl"
+    },
+    {
+      "id": "6651",
+      "name": "Tribal Terror Cape",
+      "item_name": "#DOTA_Item_Tribal_Terror_Cape",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/tribal_terror_back/tribal_terror_back.vmdl"
+    },
+    {
+      "id": "6652",
+      "name": "Tribal Terror Headdress",
+      "item_name": "#DOTA_Item_Tribal_Terror_Headdress",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/tribal_terror_head/tribal_terror_head.vmdl"
+    },
+    {
+      "id": "6653",
+      "name": "Tribal Terror Offhand",
+      "item_name": "#DOTA_Item_Tribal_Terror_Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/tribal_terror_offhand/tribal_terror_offhand.vmdl"
+    },
+    {
+      "id": "6654",
+      "name": "Tribal Terror Bracers",
+      "item_name": "#DOTA_Item_Tribal_Terror_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/tribal_terror_arms/tribal_terror_arms.vmdl"
+    },
+    {
+      "id": "6655",
+      "name": "Tribal Terror Dreadlocks",
+      "item_name": "#DOTA_Item_Tribal_Terror_Dreadlocks",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/tribal_terror_shoulder/tribal_terror_shoulder.vmdl"
+    },
+    {
+      "id": "6656",
+      "name": "Tribal Terror Weapon",
+      "item_name": "#DOTA_Item_Tribal_Terror_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/tribal_terror_weapon/tribal_terror_weapon.vmdl"
+    },
+    {
+      "id": "6795",
+      "name": "Dragonblade Off-Hand",
+      "item_name": "#DOTA_Item_Dragonblade_OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/yothdragonblade_offhand/yothdragonblade_offhand.vmdl"
+    },
+    {
+      "id": "6796",
+      "name": "Dragonblade",
+      "item_name": "#DOTA_Item_Dragonblade",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/yothdragonblade_weapon/yothdragonblade_weapon.vmdl"
+    },
+    {
+      "id": "7425",
+      "name": "Thirst of Eztzhok Blade",
+      "item_name": "#DOTA_Item_Thirst_of_Eztzhok_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/thirst_of_eztzhok_weapon/thirst_of_eztzhok.vmdl"
+    },
+    {
+      "id": "7426",
+      "name": "Thirst of Eztzhok - Off-Hand",
+      "item_name": "#DOTA_Item_Thirst_of_Eztzhok__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/thirst_of_eztzhok_weapon_offhand/thirst_of_eztzhok_offhand.vmdl"
+    },
+    {
+      "id": "8201",
+      "name": "Belt of the Sacrificial Serpent",
+      "item_name": "#DOTA_Item_Belt_of_the_Sacrificial_Serpent",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/dplus_sacrificial_serpent_belt/dplus_sacrificial_serpent_belt.vmdl"
+    },
+    {
+      "id": "8202",
+      "name": "Head of the Sacrificial Serpent",
+      "item_name": "#DOTA_Item_Head_of_the_Sacrificial_Serpent",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/dplus_sacrificial_serpent_head/dplus_sacrificial_serpent_head.vmdl"
+    },
+    {
+      "id": "8204",
+      "name": "Weapon of the Sacrificial Serpent",
+      "item_name": "#DOTA_Item_Weapon_of_the_Sacrificial_Serpent",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/dplus_sacrificial_serpent_weapon/dplus_sacrificial_serpent_weapon.vmdl"
+    },
+    {
+      "id": "8208",
+      "name": "Shoulders of the Sacrificial Serpent",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Sacrificial_Serpent",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/dplus_sacrificial_serpent_shoulder/dplus_sacrificial_serpent_shoulder.vmdl"
+    },
+    {
+      "id": "8736",
+      "name": "Helm of the Primeval Predator",
+      "item_name": "#DOTA_Item_Helm_of_the_Primeval_Predator",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_head/bloodseeker_relentless_hunter_head.vmdl"
+    },
+    {
+      "id": "8833",
+      "name": "Offhand Weapon of the Sacrificial Serpent",
+      "item_name": "#DOTA_Item_Offhand_Weapon_of_the_Sacrificial_Serpent",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/dplus_sacrificial_serpent_offhand/dplus_sacrificial_serpent_offhand.vmdl"
+    },
+    {
+      "id": "8835",
+      "name": "Gauntlets of the Primeval Predator",
+      "item_name": "#DOTA_Item_Gauntlets_of_the_Primeval_Predator",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_arms/bloodseeker_relentless_hunter_arms.vmdl"
+    },
+    {
+      "id": "8836",
+      "name": "Shield of the Primeval Predator",
+      "item_name": "#DOTA_Item_Shield_of_the_Primeval_Predator",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_back/bloodseeker_relentless_hunter_back.vmdl"
+    },
+    {
+      "id": "8837",
+      "name": "Belt of the Primeval Predator",
+      "item_name": "#DOTA_Item_Belt_of_the_Primeval_Predator",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_belt/bloodseeker_relentless_hunter_belt.vmdl"
+    },
+    {
+      "id": "8838",
+      "name": "Tattoo of the Primeval Predator",
+      "item_name": "#DOTA_Item_Tattoo_of_the_Primeval_Predator",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_shoulder/bloodseeker_relentless_hunter_shoulder.vmdl"
+    },
+    {
+      "id": "8839",
+      "name": "Off-Hand Blade of the Primeval Predator",
+      "item_name": "#DOTA_Item_OffHand_Blade_of_the_Primeval_Predator",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_off_hand/bloodseeker_relentless_hunter_off_hand.vmdl"
+    },
+    {
+      "id": "8873",
+      "name": "Blade of the Primeval Predator",
+      "item_name": "#DOTA_Item_Blade_of_the_Primeval_Predator",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_weapon/bloodseeker_relentless_hunter_weapon.vmdl"
+    },
+    {
+      "id": "9241",
+      "name": "Maw of Eztzhok",
+      "item_name": "#DOTA_Item_Maw_of_Eztzhok",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodseeker_immortal_head/bloodseeker_immortal_head.vmdl"
+    },
+    {
+      "id": "9305",
+      "name": "Cape of the Weeping Beast",
+      "item_name": "#DOTA_Item_Cape_of_the_Weeping_Beast",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/hunt_of_the_weeping_beast_back/hunt_of_the_weeping_beast_back.vmdl"
+    },
+    {
+      "id": "9306",
+      "name": "Mask of the Weeping Beast",
+      "item_name": "#DOTA_Item_Mask_of_the_Weeping_Beast",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/hunt_of_the_weeping_beast_head/hunt_of_the_weeping_beast_head.vmdl"
+    },
+    {
+      "id": "9307",
+      "name": "Drape of the Weeping Beast",
+      "item_name": "#DOTA_Item_Drape_of_the_Weeping_Beast",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/hunt_of_the_weeping_beast_belt/hunt_of_the_weeping_beast_belt.vmdl"
+    },
+    {
+      "id": "9308",
+      "name": "Guard of the Weeping Beast",
+      "item_name": "#DOTA_Item_Guard_of_the_Weeping_Beast",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/hunt_of_the_weeping_beast_shoulder/hunt_of_the_weeping_beast_shoulder.vmdl"
+    },
+    {
+      "id": "9309",
+      "name": "Gauntlets of the Weeping Beast",
+      "item_name": "#DOTA_Item_Gauntlets_of_the_Weeping_Beast",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/hunt_of_the_weeping_beast_arms/hunt_of_the_weeping_beast_arms.vmdl"
+    },
+    {
+      "id": "9310",
+      "name": "Offhand Blade of the Weeping Beast",
+      "item_name": "#DOTA_Item_Offhand_Blade_of_the_Weeping_Beast",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/hunt_of_the_weeping_beast_offhand/hunt_of_the_weeping_beast_offhand.vmdl"
+    },
+    {
+      "id": "9311",
+      "name": "Blade of the Weeping Beast",
+      "item_name": "#DOTA_Item_Blade_of_the_Weeping_Beast",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/hunt_of_the_weeping_beast_weapon/hunt_of_the_weeping_beast_weapon.vmdl"
+    },
+    {
+      "id": "9659",
+      "name": "Back of the Sacrificial Serpent",
+      "item_name": "#DOTA_Item_Back_of_the_Sacrificial_Serpent",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/dplus_sacrificial_serpent_back/dplus_sacrificial_serpent_back.vmdl"
+    },
+    {
+      "id": "9660",
+      "name": "Arms of the Sacrificial Serpent",
+      "item_name": "#DOTA_Item_Arms_of_the_Sacrificial_Serpent",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/dplus_sacrificial_serpent_arms/dplus_sacrificial_serpent_arms.vmdl"
+    },
+    {
+      "id": "9809",
+      "name": "Belt of the Sanguine Spectrum",
+      "item_name": "#DOTA_Item_Belt_of_the_Sanguine_Spectrum",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/ti8_bs_sanguine_nightmare_belt/ti8_bs_sanguine_nightmare_belt.vmdl"
+    },
+    {
+      "id": "9810",
+      "name": "Head of the Sanguine Spectrum",
+      "item_name": "#DOTA_Item_Head_of_the_Sanguine_Spectrum",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/ti8_bs_sanguine_nightmare_head/ti8_bs_sanguine_nightmare_head.vmdl"
+    },
+    {
+      "id": "9811",
+      "name": "Back of the Sanguine Spectrum",
+      "item_name": "#DOTA_Item_Back_of_the_Sanguine_Spectrum",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/ti8_bs_sanguine_nightmare_back/ti8_bs_sanguine_nightmare_back.vmdl"
+    },
+    {
+      "id": "9817",
+      "name": "Off-Hand of the Sanguine Spectrum",
+      "item_name": "#DOTA_Item_OffHand_of_the_Sanguine_Spectrum",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/ti8_bs_sanguine_nightmare_off_hand/ti8_bs_sanguine_nightmare_off_hand.vmdl"
+    },
+    {
+      "id": "9819",
+      "name": "Shoulder of the Sanguine Spectrum",
+      "item_name": "#DOTA_Item_Shoulder_of_the_Sanguine_Spectrum",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/ti8_bs_sanguine_nightmare_shoulder/ti8_bs_sanguine_nightmare_shoulder.vmdl"
+    },
+    {
+      "id": "9820",
+      "name": "Blade of the Sanguine Spectrum",
+      "item_name": "#DOTA_Item_Blade_of_the_Sanguine_Spectrum",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/ti8_bs_sanguine_nightmare_weapon/ti8_bs_sanguine_nightmare_weapon.vmdl"
+    },
+    {
+      "id": "9821",
+      "name": "Arms of the Sanguine Spectrum",
+      "item_name": "#DOTA_Item_Arms_of_the_Sanguine_Spectrum",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/ti8_bs_sanguine_nightmare_arms/ti8_bs_sanguine_nightmare_arms.vmdl"
+    },
+    {
+      "id": "10138",
+      "name": "Expired Treasure of the Twins",
+      "item_name": "#DOTA_Item_Expired_Treasure_of_the_Twins",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "retired_treasure_chest"
+    },
+    {
+      "id": "12717",
+      "name": "Off-Hand of Harvest's Hound",
+      "item_name": "#DOTA_Item_OffHand_of_Harvests_Hound",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/frostivus2018_bs_iceblood_hound_off_hand/frostivus2018_bs_iceblood_hound_off_hand.vmdl"
+    },
+    {
+      "id": "12718",
+      "name": "Blade of Harvest's Hound",
+      "item_name": "#DOTA_Item_Blade_of_Harvests_Hound",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/frostivus2018_bs_iceblood_hound_weapon/frostivus2018_bs_iceblood_hound_weapon.vmdl"
+    },
+    {
+      "id": "12719",
+      "name": "Belt of Harvest's Hound",
+      "item_name": "#DOTA_Item_Belt_of_Harvests_Hound",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/frostivus2018_bs_iceblood_hound_belt/frostivus2018_bs_iceblood_hound_belt.vmdl"
+    },
+    {
+      "id": "12720",
+      "name": "Back of Harvest's Hound",
+      "item_name": "#DOTA_Item_Back_of_Harvests_Hound",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/frostivus2018_bs_iceblood_hound_back/frostivus2018_bs_iceblood_hound_back.vmdl"
+    },
+    {
+      "id": "12721",
+      "name": "Arms of Harvest's Hound",
+      "item_name": "#DOTA_Item_Arms_of_Harvests_Hound",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/frostivus2018_bs_iceblood_hound_arms/frostivus2018_bs_iceblood_hound_arms.vmdl"
+    },
+    {
+      "id": "12722",
+      "name": "Shoulder of Harvest's Hound",
+      "item_name": "#DOTA_Item_Shoulder_of_Harvests_Hound",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/frostivus2018_bs_iceblood_hound_shoulder/frostivus2018_bs_iceblood_hound_shoulder.vmdl"
+    },
+    {
+      "id": "12723",
+      "name": "Head of Harvest's Hound",
+      "item_name": "#DOTA_Item_Head_of_Harvests_Hound",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/frostivus2018_bs_iceblood_hound_head/frostivus2018_bs_iceblood_hound_head.vmdl"
+    },
+    {
+      "id": "13443",
+      "name": "Off-Hand Weapon of the Bloodforge",
+      "item_name": "#DOTA_Item_OffHand_Weapon_of_the_Bloodforge",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/ti9_cache_bloodseeker_boiling_blood_off_hand/ti9_cache_bloodseeker_boiling_blood_off_hand.vmdl"
+    },
+    {
+      "id": "13444",
+      "name": "Weapon of the Bloodforge",
+      "item_name": "#DOTA_Item_Weapon_of_the_Bloodforge",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/ti9_cache_bloodseeker_boiling_blood_weapon/ti9_cache_bloodseeker_boiling_blood_weapon.vmdl"
+    },
+    {
+      "id": "13445",
+      "name": "Shoulder of the Bloodforge",
+      "item_name": "#DOTA_Item_Shoulder_of_the_Bloodforge",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/ti9_cache_bloodseeker_boiling_blood_shoulder/ti9_cache_bloodseeker_boiling_blood_shoulder.vmdl"
+    },
+    {
+      "id": "13446",
+      "name": "Mask of the Bloodforge",
+      "item_name": "#DOTA_Item_Mask_of_the_Bloodforge",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/ti9_cache_bloodseeker_boiling_blood_head/ti9_cache_bloodseeker_boiling_blood_head.vmdl"
+    },
+    {
+      "id": "13447",
+      "name": "Belt of the Bloodforge",
+      "item_name": "#DOTA_Item_Belt_of_the_Bloodforge",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/ti9_cache_bloodseeker_boiling_blood_belt/ti9_cache_bloodseeker_boiling_blood_belt.vmdl"
+    },
+    {
+      "id": "13448",
+      "name": "Cape of the Bloodforge",
+      "item_name": "#DOTA_Item_Cape_of_the_Bloodforge",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/ti9_cache_bloodseeker_boiling_blood_back/ti9_cache_bloodseeker_boiling_blood_back.vmdl"
+    },
+    {
+      "id": "13449",
+      "name": "Bracer of the Bloodforge",
+      "item_name": "#DOTA_Item_Bracer_of_the_Bloodforge",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/ti9_cache_bloodseeker_boiling_blood_arms/ti9_cache_bloodseeker_boiling_blood_arms.vmdl"
+    },
+    {
+      "id": "18103",
+      "name": "Feast of the Unwilling Weapon",
+      "item_name": "#DOTA_Item_Feast_of_the_Unwilling_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_prince_corruption_weapon/blood_prince_corruption_weapon.vmdl"
+    },
+    {
+      "id": "18104",
+      "name": "Feast of the Unwilling Shoulders",
+      "item_name": "#DOTA_Item_Feast_of_the_Unwilling_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_prince_corruption_shoulder/blood_prince_corruption_shoulder.vmdl"
+    },
+    {
+      "id": "18105",
+      "name": "Feast of the Unwilling Off-Hand Weapon",
+      "item_name": "#DOTA_Item_Feast_of_the_Unwilling_OffHand_Weapon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_prince_corruption_off_hand/blood_prince_corruption_off_hand.vmdl"
+    },
+    {
+      "id": "18106",
+      "name": "Feast of the Unwilling Hood",
+      "item_name": "#DOTA_Item_Feast_of_the_Unwilling_Hood",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_prince_corruption_head/blood_prince_corruption_head.vmdl"
+    },
+    {
+      "id": "18107",
+      "name": "Feast of the Unwilling Belt",
+      "item_name": "#DOTA_Item_Feast_of_the_Unwilling_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_prince_corruption_belt/blood_prince_corruption_belt.vmdl"
+    },
+    {
+      "id": "18108",
+      "name": "Feast of the Unwilling Armor",
+      "item_name": "#DOTA_Item_Feast_of_the_Unwilling_Armor",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_prince_corruption_back/blood_prince_corruption_back.vmdl"
+    },
+    {
+      "id": "18109",
+      "name": "Feast of the Unwilling Bracers",
+      "item_name": "#DOTA_Item_Feast_of_the_Unwilling_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/blood_prince_corruption_arms/blood_prince_corruption_arms.vmdl"
+    },
+    {
+      "id": "18311",
+      "name": "Bloodseeker's Diretide Shimmer Costume",
+      "item_name": "#DOTA_Item_Bloodseekers_Diretide_Shimmer_Costume",
+      "item_slot": "costume",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18318",
+      "name": "Bloodseeker's Diretide Shimmer Belt",
+      "item_name": "#DOTA_Item_Bloodseekers_Diretide_Shimmer_Belt",
+      "item_slot": "belt",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/blood_seeker/belt.vmdl"
+    },
+    {
+      "id": "18319",
+      "name": "Bloodseeker's Diretide Shimmer Bracer",
+      "item_name": "#DOTA_Item_Bloodseekers_Diretide_Shimmer_Bracer",
+      "item_slot": "arms",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/blood_seeker/bracer.vmdl"
+    },
+    {
+      "id": "18320",
+      "name": "Bloodseeker's Diretide Shimmer Cape",
+      "item_name": "#DOTA_Item_Bloodseekers_Diretide_Shimmer_Cape",
+      "item_slot": "back",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/blood_seeker/cape.vmdl"
+    },
+    {
+      "id": "18321",
+      "name": "Bloodseeker's Diretide Shimmer Helmet",
+      "item_name": "#DOTA_Item_Bloodseekers_Diretide_Shimmer_Helmet",
+      "item_slot": "head",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/blood_seeker/helmet.vmdl"
+    },
+    {
+      "id": "18322",
+      "name": "Bloodseeker's Diretide Neck",
+      "item_name": "#DOTA_Item_Bloodseekers_Diretide_Neck",
+      "item_slot": "shoulder",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/blood_seeker/neck.vmdl"
+    },
+    {
+      "id": "18323",
+      "name": "Bloodseeker's Diretide Shimmer Weapon",
+      "item_name": "#DOTA_Item_Bloodseekers_Diretide_Shimmer_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/blood_seeker/weapon.vmdl"
+    },
+    {
+      "id": "18324",
+      "name": "Bloodseeker's Diretide Shimmer Offhand Weapon",
+      "item_name": "#DOTA_Item_Bloodseekers_Diretide_Shimmer_Offhand_Weapon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/blood_seeker/weapon_offhand.vmdl"
+    },
+    {
+      "id": "19012",
+      "name": "Taunt: Blades of Gory",
+      "item_name": "#DOTA_Item_Taunt_Blades_of_Gory",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "20021",
+      "name": "Ritual Garb of the Seeker Set",
+      "item_name": "#DOTA_Item_Ritual_Garb_of_the_Seeker_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20047",
+      "name": "The Bonehunter Set",
+      "item_name": "#DOTA_Item_The_Bonehunter_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20073",
+      "name": "Furyblades Pack",
+      "item_name": "#DOTA_Item_Furyblades",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20074",
+      "name": "Spinal Slicers Pack",
+      "item_name": "#DOTA_Item_Spinal_Slicers",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20075",
+      "name": "War Blades Pack",
+      "item_name": "#DOTA_Item_War_Blades",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20076",
+      "name": "Back Hooks Pack",
+      "item_name": "#DOTA_Item_Back_Hooks",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20077",
+      "name": "Bloodletters Pack",
+      "item_name": "#DOTA_Item_Bloodletters",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20078",
+      "name": "Bonehunter Slicers Pack",
+      "item_name": "#DOTA_Item_Bonehunter_Slicers",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20204",
+      "name": "Blood Covenant Blade Pack",
+      "item_name": "#DOTA_Item_Blood_Covenant_Blade_Pack",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20205",
+      "name": "Wrath of the Blood Covenant Set",
+      "item_name": "#DOTA_Item_Wrath_of_the_Blood_Covenant_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20240",
+      "name": "The Gallows Understudy Set",
+      "item_name": "#DOTA_Item_The_Gallows_Understudy_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20242",
+      "name": "The Gallows Understudy Blade Pack",
+      "item_name": "#DOTA_Item_The_Gallows_Understudy_Blade_Pack",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20276",
+      "name": "Ardor of the Scarlet Raven Set",
+      "item_name": "#DOTA_Item_Ardor_of_the_Scarlet_Raven_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20284",
+      "name": "Talon of the Scarlet Raven Pack",
+      "item_name": "#DOTA_Item_Talon_of_the_Scarlet_Raven_Pack",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20297",
+      "name": "Bloodstone Blade Pack",
+      "item_name": "#DOTA_Item_Bloodstone_Blade_Pack",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20519",
+      "name": "Tribal Terror",
+      "item_name": "#DOTA_Item_Tribal_Terror",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20711",
+      "name": "Thirst of Eztzhok Bundle",
+      "item_name": "#DOTA_Item_Thirst_of_Eztzhok_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20846",
+      "name": "Hunt of the Weeping Beast",
+      "item_name": "#DOTA_Item_Hunt_of_the_Weeping_Beast",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21052",
+      "name": "Primeval Predator",
+      "item_name": "#DOTA_Item_Primeval_Predator",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21192",
+      "name": "Trail of the Sanguine Spectrum",
+      "item_name": "#DOTA_Item_Trail_of_the_Sanguine_Spectrum",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21287",
+      "name": "Harvest's Hound",
+      "item_name": "#DOTA_Item_Harvests_Hound",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21352",
+      "name": "Sacrificial Serpent",
+      "item_name": "#DOTA_Item_Sacrificial_Serpent",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21411",
+      "name": "Fury of the Bloodforge",
+      "item_name": "#DOTA_Item_Fury_of_the_Bloodforge",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21741",
+      "name": "Feast of the Unwilling",
+      "item_name": "#DOTA_Item_Feast_of_the_Unwilling",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21789",
+      "name": "Bloodseeker's Diretide Shimmer Bundle",
+      "item_name": "#DOTA_Item_Bloodseekers_Diretide_Shimmer_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22806",
+      "name": "Winter Lineage Helm of the Primeval Predator",
+      "item_name": "#DOTA_Item_Winter_Lineage_Helm_of_the_Primeval_Predator",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_head/bloodseeker_relentless_hunter_head.vmdl"
+    },
+    {
+      "id": "22807",
+      "name": "Winter Lineage Gauntlets of the Primeval Predator",
+      "item_name": "#DOTA_Item_Winter_Lineage_Gauntlets_of_the_Primeval_Predator",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_arms/bloodseeker_relentless_hunter_arms.vmdl"
+    },
+    {
+      "id": "22808",
+      "name": "Winter Lineage Shield of the Primeval Predator",
+      "item_name": "#DOTA_Item_Winter_Lineage_Shield_of_the_Primeval_Predator",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_back/bloodseeker_relentless_hunter_back.vmdl"
+    },
+    {
+      "id": "22809",
+      "name": "Winter Lineage Belt of the Primeval Predator",
+      "item_name": "#DOTA_Item_Winter_Lineage_Belt_of_the_Primeval_Predator",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_belt/bloodseeker_relentless_hunter_belt.vmdl"
+    },
+    {
+      "id": "22810",
+      "name": "Winter Lineage Tattoo of the Primeval Predator",
+      "item_name": "#DOTA_Item_Winter_Lineage_Tattoo_of_the_Primeval_Predator",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_shoulder/bloodseeker_relentless_hunter_shoulder.vmdl"
+    },
+    {
+      "id": "22811",
+      "name": "Winter Lineage Off-Hand Blade of the Primeval Predator",
+      "item_name": "#DOTA_Item_Winter_Lineage_OffHand_Blade_of_the_Primeval_Predator",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_off_hand/bloodseeker_relentless_hunter_off_hand.vmdl"
+    },
+    {
+      "id": "22812",
+      "name": "Winter Lineage Blade of the Primeval Predator",
+      "item_name": "#DOTA_Item_Winter_Lineage_Blade_of_the_Primeval_Predator",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodseeker_relentless_hunter_weapon/bloodseeker_relentless_hunter_weapon.vmdl"
+    },
+    {
+      "id": "22813",
+      "name": "Winter Lineage Primeval Predator",
+      "item_name": "#DOTA_Item_Winter_Lineage_Primeval_Predator",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25436",
+      "name": "Blood Raven - Arms",
+      "item_name": "#DOTA_Item_Blood_Raven__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bs_grim_harvester_arms/bs_grim_harvester_arms.vmdl"
+    },
+    {
+      "id": "25502",
+      "name": "Blood Raven",
+      "item_name": "#DOTA_Item_Blood_Raven",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25503",
+      "name": "Blood Raven - Beak",
+      "item_name": "#DOTA_Item_Blood_Raven__Beak",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bs_grim_harvester_head/bs_grim_harvester_head.vmdl"
+    },
+    {
+      "id": "25504",
+      "name": "Blood Raven - Offhand",
+      "item_name": "#DOTA_Item_Blood_Raven__Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bs_grim_harvester_offhand/bs_grim_harvester_offhand.vmdl"
+    },
+    {
+      "id": "25505",
+      "name": "Blood Raven - Cowl",
+      "item_name": "#DOTA_Item_Blood_Raven__Cowl",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bs_grim_harvester_cape/bs_grim_harvester_cape.vmdl"
+    },
+    {
+      "id": "25506",
+      "name": "Blood Raven - Blade",
+      "item_name": "#DOTA_Item_Blood_Raven__Blade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bs_grim_harvester_blade/bs_grim_harvester_blade.vmdl"
+    },
+    {
+      "id": "25507",
+      "name": "Blood Raven - Belt",
+      "item_name": "#DOTA_Item_Blood_Raven__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bs_grim_harvester_belt/bs_grim_harvester_belt.vmdl"
+    },
+    {
+      "id": "25508",
+      "name": "Blood Raven - Tunic",
+      "item_name": "#DOTA_Item_Blood_Raven__Tunic",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bs_grim_harvester_back/bs_grim_harvester_back.vmdl"
+    },
+    {
+      "id": "32137",
+      "name": "Heart of Eztzhok",
+      "item_name": "#DOTA_Item_Heart_of_Eztzhok",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/blood_seeker/bloodseeker_crownfall_immortal/bloodseeker_crownfall_immortal.vmdl"
+    }
+  ]
+}

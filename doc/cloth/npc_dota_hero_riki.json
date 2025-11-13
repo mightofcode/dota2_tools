@@ -1,0 +1,2235 @@
+{
+  "defaults": {
+    "head": {
+      "id": "163",
+      "name": "Riki's Horns",
+      "item_name": "#DOTA_Item_Rikis_Horns",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/rikimaru/rikimaru_head.vmdl"
+    },
+    "shoulder": {
+      "id": "164",
+      "name": "Riki's Shoulder Armor",
+      "item_name": "#DOTA_Item_Rikis_Shoulder_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/rikimaru/rikimaru_shoulder.vmdl"
+    },
+    "tail": {
+      "id": "165",
+      "name": "Riki's Tail",
+      "item_name": "#DOTA_Item_Rikis_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "model_player": "models/heroes/rikimaru/rikimaru_tail.vmdl"
+    },
+    "arms": {
+      "id": "166",
+      "name": "Riki's Gloves",
+      "item_name": "#DOTA_Item_Rikis_Gloves",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/rikimaru/rikimaru_gloves.vmdl"
+    },
+    "offhand_weapon": {
+      "id": "322",
+      "name": "Riki's Offhand Dagger",
+      "item_name": "#DOTA_Item_Rikis_Offhand_Dagger",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/rikimaru/rikimaru__offhand_weapon.vmdl"
+    },
+    "weapon": {
+      "id": "561",
+      "name": "Riki's Dagger",
+      "item_name": "#DOTA_Item_Rikis_Dagger",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/rikimaru/rikimaru_weapon.vmdl"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Arms_of_the_Bladebreaker_Order",
+      "store_bundle": "Arms of the Bladebreaker Order Set",
+      "portrait_image": "econ/sets/v2/blade_armor_set",
+      "items": [
+        {
+          "name": "Bladebreaker Hood",
+          "id": "5267",
+          "item_name": "#DOTA_Item_Bladebreaker_Hood",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/bladearmorhelm/bladearmorhelm.vmdl"
+        },
+        {
+          "name": "Bladebreaker Armguards",
+          "id": "5266",
+          "item_name": "#DOTA_Item_Bladebreaker_Armguards",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/bladearmorgloves/bladearmorgloves.vmdl"
+        },
+        {
+          "name": "Bladebreaker Spaulders",
+          "id": "5269",
+          "item_name": "#DOTA_Item_Bladebreaker_Spaulders",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/bladearmorshoulder/bladearmorshoulder.vmdl"
+        },
+        {
+          "name": "Bladebreaker Brush",
+          "id": "5277",
+          "item_name": "#DOTA_Item_Bladebreaker_Brush",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/bladearmortail/bladearmortail.vmdl"
+        },
+        {
+          "name": "Bladebreaker Dagger",
+          "id": "5290",
+          "item_name": "#DOTA_Item_Bladebreaker_Dagger",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/bladearmorweapon/bladearmorweapon.vmdl"
+        },
+        {
+          "name": "Bladebreaker Dagger - Off-Hand",
+          "id": "5268",
+          "item_name": "#DOTA_Item_Bladebreaker_Dagger__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/bladearmoroffhand/bladearmoroffhand.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Covert_Saboteur",
+      "store_bundle": "Covert Saboteur",
+      "portrait_image": "econ/sets/v2/covert_saboteur",
+      "items": [
+        {
+          "name": "Off-Hand Blade of the Covert Saboteur",
+          "id": "8441",
+          "item_name": "#DOTA_Item_OffHand_Blade_of_the_Covert_Saboteur",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/riki_golden_saboteur_weapon_offhand/riki_golden_saboteur_weapon_offhand.vmdl"
+        },
+        {
+          "name": "Cuffs of the Covert Saboteur",
+          "id": "8444",
+          "item_name": "#DOTA_Item_Cuffs_of_the_Covert_Saboteur",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/riki_golden_saboteur__arms/riki_golden_saboteur__arms.vmdl"
+        },
+        {
+          "name": "Spaulder of the Covert Saboteur",
+          "id": "8445",
+          "item_name": "#DOTA_Item_Spaulder_of_the_Covert_Saboteur",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/riki_golden_saboteur__shoulder/riki_golden_saboteur__shoulder.vmdl"
+        },
+        {
+          "name": "Helm of the Covert Saboteur",
+          "id": "8446",
+          "item_name": "#DOTA_Item_Helm_of_the_Covert_Saboteur",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/riki_golden_saboteur__head_alt/riki_golden_saboteur__head_alt.vmdl"
+        },
+        {
+          "name": "Blade of the Covert Saboteur",
+          "id": "8443",
+          "item_name": "#DOTA_Item_Blade_of_the_Covert_Saboteur",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/riki_golden_saboteur_weapon/riki_golden_saboteur_weapon.vmdl"
+        },
+        {
+          "name": "Whip of the Covert Saboteur",
+          "id": "8442",
+          "item_name": "#DOTA_Item_Whip_of_the_Covert_Saboteur",
+          "item_slot": "tail",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/riki_golden_saboteur_tail/riki_golden_saboteur_tail.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Cunning_Corsair",
+      "store_bundle": "Cunning Corsair",
+      "portrait_image": "econ/sets/v2/cunning_corsair",
+      "items": [
+        {
+          "name": "Hat of the Cunning Corsair",
+          "id": "9434",
+          "item_name": "#DOTA_Item_Hat_of_the_Cunning_Corsair",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_cunning_corsair_ti_2017_head/riki_cunning_corsair_ti_2017_head.vmdl"
+        },
+        {
+          "name": "Cuffs of the Cunning Corsair",
+          "id": "9435",
+          "item_name": "#DOTA_Item_Cuffs_of_the_Cunning_Corsair",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_cunning_corsair_ti_2017_arms/riki_cunning_corsair_ti_2017_arms.vmdl"
+        },
+        {
+          "name": "Shoulder Pads of the Cunning Corsair",
+          "id": "9436",
+          "item_name": "#DOTA_Item_Shoulder_Pads_of_the_Cunning_Corsair",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_cunning_corsair_ti_2017_shoulder/riki_cunning_corsair_ti_2017_shoulder.vmdl"
+        },
+        {
+          "name": "Tail of the Cunning Corsair",
+          "id": "9437",
+          "item_name": "#DOTA_Item_Tail_of_the_Cunning_Corsair",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_cunning_corsair_ti_2017_tail/riki_cunning_corsair_ti_2017_tail.vmdl"
+        },
+        {
+          "name": "Hook of the Cunning Corsair",
+          "id": "9438",
+          "item_name": "#DOTA_Item_Hook_of_the_Cunning_Corsair",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_cunning_corsair_ti_2017_off_hand/riki_cunning_corsair_ti_2017_off_hand.vmdl"
+        },
+        {
+          "name": "Dagger of the Cunning Corsair",
+          "id": "9439",
+          "item_name": "#DOTA_Item_Dagger_of_the_Cunning_Corsair",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_cunning_corsair_ti_2017_weapon/riki_cunning_corsair_ti_2017_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Frozen_Blood",
+      "store_bundle": "Frozen Blood",
+      "portrait_image": "econ/sets/v2/frozen_blood",
+      "items": [
+        {
+          "name": "Tail of the Frozen Blood",
+          "id": "6370",
+          "item_name": "#DOTA_Item_Tail_of_the_Frozen_Blood",
+          "item_slot": "tail",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/frozenblood_tail/frozenblood_tail.vmdl"
+        },
+        {
+          "name": "Bracers of the Frozen Blood",
+          "id": "6365",
+          "item_name": "#DOTA_Item_Bracers_of_the_Frozen_Blood",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/frozenblood_arms/frozenblood_arms.vmdl"
+        },
+        {
+          "name": "Dagger of the Frozen Blood",
+          "id": "6366",
+          "item_name": "#DOTA_Item_Dagger_of_the_Frozen_Blood",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/frozenblood_weapon/frozenblood_weapon.vmdl"
+        },
+        {
+          "name": "Dagger of the Frozen Blood Off-Hand",
+          "id": "6367",
+          "item_name": "#DOTA_Item_Dagger_of_the_Frozen_Blood_OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/frozenblood_offhandweapon/frozenblood_offhandweapon.vmdl"
+        },
+        {
+          "name": "Horns of the Frozen Blood",
+          "id": "6368",
+          "item_name": "#DOTA_Item_Horns_of_the_Frozen_Blood",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/frozenblood_head/frozenblood_head.vmdl"
+        },
+        {
+          "name": "Armor of the Frozen Blood",
+          "id": "6369",
+          "item_name": "#DOTA_Item_Armor_of_the_Frozen_Blood",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/frozenblood_shoulder/frozenblood_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Hunger_of_the_Howling_Wilds",
+      "store_bundle": "Hunger of the Howling Wilds",
+      "portrait_image": "econ/sets/v2/hunger_of_the_howling_wilds",
+      "items": [
+        {
+          "name": "Hunger of the Howling Wilds Arms",
+          "id": "14776",
+          "item_name": "#DOTA_Item_Hunger_of_the_Howling_Wilds_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_killer_of_purple_smoke_arms/riki_killer_of_purple_smoke_arms.vmdl"
+        },
+        {
+          "name": "Hunger of the Howling Wilds Head",
+          "id": "14775",
+          "item_name": "#DOTA_Item_Hunger_of_the_Howling_Wilds_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_killer_of_purple_smoke_head/riki_killer_of_purple_smoke_head.vmdl"
+        },
+        {
+          "name": "Hunger of the Howling Wilds Off-Hand Weapon",
+          "id": "14774",
+          "item_name": "#DOTA_Item_Hunger_of_the_Howling_Wilds_OffHand_Weapon",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_killer_of_purple_smoke_off_hand/riki_killer_of_purple_smoke_off_hand.vmdl"
+        },
+        {
+          "name": "Hunger of the Howling Wilds Shoulder",
+          "id": "14773",
+          "item_name": "#DOTA_Item_Hunger_of_the_Howling_Wilds_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_killer_of_purple_smoke_shoulder/riki_killer_of_purple_smoke_shoulder.vmdl"
+        },
+        {
+          "name": "Hunger of the Howling Wilds Tail",
+          "id": "14772",
+          "item_name": "#DOTA_Item_Hunger_of_the_Howling_Wilds_Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_killer_of_purple_smoke_tail/riki_killer_of_purple_smoke_tail.vmdl"
+        },
+        {
+          "name": "Hunger of the Howling Wilds Weapon",
+          "id": "14771",
+          "item_name": "#DOTA_Item_Hunger_of_the_Howling_Wilds_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_killer_of_purple_smoke_weapon/riki_killer_of_purple_smoke_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Junktown_Avenger",
+      "store_bundle": "Junktown Avenger",
+      "portrait_image": "econ/sets/v2/junktown_avenger",
+      "items": [
+        {
+          "name": "Junktown Avenger - Arms",
+          "id": "14853",
+          "item_name": "#DOTA_Item_Junktown_Avenger__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/riki_junk_rat_arms/riki_junk_rat_arms.vmdl"
+        },
+        {
+          "name": "Junktown Avenger - Head",
+          "id": "14852",
+          "item_name": "#DOTA_Item_Junktown_Avenger__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/riki_junk_rat_head/riki_junk_rat_head.vmdl"
+        },
+        {
+          "name": "Junktown Avenger - Off-Hand",
+          "id": "14851",
+          "item_name": "#DOTA_Item_Junktown_Avenger__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/riki_junk_rat_off_hand/riki_junk_rat_off_hand.vmdl"
+        },
+        {
+          "name": "Junktown Avenger - Shoulder",
+          "id": "14850",
+          "item_name": "#DOTA_Item_Junktown_Avenger__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/riki_junk_rat_shoulder/riki_junk_rat_shoulder.vmdl"
+        },
+        {
+          "name": "Junktown Avenger - Tail",
+          "id": "14849",
+          "item_name": "#DOTA_Item_Junktown_Avenger__Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/riki_junk_rat_tail/riki_junk_rat_tail.vmdl"
+        },
+        {
+          "name": "Junktown Avenger - Weapon",
+          "id": "14848",
+          "item_name": "#DOTA_Item_Junktown_Avenger__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/riki_junk_rat_weapon/riki_junk_rat_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Monstrous_Reprisal",
+      "store_bundle": "Monstrous Reprisal",
+      "portrait_image": "econ/sets/v2/monstrous_reprisal",
+      "items": [
+        {
+          "name": "Cape of Monstrous Reprisal",
+          "id": "7153",
+          "item_name": "#DOTA_Item_Cape_of_Monstrous_Reprisal",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/haze_atrocity_shoulder/haze_atrocity_shoulder.vmdl"
+        },
+        {
+          "name": "Bracers of Monstrous Reprisal",
+          "id": "7154",
+          "item_name": "#DOTA_Item_Bracers_of_Monstrous_Reprisal",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/haze_atrocity_arms/haze_atrocity_arms.vmdl"
+        },
+        {
+          "name": "Horns of Monstrous Reprisal",
+          "id": "7159",
+          "item_name": "#DOTA_Item_Horns_of_Monstrous_Reprisal",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/haze_atrocity_head/haze_atrocity_head.vmdl"
+        },
+        {
+          "name": "Blinkcutter of Monstrous Reprisal",
+          "id": "7161",
+          "item_name": "#DOTA_Item_Blinkcutter_of_Monstrous_Reprisal",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/haze_atrocity_offhand/haze_atrocity_offhand.vmdl"
+        },
+        {
+          "name": "Smoke Bomb of Monstrous Reprisal",
+          "id": "7162",
+          "item_name": "#DOTA_Item_Smoke_Bomb_of_Monstrous_Reprisal",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/haze_atrocity_tail/haze_atrocity_tail.vmdl"
+        },
+        {
+          "name": "Backslicer of Monstrous Reprisal",
+          "id": "7165",
+          "item_name": "#DOTA_Item_Backslicer_of_Monstrous_Reprisal",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/haze_atrocity_weapon/haze_atrocity_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Rightful_Heir",
+      "store_bundle": "Rightful Heir",
+      "portrait_image": "econ/sets/v2/rightful_heir",
+      "items": [
+        {
+          "name": "Golden Siblings Offhand",
+          "id": "6548",
+          "item_name": "#DOTA_Item_Golden_Siblings_Offhand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/rightful_heir_offhand/rightful_heir_offhand.vmdl"
+        },
+        {
+          "name": "Heir's Gift",
+          "id": "6546",
+          "item_name": "#DOTA_Item_Heirs_Gift",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/rightful_heir_arms/rightful_heir_arms.vmdl"
+        },
+        {
+          "name": "Heir's Glance",
+          "id": "6549",
+          "item_name": "#DOTA_Item_Heirs_Glance",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/rightful_heir_head/rightful_heir_head.vmdl"
+        },
+        {
+          "name": "Heir's Cover",
+          "id": "6550",
+          "item_name": "#DOTA_Item_Heirs_Cover",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/rightful_heir_shoulder/rightful_heir_shoulder.vmdl"
+        },
+        {
+          "name": "Heir's Steps",
+          "id": "6551",
+          "item_name": "#DOTA_Item_Heirs_Steps",
+          "item_slot": "tail",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/rightful_heir_tail/rightful_heir_tail.vmdl"
+        },
+        {
+          "name": "Golden Siblings Dagger",
+          "id": "6547",
+          "item_name": "#DOTA_Item_Golden_Siblings_Dagger",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Highborn_Reckoning",
+      "store_bundle": "Highborn Reckoning Set",
+      "portrait_image": "econ/sets/v2/riki_highborn_reckoning",
+      "items": [
+        {
+          "name": "Thorns of the Highborn",
+          "id": "5523",
+          "item_name": "#DOTA_Item_Thorns_of_the_Highborn",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/thorns_of_the_highborn/thorns_of_the_highborn.vmdl"
+        },
+        {
+          "name": "Curse of the Highborn",
+          "id": "5499",
+          "item_name": "#DOTA_Item_Curse_of_the_Highborn",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/curse_of_the_highborn/curse_of_the_highborn.vmdl"
+        },
+        {
+          "name": "Wrath of the Highborn",
+          "id": "5524",
+          "item_name": "#DOTA_Item_Wrath_of_the_Highborn",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/wrath_of_the_highborn/wrath_of_the_highborn.vmdl"
+        },
+        {
+          "name": "Burden of the Highborn",
+          "id": "5526",
+          "item_name": "#DOTA_Item_Burden_of_the_Highborn",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/burden_of_the_highborn/burden_of_the_highborn.vmdl"
+        },
+        {
+          "name": "Temper of the Highborn - Off-Hand",
+          "id": "5525",
+          "item_name": "#DOTA_Item_Temper_of_the_Highborn__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/wrath_of_the_highborn__offhand/wrath_of_the_highborn__offhand.vmdl"
+        },
+        {
+          "name": "Whisk of the Highborn",
+          "id": "5527",
+          "item_name": "#DOTA_Item_Whisk_of_the_Highborn",
+          "item_slot": "tail",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/tail_of_the_highborn/tail_of_the_highborn.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Rikis_Sange_and_Yasha",
+      "store_bundle": "Riki's Sange and Yasha",
+      "portrait_image": "econ/sets/v2/riki_sange_and_yasha",
+      "items": [
+        {
+          "name": "Sange the Backseeker",
+          "id": "4824",
+          "item_name": "#DOTA_Item_Sange_the_Backseeker",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/offhand_sange/offhand_sange.vmdl"
+        },
+        {
+          "name": "Yasha the Quickblade",
+          "id": "4823",
+          "item_name": "#DOTA_Item_Yasha_the_Quickblade",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/weapon_yasha/weapon_yasha.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Shadowshards",
+      "store_bundle": "Shadowshards",
+      "portrait_image": "econ/sets/v2/riki_shadowshards",
+      "items": [
+        {
+          "name": "Shadowshard - Off-Hand",
+          "id": "5164",
+          "item_name": "#DOTA_Item_Shadowshard__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/shadowfang_offhand/shadowfang_offhand.vmdl"
+        },
+        {
+          "name": "Shadowshard",
+          "id": "5165",
+          "item_name": "#DOTA_Item_Shadowshard",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/shadowfang_main/shadowfang_main.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Tahlin_Occult",
+      "store_bundle": "Tahlin Occult Set",
+      "portrait_image": "econ/sets/v2/riki_tahlin_occult",
+      "items": [
+        {
+          "name": "Tahlin Occult Hood",
+          "id": "5327",
+          "item_name": "#DOTA_Item_Tahlin_Occult_Hood",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/tahlin_occult_hood/tahlin_occult_hood.vmdl"
+        },
+        {
+          "name": "Tahlin Occult Dagger",
+          "id": "5274",
+          "item_name": "#DOTA_Item_Tahlin_Occult_Dagger",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/tahlin_occult_dagger/tahlin_occult_dagger.vmdl"
+        },
+        {
+          "name": "Tahlin Occult Dagger - Off-Hand",
+          "id": "5275",
+          "item_name": "#DOTA_Item_Tahlin_Occult_Dagger__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/tahlin_occult_dagger__offhand/tahlin_occult_dagger__offhand.vmdl"
+        },
+        {
+          "name": "Tahlin Occult Shoulder Sigil",
+          "id": "5276",
+          "item_name": "#DOTA_Item_Tahlin_Occult_Shoulder_Sigil",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/tahlin_occult_shoulder/tahlin_occult_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Gelid_Touch",
+      "store_bundle": "Gelid Touch",
+      "portrait_image": "econ/sets/v2/rikimaru_gelid_touch",
+      "items": [
+        {
+          "name": "Goatee of the Gelid Touch",
+          "id": "7328",
+          "item_name": "#DOTA_Item_Goatee_of_the_Gelid_Touch",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/frosty_blow_head/frosty_blow_head.vmdl"
+        },
+        {
+          "name": "Katar of the Gelid Touch",
+          "id": "7329",
+          "item_name": "#DOTA_Item_Katar_of_the_Gelid_Touch",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/frosty_blow_offhand/frosty_blow_offhand.vmdl"
+        },
+        {
+          "name": "Dagger of the Gelid Touch",
+          "id": "7330",
+          "item_name": "#DOTA_Item_Dagger_of_the_Gelid_Touch",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/frosty_blow_weapon/frosty_blow_weapon.vmdl"
+        },
+        {
+          "name": "Tail of the Gelid Touch",
+          "id": "7331",
+          "item_name": "#DOTA_Item_Tail_of_the_Gelid_Touch",
+          "item_slot": "tail",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/frosty_blow_tail/frosty_blow_tail.vmdl"
+        },
+        {
+          "name": "Bracers of the Gelid Touch",
+          "id": "7332",
+          "item_name": "#DOTA_Item_Bracers_of_the_Gelid_Touch",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/frosty_blow_arms/frosty_blow_arms.vmdl"
+        },
+        {
+          "name": "Colar of the Gelid Touch",
+          "id": "7333",
+          "item_name": "#DOTA_Item_Colar_of_the_Gelid_Touch",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/frosty_blow_shoulder/frosty_blow_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Summer_Lineage_Monstrous_Reprisal",
+      "store_bundle": "Summer Lineage Monstrous Reprisal",
+      "portrait_image": "econ/sets/v2/rikimaru_summer_lineage_monstrous_reprisal",
+      "items": [
+        {
+          "name": "Summer Lineage Cape of Monstrous Reprisal",
+          "id": "23240",
+          "item_name": "#DOTA_Item_Summer_Lineage_Cape_of_Monstrous_Reprisal",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/haze_atrocity_shoulder/haze_atrocity_shoulder.vmdl"
+        },
+        {
+          "name": "Summer Lineage Bracers of Monstrous Reprisal",
+          "id": "23241",
+          "item_name": "#DOTA_Item_Summer_Lineage_Bracers_of_Monstrous_Reprisal",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/haze_atrocity_arms/haze_atrocity_arms.vmdl"
+        },
+        {
+          "name": "Summer Lineage Horns of Monstrous Reprisal",
+          "id": "23242",
+          "item_name": "#DOTA_Item_Summer_Lineage_Horns_of_Monstrous_Reprisal",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/haze_atrocity_head/haze_atrocity_head.vmdl"
+        },
+        {
+          "name": "Summer Lineage Blinkcutter of Monstrous Reprisal",
+          "id": "23243",
+          "item_name": "#DOTA_Item_Summer_Lineage_Blinkcutter_of_Monstrous_Reprisal",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/haze_atrocity_offhand/haze_atrocity_offhand.vmdl"
+        },
+        {
+          "name": "Summer Lineage Smoke Bomb of Monstrous Reprisal",
+          "id": "23244",
+          "item_name": "#DOTA_Item_Summer_Lineage_Smoke_Bomb_of_Monstrous_Reprisal",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/haze_atrocity_tail/haze_atrocity_tail.vmdl"
+        },
+        {
+          "name": "Summer Lineage Backslicer of Monstrous Reprisal",
+          "id": "23245",
+          "item_name": "#DOTA_Item_Summer_Lineage_Backslicer_of_Monstrous_Reprisal",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/haze_atrocity_weapon/haze_atrocity_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Scarlet_Subversion",
+      "store_bundle": "Scarlet Subversion",
+      "portrait_image": "econ/sets/v2/scarlet_subversion",
+      "items": [
+        {
+          "name": "Scarlet Subversion - Weapon",
+          "id": "26811",
+          "item_name": "#DOTA_Item_Scarlet_Subversion__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_scarlet_fox_weapon/riki_scarlet_fox_weapon.vmdl"
+        },
+        {
+          "name": "Scarlet Subversion - Tail",
+          "id": "26810",
+          "item_name": "#DOTA_Item_Scarlet_Subversion__Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_scarlet_fox_tail/riki_scarlet_fox_tail.vmdl"
+        },
+        {
+          "name": "Scarlet Subversion - Shoulder",
+          "id": "26809",
+          "item_name": "#DOTA_Item_Scarlet_Subversion__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_scarlet_fox_shoulder/riki_scarlet_fox_shoulder.vmdl"
+        },
+        {
+          "name": "Scarlet Subversion - Offhand Weapon",
+          "id": "26808",
+          "item_name": "#DOTA_Item_Scarlet_Subversion__Offhand_Weapon",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_scarlet_fox_offhand_weapon/riki_scarlet_fox_offhand_weapon.vmdl"
+        },
+        {
+          "name": "Scarlet Subversion - Head",
+          "id": "26807",
+          "item_name": "#DOTA_Item_Scarlet_Subversion__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_scarlet_fox_head/riki_scarlet_fox_head.vmdl"
+        },
+        {
+          "name": "Scarlet Subversion - Arms",
+          "id": "26806",
+          "item_name": "#DOTA_Item_Scarlet_Subversion__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/rikimaru/riki_scarlet_fox_arms/riki_scarlet_fox_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Subtle_Demon",
+      "store_bundle": "The Subtle Demon Set",
+      "portrait_image": "econ/sets/v2/shinobi",
+      "items": [
+        {
+          "name": "Blade of the Subtle Demon",
+          "id": "4874",
+          "item_name": "#DOTA_Item_Blade_of_the_Subtle_Demon",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/riki_grand_fathers_blade_shinobi_main/riki_grand_fathers_blade_shinobi_main.vmdl"
+        },
+        {
+          "name": "Veil of the Subtle Demon",
+          "id": "4876",
+          "item_name": "#DOTA_Item_Veil_of_the_Subtle_Demon",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/riki_mask_of_the_last_shinobi/riki_mask_of_the_last_shinobi.vmdl"
+        },
+        {
+          "name": "Wraps of the Subtle Demon",
+          "id": "4877",
+          "item_name": "#DOTA_Item_Wraps_of_the_Subtle_Demon",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/riki_shadow_wraps_of_the_last_shinobi/riki_shadow_wraps_of_the_last_shinobi.vmdl"
+        },
+        {
+          "name": "Whip of the Subtle Demon",
+          "id": "4878",
+          "item_name": "#DOTA_Item_Whip_of_the_Subtle_Demon",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/riki_spiked_tail_of_the_last_shinobi/riki_spiked_tail_of_the_last_shinobi.vmdl"
+        },
+        {
+          "name": "Mark of the Subtle Demon",
+          "id": "4879",
+          "item_name": "#DOTA_Item_Mark_of_the_Subtle_Demon",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/riki_tengu_pauldron_of_the_last_shinobi/riki_tengu_pauldron_of_the_last_shinobi.vmdl"
+        },
+        {
+          "name": "Blade of the Subtle Demon - Off-Hand",
+          "id": "4875",
+          "item_name": "#DOTA_Item_Blade_of_the_Subtle_Demon__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/riki_grandfathers_blades_offhand/riki_grandfathers_blades_offhand.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Implements_of_the_Tahlin_Watch",
+      "store_bundle": "Implements of the Tahlin Watch Set",
+      "portrait_image": "econ/sets/v2/tahlin_assassin",
+      "items": [
+        {
+          "name": "Royal Dagger of the Tahlin Watch - Off-Hand",
+          "id": "4740",
+          "item_name": "#DOTA_Item_Royal_Dagger_of_the_Tahlin_Watch__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/masquerade_dagger_off/masquerade_dagger_off.vmdl"
+        },
+        {
+          "name": "Royal Dagger of the Tahlin Watch",
+          "id": "4739",
+          "item_name": "#DOTA_Item_Royal_Dagger_of_the_Tahlin_Watch",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/masquerade_dagger_main/masquerade_dagger_main.vmdl"
+        },
+        {
+          "name": "Bracer of the Tahlin Watch",
+          "id": "4715",
+          "item_name": "#DOTA_Item_Bracer_of_the_Tahlin_Watch",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/masquerade_bracers/masquerade_bracers.vmdl"
+        },
+        {
+          "name": "Sigil of the Tahlin Watch",
+          "id": "4714",
+          "item_name": "#DOTA_Item_Sigil_of_the_Tahlin_Watch",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/rikimaru/masquerade_shoulder/masquerade_shoulder.vmdl"
+        },
+        {
+          "name": "Mask of the Tahlin Watch",
+          "id": "4703",
+          "item_name": "#DOTA_Item_Mask_of_the_Tahlin_Watch",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/rikimaru/masquerade_mask/masquerade_mask.vmdl"
+        },
+        {
+          "name": "Slim Blade of the Tahlin Watch",
+          "id": "4702",
+          "item_name": "#DOTA_Item_Slim_Blade_of_the_Tahlin_Watch",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/masquerade_tail/masquerade_tail.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Whirling_Talons",
+      "store_bundle": "Whirling Talons",
+      "portrait_image": "econ/sets/v2/whirling_talons",
+      "items": [
+        {
+          "name": "Whirling Talons Off-Hand Dagger",
+          "id": "18280",
+          "item_name": "#DOTA_Item_Whirling_Talons_OffHand_Dagger",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/whirling_claws_offhand/whirling_claws_offhand.vmdl"
+        },
+        {
+          "name": "Whirling Talons Dagger",
+          "id": "18279",
+          "item_name": "#DOTA_Item_Whirling_Talons_Dagger",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/whirling_claws_weapon/whirling_claws_weapon.vmdl"
+        },
+        {
+          "name": "Whirling Talons Tail",
+          "id": "18278",
+          "item_name": "#DOTA_Item_Whirling_Talons_Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/whirling_claws_tail/whirling_claws_tail.vmdl"
+        },
+        {
+          "name": "Whirling Talons Shoulder",
+          "id": "18277",
+          "item_name": "#DOTA_Item_Whirling_Talons_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/whirling_claws_shoulder/whirling_claws_shoulder.vmdl"
+        },
+        {
+          "name": "Whirling Talons Bracer",
+          "id": "18276",
+          "item_name": "#DOTA_Item_Whirling_Talons_Bracer",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/whirling_claws_arms/whirling_claws_arms.vmdl"
+        },
+        {
+          "name": "Whirling Talons Mask",
+          "id": "18275",
+          "item_name": "#DOTA_Item_Whirling_Talons_Mask",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/rikimaru/whirling_claws_head/whirling_claws_head.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "163",
+      "name": "Riki's Horns",
+      "item_name": "#DOTA_Item_Rikis_Horns",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/rikimaru/rikimaru_head.vmdl"
+    },
+    {
+      "id": "164",
+      "name": "Riki's Shoulder Armor",
+      "item_name": "#DOTA_Item_Rikis_Shoulder_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/rikimaru/rikimaru_shoulder.vmdl"
+    },
+    {
+      "id": "165",
+      "name": "Riki's Tail",
+      "item_name": "#DOTA_Item_Rikis_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/rikimaru/rikimaru_tail.vmdl"
+    },
+    {
+      "id": "166",
+      "name": "Riki's Gloves",
+      "item_name": "#DOTA_Item_Rikis_Gloves",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/rikimaru/rikimaru_gloves.vmdl"
+    },
+    {
+      "id": "322",
+      "name": "Riki's Offhand Dagger",
+      "item_name": "#DOTA_Item_Rikis_Offhand_Dagger",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/rikimaru/rikimaru__offhand_weapon.vmdl"
+    },
+    {
+      "id": "561",
+      "name": "Riki's Dagger",
+      "item_name": "#DOTA_Item_Rikis_Dagger",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/rikimaru/rikimaru_weapon.vmdl"
+    },
+    {
+      "id": "4354",
+      "name": "Sange and Yasha",
+      "item_name": "#DOTA_Item_Sange_and_Yasha",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/weapon_yasha/weapon_yasha.vmdl"
+    },
+    {
+      "id": "4702",
+      "name": "Slim Blade of the Tahlin Watch",
+      "item_name": "#DOTA_Item_Slim_Blade_of_the_Tahlin_Watch",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/masquerade_tail/masquerade_tail.vmdl"
+    },
+    {
+      "id": "4703",
+      "name": "Mask of the Tahlin Watch",
+      "item_name": "#DOTA_Item_Mask_of_the_Tahlin_Watch",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/masquerade_mask/masquerade_mask.vmdl"
+    },
+    {
+      "id": "4714",
+      "name": "Sigil of the Tahlin Watch",
+      "item_name": "#DOTA_Item_Sigil_of_the_Tahlin_Watch",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/masquerade_shoulder/masquerade_shoulder.vmdl"
+    },
+    {
+      "id": "4715",
+      "name": "Bracer of the Tahlin Watch",
+      "item_name": "#DOTA_Item_Bracer_of_the_Tahlin_Watch",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/masquerade_bracers/masquerade_bracers.vmdl"
+    },
+    {
+      "id": "4739",
+      "name": "Royal Dagger of the Tahlin Watch",
+      "item_name": "#DOTA_Item_Royal_Dagger_of_the_Tahlin_Watch",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/masquerade_dagger_main/masquerade_dagger_main.vmdl"
+    },
+    {
+      "id": "4740",
+      "name": "Royal Dagger of the Tahlin Watch - Off-Hand",
+      "item_name": "#DOTA_Item_Royal_Dagger_of_the_Tahlin_Watch__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/masquerade_dagger_off/masquerade_dagger_off.vmdl"
+    },
+    {
+      "id": "4823",
+      "name": "Yasha the Quickblade",
+      "item_name": "#DOTA_Item_Yasha_the_Quickblade",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/weapon_yasha/weapon_yasha.vmdl"
+    },
+    {
+      "id": "4824",
+      "name": "Sange the Backseeker",
+      "item_name": "#DOTA_Item_Sange_the_Backseeker",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/offhand_sange/offhand_sange.vmdl"
+    },
+    {
+      "id": "4874",
+      "name": "Blade of the Subtle Demon",
+      "item_name": "#DOTA_Item_Blade_of_the_Subtle_Demon",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_grand_fathers_blade_shinobi_main/riki_grand_fathers_blade_shinobi_main.vmdl"
+    },
+    {
+      "id": "4875",
+      "name": "Blade of the Subtle Demon - Off-Hand",
+      "item_name": "#DOTA_Item_Blade_of_the_Subtle_Demon__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_grandfathers_blades_offhand/riki_grandfathers_blades_offhand.vmdl"
+    },
+    {
+      "id": "4876",
+      "name": "Veil of the Subtle Demon",
+      "item_name": "#DOTA_Item_Veil_of_the_Subtle_Demon",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_mask_of_the_last_shinobi/riki_mask_of_the_last_shinobi.vmdl"
+    },
+    {
+      "id": "4877",
+      "name": "Wraps of the Subtle Demon",
+      "item_name": "#DOTA_Item_Wraps_of_the_Subtle_Demon",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_shadow_wraps_of_the_last_shinobi/riki_shadow_wraps_of_the_last_shinobi.vmdl"
+    },
+    {
+      "id": "4878",
+      "name": "Whip of the Subtle Demon",
+      "item_name": "#DOTA_Item_Whip_of_the_Subtle_Demon",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_spiked_tail_of_the_last_shinobi/riki_spiked_tail_of_the_last_shinobi.vmdl"
+    },
+    {
+      "id": "4879",
+      "name": "Mark of the Subtle Demon",
+      "item_name": "#DOTA_Item_Mark_of_the_Subtle_Demon",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_tengu_pauldron_of_the_last_shinobi/riki_tengu_pauldron_of_the_last_shinobi.vmdl"
+    },
+    {
+      "id": "5164",
+      "name": "Shadowshard - Off-Hand",
+      "item_name": "#DOTA_Item_Shadowshard__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/shadowfang_offhand/shadowfang_offhand.vmdl"
+    },
+    {
+      "id": "5165",
+      "name": "Shadowshard",
+      "item_name": "#DOTA_Item_Shadowshard",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/shadowfang_main/shadowfang_main.vmdl"
+    },
+    {
+      "id": "5266",
+      "name": "Bladebreaker Armguards",
+      "item_name": "#DOTA_Item_Bladebreaker_Armguards",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/bladearmorgloves/bladearmorgloves.vmdl"
+    },
+    {
+      "id": "5267",
+      "name": "Bladebreaker Hood",
+      "item_name": "#DOTA_Item_Bladebreaker_Hood",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/bladearmorhelm/bladearmorhelm.vmdl"
+    },
+    {
+      "id": "5268",
+      "name": "Bladebreaker Dagger - Off-Hand",
+      "item_name": "#DOTA_Item_Bladebreaker_Dagger__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/bladearmoroffhand/bladearmoroffhand.vmdl"
+    },
+    {
+      "id": "5269",
+      "name": "Bladebreaker Spaulders",
+      "item_name": "#DOTA_Item_Bladebreaker_Spaulders",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/bladearmorshoulder/bladearmorshoulder.vmdl"
+    },
+    {
+      "id": "5274",
+      "name": "Tahlin Occult Dagger",
+      "item_name": "#DOTA_Item_Tahlin_Occult_Dagger",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/tahlin_occult_dagger/tahlin_occult_dagger.vmdl"
+    },
+    {
+      "id": "5275",
+      "name": "Tahlin Occult Dagger - Off-Hand",
+      "item_name": "#DOTA_Item_Tahlin_Occult_Dagger__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/tahlin_occult_dagger__offhand/tahlin_occult_dagger__offhand.vmdl"
+    },
+    {
+      "id": "5276",
+      "name": "Tahlin Occult Shoulder Sigil",
+      "item_name": "#DOTA_Item_Tahlin_Occult_Shoulder_Sigil",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/tahlin_occult_shoulder/tahlin_occult_shoulder.vmdl"
+    },
+    {
+      "id": "5277",
+      "name": "Bladebreaker Brush",
+      "item_name": "#DOTA_Item_Bladebreaker_Brush",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/bladearmortail/bladearmortail.vmdl"
+    },
+    {
+      "id": "5290",
+      "name": "Bladebreaker Dagger",
+      "item_name": "#DOTA_Item_Bladebreaker_Dagger",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/bladearmorweapon/bladearmorweapon.vmdl"
+    },
+    {
+      "id": "5327",
+      "name": "Tahlin Occult Hood",
+      "item_name": "#DOTA_Item_Tahlin_Occult_Hood",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/tahlin_occult_hood/tahlin_occult_hood.vmdl"
+    },
+    {
+      "id": "5499",
+      "name": "Curse of the Highborn",
+      "item_name": "#DOTA_Item_Curse_of_the_Highborn",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/curse_of_the_highborn/curse_of_the_highborn.vmdl"
+    },
+    {
+      "id": "5523",
+      "name": "Thorns of the Highborn",
+      "item_name": "#DOTA_Item_Thorns_of_the_Highborn",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/thorns_of_the_highborn/thorns_of_the_highborn.vmdl"
+    },
+    {
+      "id": "5524",
+      "name": "Wrath of the Highborn",
+      "item_name": "#DOTA_Item_Wrath_of_the_Highborn",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/wrath_of_the_highborn/wrath_of_the_highborn.vmdl"
+    },
+    {
+      "id": "5525",
+      "name": "Temper of the Highborn - Off-Hand",
+      "item_name": "#DOTA_Item_Temper_of_the_Highborn__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/wrath_of_the_highborn__offhand/wrath_of_the_highborn__offhand.vmdl"
+    },
+    {
+      "id": "5526",
+      "name": "Burden of the Highborn",
+      "item_name": "#DOTA_Item_Burden_of_the_Highborn",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/burden_of_the_highborn/burden_of_the_highborn.vmdl"
+    },
+    {
+      "id": "5527",
+      "name": "Whisk of the Highborn",
+      "item_name": "#DOTA_Item_Whisk_of_the_Highborn",
+      "item_slot": "tail",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/tail_of_the_highborn/tail_of_the_highborn.vmdl"
+    },
+    {
+      "id": "5563",
+      "name": "Piercing Umbrage",
+      "item_name": "#DOTA_Item_Piercing_Umbrage",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/umbrage/umbrage.vmdl"
+    },
+    {
+      "id": "5564",
+      "name": "Piercing Umbrage - Off-Hand",
+      "item_name": "#DOTA_Item_Piercing_Umbrage__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/umbrage__offhand/umbrage__offhand.vmdl"
+    },
+    {
+      "id": "6365",
+      "name": "Bracers of the Frozen Blood",
+      "item_name": "#DOTA_Item_Bracers_of_the_Frozen_Blood",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/frozenblood_arms/frozenblood_arms.vmdl"
+    },
+    {
+      "id": "6366",
+      "name": "Dagger of the Frozen Blood",
+      "item_name": "#DOTA_Item_Dagger_of_the_Frozen_Blood",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/frozenblood_weapon/frozenblood_weapon.vmdl"
+    },
+    {
+      "id": "6367",
+      "name": "Dagger of the Frozen Blood Off-Hand",
+      "item_name": "#DOTA_Item_Dagger_of_the_Frozen_Blood_OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/frozenblood_offhandweapon/frozenblood_offhandweapon.vmdl"
+    },
+    {
+      "id": "6368",
+      "name": "Horns of the Frozen Blood",
+      "item_name": "#DOTA_Item_Horns_of_the_Frozen_Blood",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/frozenblood_head/frozenblood_head.vmdl"
+    },
+    {
+      "id": "6369",
+      "name": "Armor of the Frozen Blood",
+      "item_name": "#DOTA_Item_Armor_of_the_Frozen_Blood",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/frozenblood_shoulder/frozenblood_shoulder.vmdl"
+    },
+    {
+      "id": "6370",
+      "name": "Tail of the Frozen Blood",
+      "item_name": "#DOTA_Item_Tail_of_the_Frozen_Blood",
+      "item_slot": "tail",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/frozenblood_tail/frozenblood_tail.vmdl"
+    },
+    {
+      "id": "6546",
+      "name": "Heir's Gift",
+      "item_name": "#DOTA_Item_Heirs_Gift",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/rightful_heir_arms/rightful_heir_arms.vmdl"
+    },
+    {
+      "id": "6547",
+      "name": "Golden Siblings Dagger",
+      "item_name": "#DOTA_Item_Golden_Siblings_Dagger",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon.vmdl"
+    },
+    {
+      "id": "6548",
+      "name": "Golden Siblings Offhand",
+      "item_name": "#DOTA_Item_Golden_Siblings_Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/rightful_heir_offhand/rightful_heir_offhand.vmdl"
+    },
+    {
+      "id": "6549",
+      "name": "Heir's Glance",
+      "item_name": "#DOTA_Item_Heirs_Glance",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/rightful_heir_head/rightful_heir_head.vmdl"
+    },
+    {
+      "id": "6550",
+      "name": "Heir's Cover",
+      "item_name": "#DOTA_Item_Heirs_Cover",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/rightful_heir_shoulder/rightful_heir_shoulder.vmdl"
+    },
+    {
+      "id": "6551",
+      "name": "Heir's Steps",
+      "item_name": "#DOTA_Item_Heirs_Steps",
+      "item_slot": "tail",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/rightful_heir_tail/rightful_heir_tail.vmdl"
+    },
+    {
+      "id": "6797",
+      "name": "Tahlin Hookblade",
+      "item_name": "#DOTA_Item_Tahlin_Hookblade",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/tahlinhookblade_weapon/tahlinhookblade_weapon.vmdl"
+    },
+    {
+      "id": "6798",
+      "name": "Tahlin Hookblade Off-Hand",
+      "item_name": "#DOTA_Item_Tahlin_Hookblade_OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/tahlinhookblade_offhand/tahlinhookblade_offhand.vmdl"
+    },
+    {
+      "id": "7153",
+      "name": "Cape of Monstrous Reprisal",
+      "item_name": "#DOTA_Item_Cape_of_Monstrous_Reprisal",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/haze_atrocity_shoulder/haze_atrocity_shoulder.vmdl"
+    },
+    {
+      "id": "7154",
+      "name": "Bracers of Monstrous Reprisal",
+      "item_name": "#DOTA_Item_Bracers_of_Monstrous_Reprisal",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/haze_atrocity_arms/haze_atrocity_arms.vmdl"
+    },
+    {
+      "id": "7159",
+      "name": "Horns of Monstrous Reprisal",
+      "item_name": "#DOTA_Item_Horns_of_Monstrous_Reprisal",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/haze_atrocity_head/haze_atrocity_head.vmdl"
+    },
+    {
+      "id": "7161",
+      "name": "Blinkcutter of Monstrous Reprisal",
+      "item_name": "#DOTA_Item_Blinkcutter_of_Monstrous_Reprisal",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/haze_atrocity_offhand/haze_atrocity_offhand.vmdl"
+    },
+    {
+      "id": "7162",
+      "name": "Smoke Bomb of Monstrous Reprisal",
+      "item_name": "#DOTA_Item_Smoke_Bomb_of_Monstrous_Reprisal",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/haze_atrocity_tail/haze_atrocity_tail.vmdl"
+    },
+    {
+      "id": "7165",
+      "name": "Backslicer of Monstrous Reprisal",
+      "item_name": "#DOTA_Item_Backslicer_of_Monstrous_Reprisal",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/haze_atrocity_weapon/haze_atrocity_weapon.vmdl"
+    },
+    {
+      "id": "7328",
+      "name": "Goatee of the Gelid Touch",
+      "item_name": "#DOTA_Item_Goatee_of_the_Gelid_Touch",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/frosty_blow_head/frosty_blow_head.vmdl"
+    },
+    {
+      "id": "7329",
+      "name": "Katar of the Gelid Touch",
+      "item_name": "#DOTA_Item_Katar_of_the_Gelid_Touch",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/frosty_blow_offhand/frosty_blow_offhand.vmdl"
+    },
+    {
+      "id": "7330",
+      "name": "Dagger of the Gelid Touch",
+      "item_name": "#DOTA_Item_Dagger_of_the_Gelid_Touch",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/frosty_blow_weapon/frosty_blow_weapon.vmdl"
+    },
+    {
+      "id": "7331",
+      "name": "Tail of the Gelid Touch",
+      "item_name": "#DOTA_Item_Tail_of_the_Gelid_Touch",
+      "item_slot": "tail",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/frosty_blow_tail/frosty_blow_tail.vmdl"
+    },
+    {
+      "id": "7332",
+      "name": "Bracers of the Gelid Touch",
+      "item_name": "#DOTA_Item_Bracers_of_the_Gelid_Touch",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/frosty_blow_arms/frosty_blow_arms.vmdl"
+    },
+    {
+      "id": "7333",
+      "name": "Colar of the Gelid Touch",
+      "item_name": "#DOTA_Item_Colar_of_the_Gelid_Touch",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/frosty_blow_shoulder/frosty_blow_shoulder.vmdl"
+    },
+    {
+      "id": "7976",
+      "name": "Shadow Masquerade",
+      "item_name": "#DOTA_Item_Shadow_Masquerade",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.vmdl"
+    },
+    {
+      "id": "7990",
+      "name": "Golden Shadow Masquerade",
+      "item_name": "#DOTA_Item_Golden_Shadow_Masquerade",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.vmdl"
+    },
+    {
+      "id": "8316",
+      "name": "Almond the Frondillo",
+      "item_name": "#DOTA_Item_Almond_the_Frondillo",
+      "item_slot": "summon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8366",
+      "name": "All Heroes' Default Pet",
+      "item_name": "#DOTA_Wearable_All_Heroes_DefaultPet",
+      "item_slot": "summon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "8441",
+      "name": "Off-Hand Blade of the Covert Saboteur",
+      "item_name": "#DOTA_Item_OffHand_Blade_of_the_Covert_Saboteur",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_golden_saboteur_weapon_offhand/riki_golden_saboteur_weapon_offhand.vmdl"
+    },
+    {
+      "id": "8442",
+      "name": "Whip of the Covert Saboteur",
+      "item_name": "#DOTA_Item_Whip_of_the_Covert_Saboteur",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_golden_saboteur_tail/riki_golden_saboteur_tail.vmdl"
+    },
+    {
+      "id": "8443",
+      "name": "Blade of the Covert Saboteur",
+      "item_name": "#DOTA_Item_Blade_of_the_Covert_Saboteur",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_golden_saboteur_weapon/riki_golden_saboteur_weapon.vmdl"
+    },
+    {
+      "id": "8444",
+      "name": "Cuffs of the Covert Saboteur",
+      "item_name": "#DOTA_Item_Cuffs_of_the_Covert_Saboteur",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_golden_saboteur__arms/riki_golden_saboteur__arms.vmdl"
+    },
+    {
+      "id": "8445",
+      "name": "Spaulder of the Covert Saboteur",
+      "item_name": "#DOTA_Item_Spaulder_of_the_Covert_Saboteur",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_golden_saboteur__shoulder/riki_golden_saboteur__shoulder.vmdl"
+    },
+    {
+      "id": "8446",
+      "name": "Helm of the Covert Saboteur",
+      "item_name": "#DOTA_Item_Helm_of_the_Covert_Saboteur",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_golden_saboteur__head_alt/riki_golden_saboteur__head_alt.vmdl"
+    },
+    {
+      "id": "9434",
+      "name": "Hat of the Cunning Corsair",
+      "item_name": "#DOTA_Item_Hat_of_the_Cunning_Corsair",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_cunning_corsair_ti_2017_head/riki_cunning_corsair_ti_2017_head.vmdl"
+    },
+    {
+      "id": "9435",
+      "name": "Cuffs of the Cunning Corsair",
+      "item_name": "#DOTA_Item_Cuffs_of_the_Cunning_Corsair",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_cunning_corsair_ti_2017_arms/riki_cunning_corsair_ti_2017_arms.vmdl"
+    },
+    {
+      "id": "9436",
+      "name": "Shoulder Pads of the Cunning Corsair",
+      "item_name": "#DOTA_Item_Shoulder_Pads_of_the_Cunning_Corsair",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_cunning_corsair_ti_2017_shoulder/riki_cunning_corsair_ti_2017_shoulder.vmdl"
+    },
+    {
+      "id": "9437",
+      "name": "Tail of the Cunning Corsair",
+      "item_name": "#DOTA_Item_Tail_of_the_Cunning_Corsair",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_cunning_corsair_ti_2017_tail/riki_cunning_corsair_ti_2017_tail.vmdl"
+    },
+    {
+      "id": "9438",
+      "name": "Hook of the Cunning Corsair",
+      "item_name": "#DOTA_Item_Hook_of_the_Cunning_Corsair",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_cunning_corsair_ti_2017_off_hand/riki_cunning_corsair_ti_2017_off_hand.vmdl"
+    },
+    {
+      "id": "9439",
+      "name": "Dagger of the Cunning Corsair",
+      "item_name": "#DOTA_Item_Dagger_of_the_Cunning_Corsair",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_cunning_corsair_ti_2017_weapon/riki_cunning_corsair_ti_2017_weapon.vmdl"
+    },
+    {
+      "id": "9681",
+      "name": "Taunt: See Me Now",
+      "item_name": "#DOTA_Item_Taunt_See_Me_Now",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "9739",
+      "name": "Edict of Shadows",
+      "item_name": "#DOTA_Item_Edict_of_Shadows",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.vmdl"
+    },
+    {
+      "id": "9773",
+      "name": "Golden Edict of Shadows",
+      "item_name": "#DOTA_Item_Golden_Edict_of_Shadows",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.vmdl"
+    },
+    {
+      "id": "12418",
+      "name": "Crimson Edict of Shadows",
+      "item_name": "#DOTA_Item_Crimson_Edict_of_Shadows",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.vmdl"
+    },
+    {
+      "id": "14771",
+      "name": "Hunger of the Howling Wilds Weapon",
+      "item_name": "#DOTA_Item_Hunger_of_the_Howling_Wilds_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_killer_of_purple_smoke_weapon/riki_killer_of_purple_smoke_weapon.vmdl"
+    },
+    {
+      "id": "14772",
+      "name": "Hunger of the Howling Wilds Tail",
+      "item_name": "#DOTA_Item_Hunger_of_the_Howling_Wilds_Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_killer_of_purple_smoke_tail/riki_killer_of_purple_smoke_tail.vmdl"
+    },
+    {
+      "id": "14773",
+      "name": "Hunger of the Howling Wilds Shoulder",
+      "item_name": "#DOTA_Item_Hunger_of_the_Howling_Wilds_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_killer_of_purple_smoke_shoulder/riki_killer_of_purple_smoke_shoulder.vmdl"
+    },
+    {
+      "id": "14774",
+      "name": "Hunger of the Howling Wilds Off-Hand Weapon",
+      "item_name": "#DOTA_Item_Hunger_of_the_Howling_Wilds_OffHand_Weapon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_killer_of_purple_smoke_off_hand/riki_killer_of_purple_smoke_off_hand.vmdl"
+    },
+    {
+      "id": "14775",
+      "name": "Hunger of the Howling Wilds Head",
+      "item_name": "#DOTA_Item_Hunger_of_the_Howling_Wilds_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_killer_of_purple_smoke_head/riki_killer_of_purple_smoke_head.vmdl"
+    },
+    {
+      "id": "14776",
+      "name": "Hunger of the Howling Wilds Arms",
+      "item_name": "#DOTA_Item_Hunger_of_the_Howling_Wilds_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_killer_of_purple_smoke_arms/riki_killer_of_purple_smoke_arms.vmdl"
+    },
+    {
+      "id": "14848",
+      "name": "Junktown Avenger - Weapon",
+      "item_name": "#DOTA_Item_Junktown_Avenger__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_junk_rat_weapon/riki_junk_rat_weapon.vmdl"
+    },
+    {
+      "id": "14849",
+      "name": "Junktown Avenger - Tail",
+      "item_name": "#DOTA_Item_Junktown_Avenger__Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_junk_rat_tail/riki_junk_rat_tail.vmdl"
+    },
+    {
+      "id": "14850",
+      "name": "Junktown Avenger - Shoulder",
+      "item_name": "#DOTA_Item_Junktown_Avenger__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_junk_rat_shoulder/riki_junk_rat_shoulder.vmdl"
+    },
+    {
+      "id": "14851",
+      "name": "Junktown Avenger - Off-Hand",
+      "item_name": "#DOTA_Item_Junktown_Avenger__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_junk_rat_off_hand/riki_junk_rat_off_hand.vmdl"
+    },
+    {
+      "id": "14852",
+      "name": "Junktown Avenger - Head",
+      "item_name": "#DOTA_Item_Junktown_Avenger__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_junk_rat_head/riki_junk_rat_head.vmdl"
+    },
+    {
+      "id": "14853",
+      "name": "Junktown Avenger - Arms",
+      "item_name": "#DOTA_Item_Junktown_Avenger__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_junk_rat_arms/riki_junk_rat_arms.vmdl"
+    },
+    {
+      "id": "18275",
+      "name": "Whirling Talons Mask",
+      "item_name": "#DOTA_Item_Whirling_Talons_Mask",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/whirling_claws_head/whirling_claws_head.vmdl"
+    },
+    {
+      "id": "18276",
+      "name": "Whirling Talons Bracer",
+      "item_name": "#DOTA_Item_Whirling_Talons_Bracer",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/whirling_claws_arms/whirling_claws_arms.vmdl"
+    },
+    {
+      "id": "18277",
+      "name": "Whirling Talons Shoulder",
+      "item_name": "#DOTA_Item_Whirling_Talons_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/whirling_claws_shoulder/whirling_claws_shoulder.vmdl"
+    },
+    {
+      "id": "18278",
+      "name": "Whirling Talons Tail",
+      "item_name": "#DOTA_Item_Whirling_Talons_Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/whirling_claws_tail/whirling_claws_tail.vmdl"
+    },
+    {
+      "id": "18279",
+      "name": "Whirling Talons Dagger",
+      "item_name": "#DOTA_Item_Whirling_Talons_Dagger",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/whirling_claws_weapon/whirling_claws_weapon.vmdl"
+    },
+    {
+      "id": "18280",
+      "name": "Whirling Talons Off-Hand Dagger",
+      "item_name": "#DOTA_Item_Whirling_Talons_OffHand_Dagger",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/whirling_claws_offhand/whirling_claws_offhand.vmdl"
+    },
+    {
+      "id": "20126",
+      "name": "Royal Daggers of the Tahlin Watch",
+      "item_name": "#DOTA_Item_Royal_Daggers_of_the_Tahlin_Watch",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20127",
+      "name": "Implements of the Tahlin Watch Set",
+      "item_name": "#DOTA_Item_Implements_of_the_Tahlin_Watch_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20139",
+      "name": "Riki's Sange and Yasha",
+      "item_name": "#DOTA_Item_Rikis_Sange_and_Yasha",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20152",
+      "name": "The Subtle Demon Set",
+      "item_name": "#DOTA_Item_The_Subtle_Demon_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20156",
+      "name": "The Subtle Demon's Blades",
+      "item_name": "#DOTA_Item_The_Subtle_Demons_Blades",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20210",
+      "name": "Shadowshards",
+      "item_name": "#DOTA_Item_Shadowshards",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20222",
+      "name": "Tahlin Occult Set",
+      "item_name": "#DOTA_Item_Tahlin_Occult_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20223",
+      "name": "Tahlin Occult Daggers",
+      "item_name": "#DOTA_Item_Tahlin_Occult_Daggers",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20237",
+      "name": "Arms of the Bladebreaker Order Set",
+      "item_name": "#DOTA_Item_Arms_of_the_Bladebreaker_Order_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20243",
+      "name": "Arms of the Bladebreaker Dagger Pack",
+      "item_name": "#DOTA_Item_Arms_of_the_Bladebreaker_Dagger_Pack",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20279",
+      "name": "Highborn Reckoning Set",
+      "item_name": "#DOTA_Item_Highborn_Reckoning_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20285",
+      "name": "Wrath of the Highborn Pack",
+      "item_name": "#DOTA_Item_Wrath_of_the_Highborn_Pack",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20294",
+      "name": "Piercing Umbrage Pack",
+      "item_name": "#DOTA_Item_Piercing_Umbrage_Pack",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20479",
+      "name": "Frozen Blood",
+      "item_name": "#DOTA_Item_Frozen_Blood",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20524",
+      "name": "Rightful Heir",
+      "item_name": "#DOTA_Item_Rightful_Heir",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20647",
+      "name": "Monstrous Reprisal",
+      "item_name": "#DOTA_Item_Monstrous_Reprisal",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20801",
+      "name": "Covert Saboteur",
+      "item_name": "#DOTA_Item_Covert_Saboteur",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20983",
+      "name": "Gelid Touch",
+      "item_name": "#DOTA_Item_Gelid_Touch",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21133",
+      "name": "Cunning Corsair",
+      "item_name": "#DOTA_Item_Cunning_Corsair",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21589",
+      "name": "Hunger of the Howling Wilds",
+      "item_name": "#DOTA_Item_Hunger_of_the_Howling_Wilds",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21606",
+      "name": "Junktown Avenger",
+      "item_name": "#DOTA_Item_Junktown_Avenger",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21784",
+      "name": "Whirling Talons",
+      "item_name": "#DOTA_Item_Whirling_Talons",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23239",
+      "name": "Summer Lineage Monstrous Reprisal",
+      "item_name": "#DOTA_Item_Summer_Lineage_Monstrous_Reprisal",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23240",
+      "name": "Summer Lineage Cape of Monstrous Reprisal",
+      "item_name": "#DOTA_Item_Summer_Lineage_Cape_of_Monstrous_Reprisal",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/haze_atrocity_shoulder/haze_atrocity_shoulder.vmdl"
+    },
+    {
+      "id": "23241",
+      "name": "Summer Lineage Bracers of Monstrous Reprisal",
+      "item_name": "#DOTA_Item_Summer_Lineage_Bracers_of_Monstrous_Reprisal",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/haze_atrocity_arms/haze_atrocity_arms.vmdl"
+    },
+    {
+      "id": "23242",
+      "name": "Summer Lineage Horns of Monstrous Reprisal",
+      "item_name": "#DOTA_Item_Summer_Lineage_Horns_of_Monstrous_Reprisal",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/haze_atrocity_head/haze_atrocity_head.vmdl"
+    },
+    {
+      "id": "23243",
+      "name": "Summer Lineage Blinkcutter of Monstrous Reprisal",
+      "item_name": "#DOTA_Item_Summer_Lineage_Blinkcutter_of_Monstrous_Reprisal",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/haze_atrocity_offhand/haze_atrocity_offhand.vmdl"
+    },
+    {
+      "id": "23244",
+      "name": "Summer Lineage Smoke Bomb of Monstrous Reprisal",
+      "item_name": "#DOTA_Item_Summer_Lineage_Smoke_Bomb_of_Monstrous_Reprisal",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/haze_atrocity_tail/haze_atrocity_tail.vmdl"
+    },
+    {
+      "id": "23245",
+      "name": "Summer Lineage Backslicer of Monstrous Reprisal",
+      "item_name": "#DOTA_Item_Summer_Lineage_Backslicer_of_Monstrous_Reprisal",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/haze_atrocity_weapon/haze_atrocity_weapon.vmdl"
+    },
+    {
+      "id": "26806",
+      "name": "Scarlet Subversion - Arms",
+      "item_name": "#DOTA_Item_Scarlet_Subversion__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_scarlet_fox_arms/riki_scarlet_fox_arms.vmdl"
+    },
+    {
+      "id": "26807",
+      "name": "Scarlet Subversion - Head",
+      "item_name": "#DOTA_Item_Scarlet_Subversion__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_scarlet_fox_head/riki_scarlet_fox_head.vmdl"
+    },
+    {
+      "id": "26808",
+      "name": "Scarlet Subversion - Offhand Weapon",
+      "item_name": "#DOTA_Item_Scarlet_Subversion__Offhand_Weapon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_scarlet_fox_offhand_weapon/riki_scarlet_fox_offhand_weapon.vmdl"
+    },
+    {
+      "id": "26809",
+      "name": "Scarlet Subversion - Shoulder",
+      "item_name": "#DOTA_Item_Scarlet_Subversion__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_scarlet_fox_shoulder/riki_scarlet_fox_shoulder.vmdl"
+    },
+    {
+      "id": "26810",
+      "name": "Scarlet Subversion - Tail",
+      "item_name": "#DOTA_Item_Scarlet_Subversion__Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_scarlet_fox_tail/riki_scarlet_fox_tail.vmdl"
+    },
+    {
+      "id": "26811",
+      "name": "Scarlet Subversion - Weapon",
+      "item_name": "#DOTA_Item_Scarlet_Subversion__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_scarlet_fox_weapon/riki_scarlet_fox_weapon.vmdl"
+    },
+    {
+      "id": "26812",
+      "name": "Scarlet Subversion",
+      "item_name": "#DOTA_Item_Scarlet_Subversion",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "29465",
+      "name": "Shifty's Shortblade",
+      "item_name": "#DOTA_Item_Shiftys_Shortblade",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_crownfall_immortal/riki_crownfall_immortal_weapon.vmdl"
+    },
+    {
+      "id": "30322",
+      "name": "Assassin's Edge",
+      "item_name": "#DOTA_Item_Assassins_Edge",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/riki_crownfall_offhand/riki_crownfall_immortal_offhand.vmdl"
+    },
+    {
+      "id": "35392",
+      "name": "Shadow Masquerade of the Crimson Witness",
+      "item_name": "#DOTA_Item_Shadow_Masquerade_of_the_Crimson_Witness",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.vmdl"
+    }
+  ]
+}

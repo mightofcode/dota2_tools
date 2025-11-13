@@ -1,0 +1,3256 @@
+{
+  "defaults": {
+    "head": {
+      "id": "16",
+      "name": "Sven's Mask",
+      "item_name": "#DOTA_Item_Svens_Mask",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/sven/sven_mask.vmdl"
+    },
+    "weapon": {
+      "id": "17",
+      "name": "Sven's Sword",
+      "item_name": "#DOTA_Item_Svens_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/sven/sven_sword.vmdl"
+    },
+    "belt": {
+      "id": "18",
+      "name": "Sven's Belt",
+      "item_name": "#DOTA_Item_Svens_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "model_player": "models/heroes/sven/sven_belt.vmdl"
+    },
+    "arms": {
+      "id": "19",
+      "name": "Sven's Gauntlet",
+      "item_name": "#DOTA_Item_Svens_Gauntlet",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/sven/sven_gauntlet.vmdl"
+    },
+    "shoulder": {
+      "id": "20",
+      "name": "Sven's Shoulder",
+      "item_name": "#DOTA_Item_Svens_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/sven/sven_shoulder.vmdl"
+    },
+    "back": {
+      "id": "581",
+      "name": "Sven's Back",
+      "item_name": "#DOTA_Item_Svens_Back",
+      "item_slot": "back",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Armature_of_the_Belligerent_Ram",
+      "store_bundle": "Armature of the Belligerent Ram",
+      "portrait_image": "econ/sets/v2/armature_of_the_belligerent_ram",
+      "items": [
+        {
+          "name": "Armature of the Belligerent Ram Sword",
+          "id": "7980",
+          "item_name": "#DOTA_Item_Armature_of_the_Belligerent_Ram_Sword",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/guise_of_belligerent_ram_blade/guise_of_belligerent_ram_blade.vmdl"
+        },
+        {
+          "name": "Armature of the Belligerent Ram Helm",
+          "id": "7983",
+          "item_name": "#DOTA_Item_Armature_of_the_Belligerent_Ram_Helm",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/guise_of_belligerent_ram_helmet/guise_of_belligerent_ram_helmet.vmdl"
+        },
+        {
+          "name": "Armature of the Belligerent Ram Glove",
+          "id": "7984",
+          "item_name": "#DOTA_Item_Armature_of_the_Belligerent_Ram_Glove",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/guise_of_belligerent_ram_glove/guise_of_belligerent_ram_glove.vmdl"
+        },
+        {
+          "name": "Armature of the Belligerent Ram Belt",
+          "id": "7985",
+          "item_name": "#DOTA_Item_Armature_of_the_Belligerent_Ram_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/guise_of_belligerent_ram_belt/guise_of_belligerent_ram_belt.vmdl"
+        },
+        {
+          "name": "Armature of the Belligerent Ram Pauldron",
+          "id": "7981",
+          "item_name": "#DOTA_Item_Armature_of_the_Belligerent_Ram_Pauldron",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/guise_of_belligerent_ram_back/guise_of_belligerent_ram_back.vmdl"
+        },
+        {
+          "name": "Armature of the Belligerent Ram Shoulder",
+          "id": "7982",
+          "item_name": "#DOTA_Item_Armature_of_the_Belligerent_Ram_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/guise_of_belligerent_ram_shoulder/guise_of_belligerent_ram_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Arms_of_Rising_Fury",
+      "store_bundle": "Arms of Rising Fury",
+      "portrait_image": "econ/sets/v2/arms_of_rising_fury",
+      "items": [
+        {
+          "name": "Faulds of Rising Fury",
+          "id": "8348",
+          "item_name": "#DOTA_Item_Faulds_of_Rising_Fury",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/dotapit3_sven_belt/dotapit3_sven_belt.vmdl"
+        },
+        {
+          "name": "Pauldrons of Rising Fury",
+          "id": "8349",
+          "item_name": "#DOTA_Item_Pauldrons_of_Rising_Fury",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/dotapit3_sven_shoulder/dotapit3_sven_shoulder.vmdl"
+        },
+        {
+          "name": "Cape of Rising Fury",
+          "id": "8350",
+          "item_name": "#DOTA_Item_Cape_of_Rising_Fury",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/dotapit3_sven_back/dotapit3_sven_back.vmdl"
+        },
+        {
+          "name": "Gauntlets of Rising Fury",
+          "id": "8351",
+          "item_name": "#DOTA_Item_Gauntlets_of_Rising_Fury",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/dotapit3_sven_arms/dotapit3_sven_arms.vmdl"
+        },
+        {
+          "name": "Helm of Rising Fury",
+          "id": "8352",
+          "item_name": "#DOTA_Item_Helm_of_Rising_Fury",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/dotapit3_sven_head/dotapit3_sven_head.vmdl"
+        },
+        {
+          "name": "Sword of Rising Fury",
+          "id": "8353",
+          "item_name": "#DOTA_Item_Sword_of_Rising_Fury",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/dotapit3_sven_weapon/dotapit3_sven_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Astral_Schism",
+      "store_bundle": "Astral Schism",
+      "portrait_image": "econ/sets/v2/astral_schism",
+      "items": [
+        {
+          "name": "Astral Schism - Weapon",
+          "id": "35561",
+          "item_name": "#DOTA_Item_Astral_Schism__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/sven_cosmic/sven_cosmic_weapon.vmdl"
+        },
+        {
+          "name": "Astral Schism - Shoulder",
+          "id": "35560",
+          "item_name": "#DOTA_Item_Astral_Schism__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/sven_cosmic/sven_cosmic_shoulders.vmdl"
+        },
+        {
+          "name": "Astral Schism - Belt",
+          "id": "35558",
+          "item_name": "#DOTA_Item_Astral_Schism__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/sven_cosmic/sven_cosmic_belt.vmdl"
+        },
+        {
+          "name": "Astral Schism - Head",
+          "id": "35559",
+          "item_name": "#DOTA_Item_Astral_Schism__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/sven_cosmic/sven_cosmic_head.vmdl"
+        },
+        {
+          "name": "Astral Schism - Back",
+          "id": "35557",
+          "item_name": "#DOTA_Item_Astral_Schism__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/sven_cosmic/sven_cosmic_back.vmdl"
+        },
+        {
+          "name": "Astral Schism - Arms",
+          "id": "35556",
+          "item_name": "#DOTA_Item_Astral_Schism__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/sven_cosmic/sven_cosmic_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bite_of_the_Broken_Blade",
+      "store_bundle": "Bite of the Broken Blade",
+      "portrait_image": "econ/sets/v2/bite_of_the_broken_blade",
+      "items": [
+        {
+          "name": "Weapon of the Broken Blade",
+          "id": "18877",
+          "item_name": "#DOTA_Item_Weapon_of_the_Broken_Blade",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/outcast_knight_weapon/outcast_knight_weapon.vmdl"
+        },
+        {
+          "name": "Belt of the Broken Blade",
+          "id": "18868",
+          "item_name": "#DOTA_Item_Belt_of_the_Broken_Blade",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/outcast_knight_belt/outcast_knight_belt.vmdl"
+        },
+        {
+          "name": "Bracers of the Broken Blade",
+          "id": "18867",
+          "item_name": "#DOTA_Item_Bracers_of_the_Broken_Blade",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/outcast_knight_arms/outcast_knight_arms.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Broken Blade",
+          "id": "18866",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Broken_Blade",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/outcast_knight_shoulder/outcast_knight_shoulder.vmdl"
+        },
+        {
+          "name": "Head of the Broken Blade",
+          "id": "18865",
+          "item_name": "#DOTA_Item_Head_of_the_Broken_Blade",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/outcast_knight_head/outcast_knight_head.vmdl"
+        },
+        {
+          "name": "Cape of the Broken Blade",
+          "id": "18851",
+          "item_name": "#DOTA_Item_Cape_of_the_Broken_Blade",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/outcast_knight_back/outcast_knight_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Raiment_of_the_Chiseled_Guard",
+      "store_bundle": "Raiment of the Chiseled Guard",
+      "portrait_image": "econ/sets/v2/chiseled_guard",
+      "items": [
+        {
+          "name": "Armblade of the Chiseled Guard",
+          "id": "5399",
+          "item_name": "#DOTA_Item_Armblade_of_the_Chiseled_Guard",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/sven_ceremonialarmbladesofthemyrmidon/sven_ceremonialarmbladesofthemyrmidon.vmdl"
+        },
+        {
+          "name": "Greathelm of the Chiseled Guard",
+          "id": "5400",
+          "item_name": "#DOTA_Item_Greathelm_of_the_Chiseled_Guard",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/sven_ceremonialgreathelmofthemyrmidon/sven_ceremonialgreathelmofthemyrmidon.vmdl"
+        },
+        {
+          "name": "Blade of the Chiseled Guard",
+          "id": "5401",
+          "item_name": "#DOTA_Item_Blade_of_the_Chiseled_Guard",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/sven_ceremonialshieldbladeofthemyrmidon/sven_ceremonialshieldbladeofthemyrmidon.vmdl"
+        },
+        {
+          "name": "Pauldron of the Chiseled Guard",
+          "id": "5402",
+          "item_name": "#DOTA_Item_Pauldron_of_the_Chiseled_Guard",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/sven_ceremonialshoulderbladesofthemyrmidon/sven_ceremonialshoulderbladesofthemyrmidon.vmdl"
+        },
+        {
+          "name": "Tassets of the Chiseled Guard",
+          "id": "5403",
+          "item_name": "#DOTA_Item_Tassets_of_the_Chiseled_Guard",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/ceremonialtassetsofthemyrmidon/ceremonialtassetsofthemyrmidon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Cyclopean_Marauder",
+      "store_bundle": "Cyclopean Marauder",
+      "portrait_image": "econ/sets/v2/cyclopean_marauder",
+      "items": [
+        {
+          "name": "Beacon of the Cyclopean Marauder",
+          "id": "8310",
+          "item_name": "#DOTA_Item_Beacon_of_the_Cyclopean_Marauder",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/beacon_cyclopean_marauder/beacon_cyclopean_marauder.vmdl"
+        },
+        {
+          "name": "Fauld of the Cyclopean Marauder",
+          "id": "8311",
+          "item_name": "#DOTA_Item_Fauld_of_the_Cyclopean_Marauder",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/fauld_cyclopean_marauder/fauld_cyclopean_marauder.vmdl"
+        },
+        {
+          "name": "Greatsword of the Cyclopean Marauder",
+          "id": "8312",
+          "item_name": "#DOTA_Item_Greatsword_of_the_Cyclopean_Marauder",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/greatsword_cyclopean_marauder/greatsword_cyclopean_marauder.vmdl"
+        },
+        {
+          "name": "Pauldron of the Cyclopean Marauder",
+          "id": "8313",
+          "item_name": "#DOTA_Item_Pauldron_of_the_Cyclopean_Marauder",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/pauldron_cyclopean_marauder/pauldron_cyclopean_marauder.vmdl"
+        },
+        {
+          "name": "Gauntlet of the Cyclopean Marauder",
+          "id": "8314",
+          "item_name": "#DOTA_Item_Gauntlet_of_the_Cyclopean_Marauder",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/gauntlet_cyclopean_marauder/gauntlet_cyclopean_marauder.vmdl"
+        },
+        {
+          "name": "Gaze of the Cyclopean Marauder",
+          "id": "8315",
+          "item_name": "#DOTA_Item_Gaze_of_the_Cyclopean_Marauder",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/gaze_cyclopean_marauder/gaze_cyclopean_marauder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Forge_of_Iron_Will",
+      "store_bundle": "Forge of Iron Will",
+      "portrait_image": "econ/sets/v2/forge_of_iron_will",
+      "items": [
+        {
+          "name": "The Fearmaker",
+          "id": "5956",
+          "item_name": "#DOTA_Item_The_Fearmaker",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/free2play_weapon_fear/free2play_weapon_fear.vmdl"
+        },
+        {
+          "name": "Rogue at Arms",
+          "id": "6089",
+          "item_name": "#DOTA_Item_Rogue_at_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/free2play_arms_fear/free2play_arms_fear.vmdl"
+        },
+        {
+          "name": "Spine Guard Armor",
+          "id": "6090",
+          "item_name": "#DOTA_Item_Spine_Guard_Armor",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/free2play_back_fear/free2play_back_fear.vmdl"
+        },
+        {
+          "name": "Belt of Outcast Honor",
+          "id": "6091",
+          "item_name": "#DOTA_Item_Belt_of_Outcast_Honor",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/free2play_belt_fear/free2play_belt_fear.vmdl"
+        },
+        {
+          "name": "The Rogue Helm",
+          "id": "6092",
+          "item_name": "#DOTA_Item_The_Rogue_Helm",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/free2play_head_fear/free2play_head_fear.vmdl"
+        },
+        {
+          "name": "The Shrug Irons",
+          "id": "6094",
+          "item_name": "#DOTA_Item_The_Shrug_Irons",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/free2play_shoulders_fear/free2play_shoulders_fear.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Guardian_of_the_Sapphire_Flame",
+      "store_bundle": "Guardian of the Sapphire Flame",
+      "portrait_image": "econ/sets/v2/guardian_of_the_sapphire_flame",
+      "items": [
+        {
+          "name": "Belt of the Guardian of the Sapphire Flame",
+          "id": "12891",
+          "item_name": "#DOTA_Item_Belt_of_the_Guardian_of_the_Sapphire_Flame",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/frostivus2018_sven_icewrack_guardian_belt/frostivus2018_sven_icewrack_guardian_belt.vmdl"
+        },
+        {
+          "name": "Blade of the Guardian of the Sapphire Flame",
+          "id": "12890",
+          "item_name": "#DOTA_Item_Blade_of_the_Guardian_of_the_Sapphire_Flame",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/frostivus2018_sven_icewrack_guardian_weapon/frostivus2018_sven_icewrack_guardian_weapon.vmdl"
+        },
+        {
+          "name": "Armor of the Guardian of the Sapphire Flame",
+          "id": "12889",
+          "item_name": "#DOTA_Item_Armor_of_the_Guardian_of_the_Sapphire_Flame",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/frostivus2018_sven_icewrack_guardian_back/frostivus2018_sven_icewrack_guardian_back.vmdl"
+        },
+        {
+          "name": "Arms of the Guardian of the Sapphire Flame",
+          "id": "12888",
+          "item_name": "#DOTA_Item_Arms_of_the_Guardian_of_the_Sapphire_Flame",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/frostivus2018_sven_icewrack_guardian_arms/frostivus2018_sven_icewrack_guardian_arms.vmdl"
+        },
+        {
+          "name": "Helm of the Guardian of the Sapphire Flame",
+          "id": "12887",
+          "item_name": "#DOTA_Item_Helm_of_the_Guardian_of_the_Sapphire_Flame",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/frostivus2018_sven_icewrack_guardian_head/frostivus2018_sven_icewrack_guardian_head.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Guardian of the Sapphire Flame",
+          "id": "12881",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Guardian_of_the_Sapphire_Flame",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/frostivus2018_sven_icewrack_guardian_shoulder/frostivus2018_sven_icewrack_guardian_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Hallowed_Flame",
+      "store_bundle": "Hallowed Flame",
+      "portrait_image": "econ/sets/v2/hallowed_flame",
+      "items": [
+        {
+          "name": "Hallowed Flame Weapon",
+          "id": "17673",
+          "item_name": "#DOTA_Item_Hallowed_Flame_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/guardian_of_the_holy_flame_weapon/guardian_of_the_holy_flame_weapon.vmdl"
+        },
+        {
+          "name": "Hallowed Flame Bracer",
+          "id": "17672",
+          "item_name": "#DOTA_Item_Hallowed_Flame_Bracer",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/guardian_of_the_holy_flame_arms/guardian_of_the_holy_flame_arms.vmdl"
+        },
+        {
+          "name": "Hallowed Flame Belt",
+          "id": "17671",
+          "item_name": "#DOTA_Item_Hallowed_Flame_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/guardian_of_the_holy_flame_belt/guardian_of_the_holy_flame_belt.vmdl"
+        },
+        {
+          "name": "Hallowed Flame Helm",
+          "id": "17670",
+          "item_name": "#DOTA_Item_Hallowed_Flame_Helm",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/guardian_of_the_holy_flame_head/guardian_of_the_holy_flame_head.vmdl"
+        },
+        {
+          "name": "Hallowed Flame Pauldrons",
+          "id": "17669",
+          "item_name": "#DOTA_Item_Hallowed_Flame_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/guardian_of_the_holy_flame_shoulder/guardian_of_the_holy_flame_shoulder.vmdl"
+        },
+        {
+          "name": "Hallowed Flame Cape",
+          "id": "17668",
+          "item_name": "#DOTA_Item_Hallowed_Flame_Cape",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/guardian_of_the_holy_flame_back/guardian_of_the_holy_flame_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Indomitable_Legacy",
+      "store_bundle": "Indomitable Legacy",
+      "portrait_image": "econ/sets/v2/indomitable_legacy",
+      "items": [
+        {
+          "name": "Indomitable Legacy - Arms",
+          "id": "19158",
+          "item_name": "#DOTA_Item_Indomitable_Legacy__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/endless_fury_sven_arms/endless_fury_sven_arms.vmdl"
+        },
+        {
+          "name": "Indomitable Legacy - Back",
+          "id": "19157",
+          "item_name": "#DOTA_Item_Indomitable_Legacy__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/endless_fury_sven_back/endless_fury_sven_back.vmdl"
+        },
+        {
+          "name": "Indomitable Legacy - Belt",
+          "id": "19159",
+          "item_name": "#DOTA_Item_Indomitable_Legacy__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/endless_fury_sven_belt/endless_fury_sven_belt.vmdl"
+        },
+        {
+          "name": "Indomitable Legacy - Head",
+          "id": "19162",
+          "item_name": "#DOTA_Item_Indomitable_Legacy__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/endless_fury_sven_head/endless_fury_sven_head.vmdl"
+        },
+        {
+          "name": "Indomitable Legacy - Shoulder",
+          "id": "19160",
+          "item_name": "#DOTA_Item_Indomitable_Legacy__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/endless_fury_sven_shoulder/endless_fury_sven_shoulder.vmdl"
+        },
+        {
+          "name": "Indomitable Legacy - Weapon",
+          "id": "19161",
+          "item_name": "#DOTA_Item_Indomitable_Legacy__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/endless_fury_sven_weapon/endless_fury_sven_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Lord_of_Northwarden",
+      "store_bundle": "Lord of Northwarden",
+      "portrait_image": "econ/sets/v2/lord_of_northwarden",
+      "items": [
+        {
+          "name": "Lord of Northwarden Shoulder",
+          "id": "14096",
+          "item_name": "#DOTA_Item_Lord_of_Northwarden_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/lord_of_the_north_shoulder/lord_of_the_north_shoulder.vmdl"
+        },
+        {
+          "name": "Lord of Northwarden Weapon",
+          "id": "14095",
+          "item_name": "#DOTA_Item_Lord_of_Northwarden_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/lord_of_the_north_weapon/lord_of_the_north_weapon.vmdl"
+        },
+        {
+          "name": "Lord of Northwarden Back",
+          "id": "14094",
+          "item_name": "#DOTA_Item_Lord_of_Northwarden_Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/lord_of_the_north_back/lord_of_the_north_back.vmdl"
+        },
+        {
+          "name": "Lord of Northwarden Arms",
+          "id": "14093",
+          "item_name": "#DOTA_Item_Lord_of_Northwarden_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/lord_of_the_north_arms/lord_of_the_north_arms.vmdl"
+        },
+        {
+          "name": "Lord of Northwarden Belt",
+          "id": "14092",
+          "item_name": "#DOTA_Item_Lord_of_Northwarden_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/lord_of_the_north_belt/lord_of_the_north_belt.vmdl"
+        },
+        {
+          "name": "Lord of Northwarden Head",
+          "id": "14091",
+          "item_name": "#DOTA_Item_Lord_of_Northwarden_Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/lord_of_the_north_head/lord_of_the_north_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Meranth_Dragoon",
+      "store_bundle": "Meranth Dragoon",
+      "portrait_image": "econ/sets/v2/meranth_dragoon",
+      "items": [
+        {
+          "name": "Meranth Dragoon Pauldrons",
+          "id": "9358",
+          "item_name": "#DOTA_Item_Meranth_Dragoon_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/meranth_dragoon_sven_shoulder/meranth_dragoon_sven_shoulder.vmdl"
+        },
+        {
+          "name": "Meranth Dragoon Shield",
+          "id": "9359",
+          "item_name": "#DOTA_Item_Meranth_Dragoon_Shield",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/meranth_dragoon_sven_arms/meranth_dragoon_sven_arms.vmdl"
+        },
+        {
+          "name": "Meranth Dragoon Finblade",
+          "id": "9360",
+          "item_name": "#DOTA_Item_Meranth_Dragoon_Finblade",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/meranth_dragoon_sven_weapon/meranth_dragoon_sven_weapon.vmdl"
+        },
+        {
+          "name": "Meranth Dragoon Armor",
+          "id": "9371",
+          "item_name": "#DOTA_Item_Meranth_Dragoon_Armor",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/meranth_dragoon_sven_back/meranth_dragoon_sven_back.vmdl"
+        },
+        {
+          "name": "Meranth Dragoon Belt",
+          "id": "9372",
+          "item_name": "#DOTA_Item_Meranth_Dragoon_Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/meranth_dragoon_sven_belt/meranth_dragoon_sven_belt.vmdl"
+        },
+        {
+          "name": "Meranth Dragoon Helm",
+          "id": "9373",
+          "item_name": "#DOTA_Item_Meranth_Dragoon_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/meranth_dragoon_sven_head/meranth_dragoon_sven_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Relics_of_the_Lost_Vigil",
+      "store_bundle": "Relics of the Lost Vigil",
+      "portrait_image": "econ/sets/v2/relics_of_the_lost_vigil",
+      "items": [
+        {
+          "name": "Blade of the Lost Vigil",
+          "id": "12987",
+          "item_name": "#DOTA_Item_Blade_of_the_Lost_Vigil",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/ti9_sven_cavern_crawl_weapon/ti9_sven_cavern_crawl_weapon.vmdl"
+        },
+        {
+          "name": "Arms of the Lost Vigil",
+          "id": "12988",
+          "item_name": "#DOTA_Item_Arms_of_the_Lost_Vigil",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/ti9_sven_cavern_crawl_arms/ti9_sven_cavern_crawl_arms.vmdl"
+        },
+        {
+          "name": "Belt of the Lost Vigil",
+          "id": "12989",
+          "item_name": "#DOTA_Item_Belt_of_the_Lost_Vigil",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/ti9_sven_cavern_crawl_belt/ti9_sven_cavern_crawl_belt.vmdl"
+        },
+        {
+          "name": "Guard of the Lost Vigil",
+          "id": "12990",
+          "item_name": "#DOTA_Item_Guard_of_the_Lost_Vigil",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/ti9_sven_cavern_crawl_back/ti9_sven_cavern_crawl_back.vmdl"
+        },
+        {
+          "name": "Helm of the Lost Vigil",
+          "id": "12991",
+          "item_name": "#DOTA_Item_Helm_of_the_Lost_Vigil",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/ti9_sven_cavern_crawl_head/ti9_sven_cavern_crawl_head.vmdl"
+        },
+        {
+          "name": "Spaulders of the Lost Vigil",
+          "id": "12992",
+          "item_name": "#DOTA_Item_Spaulders_of_the_Lost_Vigil",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/ti9_sven_cavern_crawl_shoulder/ti9_sven_cavern_crawl_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Rhinoceros_Order",
+      "store_bundle": "Rhinoceros Order",
+      "portrait_image": "econ/sets/v2/rhinoceros_order",
+      "items": [
+        {
+          "name": "Great Sword of the Rhinoceros Order",
+          "id": "6985",
+          "item_name": "#DOTA_Item_Great_Sword_of_the_Rhinoceros_Order",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/rhinoceros_weapon/rhinoceros_weapon.vmdl"
+        },
+        {
+          "name": "Chest Plate of the Rhinoceros Order",
+          "id": "6986",
+          "item_name": "#DOTA_Item_Chest_Plate_of_the_Rhinoceros_Order",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/rhinoceros_back/rhinoceros_back.vmdl"
+        },
+        {
+          "name": "Helm of the Rhinoceros Order",
+          "id": "6987",
+          "item_name": "#DOTA_Item_Helm_of_the_Rhinoceros_Order",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/rhinoceros_head/rhinoceros_head.vmdl"
+        },
+        {
+          "name": "Gauntlet of the Rhinoceros Order",
+          "id": "6988",
+          "item_name": "#DOTA_Item_Gauntlet_of_the_Rhinoceros_Order",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/rhinoceros_arms/rhinoceros_arms.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Rhinoceros Order",
+          "id": "6989",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Rhinoceros_Order",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/rhinoceros_shoulder/rhinoceros_shoulder.vmdl"
+        },
+        {
+          "name": "Belt of the Rhinoceros Order",
+          "id": "6984",
+          "item_name": "#DOTA_Item_Belt_of_the_Rhinoceros_Order",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/rhinoceros_belt/rhinoceros_belt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sorrows_of_the_Sunken_City",
+      "store_bundle": "Sorrows of the Sunken City",
+      "portrait_image": "econ/sets/v2/sorrows_of_the_sunken_city",
+      "items": [
+        {
+          "name": "Sorrows of the Sunken City - Weapon",
+          "id": "26912",
+          "item_name": "#DOTA_Item_Sorrows_of_the_Sunken_City__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/the_legacy_of_the_forgotten_knight_weapon/the_legacy_of_the_forgotten_knight_weapon.vmdl"
+        },
+        {
+          "name": "Sorrows of the Sunken City - Shoulder",
+          "id": "26911",
+          "item_name": "#DOTA_Item_Sorrows_of_the_Sunken_City__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/the_legacy_of_the_forgotten_knight_shoulders/the_legacy_of_the_forgotten_knight_shoulders.vmdl"
+        },
+        {
+          "name": "Sorrows of the Sunken City - Head",
+          "id": "26910",
+          "item_name": "#DOTA_Item_Sorrows_of_the_Sunken_City__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/the_legacy_of_the_forgotten_knight_head/the_legacy_of_the_forgotten_knight_head.vmdl"
+        },
+        {
+          "name": "Sorrows of the Sunken City - Belt",
+          "id": "26909",
+          "item_name": "#DOTA_Item_Sorrows_of_the_Sunken_City__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/the_legacy_of_the_forgotten_knight_belt/the_legacy_of_the_forgotten_knight_belt.vmdl"
+        },
+        {
+          "name": "Sorrows of the Sunken City - Arms",
+          "id": "26908",
+          "item_name": "#DOTA_Item_Sorrows_of_the_Sunken_City__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/the_legacy_of_the_forgotten_knight_arms/the_legacy_of_the_forgotten_knight_arms.vmdl"
+        },
+        {
+          "name": "Sorrows of the Sunken City - Back",
+          "id": "26907",
+          "item_name": "#DOTA_Item_Sorrows_of_the_Sunken_City__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/the_legacy_of_the_forgotten_knight_back/the_legacy_of_the_forgotten_knight_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Stormwrought_Arbiter",
+      "store_bundle": "Stormwrought Arbiter",
+      "portrait_image": "econ/sets/v2/stormwrought_arbiter",
+      "items": [
+        {
+          "name": "Belt of the Stormwrought Arbiter",
+          "id": "7290",
+          "item_name": "#DOTA_Item_Belt_of_the_Stormwrought_Arbiter",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/arbiter_belt/arbiter_belt.vmdl"
+        },
+        {
+          "name": "Pauldron of the Stormwrought Arbiter",
+          "id": "7284",
+          "item_name": "#DOTA_Item_Pauldron_of_the_Stormwrought_Arbiter",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/arbiter_shoulder/arbiter_shoulder.vmdl"
+        },
+        {
+          "name": "Cape of the Stormwrought Arbiter",
+          "id": "7283",
+          "item_name": "#DOTA_Item_Cape_of_the_Stormwrought_Arbiter",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/arbiter_back/arbiter_back.vmdl"
+        },
+        {
+          "name": "Greatsword of the Stormwrought Arbiter",
+          "id": "7281",
+          "item_name": "#DOTA_Item_Greatsword_of_the_Stormwrought_Arbiter",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/arbiter_weapon/arbiter_weapon.vmdl"
+        },
+        {
+          "name": "Bracers of the Stormwrought Arbiter",
+          "id": "7280",
+          "item_name": "#DOTA_Item_Bracers_of_the_Stormwrought_Arbiter",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/arbiter_arms/arbiter_arms.vmdl"
+        },
+        {
+          "name": "Helm of the Stormwrought Arbiter",
+          "id": "7282",
+          "item_name": "#DOTA_Item_Helm_of_the_Stormwrought_Arbiter",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/arbiter_head/arbiter_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Cry_of_the_Battlehawk",
+      "store_bundle": "Cry of the Battlehawk",
+      "portrait_image": "econ/sets/v2/sven_cry_of_the_battlehawk",
+      "items": [
+        {
+          "name": "Pauldrons of the Battlehawk",
+          "id": "8851",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Battlehawk",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/glittering_hawk_shoulder/glittering_hawk_shoulder.vmdl"
+        },
+        {
+          "name": "Great Sword of the Battlehawk",
+          "id": "8850",
+          "item_name": "#DOTA_Item_Great_Sword_of_the_Battlehawk",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/glittering_hawk_weapon/glittering_hawk_weapon.vmdl"
+        },
+        {
+          "name": "Belt of the Battlehawk",
+          "id": "8849",
+          "item_name": "#DOTA_Item_Belt_of_the_Battlehawk",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/glittering_hawk_belt/glittering_hawk_belt.vmdl"
+        },
+        {
+          "name": "Shield of the Battlehawk",
+          "id": "8848",
+          "item_name": "#DOTA_Item_Shield_of_the_Battlehawk",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/glittering_hawk_arms/glittering_hawk_arms.vmdl"
+        },
+        {
+          "name": "Helm of the Battlehawk",
+          "id": "8847",
+          "item_name": "#DOTA_Item_Helm_of_the_Battlehawk",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/glittering_hawk_head/glittering_hawk_head.vmdl"
+        },
+        {
+          "name": "Mantle of the Battlehawk",
+          "id": "8846",
+          "item_name": "#DOTA_Item_Mantle_of_the_Battlehawk",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/glittering_hawk_back/glittering_hawk_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sven_Flameguard",
+      "store_bundle": "Flameguard Set",
+      "portrait_image": "econ/sets/v2/sven_flameguard",
+      "items": [
+        {
+          "name": "Helm of the Flameguard",
+          "id": "4206",
+          "item_name": "#DOTA_Item_Helm_of_the_Flameguard",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/knight_helmet.vmdl"
+        },
+        {
+          "name": "Dressed Pauldron of the Flameguard",
+          "id": "4207",
+          "item_name": "#DOTA_Item_Dressed_Pauldron_of_the_Flameguard",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/knight_pauldron.vmdl"
+        },
+        {
+          "name": "Skirt of the Flameguard",
+          "id": "4209",
+          "item_name": "#DOTA_Item_Skirt_of_the_Flameguard",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/knight_skirt.vmdl"
+        },
+        {
+          "name": "Sword of the Flameguard",
+          "id": "4199",
+          "item_name": "#DOTA_Item_Sword_of_the_Flameguard",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/heavenly_sword.vmdl"
+        },
+        {
+          "name": "Cape of the Flameguard",
+          "id": "4208",
+          "item_name": "#DOTA_Item_Cape_of_the_Flameguard",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/knight_cape.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sven_Freelancer",
+      "store_bundle": "The Freelancer's Finery Set",
+      "portrait_image": "econ/sets/v2/sven_freelancer",
+      "items": [
+        {
+          "name": "Mask of the Freelancer",
+          "id": "4150",
+          "item_name": "#DOTA_Item_Mask_of_the_Freelancer",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/mask_freelancer.vmdl"
+        },
+        {
+          "name": "Shoulderguard of the Freelancer",
+          "id": "4151",
+          "item_name": "#DOTA_Item_Shoulderguard_of_the_Freelancer",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/shoulder_freelancer.vmdl"
+        },
+        {
+          "name": "Pantaloons of the Freelancer",
+          "id": "4152",
+          "item_name": "#DOTA_Item_Pantaloons_of_the_Freelancer",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/belt_freelancer.vmdl"
+        },
+        {
+          "name": "Sword of the Freelancer",
+          "id": "4153",
+          "item_name": "#DOTA_Item_Sword_of_the_Freelancer",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/sword_freelancer.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Armour_of_The_Iron_Drakken",
+      "store_bundle": "Armour of The Iron Drakken",
+      "portrait_image": "econ/sets/v2/sven_iron_drakken",
+      "items": [
+        {
+          "name": "Pauldron of The Iron Drakken",
+          "id": "6074",
+          "item_name": "#DOTA_Item_Pauldron_of_The_Iron_Drakken",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/pauldron_of_tielong/pauldron_of_tielong.vmdl"
+        },
+        {
+          "name": "Belt of The Iron Drakken",
+          "id": "6077",
+          "item_name": "#DOTA_Item_Belt_of_The_Iron_Drakken",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/belt_of_tielong/belt_of_tielong.vmdl"
+        },
+        {
+          "name": "Breath of The Iron Drakken",
+          "id": "6080",
+          "item_name": "#DOTA_Item_Breath_of_The_Iron_Drakken",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/breath_of_tielong/breath_of_tielong.vmdl"
+        },
+        {
+          "name": "Gauntlet of The Iron Drakken",
+          "id": "6081",
+          "item_name": "#DOTA_Item_Gauntlet_of_The_Iron_Drakken",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/gauntlet_of_tielong/gauntlet_of_tielong.vmdl"
+        },
+        {
+          "name": "Helmet of The Iron Drakken",
+          "id": "6082",
+          "item_name": "#DOTA_Item_Helmet_of_The_Iron_Drakken",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/helmet_of_tielong/helmet_of_tielong.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sven_Mono_Militis",
+      "store_bundle": "Mono Militis Set",
+      "portrait_image": "econ/sets/v2/sven_mono_militis",
+      "items": [
+        {
+          "name": "Dressed Pauldron of the Mono Militis",
+          "id": "4196",
+          "item_name": "#DOTA_Item_Dressed_Pauldron_of_the_Mono_Militis",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/mono_militis_shoulder.vmdl"
+        },
+        {
+          "name": "Cyclopean Helm of the Mono Militis",
+          "id": "4197",
+          "item_name": "#DOTA_Item_Cyclopean_Helm_of_the_Mono_Militis",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/mono_militis_head.vmdl"
+        },
+        {
+          "name": "Sword of the Mono Militis",
+          "id": "4198",
+          "item_name": "#DOTA_Item_Sword_of_the_Mono_Militis",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/mono_militis_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sven_Swordmaster",
+      "store_bundle": "Swordmaster of the Vigil Set",
+      "portrait_image": "econ/sets/v2/sven_swordmaster",
+      "items": [
+        {
+          "name": "Tayrnhelm of the Swordmaster",
+          "id": "4034",
+          "item_name": "#DOTA_Item_Tayrnhelm_of_the_Swordmaster",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/sven_mask.vmdl"
+        },
+        {
+          "name": "Girth of the Swordmaster",
+          "id": "4035",
+          "item_name": "#DOTA_Item_Girth_of_the_Swordmaster",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/sven_belt.vmdl"
+        },
+        {
+          "name": "Fluted Guard of the Swordmaster",
+          "id": "4036",
+          "item_name": "#DOTA_Item_Fluted_Guard_of_the_Swordmaster",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/sven_shoulderpad.vmdl"
+        },
+        {
+          "name": "Grip of the Swordmaster",
+          "id": "4037",
+          "item_name": "#DOTA_Item_Grip_of_the_Swordmaster",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/sven_gauntlet.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Fiend_Cleaver",
+      "store_bundle": "The Fiend Cleaver",
+      "portrait_image": "econ/sets/v2/the_fiend_cleaver",
+      "items": [
+        {
+          "name": "Drape of a Fiend Cleaver",
+          "id": "7134",
+          "item_name": "#DOTA_Item_Drape_of_a_Fiend_Cleaver",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/fiend_cleaver_drape/fiend_cleaver_drape.vmdl"
+        },
+        {
+          "name": "Belt of the Fiend Cleaver",
+          "id": "7127",
+          "item_name": "#DOTA_Item_Belt_of_the_Fiend_Cleaver",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/fiend_cleaver_belt_demon/fiend_cleaver_belt_demon.vmdl"
+        },
+        {
+          "name": "Pauldron of the Fiend Cleaver",
+          "id": "7128",
+          "item_name": "#DOTA_Item_Pauldron_of_the_Fiend_Cleaver",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/fiend_cleaver_shoulder_demon/fiend_cleaver_shoulder_demon.vmdl"
+        },
+        {
+          "name": "Helm of the Fiend Cleaver",
+          "id": "7129",
+          "item_name": "#DOTA_Item_Helm_of_the_Fiend_Cleaver",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/fiend_cleaver_helmet/fiend_cleaver_helmet.vmdl"
+        },
+        {
+          "name": "Blade of the Fiend Cleaver",
+          "id": "7131",
+          "item_name": "#DOTA_Item_Blade_of_the_Fiend_Cleaver",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/fiend_cleaver_axe/fiend_cleaver_axe.vmdl"
+        },
+        {
+          "name": "Gauntlet of the Fiend Cleaver",
+          "id": "7133",
+          "item_name": "#DOTA_Item_Gauntlet_of_the_Fiend_Cleaver",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/fiend_cleaver_gauntlet/fiend_cleaver_gauntlet.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Warden_of_the_Unwavering_Eye",
+      "store_bundle": "Warden of the Unwavering Eye",
+      "portrait_image": "econ/sets/v2/warden_of_the_unwavering_eye",
+      "items": [
+        {
+          "name": "Warden of the Unwavering Eye - Weapon",
+          "id": "26263",
+          "item_name": "#DOTA_Item_Warden_of_the_Unwavering_Eye__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/sven_knight_of_starry_sky_weapon/sven_knight_of_starry_sky_weapon.vmdl"
+        },
+        {
+          "name": "Warden of the Unwavering Eye - Shoulder",
+          "id": "26262",
+          "item_name": "#DOTA_Item_Warden_of_the_Unwavering_Eye__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/sven_knight_of_starry_sky_shoulder/sven_knight_of_starry_sky_shoulder.vmdl"
+        },
+        {
+          "name": "Warden of the Unwavering Eye - Head",
+          "id": "26261",
+          "item_name": "#DOTA_Item_Warden_of_the_Unwavering_Eye__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/sven_knight_of_starry_sky_head/sven_knight_of_starry_sky_head.vmdl"
+        },
+        {
+          "name": "Warden of the Unwavering Eye - Belt",
+          "id": "26260",
+          "item_name": "#DOTA_Item_Warden_of_the_Unwavering_Eye__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/sven_knight_of_starry_sky_belt/sven_knight_of_starry_sky_belt.vmdl"
+        },
+        {
+          "name": "Warden of the Unwavering Eye - Back",
+          "id": "26259",
+          "item_name": "#DOTA_Item_Warden_of_the_Unwavering_Eye__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/sven_knight_of_starry_sky_back/sven_knight_of_starry_sky_back.vmdl"
+        },
+        {
+          "name": "Warden of the Unwavering Eye - Arms",
+          "id": "26258",
+          "item_name": "#DOTA_Item_Warden_of_the_Unwavering_Eye__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/sven_knight_of_starry_sky_arms/sven_knight_of_starry_sky_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Warriors_Retribution",
+      "store_bundle": "Warrior's Retribution Set",
+      "portrait_image": "econ/sets/v2/warriors_retribution_set",
+      "items": [
+        {
+          "name": "Sword of the Warrior's Retribution",
+          "id": "5647",
+          "item_name": "#DOTA_Item_Sword_of_the_Warriors_Retribution",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/warriors_retribution_lvl3_sven_sword/warriors_retribution_lvl3_sven_sword.vmdl"
+        },
+        {
+          "name": "Pauldron of the Warrior's Retribution",
+          "id": "5645",
+          "item_name": "#DOTA_Item_Pauldron_of_the_Warriors_Retribution",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/warrirors_retribution_pauldrons_sven/warrirors_retribution_pauldrons_sven.vmdl"
+        },
+        {
+          "name": "Belt of the Warrior's Retribution",
+          "id": "5648",
+          "item_name": "#DOTA_Item_Belt_of_the_Warriors_Retribution",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/warriors_retribution_sven_belt/warriors_retribution_sven_belt.vmdl"
+        },
+        {
+          "name": "Cape of the Warrior's Retribution",
+          "id": "5650",
+          "item_name": "#DOTA_Item_Cape_of_the_Warriors_Retribution",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/sven/warriors_retribution_sven_cape/warriors_retribution_sven_cape.vmdl"
+        },
+        {
+          "name": "Gauntlet of the Warrior's Retribution",
+          "id": "5652",
+          "item_name": "#DOTA_Item_Gauntlet_of_the_Warriors_Retribution",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/sven/warriors_retribution_sven_gauntlets/warriors_retribution_sven_gauntlets.vmdl"
+        },
+        {
+          "name": "Helm of the Warrior's Retribution",
+          "id": "5653",
+          "item_name": "#DOTA_Item_Helm_of_the_Warriors_Retribution",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/sven/warriors_retribution_lvl3_sven_helm/warriors_retribution_lvl3_sven_helm.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Watcher_on_the_Northern_Shore",
+      "store_bundle": "Watcher on the Northern Shore",
+      "portrait_image": "econ/sets/v2/watcher_on_the_northern_shore",
+      "items": [
+        {
+          "name": "Gauntlets of the Northern Shore",
+          "id": "9655",
+          "item_name": "#DOTA_Item_Gauntlets_of_the_Northern_Shore",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/the_watcher_of_the_north_arms/the_watcher_of_the_north_arms.vmdl"
+        },
+        {
+          "name": "Blade of the Northern Shore",
+          "id": "8727",
+          "item_name": "#DOTA_Item_Blade_of_the_Northern_Shore",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/the_watcher_of_the_north_weapon/the_watcher_of_the_north_weapon.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Northern Shore",
+          "id": "8728",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Northern_Shore",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/the_watcher_of_the_north_shoulder/the_watcher_of_the_north_shoulder.vmdl"
+        },
+        {
+          "name": "Mask of the Northern Shore",
+          "id": "9598",
+          "item_name": "#DOTA_Item_Mask_of_the_Northern_Shore",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/the_watcher_of_the_north_head/the_watcher_of_the_north_head.vmdl"
+        },
+        {
+          "name": "Armor of the Northern Shore",
+          "id": "9600",
+          "item_name": "#DOTA_Item_Armor_of_the_Northern_Shore",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/the_watcher_of_the_north_back/the_watcher_of_the_north_back.vmdl"
+        },
+        {
+          "name": "Faulds of the Northern Shore",
+          "id": "9599",
+          "item_name": "#DOTA_Item_Faulds_of_the_Northern_Shore",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/sven/the_watcher_of_the_north_belt/the_watcher_of_the_north_belt.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "16",
+      "name": "Sven's Mask",
+      "item_name": "#DOTA_Item_Svens_Mask",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/sven/sven_mask.vmdl"
+    },
+    {
+      "id": "17",
+      "name": "Sven's Sword",
+      "item_name": "#DOTA_Item_Svens_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/sven/sven_sword.vmdl"
+    },
+    {
+      "id": "18",
+      "name": "Sven's Belt",
+      "item_name": "#DOTA_Item_Svens_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/sven/sven_belt.vmdl"
+    },
+    {
+      "id": "19",
+      "name": "Sven's Gauntlet",
+      "item_name": "#DOTA_Item_Svens_Gauntlet",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/sven/sven_gauntlet.vmdl"
+    },
+    {
+      "id": "20",
+      "name": "Sven's Shoulder",
+      "item_name": "#DOTA_Item_Svens_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/sven/sven_shoulder.vmdl"
+    },
+    {
+      "id": "581",
+      "name": "Sven's Back",
+      "item_name": "#DOTA_Item_Svens_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4034",
+      "name": "Tayrnhelm of the Swordmaster",
+      "item_name": "#DOTA_Item_Tayrnhelm_of_the_Swordmaster",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_mask.vmdl"
+    },
+    {
+      "id": "4035",
+      "name": "Girth of the Swordmaster",
+      "item_name": "#DOTA_Item_Girth_of_the_Swordmaster",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_belt.vmdl"
+    },
+    {
+      "id": "4036",
+      "name": "Fluted Guard of the Swordmaster",
+      "item_name": "#DOTA_Item_Fluted_Guard_of_the_Swordmaster",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_shoulderpad.vmdl"
+    },
+    {
+      "id": "4037",
+      "name": "Grip of the Swordmaster",
+      "item_name": "#DOTA_Item_Grip_of_the_Swordmaster",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_gauntlet.vmdl"
+    },
+    {
+      "id": "4038",
+      "name": "Meranth Executioner's Blade",
+      "item_name": "#DOTA_Item_Meranth_Executioners_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_sword.vmdl"
+    },
+    {
+      "id": "4051",
+      "name": "Wuldastron the Twin-Blade of Giants",
+      "item_name": "#DOTA_Item_Wuldastron_the_TwinBlade_of_Giants",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_sword_b.vmdl"
+    },
+    {
+      "id": "4109",
+      "name": "Blade of the Dark Ancients",
+      "item_name": "#DOTA_Item_Blade_of_the_Dark_Ancients",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sword_stone.vmdl"
+    },
+    {
+      "id": "4150",
+      "name": "Mask of the Freelancer",
+      "item_name": "#DOTA_Item_Mask_of_the_Freelancer",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/mask_freelancer.vmdl"
+    },
+    {
+      "id": "4151",
+      "name": "Shoulderguard of the Freelancer",
+      "item_name": "#DOTA_Item_Shoulderguard_of_the_Freelancer",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/shoulder_freelancer.vmdl"
+    },
+    {
+      "id": "4152",
+      "name": "Pantaloons of the Freelancer",
+      "item_name": "#DOTA_Item_Pantaloons_of_the_Freelancer",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/belt_freelancer.vmdl"
+    },
+    {
+      "id": "4153",
+      "name": "Sword of the Freelancer",
+      "item_name": "#DOTA_Item_Sword_of_the_Freelancer",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sword_freelancer.vmdl"
+    },
+    {
+      "id": "4177",
+      "name": "Cleaver of Might",
+      "item_name": "#DOTA_Item_Cleaver_of_Might",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sword_almighty_cleaver.vmdl"
+    },
+    {
+      "id": "4196",
+      "name": "Dressed Pauldron of the Mono Militis",
+      "item_name": "#DOTA_Item_Dressed_Pauldron_of_the_Mono_Militis",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/mono_militis_shoulder.vmdl"
+    },
+    {
+      "id": "4197",
+      "name": "Cyclopean Helm of the Mono Militis",
+      "item_name": "#DOTA_Item_Cyclopean_Helm_of_the_Mono_Militis",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/mono_militis_head.vmdl"
+    },
+    {
+      "id": "4198",
+      "name": "Sword of the Mono Militis",
+      "item_name": "#DOTA_Item_Sword_of_the_Mono_Militis",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/mono_militis_weapon.vmdl"
+    },
+    {
+      "id": "4199",
+      "name": "Sword of the Flameguard",
+      "item_name": "#DOTA_Item_Sword_of_the_Flameguard",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/heavenly_sword.vmdl"
+    },
+    {
+      "id": "4206",
+      "name": "Helm of the Flameguard",
+      "item_name": "#DOTA_Item_Helm_of_the_Flameguard",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/knight_helmet.vmdl"
+    },
+    {
+      "id": "4207",
+      "name": "Dressed Pauldron of the Flameguard",
+      "item_name": "#DOTA_Item_Dressed_Pauldron_of_the_Flameguard",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/knight_pauldron.vmdl"
+    },
+    {
+      "id": "4208",
+      "name": "Cape of the Flameguard",
+      "item_name": "#DOTA_Item_Cape_of_the_Flameguard",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/knight_cape.vmdl"
+    },
+    {
+      "id": "4209",
+      "name": "Skirt of the Flameguard",
+      "item_name": "#DOTA_Item_Skirt_of_the_Flameguard",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/knight_skirt.vmdl"
+    },
+    {
+      "id": "4210",
+      "name": "Commander's Helm of the Flameguard",
+      "item_name": "#DOTA_Item_Commanders_Helm_of_the_Flameguard",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/spartan_helmet.vmdl"
+    },
+    {
+      "id": "4211",
+      "name": "Commander's Gauntlet of the Flameguard",
+      "item_name": "#DOTA_Item_Commanders_Gauntlet_of_the_Flameguard",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/spartan_gauntlet.vmdl"
+    },
+    {
+      "id": "4237",
+      "name": "Commander's Pauldron of the Flameguard",
+      "item_name": "#DOTA_Item_Commanders_Pauldron_of_the_Flameguard",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/knight_pauldron.vmdl"
+    },
+    {
+      "id": "4238",
+      "name": "Commander's Cape of the Flameguard",
+      "item_name": "#DOTA_Item_Commanders_Cape_of_the_Flameguard",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/knight_cape.vmdl"
+    },
+    {
+      "id": "4239",
+      "name": "Commander's Skirt of the Flameguard",
+      "item_name": "#DOTA_Item_Commanders_Skirt_of_the_Flameguard",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/knight_skirt.vmdl"
+    },
+    {
+      "id": "4245",
+      "name": "Ringblade",
+      "item_name": "#DOTA_Item_Ringblade",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/weapon_circle_sword.vmdl"
+    },
+    {
+      "id": "4265",
+      "name": "Grand Blade of the Demigod",
+      "item_name": "#DOTA_Item_Grand_Blade_of_the_Demigod",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/demigods_sword.vmdl"
+    },
+    {
+      "id": "4287",
+      "name": "Demon Claive",
+      "item_name": "#DOTA_Item_Demon_Claive",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/weapon_classic.vmdl"
+    },
+    {
+      "id": "4288",
+      "name": "Weighted Claive",
+      "item_name": "#DOTA_Item_Weighted_Claive",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/weapon_foreign.vmdl"
+    },
+    {
+      "id": "4297",
+      "name": "Ruling Sword",
+      "item_name": "#DOTA_Item_Ruling_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/weapon_ruling_sword.vmdl"
+    },
+    {
+      "id": "4342",
+      "name": "Rhuis Tuning-Fork",
+      "item_name": "#DOTA_Item_Rhuis_TuningFork",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/rhuis_tuning_fork/rhuis_tuning_fork.vmdl"
+    },
+    {
+      "id": "4762",
+      "name": "Claive of Unyielding Stone",
+      "item_name": "#DOTA_Item_Claive_of_Unyielding_Stone",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/claive_stone/claive_stone.vmdl"
+    },
+    {
+      "id": "4963",
+      "name": "Stalwart Sentinel",
+      "item_name": "#DOTA_Item_Stalwart_Sentinel",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_weapon_sentinel_01/sven_weapon_sentinel_01.vmdl"
+    },
+    {
+      "id": "5177",
+      "name": "Radiant Claive",
+      "item_name": "#DOTA_Item_Radiant_Claive",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/radiant_claive/radiant_claive.vmdl"
+    },
+    {
+      "id": "5399",
+      "name": "Armblade of the Chiseled Guard",
+      "item_name": "#DOTA_Item_Armblade_of_the_Chiseled_Guard",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_ceremonialarmbladesofthemyrmidon/sven_ceremonialarmbladesofthemyrmidon.vmdl"
+    },
+    {
+      "id": "5400",
+      "name": "Greathelm of the Chiseled Guard",
+      "item_name": "#DOTA_Item_Greathelm_of_the_Chiseled_Guard",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_ceremonialgreathelmofthemyrmidon/sven_ceremonialgreathelmofthemyrmidon.vmdl"
+    },
+    {
+      "id": "5401",
+      "name": "Blade of the Chiseled Guard",
+      "item_name": "#DOTA_Item_Blade_of_the_Chiseled_Guard",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_ceremonialshieldbladeofthemyrmidon/sven_ceremonialshieldbladeofthemyrmidon.vmdl"
+    },
+    {
+      "id": "5402",
+      "name": "Pauldron of the Chiseled Guard",
+      "item_name": "#DOTA_Item_Pauldron_of_the_Chiseled_Guard",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_ceremonialshoulderbladesofthemyrmidon/sven_ceremonialshoulderbladesofthemyrmidon.vmdl"
+    },
+    {
+      "id": "5403",
+      "name": "Tassets of the Chiseled Guard",
+      "item_name": "#DOTA_Item_Tassets_of_the_Chiseled_Guard",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/ceremonialtassetsofthemyrmidon/ceremonialtassetsofthemyrmidon.vmdl"
+    },
+    {
+      "id": "5404",
+      "name": "Luminous Edge",
+      "item_name": "#DOTA_Item_Luminous_Edge",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/radiant_cutter/radiant_cutter.vmdl"
+    },
+    {
+      "id": "5645",
+      "name": "Pauldron of the Warrior's Retribution",
+      "item_name": "#DOTA_Item_Pauldron_of_the_Warriors_Retribution",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/warrirors_retribution_pauldrons_sven/warrirors_retribution_pauldrons_sven.vmdl"
+    },
+    {
+      "id": "5647",
+      "name": "Sword of the Warrior's Retribution",
+      "item_name": "#DOTA_Item_Sword_of_the_Warriors_Retribution",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/warriors_retribution_lvl3_sven_sword/warriors_retribution_lvl3_sven_sword.vmdl"
+    },
+    {
+      "id": "5648",
+      "name": "Belt of the Warrior's Retribution",
+      "item_name": "#DOTA_Item_Belt_of_the_Warriors_Retribution",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/warriors_retribution_sven_belt/warriors_retribution_sven_belt.vmdl"
+    },
+    {
+      "id": "5650",
+      "name": "Cape of the Warrior's Retribution",
+      "item_name": "#DOTA_Item_Cape_of_the_Warriors_Retribution",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/warriors_retribution_sven_cape/warriors_retribution_sven_cape.vmdl"
+    },
+    {
+      "id": "5652",
+      "name": "Gauntlet of the Warrior's Retribution",
+      "item_name": "#DOTA_Item_Gauntlet_of_the_Warriors_Retribution",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/warriors_retribution_sven_gauntlets/warriors_retribution_sven_gauntlets.vmdl"
+    },
+    {
+      "id": "5653",
+      "name": "Helm of the Warrior's Retribution",
+      "item_name": "#DOTA_Item_Helm_of_the_Warriors_Retribution",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/warriors_retribution_lvl3_sven_helm/warriors_retribution_lvl3_sven_helm.vmdl"
+    },
+    {
+      "id": "5791",
+      "name": "Rogue Omen",
+      "item_name": "#DOTA_Item_Rogue_Omen",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/the_rogue_omen_sword/the_rogue_omen_sword.vmdl"
+    },
+    {
+      "id": "5860",
+      "name": "Bulwark of the Rogue Knight",
+      "item_name": "#DOTA_Item_Bulwark_of_the_Rogue_Knight",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/bulwark_rogue_knight/bulwark_rogue_knight.vmdl"
+    },
+    {
+      "id": "5872",
+      "name": "Spike of Frostbite",
+      "item_name": "#DOTA_Item_Spike_of_Frostbite",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/ice_sword/ice_sword.vmdl"
+    },
+    {
+      "id": "5956",
+      "name": "The Fearmaker",
+      "item_name": "#DOTA_Item_The_Fearmaker",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/free2play_weapon_fear/free2play_weapon_fear.vmdl"
+    },
+    {
+      "id": "6074",
+      "name": "Pauldron of The Iron Drakken",
+      "item_name": "#DOTA_Item_Pauldron_of_The_Iron_Drakken",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/pauldron_of_tielong/pauldron_of_tielong.vmdl"
+    },
+    {
+      "id": "6077",
+      "name": "Belt of The Iron Drakken",
+      "item_name": "#DOTA_Item_Belt_of_The_Iron_Drakken",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/belt_of_tielong/belt_of_tielong.vmdl"
+    },
+    {
+      "id": "6080",
+      "name": "Breath of The Iron Drakken",
+      "item_name": "#DOTA_Item_Breath_of_The_Iron_Drakken",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/breath_of_tielong/breath_of_tielong.vmdl"
+    },
+    {
+      "id": "6081",
+      "name": "Gauntlet of The Iron Drakken",
+      "item_name": "#DOTA_Item_Gauntlet_of_The_Iron_Drakken",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/gauntlet_of_tielong/gauntlet_of_tielong.vmdl"
+    },
+    {
+      "id": "6082",
+      "name": "Helmet of The Iron Drakken",
+      "item_name": "#DOTA_Item_Helmet_of_The_Iron_Drakken",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/helmet_of_tielong/helmet_of_tielong.vmdl"
+    },
+    {
+      "id": "6089",
+      "name": "Rogue at Arms",
+      "item_name": "#DOTA_Item_Rogue_at_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/free2play_arms_fear/free2play_arms_fear.vmdl"
+    },
+    {
+      "id": "6090",
+      "name": "Spine Guard Armor",
+      "item_name": "#DOTA_Item_Spine_Guard_Armor",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/free2play_back_fear/free2play_back_fear.vmdl"
+    },
+    {
+      "id": "6091",
+      "name": "Belt of Outcast Honor",
+      "item_name": "#DOTA_Item_Belt_of_Outcast_Honor",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/free2play_belt_fear/free2play_belt_fear.vmdl"
+    },
+    {
+      "id": "6092",
+      "name": "The Rogue Helm",
+      "item_name": "#DOTA_Item_The_Rogue_Helm",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/free2play_head_fear/free2play_head_fear.vmdl"
+    },
+    {
+      "id": "6094",
+      "name": "The Shrug Irons",
+      "item_name": "#DOTA_Item_The_Shrug_Irons",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/free2play_shoulders_fear/free2play_shoulders_fear.vmdl"
+    },
+    {
+      "id": "6566",
+      "name": "Furious Rune",
+      "item_name": "#DOTA_Item_Furious_Rune",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/furiousrune_weapon/furiousrune_weapon.vmdl"
+    },
+    {
+      "id": "6596",
+      "name": "Sven's Revenge",
+      "item_name": "#DOTA_Item_Svens_Revenge",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/revenge_weapon/revenge_weapon.vmdl"
+    },
+    {
+      "id": "6984",
+      "name": "Belt of the Rhinoceros Order",
+      "item_name": "#DOTA_Item_Belt_of_the_Rhinoceros_Order",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/rhinoceros_belt/rhinoceros_belt.vmdl"
+    },
+    {
+      "id": "6985",
+      "name": "Great Sword of the Rhinoceros Order",
+      "item_name": "#DOTA_Item_Great_Sword_of_the_Rhinoceros_Order",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/rhinoceros_weapon/rhinoceros_weapon.vmdl"
+    },
+    {
+      "id": "6986",
+      "name": "Chest Plate of the Rhinoceros Order",
+      "item_name": "#DOTA_Item_Chest_Plate_of_the_Rhinoceros_Order",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/rhinoceros_back/rhinoceros_back.vmdl"
+    },
+    {
+      "id": "6987",
+      "name": "Helm of the Rhinoceros Order",
+      "item_name": "#DOTA_Item_Helm_of_the_Rhinoceros_Order",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/rhinoceros_head/rhinoceros_head.vmdl"
+    },
+    {
+      "id": "6988",
+      "name": "Gauntlet of the Rhinoceros Order",
+      "item_name": "#DOTA_Item_Gauntlet_of_the_Rhinoceros_Order",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/rhinoceros_arms/rhinoceros_arms.vmdl"
+    },
+    {
+      "id": "6989",
+      "name": "Pauldrons of the Rhinoceros Order",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Rhinoceros_Order",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/rhinoceros_shoulder/rhinoceros_shoulder.vmdl"
+    },
+    {
+      "id": "7127",
+      "name": "Belt of the Fiend Cleaver",
+      "item_name": "#DOTA_Item_Belt_of_the_Fiend_Cleaver",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/fiend_cleaver_belt_demon/fiend_cleaver_belt_demon.vmdl"
+    },
+    {
+      "id": "7128",
+      "name": "Pauldron of the Fiend Cleaver",
+      "item_name": "#DOTA_Item_Pauldron_of_the_Fiend_Cleaver",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/fiend_cleaver_shoulder_demon/fiend_cleaver_shoulder_demon.vmdl"
+    },
+    {
+      "id": "7129",
+      "name": "Helm of the Fiend Cleaver",
+      "item_name": "#DOTA_Item_Helm_of_the_Fiend_Cleaver",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/fiend_cleaver_helmet/fiend_cleaver_helmet.vmdl"
+    },
+    {
+      "id": "7131",
+      "name": "Blade of the Fiend Cleaver",
+      "item_name": "#DOTA_Item_Blade_of_the_Fiend_Cleaver",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/fiend_cleaver_axe/fiend_cleaver_axe.vmdl"
+    },
+    {
+      "id": "7133",
+      "name": "Gauntlet of the Fiend Cleaver",
+      "item_name": "#DOTA_Item_Gauntlet_of_the_Fiend_Cleaver",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/fiend_cleaver_gauntlet/fiend_cleaver_gauntlet.vmdl"
+    },
+    {
+      "id": "7134",
+      "name": "Drape of a Fiend Cleaver",
+      "item_name": "#DOTA_Item_Drape_of_a_Fiend_Cleaver",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/fiend_cleaver_drape/fiend_cleaver_drape.vmdl"
+    },
+    {
+      "id": "7280",
+      "name": "Bracers of the Stormwrought Arbiter",
+      "item_name": "#DOTA_Item_Bracers_of_the_Stormwrought_Arbiter",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/arbiter_arms/arbiter_arms.vmdl"
+    },
+    {
+      "id": "7281",
+      "name": "Greatsword of the Stormwrought Arbiter",
+      "item_name": "#DOTA_Item_Greatsword_of_the_Stormwrought_Arbiter",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/arbiter_weapon/arbiter_weapon.vmdl"
+    },
+    {
+      "id": "7282",
+      "name": "Helm of the Stormwrought Arbiter",
+      "item_name": "#DOTA_Item_Helm_of_the_Stormwrought_Arbiter",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/arbiter_head/arbiter_head.vmdl"
+    },
+    {
+      "id": "7283",
+      "name": "Cape of the Stormwrought Arbiter",
+      "item_name": "#DOTA_Item_Cape_of_the_Stormwrought_Arbiter",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/arbiter_back/arbiter_back.vmdl"
+    },
+    {
+      "id": "7284",
+      "name": "Pauldron of the Stormwrought Arbiter",
+      "item_name": "#DOTA_Item_Pauldron_of_the_Stormwrought_Arbiter",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/arbiter_shoulder/arbiter_shoulder.vmdl"
+    },
+    {
+      "id": "7290",
+      "name": "Belt of the Stormwrought Arbiter",
+      "item_name": "#DOTA_Item_Belt_of_the_Stormwrought_Arbiter",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/arbiter_belt/arbiter_belt.vmdl"
+    },
+    {
+      "id": "7876",
+      "name": "Shattered Greatsword",
+      "item_name": "#DOTA_Item_Shattered_Greatsword",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/shattered_greatsword/shattered_greatsword.vmdl"
+    },
+    {
+      "id": "7980",
+      "name": "Armature of the Belligerent Ram Sword",
+      "item_name": "#DOTA_Item_Armature_of_the_Belligerent_Ram_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/guise_of_belligerent_ram_blade/guise_of_belligerent_ram_blade.vmdl"
+    },
+    {
+      "id": "7981",
+      "name": "Armature of the Belligerent Ram Pauldron",
+      "item_name": "#DOTA_Item_Armature_of_the_Belligerent_Ram_Pauldron",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/guise_of_belligerent_ram_back/guise_of_belligerent_ram_back.vmdl"
+    },
+    {
+      "id": "7982",
+      "name": "Armature of the Belligerent Ram Shoulder",
+      "item_name": "#DOTA_Item_Armature_of_the_Belligerent_Ram_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/guise_of_belligerent_ram_shoulder/guise_of_belligerent_ram_shoulder.vmdl"
+    },
+    {
+      "id": "7983",
+      "name": "Armature of the Belligerent Ram Helm",
+      "item_name": "#DOTA_Item_Armature_of_the_Belligerent_Ram_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/guise_of_belligerent_ram_helmet/guise_of_belligerent_ram_helmet.vmdl"
+    },
+    {
+      "id": "7984",
+      "name": "Armature of the Belligerent Ram Glove",
+      "item_name": "#DOTA_Item_Armature_of_the_Belligerent_Ram_Glove",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/guise_of_belligerent_ram_glove/guise_of_belligerent_ram_glove.vmdl"
+    },
+    {
+      "id": "7985",
+      "name": "Armature of the Belligerent Ram Belt",
+      "item_name": "#DOTA_Item_Armature_of_the_Belligerent_Ram_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/guise_of_belligerent_ram_belt/guise_of_belligerent_ram_belt.vmdl"
+    },
+    {
+      "id": "8189",
+      "name": "Vigil Signet",
+      "item_name": "#DOTA_Item_Vigil_Signet",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/arms_of_the_rogue/arms_of_the_rogue.vmdl"
+    },
+    {
+      "id": "8310",
+      "name": "Beacon of the Cyclopean Marauder",
+      "item_name": "#DOTA_Item_Beacon_of_the_Cyclopean_Marauder",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/beacon_cyclopean_marauder/beacon_cyclopean_marauder.vmdl"
+    },
+    {
+      "id": "8311",
+      "name": "Fauld of the Cyclopean Marauder",
+      "item_name": "#DOTA_Item_Fauld_of_the_Cyclopean_Marauder",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/fauld_cyclopean_marauder/fauld_cyclopean_marauder.vmdl"
+    },
+    {
+      "id": "8312",
+      "name": "Greatsword of the Cyclopean Marauder",
+      "item_name": "#DOTA_Item_Greatsword_of_the_Cyclopean_Marauder",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/greatsword_cyclopean_marauder/greatsword_cyclopean_marauder.vmdl"
+    },
+    {
+      "id": "8313",
+      "name": "Pauldron of the Cyclopean Marauder",
+      "item_name": "#DOTA_Item_Pauldron_of_the_Cyclopean_Marauder",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/pauldron_cyclopean_marauder/pauldron_cyclopean_marauder.vmdl"
+    },
+    {
+      "id": "8314",
+      "name": "Gauntlet of the Cyclopean Marauder",
+      "item_name": "#DOTA_Item_Gauntlet_of_the_Cyclopean_Marauder",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/gauntlet_cyclopean_marauder/gauntlet_cyclopean_marauder.vmdl"
+    },
+    {
+      "id": "8315",
+      "name": "Gaze of the Cyclopean Marauder",
+      "item_name": "#DOTA_Item_Gaze_of_the_Cyclopean_Marauder",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/gaze_cyclopean_marauder/gaze_cyclopean_marauder.vmdl"
+    },
+    {
+      "id": "8316",
+      "name": "Almond the Frondillo",
+      "item_name": "#DOTA_Item_Almond_the_Frondillo",
+      "item_slot": "summon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8348",
+      "name": "Faulds of Rising Fury",
+      "item_name": "#DOTA_Item_Faulds_of_Rising_Fury",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/dotapit3_sven_belt/dotapit3_sven_belt.vmdl"
+    },
+    {
+      "id": "8349",
+      "name": "Pauldrons of Rising Fury",
+      "item_name": "#DOTA_Item_Pauldrons_of_Rising_Fury",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/dotapit3_sven_shoulder/dotapit3_sven_shoulder.vmdl"
+    },
+    {
+      "id": "8350",
+      "name": "Cape of Rising Fury",
+      "item_name": "#DOTA_Item_Cape_of_Rising_Fury",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/dotapit3_sven_back/dotapit3_sven_back.vmdl"
+    },
+    {
+      "id": "8351",
+      "name": "Gauntlets of Rising Fury",
+      "item_name": "#DOTA_Item_Gauntlets_of_Rising_Fury",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/dotapit3_sven_arms/dotapit3_sven_arms.vmdl"
+    },
+    {
+      "id": "8352",
+      "name": "Helm of Rising Fury",
+      "item_name": "#DOTA_Item_Helm_of_Rising_Fury",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/dotapit3_sven_head/dotapit3_sven_head.vmdl"
+    },
+    {
+      "id": "8353",
+      "name": "Sword of Rising Fury",
+      "item_name": "#DOTA_Item_Sword_of_Rising_Fury",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/dotapit3_sven_weapon/dotapit3_sven_weapon.vmdl"
+    },
+    {
+      "id": "8366",
+      "name": "All Heroes' Default Pet",
+      "item_name": "#DOTA_Wearable_All_Heroes_DefaultPet",
+      "item_slot": "summon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "8727",
+      "name": "Blade of the Northern Shore",
+      "item_name": "#DOTA_Item_Blade_of_the_Northern_Shore",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/the_watcher_of_the_north_weapon/the_watcher_of_the_north_weapon.vmdl"
+    },
+    {
+      "id": "8728",
+      "name": "Pauldrons of the Northern Shore",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Northern_Shore",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/the_watcher_of_the_north_shoulder/the_watcher_of_the_north_shoulder.vmdl"
+    },
+    {
+      "id": "8846",
+      "name": "Mantle of the Battlehawk",
+      "item_name": "#DOTA_Item_Mantle_of_the_Battlehawk",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/glittering_hawk_back/glittering_hawk_back.vmdl"
+    },
+    {
+      "id": "8847",
+      "name": "Helm of the Battlehawk",
+      "item_name": "#DOTA_Item_Helm_of_the_Battlehawk",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/glittering_hawk_head/glittering_hawk_head.vmdl"
+    },
+    {
+      "id": "8848",
+      "name": "Shield of the Battlehawk",
+      "item_name": "#DOTA_Item_Shield_of_the_Battlehawk",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/glittering_hawk_arms/glittering_hawk_arms.vmdl"
+    },
+    {
+      "id": "8849",
+      "name": "Belt of the Battlehawk",
+      "item_name": "#DOTA_Item_Belt_of_the_Battlehawk",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/glittering_hawk_belt/glittering_hawk_belt.vmdl"
+    },
+    {
+      "id": "8850",
+      "name": "Great Sword of the Battlehawk",
+      "item_name": "#DOTA_Item_Great_Sword_of_the_Battlehawk",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/glittering_hawk_weapon/glittering_hawk_weapon.vmdl"
+    },
+    {
+      "id": "8851",
+      "name": "Pauldrons of the Battlehawk",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Battlehawk",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/glittering_hawk_shoulder/glittering_hawk_shoulder.vmdl"
+    },
+    {
+      "id": "9358",
+      "name": "Meranth Dragoon Pauldrons",
+      "item_name": "#DOTA_Item_Meranth_Dragoon_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/meranth_dragoon_sven_shoulder/meranth_dragoon_sven_shoulder.vmdl"
+    },
+    {
+      "id": "9359",
+      "name": "Meranth Dragoon Shield",
+      "item_name": "#DOTA_Item_Meranth_Dragoon_Shield",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/meranth_dragoon_sven_arms/meranth_dragoon_sven_arms.vmdl"
+    },
+    {
+      "id": "9360",
+      "name": "Meranth Dragoon Finblade",
+      "item_name": "#DOTA_Item_Meranth_Dragoon_Finblade",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/meranth_dragoon_sven_weapon/meranth_dragoon_sven_weapon.vmdl"
+    },
+    {
+      "id": "9371",
+      "name": "Meranth Dragoon Armor",
+      "item_name": "#DOTA_Item_Meranth_Dragoon_Armor",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/meranth_dragoon_sven_back/meranth_dragoon_sven_back.vmdl"
+    },
+    {
+      "id": "9372",
+      "name": "Meranth Dragoon Belt",
+      "item_name": "#DOTA_Item_Meranth_Dragoon_Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/meranth_dragoon_sven_belt/meranth_dragoon_sven_belt.vmdl"
+    },
+    {
+      "id": "9373",
+      "name": "Meranth Dragoon Helm",
+      "item_name": "#DOTA_Item_Meranth_Dragoon_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/meranth_dragoon_sven_head/meranth_dragoon_sven_head.vmdl"
+    },
+    {
+      "id": "9449",
+      "name": "Vigil Triumph",
+      "item_name": "#DOTA_Item_Vigil_Triumph",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_ti7_immortal_sword/sven_ti7_immortal_sword.vmdl"
+    },
+    {
+      "id": "9598",
+      "name": "Mask of the Northern Shore",
+      "item_name": "#DOTA_Item_Mask_of_the_Northern_Shore",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/the_watcher_of_the_north_head/the_watcher_of_the_north_head.vmdl"
+    },
+    {
+      "id": "9599",
+      "name": "Faulds of the Northern Shore",
+      "item_name": "#DOTA_Item_Faulds_of_the_Northern_Shore",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/the_watcher_of_the_north_belt/the_watcher_of_the_north_belt.vmdl"
+    },
+    {
+      "id": "9600",
+      "name": "Armor of the Northern Shore",
+      "item_name": "#DOTA_Item_Armor_of_the_Northern_Shore",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/the_watcher_of_the_north_back/the_watcher_of_the_north_back.vmdl"
+    },
+    {
+      "id": "9655",
+      "name": "Gauntlets of the Northern Shore",
+      "item_name": "#DOTA_Item_Gauntlets_of_the_Northern_Shore",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/the_watcher_of_the_north_arms/the_watcher_of_the_north_arms.vmdl"
+    },
+    {
+      "id": "10063",
+      "name": "Expired Treasure of the Rogue Knight",
+      "item_name": "#DOTA_Item_Expired_Treasure_of_the_Rogue_Knight",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "retired_treasure_chest"
+    },
+    {
+      "id": "12881",
+      "name": "Pauldrons of the Guardian of the Sapphire Flame",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Guardian_of_the_Sapphire_Flame",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/frostivus2018_sven_icewrack_guardian_shoulder/frostivus2018_sven_icewrack_guardian_shoulder.vmdl"
+    },
+    {
+      "id": "12887",
+      "name": "Helm of the Guardian of the Sapphire Flame",
+      "item_name": "#DOTA_Item_Helm_of_the_Guardian_of_the_Sapphire_Flame",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/frostivus2018_sven_icewrack_guardian_head/frostivus2018_sven_icewrack_guardian_head.vmdl"
+    },
+    {
+      "id": "12888",
+      "name": "Arms of the Guardian of the Sapphire Flame",
+      "item_name": "#DOTA_Item_Arms_of_the_Guardian_of_the_Sapphire_Flame",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/frostivus2018_sven_icewrack_guardian_arms/frostivus2018_sven_icewrack_guardian_arms.vmdl"
+    },
+    {
+      "id": "12889",
+      "name": "Armor of the Guardian of the Sapphire Flame",
+      "item_name": "#DOTA_Item_Armor_of_the_Guardian_of_the_Sapphire_Flame",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/frostivus2018_sven_icewrack_guardian_back/frostivus2018_sven_icewrack_guardian_back.vmdl"
+    },
+    {
+      "id": "12890",
+      "name": "Blade of the Guardian of the Sapphire Flame",
+      "item_name": "#DOTA_Item_Blade_of_the_Guardian_of_the_Sapphire_Flame",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/frostivus2018_sven_icewrack_guardian_weapon/frostivus2018_sven_icewrack_guardian_weapon.vmdl"
+    },
+    {
+      "id": "12891",
+      "name": "Belt of the Guardian of the Sapphire Flame",
+      "item_name": "#DOTA_Item_Belt_of_the_Guardian_of_the_Sapphire_Flame",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/frostivus2018_sven_icewrack_guardian_belt/frostivus2018_sven_icewrack_guardian_belt.vmdl"
+    },
+    {
+      "id": "12987",
+      "name": "Blade of the Lost Vigil",
+      "item_name": "#DOTA_Item_Blade_of_the_Lost_Vigil",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/ti9_sven_cavern_crawl_weapon/ti9_sven_cavern_crawl_weapon.vmdl"
+    },
+    {
+      "id": "12988",
+      "name": "Arms of the Lost Vigil",
+      "item_name": "#DOTA_Item_Arms_of_the_Lost_Vigil",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/ti9_sven_cavern_crawl_arms/ti9_sven_cavern_crawl_arms.vmdl"
+    },
+    {
+      "id": "12989",
+      "name": "Belt of the Lost Vigil",
+      "item_name": "#DOTA_Item_Belt_of_the_Lost_Vigil",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/ti9_sven_cavern_crawl_belt/ti9_sven_cavern_crawl_belt.vmdl"
+    },
+    {
+      "id": "12990",
+      "name": "Guard of the Lost Vigil",
+      "item_name": "#DOTA_Item_Guard_of_the_Lost_Vigil",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/ti9_sven_cavern_crawl_back/ti9_sven_cavern_crawl_back.vmdl"
+    },
+    {
+      "id": "12991",
+      "name": "Helm of the Lost Vigil",
+      "item_name": "#DOTA_Item_Helm_of_the_Lost_Vigil",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/ti9_sven_cavern_crawl_head/ti9_sven_cavern_crawl_head.vmdl"
+    },
+    {
+      "id": "12992",
+      "name": "Spaulders of the Lost Vigil",
+      "item_name": "#DOTA_Item_Spaulders_of_the_Lost_Vigil",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/ti9_sven_cavern_crawl_shoulder/ti9_sven_cavern_crawl_shoulder.vmdl"
+    },
+    {
+      "id": "13811",
+      "name": "Vigil Odyssey",
+      "item_name": "#DOTA_Item_Vigil_Odyssey",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_ti10_immortal_head/sven_ti10_immortal_head.vmdl"
+    },
+    {
+      "id": "14091",
+      "name": "Lord of Northwarden Head",
+      "item_name": "#DOTA_Item_Lord_of_Northwarden_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/lord_of_the_north_head/lord_of_the_north_head.vmdl"
+    },
+    {
+      "id": "14092",
+      "name": "Lord of Northwarden Belt",
+      "item_name": "#DOTA_Item_Lord_of_Northwarden_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/lord_of_the_north_belt/lord_of_the_north_belt.vmdl"
+    },
+    {
+      "id": "14093",
+      "name": "Lord of Northwarden Arms",
+      "item_name": "#DOTA_Item_Lord_of_Northwarden_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/lord_of_the_north_arms/lord_of_the_north_arms.vmdl"
+    },
+    {
+      "id": "14094",
+      "name": "Lord of Northwarden Back",
+      "item_name": "#DOTA_Item_Lord_of_Northwarden_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/lord_of_the_north_back/lord_of_the_north_back.vmdl"
+    },
+    {
+      "id": "14095",
+      "name": "Lord of Northwarden Weapon",
+      "item_name": "#DOTA_Item_Lord_of_Northwarden_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/lord_of_the_north_weapon/lord_of_the_north_weapon.vmdl"
+    },
+    {
+      "id": "14096",
+      "name": "Lord of Northwarden Shoulder",
+      "item_name": "#DOTA_Item_Lord_of_Northwarden_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/lord_of_the_north_shoulder/lord_of_the_north_shoulder.vmdl"
+    },
+    {
+      "id": "17668",
+      "name": "Hallowed Flame Cape",
+      "item_name": "#DOTA_Item_Hallowed_Flame_Cape",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/guardian_of_the_holy_flame_back/guardian_of_the_holy_flame_back.vmdl"
+    },
+    {
+      "id": "17669",
+      "name": "Hallowed Flame Pauldrons",
+      "item_name": "#DOTA_Item_Hallowed_Flame_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/guardian_of_the_holy_flame_shoulder/guardian_of_the_holy_flame_shoulder.vmdl"
+    },
+    {
+      "id": "17670",
+      "name": "Hallowed Flame Helm",
+      "item_name": "#DOTA_Item_Hallowed_Flame_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/guardian_of_the_holy_flame_head/guardian_of_the_holy_flame_head.vmdl"
+    },
+    {
+      "id": "17671",
+      "name": "Hallowed Flame Belt",
+      "item_name": "#DOTA_Item_Hallowed_Flame_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/guardian_of_the_holy_flame_belt/guardian_of_the_holy_flame_belt.vmdl"
+    },
+    {
+      "id": "17672",
+      "name": "Hallowed Flame Bracer",
+      "item_name": "#DOTA_Item_Hallowed_Flame_Bracer",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/guardian_of_the_holy_flame_arms/guardian_of_the_holy_flame_arms.vmdl"
+    },
+    {
+      "id": "17673",
+      "name": "Hallowed Flame Weapon",
+      "item_name": "#DOTA_Item_Hallowed_Flame_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/guardian_of_the_holy_flame_weapon/guardian_of_the_holy_flame_weapon.vmdl"
+    },
+    {
+      "id": "18851",
+      "name": "Cape of the Broken Blade",
+      "item_name": "#DOTA_Item_Cape_of_the_Broken_Blade",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/outcast_knight_back/outcast_knight_back.vmdl"
+    },
+    {
+      "id": "18865",
+      "name": "Head of the Broken Blade",
+      "item_name": "#DOTA_Item_Head_of_the_Broken_Blade",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/outcast_knight_head/outcast_knight_head.vmdl"
+    },
+    {
+      "id": "18866",
+      "name": "Pauldrons of the Broken Blade",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Broken_Blade",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/outcast_knight_shoulder/outcast_knight_shoulder.vmdl"
+    },
+    {
+      "id": "18867",
+      "name": "Bracers of the Broken Blade",
+      "item_name": "#DOTA_Item_Bracers_of_the_Broken_Blade",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/outcast_knight_arms/outcast_knight_arms.vmdl"
+    },
+    {
+      "id": "18868",
+      "name": "Belt of the Broken Blade",
+      "item_name": "#DOTA_Item_Belt_of_the_Broken_Blade",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/outcast_knight_belt/outcast_knight_belt.vmdl"
+    },
+    {
+      "id": "18877",
+      "name": "Weapon of the Broken Blade",
+      "item_name": "#DOTA_Item_Weapon_of_the_Broken_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/outcast_knight_weapon/outcast_knight_weapon.vmdl"
+    },
+    {
+      "id": "19157",
+      "name": "Indomitable Legacy - Back",
+      "item_name": "#DOTA_Item_Indomitable_Legacy__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/endless_fury_sven_back/endless_fury_sven_back.vmdl"
+    },
+    {
+      "id": "19158",
+      "name": "Indomitable Legacy - Arms",
+      "item_name": "#DOTA_Item_Indomitable_Legacy__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/endless_fury_sven_arms/endless_fury_sven_arms.vmdl"
+    },
+    {
+      "id": "19159",
+      "name": "Indomitable Legacy - Belt",
+      "item_name": "#DOTA_Item_Indomitable_Legacy__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/endless_fury_sven_belt/endless_fury_sven_belt.vmdl"
+    },
+    {
+      "id": "19160",
+      "name": "Indomitable Legacy - Shoulder",
+      "item_name": "#DOTA_Item_Indomitable_Legacy__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/endless_fury_sven_shoulder/endless_fury_sven_shoulder.vmdl"
+    },
+    {
+      "id": "19161",
+      "name": "Indomitable Legacy - Weapon",
+      "item_name": "#DOTA_Item_Indomitable_Legacy__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/endless_fury_sven_weapon/endless_fury_sven_weapon.vmdl"
+    },
+    {
+      "id": "19162",
+      "name": "Indomitable Legacy - Head",
+      "item_name": "#DOTA_Item_Indomitable_Legacy__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/endless_fury_sven_head/endless_fury_sven_head.vmdl"
+    },
+    {
+      "id": "20015",
+      "name": "Swordmaster of the Vigil Set",
+      "item_name": "#DOTA_Item_Swordmaster_of_the_Vigil_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20016",
+      "name": "The Freelancer's Finery Set",
+      "item_name": "#DOTA_Item_The_Freelancers_Finery_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20017",
+      "name": "Mono Militis Set",
+      "item_name": "#DOTA_Item_Mono_Militis_Set",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20018",
+      "name": "Flameguard Set",
+      "item_name": "#DOTA_Item_Flameguard_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20253",
+      "name": "Raiment of the Chiseled Guard",
+      "item_name": "#DOTA_Item_Raiment_of_the_Chiseled_Guard",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20303",
+      "name": "Warrior's Retribution Set",
+      "item_name": "#DOTA_Item_Warriors_Retribution_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20380",
+      "name": "Armour of The Iron Drakken",
+      "item_name": "#DOTA_Item_Armour_of_The_Iron_Drakken",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20402",
+      "name": "Forge of Iron Will",
+      "item_name": "#DOTA_Item_Forge_of_Iron_Will",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20625",
+      "name": "Rhinoceros Order",
+      "item_name": "#DOTA_Item_Rhinoceros_Order",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20672",
+      "name": "The Fiend Cleaver",
+      "item_name": "#DOTA_Item_The_Fiend_Cleaver",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20748",
+      "name": "Armature of the Belligerent Ram",
+      "item_name": "#DOTA_Item_Armature_of_the_Belligerent_Ram",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20780",
+      "name": "Cyclopean Marauder",
+      "item_name": "#DOTA_Item_Cyclopean_Marauder",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20797",
+      "name": "Arms of Rising Fury",
+      "item_name": "#DOTA_Item_Arms_of_Rising_Fury",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20809",
+      "name": "Stormwrought Arbiter",
+      "item_name": "#DOTA_Item_Stormwrought_Arbiter",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20994",
+      "name": "Cry of the Battlehawk",
+      "item_name": "#DOTA_Item_Cry_of_the_Battlehawk",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21122",
+      "name": "Meranth Dragoon",
+      "item_name": "#DOTA_Item_Meranth_Dragoon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21177",
+      "name": "Watcher on the Northern Shore",
+      "item_name": "#DOTA_Item_Watcher_on_the_Northern_Shore",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21315",
+      "name": "Guardian of the Sapphire Flame",
+      "item_name": "#DOTA_Item_Guardian_of_the_Sapphire_Flame",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21328",
+      "name": "Relics of the Lost Vigil",
+      "item_name": "#DOTA_Item_Relics_of_the_Lost_Vigil",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21494",
+      "name": "Lord of Northwarden",
+      "item_name": "#DOTA_Item_Lord_of_Northwarden",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21703",
+      "name": "Hallowed Flame",
+      "item_name": "#DOTA_Item_Hallowed_Flame",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21775",
+      "name": "Bite of the Broken Blade",
+      "item_name": "#DOTA_Item_Bite_of_the_Broken_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21842",
+      "name": "Indomitable Legacy",
+      "item_name": "#DOTA_Item_Indomitable_Legacy",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26257",
+      "name": "Warden of the Unwavering Eye",
+      "item_name": "#DOTA_Item_Warden_of_the_Unwavering_Eye",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26258",
+      "name": "Warden of the Unwavering Eye - Arms",
+      "item_name": "#DOTA_Item_Warden_of_the_Unwavering_Eye__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_knight_of_starry_sky_arms/sven_knight_of_starry_sky_arms.vmdl"
+    },
+    {
+      "id": "26259",
+      "name": "Warden of the Unwavering Eye - Back",
+      "item_name": "#DOTA_Item_Warden_of_the_Unwavering_Eye__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_knight_of_starry_sky_back/sven_knight_of_starry_sky_back.vmdl"
+    },
+    {
+      "id": "26260",
+      "name": "Warden of the Unwavering Eye - Belt",
+      "item_name": "#DOTA_Item_Warden_of_the_Unwavering_Eye__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_knight_of_starry_sky_belt/sven_knight_of_starry_sky_belt.vmdl"
+    },
+    {
+      "id": "26261",
+      "name": "Warden of the Unwavering Eye - Head",
+      "item_name": "#DOTA_Item_Warden_of_the_Unwavering_Eye__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_knight_of_starry_sky_head/sven_knight_of_starry_sky_head.vmdl"
+    },
+    {
+      "id": "26262",
+      "name": "Warden of the Unwavering Eye - Shoulder",
+      "item_name": "#DOTA_Item_Warden_of_the_Unwavering_Eye__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_knight_of_starry_sky_shoulder/sven_knight_of_starry_sky_shoulder.vmdl"
+    },
+    {
+      "id": "26263",
+      "name": "Warden of the Unwavering Eye - Weapon",
+      "item_name": "#DOTA_Item_Warden_of_the_Unwavering_Eye__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_knight_of_starry_sky_weapon/sven_knight_of_starry_sky_weapon.vmdl"
+    },
+    {
+      "id": "26907",
+      "name": "Sorrows of the Sunken City - Back",
+      "item_name": "#DOTA_Item_Sorrows_of_the_Sunken_City__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/the_legacy_of_the_forgotten_knight_back/the_legacy_of_the_forgotten_knight_back.vmdl"
+    },
+    {
+      "id": "26908",
+      "name": "Sorrows of the Sunken City - Arms",
+      "item_name": "#DOTA_Item_Sorrows_of_the_Sunken_City__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/the_legacy_of_the_forgotten_knight_arms/the_legacy_of_the_forgotten_knight_arms.vmdl"
+    },
+    {
+      "id": "26909",
+      "name": "Sorrows of the Sunken City - Belt",
+      "item_name": "#DOTA_Item_Sorrows_of_the_Sunken_City__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/the_legacy_of_the_forgotten_knight_belt/the_legacy_of_the_forgotten_knight_belt.vmdl"
+    },
+    {
+      "id": "26910",
+      "name": "Sorrows of the Sunken City - Head",
+      "item_name": "#DOTA_Item_Sorrows_of_the_Sunken_City__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/the_legacy_of_the_forgotten_knight_head/the_legacy_of_the_forgotten_knight_head.vmdl"
+    },
+    {
+      "id": "26911",
+      "name": "Sorrows of the Sunken City - Shoulder",
+      "item_name": "#DOTA_Item_Sorrows_of_the_Sunken_City__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/the_legacy_of_the_forgotten_knight_shoulders/the_legacy_of_the_forgotten_knight_shoulders.vmdl"
+    },
+    {
+      "id": "26912",
+      "name": "Sorrows of the Sunken City - Weapon",
+      "item_name": "#DOTA_Item_Sorrows_of_the_Sunken_City__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/the_legacy_of_the_forgotten_knight_weapon/the_legacy_of_the_forgotten_knight_weapon.vmdl"
+    },
+    {
+      "id": "26931",
+      "name": "Sorrows of the Sunken City",
+      "item_name": "#DOTA_Item_Sorrows_of_the_Sunken_City",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "35556",
+      "name": "Astral Schism - Arms",
+      "item_name": "#DOTA_Item_Astral_Schism__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_cosmic/sven_cosmic_arms.vmdl"
+    },
+    {
+      "id": "35557",
+      "name": "Astral Schism - Back",
+      "item_name": "#DOTA_Item_Astral_Schism__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_cosmic/sven_cosmic_back.vmdl"
+    },
+    {
+      "id": "35558",
+      "name": "Astral Schism - Belt",
+      "item_name": "#DOTA_Item_Astral_Schism__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_cosmic/sven_cosmic_belt.vmdl"
+    },
+    {
+      "id": "35559",
+      "name": "Astral Schism - Head",
+      "item_name": "#DOTA_Item_Astral_Schism__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_cosmic/sven_cosmic_head.vmdl"
+    },
+    {
+      "id": "35560",
+      "name": "Astral Schism - Shoulder",
+      "item_name": "#DOTA_Item_Astral_Schism__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_cosmic/sven_cosmic_shoulders.vmdl"
+    },
+    {
+      "id": "35561",
+      "name": "Astral Schism - Weapon",
+      "item_name": "#DOTA_Item_Astral_Schism__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/sven/sven_cosmic/sven_cosmic_weapon.vmdl"
+    },
+    {
+      "id": "35562",
+      "name": "Astral Schism",
+      "item_name": "#DOTA_Item_Astral_Schism",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    }
+  ]
+}

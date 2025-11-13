@@ -1,0 +1,2233 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "454",
+      "name": "Abaddon's Weapon",
+      "item_name": "#DOTA_Item_Abaddons_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/abaddon/weapon.vmdl"
+    },
+    "head": {
+      "id": "455",
+      "name": "Abaddon's Helmet",
+      "item_name": "#DOTA_Item_Abaddons_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/abaddon/helmet.vmdl"
+    },
+    "back": {
+      "id": "456",
+      "name": "Abaddon's Cape",
+      "item_name": "#DOTA_Item_Abaddons_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/abaddon/cape.vmdl"
+    },
+    "shoulder": {
+      "id": "457",
+      "name": "Abaddon's Shoulder Armor",
+      "item_name": "#DOTA_Item_Abaddons_Shoulder_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/abaddon/shoulders.vmdl"
+    },
+    "mount": {
+      "id": "458",
+      "name": "Abaddon's Mount",
+      "item_name": "#DOTA_Item_Abaddons_Mount",
+      "item_slot": "mount",
+      "item_rarity": "common",
+      "model_player": "models/heroes/abaddon/mount.vmdl"
+    },
+    "ambient_effects": {
+      "id": "522",
+      "name": "Abaddon's Ambient Effects",
+      "item_name": "#DOTA_Item_Abaddons_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Anointed_Armor_of_Ruination",
+      "store_bundle": "Anointed Armor of Ruination",
+      "portrait_image": "econ/sets/v2/abaddon_anointed_ruination",
+      "items": [
+        {
+          "name": "Darkstar the Mistforged",
+          "id": "5690",
+          "item_name": "#DOTA_Item_Darkstar_the_Mistforged",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/abaddon/darkstar_the_mistforged/darkstar_the_mistforged.vmdl"
+        },
+        {
+          "name": "Netherax, Nightmare of the Mist",
+          "id": "5691",
+          "item_name": "#DOTA_Item_Netherax_Nightmare_of_the_Mist",
+          "item_slot": "mount",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/netherax_nightmare_of_the_mist/netherax_nightmare_of_the_mist.vmdl"
+        },
+        {
+          "name": "Mistplates of Ruin",
+          "id": "5692",
+          "item_name": "#DOTA_Item_Mistplates_of_Ruin",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/mistplates_of_ruin/mistplates_of_ruin.vmdl"
+        },
+        {
+          "name": "Winged Shroud of Ruin",
+          "id": "5694",
+          "item_name": "#DOTA_Item_Winged_Shroud_of_Ruin",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/winged_shroud_of_ruin/winged_shroud_of_ruin.vmdl"
+        },
+        {
+          "name": "Tarnhelm of Ruin",
+          "id": "5693",
+          "item_name": "#DOTA_Item_Tarnhelm_of_Ruin",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/abaddon/tarnhelm_of_ruin/tarnhelm_of_ruin.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Darkness_Wanderers_Armor",
+      "store_bundle": "Darkness Wanderer's Armor Set",
+      "portrait_image": "econ/sets/v2/abaddon_darkness_wanderers_armor",
+      "items": [
+        {
+          "name": "Hood of the Font Guard",
+          "id": "5821",
+          "item_name": "#DOTA_Item_Hood_of_the_Font_Guard",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/hood_of_the_font_guard/hood_of_the_font_guard.vmdl"
+        },
+        {
+          "name": "Cold Light of the Mist",
+          "id": "5830",
+          "item_name": "#DOTA_Item_Cold_Light_of_the_Mist",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/abaddon/cold_light_of_the_mist/cold_light_of_the_mist.vmdl"
+        },
+        {
+          "name": "Shoulderplates of Evil Spirit",
+          "id": "5829",
+          "item_name": "#DOTA_Item_Shoulderplates_of_Evil_Spirit",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/shoulderplates_of_evil_spirit/shoulderplates_of_evil_spirit.vmdl"
+        },
+        {
+          "name": "Grudge in the Mist",
+          "id": "5804",
+          "item_name": "#DOTA_Item_Grudge_in_the_Mist",
+          "item_slot": "mount",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/grudge_in_the_mist/grudge_in_the_mist.vmdl"
+        },
+        {
+          "name": "Cloak of the Resentful Spectre",
+          "id": "5801",
+          "item_name": "#DOTA_Item_Cloak_of_the_Resentful_Spectre",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/cloak_of_the_resentful_spectre/cloak_of_the_resentful_spectre.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Arsenal_of_the_Demonic_Vessel",
+      "store_bundle": "Arsenal of the Demonic Vessel",
+      "portrait_image": "econ/sets/v2/abaddon_demonic_vessel",
+      "items": [
+        {
+          "name": "Cloak of the Demonic Vessel",
+          "id": "6408",
+          "item_name": "#DOTA_Item_Cloak_of_the_Demonic_Vessel",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/alliance_abba_back/alliance_abba_back.vmdl"
+        },
+        {
+          "name": "Hood of the Demonic Vessel",
+          "id": "6409",
+          "item_name": "#DOTA_Item_Hood_of_the_Demonic_Vessel",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/alliance_abba_head/alliance_abba_head.vmdl"
+        },
+        {
+          "name": "Warhorse of the Demonic Vessel",
+          "id": "6410",
+          "item_name": "#DOTA_Item_Warhorse_of_the_Demonic_Vessel",
+          "item_slot": "mount",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/alliance_abba_mount/alliance_abba_mount.vmdl"
+        },
+        {
+          "name": "Prey of the Demonic Vessel",
+          "id": "6411",
+          "item_name": "#DOTA_Item_Prey_of_the_Demonic_Vessel",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/alliance_abba_shoulder/alliance_abba_shoulder.vmdl"
+        },
+        {
+          "name": "Blade of the Demonic Vessel",
+          "id": "6412",
+          "item_name": "#DOTA_Item_Blade_of_the_Demonic_Vessel",
+          "item_slot": "weapon",
+          "item_rarity": "legendary",
+          "model_player": "models/items/abaddon/alliance_abba_weapon/alliance_abba_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Drowned_Horseman",
+      "store_bundle": "Drowned Horseman",
+      "portrait_image": "econ/sets/v2/abaddon_drowned_horseman",
+      "items": [
+        {
+          "name": "Drowned Horseman's Cape",
+          "id": "7496",
+          "item_name": "#DOTA_Item_Drowned_Horsemans_Cape",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/dotapit_s3_drowned_rider_back/dotapit_s3_drowned_rider_back.vmdl"
+        },
+        {
+          "name": "Drowned Horseman's Helm",
+          "id": "7497",
+          "item_name": "#DOTA_Item_Drowned_Horsemans_Helm",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/abaddon/dotapit_s3_drowned_rider_head/dotapit_s3_drowned_rider_head.vmdl"
+        },
+        {
+          "name": "Drowned Horseman's Mount",
+          "id": "7498",
+          "item_name": "#DOTA_Item_Drowned_Horsemans_Mount",
+          "item_slot": "mount",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/dotapit_s3_drowned_rider_mount/dotapit_s3_drowned_rider_mount.vmdl"
+        },
+        {
+          "name": "Drowned Horseman's Pauldrons",
+          "id": "7499",
+          "item_name": "#DOTA_Item_Drowned_Horsemans_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/abaddon/dotapit_s3_drowned_rider_shoulder/dotapit_s3_drowned_rider_shoulder.vmdl"
+        },
+        {
+          "name": "Drowned Horseman's Axe and Buckler",
+          "id": "7500",
+          "item_name": "#DOTA_Item_Drowned_Horsemans_Axe_and_Buckler",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/dotapit_s3_drowned_rider_weapon/dotapit_s3_drowned_rider_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Blightfall",
+      "store_bundle": "Blightfall",
+      "portrait_image": "econ/sets/v2/blightfall",
+      "items": [
+        {
+          "name": "Blightfall - Weapon",
+          "id": "19419",
+          "item_name": "#DOTA_Item_Blightfall__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/soul_of_darkness_weapon/soul_of_darkness_weapon.vmdl"
+        },
+        {
+          "name": "Blightfall - Shoulder",
+          "id": "19418",
+          "item_name": "#DOTA_Item_Blightfall__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/soul_of_darkness_shoulder/soul_of_darkness_shoulder.vmdl"
+        },
+        {
+          "name": "Blightfall - Mount",
+          "id": "19417",
+          "item_name": "#DOTA_Item_Blightfall__Mount",
+          "item_slot": "mount",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/soul_of_darkness_mount/soul_of_darkness_mount.vmdl"
+        },
+        {
+          "name": "Blightfall - Head",
+          "id": "19416",
+          "item_name": "#DOTA_Item_Blightfall__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/soul_of_darkness_head/soul_of_darkness_head.vmdl"
+        },
+        {
+          "name": "Blightfall - Back",
+          "id": "19415",
+          "item_name": "#DOTA_Item_Blightfall__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/soul_of_darkness_back/soul_of_darkness_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Compendium_Rider_of_Avarice",
+      "store_bundle": "Compendium Rider of Avarice",
+      "portrait_image": "econ/sets/v2/compendium_rider_of_avarice",
+      "items": [
+        {
+          "name": "Compendium Rider of Avarice Sword",
+          "id": "7368",
+          "item_name": "#DOTA_Item_Compendium_Rider_of_Avarice_Sword",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/promo_gilded_sword/promo_gilded_sword.vmdl"
+        },
+        {
+          "name": "Compendium Rider of Avarice Shoulders",
+          "id": "7367",
+          "item_name": "#DOTA_Item_Compendium_Rider_of_Avarice_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/promo_gilded_shoulder/promo_gilded_shoulder.vmdl"
+        },
+        {
+          "name": "Compendium Rider of Avarice Mount",
+          "id": "7366",
+          "item_name": "#DOTA_Item_Compendium_Rider_of_Avarice_Mount",
+          "item_slot": "mount",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/promo_gilded_mount/promo_gilded_mount.vmdl"
+        },
+        {
+          "name": "Compendium Rider of Avarice Helmet",
+          "id": "7365",
+          "item_name": "#DOTA_Item_Compendium_Rider_of_Avarice_Helmet",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/abaddon/promo_gilded_helmet/promo_gilded_helmet.vmdl"
+        },
+        {
+          "name": "Compendium Rider of Avarice Cape",
+          "id": "7364",
+          "item_name": "#DOTA_Item_Compendium_Rider_of_Avarice_Cape",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/promo_gilded_cape/promo_gilded_cape.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dreadmist_Dragoon",
+      "store_bundle": "Dreadmist Dragoon",
+      "portrait_image": "econ/sets/v2/dreadmist_dragoon",
+      "items": [
+        {
+          "name": "Dreadmist Dragoon - Weapon",
+          "id": "28497",
+          "item_name": "#DOTA_Item_Dreadmist_Dragoon__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/abaddon_blackmist_reaper_weapon/abaddon_blackmist_reaper_weapon.vmdl"
+        },
+        {
+          "name": "Dreadmist Dragoon - Shoulder",
+          "id": "28487",
+          "item_name": "#DOTA_Item_Dreadmist_Dragoon__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/abaddon_blackmist_reaper_shoulder/abaddon_blackmist_reaper_shoulder.vmdl"
+        },
+        {
+          "name": "Dreadmist Dragoon - Mount",
+          "id": "28477",
+          "item_name": "#DOTA_Item_Dreadmist_Dragoon__Mount",
+          "item_slot": "mount",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/abaddon_blackmist_reaper_mount/abaddon_blackmist_reaper_mount.vmdl"
+        },
+        {
+          "name": "Dreadmist Dragoon - Head",
+          "id": "28473",
+          "item_name": "#DOTA_Item_Dreadmist_Dragoon__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/abaddon_blackmist_reaper_head/abaddon_blackmist_reaper_head.vmdl"
+        },
+        {
+          "name": "Dreadmist Dragoon - Back",
+          "id": "28472",
+          "item_name": "#DOTA_Item_Dreadmist_Dragoon__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/abaddon_blackmist_reaper_back/abaddon_blackmist_reaper_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Echoes_of_the_Everblack",
+      "store_bundle": "Echoes of the Everblack",
+      "portrait_image": "econ/sets/v2/echoes_of_the_everblack",
+      "items": [
+        {
+          "name": "Mount of the Everblack",
+          "id": "13461",
+          "item_name": "#DOTA_Item_Mount_of_the_Everblack",
+          "item_slot": "mount",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/ti9_cache_abbaddon_everblack_mount/ti9_cache_abbaddon_everblack_mount.vmdl"
+        },
+        {
+          "name": "Cape of the Everblack",
+          "id": "13460",
+          "item_name": "#DOTA_Item_Cape_of_the_Everblack",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/ti9_cache_abbaddon_everblack_back/ti9_cache_abbaddon_everblack_back.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Everblack",
+          "id": "13459",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Everblack",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/ti9_cache_abbaddon_everblack_shoulder/ti9_cache_abbaddon_everblack_shoulder.vmdl"
+        },
+        {
+          "name": "Hood of the Everblack",
+          "id": "13458",
+          "item_name": "#DOTA_Item_Hood_of_the_Everblack",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/ti9_cache_abbaddon_everblack_head/ti9_cache_abbaddon_everblack_head.vmdl"
+        },
+        {
+          "name": "Scythe of the Everblack",
+          "id": "13457",
+          "item_name": "#DOTA_Item_Scythe_of_the_Everblack",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/ti9_cache_abbaddon_everblack_weapon/ti9_cache_abbaddon_everblack_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Endless_Night",
+      "store_bundle": "Endless Night",
+      "portrait_image": "econ/sets/v2/endless_night",
+      "items": [
+        {
+          "name": "Endless Night Mount",
+          "id": "13264",
+          "item_name": "#DOTA_Item_Endless_Night_Mount",
+          "item_slot": "mount",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/abaddon_endless_night_mount/abaddon_endless_night_mount.vmdl"
+        },
+        {
+          "name": "Endless Night Shoulder",
+          "id": "13263",
+          "item_name": "#DOTA_Item_Endless_Night_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/abaddon_endless_night_shoulder/abaddon_endless_night_shoulder.vmdl"
+        },
+        {
+          "name": "Endless Night Cape",
+          "id": "13262",
+          "item_name": "#DOTA_Item_Endless_Night_Cape",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/abaddon_endless_night_back/abaddon_endless_night_back.vmdl"
+        },
+        {
+          "name": "Endless Night Head",
+          "id": "13236",
+          "item_name": "#DOTA_Item_Endless_Night_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/abaddon_endless_night_head/abaddon_endless_night_head.vmdl"
+        },
+        {
+          "name": "Endless Night Sword",
+          "id": "13235",
+          "item_name": "#DOTA_Item_Endless_Night_Sword",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/abaddon_endless_night_weapon/abaddon_endless_night_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Enveloping_Despair",
+      "store_bundle": "Enveloping Despair",
+      "portrait_image": "econ/sets/v2/enveloping_despair",
+      "items": [
+        {
+          "name": "Halberd of Enveloping Despair",
+          "id": "8749",
+          "item_name": "#DOTA_Item_Halberd_of_Enveloping_Despair",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/abaddon/haze_whisperer_weapon/haze_whisperer_weapon.vmdl"
+        },
+        {
+          "name": "Spaulders of Enveloping Despair",
+          "id": "8748",
+          "item_name": "#DOTA_Item_Spaulders_of_Enveloping_Despair",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/abaddon/haze_whisperer_shoulder/haze_whisperer_shoulder.vmdl"
+        },
+        {
+          "name": "Ram of Enveloping Despair",
+          "id": "8747",
+          "item_name": "#DOTA_Item_Ram_of_Enveloping_Despair",
+          "item_slot": "mount",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/haze_whisperer_mount/haze_whisperer_mount.vmdl"
+        },
+        {
+          "name": "Helm of Enveloping Despair",
+          "id": "7464",
+          "item_name": "#DOTA_Item_Helm_of_Enveloping_Despair",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/haze_whisperer_head/haze_whisperer_head.vmdl"
+        },
+        {
+          "name": "Cape of Enveloping Despair",
+          "id": "7457",
+          "item_name": "#DOTA_Item_Cape_of_Enveloping_Despair",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/abaddon/haze_whisperer_back/haze_whisperer_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sermon_of_the_Frozen_Apostle",
+      "store_bundle": "Sermon of the Frozen Apostle Set",
+      "portrait_image": "econ/sets/v2/frozen_apostle",
+      "items": [
+        {
+          "name": "Rimeheart the Doom Stallion",
+          "id": "5812",
+          "item_name": "#DOTA_Item_Rimeheart_the_Doom_Stallion",
+          "item_slot": "mount",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/mount_drake_evercold/mount_drake_evercold.vmdl"
+        },
+        {
+          "name": "Death Shroud of the Frozen Apostle",
+          "id": "5813",
+          "item_name": "#DOTA_Item_Death_Shroud_of_the_Frozen_Apostle",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/cape_drake_evercold/cape_drake_evercold.vmdl"
+        },
+        {
+          "name": "Horned Helm of the Frozen Apostle",
+          "id": "5814",
+          "item_name": "#DOTA_Item_Horned_Helm_of_the_Frozen_Apostle",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/head_drake_evercold/head_drake_evercold.vmdl"
+        },
+        {
+          "name": "Drake Guard of the Frozen Apostle",
+          "id": "5815",
+          "item_name": "#DOTA_Item_Drake_Guard_of_the_Frozen_Apostle",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/shoulder_drake_evercold/shoulder_drake_evercold.vmdl"
+        },
+        {
+          "name": "Twisted Ghostblade of the Frozen Apostle",
+          "id": "5816",
+          "item_name": "#DOTA_Item_Twisted_Ghostblade_of_the_Frozen_Apostle",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/weapon_ravelord/weapon_ravelord.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Mantle_of_the_Blackmist",
+      "store_bundle": "Mantle of the Blackmist",
+      "portrait_image": "econ/sets/v2/mantle_of_the_blackmist",
+      "items": [
+        {
+          "name": "Mantle of the Blackmist - Weapon",
+          "id": "31226",
+          "item_name": "#DOTA_Item_Mantle_of_the_Blackmist__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/breached_mist_lord_weapon/breached_mist_lord_weapon.vmdl"
+        },
+        {
+          "name": "Mantle of the Blackmist - Shoulder",
+          "id": "31227",
+          "item_name": "#DOTA_Item_Mantle_of_the_Blackmist__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/breached_mist_lord_shoulder/breached_mist_lord_shoulder.vmdl"
+        },
+        {
+          "name": "Mantle of the Blackmist - Mount",
+          "id": "31228",
+          "item_name": "#DOTA_Item_Mantle_of_the_Blackmist__Mount",
+          "item_slot": "mount",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/breached_mist_lord_mount/breached_mist_lord_mount.vmdl"
+        },
+        {
+          "name": "Mantle of the Blackmist - Head",
+          "id": "31229",
+          "item_name": "#DOTA_Item_Mantle_of_the_Blackmist__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/breached_mist_lord_head/breached_mist_lord_head.vmdl"
+        },
+        {
+          "name": "Mantle of the Blackmist - Back",
+          "id": "31230",
+          "item_name": "#DOTA_Item_Mantle_of_the_Blackmist__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/breached_mist_lord_back/breached_mist_lord_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Mark_of_the_Mistral_Fiend",
+      "store_bundle": "Mark of the Mistral Fiend",
+      "portrait_image": "econ/sets/v2/mark_of_the_mistral_fiend",
+      "items": [
+        {
+          "name": "Mistral",
+          "id": "7413",
+          "item_name": "#DOTA_Item_Mistral",
+          "item_slot": "mount",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/mark_of_the_mistral_fiend_mount/mark_of_the_mistral_fiend_mount.vmdl"
+        },
+        {
+          "name": "Cape of the Mistral Fiend",
+          "id": "7411",
+          "item_name": "#DOTA_Item_Cape_of_the_Mistral_Fiend",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/mark_of_the_mistral_fiend_back/mark_of_the_mistral_fiend_back.vmdl"
+        },
+        {
+          "name": "Helm of the Mistral Fiend",
+          "id": "7412",
+          "item_name": "#DOTA_Item_Helm_of_the_Mistral_Fiend",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/mark_of_the_mistral_fiend_head/mark_of_the_mistral_fiend_head.vmdl"
+        },
+        {
+          "name": "Call of the Mistral Fiend",
+          "id": "7415",
+          "item_name": "#DOTA_Item_Call_of_the_Mistral_Fiend",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/mark_of_the_mistral_fiend_weapon/mark_of_the_mistral_fiend_weapon.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Mistral Fiend",
+          "id": "7414",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Mistral_Fiend",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/abaddon/mark_of_the_mistral_fiend_shoulder/mark_of_the_mistral_fiend_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Merciless_Mists",
+      "store_bundle": "Merciless Mists",
+      "portrait_image": "econ/sets/v2/merciless_mists",
+      "items": [
+        {
+          "name": "Merciless Mists - Weapon",
+          "id": "19247",
+          "item_name": "#DOTA_Item_Merciless_Mists__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/merciless_king_weapon/merciless_king_weapon.vmdl"
+        },
+        {
+          "name": "Merciless Mists - Head",
+          "id": "19246",
+          "item_name": "#DOTA_Item_Merciless_Mists__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/merciless_king_head/merciless_king_head.vmdl"
+        },
+        {
+          "name": "Merciless Mists - Mount",
+          "id": "19243",
+          "item_name": "#DOTA_Item_Merciless_Mists__Mount",
+          "item_slot": "mount",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/merciless_king_mount/merciless_king_mount.vmdl"
+        },
+        {
+          "name": "Merciless Mists - Back",
+          "id": "19244",
+          "item_name": "#DOTA_Item_Merciless_Mists__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/merciless_king_back/merciless_king_back.vmdl"
+        },
+        {
+          "name": "Merciless Mists - Shoulder",
+          "id": "19245",
+          "item_name": "#DOTA_Item_Merciless_Mists__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/merciless_king_shoulder/merciless_king_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Phantom_Balladeer",
+      "store_bundle": "Phantom Balladeer",
+      "portrait_image": "econ/sets/v2/phantom_balladeer",
+      "items": [
+        {
+          "name": "Phantom Balladeer - Mount",
+          "id": "28360",
+          "item_name": "#DOTA_Item_Phantom_Balladeer__Mount",
+          "item_slot": "mount",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/wandering_poet_mount/wandering_poet_mount.vmdl"
+        },
+        {
+          "name": "Phantom Balladeer - Shoulder",
+          "id": "28359",
+          "item_name": "#DOTA_Item_Phantom_Balladeer__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/wandering_poet_shoulders/wandering_poet_shoulders.vmdl"
+        },
+        {
+          "name": "Phantom Balladeer - Back",
+          "id": "28358",
+          "item_name": "#DOTA_Item_Phantom_Balladeer__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/wandering_poet_back/wandering_poet_back.vmdl"
+        },
+        {
+          "name": "Phantom Balladeer - Head",
+          "id": "28357",
+          "item_name": "#DOTA_Item_Phantom_Balladeer__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/wandering_poet_head/wandering_poet_head.vmdl"
+        },
+        {
+          "name": "Phantom Balladeer - Weapon",
+          "id": "28356",
+          "item_name": "#DOTA_Item_Phantom_Balladeer__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/wandering_poet_weapon/wandering_poet_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Rider_of_Avarice",
+      "store_bundle": "Rider of Avarice",
+      "portrait_image": "econ/sets/v2/rider_of_avarice",
+      "items": [
+        {
+          "name": "Rider of Avarice Helmet",
+          "id": "7334",
+          "item_name": "#DOTA_Item_Rider_of_Avarice_Helmet",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/abaddon/avarice_head/avarice_head.vmdl"
+        },
+        {
+          "name": "Rider of Avarice Shoulders",
+          "id": "7335",
+          "item_name": "#DOTA_Item_Rider_of_Avarice_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/avarice_shoulders/avarice_shoulders.vmdl"
+        },
+        {
+          "name": "Rider of Avarice Sword",
+          "id": "7336",
+          "item_name": "#DOTA_Item_Rider_of_Avarice_Sword",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/avarice_weapon/avarice_weapon.vmdl"
+        },
+        {
+          "name": "Rider of Avarice Cape",
+          "id": "7337",
+          "item_name": "#DOTA_Item_Rider_of_Avarice_Cape",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/avarice_back/avarice_back.vmdl"
+        },
+        {
+          "name": "Rider of Avarice Mount",
+          "id": "7338",
+          "item_name": "#DOTA_Item_Rider_of_Avarice_Mount",
+          "item_slot": "mount",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/avarice_mount/avarice_mount.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Spectral_Shadow",
+      "store_bundle": "Spectral Shadow",
+      "portrait_image": "econ/sets/v2/spectral_shadow",
+      "items": [
+        {
+          "name": "Spectral Shadow Mount",
+          "id": "28625",
+          "item_name": "#DOTA_Item_Spectral_Shadow_Mount",
+          "item_slot": "mount",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/abaddon_curse_of_demonic_crown_mount/abaddon_curse_of_demonic_crown_mount.vmdl"
+        },
+        {
+          "name": "Spectral Shadow Weapon",
+          "id": "28603",
+          "item_name": "#DOTA_Item_Spectral_Shadow_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/abaddon_curse_of_demonic_crown_weapon/abaddon_curse_of_demonic_crown_weapon.vmdl"
+        },
+        {
+          "name": "Spectral Shadow Back",
+          "id": "28602",
+          "item_name": "#DOTA_Item_Spectral_Shadow_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/abaddon_curse_of_demonic_crown_back/abaddon_curse_of_demonic_crown_back.vmdl"
+        },
+        {
+          "name": "Spectral Shadow Shoulder",
+          "id": "28601",
+          "item_name": "#DOTA_Item_Spectral_Shadow_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/abaddon_curse_of_demonic_crown_shoulder/abaddon_curse_of_demonic_crown_shoulder.vmdl"
+        },
+        {
+          "name": "Spectral Shadow Head",
+          "id": "28600",
+          "item_name": "#DOTA_Item_Spectral_Shadow_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/abaddon_curse_of_demonic_crown_head/abaddon_curse_of_demonic_crown_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Brinebred_Cavalier",
+      "store_bundle": "The Brinebred Cavalier",
+      "portrait_image": "econ/sets/v2/the_brinebred_cavalier",
+      "items": [
+        {
+          "name": "Pauldrons of the Brinebred Cavalier",
+          "id": "9493",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Brinebred_Cavalier",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/the_sunken_horseman_abaddon_shoulder/the_sunken_horseman_abaddon_shoulder.vmdl"
+        },
+        {
+          "name": "Sword of the Brinebred Cavalier",
+          "id": "9492",
+          "item_name": "#DOTA_Item_Sword_of_the_Brinebred_Cavalier",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/the_sunken_horseman_abaddon_weapon/the_sunken_horseman_abaddon_weapon.vmdl"
+        },
+        {
+          "name": "Steed of the Brinebred Cavalier",
+          "id": "9491",
+          "item_name": "#DOTA_Item_Steed_of_the_Brinebred_Cavalier",
+          "item_slot": "mount",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/the_sunken_horseman_abaddon_mount/the_sunken_horseman_abaddon_mount.vmdl"
+        },
+        {
+          "name": "Crown of the Brinebred Cavalier",
+          "id": "9490",
+          "item_name": "#DOTA_Item_Crown_of_the_Brinebred_Cavalier",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/the_sunken_horseman_abaddon_head/the_sunken_horseman_abaddon_head.vmdl"
+        },
+        {
+          "name": "Cape of the Brinebred Cavalier",
+          "id": "9203",
+          "item_name": "#DOTA_Item_Cape_of_the_Brinebred_Cavalier",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/the_sunken_horseman_abaddon_back/the_sunken_horseman_abaddon_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Trenchknight",
+      "store_bundle": "Trenchknight",
+      "portrait_image": "econ/sets/v2/trenchknight",
+      "items": [
+        {
+          "name": "Trenchknight - Back",
+          "id": "22341",
+          "item_name": "#DOTA_Item_Trenchknight__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/knight_of_the_abyss_back/knight_of_the_abyss_back.vmdl"
+        },
+        {
+          "name": "Trenchknight - Head",
+          "id": "22340",
+          "item_name": "#DOTA_Item_Trenchknight__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/knight_of_the_abyss_head/knight_of_the_abyss_head.vmdl"
+        },
+        {
+          "name": "Trenchknight - Mount",
+          "id": "22338",
+          "item_name": "#DOTA_Item_Trenchknight__Mount",
+          "item_slot": "mount",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/knight_of_the_abyss_mount/knight_of_the_abyss_mount.vmdl"
+        },
+        {
+          "name": "Trenchknight - Shoulder",
+          "id": "22337",
+          "item_name": "#DOTA_Item_Trenchknight__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/knight_of_the_abyss_shoulder/knight_of_the_abyss_shoulder.vmdl"
+        },
+        {
+          "name": "Trenchknight - Weapon",
+          "id": "22336",
+          "item_name": "#DOTA_Item_Trenchknight__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/abaddon/knight_of_the_abyss_weapon/knight_of_the_abyss_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Vespertine_Guard",
+      "store_bundle": "Vespertine Guard",
+      "portrait_image": "econ/sets/v2/vespertine_guard",
+      "items": [
+        {
+          "name": "Vespertine Guard Shoulders",
+          "id": "7316",
+          "item_name": "#DOTA_Item_Vespertine_Guard_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/vespertine_guard_shoulder/vespertine_guard_shoulder.vmdl"
+        },
+        {
+          "name": "Nightsbane",
+          "id": "7315",
+          "item_name": "#DOTA_Item_Nightsbane",
+          "item_slot": "mount",
+          "item_rarity": "rare",
+          "model_player": "models/items/abaddon/vespertine_guard_mount/vespertine_guard_mount.vmdl"
+        },
+        {
+          "name": "Vespertine Guard Cloak",
+          "id": "7314",
+          "item_name": "#DOTA_Item_Vespertine_Guard_Cloak",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/vespertine_guard_cloak/vespertine_guard_cloak.vmdl"
+        },
+        {
+          "name": "Vespertine Guard Blade",
+          "id": "7313",
+          "item_name": "#DOTA_Item_Vespertine_Guard_Blade",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/abaddon/vespertine_guard_blade/vespertine_guard_blade.vmdl"
+        },
+        {
+          "name": "Vespertine Guard Helmet",
+          "id": "7312",
+          "item_name": "#DOTA_Item_Vespertine_Guard_Helmet",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/abaddon/vespertine_guard_helmet/vespertine_guard_helmet.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "454",
+      "name": "Abaddon's Weapon",
+      "item_name": "#DOTA_Item_Abaddons_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/abaddon/weapon.vmdl"
+    },
+    {
+      "id": "455",
+      "name": "Abaddon's Helmet",
+      "item_name": "#DOTA_Item_Abaddons_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/abaddon/helmet.vmdl"
+    },
+    {
+      "id": "456",
+      "name": "Abaddon's Cape",
+      "item_name": "#DOTA_Item_Abaddons_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/abaddon/cape.vmdl"
+    },
+    {
+      "id": "457",
+      "name": "Abaddon's Shoulder Armor",
+      "item_name": "#DOTA_Item_Abaddons_Shoulder_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/abaddon/shoulders.vmdl"
+    },
+    {
+      "id": "458",
+      "name": "Abaddon's Mount",
+      "item_name": "#DOTA_Item_Abaddons_Mount",
+      "item_slot": "mount",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/abaddon/mount.vmdl"
+    },
+    {
+      "id": "522",
+      "name": "Abaddon's Ambient Effects",
+      "item_name": "#DOTA_Item_Abaddons_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "5168",
+      "name": "Mace of the Chosen",
+      "item_name": "#DOTA_Item_Mace_of_the_Chosen",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/feathers/feathers_weapon.vmdl"
+    },
+    {
+      "id": "5398",
+      "name": "Mistblade",
+      "item_name": "#DOTA_Item_Mistblade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/mistblade/mistblade.vmdl"
+    },
+    {
+      "id": "5561",
+      "name": "Phantom's Reaper",
+      "item_name": "#DOTA_Item_Phantoms_Reaper",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/phantoms_reaper/phantoms_reaper.vmdl"
+    },
+    {
+      "id": "5690",
+      "name": "Darkstar the Mistforged",
+      "item_name": "#DOTA_Item_Darkstar_the_Mistforged",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/darkstar_the_mistforged/darkstar_the_mistforged.vmdl"
+    },
+    {
+      "id": "5691",
+      "name": "Netherax, Nightmare of the Mist",
+      "item_name": "#DOTA_Item_Netherax_Nightmare_of_the_Mist",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/netherax_nightmare_of_the_mist/netherax_nightmare_of_the_mist.vmdl"
+    },
+    {
+      "id": "5692",
+      "name": "Mistplates of Ruin",
+      "item_name": "#DOTA_Item_Mistplates_of_Ruin",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/mistplates_of_ruin/mistplates_of_ruin.vmdl"
+    },
+    {
+      "id": "5693",
+      "name": "Tarnhelm of Ruin",
+      "item_name": "#DOTA_Item_Tarnhelm_of_Ruin",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/tarnhelm_of_ruin/tarnhelm_of_ruin.vmdl"
+    },
+    {
+      "id": "5694",
+      "name": "Winged Shroud of Ruin",
+      "item_name": "#DOTA_Item_Winged_Shroud_of_Ruin",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/winged_shroud_of_ruin/winged_shroud_of_ruin.vmdl"
+    },
+    {
+      "id": "5792",
+      "name": "Hollow Ripper",
+      "item_name": "#DOTA_Item_Hollow_Ripper",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/hollow_ripper/hollow_ripper.vmdl"
+    },
+    {
+      "id": "5801",
+      "name": "Cloak of the Resentful Spectre",
+      "item_name": "#DOTA_Item_Cloak_of_the_Resentful_Spectre",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/cloak_of_the_resentful_spectre/cloak_of_the_resentful_spectre.vmdl"
+    },
+    {
+      "id": "5804",
+      "name": "Grudge in the Mist",
+      "item_name": "#DOTA_Item_Grudge_in_the_Mist",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/grudge_in_the_mist/grudge_in_the_mist.vmdl"
+    },
+    {
+      "id": "5812",
+      "name": "Rimeheart the Doom Stallion",
+      "item_name": "#DOTA_Item_Rimeheart_the_Doom_Stallion",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/mount_drake_evercold/mount_drake_evercold.vmdl"
+    },
+    {
+      "id": "5813",
+      "name": "Death Shroud of the Frozen Apostle",
+      "item_name": "#DOTA_Item_Death_Shroud_of_the_Frozen_Apostle",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/cape_drake_evercold/cape_drake_evercold.vmdl"
+    },
+    {
+      "id": "5814",
+      "name": "Horned Helm of the Frozen Apostle",
+      "item_name": "#DOTA_Item_Horned_Helm_of_the_Frozen_Apostle",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/head_drake_evercold/head_drake_evercold.vmdl"
+    },
+    {
+      "id": "5815",
+      "name": "Drake Guard of the Frozen Apostle",
+      "item_name": "#DOTA_Item_Drake_Guard_of_the_Frozen_Apostle",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/shoulder_drake_evercold/shoulder_drake_evercold.vmdl"
+    },
+    {
+      "id": "5816",
+      "name": "Twisted Ghostblade of the Frozen Apostle",
+      "item_name": "#DOTA_Item_Twisted_Ghostblade_of_the_Frozen_Apostle",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/weapon_ravelord/weapon_ravelord.vmdl"
+    },
+    {
+      "id": "5821",
+      "name": "Hood of the Font Guard",
+      "item_name": "#DOTA_Item_Hood_of_the_Font_Guard",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/hood_of_the_font_guard/hood_of_the_font_guard.vmdl"
+    },
+    {
+      "id": "5829",
+      "name": "Shoulderplates of Evil Spirit",
+      "item_name": "#DOTA_Item_Shoulderplates_of_Evil_Spirit",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/shoulderplates_of_evil_spirit/shoulderplates_of_evil_spirit.vmdl"
+    },
+    {
+      "id": "5830",
+      "name": "Cold Light of the Mist",
+      "item_name": "#DOTA_Item_Cold_Light_of_the_Mist",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/cold_light_of_the_mist/cold_light_of_the_mist.vmdl"
+    },
+    {
+      "id": "5837",
+      "name": "Iceshard",
+      "item_name": "#DOTA_Item_Iceshard",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/sword_iceshard/sword_iceshard.vmdl"
+    },
+    {
+      "id": "5902",
+      "name": "Mistbreaker",
+      "item_name": "#DOTA_Item_Mistbreaker",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/weapon_foxc/weapon_foxc.vmdl"
+    },
+    {
+      "id": "5904",
+      "name": "Dreadsteed of Avernus",
+      "item_name": "#DOTA_Item_Dreadsteed_of_Avernus",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/abamount/abamount.vmdl"
+    },
+    {
+      "id": "6360",
+      "name": "Soulhoof",
+      "item_name": "#DOTA_Item_Soulhoof",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/soulhoof/soulhoof.vmdl"
+    },
+    {
+      "id": "6408",
+      "name": "Cloak of the Demonic Vessel",
+      "item_name": "#DOTA_Item_Cloak_of_the_Demonic_Vessel",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/alliance_abba_back/alliance_abba_back.vmdl"
+    },
+    {
+      "id": "6409",
+      "name": "Hood of the Demonic Vessel",
+      "item_name": "#DOTA_Item_Hood_of_the_Demonic_Vessel",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/alliance_abba_head/alliance_abba_head.vmdl"
+    },
+    {
+      "id": "6410",
+      "name": "Warhorse of the Demonic Vessel",
+      "item_name": "#DOTA_Item_Warhorse_of_the_Demonic_Vessel",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/alliance_abba_mount/alliance_abba_mount.vmdl"
+    },
+    {
+      "id": "6411",
+      "name": "Prey of the Demonic Vessel",
+      "item_name": "#DOTA_Item_Prey_of_the_Demonic_Vessel",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/alliance_abba_shoulder/alliance_abba_shoulder.vmdl"
+    },
+    {
+      "id": "6412",
+      "name": "Blade of the Demonic Vessel",
+      "item_name": "#DOTA_Item_Blade_of_the_Demonic_Vessel",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/alliance_abba_weapon/alliance_abba_weapon.vmdl"
+    },
+    {
+      "id": "6793",
+      "name": "Demon Edge",
+      "item_name": "#DOTA_Item_Demon_Edge",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/demonedge_weapon/demonedge_weapon.vmdl"
+    },
+    {
+      "id": "6812",
+      "name": "Emissary's Blade",
+      "item_name": "#DOTA_Item_Emissarys_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/emissaryblade_weapon/emissaryblade_weapon.vmdl"
+    },
+    {
+      "id": "7312",
+      "name": "Vespertine Guard Helmet",
+      "item_name": "#DOTA_Item_Vespertine_Guard_Helmet",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/vespertine_guard_helmet/vespertine_guard_helmet.vmdl"
+    },
+    {
+      "id": "7313",
+      "name": "Vespertine Guard Blade",
+      "item_name": "#DOTA_Item_Vespertine_Guard_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/vespertine_guard_blade/vespertine_guard_blade.vmdl"
+    },
+    {
+      "id": "7314",
+      "name": "Vespertine Guard Cloak",
+      "item_name": "#DOTA_Item_Vespertine_Guard_Cloak",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/vespertine_guard_cloak/vespertine_guard_cloak.vmdl"
+    },
+    {
+      "id": "7315",
+      "name": "Nightsbane",
+      "item_name": "#DOTA_Item_Nightsbane",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/vespertine_guard_mount/vespertine_guard_mount.vmdl"
+    },
+    {
+      "id": "7316",
+      "name": "Vespertine Guard Shoulders",
+      "item_name": "#DOTA_Item_Vespertine_Guard_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/vespertine_guard_shoulder/vespertine_guard_shoulder.vmdl"
+    },
+    {
+      "id": "7334",
+      "name": "Rider of Avarice Helmet",
+      "item_name": "#DOTA_Item_Rider_of_Avarice_Helmet",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/avarice_head/avarice_head.vmdl"
+    },
+    {
+      "id": "7335",
+      "name": "Rider of Avarice Shoulders",
+      "item_name": "#DOTA_Item_Rider_of_Avarice_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/avarice_shoulders/avarice_shoulders.vmdl"
+    },
+    {
+      "id": "7336",
+      "name": "Rider of Avarice Sword",
+      "item_name": "#DOTA_Item_Rider_of_Avarice_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/avarice_weapon/avarice_weapon.vmdl"
+    },
+    {
+      "id": "7337",
+      "name": "Rider of Avarice Cape",
+      "item_name": "#DOTA_Item_Rider_of_Avarice_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/avarice_back/avarice_back.vmdl"
+    },
+    {
+      "id": "7338",
+      "name": "Rider of Avarice Mount",
+      "item_name": "#DOTA_Item_Rider_of_Avarice_Mount",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/avarice_mount/avarice_mount.vmdl"
+    },
+    {
+      "id": "7364",
+      "name": "Compendium Rider of Avarice Cape",
+      "item_name": "#DOTA_Item_Compendium_Rider_of_Avarice_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/promo_gilded_cape/promo_gilded_cape.vmdl"
+    },
+    {
+      "id": "7365",
+      "name": "Compendium Rider of Avarice Helmet",
+      "item_name": "#DOTA_Item_Compendium_Rider_of_Avarice_Helmet",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/promo_gilded_helmet/promo_gilded_helmet.vmdl"
+    },
+    {
+      "id": "7366",
+      "name": "Compendium Rider of Avarice Mount",
+      "item_name": "#DOTA_Item_Compendium_Rider_of_Avarice_Mount",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/promo_gilded_mount/promo_gilded_mount.vmdl"
+    },
+    {
+      "id": "7367",
+      "name": "Compendium Rider of Avarice Shoulders",
+      "item_name": "#DOTA_Item_Compendium_Rider_of_Avarice_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/promo_gilded_shoulder/promo_gilded_shoulder.vmdl"
+    },
+    {
+      "id": "7368",
+      "name": "Compendium Rider of Avarice Sword",
+      "item_name": "#DOTA_Item_Compendium_Rider_of_Avarice_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/promo_gilded_sword/promo_gilded_sword.vmdl"
+    },
+    {
+      "id": "7411",
+      "name": "Cape of the Mistral Fiend",
+      "item_name": "#DOTA_Item_Cape_of_the_Mistral_Fiend",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/mark_of_the_mistral_fiend_back/mark_of_the_mistral_fiend_back.vmdl"
+    },
+    {
+      "id": "7412",
+      "name": "Helm of the Mistral Fiend",
+      "item_name": "#DOTA_Item_Helm_of_the_Mistral_Fiend",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/mark_of_the_mistral_fiend_head/mark_of_the_mistral_fiend_head.vmdl"
+    },
+    {
+      "id": "7413",
+      "name": "Mistral",
+      "item_name": "#DOTA_Item_Mistral",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/mark_of_the_mistral_fiend_mount/mark_of_the_mistral_fiend_mount.vmdl"
+    },
+    {
+      "id": "7414",
+      "name": "Pauldrons of the Mistral Fiend",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Mistral_Fiend",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/mark_of_the_mistral_fiend_shoulder/mark_of_the_mistral_fiend_shoulder.vmdl"
+    },
+    {
+      "id": "7415",
+      "name": "Call of the Mistral Fiend",
+      "item_name": "#DOTA_Item_Call_of_the_Mistral_Fiend",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/mark_of_the_mistral_fiend_weapon/mark_of_the_mistral_fiend_weapon.vmdl"
+    },
+    {
+      "id": "7457",
+      "name": "Cape of Enveloping Despair",
+      "item_name": "#DOTA_Item_Cape_of_Enveloping_Despair",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/haze_whisperer_back/haze_whisperer_back.vmdl"
+    },
+    {
+      "id": "7464",
+      "name": "Helm of Enveloping Despair",
+      "item_name": "#DOTA_Item_Helm_of_Enveloping_Despair",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/haze_whisperer_head/haze_whisperer_head.vmdl"
+    },
+    {
+      "id": "7496",
+      "name": "Drowned Horseman's Cape",
+      "item_name": "#DOTA_Item_Drowned_Horsemans_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/dotapit_s3_drowned_rider_back/dotapit_s3_drowned_rider_back.vmdl"
+    },
+    {
+      "id": "7497",
+      "name": "Drowned Horseman's Helm",
+      "item_name": "#DOTA_Item_Drowned_Horsemans_Helm",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/dotapit_s3_drowned_rider_head/dotapit_s3_drowned_rider_head.vmdl"
+    },
+    {
+      "id": "7498",
+      "name": "Drowned Horseman's Mount",
+      "item_name": "#DOTA_Item_Drowned_Horsemans_Mount",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/dotapit_s3_drowned_rider_mount/dotapit_s3_drowned_rider_mount.vmdl"
+    },
+    {
+      "id": "7499",
+      "name": "Drowned Horseman's Pauldrons",
+      "item_name": "#DOTA_Item_Drowned_Horsemans_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/dotapit_s3_drowned_rider_shoulder/dotapit_s3_drowned_rider_shoulder.vmdl"
+    },
+    {
+      "id": "7500",
+      "name": "Drowned Horseman's Axe and Buckler",
+      "item_name": "#DOTA_Item_Drowned_Horsemans_Axe_and_Buckler",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/dotapit_s3_drowned_rider_weapon/dotapit_s3_drowned_rider_weapon.vmdl"
+    },
+    {
+      "id": "7564",
+      "name": "Blackmist Blade",
+      "item_name": "#DOTA_Item_Blackmist_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/blackmist_blade/blackmist_blade.vmdl"
+    },
+    {
+      "id": "8741",
+      "name": "Hallgul the War Mount",
+      "item_name": "#DOTA_Item_Hallgul_the_War_Mount",
+      "item_slot": "mount",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/weta_hallgul_war_mount/weta_hallgul_war_mount.vmdl"
+    },
+    {
+      "id": "8742",
+      "name": "Fractured Sword",
+      "item_name": "#DOTA_Item_Fractured_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/weta_fractured_sword_of_eternity_weapon/weta_fractured_sword_of_eternity_weapon.vmdl"
+    },
+    {
+      "id": "8747",
+      "name": "Ram of Enveloping Despair",
+      "item_name": "#DOTA_Item_Ram_of_Enveloping_Despair",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/haze_whisperer_mount/haze_whisperer_mount.vmdl"
+    },
+    {
+      "id": "8748",
+      "name": "Spaulders of Enveloping Despair",
+      "item_name": "#DOTA_Item_Spaulders_of_Enveloping_Despair",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/haze_whisperer_shoulder/haze_whisperer_shoulder.vmdl"
+    },
+    {
+      "id": "8749",
+      "name": "Halberd of Enveloping Despair",
+      "item_name": "#DOTA_Item_Halberd_of_Enveloping_Despair",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/haze_whisperer_weapon/haze_whisperer_weapon.vmdl"
+    },
+    {
+      "id": "9203",
+      "name": "Cape of the Brinebred Cavalier",
+      "item_name": "#DOTA_Item_Cape_of_the_Brinebred_Cavalier",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/the_sunken_horseman_abaddon_back/the_sunken_horseman_abaddon_back.vmdl"
+    },
+    {
+      "id": "9490",
+      "name": "Crown of the Brinebred Cavalier",
+      "item_name": "#DOTA_Item_Crown_of_the_Brinebred_Cavalier",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/the_sunken_horseman_abaddon_head/the_sunken_horseman_abaddon_head.vmdl"
+    },
+    {
+      "id": "9491",
+      "name": "Steed of the Brinebred Cavalier",
+      "item_name": "#DOTA_Item_Steed_of_the_Brinebred_Cavalier",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/the_sunken_horseman_abaddon_mount/the_sunken_horseman_abaddon_mount.vmdl"
+    },
+    {
+      "id": "9492",
+      "name": "Sword of the Brinebred Cavalier",
+      "item_name": "#DOTA_Item_Sword_of_the_Brinebred_Cavalier",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/the_sunken_horseman_abaddon_weapon/the_sunken_horseman_abaddon_weapon.vmdl"
+    },
+    {
+      "id": "9493",
+      "name": "Pauldrons of the Brinebred Cavalier",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Brinebred_Cavalier",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/the_sunken_horseman_abaddon_shoulder/the_sunken_horseman_abaddon_shoulder.vmdl"
+    },
+    {
+      "id": "13235",
+      "name": "Endless Night Sword",
+      "item_name": "#DOTA_Item_Endless_Night_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/abaddon_endless_night_weapon/abaddon_endless_night_weapon.vmdl"
+    },
+    {
+      "id": "13236",
+      "name": "Endless Night Head",
+      "item_name": "#DOTA_Item_Endless_Night_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/abaddon_endless_night_head/abaddon_endless_night_head.vmdl"
+    },
+    {
+      "id": "13262",
+      "name": "Endless Night Cape",
+      "item_name": "#DOTA_Item_Endless_Night_Cape",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/abaddon_endless_night_back/abaddon_endless_night_back.vmdl"
+    },
+    {
+      "id": "13263",
+      "name": "Endless Night Shoulder",
+      "item_name": "#DOTA_Item_Endless_Night_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/abaddon_endless_night_shoulder/abaddon_endless_night_shoulder.vmdl"
+    },
+    {
+      "id": "13264",
+      "name": "Endless Night Mount",
+      "item_name": "#DOTA_Item_Endless_Night_Mount",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/abaddon_endless_night_mount/abaddon_endless_night_mount.vmdl"
+    },
+    {
+      "id": "13457",
+      "name": "Scythe of the Everblack",
+      "item_name": "#DOTA_Item_Scythe_of_the_Everblack",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/ti9_cache_abbaddon_everblack_weapon/ti9_cache_abbaddon_everblack_weapon.vmdl"
+    },
+    {
+      "id": "13458",
+      "name": "Hood of the Everblack",
+      "item_name": "#DOTA_Item_Hood_of_the_Everblack",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/ti9_cache_abbaddon_everblack_head/ti9_cache_abbaddon_everblack_head.vmdl"
+    },
+    {
+      "id": "13459",
+      "name": "Pauldrons of the Everblack",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Everblack",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/ti9_cache_abbaddon_everblack_shoulder/ti9_cache_abbaddon_everblack_shoulder.vmdl"
+    },
+    {
+      "id": "13460",
+      "name": "Cape of the Everblack",
+      "item_name": "#DOTA_Item_Cape_of_the_Everblack",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/ti9_cache_abbaddon_everblack_back/ti9_cache_abbaddon_everblack_back.vmdl"
+    },
+    {
+      "id": "13461",
+      "name": "Mount of the Everblack",
+      "item_name": "#DOTA_Item_Mount_of_the_Everblack",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/ti9_cache_abbaddon_everblack_mount/ti9_cache_abbaddon_everblack_mount.vmdl"
+    },
+    {
+      "id": "19243",
+      "name": "Merciless Mists - Mount",
+      "item_name": "#DOTA_Item_Merciless_Mists__Mount",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/merciless_king_mount/merciless_king_mount.vmdl"
+    },
+    {
+      "id": "19244",
+      "name": "Merciless Mists - Back",
+      "item_name": "#DOTA_Item_Merciless_Mists__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/merciless_king_back/merciless_king_back.vmdl"
+    },
+    {
+      "id": "19245",
+      "name": "Merciless Mists - Shoulder",
+      "item_name": "#DOTA_Item_Merciless_Mists__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/merciless_king_shoulder/merciless_king_shoulder.vmdl"
+    },
+    {
+      "id": "19246",
+      "name": "Merciless Mists - Head",
+      "item_name": "#DOTA_Item_Merciless_Mists__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/merciless_king_head/merciless_king_head.vmdl"
+    },
+    {
+      "id": "19247",
+      "name": "Merciless Mists - Weapon",
+      "item_name": "#DOTA_Item_Merciless_Mists__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/merciless_king_weapon/merciless_king_weapon.vmdl"
+    },
+    {
+      "id": "19415",
+      "name": "Blightfall - Back",
+      "item_name": "#DOTA_Item_Blightfall__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/soul_of_darkness_back/soul_of_darkness_back.vmdl"
+    },
+    {
+      "id": "19416",
+      "name": "Blightfall - Head",
+      "item_name": "#DOTA_Item_Blightfall__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/soul_of_darkness_head/soul_of_darkness_head.vmdl"
+    },
+    {
+      "id": "19417",
+      "name": "Blightfall - Mount",
+      "item_name": "#DOTA_Item_Blightfall__Mount",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/soul_of_darkness_mount/soul_of_darkness_mount.vmdl"
+    },
+    {
+      "id": "19418",
+      "name": "Blightfall - Shoulder",
+      "item_name": "#DOTA_Item_Blightfall__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/soul_of_darkness_shoulder/soul_of_darkness_shoulder.vmdl"
+    },
+    {
+      "id": "19419",
+      "name": "Blightfall - Weapon",
+      "item_name": "#DOTA_Item_Blightfall__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/soul_of_darkness_weapon/soul_of_darkness_weapon.vmdl"
+    },
+    {
+      "id": "20315",
+      "name": "Anointed Armor of Ruination",
+      "item_name": "#DOTA_Item_Anointed_Armor_of_Ruination",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20333",
+      "name": "Sermon of the Frozen Apostle Set",
+      "item_name": "#DOTA_Item_Sermon_of_the_Frozen_Apostle_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20344",
+      "name": "Darkness Wanderer's Armor Set",
+      "item_name": "#DOTA_Item_Darkness_Wanderers_Armor_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20486",
+      "name": "Arsenal of the Demonic Vessel",
+      "item_name": "#DOTA_Item_Arsenal_of_the_Demonic_Vessel",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20687",
+      "name": "Vespertine Guard",
+      "item_name": "#DOTA_Item_Vespertine_Guard",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20691",
+      "name": "Compendium Rider of Avarice",
+      "item_name": "#DOTA_Item_Compendium_Rider_of_Avarice",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20692",
+      "name": "Rider of Avarice",
+      "item_name": "#DOTA_Item_Rider_of_Avarice",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20722",
+      "name": "Drowned Horseman",
+      "item_name": "#DOTA_Item_Drowned_Horseman",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20864",
+      "name": "Mark of the Mistral Fiend",
+      "item_name": "#DOTA_Item_Mark_of_the_Mistral_Fiend",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20990",
+      "name": "Enveloping Despair",
+      "item_name": "#DOTA_Item_Enveloping_Despair",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21137",
+      "name": "The Brinebred Cavalier",
+      "item_name": "#DOTA_Item_The_Brinebred_Cavalier",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21369",
+      "name": "Endless Night",
+      "item_name": "#DOTA_Item_Endless_Night",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21413",
+      "name": "Echoes of the Everblack",
+      "item_name": "#DOTA_Item_Echoes_of_the_Everblack",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21856",
+      "name": "Merciless Mists",
+      "item_name": "#DOTA_Item_Merciless_Mists",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21884",
+      "name": "Blightfall",
+      "item_name": "#DOTA_Item_Blightfall",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22336",
+      "name": "Trenchknight - Weapon",
+      "item_name": "#DOTA_Item_Trenchknight__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/knight_of_the_abyss_weapon/knight_of_the_abyss_weapon.vmdl"
+    },
+    {
+      "id": "22337",
+      "name": "Trenchknight - Shoulder",
+      "item_name": "#DOTA_Item_Trenchknight__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/knight_of_the_abyss_shoulder/knight_of_the_abyss_shoulder.vmdl"
+    },
+    {
+      "id": "22338",
+      "name": "Trenchknight - Mount",
+      "item_name": "#DOTA_Item_Trenchknight__Mount",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/knight_of_the_abyss_mount/knight_of_the_abyss_mount.vmdl"
+    },
+    {
+      "id": "22340",
+      "name": "Trenchknight - Head",
+      "item_name": "#DOTA_Item_Trenchknight__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/knight_of_the_abyss_head/knight_of_the_abyss_head.vmdl"
+    },
+    {
+      "id": "22341",
+      "name": "Trenchknight - Back",
+      "item_name": "#DOTA_Item_Trenchknight__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/knight_of_the_abyss_back/knight_of_the_abyss_back.vmdl"
+    },
+    {
+      "id": "22346",
+      "name": "Trenchknight",
+      "item_name": "#DOTA_Item_Trenchknight",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23670",
+      "name": "Taunt: Dapper Duo",
+      "item_name": "#DOTA_Item_Taunt_Dapper_Duo",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "taunt"
+    },
+    {
+      "id": "28356",
+      "name": "Phantom Balladeer - Weapon",
+      "item_name": "#DOTA_Item_Phantom_Balladeer__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/wandering_poet_weapon/wandering_poet_weapon.vmdl"
+    },
+    {
+      "id": "28357",
+      "name": "Phantom Balladeer - Head",
+      "item_name": "#DOTA_Item_Phantom_Balladeer__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/wandering_poet_head/wandering_poet_head.vmdl"
+    },
+    {
+      "id": "28358",
+      "name": "Phantom Balladeer - Back",
+      "item_name": "#DOTA_Item_Phantom_Balladeer__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/wandering_poet_back/wandering_poet_back.vmdl"
+    },
+    {
+      "id": "28359",
+      "name": "Phantom Balladeer - Shoulder",
+      "item_name": "#DOTA_Item_Phantom_Balladeer__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/wandering_poet_shoulders/wandering_poet_shoulders.vmdl"
+    },
+    {
+      "id": "28360",
+      "name": "Phantom Balladeer - Mount",
+      "item_name": "#DOTA_Item_Phantom_Balladeer__Mount",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/wandering_poet_mount/wandering_poet_mount.vmdl"
+    },
+    {
+      "id": "28472",
+      "name": "Dreadmist Dragoon - Back",
+      "item_name": "#DOTA_Item_Dreadmist_Dragoon__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/abaddon_blackmist_reaper_back/abaddon_blackmist_reaper_back.vmdl"
+    },
+    {
+      "id": "28473",
+      "name": "Dreadmist Dragoon - Head",
+      "item_name": "#DOTA_Item_Dreadmist_Dragoon__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/abaddon_blackmist_reaper_head/abaddon_blackmist_reaper_head.vmdl"
+    },
+    {
+      "id": "28477",
+      "name": "Dreadmist Dragoon - Mount",
+      "item_name": "#DOTA_Item_Dreadmist_Dragoon__Mount",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/abaddon_blackmist_reaper_mount/abaddon_blackmist_reaper_mount.vmdl"
+    },
+    {
+      "id": "28487",
+      "name": "Dreadmist Dragoon - Shoulder",
+      "item_name": "#DOTA_Item_Dreadmist_Dragoon__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/abaddon_blackmist_reaper_shoulder/abaddon_blackmist_reaper_shoulder.vmdl"
+    },
+    {
+      "id": "28497",
+      "name": "Dreadmist Dragoon - Weapon",
+      "item_name": "#DOTA_Item_Dreadmist_Dragoon__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/abaddon_blackmist_reaper_weapon/abaddon_blackmist_reaper_weapon.vmdl"
+    },
+    {
+      "id": "28600",
+      "name": "Spectral Shadow Head",
+      "item_name": "#DOTA_Item_Spectral_Shadow_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/abaddon_curse_of_demonic_crown_head/abaddon_curse_of_demonic_crown_head.vmdl"
+    },
+    {
+      "id": "28601",
+      "name": "Spectral Shadow Shoulder",
+      "item_name": "#DOTA_Item_Spectral_Shadow_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/abaddon_curse_of_demonic_crown_shoulder/abaddon_curse_of_demonic_crown_shoulder.vmdl"
+    },
+    {
+      "id": "28602",
+      "name": "Spectral Shadow Back",
+      "item_name": "#DOTA_Item_Spectral_Shadow_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/abaddon_curse_of_demonic_crown_back/abaddon_curse_of_demonic_crown_back.vmdl"
+    },
+    {
+      "id": "28603",
+      "name": "Spectral Shadow Weapon",
+      "item_name": "#DOTA_Item_Spectral_Shadow_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/abaddon_curse_of_demonic_crown_weapon/abaddon_curse_of_demonic_crown_weapon.vmdl"
+    },
+    {
+      "id": "28625",
+      "name": "Spectral Shadow Mount",
+      "item_name": "#DOTA_Item_Spectral_Shadow_Mount",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/abaddon_curse_of_demonic_crown_mount/abaddon_curse_of_demonic_crown_mount.vmdl"
+    },
+    {
+      "id": "29116",
+      "name": "Dreadmist Dragoon",
+      "item_name": "#DOTA_Item_Dreadmist_Dragoon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "29117",
+      "name": "Spectral Shadow",
+      "item_name": "#DOTA_Item_Spectral_Shadow",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "30388",
+      "name": "Phantom Balladeer",
+      "item_name": "#DOTA_Item_Phantom_Balladeer",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "31213",
+      "name": "Mantle of the Blackmist",
+      "item_name": "#DOTA_Item_Mantle_of_the_Blackmist",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "31226",
+      "name": "Mantle of the Blackmist - Weapon",
+      "item_name": "#DOTA_Item_Mantle_of_the_Blackmist__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/breached_mist_lord_weapon/breached_mist_lord_weapon.vmdl"
+    },
+    {
+      "id": "31227",
+      "name": "Mantle of the Blackmist - Shoulder",
+      "item_name": "#DOTA_Item_Mantle_of_the_Blackmist__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/breached_mist_lord_shoulder/breached_mist_lord_shoulder.vmdl"
+    },
+    {
+      "id": "31228",
+      "name": "Mantle of the Blackmist - Mount",
+      "item_name": "#DOTA_Item_Mantle_of_the_Blackmist__Mount",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/breached_mist_lord_mount/breached_mist_lord_mount.vmdl"
+    },
+    {
+      "id": "31229",
+      "name": "Mantle of the Blackmist - Head",
+      "item_name": "#DOTA_Item_Mantle_of_the_Blackmist__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/breached_mist_lord_head/breached_mist_lord_head.vmdl"
+    },
+    {
+      "id": "31230",
+      "name": "Mantle of the Blackmist - Back",
+      "item_name": "#DOTA_Item_Mantle_of_the_Blackmist__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/abaddon/breached_mist_lord_back/breached_mist_lord_back.vmdl"
+    }
+  ]
+}

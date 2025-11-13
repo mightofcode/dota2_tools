@@ -1,0 +1,1770 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "104",
+      "name": "Meepo's Weapon",
+      "item_name": "#DOTA_Item_Meepos_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/meepo/meepo_weapon.vmdl"
+    },
+    "head": {
+      "id": "296",
+      "name": "Meepo's Hood",
+      "item_name": "#DOTA_Item_Meepos_Hood",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/meepo/hood.vmdl"
+    },
+    "back": {
+      "id": "297",
+      "name": "Meepo's Backpack",
+      "item_name": "#DOTA_Item_Meepos_Backpack",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/meepo/pack.vmdl"
+    },
+    "shoulder": {
+      "id": "298",
+      "name": "Meepo's Shoulderpads",
+      "item_name": "#DOTA_Item_Meepos_Shoulderpads",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/meepo/shoulders.vmdl"
+    },
+    "arms": {
+      "id": "299",
+      "name": "Meepo's Bracers",
+      "item_name": "#DOTA_Item_Meepos_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/meepo/bracers.vmdl"
+    },
+    "tail": {
+      "id": "300",
+      "name": "Meepo's Tail",
+      "item_name": "#DOTA_Item_Meepos_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "model_player": "models/heroes/meepo/tail.vmdl"
+    },
+    "costume": {
+      "id": "734",
+      "name": "Meepo's Costume",
+      "item_name": "#DOTA_Item_Meepos_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Spoils_of_the_Bone_Ruins",
+      "store_bundle": "Spoils of the Bone Ruins Set",
+      "portrait_image": "econ/sets/v2/bone_ruins",
+      "items": [
+        {
+          "name": "Bone Ruin Excavator Pack",
+          "id": "4913",
+          "item_name": "#DOTA_Item_Bone_Ruin_Excavator_Pack",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/meepo/meeposkback/meeposkback.vmdl"
+        },
+        {
+          "name": "Key to the Bone Ruins",
+          "id": "4912",
+          "item_name": "#DOTA_Item_Key_to_the_Bone_Ruins",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/meepo/meepo_skeletonkey_sword/meepo_skeletonkey_sword.vmdl"
+        },
+        {
+          "name": "Skull of the Bone Ruins",
+          "id": "4914",
+          "item_name": "#DOTA_Item_Skull_of_the_Bone_Ruins",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/meepo/meeposksh/meeposksh.vmdl"
+        },
+        {
+          "name": "Bandana of the Bone Ruin Bandits",
+          "id": "4911",
+          "item_name": "#DOTA_Item_Bandana_of_the_Bone_Ruin_Bandits",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/meepo_skeletonkey_bandana/meepo_skeletonkey_bandana.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Crystal_Scavenger",
+      "store_bundle": "Crystal Scavenger",
+      "portrait_image": "econ/sets/v2/crystal_scavenger",
+      "items": [
+        {
+          "name": "Crystal Scavenger's Transducing Contraption",
+          "id": "6562",
+          "item_name": "#DOTA_Item_Crystal_Scavengers_Transducing_Contraption",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/meepo/crystal_scavenger_back/crystal_scavenger_back.vmdl"
+        },
+        {
+          "name": "Crystal Scavenger's Digging Gloves",
+          "id": "6342",
+          "item_name": "#DOTA_Item_Crystal_Scavengers_Digging_Gloves",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/meepo/crystal_scavenger_arms/crystal_scavenger_arms.vmdl"
+        },
+        {
+          "name": "Crystal Scavenger's Galvanic Mining Headware",
+          "id": "6563",
+          "item_name": "#DOTA_Item_Crystal_Scavengers_Galvanic_Mining_Headware",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/crystal_scavenger_head/crystal_scavenger_head.vmdl"
+        },
+        {
+          "name": "Crystal Scavenger's Reinforced Pads",
+          "id": "6564",
+          "item_name": "#DOTA_Item_Crystal_Scavengers_Reinforced_Pads",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/meepo/crystal_scavenger_shoulders/crystal_scavenger_shoulders.vmdl"
+        },
+        {
+          "name": "Crystal Scavenger's Augmented Mace",
+          "id": "6565",
+          "item_name": "#DOTA_Item_Crystal_Scavengers_Augmented_Mace",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/crystal_scavenger_weapon/crystal_scavenger_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dosa",
+      "store_bundle": "Dosa",
+      "portrait_image": "econ/sets/v2/dosa",
+      "items": [
+        {
+          "name": "Dosa Arms",
+          "id": "6227",
+          "item_name": "#DOTA_Item_Dosa_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/meepo/dosa_arms/dosa_arms.vmdl"
+        },
+        {
+          "name": "Dosa Back",
+          "id": "6237",
+          "item_name": "#DOTA_Item_Dosa_Back",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/meepo/dosa_back/dosa_back.vmdl"
+        },
+        {
+          "name": "Dosa Hat",
+          "id": "6238",
+          "item_name": "#DOTA_Item_Dosa_Hat",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/dosa_hat/dosa_hat.vmdl"
+        },
+        {
+          "name": "Dosa Shoulders",
+          "id": "6228",
+          "item_name": "#DOTA_Item_Dosa_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/meepo/dosa_shoulder/dosa_shoulder.vmdl"
+        },
+        {
+          "name": "Dosa Tail",
+          "id": "6229",
+          "item_name": "#DOTA_Item_Dosa_Tail",
+          "item_slot": "tail",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/meepo/dosa_tail/dosa_tail.vmdl"
+        },
+        {
+          "name": "Dosa Staff",
+          "id": "6230",
+          "item_name": "#DOTA_Item_Dosa_Staff",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/meepo/dosa_weapon/dosa_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Kindred_of_the_Cursed",
+      "store_bundle": "Kindred of the Cursed",
+      "portrait_image": "econ/sets/v2/kindred_of_the_cursed",
+      "items": [
+        {
+          "name": "Kindred of the Cursed Arms",
+          "id": "13033",
+          "item_name": "#DOTA_Item_Kindred_of_the_Cursed_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/ti9_cache_meepo_voodoo_meepo_arms/ti9_cache_meepo_voodoo_meepo_arms.vmdl"
+        },
+        {
+          "name": "Kindred of the Cursed Drum",
+          "id": "13032",
+          "item_name": "#DOTA_Item_Kindred_of_the_Cursed_Drum",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/ti9_cache_meepo_voodoo_meepo_back/ti9_cache_meepo_voodoo_meepo_back.vmdl"
+        },
+        {
+          "name": "Kindred of the Cursed Mask",
+          "id": "13031",
+          "item_name": "#DOTA_Item_Kindred_of_the_Cursed_Mask",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/ti9_cache_meepo_voodoo_meepo_head/ti9_cache_meepo_voodoo_meepo_head.vmdl"
+        },
+        {
+          "name": "Kindred of the Cursed Tail",
+          "id": "13030",
+          "item_name": "#DOTA_Item_Kindred_of_the_Cursed_Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/ti9_cache_meepo_voodoo_meepo_tail/ti9_cache_meepo_voodoo_meepo_tail.vmdl"
+        },
+        {
+          "name": "Kindred of the Cursed Raiments",
+          "id": "13029",
+          "item_name": "#DOTA_Item_Kindred_of_the_Cursed_Raiments",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/ti9_cache_meepo_voodoo_meepo_shoulder/ti9_cache_meepo_voodoo_meepo_shoulder.vmdl"
+        },
+        {
+          "name": "Kindred of the Cursed Spear",
+          "id": "13028",
+          "item_name": "#DOTA_Item_Kindred_of_the_Cursed_Spear",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/ti9_cache_meepo_voodoo_meepo_weapon/ti9_cache_meepo_voodoo_meepo_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Lotus_of_the_Mountain_Bear_Clan",
+      "store_bundle": "Lotus of the Mountain Bear Clan",
+      "portrait_image": "econ/sets/v2/lotus_of_the_mountain_bear_clan",
+      "items": [
+        {
+          "name": "Lotus of the Mountain Bear Clan - Weapon",
+          "id": "28259",
+          "item_name": "#DOTA_Item_Lotus_of_the_Mountain_Bear_Clan__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/loong_recluse_weapon/loong_recluse_weapon.vmdl"
+        },
+        {
+          "name": "Lotus of the Mountain Bear Clan - Tail",
+          "id": "28258",
+          "item_name": "#DOTA_Item_Lotus_of_the_Mountain_Bear_Clan__Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/loong_recluse_tail/loong_recluse_tail.vmdl"
+        },
+        {
+          "name": "Lotus of the Mountain Bear Clan - Shoulder",
+          "id": "28257",
+          "item_name": "#DOTA_Item_Lotus_of_the_Mountain_Bear_Clan__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/loong_recluse_shoudler/loong_recluse_shoudler.vmdl"
+        },
+        {
+          "name": "Lotus of the Mountain Bear Clan - Back",
+          "id": "28256",
+          "item_name": "#DOTA_Item_Lotus_of_the_Mountain_Bear_Clan__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/loong_recluse_back/loong_recluse_back.vmdl"
+        },
+        {
+          "name": "Lotus of the Mountain Bear Clan - Head",
+          "id": "28255",
+          "item_name": "#DOTA_Item_Lotus_of_the_Mountain_Bear_Clan__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/loong_recluse_head/loong_recluse_head.vmdl"
+        },
+        {
+          "name": "Lotus of the Mountain Bear Clan - Arms",
+          "id": "28254",
+          "item_name": "#DOTA_Item_Lotus_of_the_Mountain_Bear_Clan__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/loong_recluse_arms/loong_recluse_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Meepos_Diretide_Shimmer_Bundle",
+      "store_bundle": "Meepo's Diretide Shimmer Bundle",
+      "portrait_image": "econ/sets/v2/meepos_diretide_shimmer_bundle",
+      "items": [
+        {
+          "name": "Meepo's Diretide Shimmer Costume",
+          "id": "17813",
+          "item_name": "#DOTA_Item_Meepos_Diretide_Shimmer_Costume",
+          "item_slot": "costume",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Meepo's Diretide Shimmer Weapon",
+          "id": "17814",
+          "item_name": "#DOTA_Item_Meepos_Diretide_Shimmer_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/meepo/meepo_weapon.vmdl"
+        },
+        {
+          "name": "Meepo's Diretide Shimmer Hood",
+          "id": "17815",
+          "item_name": "#DOTA_Item_Meepos_Diretide_Shimmer_Hood",
+          "item_slot": "head",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/meepo/hood.vmdl"
+        },
+        {
+          "name": "Meepo's Diretide Shimmer Shoulderpads",
+          "id": "17816",
+          "item_name": "#DOTA_Item_Meepos_Diretide_Shimmer_Shoulderpads",
+          "item_slot": "shoulder",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/meepo/shoulders.vmdl"
+        },
+        {
+          "name": "Meepo's Diretide Shimmer Backpack",
+          "id": "17817",
+          "item_name": "#DOTA_Item_Meepos_Diretide_Shimmer_Backpack",
+          "item_slot": "back",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/meepo/pack.vmdl"
+        },
+        {
+          "name": "Meepo's Diretide Shimmer Bracers",
+          "id": "17818",
+          "item_name": "#DOTA_Item_Meepos_Diretide_Shimmer_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/meepo/bracers.vmdl"
+        },
+        {
+          "name": "Meepo's Diretide Shimmer Tail",
+          "id": "17819",
+          "item_name": "#DOTA_Item_Meepos_Diretide_Shimmer_Tail",
+          "item_slot": "tail",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/meepo/tail.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Jester_King",
+      "store_bundle": "Jester King",
+      "portrait_image": "econ/sets/v2/meepo_jester_king",
+      "items": [
+        {
+          "name": "Jester King Arms",
+          "id": "13736",
+          "item_name": "#DOTA_Item_Jester_King_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/jester_king_arms/jester_king_arms.vmdl"
+        },
+        {
+          "name": "Jester King Head",
+          "id": "13737",
+          "item_name": "#DOTA_Item_Jester_King_Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/jester_king_head/jester_king_head.vmdl"
+        },
+        {
+          "name": "Jester King Shoulder",
+          "id": "13738",
+          "item_name": "#DOTA_Item_Jester_King_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/jester_king_shoulder/jester_king_shoulder.vmdl"
+        },
+        {
+          "name": "Jester King Back",
+          "id": "13740",
+          "item_name": "#DOTA_Item_Jester_King_Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/jester_king_back/jester_king_back.vmdl"
+        },
+        {
+          "name": "Jester King Tail",
+          "id": "13739",
+          "item_name": "#DOTA_Item_Jester_King_Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/jester_king_tail/jester_king_tail.vmdl"
+        },
+        {
+          "name": "Jester King Weapon",
+          "id": "13741",
+          "item_name": "#DOTA_Item_Jester_King_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/jester_king_weapon/jester_king_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Family_Values",
+      "store_bundle": "The Family Values Bundle",
+      "portrait_image": "econ/sets/v2/meepo_the_family_values",
+      "items": [
+        {
+          "name": "The Family Values Back",
+          "id": "7669",
+          "item_name": "#DOTA_Item_The_Family_Values_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/the_family_values_back/the_family_values_back.vmdl"
+        },
+        {
+          "name": "The Family Values Shoulders",
+          "id": "7670",
+          "item_name": "#DOTA_Item_The_Family_Values_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/the_family_values_shoulders/the_family_values_shoulders.vmdl"
+        },
+        {
+          "name": "The Family Values Head",
+          "id": "7683",
+          "item_name": "#DOTA_Item_The_Family_Values_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/the_family_values_head/the_family_values_head.vmdl"
+        },
+        {
+          "name": "The Family Values Weapon",
+          "id": "7684",
+          "item_name": "#DOTA_Item_The_Family_Values_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/the_family_values_weapon/the_family_values_weapon.vmdl"
+        },
+        {
+          "name": "The Family Values Tail",
+          "id": "7685",
+          "item_name": "#DOTA_Item_The_Family_Values_Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/the_family_values_tail/the_family_values_tail.vmdl"
+        },
+        {
+          "name": "The Family Values Arms",
+          "id": "7686",
+          "item_name": "#DOTA_Item_The_Family_Values_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/the_family_values_arms/the_family_values_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_TI9_Cache_Meepo_Jungle_babysitter",
+      "store_bundle": "TI9 Cache Meepo Jungle babysitter",
+      "portrait_image": "econ/sets/v2/meepo_ti9_cache_meepo_jungle_babysitter",
+      "items": [
+        {
+          "name": "TI9 Cache Meepo Jungle babysitter Shoulder",
+          "id": "13140",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Meepo_Jungle_babysitter_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/meepo/ti9_cache_meepo_jungle_babysitter_shoulder/ti9_cache_meepo_jungle_babysitter_shoulder.vmdl"
+        },
+        {
+          "name": "TI9 Cache Meepo Jungle babysitter Arms",
+          "id": "13139",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Meepo_Jungle_babysitter_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/meepo/ti9_cache_meepo_jungle_babysitter_arms/ti9_cache_meepo_jungle_babysitter_arms.vmdl"
+        },
+        {
+          "name": "TI9 Cache Meepo Jungle babysitter Head",
+          "id": "13138",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Meepo_Jungle_babysitter_Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/meepo/ti9_cache_meepo_jungle_babysitter_head/ti9_cache_meepo_jungle_babysitter_head.vmdl"
+        },
+        {
+          "name": "TI9 Cache Meepo Jungle babysitter Tail",
+          "id": "13137",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Meepo_Jungle_babysitter_Tail",
+          "item_slot": "tail",
+          "item_rarity": "common",
+          "model_player": "models/items/meepo/ti9_cache_meepo_jungle_babysitter_tail/ti9_cache_meepo_jungle_babysitter_tail.vmdl"
+        },
+        {
+          "name": "TI9 Cache Meepo Jungle babysitter Back",
+          "id": "13136",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Meepo_Jungle_babysitter_Back",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/meepo/ti9_cache_meepo_jungle_babysitter_back/ti9_cache_meepo_jungle_babysitter_back.vmdl"
+        },
+        {
+          "name": "TI9 Cache Meepo Jungle babysitter Weapon",
+          "id": "13135",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Meepo_Jungle_babysitter_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/meepo/ti9_cache_meepo_jungle_babysitter_weapon/ti9_cache_meepo_jungle_babysitter_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Mocking_Bird",
+      "store_bundle": "Mocking Bird",
+      "portrait_image": "econ/sets/v2/mocking_bird",
+      "items": [
+        {
+          "name": "Mocking Bird - Shoulder",
+          "id": "30269",
+          "item_name": "#DOTA_Item_Mocking_Bird__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/meepo_farm_shoulder/meepo_farm_shoulder.vmdl"
+        },
+        {
+          "name": "Mocking Bird - Beak",
+          "id": "30270",
+          "item_name": "#DOTA_Item_Mocking_Bird__Beak",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/meepo_farm_head/meepo_farm_head.vmdl"
+        },
+        {
+          "name": "Mocking Bird - Back",
+          "id": "30271",
+          "item_name": "#DOTA_Item_Mocking_Bird__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/meepo_farm_back/meepo_farm_back.vmdl"
+        },
+        {
+          "name": "Mocking Bird - Tail",
+          "id": "30272",
+          "item_name": "#DOTA_Item_Mocking_Bird__Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/meepo_farm_tail/meepo_farm_tail.vmdl"
+        },
+        {
+          "name": "Mocking Bird - Arms",
+          "id": "30273",
+          "item_name": "#DOTA_Item_Mocking_Bird__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/meepo_farm_arms/meepo_farm_arms.vmdl"
+        },
+        {
+          "name": "Mocking Bird - Weapon",
+          "id": "30274",
+          "item_name": "#DOTA_Item_Mocking_Bird__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/meepo_farm_weapon/meepo_farm_weapon.vmdl"
+        },
+        {
+          "name": "Taunt: Chicken Prance",
+          "id": "30944",
+          "item_name": "#DOTA_Item_Taunt_Chicken_Prance",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Pitmouse_Fraternity",
+      "store_bundle": "Pitmouse Fraternity",
+      "portrait_image": "econ/sets/v2/pitmouse_fraternity",
+      "items": [
+        {
+          "name": "Pitmouse Fraternity Pack",
+          "id": "9837",
+          "item_name": "#DOTA_Item_Pitmouse_Fraternity_Pack",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/ti8_meepo_pitmouse_fraternity_back/ti8_meepo_pitmouse_fraternity_back.vmdl"
+        },
+        {
+          "name": "Pitmouse Fraternity Goggles",
+          "id": "9836",
+          "item_name": "#DOTA_Item_Pitmouse_Fraternity_Goggles",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/ti8_meepo_pitmouse_fraternity_head/ti8_meepo_pitmouse_fraternity_head.vmdl"
+        },
+        {
+          "name": "Pitmouse Fraternity Pauldron",
+          "id": "9835",
+          "item_name": "#DOTA_Item_Pitmouse_Fraternity_Pauldron",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/ti8_meepo_pitmouse_fraternity_shoulder/ti8_meepo_pitmouse_fraternity_shoulder.vmdl"
+        },
+        {
+          "name": "Pitmouse Fraternity Tail",
+          "id": "9834",
+          "item_name": "#DOTA_Item_Pitmouse_Fraternity_Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/ti8_meepo_pitmouse_fraternity_tail/ti8_meepo_pitmouse_fraternity_tail.vmdl"
+        },
+        {
+          "name": "Pitmouse Fraternity Axe",
+          "id": "9833",
+          "item_name": "#DOTA_Item_Pitmouse_Fraternity_Axe",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/ti8_meepo_pitmouse_fraternity_weapon/ti8_meepo_pitmouse_fraternity_weapon.vmdl"
+        },
+        {
+          "name": "Pitmouse Fraternity Bracer",
+          "id": "9832",
+          "item_name": "#DOTA_Item_Pitmouse_Fraternity_Bracer",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/ti8_meepo_pitmouse_fraternity_arms/ti8_meepo_pitmouse_fraternity_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Riftshadow_Roamer",
+      "store_bundle": "The Riftshadow Roamer's Set",
+      "portrait_image": "econ/sets/v2/riftshadow_roamer",
+      "items": [
+        {
+          "name": "Riftshadow Roamer's Pluckin' Fiddle",
+          "id": "4344",
+          "item_name": "#DOTA_Item_Riftshadow_Roamers_Pluckin_Fiddle",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/meepo/riftshadow_roamer_pack/riftshadow_roamer_pack.vmdl"
+        },
+        {
+          "name": "Riftshadow Roamer's Wearin' Vest",
+          "id": "4421",
+          "item_name": "#DOTA_Item_Riftshadow_Roamers_Wearin_Vest",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/meepo/riftshadow_roamer_vest/riftshadow_roamer_vest.vmdl"
+        },
+        {
+          "name": "Riftshadow Roamer's Fryin' Pan",
+          "id": "4423",
+          "item_name": "#DOTA_Item_Riftshadow_Roamers_Fryin_Pan",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/riftshadow_roamer_pan/riftshadow_roamer_pan.vmdl"
+        },
+        {
+          "name": "Riftshadow Roamer's Fine n' Fancy",
+          "id": "4427",
+          "item_name": "#DOTA_Item_Riftshadow_Roamers_Fine_n_Fancy",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/riftshadow_roamer_hat/riftshadow_roamer_hat.vmdl"
+        },
+        {
+          "name": "Riftshadow Roamer's Grabbin' Wraps",
+          "id": "4434",
+          "item_name": "#DOTA_Item_Riftshadow_Roamers_Grabbin_Wraps",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/meepo/riftshadow_roamer_gloves/riftshadow_roamer_gloves.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Spelunkers_Haul",
+      "store_bundle": "Battle of Central Europe Season 3",
+      "portrait_image": "econ/sets/v2/spelunkers_haul",
+      "items": [
+        {
+          "name": "Armband of the Spelunker",
+          "id": "7199",
+          "item_name": "#DOTA_Item_Armband_of_the_Spelunker",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/meepo/profitable_adventure_shoulder/profitable_adventure_shoulder.vmdl"
+        },
+        {
+          "name": "Spelunker's Fedora",
+          "id": "7200",
+          "item_name": "#DOTA_Item_Spelunkers_Fedora",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/meepo/profitable_adventure_head/profitable_adventure_head.vmdl"
+        },
+        {
+          "name": "Gloves of the Spelunker",
+          "id": "7201",
+          "item_name": "#DOTA_Item_Gloves_of_the_Spelunker",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/meepo/profitable_adventure_arms/profitable_adventure_arms.vmdl"
+        },
+        {
+          "name": "Tail of the Spelunker",
+          "id": "7202",
+          "item_name": "#DOTA_Item_Tail_of_the_Spelunker",
+          "item_slot": "tail",
+          "item_rarity": "common",
+          "model_player": "models/items/meepo/profitable_adventure_tail/profitable_adventure_tail.vmdl"
+        },
+        {
+          "name": "Crate of the Spelunker",
+          "id": "7203",
+          "item_name": "#DOTA_Item_Crate_of_the_Spelunker",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/meepo/profitable_adventure_back/profitable_adventure_back.vmdl"
+        },
+        {
+          "name": "The Spelunker's Torch",
+          "id": "7204",
+          "item_name": "#DOTA_Item_The_Spelunkers_Torch",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/meepo/profitable_adventure_weapon/profitable_adventure_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Fractured_Order",
+      "store_bundle": "The Fractured Order",
+      "portrait_image": "econ/sets/v2/the_fractured_order",
+      "items": [
+        {
+          "name": "Blade of the Fractured Order",
+          "id": "7719",
+          "item_name": "#DOTA_Item_Blade_of_the_Fractured_Order",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon.vmdl"
+        },
+        {
+          "name": "Tail of the Fractured Order",
+          "id": "7715",
+          "item_name": "#DOTA_Item_Tail_of_the_Fractured_Order",
+          "item_slot": "tail",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/sir_meepalot_tail/sir_meepalot_tail.vmdl"
+        },
+        {
+          "name": "Spaulders of the Fractured Order",
+          "id": "7705",
+          "item_name": "#DOTA_Item_Spaulders_of_the_Fractured_Order",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/sir_meepalot_shoulder/sir_meepalot_shoulder.vmdl"
+        },
+        {
+          "name": "Helmet of the Fractured Order",
+          "id": "7704",
+          "item_name": "#DOTA_Item_Helmet_of_the_Fractured_Order",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/sir_meepalot_head/sir_meepalot_head.vmdl"
+        },
+        {
+          "name": "Armguards of the Fractured Order",
+          "id": "7698",
+          "item_name": "#DOTA_Item_Armguards_of_the_Fractured_Order",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/sir_meepalot_arms/sir_meepalot_arms.vmdl"
+        },
+        {
+          "name": "Shield of the Fractured Order",
+          "id": "7697",
+          "item_name": "#DOTA_Item_Shield_of_the_Fractured_Order",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/meepo/sir_meepalot_back/sir_meepalot_back.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "104",
+      "name": "Meepo's Weapon",
+      "item_name": "#DOTA_Item_Meepos_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/meepo/meepo_weapon.vmdl"
+    },
+    {
+      "id": "296",
+      "name": "Meepo's Hood",
+      "item_name": "#DOTA_Item_Meepos_Hood",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/meepo/hood.vmdl"
+    },
+    {
+      "id": "297",
+      "name": "Meepo's Backpack",
+      "item_name": "#DOTA_Item_Meepos_Backpack",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/meepo/pack.vmdl"
+    },
+    {
+      "id": "298",
+      "name": "Meepo's Shoulderpads",
+      "item_name": "#DOTA_Item_Meepos_Shoulderpads",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/meepo/shoulders.vmdl"
+    },
+    {
+      "id": "299",
+      "name": "Meepo's Bracers",
+      "item_name": "#DOTA_Item_Meepos_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/meepo/bracers.vmdl"
+    },
+    {
+      "id": "300",
+      "name": "Meepo's Tail",
+      "item_name": "#DOTA_Item_Meepos_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/meepo/tail.vmdl"
+    },
+    {
+      "id": "734",
+      "name": "Meepo's Costume",
+      "item_name": "#DOTA_Item_Meepos_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4344",
+      "name": "Riftshadow Roamer's Pluckin' Fiddle",
+      "item_name": "#DOTA_Item_Riftshadow_Roamers_Pluckin_Fiddle",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/riftshadow_roamer_pack/riftshadow_roamer_pack.vmdl"
+    },
+    {
+      "id": "4421",
+      "name": "Riftshadow Roamer's Wearin' Vest",
+      "item_name": "#DOTA_Item_Riftshadow_Roamers_Wearin_Vest",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/riftshadow_roamer_vest/riftshadow_roamer_vest.vmdl"
+    },
+    {
+      "id": "4423",
+      "name": "Riftshadow Roamer's Fryin' Pan",
+      "item_name": "#DOTA_Item_Riftshadow_Roamers_Fryin_Pan",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/riftshadow_roamer_pan/riftshadow_roamer_pan.vmdl"
+    },
+    {
+      "id": "4427",
+      "name": "Riftshadow Roamer's Fine n' Fancy",
+      "item_name": "#DOTA_Item_Riftshadow_Roamers_Fine_n_Fancy",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/riftshadow_roamer_hat/riftshadow_roamer_hat.vmdl"
+    },
+    {
+      "id": "4434",
+      "name": "Riftshadow Roamer's Grabbin' Wraps",
+      "item_name": "#DOTA_Item_Riftshadow_Roamers_Grabbin_Wraps",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/riftshadow_roamer_gloves/riftshadow_roamer_gloves.vmdl"
+    },
+    {
+      "id": "4646",
+      "name": "Radiant Crystal Haul",
+      "item_name": "#DOTA_Item_Radiant_Crystal_Haul",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/meepo_cratepack/meepo_cratepack.vmdl"
+    },
+    {
+      "id": "4911",
+      "name": "Bandana of the Bone Ruin Bandits",
+      "item_name": "#DOTA_Item_Bandana_of_the_Bone_Ruin_Bandits",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/meepo_skeletonkey_bandana/meepo_skeletonkey_bandana.vmdl"
+    },
+    {
+      "id": "4912",
+      "name": "Key to the Bone Ruins",
+      "item_name": "#DOTA_Item_Key_to_the_Bone_Ruins",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/meepo_skeletonkey_sword/meepo_skeletonkey_sword.vmdl"
+    },
+    {
+      "id": "4913",
+      "name": "Bone Ruin Excavator Pack",
+      "item_name": "#DOTA_Item_Bone_Ruin_Excavator_Pack",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/meeposkback/meeposkback.vmdl"
+    },
+    {
+      "id": "4914",
+      "name": "Skull of the Bone Ruins",
+      "item_name": "#DOTA_Item_Skull_of_the_Bone_Ruins",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/meeposksh/meeposksh.vmdl"
+    },
+    {
+      "id": "5572",
+      "name": "Mr. Depth Driller",
+      "item_name": "#DOTA_Item_Mr_Depth_Driller",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/mr_depth_driller/mr_depth_driller.vmdl"
+    },
+    {
+      "id": "6227",
+      "name": "Dosa Arms",
+      "item_name": "#DOTA_Item_Dosa_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/dosa_arms/dosa_arms.vmdl"
+    },
+    {
+      "id": "6228",
+      "name": "Dosa Shoulders",
+      "item_name": "#DOTA_Item_Dosa_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/dosa_shoulder/dosa_shoulder.vmdl"
+    },
+    {
+      "id": "6229",
+      "name": "Dosa Tail",
+      "item_name": "#DOTA_Item_Dosa_Tail",
+      "item_slot": "tail",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/dosa_tail/dosa_tail.vmdl"
+    },
+    {
+      "id": "6230",
+      "name": "Dosa Staff",
+      "item_name": "#DOTA_Item_Dosa_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/dosa_weapon/dosa_weapon.vmdl"
+    },
+    {
+      "id": "6237",
+      "name": "Dosa Back",
+      "item_name": "#DOTA_Item_Dosa_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/dosa_back/dosa_back.vmdl"
+    },
+    {
+      "id": "6238",
+      "name": "Dosa Hat",
+      "item_name": "#DOTA_Item_Dosa_Hat",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/dosa_hat/dosa_hat.vmdl"
+    },
+    {
+      "id": "6342",
+      "name": "Crystal Scavenger's Digging Gloves",
+      "item_name": "#DOTA_Item_Crystal_Scavengers_Digging_Gloves",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/crystal_scavenger_arms/crystal_scavenger_arms.vmdl"
+    },
+    {
+      "id": "6562",
+      "name": "Crystal Scavenger's Transducing Contraption",
+      "item_name": "#DOTA_Item_Crystal_Scavengers_Transducing_Contraption",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/crystal_scavenger_back/crystal_scavenger_back.vmdl"
+    },
+    {
+      "id": "6563",
+      "name": "Crystal Scavenger's Galvanic Mining Headware",
+      "item_name": "#DOTA_Item_Crystal_Scavengers_Galvanic_Mining_Headware",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/crystal_scavenger_head/crystal_scavenger_head.vmdl"
+    },
+    {
+      "id": "6564",
+      "name": "Crystal Scavenger's Reinforced Pads",
+      "item_name": "#DOTA_Item_Crystal_Scavengers_Reinforced_Pads",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/crystal_scavenger_shoulders/crystal_scavenger_shoulders.vmdl"
+    },
+    {
+      "id": "6565",
+      "name": "Crystal Scavenger's Augmented Mace",
+      "item_name": "#DOTA_Item_Crystal_Scavengers_Augmented_Mace",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/crystal_scavenger_weapon/crystal_scavenger_weapon.vmdl"
+    },
+    {
+      "id": "7199",
+      "name": "Armband of the Spelunker",
+      "item_name": "#DOTA_Item_Armband_of_the_Spelunker",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/profitable_adventure_shoulder/profitable_adventure_shoulder.vmdl"
+    },
+    {
+      "id": "7200",
+      "name": "Spelunker's Fedora",
+      "item_name": "#DOTA_Item_Spelunkers_Fedora",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/profitable_adventure_head/profitable_adventure_head.vmdl"
+    },
+    {
+      "id": "7201",
+      "name": "Gloves of the Spelunker",
+      "item_name": "#DOTA_Item_Gloves_of_the_Spelunker",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/profitable_adventure_arms/profitable_adventure_arms.vmdl"
+    },
+    {
+      "id": "7202",
+      "name": "Tail of the Spelunker",
+      "item_name": "#DOTA_Item_Tail_of_the_Spelunker",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/profitable_adventure_tail/profitable_adventure_tail.vmdl"
+    },
+    {
+      "id": "7203",
+      "name": "Crate of the Spelunker",
+      "item_name": "#DOTA_Item_Crate_of_the_Spelunker",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/profitable_adventure_back/profitable_adventure_back.vmdl"
+    },
+    {
+      "id": "7204",
+      "name": "The Spelunker's Torch",
+      "item_name": "#DOTA_Item_The_Spelunkers_Torch",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/profitable_adventure_weapon/profitable_adventure_weapon.vmdl"
+    },
+    {
+      "id": "7669",
+      "name": "The Family Values Back",
+      "item_name": "#DOTA_Item_The_Family_Values_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/the_family_values_back/the_family_values_back.vmdl"
+    },
+    {
+      "id": "7670",
+      "name": "The Family Values Shoulders",
+      "item_name": "#DOTA_Item_The_Family_Values_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/the_family_values_shoulders/the_family_values_shoulders.vmdl"
+    },
+    {
+      "id": "7683",
+      "name": "The Family Values Head",
+      "item_name": "#DOTA_Item_The_Family_Values_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/the_family_values_head/the_family_values_head.vmdl"
+    },
+    {
+      "id": "7684",
+      "name": "The Family Values Weapon",
+      "item_name": "#DOTA_Item_The_Family_Values_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/the_family_values_weapon/the_family_values_weapon.vmdl"
+    },
+    {
+      "id": "7685",
+      "name": "The Family Values Tail",
+      "item_name": "#DOTA_Item_The_Family_Values_Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/the_family_values_tail/the_family_values_tail.vmdl"
+    },
+    {
+      "id": "7686",
+      "name": "The Family Values Arms",
+      "item_name": "#DOTA_Item_The_Family_Values_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/the_family_values_arms/the_family_values_arms.vmdl"
+    },
+    {
+      "id": "7697",
+      "name": "Shield of the Fractured Order",
+      "item_name": "#DOTA_Item_Shield_of_the_Fractured_Order",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/sir_meepalot_back/sir_meepalot_back.vmdl"
+    },
+    {
+      "id": "7698",
+      "name": "Armguards of the Fractured Order",
+      "item_name": "#DOTA_Item_Armguards_of_the_Fractured_Order",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/sir_meepalot_arms/sir_meepalot_arms.vmdl"
+    },
+    {
+      "id": "7704",
+      "name": "Helmet of the Fractured Order",
+      "item_name": "#DOTA_Item_Helmet_of_the_Fractured_Order",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/sir_meepalot_head/sir_meepalot_head.vmdl"
+    },
+    {
+      "id": "7705",
+      "name": "Spaulders of the Fractured Order",
+      "item_name": "#DOTA_Item_Spaulders_of_the_Fractured_Order",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/sir_meepalot_shoulder/sir_meepalot_shoulder.vmdl"
+    },
+    {
+      "id": "7715",
+      "name": "Tail of the Fractured Order",
+      "item_name": "#DOTA_Item_Tail_of_the_Fractured_Order",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/sir_meepalot_tail/sir_meepalot_tail.vmdl"
+    },
+    {
+      "id": "7719",
+      "name": "Blade of the Fractured Order",
+      "item_name": "#DOTA_Item_Blade_of_the_Fractured_Order",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon.vmdl"
+    },
+    {
+      "id": "9075",
+      "name": "Colossal Crystal Chorus",
+      "item_name": "#DOTA_Item_Colossal_Crystal_Chorus",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/colossal_crystal_chorus/colossal_crystal_chorus.vmdl"
+    },
+    {
+      "id": "9832",
+      "name": "Pitmouse Fraternity Bracer",
+      "item_name": "#DOTA_Item_Pitmouse_Fraternity_Bracer",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti8_meepo_pitmouse_fraternity_arms/ti8_meepo_pitmouse_fraternity_arms.vmdl"
+    },
+    {
+      "id": "9833",
+      "name": "Pitmouse Fraternity Axe",
+      "item_name": "#DOTA_Item_Pitmouse_Fraternity_Axe",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti8_meepo_pitmouse_fraternity_weapon/ti8_meepo_pitmouse_fraternity_weapon.vmdl"
+    },
+    {
+      "id": "9834",
+      "name": "Pitmouse Fraternity Tail",
+      "item_name": "#DOTA_Item_Pitmouse_Fraternity_Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti8_meepo_pitmouse_fraternity_tail/ti8_meepo_pitmouse_fraternity_tail.vmdl"
+    },
+    {
+      "id": "9835",
+      "name": "Pitmouse Fraternity Pauldron",
+      "item_name": "#DOTA_Item_Pitmouse_Fraternity_Pauldron",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti8_meepo_pitmouse_fraternity_shoulder/ti8_meepo_pitmouse_fraternity_shoulder.vmdl"
+    },
+    {
+      "id": "9836",
+      "name": "Pitmouse Fraternity Goggles",
+      "item_name": "#DOTA_Item_Pitmouse_Fraternity_Goggles",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti8_meepo_pitmouse_fraternity_head/ti8_meepo_pitmouse_fraternity_head.vmdl"
+    },
+    {
+      "id": "9837",
+      "name": "Pitmouse Fraternity Pack",
+      "item_name": "#DOTA_Item_Pitmouse_Fraternity_Pack",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti8_meepo_pitmouse_fraternity_back/ti8_meepo_pitmouse_fraternity_back.vmdl"
+    },
+    {
+      "id": "13028",
+      "name": "Kindred of the Cursed Spear",
+      "item_name": "#DOTA_Item_Kindred_of_the_Cursed_Spear",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti9_cache_meepo_voodoo_meepo_weapon/ti9_cache_meepo_voodoo_meepo_weapon.vmdl"
+    },
+    {
+      "id": "13029",
+      "name": "Kindred of the Cursed Raiments",
+      "item_name": "#DOTA_Item_Kindred_of_the_Cursed_Raiments",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti9_cache_meepo_voodoo_meepo_shoulder/ti9_cache_meepo_voodoo_meepo_shoulder.vmdl"
+    },
+    {
+      "id": "13030",
+      "name": "Kindred of the Cursed Tail",
+      "item_name": "#DOTA_Item_Kindred_of_the_Cursed_Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti9_cache_meepo_voodoo_meepo_tail/ti9_cache_meepo_voodoo_meepo_tail.vmdl"
+    },
+    {
+      "id": "13031",
+      "name": "Kindred of the Cursed Mask",
+      "item_name": "#DOTA_Item_Kindred_of_the_Cursed_Mask",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti9_cache_meepo_voodoo_meepo_head/ti9_cache_meepo_voodoo_meepo_head.vmdl"
+    },
+    {
+      "id": "13032",
+      "name": "Kindred of the Cursed Drum",
+      "item_name": "#DOTA_Item_Kindred_of_the_Cursed_Drum",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti9_cache_meepo_voodoo_meepo_back/ti9_cache_meepo_voodoo_meepo_back.vmdl"
+    },
+    {
+      "id": "13033",
+      "name": "Kindred of the Cursed Arms",
+      "item_name": "#DOTA_Item_Kindred_of_the_Cursed_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti9_cache_meepo_voodoo_meepo_arms/ti9_cache_meepo_voodoo_meepo_arms.vmdl"
+    },
+    {
+      "id": "13135",
+      "name": "TI9 Cache Meepo Jungle babysitter Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Meepo_Jungle_babysitter_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti9_cache_meepo_jungle_babysitter_weapon/ti9_cache_meepo_jungle_babysitter_weapon.vmdl"
+    },
+    {
+      "id": "13136",
+      "name": "TI9 Cache Meepo Jungle babysitter Back",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Meepo_Jungle_babysitter_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti9_cache_meepo_jungle_babysitter_back/ti9_cache_meepo_jungle_babysitter_back.vmdl"
+    },
+    {
+      "id": "13137",
+      "name": "TI9 Cache Meepo Jungle babysitter Tail",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Meepo_Jungle_babysitter_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti9_cache_meepo_jungle_babysitter_tail/ti9_cache_meepo_jungle_babysitter_tail.vmdl"
+    },
+    {
+      "id": "13138",
+      "name": "TI9 Cache Meepo Jungle babysitter Head",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Meepo_Jungle_babysitter_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti9_cache_meepo_jungle_babysitter_head/ti9_cache_meepo_jungle_babysitter_head.vmdl"
+    },
+    {
+      "id": "13139",
+      "name": "TI9 Cache Meepo Jungle babysitter Arms",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Meepo_Jungle_babysitter_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti9_cache_meepo_jungle_babysitter_arms/ti9_cache_meepo_jungle_babysitter_arms.vmdl"
+    },
+    {
+      "id": "13140",
+      "name": "TI9 Cache Meepo Jungle babysitter Shoulder",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Meepo_Jungle_babysitter_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/ti9_cache_meepo_jungle_babysitter_shoulder/ti9_cache_meepo_jungle_babysitter_shoulder.vmdl"
+    },
+    {
+      "id": "13736",
+      "name": "Jester King Arms",
+      "item_name": "#DOTA_Item_Jester_King_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/jester_king_arms/jester_king_arms.vmdl"
+    },
+    {
+      "id": "13737",
+      "name": "Jester King Head",
+      "item_name": "#DOTA_Item_Jester_King_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/jester_king_head/jester_king_head.vmdl"
+    },
+    {
+      "id": "13738",
+      "name": "Jester King Shoulder",
+      "item_name": "#DOTA_Item_Jester_King_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/jester_king_shoulder/jester_king_shoulder.vmdl"
+    },
+    {
+      "id": "13739",
+      "name": "Jester King Tail",
+      "item_name": "#DOTA_Item_Jester_King_Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/jester_king_tail/jester_king_tail.vmdl"
+    },
+    {
+      "id": "13740",
+      "name": "Jester King Back",
+      "item_name": "#DOTA_Item_Jester_King_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/jester_king_back/jester_king_back.vmdl"
+    },
+    {
+      "id": "13741",
+      "name": "Jester King Weapon",
+      "item_name": "#DOTA_Item_Jester_King_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/jester_king_weapon/jester_king_weapon.vmdl"
+    },
+    {
+      "id": "14241",
+      "name": "Everglyph Goggles",
+      "item_name": "#DOTA_Item_Everglyph_Goggles",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/meepo_2021_immortal/meepo_2021_immortal.vmdl"
+    },
+    {
+      "id": "17813",
+      "name": "Meepo's Diretide Shimmer Costume",
+      "item_name": "#DOTA_Item_Meepos_Diretide_Shimmer_Costume",
+      "item_slot": "costume",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17814",
+      "name": "Meepo's Diretide Shimmer Weapon",
+      "item_name": "#DOTA_Item_Meepos_Diretide_Shimmer_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/meepo/meepo_weapon.vmdl"
+    },
+    {
+      "id": "17815",
+      "name": "Meepo's Diretide Shimmer Hood",
+      "item_name": "#DOTA_Item_Meepos_Diretide_Shimmer_Hood",
+      "item_slot": "head",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/meepo/hood.vmdl"
+    },
+    {
+      "id": "17816",
+      "name": "Meepo's Diretide Shimmer Shoulderpads",
+      "item_name": "#DOTA_Item_Meepos_Diretide_Shimmer_Shoulderpads",
+      "item_slot": "shoulder",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/meepo/shoulders.vmdl"
+    },
+    {
+      "id": "17817",
+      "name": "Meepo's Diretide Shimmer Backpack",
+      "item_name": "#DOTA_Item_Meepos_Diretide_Shimmer_Backpack",
+      "item_slot": "back",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/meepo/pack.vmdl"
+    },
+    {
+      "id": "17818",
+      "name": "Meepo's Diretide Shimmer Bracers",
+      "item_name": "#DOTA_Item_Meepos_Diretide_Shimmer_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/meepo/bracers.vmdl"
+    },
+    {
+      "id": "17819",
+      "name": "Meepo's Diretide Shimmer Tail",
+      "item_name": "#DOTA_Item_Meepos_Diretide_Shimmer_Tail",
+      "item_slot": "tail",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/meepo/tail.vmdl"
+    },
+    {
+      "id": "20086",
+      "name": "The Riftshadow Roamer's Set",
+      "item_name": "#DOTA_Item_The_Riftshadow_Roamers_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20160",
+      "name": "Spoils of the Bone Ruins Set",
+      "item_name": "#DOTA_Item_Spoils_of_the_Bone_Ruins_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20424",
+      "name": "Dosa",
+      "item_name": "#DOTA_Item_Dosa",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20509",
+      "name": "Crystal Scavenger",
+      "item_name": "#DOTA_Item_Crystal_Scavenger",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20680",
+      "name": "Battle of Central Europe Season 3",
+      "item_name": "#DOTA_Item_Battle_of_Central_Europe_Season_3",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20888",
+      "name": "The Family Values Bundle",
+      "item_name": "#DOTA_Item_The_Family_Values_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20893",
+      "name": "The Fractured Order",
+      "item_name": "#DOTA_Item_The_Fractured_Order",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21194",
+      "name": "Pitmouse Fraternity",
+      "item_name": "#DOTA_Item_Pitmouse_Fraternity",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21333",
+      "name": "Kindred of the Cursed",
+      "item_name": "#DOTA_Item_Kindred_of_the_Cursed",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21353",
+      "name": "TI9 Cache Meepo Jungle babysitter",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Meepo_Jungle_babysitter",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21434",
+      "name": "Jester King",
+      "item_name": "#DOTA_Item_Jester_King",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21699",
+      "name": "Meepo's Diretide Shimmer Bundle",
+      "item_name": "#DOTA_Item_Meepos_Diretide_Shimmer_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28254",
+      "name": "Lotus of the Mountain Bear Clan - Arms",
+      "item_name": "#DOTA_Item_Lotus_of_the_Mountain_Bear_Clan__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/loong_recluse_arms/loong_recluse_arms.vmdl"
+    },
+    {
+      "id": "28255",
+      "name": "Lotus of the Mountain Bear Clan - Head",
+      "item_name": "#DOTA_Item_Lotus_of_the_Mountain_Bear_Clan__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/loong_recluse_head/loong_recluse_head.vmdl"
+    },
+    {
+      "id": "28256",
+      "name": "Lotus of the Mountain Bear Clan - Back",
+      "item_name": "#DOTA_Item_Lotus_of_the_Mountain_Bear_Clan__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/loong_recluse_back/loong_recluse_back.vmdl"
+    },
+    {
+      "id": "28257",
+      "name": "Lotus of the Mountain Bear Clan - Shoulder",
+      "item_name": "#DOTA_Item_Lotus_of_the_Mountain_Bear_Clan__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/loong_recluse_shoudler/loong_recluse_shoudler.vmdl"
+    },
+    {
+      "id": "28258",
+      "name": "Lotus of the Mountain Bear Clan - Tail",
+      "item_name": "#DOTA_Item_Lotus_of_the_Mountain_Bear_Clan__Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/loong_recluse_tail/loong_recluse_tail.vmdl"
+    },
+    {
+      "id": "28259",
+      "name": "Lotus of the Mountain Bear Clan - Weapon",
+      "item_name": "#DOTA_Item_Lotus_of_the_Mountain_Bear_Clan__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/loong_recluse_weapon/loong_recluse_weapon.vmdl"
+    },
+    {
+      "id": "28277",
+      "name": "Lotus of the Mountain Bear Clan",
+      "item_name": "#DOTA_Item_Lotus_of_the_Mountain_Bear_Clan",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "30269",
+      "name": "Mocking Bird - Shoulder",
+      "item_name": "#DOTA_Item_Mocking_Bird__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/meepo_farm_shoulder/meepo_farm_shoulder.vmdl"
+    },
+    {
+      "id": "30270",
+      "name": "Mocking Bird - Beak",
+      "item_name": "#DOTA_Item_Mocking_Bird__Beak",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/meepo_farm_head/meepo_farm_head.vmdl"
+    },
+    {
+      "id": "30271",
+      "name": "Mocking Bird - Back",
+      "item_name": "#DOTA_Item_Mocking_Bird__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/meepo_farm_back/meepo_farm_back.vmdl"
+    },
+    {
+      "id": "30272",
+      "name": "Mocking Bird - Tail",
+      "item_name": "#DOTA_Item_Mocking_Bird__Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/meepo_farm_tail/meepo_farm_tail.vmdl"
+    },
+    {
+      "id": "30273",
+      "name": "Mocking Bird - Arms",
+      "item_name": "#DOTA_Item_Mocking_Bird__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/meepo_farm_arms/meepo_farm_arms.vmdl"
+    },
+    {
+      "id": "30274",
+      "name": "Mocking Bird - Weapon",
+      "item_name": "#DOTA_Item_Mocking_Bird__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/meepo_farm_weapon/meepo_farm_weapon.vmdl"
+    },
+    {
+      "id": "30275",
+      "name": "Mocking Bird",
+      "item_name": "#DOTA_Item_Mocking_Bird",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "30944",
+      "name": "Taunt: Chicken Prance",
+      "item_name": "#DOTA_Item_Taunt_Chicken_Prance",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "taunt"
+    },
+    {
+      "id": "32607",
+      "name": "Everglyph Goggles of the Crimson Witness",
+      "item_name": "#DOTA_Item_Everglyph_Goggles_of_the_Crimson_Witness",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/meepo/meepo_2021_immortal/meepo_2021_immortal.vmdl"
+    }
+  ]
+}

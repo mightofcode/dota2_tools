@@ -1,0 +1,1549 @@
+{
+  "defaults": {
+    "body_head": {
+      "id": "56",
+      "name": "Clinkz Skull",
+      "item_name": "#DOTA_Item_Clinkz_Skull",
+      "item_slot": "body_head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/clinkz/clinkz_head.vmdl"
+    },
+    "weapon": {
+      "id": "57",
+      "name": "Clinkz Bow",
+      "item_name": "#DOTA_Item_Clinkz_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/clinkz/clinkz_bow.vmdl"
+    },
+    "shoulder": {
+      "id": "58",
+      "name": "Clinkz Shoulder Pads",
+      "item_name": "#DOTA_Item_Clinkz_Shoulder_Pads",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/clinkz/clinkz_pads.vmdl"
+    },
+    "back": {
+      "id": "59",
+      "name": "Clinkz Quiver",
+      "item_name": "#DOTA_Item_Clinkz_Quiver",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/clinkz/clinkz_back.vmdl"
+    },
+    "head": {
+      "id": "60",
+      "name": "Clinkz Horns",
+      "item_name": "#DOTA_Item_Clinkz_Horns",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/clinkz/clinkz_horns.vmdl"
+    },
+    "gloves": {
+      "id": "61",
+      "name": "Clinkz Gloves",
+      "item_name": "#DOTA_Item_Clinkz_Gloves",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "model_player": "models/heroes/clinkz/clinkz_gloves.vmdl"
+    },
+    "ambient_effects": {
+      "id": "523",
+      "name": "Clinkz's Ambient Effects",
+      "item_name": "#DOTA_Item_Clinkzs_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Vote_Only_Set_Leader_of_the_Molten_army",
+      "store_bundle": "Leader of the Molten army",
+      "portrait_image": "econ/sets/v2/clinkz_leader_of_the_molten_army",
+      "items": [
+        {
+          "name": "Leader of the Molten army - Clinkz Gloves",
+          "id": "13707",
+          "item_name": "#DOTA_Item_Vote_Only_Leader_of_the_Molten_army__Clinkz_Gloves",
+          "item_slot": "gloves",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/leader_of_the_molten_army_clinkz_gloves/leader_of_the_molten_army_clinkz_gloves.vmdl"
+        },
+        {
+          "name": "Leader of the Molten army - Clinkz Back",
+          "id": "13708",
+          "item_name": "#DOTA_Item_Vote_Only_Leader_of_the_Molten_army__Clinkz_Back",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/leader_of_the_molten_army_clinkz_back/leader_of_the_molten_army_clinkz_back.vmdl"
+        },
+        {
+          "name": "Leader of the Molten army - Clinkz Head",
+          "id": "13709",
+          "item_name": "#DOTA_Item_Vote_Only_Leader_of_the_Molten_army__Clinkz_Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/leader_of_the_molten_army_clinkz_head/leader_of_the_molten_army_clinkz_head.vmdl"
+        },
+        {
+          "name": "Leader of the Molten army - Clinkz Shoulder",
+          "id": "13710",
+          "item_name": "#DOTA_Item_Vote_Only_Leader_of_the_Molten_army__Clinkz_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/leader_of_the_molten_army_clinkz_shoulder/leader_of_the_molten_army_clinkz_shoulder.vmdl"
+        },
+        {
+          "name": "Leader of the Molten army - Clinkz Weapon",
+          "id": "13711",
+          "item_name": "#DOTA_Item_Vote_Only_Leader_of_the_Molten_army__Clinkz_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/leader_of_the_molten_army_clinkz_weapon/leader_of_the_molten_army_clinkz_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Lineage_Province_of_the_Hunt_Eternal",
+      "store_bundle": "Lineage Province of the Hunt Eternal",
+      "portrait_image": "econ/sets/v2/clinkz_lineage_province_of_the_hunt_eternal",
+      "items": [
+        {
+          "name": "Lineage Mask of the Hunt Eternal",
+          "id": "22139",
+          "item_name": "#DOTA_Item_Lineage_Mask_of_the_Hunt_Eternal",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/degraded_soul_hunter_head/degraded_soul_hunter_head.vmdl"
+        },
+        {
+          "name": "Lineage Kit of the Hunt Eternal",
+          "id": "22138",
+          "item_name": "#DOTA_Item_Lineage_Kit_of_the_Hunt_Eternal",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/degraded_soul_hunter_shoulder/degraded_soul_hunter_shoulder.vmdl"
+        },
+        {
+          "name": "Lineage Gloves of the Hunt Eternal",
+          "id": "22141",
+          "item_name": "#DOTA_Item_Lineage_Gloves_of_the_Hunt_Eternal",
+          "item_slot": "gloves",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/degraded_soul_hunter_gloves/degraded_soul_hunter_gloves.vmdl"
+        },
+        {
+          "name": "Lineage Cask of the Hunt Eternal",
+          "id": "22140",
+          "item_name": "#DOTA_Item_Lineage_Cask_of_the_Hunt_Eternal",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/degraded_soul_hunter_back/degraded_soul_hunter_back.vmdl"
+        },
+        {
+          "name": "Lineage Bow of the Hunt Eternal",
+          "id": "22137",
+          "item_name": "#DOTA_Item_Lineage_Bow_of_the_Hunt_Eternal",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/degraded_soul_hunter_weapon/degraded_soul_hunter_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Tools_of_the_Lost_Hills",
+      "store_bundle": "Lost Hills Set",
+      "portrait_image": "econ/sets/v2/clinkz_lost_hills",
+      "items": [
+        {
+          "name": "Lost Hills Shield",
+          "id": "5151",
+          "item_name": "#DOTA_Item_Lost_Hills_Shield",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/clinkz/lost_viking_back/lost_viking_back.vmdl"
+        },
+        {
+          "name": "Lost Hills Bow",
+          "id": "5152",
+          "item_name": "#DOTA_Item_Lost_Hills_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/clinkz/lost_viking_bow/lost_viking_bow.vmdl"
+        },
+        {
+          "name": "Lost Hills Gauntlets",
+          "id": "5153",
+          "item_name": "#DOTA_Item_Lost_Hills_Gauntlets",
+          "item_slot": "gloves",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/lost_viking_gauntlet/lost_viking_gauntlet.vmdl"
+        },
+        {
+          "name": "Lost Hills Shoulder",
+          "id": "5155",
+          "item_name": "#DOTA_Item_Lost_Hills_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/clinkz/lost_viking_shoulder/lost_viking_shoulder.vmdl"
+        },
+        {
+          "name": "Lost Hills Helm",
+          "id": "5154",
+          "item_name": "#DOTA_Item_Lost_Hills_Helm",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/clinkz/lost_viking_helmet/lost_viking_helmet.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Maraxiforms_Fate_Bundle",
+      "store_bundle": "Maraxiform's Fate Bundle",
+      "portrait_image": "econ/sets/v2/clinkz_maraxiforms_fate_bundle",
+      "items": [
+        {
+          "name": "Maraxiform's Fate",
+          "id": "13009",
+          "item_name": "#DOTA_Item_Maraxiforms_Fate",
+          "item_slot": "weapon",
+          "item_rarity": "immortal",
+          "model_player": "models/items/clinkz/clinkz_ti9_immortal_weapon/clinkz_ti9_immortal_weapon.vmdl"
+        },
+        {
+          "name": "Maraxiform's Fallen",
+          "id": "13540",
+          "item_name": "#DOTA_Item_Maraxiforms_Fallen",
+          "item_slot": "summon",
+          "item_rarity": "immortal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_TI9_Cache_Clinkz_Restless_Shikaree",
+      "store_bundle": "TI9 Cache Clinkz Restless Shikaree",
+      "portrait_image": "econ/sets/v2/clinkz_ti9_cache_clinkz_restless_shikaree",
+      "items": [
+        {
+          "name": "TI9 Cache Clinkz Restless Shikaree Weapon",
+          "id": "13190",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Clinkz_Restless_Shikaree_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/ti9_cache_clinkz_restless_shikaree_weapon/ti9_cache_clinkz_restless_shikaree_weapon.vmdl"
+        },
+        {
+          "name": "TI9 Cache Clinkz Restless Shikaree Gloves",
+          "id": "13189",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Clinkz_Restless_Shikaree_Gloves",
+          "item_slot": "gloves",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/ti9_cache_clinkz_restless_shikaree_gloves/ti9_cache_clinkz_restless_shikaree_gloves.vmdl"
+        },
+        {
+          "name": "TI9 Cache Clinkz Restless Shikaree Back",
+          "id": "13188",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Clinkz_Restless_Shikaree_Back",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/ti9_cache_clinkz_restless_shikaree_back/ti9_cache_clinkz_restless_shikaree_back.vmdl"
+        },
+        {
+          "name": "TI9 Cache Clinkz Restless Shikaree Head",
+          "id": "13187",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Clinkz_Restless_Shikaree_Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/ti9_cache_clinkz_restless_shikaree_head/ti9_cache_clinkz_restless_shikaree_head.vmdl"
+        },
+        {
+          "name": "TI9 Cache Clinkz Restless Shikaree Shoulder",
+          "id": "13186",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Clinkz_Restless_Shikaree_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/ti9_cache_clinkz_restless_shikaree_shoulder/ti9_cache_clinkz_restless_shikaree_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Clinkz_Vandal",
+      "store_bundle": "Demonic Vandal's Set",
+      "portrait_image": "econ/sets/v2/clinkz_vandal",
+      "items": [
+        {
+          "name": "Shredder of the Vandal",
+          "id": "4588",
+          "item_name": "#DOTA_Item_Shredder_of_the_Vandal",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/clinkz/wep/wep.vmdl"
+        },
+        {
+          "name": "Skeletal Claw of the Vandal",
+          "id": "4374",
+          "item_name": "#DOTA_Item_Skeletal_Claw_of_the_Vandal",
+          "item_slot": "gloves",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/clinkz_skeleton_hands/clinkz_skeleton_hands.vmdl"
+        },
+        {
+          "name": "Torn Guard of the Vandal",
+          "id": "4590",
+          "item_name": "#DOTA_Item_Torn_Guard_of_the_Vandal",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/guard/guard.vmdl"
+        },
+        {
+          "name": "Dark Quiver of the Vandal",
+          "id": "4591",
+          "item_name": "#DOTA_Item_Dark_Quiver_of_the_Vandal",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/justpicsnothingmnew/justpicsnothingmnew.vmdl"
+        },
+        {
+          "name": "Demon Guise of the Vandal",
+          "id": "4605",
+          "item_name": "#DOTA_Item_Demon_Guise_of_the_Vandal",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/clinkz/clinkzhead/clinkzhead.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Cloak_of_the_Fallen",
+      "store_bundle": "Red Bull Battle Grounds Bundle",
+      "portrait_image": "econ/sets/v2/cloak_of_the_fallen",
+      "items": [
+        {
+          "name": "Hood of the Fallen Cloak",
+          "id": "8290",
+          "item_name": "#DOTA_Item_Hood_of_the_Fallen_Cloak",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/clinkz/redbull_clinkz_head/redbull_clinkz_head.vmdl"
+        },
+        {
+          "name": "Bow of the Fallen Cloak",
+          "id": "8291",
+          "item_name": "#DOTA_Item_Bow_of_the_Fallen_Cloak",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/clinkz/redbull_clinkz_weapon/redbull_clinkz_weapon.vmdl"
+        },
+        {
+          "name": "Gloves of the Fallen Cloak",
+          "id": "8292",
+          "item_name": "#DOTA_Item_Gloves_of_the_Fallen_Cloak",
+          "item_slot": "gloves",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/redbull_clinkz_gloves/redbull_clinkz_gloves.vmdl"
+        },
+        {
+          "name": "Shoulders of the Fallen Cloak",
+          "id": "8294",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Fallen_Cloak",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/clinkz/redbull_clinkz_shoulder/redbull_clinkz_shoulder.vmdl"
+        },
+        {
+          "name": "Quiver of the Fallen Cloak",
+          "id": "8293",
+          "item_name": "#DOTA_Item_Quiver_of_the_Fallen_Cloak",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/clinkz/redbull_clinkz_back/redbull_clinkz_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Compendium_Scorched_Fletcher",
+      "store_bundle": "Compendium Scorched Fletcher",
+      "portrait_image": "econ/sets/v2/compendium_scorched_fletcher",
+      "items": [
+        {
+          "name": "Compendium Scorched Fletcher Quiver",
+          "id": "7349",
+          "item_name": "#DOTA_Item_Compendium_Scorched_Fletcher_Quiver",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/bone_fletcher_quiver/bone_fletcher_quiver.vmdl"
+        },
+        {
+          "name": "Compendium Scorched Fletcher Helm",
+          "id": "7347",
+          "item_name": "#DOTA_Item_Compendium_Scorched_Fletcher_Helm",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/clinkz/bone_fletcher_head_alt_cyclops/bone_fletcher_head_alt_cyclops.vmdl"
+        },
+        {
+          "name": "Compendium Scorched Fletcher Gloves",
+          "id": "7346",
+          "item_name": "#DOTA_Item_Compendium_Scorched_Fletcher_Gloves",
+          "item_slot": "gloves",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/clinkz/bone_fletcher_gloves/bone_fletcher_gloves.vmdl"
+        },
+        {
+          "name": "Compendium Scorched Fletcher Bow",
+          "id": "7345",
+          "item_name": "#DOTA_Item_Compendium_Scorched_Fletcher_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/bone_fletcher_bow/bone_fletcher_bow.vmdl"
+        },
+        {
+          "name": "Compendium Scorched Fletcher Pauldrons",
+          "id": "7350",
+          "item_name": "#DOTA_Item_Compendium_Scorched_Fletcher_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/bone_fletcher_shoulders/bone_fletcher_shoulders.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Crypt_Guardian",
+      "store_bundle": "Crypt Guardian's Set",
+      "portrait_image": "econ/sets/v2/crypt_guardian",
+      "items": [
+        {
+          "name": "Demon Quiver of the Crypt Guardian",
+          "id": "4973",
+          "item_name": "#DOTA_Item_Demon_Quiver_of_the_Crypt_Guardian",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/clinkz/clinkz_back_goc/clinkz_back_goc.vmdl"
+        },
+        {
+          "name": "Bow of the Crypt Guardian",
+          "id": "4741",
+          "item_name": "#DOTA_Item_Bow_of_the_Crypt_Guardian",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/clinkz/clinkz_weapon_goc/clinkz_weapon_goc.vmdl"
+        },
+        {
+          "name": "Gauntlets of the Crypt Guardian",
+          "id": "4972",
+          "item_name": "#DOTA_Item_Gauntlets_of_the_Crypt_Guardian",
+          "item_slot": "gloves",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/clinkz_hands_goc/clinkz_hands_goc.vmdl"
+        },
+        {
+          "name": "Horns of the Crypt Guardian",
+          "id": "4971",
+          "item_name": "#DOTA_Item_Horns_of_the_Crypt_Guardian",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/clinkz/clinkz_helmet01_goc/clinkz_helmet01_goc.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Crypt Guardian",
+          "id": "4742",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Crypt_Guardian",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/clinkz_shoulders_goc/clinkz_shoulders_goc.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Nomad_of_the_Burning_Decree",
+      "store_bundle": "Nomad of the Burning Decree",
+      "portrait_image": "econ/sets/v2/nomad_of_the_burning_decree",
+      "items": [
+        {
+          "name": "Bow of the Burning Decree",
+          "id": "7872",
+          "item_name": "#DOTA_Item_Bow_of_the_Burning_Decree",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/khans_champion_weapon/khans_champion_weapon.vmdl"
+        },
+        {
+          "name": "Helmet of the Burning Decree",
+          "id": "7871",
+          "item_name": "#DOTA_Item_Helmet_of_the_Burning_Decree",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/khans_champion_head/khans_champion_head.vmdl"
+        },
+        {
+          "name": "Quiver of the Burning Decree",
+          "id": "7870",
+          "item_name": "#DOTA_Item_Quiver_of_the_Burning_Decree",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/khans_champion_back/khans_champion_back.vmdl"
+        },
+        {
+          "name": "Shoulders of the Burning Decree",
+          "id": "7869",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Burning_Decree",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/khans_champion_shoulder/khans_champion_shoulder.vmdl"
+        },
+        {
+          "name": "Guards of the Burning Decree",
+          "id": "7868",
+          "item_name": "#DOTA_Item_Guards_of_the_Burning_Decree",
+          "item_slot": "gloves",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/khans_champion_gloves/khans_champion_gloves.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Province_of_the_Hunt_Eternal",
+      "store_bundle": "Province of the Hunt Eternal",
+      "portrait_image": "econ/sets/v2/province_of_the_hunt_eternal",
+      "items": [
+        {
+          "name": "Gloves of the Hunt Eternal",
+          "id": "8560",
+          "item_name": "#DOTA_Item_Gloves_of_the_Hunt_Eternal",
+          "item_slot": "gloves",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/degraded_soul_hunter_gloves/degraded_soul_hunter_gloves.vmdl"
+        },
+        {
+          "name": "Cask of the Hunt Eternal",
+          "id": "8559",
+          "item_name": "#DOTA_Item_Cask_of_the_Hunt_Eternal",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/degraded_soul_hunter_back/degraded_soul_hunter_back.vmdl"
+        },
+        {
+          "name": "Mask of the Hunt Eternal",
+          "id": "8558",
+          "item_name": "#DOTA_Item_Mask_of_the_Hunt_Eternal",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/degraded_soul_hunter_head/degraded_soul_hunter_head.vmdl"
+        },
+        {
+          "name": "Kit of the Hunt Eternal",
+          "id": "8552",
+          "item_name": "#DOTA_Item_Kit_of_the_Hunt_Eternal",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/degraded_soul_hunter_shoulder/degraded_soul_hunter_shoulder.vmdl"
+        },
+        {
+          "name": "Bow of the Hunt Eternal",
+          "id": "8551",
+          "item_name": "#DOTA_Item_Bow_of_the_Hunt_Eternal",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/degraded_soul_hunter_weapon/degraded_soul_hunter_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Scorched_Fletcher",
+      "store_bundle": "Scorched Fletcher",
+      "portrait_image": "econ/sets/v2/scorched_fletcher",
+      "items": [
+        {
+          "name": "Scorched Fletcher Bow",
+          "id": "7130",
+          "item_name": "#DOTA_Item_Scorched_Fletcher_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/bone_fletcher_bow/bone_fletcher_bow.vmdl"
+        },
+        {
+          "name": "Scorched Fletcher Gloves",
+          "id": "7135",
+          "item_name": "#DOTA_Item_Scorched_Fletcher_Gloves",
+          "item_slot": "gloves",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/clinkz/bone_fletcher_gloves/bone_fletcher_gloves.vmdl"
+        },
+        {
+          "name": "Scorched Fletcher Quiver",
+          "id": "7141",
+          "item_name": "#DOTA_Item_Scorched_Fletcher_Quiver",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/bone_fletcher_quiver/bone_fletcher_quiver.vmdl"
+        },
+        {
+          "name": "Scorched Fletcher Pauldrons",
+          "id": "7142",
+          "item_name": "#DOTA_Item_Scorched_Fletcher_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/clinkz/bone_fletcher_shoulders/bone_fletcher_shoulders.vmdl"
+        },
+        {
+          "name": "Scorched Fletcher Helm",
+          "id": "7348",
+          "item_name": "#DOTA_Item_Scorched_Fletcher_Helm",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/clinkz/bone_fletcher_head_helmet/bone_fletcher_head_helmet.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Urushin_Huntsman",
+      "store_bundle": "Urushin Huntsman",
+      "portrait_image": "econ/sets/v2/urushin_huntsman",
+      "items": [
+        {
+          "name": "Bow of the Urushin Huntsman",
+          "id": "7916",
+          "item_name": "#DOTA_Item_Bow_of_the_Urushin_Huntsman",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/ti6_clinkz_weapon/ti6_clinkz_weapon.vmdl"
+        },
+        {
+          "name": "Talons of the Urushin Huntsman",
+          "id": "7917",
+          "item_name": "#DOTA_Item_Talons_of_the_Urushin_Huntsman",
+          "item_slot": "gloves",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/ti6_clinkz_gloves/ti6_clinkz_gloves.vmdl"
+        },
+        {
+          "name": "Wrap of the Urushin Huntsman",
+          "id": "7918",
+          "item_name": "#DOTA_Item_Wrap_of_the_Urushin_Huntsman",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/ti6_clinkz_head/ti6_clinkz_head.vmdl"
+        },
+        {
+          "name": "Quiver of the Urushin Huntsman",
+          "id": "7929",
+          "item_name": "#DOTA_Item_Quiver_of_the_Urushin_Huntsman",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/ti6_clinkz_back/ti6_clinkz_back.vmdl"
+        },
+        {
+          "name": "Sentinels of the Urushin Huntsman",
+          "id": "7919",
+          "item_name": "#DOTA_Item_Sentinels_of_the_Urushin_Huntsman",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/ti6_clinkz_shoulder/ti6_clinkz_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Withering_Pain",
+      "store_bundle": "Withering Pain",
+      "portrait_image": "econ/sets/v2/withering_pain",
+      "items": [
+        {
+          "name": "Withering Pain - Back",
+          "id": "14766",
+          "item_name": "#DOTA_Item_Withering_Pain__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/clinkz_the_faith_of_avengers_back/clinkz_the_faith_of_avengers_back.vmdl"
+        },
+        {
+          "name": "Withering Pain - Gloves",
+          "id": "14767",
+          "item_name": "#DOTA_Item_Withering_Pain__Gloves",
+          "item_slot": "gloves",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/clinkz_the_faith_of_avengers_gloves/clinkz_the_faith_of_avengers_gloves.vmdl"
+        },
+        {
+          "name": "Withering Pain - Head",
+          "id": "14768",
+          "item_name": "#DOTA_Item_Withering_Pain__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/clinkz_the_faith_of_avengers_head/clinkz_the_faith_of_avengers_head.vmdl"
+        },
+        {
+          "name": "Withering Pain - Shoulder",
+          "id": "14765",
+          "item_name": "#DOTA_Item_Withering_Pain__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/clinkz_the_faith_of_avengers_shoulder/clinkz_the_faith_of_avengers_shoulder.vmdl"
+        },
+        {
+          "name": "Withering Pain - Summon",
+          "id": "26958",
+          "item_name": "#DOTA_Item_Withering_Pain__Summon",
+          "item_slot": "summon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Withering Pain - Weapon",
+          "id": "14769",
+          "item_name": "#DOTA_Item_Withering_Pain__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/clinkz/clinkz_the_faith_of_avengers_weapon/clinkz_the_faith_of_avengers_weapon.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "56",
+      "name": "Clinkz Skull",
+      "item_name": "#DOTA_Item_Clinkz_Skull",
+      "item_slot": "body_head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/clinkz/clinkz_head.vmdl"
+    },
+    {
+      "id": "57",
+      "name": "Clinkz Bow",
+      "item_name": "#DOTA_Item_Clinkz_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/clinkz/clinkz_bow.vmdl"
+    },
+    {
+      "id": "58",
+      "name": "Clinkz Shoulder Pads",
+      "item_name": "#DOTA_Item_Clinkz_Shoulder_Pads",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/clinkz/clinkz_pads.vmdl"
+    },
+    {
+      "id": "59",
+      "name": "Clinkz Quiver",
+      "item_name": "#DOTA_Item_Clinkz_Quiver",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/clinkz/clinkz_back.vmdl"
+    },
+    {
+      "id": "60",
+      "name": "Clinkz Horns",
+      "item_name": "#DOTA_Item_Clinkz_Horns",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/clinkz/clinkz_horns.vmdl"
+    },
+    {
+      "id": "61",
+      "name": "Clinkz Gloves",
+      "item_name": "#DOTA_Item_Clinkz_Gloves",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/clinkz/clinkz_gloves.vmdl"
+    },
+    {
+      "id": "523",
+      "name": "Clinkz's Ambient Effects",
+      "item_name": "#DOTA_Item_Clinkzs_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "685",
+      "name": "Clinkz Burning Army",
+      "item_name": "#DOTA_Item_Clinkz_Burning_Army",
+      "item_slot": "summon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4374",
+      "name": "Skeletal Claw of the Vandal",
+      "item_name": "#DOTA_Item_Skeletal_Claw_of_the_Vandal",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/clinkz_skeleton_hands/clinkz_skeleton_hands.vmdl"
+    },
+    {
+      "id": "4378",
+      "name": "Runic Bow of Corruption",
+      "item_name": "#DOTA_Item_Runic_Bow_of_Corruption",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/runic_bow_of_corruption/runic_bow_of_corruption.vmdl"
+    },
+    {
+      "id": "4588",
+      "name": "Shredder of the Vandal",
+      "item_name": "#DOTA_Item_Shredder_of_the_Vandal",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/wep/wep.vmdl"
+    },
+    {
+      "id": "4590",
+      "name": "Torn Guard of the Vandal",
+      "item_name": "#DOTA_Item_Torn_Guard_of_the_Vandal",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/guard/guard.vmdl"
+    },
+    {
+      "id": "4591",
+      "name": "Dark Quiver of the Vandal",
+      "item_name": "#DOTA_Item_Dark_Quiver_of_the_Vandal",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/justpicsnothingmnew/justpicsnothingmnew.vmdl"
+    },
+    {
+      "id": "4600",
+      "name": "Demon Spine Recurve Bow",
+      "item_name": "#DOTA_Item_Demon_Spine_Recurve_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/demonspinerecurve_lod1/demonspinerecurve_lod1.vmdl"
+    },
+    {
+      "id": "4605",
+      "name": "Demon Guise of the Vandal",
+      "item_name": "#DOTA_Item_Demon_Guise_of_the_Vandal",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/clinkzhead/clinkzhead.vmdl"
+    },
+    {
+      "id": "4618",
+      "name": "Bow of the Searing Soul",
+      "item_name": "#DOTA_Item_Bow_of_the_Searing_Soul",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/searing_bow/searing_bow.vmdl"
+    },
+    {
+      "id": "4741",
+      "name": "Bow of the Crypt Guardian",
+      "item_name": "#DOTA_Item_Bow_of_the_Crypt_Guardian",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/clinkz_weapon_goc/clinkz_weapon_goc.vmdl"
+    },
+    {
+      "id": "4742",
+      "name": "Pauldrons of the Crypt Guardian",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Crypt_Guardian",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/clinkz_shoulders_goc/clinkz_shoulders_goc.vmdl"
+    },
+    {
+      "id": "4758",
+      "name": "Molten Genesis",
+      "item_name": "#DOTA_Item_Molten_Genesis",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/molten_genesis/molten_genesis.vmdl"
+    },
+    {
+      "id": "4971",
+      "name": "Horns of the Crypt Guardian",
+      "item_name": "#DOTA_Item_Horns_of_the_Crypt_Guardian",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/clinkz_helmet01_goc/clinkz_helmet01_goc.vmdl"
+    },
+    {
+      "id": "4972",
+      "name": "Gauntlets of the Crypt Guardian",
+      "item_name": "#DOTA_Item_Gauntlets_of_the_Crypt_Guardian",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/clinkz_hands_goc/clinkz_hands_goc.vmdl"
+    },
+    {
+      "id": "4973",
+      "name": "Demon Quiver of the Crypt Guardian",
+      "item_name": "#DOTA_Item_Demon_Quiver_of_the_Crypt_Guardian",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/clinkz_back_goc/clinkz_back_goc.vmdl"
+    },
+    {
+      "id": "5151",
+      "name": "Lost Hills Shield",
+      "item_name": "#DOTA_Item_Lost_Hills_Shield",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/lost_viking_back/lost_viking_back.vmdl"
+    },
+    {
+      "id": "5152",
+      "name": "Lost Hills Bow",
+      "item_name": "#DOTA_Item_Lost_Hills_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/lost_viking_bow/lost_viking_bow.vmdl"
+    },
+    {
+      "id": "5153",
+      "name": "Lost Hills Gauntlets",
+      "item_name": "#DOTA_Item_Lost_Hills_Gauntlets",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/lost_viking_gauntlet/lost_viking_gauntlet.vmdl"
+    },
+    {
+      "id": "5154",
+      "name": "Lost Hills Helm",
+      "item_name": "#DOTA_Item_Lost_Hills_Helm",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/lost_viking_helmet/lost_viking_helmet.vmdl"
+    },
+    {
+      "id": "5155",
+      "name": "Lost Hills Shoulder",
+      "item_name": "#DOTA_Item_Lost_Hills_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/lost_viking_shoulder/lost_viking_shoulder.vmdl"
+    },
+    {
+      "id": "5178",
+      "name": "Heat",
+      "item_name": "#DOTA_Item_Heat",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/bownes/bownes.vmdl"
+    },
+    {
+      "id": "7130",
+      "name": "Scorched Fletcher Bow",
+      "item_name": "#DOTA_Item_Scorched_Fletcher_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/bone_fletcher_bow/bone_fletcher_bow.vmdl"
+    },
+    {
+      "id": "7135",
+      "name": "Scorched Fletcher Gloves",
+      "item_name": "#DOTA_Item_Scorched_Fletcher_Gloves",
+      "item_slot": "gloves",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/bone_fletcher_gloves/bone_fletcher_gloves.vmdl"
+    },
+    {
+      "id": "7141",
+      "name": "Scorched Fletcher Quiver",
+      "item_name": "#DOTA_Item_Scorched_Fletcher_Quiver",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/bone_fletcher_quiver/bone_fletcher_quiver.vmdl"
+    },
+    {
+      "id": "7142",
+      "name": "Scorched Fletcher Pauldrons",
+      "item_name": "#DOTA_Item_Scorched_Fletcher_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/bone_fletcher_shoulders/bone_fletcher_shoulders.vmdl"
+    },
+    {
+      "id": "7345",
+      "name": "Compendium Scorched Fletcher Bow",
+      "item_name": "#DOTA_Item_Compendium_Scorched_Fletcher_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/bone_fletcher_bow/bone_fletcher_bow.vmdl"
+    },
+    {
+      "id": "7346",
+      "name": "Compendium Scorched Fletcher Gloves",
+      "item_name": "#DOTA_Item_Compendium_Scorched_Fletcher_Gloves",
+      "item_slot": "gloves",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/bone_fletcher_gloves/bone_fletcher_gloves.vmdl"
+    },
+    {
+      "id": "7347",
+      "name": "Compendium Scorched Fletcher Helm",
+      "item_name": "#DOTA_Item_Compendium_Scorched_Fletcher_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/bone_fletcher_head_alt_cyclops/bone_fletcher_head_alt_cyclops.vmdl"
+    },
+    {
+      "id": "7348",
+      "name": "Scorched Fletcher Helm",
+      "item_name": "#DOTA_Item_Scorched_Fletcher_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/bone_fletcher_head_helmet/bone_fletcher_head_helmet.vmdl"
+    },
+    {
+      "id": "7349",
+      "name": "Compendium Scorched Fletcher Quiver",
+      "item_name": "#DOTA_Item_Compendium_Scorched_Fletcher_Quiver",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/bone_fletcher_quiver/bone_fletcher_quiver.vmdl"
+    },
+    {
+      "id": "7350",
+      "name": "Compendium Scorched Fletcher Pauldrons",
+      "item_name": "#DOTA_Item_Compendium_Scorched_Fletcher_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/bone_fletcher_shoulders/bone_fletcher_shoulders.vmdl"
+    },
+    {
+      "id": "7868",
+      "name": "Guards of the Burning Decree",
+      "item_name": "#DOTA_Item_Guards_of_the_Burning_Decree",
+      "item_slot": "gloves",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/khans_champion_gloves/khans_champion_gloves.vmdl"
+    },
+    {
+      "id": "7869",
+      "name": "Shoulders of the Burning Decree",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Burning_Decree",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/khans_champion_shoulder/khans_champion_shoulder.vmdl"
+    },
+    {
+      "id": "7870",
+      "name": "Quiver of the Burning Decree",
+      "item_name": "#DOTA_Item_Quiver_of_the_Burning_Decree",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/khans_champion_back/khans_champion_back.vmdl"
+    },
+    {
+      "id": "7871",
+      "name": "Helmet of the Burning Decree",
+      "item_name": "#DOTA_Item_Helmet_of_the_Burning_Decree",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/khans_champion_head/khans_champion_head.vmdl"
+    },
+    {
+      "id": "7872",
+      "name": "Bow of the Burning Decree",
+      "item_name": "#DOTA_Item_Bow_of_the_Burning_Decree",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/khans_champion_weapon/khans_champion_weapon.vmdl"
+    },
+    {
+      "id": "7916",
+      "name": "Bow of the Urushin Huntsman",
+      "item_name": "#DOTA_Item_Bow_of_the_Urushin_Huntsman",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/ti6_clinkz_weapon/ti6_clinkz_weapon.vmdl"
+    },
+    {
+      "id": "7917",
+      "name": "Talons of the Urushin Huntsman",
+      "item_name": "#DOTA_Item_Talons_of_the_Urushin_Huntsman",
+      "item_slot": "gloves",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/ti6_clinkz_gloves/ti6_clinkz_gloves.vmdl"
+    },
+    {
+      "id": "7918",
+      "name": "Wrap of the Urushin Huntsman",
+      "item_name": "#DOTA_Item_Wrap_of_the_Urushin_Huntsman",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/ti6_clinkz_head/ti6_clinkz_head.vmdl"
+    },
+    {
+      "id": "7919",
+      "name": "Sentinels of the Urushin Huntsman",
+      "item_name": "#DOTA_Item_Sentinels_of_the_Urushin_Huntsman",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/ti6_clinkz_shoulder/ti6_clinkz_shoulder.vmdl"
+    },
+    {
+      "id": "7929",
+      "name": "Quiver of the Urushin Huntsman",
+      "item_name": "#DOTA_Item_Quiver_of_the_Urushin_Huntsman",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/ti6_clinkz_back/ti6_clinkz_back.vmdl"
+    },
+    {
+      "id": "8290",
+      "name": "Hood of the Fallen Cloak",
+      "item_name": "#DOTA_Item_Hood_of_the_Fallen_Cloak",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/redbull_clinkz_head/redbull_clinkz_head.vmdl"
+    },
+    {
+      "id": "8291",
+      "name": "Bow of the Fallen Cloak",
+      "item_name": "#DOTA_Item_Bow_of_the_Fallen_Cloak",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/redbull_clinkz_weapon/redbull_clinkz_weapon.vmdl"
+    },
+    {
+      "id": "8292",
+      "name": "Gloves of the Fallen Cloak",
+      "item_name": "#DOTA_Item_Gloves_of_the_Fallen_Cloak",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/redbull_clinkz_gloves/redbull_clinkz_gloves.vmdl"
+    },
+    {
+      "id": "8293",
+      "name": "Quiver of the Fallen Cloak",
+      "item_name": "#DOTA_Item_Quiver_of_the_Fallen_Cloak",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/redbull_clinkz_back/redbull_clinkz_back.vmdl"
+    },
+    {
+      "id": "8294",
+      "name": "Shoulders of the Fallen Cloak",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Fallen_Cloak",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/redbull_clinkz_shoulder/redbull_clinkz_shoulder.vmdl"
+    },
+    {
+      "id": "8551",
+      "name": "Bow of the Hunt Eternal",
+      "item_name": "#DOTA_Item_Bow_of_the_Hunt_Eternal",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/degraded_soul_hunter_weapon/degraded_soul_hunter_weapon.vmdl"
+    },
+    {
+      "id": "8552",
+      "name": "Kit of the Hunt Eternal",
+      "item_name": "#DOTA_Item_Kit_of_the_Hunt_Eternal",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/degraded_soul_hunter_shoulder/degraded_soul_hunter_shoulder.vmdl"
+    },
+    {
+      "id": "8558",
+      "name": "Mask of the Hunt Eternal",
+      "item_name": "#DOTA_Item_Mask_of_the_Hunt_Eternal",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/degraded_soul_hunter_head/degraded_soul_hunter_head.vmdl"
+    },
+    {
+      "id": "8559",
+      "name": "Cask of the Hunt Eternal",
+      "item_name": "#DOTA_Item_Cask_of_the_Hunt_Eternal",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/degraded_soul_hunter_back/degraded_soul_hunter_back.vmdl"
+    },
+    {
+      "id": "8560",
+      "name": "Gloves of the Hunt Eternal",
+      "item_name": "#DOTA_Item_Gloves_of_the_Hunt_Eternal",
+      "item_slot": "gloves",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/degraded_soul_hunter_gloves/degraded_soul_hunter_gloves.vmdl"
+    },
+    {
+      "id": "9162",
+      "name": "Maraxiform's Ire",
+      "item_name": "#DOTA_Item_Maraxiforms_Ire",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/ti7_clinkz_immortal/ti7_clinkz_immortal.vmdl"
+    },
+    {
+      "id": "9163",
+      "name": "Taunt: Xylobones",
+      "item_name": "#DOTA_Item_Taunt_Xylobones",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "13009",
+      "name": "Maraxiform's Fate",
+      "item_name": "#DOTA_Item_Maraxiforms_Fate",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/clinkz_ti9_immortal_weapon/clinkz_ti9_immortal_weapon.vmdl"
+    },
+    {
+      "id": "13186",
+      "name": "TI9 Cache Clinkz Restless Shikaree Shoulder",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Clinkz_Restless_Shikaree_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/ti9_cache_clinkz_restless_shikaree_shoulder/ti9_cache_clinkz_restless_shikaree_shoulder.vmdl"
+    },
+    {
+      "id": "13187",
+      "name": "TI9 Cache Clinkz Restless Shikaree Head",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Clinkz_Restless_Shikaree_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/ti9_cache_clinkz_restless_shikaree_head/ti9_cache_clinkz_restless_shikaree_head.vmdl"
+    },
+    {
+      "id": "13188",
+      "name": "TI9 Cache Clinkz Restless Shikaree Back",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Clinkz_Restless_Shikaree_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/ti9_cache_clinkz_restless_shikaree_back/ti9_cache_clinkz_restless_shikaree_back.vmdl"
+    },
+    {
+      "id": "13189",
+      "name": "TI9 Cache Clinkz Restless Shikaree Gloves",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Clinkz_Restless_Shikaree_Gloves",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/ti9_cache_clinkz_restless_shikaree_gloves/ti9_cache_clinkz_restless_shikaree_gloves.vmdl"
+    },
+    {
+      "id": "13190",
+      "name": "TI9 Cache Clinkz Restless Shikaree Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Clinkz_Restless_Shikaree_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/ti9_cache_clinkz_restless_shikaree_weapon/ti9_cache_clinkz_restless_shikaree_weapon.vmdl"
+    },
+    {
+      "id": "13540",
+      "name": "Maraxiform's Fallen",
+      "item_name": "#DOTA_Item_Maraxiforms_Fallen",
+      "item_slot": "summon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13707",
+      "name": "Leader of the Molten army - Clinkz Gloves",
+      "item_name": "#DOTA_Item_Vote_Only_Leader_of_the_Molten_army__Clinkz_Gloves",
+      "item_slot": "gloves",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/leader_of_the_molten_army_clinkz_gloves/leader_of_the_molten_army_clinkz_gloves.vmdl"
+    },
+    {
+      "id": "13708",
+      "name": "Leader of the Molten army - Clinkz Back",
+      "item_name": "#DOTA_Item_Vote_Only_Leader_of_the_Molten_army__Clinkz_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/leader_of_the_molten_army_clinkz_back/leader_of_the_molten_army_clinkz_back.vmdl"
+    },
+    {
+      "id": "13709",
+      "name": "Leader of the Molten army - Clinkz Head",
+      "item_name": "#DOTA_Item_Vote_Only_Leader_of_the_Molten_army__Clinkz_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/leader_of_the_molten_army_clinkz_head/leader_of_the_molten_army_clinkz_head.vmdl"
+    },
+    {
+      "id": "13710",
+      "name": "Leader of the Molten army - Clinkz Shoulder",
+      "item_name": "#DOTA_Item_Vote_Only_Leader_of_the_Molten_army__Clinkz_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/leader_of_the_molten_army_clinkz_shoulder/leader_of_the_molten_army_clinkz_shoulder.vmdl"
+    },
+    {
+      "id": "13711",
+      "name": "Leader of the Molten army - Clinkz Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_Leader_of_the_Molten_army__Clinkz_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/leader_of_the_molten_army_clinkz_weapon/leader_of_the_molten_army_clinkz_weapon.vmdl"
+    },
+    {
+      "id": "14765",
+      "name": "Withering Pain - Shoulder",
+      "item_name": "#DOTA_Item_Withering_Pain__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/clinkz_the_faith_of_avengers_shoulder/clinkz_the_faith_of_avengers_shoulder.vmdl"
+    },
+    {
+      "id": "14766",
+      "name": "Withering Pain - Back",
+      "item_name": "#DOTA_Item_Withering_Pain__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/clinkz_the_faith_of_avengers_back/clinkz_the_faith_of_avengers_back.vmdl"
+    },
+    {
+      "id": "14767",
+      "name": "Withering Pain - Gloves",
+      "item_name": "#DOTA_Item_Withering_Pain__Gloves",
+      "item_slot": "gloves",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/clinkz_the_faith_of_avengers_gloves/clinkz_the_faith_of_avengers_gloves.vmdl"
+    },
+    {
+      "id": "14768",
+      "name": "Withering Pain - Head",
+      "item_name": "#DOTA_Item_Withering_Pain__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/clinkz_the_faith_of_avengers_head/clinkz_the_faith_of_avengers_head.vmdl"
+    },
+    {
+      "id": "14769",
+      "name": "Withering Pain - Weapon",
+      "item_name": "#DOTA_Item_Withering_Pain__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/clinkz_the_faith_of_avengers_weapon/clinkz_the_faith_of_avengers_weapon.vmdl"
+    },
+    {
+      "id": "20053",
+      "name": "Demonic Vandal's Set",
+      "item_name": "#DOTA_Item_Demonic_Vandals_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20175",
+      "name": "Crypt Guardian's Set",
+      "item_name": "#DOTA_Item_Crypt_Guardians_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20207",
+      "name": "Lost Hills Set",
+      "item_name": "#DOTA_Item_Lost_Hills_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20693",
+      "name": "Compendium Scorched Fletcher",
+      "item_name": "#DOTA_Item_Compendium_Scorched_Fletcher",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20694",
+      "name": "Scorched Fletcher",
+      "item_name": "#DOTA_Item_Scorched_Fletcher",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21005",
+      "name": "Nomad of the Burning Decree",
+      "item_name": "#DOTA_Item_Nomad_of_the_Burning_Decree",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21016",
+      "name": "Urushin Huntsman",
+      "item_name": "#DOTA_Item_Urushin_Huntsman",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21040",
+      "name": "Province of the Hunt Eternal",
+      "item_name": "#DOTA_Item_Province_of_the_Hunt_Eternal",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21362",
+      "name": "TI9 Cache Clinkz Restless Shikaree",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Clinkz_Restless_Shikaree",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21422",
+      "name": "Maraxiform's Fate Bundle",
+      "item_name": "#DOTA_Item_Maraxiforms_Fate_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21430",
+      "name": "Leader of the Molten army",
+      "item_name": "#DOTA_Item_Vote_Only_Leader_of_the_Molten_army",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21588",
+      "name": "Withering Pain",
+      "item_name": "#DOTA_Item_Withering_Pain",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22137",
+      "name": "Lineage Bow of the Hunt Eternal",
+      "item_name": "#DOTA_Item_Lineage_Bow_of_the_Hunt_Eternal",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/degraded_soul_hunter_weapon/degraded_soul_hunter_weapon.vmdl"
+    },
+    {
+      "id": "22138",
+      "name": "Lineage Kit of the Hunt Eternal",
+      "item_name": "#DOTA_Item_Lineage_Kit_of_the_Hunt_Eternal",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/degraded_soul_hunter_shoulder/degraded_soul_hunter_shoulder.vmdl"
+    },
+    {
+      "id": "22139",
+      "name": "Lineage Mask of the Hunt Eternal",
+      "item_name": "#DOTA_Item_Lineage_Mask_of_the_Hunt_Eternal",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/degraded_soul_hunter_head/degraded_soul_hunter_head.vmdl"
+    },
+    {
+      "id": "22140",
+      "name": "Lineage Cask of the Hunt Eternal",
+      "item_name": "#DOTA_Item_Lineage_Cask_of_the_Hunt_Eternal",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/degraded_soul_hunter_back/degraded_soul_hunter_back.vmdl"
+    },
+    {
+      "id": "22141",
+      "name": "Lineage Gloves of the Hunt Eternal",
+      "item_name": "#DOTA_Item_Lineage_Gloves_of_the_Hunt_Eternal",
+      "item_slot": "gloves",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/clinkz/degraded_soul_hunter_gloves/degraded_soul_hunter_gloves.vmdl"
+    },
+    {
+      "id": "22142",
+      "name": "Lineage Province of the Hunt Eternal",
+      "item_name": "#DOTA_Item_Lineage_Province_of_the_Hunt_Eternal",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26958",
+      "name": "Withering Pain - Summon",
+      "item_name": "#DOTA_Item_Withering_Pain__Summon",
+      "item_slot": "summon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    }
+  ]
+}

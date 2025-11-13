@@ -1,0 +1,3204 @@
+{
+  "defaults": {
+    "head": {
+      "id": "431",
+      "name": "Legion Commander's Helmet",
+      "item_name": "#DOTA_Item_Legion_Commanders_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/legion_commander/legion_commander_head.vmdl"
+    },
+    "shoulder": {
+      "id": "432",
+      "name": "Legion Commander's Shoulder Armor",
+      "item_name": "#DOTA_Item_Legion_Commanders_Shoulder_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/legion_commander/legion_commander_shoulders.vmdl"
+    },
+    "back": {
+      "id": "433",
+      "name": "Legion Commander's Banners",
+      "item_name": "#DOTA_Item_Legion_Commanders_Banners",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/legion_commander/legion_commander_back.vmdl"
+    },
+    "weapon": {
+      "id": "434",
+      "name": "Legion Commander's Sword",
+      "item_name": "#DOTA_Item_Legion_Commanders_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/legion_commander/legion_commander_weapon.vmdl"
+    },
+    "arms": {
+      "id": "435",
+      "name": "Legion Commander's Bracers",
+      "item_name": "#DOTA_Item_Legion_Commanders_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/legion_commander/legion_commander_arms.vmdl"
+    },
+    "legs": {
+      "id": "662",
+      "name": "Legion Commander's Legs Armor",
+      "item_name": "#DOTA_Item_Legion_Commanders_Legs_Armor",
+      "item_slot": "legs",
+      "item_rarity": "common"
+    },
+    "costume": {
+      "id": "741",
+      "name": "Legion Commander's Costume",
+      "item_name": "#DOTA_Item_Legion_Commanders_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Arms_of_the_Onyx_Crucible",
+      "store_bundle": "Arms of the Onyx Crucible",
+      "portrait_image": "econ/sets/v2/arms_of_the_onyx_crucible",
+      "items": [
+        {
+          "name": "Arms of the Onyx Crucible Helmet",
+          "id": "7484",
+          "item_name": "#DOTA_Item_Arms_of_the_Onyx_Crucible_Helmet",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/arms_of_the_onyx_crucible_head/arms_of_the_onyx_crucible_head.vmdl"
+        },
+        {
+          "name": "Arms of the Onyx Crucible Shoulders",
+          "id": "7485",
+          "item_name": "#DOTA_Item_Arms_of_the_Onyx_Crucible_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/arms_of_the_onyx_crucible_shoulder/arms_of_the_onyx_crucible_shoulder.vmdl"
+        },
+        {
+          "name": "Arms of the Onyx Crucible Bracers",
+          "id": "7486",
+          "item_name": "#DOTA_Item_Arms_of_the_Onyx_Crucible_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/arms_of_the_onyx_crucible_arms/arms_of_the_onyx_crucible_arms.vmdl"
+        },
+        {
+          "name": "Arms of the Onyx Crucible War Banners",
+          "id": "7488",
+          "item_name": "#DOTA_Item_Arms_of_the_Onyx_Crucible_War_Banners",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/arms_of_the_onyx_crucible_back/arms_of_the_onyx_crucible_back.vmdl"
+        },
+        {
+          "name": "Arms of the Onyx Crucible Blade",
+          "id": "7487",
+          "item_name": "#DOTA_Item_Arms_of_the_Onyx_Crucible_Blade",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/arms_of_the_onyx_crucible_weapon/arms_of_the_onyx_crucible_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bird_of_Prey",
+      "store_bundle": "Bird of Prey",
+      "portrait_image": "econ/sets/v2/bird_of_prey",
+      "items": [
+        {
+          "name": "Bird of Prey - Arms",
+          "id": "25763",
+          "item_name": "#DOTA_Item_Bird_of_Prey__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/lc_bird_of_prey_arms/lc_bird_of_prey_arms.vmdl"
+        },
+        {
+          "name": "Bird of Prey - Back",
+          "id": "25762",
+          "item_name": "#DOTA_Item_Bird_of_Prey__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/lc_bird_of_prey_back/lc_bird_of_prey_back.vmdl"
+        },
+        {
+          "name": "Bird of Prey - Legs",
+          "id": "25760",
+          "item_name": "#DOTA_Item_Bird_of_Prey__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/lc_bird_of_prey_legs/lc_bird_of_prey_legs.vmdl"
+        },
+        {
+          "name": "Bird of Prey - Shoulder",
+          "id": "25759",
+          "item_name": "#DOTA_Item_Bird_of_Prey__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/lc_bird_of_prey_shoulder/lc_bird_of_prey_shoulder.vmdl"
+        },
+        {
+          "name": "Bird of Prey - Weapon",
+          "id": "25758",
+          "item_name": "#DOTA_Item_Bird_of_Prey__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/lc_bird_of_prey_weapon/lc_bird_of_prey_weapon.vmdl"
+        },
+        {
+          "name": "Bird of Prey - Head",
+          "id": "25761",
+          "item_name": "#DOTA_Item_Bird_of_Prey__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/lc_bird_of_prey_wearable/lc_bird_of_prey_wearable.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Blades_of_Voth_Domosh",
+      "store_bundle": "Blades of Voth Domosh",
+      "portrait_image": "econ/sets/v2/blades_of_voth_domosh",
+      "items": [
+        {
+          "name": "Blades of Voth Domosh",
+          "id": "5810",
+          "item_name": "#DOTA_Item_Blades_of_Voth_Domosh",
+          "item_slot": "weapon",
+          "item_rarity": "arcana",
+          "model_player": "models/items/legion_commander/demon_sword.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Blazing_Empire",
+      "store_bundle": "Blazing Empire",
+      "portrait_image": "econ/sets/v2/blazing_empire",
+      "items": [
+        {
+          "name": "Blazing Empire - Back",
+          "id": "19276",
+          "item_name": "#DOTA_Item_Blazing_Empire__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/conquests_of_golden_sun_back/conquests_of_golden_sun_back.vmdl"
+        },
+        {
+          "name": "Blazing Empire - Arms",
+          "id": "19275",
+          "item_name": "#DOTA_Item_Blazing_Empire__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/conquests_of_golden_sun_arms/conquests_of_golden_sun_arms.vmdl"
+        },
+        {
+          "name": "Blazing Empire - Shoulder",
+          "id": "19274",
+          "item_name": "#DOTA_Item_Blazing_Empire__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/conquests_of_golden_sun_shoulder/conquests_of_golden_sun_shoulder.vmdl"
+        },
+        {
+          "name": "Blazing Empire - Head",
+          "id": "19273",
+          "item_name": "#DOTA_Item_Blazing_Empire__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/conquests_of_golden_sun_head/conquests_of_golden_sun_head.vmdl"
+        },
+        {
+          "name": "Blazing Empire - Weapon",
+          "id": "19272",
+          "item_name": "#DOTA_Item_Blazing_Empire__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/conquests_of_golden_sun_weapon/conquests_of_golden_sun_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Commander_of_the_Dragon_Guard",
+      "store_bundle": "Commander of the Dragon Guard Set",
+      "portrait_image": "econ/sets/v2/commander_dragon_guard",
+      "items": [
+        {
+          "name": "Plume of the Dragon Guard",
+          "id": "6031",
+          "item_name": "#DOTA_Item_Plume_of_the_Dragon_Guard",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/plume_of_the_dragon_guard/plume_of_the_dragon_guard.vmdl"
+        },
+        {
+          "name": "Scales of the Dragon Guard",
+          "id": "6032",
+          "item_name": "#DOTA_Item_Scales_of_the_Dragon_Guard",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/scales_of_the_dragon_guard/scales_of_the_dragon_guard.vmdl"
+        },
+        {
+          "name": "Armlet of the Dragon Guard",
+          "id": "6033",
+          "item_name": "#DOTA_Item_Armlet_of_the_Dragon_Guard",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/armlet_of_the_dragon_guard/armlet_of_the_dragon_guard.vmdl"
+        },
+        {
+          "name": "Twin Banner of the Dragon Guard",
+          "id": "6034",
+          "item_name": "#DOTA_Item_Twin_Banner_of_the_Dragon_Guard",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/twin_dragon_banner/twin_dragon_banner.vmdl"
+        },
+        {
+          "name": "Grand Voulge of the Dragon Guard",
+          "id": "6035",
+          "item_name": "#DOTA_Item_Grand_Voulge_of_the_Dragon_Guard",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/spear_of_the_dragon_guard/spear_of_the_dragon_guard.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Compendium_Arms_of_the_Onyx_Crucible",
+      "store_bundle": "Compendium Arms of the Onyx Crucible",
+      "portrait_image": "econ/sets/v2/compendium_arms_of_the_onyx_crucible",
+      "items": [
+        {
+          "name": "Compendium Arms of the Onyx Crucible Blade",
+          "id": "7590",
+          "item_name": "#DOTA_Item_Compendium_Arms_of_the_Onyx_Crucible_Blade",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/promo_arms_of_the_onyx_crucible_weapon/promo_arms_of_the_onyx_crucible_weapon.vmdl"
+        },
+        {
+          "name": "Compendium Arms of the Onyx Crucible War Banners",
+          "id": "7491",
+          "item_name": "#DOTA_Item_Compendium_Arms_of_the_Onyx_Crucible_War_Banners",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/promo_arms_of_the_onyx_crucible_back/promo_arms_of_the_onyx_crucible_back.vmdl"
+        },
+        {
+          "name": "Compendium Arms of the Onyx Crucible Helmet",
+          "id": "7587",
+          "item_name": "#DOTA_Item_Compendium_Arms_of_the_Onyx_Crucible_Helmet",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/arms_of_the_onyx_crucible_head/arms_of_the_onyx_crucible_head.vmdl"
+        },
+        {
+          "name": "Compendium Arms of the Onyx Crucible Shoulders",
+          "id": "7588",
+          "item_name": "#DOTA_Item_Compendium_Arms_of_the_Onyx_Crucible_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/arms_of_the_onyx_crucible_shoulder/arms_of_the_onyx_crucible_shoulder.vmdl"
+        },
+        {
+          "name": "Compendium Arms of the Onyx Crucible Bracers",
+          "id": "7589",
+          "item_name": "#DOTA_Item_Compendium_Arms_of_the_Onyx_Crucible_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/arms_of_the_onyx_crucible_arms/arms_of_the_onyx_crucible_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Crimsonwing_Slayer",
+      "store_bundle": "Crimsonwing Slayer",
+      "portrait_image": "econ/sets/v2/crimsonwing_slayer",
+      "items": [
+        {
+          "name": "Crimsonwing Slayer Belt",
+          "id": "13399",
+          "item_name": "#DOTA_Item_Crimsonwing_Slayer_Belt",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/bloody_battle_angel_the_international_2019_legs/bloody_battle_angel_the_international_2019_legs.vmdl"
+        },
+        {
+          "name": "Crimsonwing Slayer Helm",
+          "id": "13398",
+          "item_name": "#DOTA_Item_Crimsonwing_Slayer_Helm",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/bloody_battle_angel_the_international_2019_head/bloody_battle_angel_the_international_2019_head.vmdl"
+        },
+        {
+          "name": "Crimsonwing Slayer Wings",
+          "id": "13397",
+          "item_name": "#DOTA_Item_Crimsonwing_Slayer_Wings",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/bloody_battle_angel_the_international_2019_back/bloody_battle_angel_the_international_2019_back.vmdl"
+        },
+        {
+          "name": "Crimsonwing Slayer Bracers",
+          "id": "13396",
+          "item_name": "#DOTA_Item_Crimsonwing_Slayer_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/bloody_battle_angel_the_international_2019_arms/bloody_battle_angel_the_international_2019_arms.vmdl"
+        },
+        {
+          "name": "Crimsonwing Slayer Weapon",
+          "id": "13395",
+          "item_name": "#DOTA_Item_Crimsonwing_Slayer_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/bloody_battle_angel_the_international_2019_weapon/bloody_battle_angel_the_international_2019_weapon.vmdl"
+        },
+        {
+          "name": "Crimsonwing Slayer Shoulders",
+          "id": "13394",
+          "item_name": "#DOTA_Item_Crimsonwing_Slayer_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/bloody_battle_angel_shoulder/bloody_battle_angel_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Desolate_Conquest",
+      "store_bundle": "Desolate Conquest",
+      "portrait_image": "econ/sets/v2/desolate_conquest",
+      "items": [
+        {
+          "name": "Legs of Desolate Conquest",
+          "id": "9785",
+          "item_name": "#DOTA_Item_Legs_of_Desolate_Conquest",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_legs.vmdl"
+        },
+        {
+          "name": "Helm of Desolate Conquest",
+          "id": "9784",
+          "item_name": "#DOTA_Item_Helm_of_Desolate_Conquest",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_head.vmdl"
+        },
+        {
+          "name": "Bracers of Desolate Conquest",
+          "id": "9783",
+          "item_name": "#DOTA_Item_Bracers_of_Desolate_Conquest",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_arms.vmdl"
+        },
+        {
+          "name": "Lance of Desolate Conquest",
+          "id": "9782",
+          "item_name": "#DOTA_Item_Lance_of_Desolate_Conquest",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_weapon.vmdl"
+        },
+        {
+          "name": "Banners of Desolate Conquest",
+          "id": "9781",
+          "item_name": "#DOTA_Item_Banners_of_Desolate_Conquest",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_back.vmdl"
+        },
+        {
+          "name": "Mantle of Desolate Conquest",
+          "id": "9780",
+          "item_name": "#DOTA_Item_Mantle_of_Desolate_Conquest",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Drakons_Deed",
+      "store_bundle": "Drakon's Deed",
+      "portrait_image": "econ/sets/v2/drakons_deed",
+      "items": [
+        {
+          "name": "Drakon's Deed Helm",
+          "id": "31105",
+          "item_name": "#DOTA_Item_Drakons_Deed_Helm",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/apostle_of_war_head/apostle_of_war_head.vmdl"
+        },
+        {
+          "name": "Drakon's Deed Banners",
+          "id": "31104",
+          "item_name": "#DOTA_Item_Drakons_Deed_Banners",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/apostle_of_war_back/apostle_of_war_back.vmdl"
+        },
+        {
+          "name": "Drakon's Deed Lance",
+          "id": "31101",
+          "item_name": "#DOTA_Item_Drakons_Deed_Lance",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/apostle_of_war_weapon/apostle_of_war_weapon.vmdl"
+        },
+        {
+          "name": "Drakon's Deed Tassets",
+          "id": "31099",
+          "item_name": "#DOTA_Item_Drakons_Deed_Tassets",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/apostle_of_war_legs/apostle_of_war_legs.vmdl"
+        },
+        {
+          "name": "Drakon's Deed Gauntlets",
+          "id": "31103",
+          "item_name": "#DOTA_Item_Drakons_Deed_Gauntlets",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/apostle_of_war_arms/apostle_of_war_arms.vmdl"
+        },
+        {
+          "name": "Drakon's Deed Pauldrons",
+          "id": "31100",
+          "item_name": "#DOTA_Item_Drakons_Deed_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/apostle_of_war_shoulders/apostle_of_war_shoulders.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Drakons_Ire",
+      "store_bundle": "Drakon's Ire",
+      "portrait_image": "econ/sets/v2/drakons_ire",
+      "items": [
+        {
+          "name": "Drakon's Ire Tassets",
+          "id": "34334",
+          "item_name": "#DOTA_Item_Drakons_Ire_Tassets",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/apostle_of_war_legs_alt/apostle_of_war_legs_alt.vmdl"
+        },
+        {
+          "name": "Drakon's Ire Lance",
+          "id": "34336",
+          "item_name": "#DOTA_Item_Drakons_Ire_Lance",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/apostle_of_war_weapon_alt/apostle_of_war_weapon_alt.vmdl"
+        },
+        {
+          "name": "Drakon's Ire Banners",
+          "id": "34338",
+          "item_name": "#DOTA_Item_Drakons_Ire_Banners",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/apostle_of_war_back_alt/apostle_of_war_back_alt.vmdl"
+        },
+        {
+          "name": "Drakon's Ire Helm",
+          "id": "34339",
+          "item_name": "#DOTA_Item_Drakons_Ire_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/apostle_of_war_head_alt/apostle_of_war_head_alt.vmdl"
+        },
+        {
+          "name": "Drakon's Ire Gauntlets",
+          "id": "34337",
+          "item_name": "#DOTA_Item_Drakons_Ire_Gauntlets",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/apostle_of_war_arms_alt/apostle_of_war_arms_alt.vmdl"
+        },
+        {
+          "name": "Drakon's Ire Pauldrons",
+          "id": "34335",
+          "item_name": "#DOTA_Item_Drakons_Ire_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/apostle_of_war_shoulders_alt/apostle_of_war_shoulders_alt.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Equine_Emissary",
+      "store_bundle": "Equine Emissary",
+      "portrait_image": "econ/sets/v2/equine_emissary",
+      "items": [
+        {
+          "name": "Halberd of the Equine Emissary ",
+          "id": "6189",
+          "item_name": "#DOTA_Item_Halberd_of_the_Equine_Emissary_",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/equine_halberd/equine_halberd.vmdl"
+        },
+        {
+          "name": "Gauntlets of the Equine Emissary",
+          "id": "6190",
+          "item_name": "#DOTA_Item_Gauntlets_of_the_Equine_Emissary",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/equine_glove/equine_glove.vmdl"
+        },
+        {
+          "name": "Flags of the Equine Emissary",
+          "id": "6191",
+          "item_name": "#DOTA_Item_Flags_of_the_Equine_Emissary",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/equine_flag/equine_flag.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Equine Emissary",
+          "id": "6192",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Equine_Emissary",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/equine_shoulder/equine_shoulder.vmdl"
+        },
+        {
+          "name": "Helm of the Equine Emissary",
+          "id": "6193",
+          "item_name": "#DOTA_Item_Helm_of_the_Equine_Emissary",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/equine_helmdark/equine_helmdark.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Flight_of_the_Valkyrie",
+      "store_bundle": "Flight of the Valkyrie",
+      "portrait_image": "econ/sets/v2/flight_of_the_valkyrie",
+      "items": [
+        {
+          "name": "Arms of the Valkyrie",
+          "id": "6241",
+          "item_name": "#DOTA_Item_Arms_of_the_Valkyrie",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/valkyrie_arms/valkyrie_arms.vmdl"
+        },
+        {
+          "name": "Shoulders of the Valkyrie",
+          "id": "6240",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Valkyrie",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/valkyrie_shoulder/valkyrie_shoulder.vmdl"
+        },
+        {
+          "name": "Helm of the Valkyrie",
+          "id": "6243",
+          "item_name": "#DOTA_Item_Helm_of_the_Valkyrie",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/valkyrie_head/valkyrie_head.vmdl"
+        },
+        {
+          "name": "Halberd of the Valkyrie",
+          "id": "6244",
+          "item_name": "#DOTA_Item_Halberd_of_the_Valkyrie",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/valkyrie_weapon/valkyrie_weapon.vmdl"
+        },
+        {
+          "name": "Wings of the Valkyrie",
+          "id": "6242",
+          "item_name": "#DOTA_Item_Wings_of_the_Valkyrie",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/valkyrie_back/valkyrie_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Honored_Servant_of_the_Empire",
+      "store_bundle": "Honored Servant of the Empire",
+      "portrait_image": "econ/sets/v2/honored_servant_of_the_empire",
+      "items": [
+        {
+          "name": "Crest of the Honored Servant of the Empire",
+          "id": "13054",
+          "item_name": "#DOTA_Item_Crest_of_the_Honored_Servant_of_the_Empire",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/ti9_cache_lc_gryphonwing_knight_back/ti9_cache_lc_gryphonwing_knight_back.vmdl"
+        },
+        {
+          "name": "Legs of the Honored Servant of the Empire",
+          "id": "13053",
+          "item_name": "#DOTA_Item_Legs_of_the_Honored_Servant_of_the_Empire",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/ti9_cache_lc_gryphonwing_knight_legs/ti9_cache_lc_gryphonwing_knight_legs.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Honored Servant of the Empire",
+          "id": "13052",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Honored_Servant_of_the_Empire",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/ti9_cache_lc_gryphonwing_knight_shoulder/ti9_cache_lc_gryphonwing_knight_shoulder.vmdl"
+        },
+        {
+          "name": "Bracers of the Honored Servant of the Empire",
+          "id": "13051",
+          "item_name": "#DOTA_Item_Bracers_of_the_Honored_Servant_of_the_Empire",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/ti9_cache_lc_gryphonwing_knight_arms/ti9_cache_lc_gryphonwing_knight_arms.vmdl"
+        },
+        {
+          "name": "Helm of the Honored Servant of the Empire",
+          "id": "13050",
+          "item_name": "#DOTA_Item_Helm_of_the_Honored_Servant_of_the_Empire",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/ti9_cache_lc_gryphonwing_knight_head/ti9_cache_lc_gryphonwing_knight_head.vmdl"
+        },
+        {
+          "name": "Pike of the Honored Servant of the Empire",
+          "id": "13048",
+          "item_name": "#DOTA_Item_Pike_of_the_Honored_Servant_of_the_Empire",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/ti9_cache_lc_gryphonwing_knight_weapon/ti9_cache_lc_gryphonwing_knight_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Immortals_Pride",
+      "store_bundle": "Immortals Pride",
+      "portrait_image": "econ/sets/v2/immortals_pride",
+      "items": [
+        {
+          "name": "Immortals Pride Flags",
+          "id": "6909",
+          "item_name": "#DOTA_Item_Immortals_Pride_Flags",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/immortalspride_back/immortalspride_back.vmdl"
+        },
+        {
+          "name": "Immortals Pride Helm",
+          "id": "6994",
+          "item_name": "#DOTA_Item_Immortals_Pride_Helm",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/immortalspride_head/immortalspride_head.vmdl"
+        },
+        {
+          "name": "Immortals Pride Halberd",
+          "id": "6995",
+          "item_name": "#DOTA_Item_Immortals_Pride_Halberd",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/immortalspride_weapon/immortalspride_weapon.vmdl"
+        },
+        {
+          "name": "Immortals Pride Pauldrons",
+          "id": "7008",
+          "item_name": "#DOTA_Item_Immortals_Pride_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/immortalspride_shoulder/immortalspride_shoulder.vmdl"
+        },
+        {
+          "name": "Immortals Pride Bracers",
+          "id": "6910",
+          "item_name": "#DOTA_Item_Immortals_Pride_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/immortalspride_arms/immortalspride_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Judge_of_the_Battlefield",
+      "store_bundle": "Judge of the Battlefield",
+      "portrait_image": "econ/sets/v2/judge_of_the_battlefield",
+      "items": [
+        {
+          "name": "Helm of the Battlefield",
+          "id": "6861",
+          "item_name": "#DOTA_Item_Helm_of_the_Battlefield",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/battlefield_head/battlefield_head.vmdl"
+        },
+        {
+          "name": "Halberd of the Battlefield",
+          "id": "6827",
+          "item_name": "#DOTA_Item_Halberd_of_the_Battlefield",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/battlefield_weapon/battlefield_weapon.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Battlefield",
+          "id": "6828",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Battlefield",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/battlefield_shoulder/battlefield_shoulder.vmdl"
+        },
+        {
+          "name": "Wings of the Battlefield",
+          "id": "6829",
+          "item_name": "#DOTA_Item_Wings_of_the_Battlefield",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/battlefield_back/battlefield_back.vmdl"
+        },
+        {
+          "name": "Bracers of the Battlefield",
+          "id": "6834",
+          "item_name": "#DOTA_Item_Bracers_of_the_Battlefield",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/battlefield_arms/battlefield_arms.vmdl"
+        },
+        {
+          "name": "Lower Armor of the Battlefield",
+          "id": "9792",
+          "item_name": "#DOTA_Item_Lower_Armor_of_the_Battlefield",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/battlefield_arms/battlefield_legs.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Legion_Commanders_Diretide_Shimmer_Bundle",
+      "store_bundle": "Legion Commander's Diretide Shimmer Bundle",
+      "portrait_image": "econ/sets/v2/legion_commanders_diretide_shimmer_bundle",
+      "items": [
+        {
+          "name": "Legion Commander's Diretide Shimmer Costume",
+          "id": "18313",
+          "item_name": "#DOTA_Item_Legion_Commanders_Diretide_Shimmer_Costume",
+          "item_slot": "costume",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Legion Commander's Diretide Shimmer Arms",
+          "id": "18337",
+          "item_name": "#DOTA_Item_Legion_Commanders_Diretide_Shimmer_Arms",
+          "item_slot": "arms",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/legion_commander/legion_commander_arms.vmdl"
+        },
+        {
+          "name": "Legion Commander's Diretide Shimmer Back",
+          "id": "18338",
+          "item_name": "#DOTA_Item_Legion_Commanders_Diretide_Shimmer_Back",
+          "item_slot": "back",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/legion_commander/legion_commander_back.vmdl"
+        },
+        {
+          "name": "Legion Commander's Diretide Shimmer Head",
+          "id": "18339",
+          "item_name": "#DOTA_Item_Legion_Commanders_Diretide_Shimmer_Head",
+          "item_slot": "head",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/legion_commander/legion_commander_head.vmdl"
+        },
+        {
+          "name": "Legion Commander's Diretide Shimmer Shoulders",
+          "id": "18340",
+          "item_name": "#DOTA_Item_Legion_Commanders_Diretide_Shimmer_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/legion_commander/legion_commander_shoulders.vmdl"
+        },
+        {
+          "name": "Legion Commander's Diretide Shimmer Weapon",
+          "id": "18341",
+          "item_name": "#DOTA_Item_Legion_Commanders_Diretide_Shimmer_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "seasonal",
+          "model_player": "models/heroes/legion_commander/legion_commander_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Daemonfell_Flame",
+      "store_bundle": "Daemonfell Flame",
+      "portrait_image": "econ/sets/v2/legion_commander_daemonfell_flame",
+      "items": [
+        {
+          "name": "Armor of the Daemonfell Flame",
+          "id": "8821",
+          "item_name": "#DOTA_Item_Armor_of_the_Daemonfell_Flame",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/athenas_flame_shoulder/athenas_flame_shoulder.vmdl"
+        },
+        {
+          "name": "Banner of the Daemonfell Flame",
+          "id": "8822",
+          "item_name": "#DOTA_Item_Banner_of_the_Daemonfell_Flame",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/athenas_flame_back/athenas_flame_back.vmdl"
+        },
+        {
+          "name": "Spear of the Daemonfell Flame",
+          "id": "8823",
+          "item_name": "#DOTA_Item_Spear_of_the_Daemonfell_Flame",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/athenas_flame_weapon/athenas_flame_weapon.vmdl"
+        },
+        {
+          "name": "Helm of the Daemonfell Flame",
+          "id": "8824",
+          "item_name": "#DOTA_Item_Helm_of_the_Daemonfell_Flame",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/athenas_flame_head/athenas_flame_head.vmdl"
+        },
+        {
+          "name": "Bracers of the Daemonfell Flame",
+          "id": "8820",
+          "item_name": "#DOTA_Item_Bracers_of_the_Daemonfell_Flame",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/athenas_flame_arms/athenas_flame_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Lineage_Desolate_Conquest",
+      "store_bundle": "Lineage Desolate Conquest",
+      "portrait_image": "econ/sets/v2/legion_commander_lineage_desolate_conquest",
+      "items": [
+        {
+          "name": "Lineage Mantle of Desolate Conquest",
+          "id": "18589",
+          "item_name": "#DOTA_Item_Lineage_Mantle_of_Desolate_Conquest",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_shoulder.vmdl"
+        },
+        {
+          "name": "Lineage Legs of Desolate Conquest",
+          "id": "18594",
+          "item_name": "#DOTA_Item_Lineage_Legs_of_Desolate_Conquest",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_legs.vmdl"
+        },
+        {
+          "name": "Lineage Lance of Desolate Conquest",
+          "id": "18591",
+          "item_name": "#DOTA_Item_Lineage_Lance_of_Desolate_Conquest",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_weapon.vmdl"
+        },
+        {
+          "name": "Lineage Helm of Desolate Conquest",
+          "id": "18593",
+          "item_name": "#DOTA_Item_Lineage_Helm_of_Desolate_Conquest",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_head.vmdl"
+        },
+        {
+          "name": "Lineage Bracers of Desolate Conquest",
+          "id": "18592",
+          "item_name": "#DOTA_Item_Lineage_Bracers_of_Desolate_Conquest",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_arms.vmdl"
+        },
+        {
+          "name": "Lineage Banners of Desolate Conquest",
+          "id": "18590",
+          "item_name": "#DOTA_Item_Lineage_Banners_of_Desolate_Conquest",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_The_Vindictive_Demonslayer",
+      "store_bundle": "The Vindictive Demonslayer",
+      "portrait_image": "econ/sets/v2/legion_commander_the_vindictive_demonslayer",
+      "items": [
+        {
+          "name": "The Vindictive Demonslayer Head",
+          "id": "17716",
+          "item_name": "#DOTA_Item_Vote_Only_The_Vindictive_Demonslayer_Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/the_vindictive_demonslayer_head/the_vindictive_demonslayer_head.vmdl"
+        },
+        {
+          "name": "The Vindictive Demonslayer Arms",
+          "id": "17715",
+          "item_name": "#DOTA_Item_Vote_Only_The_Vindictive_Demonslayer_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/the_vindictive_demonslayer_arms/the_vindictive_demonslayer_arms.vmdl"
+        },
+        {
+          "name": "The Vindictive Demonslayer Back",
+          "id": "17714",
+          "item_name": "#DOTA_Item_Vote_Only_The_Vindictive_Demonslayer_Back",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/the_vindictive_demonslayer_back/the_vindictive_demonslayer_back.vmdl"
+        },
+        {
+          "name": "The Vindictive Demonslayer Legs",
+          "id": "17713",
+          "item_name": "#DOTA_Item_Vote_Only_The_Vindictive_Demonslayer_Legs",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/the_vindictive_demonslayer_legs/the_vindictive_demonslayer_legs.vmdl"
+        },
+        {
+          "name": "The Vindictive Demonslayer Shoulder",
+          "id": "17712",
+          "item_name": "#DOTA_Item_Vote_Only_The_Vindictive_Demonslayer_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/the_vindictive_demonslayer_shoulder/the_vindictive_demonslayer_shoulder.vmdl"
+        },
+        {
+          "name": "The Vindictive Demonslayer Weapon",
+          "id": "17711",
+          "item_name": "#DOTA_Item_Vote_Only_The_Vindictive_Demonslayer_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/the_vindictive_demonslayer_weapon/the_vindictive_demonslayer_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Valkyrie_of_the_Remains",
+      "store_bundle": "Valkyrie of the Remains",
+      "portrait_image": "econ/sets/v2/legion_commander_valkyrie_of_the_remains",
+      "items": [
+        {
+          "name": "Valkyrie of the Remains Arms",
+          "id": "13257",
+          "item_name": "#DOTA_Item_Vote_Only_Valkyrie_of_the_Remains_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/valkyrie_of_the_remains_arms/valkyrie_of_the_remains_arms.vmdl"
+        },
+        {
+          "name": "Valkyrie of the Remains Back",
+          "id": "13258",
+          "item_name": "#DOTA_Item_Vote_Only_Valkyrie_of_the_Remains_Back",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/valkyrie_of_the_remains_back/valkyrie_of_the_remains_back.vmdl"
+        },
+        {
+          "name": "Valkyrie of the Remains Legs",
+          "id": "13259",
+          "item_name": "#DOTA_Item_Vote_Only_Valkyrie_of_the_Remains_Legs",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/valkyrie_of_the_remains_legs/valkyrie_of_the_remains_legs.vmdl"
+        },
+        {
+          "name": "Valkyrie of the Remains Head",
+          "id": "13260",
+          "item_name": "#DOTA_Item_Vote_Only_Valkyrie_of_the_Remains_Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/valkyrie_of_the_remains_head/valkyrie_of_the_remains_head.vmdl"
+        },
+        {
+          "name": "Valkyrie of the Remains Shoulder",
+          "id": "13261",
+          "item_name": "#DOTA_Item_Vote_Only_Valkyrie_of_the_Remains_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/valkyrie_of_the_remains_shoulder/valkyrie_of_the_remains_shoulder.vmdl"
+        },
+        {
+          "name": "Valkyrie of the Remains Weapon",
+          "id": "13282",
+          "item_name": "#DOTA_Item_Vote_Only_Valkyrie_of_the_Remains_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/valkyrie_of_the_remains_weapon/valkyrie_of_the_remains_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Errant_Soldier",
+      "store_bundle": "Errant Soldier",
+      "portrait_image": "econ/sets/v2/legioncommander_errant_soldier",
+      "items": [
+        {
+          "name": "Bracers of the Errant Soldier",
+          "id": "7220",
+          "item_name": "#DOTA_Item_Bracers_of_the_Errant_Soldier",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/errant_bracers/errant_bracers.vmdl"
+        },
+        {
+          "name": "Standards of the Errant Soldier",
+          "id": "7221",
+          "item_name": "#DOTA_Item_Standards_of_the_Errant_Soldier",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/errant_standards/errant_standards.vmdl"
+        },
+        {
+          "name": "Cowl of the Errant Soldier",
+          "id": "7222",
+          "item_name": "#DOTA_Item_Cowl_of_the_Errant_Soldier",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/errant_cowl/errant_cowl.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Errant Soldier",
+          "id": "7223",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Errant_Soldier",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/errant_pauldrons/errant_pauldrons.vmdl"
+        },
+        {
+          "name": "Spear of the Errant Soldier",
+          "id": "7224",
+          "item_name": "#DOTA_Item_Spear_of_the_Errant_Soldier",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/errant_spear/errant_spear.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_ESL_Netherstar",
+      "store_bundle": "Sharpstar Armor",
+      "portrait_image": "econ/sets/v2/netherstar",
+      "items": [
+        {
+          "name": "Plate of the Sharpstar",
+          "id": "9802",
+          "item_name": "#DOTA_Item_Plate_of_the_Sharpstar",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/esl_netherstar_shoulder/esl_netherstar_shoulder.vmdl"
+        },
+        {
+          "name": "Helm of the Sharpstar",
+          "id": "9801",
+          "item_name": "#DOTA_Item_Helm_of_the_Sharpstar",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/esl_netherstar_head/esl_netherstar_head.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Sharpstar",
+          "id": "9803",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Sharpstar",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/esl_netherstar_arms/esl_netherstar_arms.vmdl"
+        },
+        {
+          "name": "Halberd of the Sharpstar",
+          "id": "9805",
+          "item_name": "#DOTA_Item_Halberd_of_the_Sharpstar",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/esl_netherstar_weapon/esl_netherstar_weapon.vmdl"
+        },
+        {
+          "name": "Standard of the Sharpstar",
+          "id": "9806",
+          "item_name": "#DOTA_Item_Standard_of_the_Sharpstar",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/esl_netherstar_back/esl_netherstar_back.vmdl"
+        },
+        {
+          "name": "Lower Armor of the Sharpstar",
+          "id": "9791",
+          "item_name": "#DOTA_Item_Lower_Armor_of_the_Sharpstar",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/esl_netherstar_arms/esl_netherstar_legs.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Phalanx_of_the_Bronze_Eagle",
+      "store_bundle": "Phalanx of the Bronze Eagle",
+      "portrait_image": "econ/sets/v2/phalanx_of_the_bronze_eagle",
+      "items": [
+        {
+          "name": "Phalanx of the Bronze Eagle - Weapon",
+          "id": "29219",
+          "item_name": "#DOTA_Item_Phalanx_of_the_Bronze_Eagle__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/legion_commander_imperial_valor_weapon/legion_commander_imperial_valor_weapon.vmdl"
+        },
+        {
+          "name": "Phalanx of the Bronze Eagle - Shoulder",
+          "id": "29218",
+          "item_name": "#DOTA_Item_Phalanx_of_the_Bronze_Eagle__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/legion_commander_imperial_valor_shoulder/legion_commander_imperial_valor_shoulder.vmdl"
+        },
+        {
+          "name": "Phalanx of the Bronze Eagle - Legs",
+          "id": "29217",
+          "item_name": "#DOTA_Item_Phalanx_of_the_Bronze_Eagle__Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/legion_commander_imperial_valor_legs/legion_commander_imperial_valor_legs.vmdl"
+        },
+        {
+          "name": "Phalanx of the Bronze Eagle - Wearable",
+          "id": "29216",
+          "item_name": "#DOTA_Item_Phalanx_of_the_Bronze_Eagle__Wearable",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/legion_commander_imperial_valor_wearable/legion_commander_imperial_valor_wearable.vmdl"
+        },
+        {
+          "name": "Phalanx of the Bronze Eagle - Back",
+          "id": "29215",
+          "item_name": "#DOTA_Item_Phalanx_of_the_Bronze_Eagle__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/legion_commander_imperial_valor_back/legion_commander_imperial_valor_back.vmdl"
+        },
+        {
+          "name": "Phalanx of the Bronze Eagle - Arms",
+          "id": "29094",
+          "item_name": "#DOTA_Item_Phalanx_of_the_Bronze_Eagle__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/legion_commander_imperial_valor_arms/legion_commander_imperial_valor_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Radiant_Conqueror",
+      "store_bundle": "Radiant Conqueror",
+      "portrait_image": "econ/sets/v2/radiant_conqueror",
+      "items": [
+        {
+          "name": "Radiant Conqueror Arms",
+          "id": "13989",
+          "item_name": "#DOTA_Item_Radiant_Conqueror_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/radiant_conqueror_arms/radiant_conqueror_arms.vmdl"
+        },
+        {
+          "name": "Radiant Conqueror Head",
+          "id": "13988",
+          "item_name": "#DOTA_Item_Radiant_Conqueror_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/radiant_conqueror_head/radiant_conqueror_head.vmdl"
+        },
+        {
+          "name": "Radiant Conqueror Legs",
+          "id": "13987",
+          "item_name": "#DOTA_Item_Radiant_Conqueror_Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/radiant_conqueror_legs/radiant_conqueror_legs.vmdl"
+        },
+        {
+          "name": "Radiant Conqueror Shoulder",
+          "id": "13986",
+          "item_name": "#DOTA_Item_Radiant_Conqueror_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/radiant_conqueror_shoulder/radiant_conqueror_shoulder.vmdl"
+        },
+        {
+          "name": "Radiant Conqueror Weapon",
+          "id": "13985",
+          "item_name": "#DOTA_Item_Radiant_Conqueror_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/radiant_conqueror_weapon/radiant_conqueror_weapon.vmdl"
+        },
+        {
+          "name": "Radiant Conqueror Back",
+          "id": "13984",
+          "item_name": "#DOTA_Item_Radiant_Conqueror_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/radiant_conqueror_back/radiant_conqueror_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Siege_of_the_Arctic_Hall",
+      "store_bundle": "Siege of the Arctic Hall",
+      "portrait_image": "econ/sets/v2/siege_of_the_arctic_hall",
+      "items": [
+        {
+          "name": "Armor of the Arctic Hall",
+          "id": "12791",
+          "item_name": "#DOTA_Item_Armor_of_the_Arctic_Hall",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/frostivus2018_lc_frosty_yasha_shoulder/frostivus2018_lc_frosty_yasha_shoulder.vmdl"
+        },
+        {
+          "name": "Banners of the Arctic Hall",
+          "id": "12790",
+          "item_name": "#DOTA_Item_Banners_of_the_Arctic_Hall",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/frostivus2018_lc_frosty_yasha_back/frostivus2018_lc_frosty_yasha_back.vmdl"
+        },
+        {
+          "name": "Bracers of the Arctic Hall",
+          "id": "12789",
+          "item_name": "#DOTA_Item_Bracers_of_the_Arctic_Hall",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/frostivus2018_lc_frosty_yasha_arms/frostivus2018_lc_frosty_yasha_arms.vmdl"
+        },
+        {
+          "name": "Belt of the Arctic Hall",
+          "id": "12786",
+          "item_name": "#DOTA_Item_Belt_of_the_Arctic_Hall",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/frostivus2018_lc_frosty_yasha_legs/frostivus2018_lc_frosty_yasha_legs.vmdl"
+        },
+        {
+          "name": "Spear of the Arctic Hall",
+          "id": "12785",
+          "item_name": "#DOTA_Item_Spear_of_the_Arctic_Hall",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/frostivus2018_lc_frosty_yasha_weapon/frostivus2018_lc_frosty_yasha_weapon.vmdl"
+        },
+        {
+          "name": "Helm of the Arctic Hall",
+          "id": "12788",
+          "item_name": "#DOTA_Item_Helm_of_the_Arctic_Hall",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/frostivus2018_lc_frosty_yasha_head/frostivus2018_lc_frosty_yasha_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Stonehall_Royal_Guard",
+      "store_bundle": "Stonehall Royal Guard Set",
+      "portrait_image": "econ/sets/v2/stonehall_royal_guard",
+      "items": [
+        {
+          "name": "Stonehall Royal Guard Arms",
+          "id": "5885",
+          "item_name": "#DOTA_Item_Stonehall_Royal_Guard_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/legion_commander/stonehall_arms/stonehall_arms.vmdl"
+        },
+        {
+          "name": "Stonehall Royal Guard Banners",
+          "id": "5886",
+          "item_name": "#DOTA_Item_Stonehall_Royal_Guard_Banners",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/stonehall_back/stonehall_back.vmdl"
+        },
+        {
+          "name": "Stonehall Royal Guard Helmet",
+          "id": "5887",
+          "item_name": "#DOTA_Item_Stonehall_Royal_Guard_Helmet",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/stonehall_head/stonehall_head.vmdl"
+        },
+        {
+          "name": "Stonehall Royal Guard Pauldrons",
+          "id": "5889",
+          "item_name": "#DOTA_Item_Stonehall_Royal_Guard_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/legion_commander/stonehall_shoulder/stonehall_shoulder.vmdl"
+        },
+        {
+          "name": "Stonehall Royal Guard Dragonslayer",
+          "id": "5890",
+          "item_name": "#DOTA_Item_Stonehall_Royal_Guard_Dragonslayer",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/stonehall_weapon/stonehall_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Gifts_of_Zhuzhou",
+      "store_bundle": "The Gifts of Zhuzhou",
+      "portrait_image": "econ/sets/v2/the_gifts_of_zhuzhou",
+      "items": [
+        {
+          "name": "Bracers of Zhuzhou",
+          "id": "9187",
+          "item_name": "#DOTA_Item_Bracers_of_Zhuzhou",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/the_armors_of_zhuzhou_arms/the_armors_of_zhuzhou_arms.vmdl"
+        },
+        {
+          "name": "Mantle of Zhuzhou",
+          "id": "9186",
+          "item_name": "#DOTA_Item_Mantle_of_Zhuzhou",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/the_armors_of_zhuzhou_back/the_armors_of_zhuzhou_back.vmdl"
+        },
+        {
+          "name": "Helm of Zhuzhou",
+          "id": "9185",
+          "item_name": "#DOTA_Item_Helm_of_Zhuzhou",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/the_armors_of_zhuzhou_head/the_armors_of_zhuzhou_head.vmdl"
+        },
+        {
+          "name": "Armor of Zhuzhou",
+          "id": "9184",
+          "item_name": "#DOTA_Item_Armor_of_Zhuzhou",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/the_armors_of_zhuzhou_shoulder/the_armors_of_zhuzhou_shoulder.vmdl"
+        },
+        {
+          "name": "Blade of Zhuzhou",
+          "id": "9183",
+          "item_name": "#DOTA_Item_Blade_of_Zhuzhou",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/legion_commander/the_armors_of_zhuzhou_weapon/the_armors_of_zhuzhou_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Triumph_of_the_Imperatrix",
+      "store_bundle": "Triumph of the Imperatrix",
+      "portrait_image": "econ/sets/v2/triumph_of_the_imperatrix",
+      "items": [
+        {
+          "name": "Triumph of the Imperatrix Weapon",
+          "id": "29257",
+          "item_name": "#DOTA_Item_Triumph_of_the_Imperatrix_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/legion_commander_triumph_of_centurion_weapon/legion_commander_triumph_of_centurion_weapon.vmdl"
+        },
+        {
+          "name": "Triumph of the Imperatrix Shoulder",
+          "id": "29256",
+          "item_name": "#DOTA_Item_Triumph_of_the_Imperatrix_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/legion_commander_triumph_of_centurion_shoulder/legion_commander_triumph_of_centurion_shoulder.vmdl"
+        },
+        {
+          "name": "Triumph of the Imperatrix Legs",
+          "id": "29255",
+          "item_name": "#DOTA_Item_Triumph_of_the_Imperatrix_Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/legion_commander_triumph_of_centurion_legs/legion_commander_triumph_of_centurion_legs.vmdl"
+        },
+        {
+          "name": "Triumph of the Imperatrix Head",
+          "id": "29254",
+          "item_name": "#DOTA_Item_Triumph_of_the_Imperatrix_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/legion_commander_triumph_of_centurion_wearable/legion_commander_triumph_of_centurion_wearable.vmdl"
+        },
+        {
+          "name": "Triumph of the Imperatrix Back",
+          "id": "29253",
+          "item_name": "#DOTA_Item_Triumph_of_the_Imperatrix_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/legion_commander_triumph_of_centurion_back/legion_commander_triumph_of_centurion_back.vmdl"
+        },
+        {
+          "name": "Triumph of the Imperatrix Arms",
+          "id": "29252",
+          "item_name": "#DOTA_Item_Triumph_of_the_Imperatrix_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/legion_commander/legion_commander_triumph_of_centurion_arms/legion_commander_triumph_of_centurion_arms.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "431",
+      "name": "Legion Commander's Helmet",
+      "item_name": "#DOTA_Item_Legion_Commanders_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/legion_commander/legion_commander_head.vmdl"
+    },
+    {
+      "id": "432",
+      "name": "Legion Commander's Shoulder Armor",
+      "item_name": "#DOTA_Item_Legion_Commanders_Shoulder_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/legion_commander/legion_commander_shoulders.vmdl"
+    },
+    {
+      "id": "433",
+      "name": "Legion Commander's Banners",
+      "item_name": "#DOTA_Item_Legion_Commanders_Banners",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/legion_commander/legion_commander_back.vmdl"
+    },
+    {
+      "id": "434",
+      "name": "Legion Commander's Sword",
+      "item_name": "#DOTA_Item_Legion_Commanders_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/legion_commander/legion_commander_weapon.vmdl"
+    },
+    {
+      "id": "435",
+      "name": "Legion Commander's Bracers",
+      "item_name": "#DOTA_Item_Legion_Commanders_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/legion_commander/legion_commander_arms.vmdl"
+    },
+    {
+      "id": "662",
+      "name": "Legion Commander's Legs Armor",
+      "item_name": "#DOTA_Item_Legion_Commanders_Legs_Armor",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "741",
+      "name": "Legion Commander's Costume",
+      "item_name": "#DOTA_Item_Legion_Commanders_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "5810",
+      "name": "Blades of Voth Domosh",
+      "item_name": "#DOTA_Item_Blades_of_Voth_Domosh",
+      "item_slot": "weapon",
+      "item_rarity": "arcana",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/demon_sword.vmdl"
+    },
+    {
+      "id": "5885",
+      "name": "Stonehall Royal Guard Arms",
+      "item_name": "#DOTA_Item_Stonehall_Royal_Guard_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/stonehall_arms/stonehall_arms.vmdl"
+    },
+    {
+      "id": "5886",
+      "name": "Stonehall Royal Guard Banners",
+      "item_name": "#DOTA_Item_Stonehall_Royal_Guard_Banners",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/stonehall_back/stonehall_back.vmdl"
+    },
+    {
+      "id": "5887",
+      "name": "Stonehall Royal Guard Helmet",
+      "item_name": "#DOTA_Item_Stonehall_Royal_Guard_Helmet",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/stonehall_head/stonehall_head.vmdl"
+    },
+    {
+      "id": "5889",
+      "name": "Stonehall Royal Guard Pauldrons",
+      "item_name": "#DOTA_Item_Stonehall_Royal_Guard_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/stonehall_shoulder/stonehall_shoulder.vmdl"
+    },
+    {
+      "id": "5890",
+      "name": "Stonehall Royal Guard Dragonslayer",
+      "item_name": "#DOTA_Item_Stonehall_Royal_Guard_Dragonslayer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/stonehall_weapon/stonehall_weapon.vmdl"
+    },
+    {
+      "id": "5903",
+      "name": "Duelist's Greatsword",
+      "item_name": "#DOTA_Item_Duelists_Greatsword",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_sw34dd/legion_sw34dd.vmdl"
+    },
+    {
+      "id": "5958",
+      "name": "Equine Battlehelm",
+      "item_name": "#DOTA_Item_Equine_Battlehelm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/lc_yoth_helm/lc_yoth_helm.vmdl"
+    },
+    {
+      "id": "6031",
+      "name": "Plume of the Dragon Guard",
+      "item_name": "#DOTA_Item_Plume_of_the_Dragon_Guard",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/plume_of_the_dragon_guard/plume_of_the_dragon_guard.vmdl"
+    },
+    {
+      "id": "6032",
+      "name": "Scales of the Dragon Guard",
+      "item_name": "#DOTA_Item_Scales_of_the_Dragon_Guard",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/scales_of_the_dragon_guard/scales_of_the_dragon_guard.vmdl"
+    },
+    {
+      "id": "6033",
+      "name": "Armlet of the Dragon Guard",
+      "item_name": "#DOTA_Item_Armlet_of_the_Dragon_Guard",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/armlet_of_the_dragon_guard/armlet_of_the_dragon_guard.vmdl"
+    },
+    {
+      "id": "6034",
+      "name": "Twin Banner of the Dragon Guard",
+      "item_name": "#DOTA_Item_Twin_Banner_of_the_Dragon_Guard",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/twin_dragon_banner/twin_dragon_banner.vmdl"
+    },
+    {
+      "id": "6035",
+      "name": "Grand Voulge of the Dragon Guard",
+      "item_name": "#DOTA_Item_Grand_Voulge_of_the_Dragon_Guard",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/spear_of_the_dragon_guard/spear_of_the_dragon_guard.vmdl"
+    },
+    {
+      "id": "6064",
+      "name": "Banners of Battle Fortune",
+      "item_name": "#DOTA_Item_Banners_of_Battle_Fortune",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/luck_in_battle/luck_in_battle.vmdl"
+    },
+    {
+      "id": "6189",
+      "name": "Halberd of the Equine Emissary ",
+      "item_name": "#DOTA_Item_Halberd_of_the_Equine_Emissary_",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/equine_halberd/equine_halberd.vmdl"
+    },
+    {
+      "id": "6190",
+      "name": "Gauntlets of the Equine Emissary",
+      "item_name": "#DOTA_Item_Gauntlets_of_the_Equine_Emissary",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/equine_glove/equine_glove.vmdl"
+    },
+    {
+      "id": "6191",
+      "name": "Flags of the Equine Emissary",
+      "item_name": "#DOTA_Item_Flags_of_the_Equine_Emissary",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/equine_flag/equine_flag.vmdl"
+    },
+    {
+      "id": "6192",
+      "name": "Pauldrons of the Equine Emissary",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Equine_Emissary",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/equine_shoulder/equine_shoulder.vmdl"
+    },
+    {
+      "id": "6193",
+      "name": "Helm of the Equine Emissary",
+      "item_name": "#DOTA_Item_Helm_of_the_Equine_Emissary",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/equine_helmdark/equine_helmdark.vmdl"
+    },
+    {
+      "id": "6240",
+      "name": "Shoulders of the Valkyrie",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Valkyrie",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/valkyrie_shoulder/valkyrie_shoulder.vmdl"
+    },
+    {
+      "id": "6241",
+      "name": "Arms of the Valkyrie",
+      "item_name": "#DOTA_Item_Arms_of_the_Valkyrie",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/valkyrie_arms/valkyrie_arms.vmdl"
+    },
+    {
+      "id": "6242",
+      "name": "Wings of the Valkyrie",
+      "item_name": "#DOTA_Item_Wings_of_the_Valkyrie",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/valkyrie_back/valkyrie_back.vmdl"
+    },
+    {
+      "id": "6243",
+      "name": "Helm of the Valkyrie",
+      "item_name": "#DOTA_Item_Helm_of_the_Valkyrie",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/valkyrie_head/valkyrie_head.vmdl"
+    },
+    {
+      "id": "6244",
+      "name": "Halberd of the Valkyrie",
+      "item_name": "#DOTA_Item_Halberd_of_the_Valkyrie",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/valkyrie_weapon/valkyrie_weapon.vmdl"
+    },
+    {
+      "id": "6586",
+      "name": "Vanguard Fireblade",
+      "item_name": "#DOTA_Item_Vanguard_Fireblade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/vanguardfireblade_weapon/vanguardfireblade_weapon.vmdl"
+    },
+    {
+      "id": "6827",
+      "name": "Halberd of the Battlefield",
+      "item_name": "#DOTA_Item_Halberd_of_the_Battlefield",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/battlefield_weapon/battlefield_weapon.vmdl"
+    },
+    {
+      "id": "6828",
+      "name": "Pauldrons of the Battlefield",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Battlefield",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/battlefield_shoulder/battlefield_shoulder.vmdl"
+    },
+    {
+      "id": "6829",
+      "name": "Wings of the Battlefield",
+      "item_name": "#DOTA_Item_Wings_of_the_Battlefield",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/battlefield_back/battlefield_back.vmdl"
+    },
+    {
+      "id": "6834",
+      "name": "Bracers of the Battlefield",
+      "item_name": "#DOTA_Item_Bracers_of_the_Battlefield",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/battlefield_arms/battlefield_arms.vmdl"
+    },
+    {
+      "id": "6861",
+      "name": "Helm of the Battlefield",
+      "item_name": "#DOTA_Item_Helm_of_the_Battlefield",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/battlefield_head/battlefield_head.vmdl"
+    },
+    {
+      "id": "6909",
+      "name": "Immortals Pride Flags",
+      "item_name": "#DOTA_Item_Immortals_Pride_Flags",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/immortalspride_back/immortalspride_back.vmdl"
+    },
+    {
+      "id": "6910",
+      "name": "Immortals Pride Bracers",
+      "item_name": "#DOTA_Item_Immortals_Pride_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/immortalspride_arms/immortalspride_arms.vmdl"
+    },
+    {
+      "id": "6994",
+      "name": "Immortals Pride Helm",
+      "item_name": "#DOTA_Item_Immortals_Pride_Helm",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/immortalspride_head/immortalspride_head.vmdl"
+    },
+    {
+      "id": "6995",
+      "name": "Immortals Pride Halberd",
+      "item_name": "#DOTA_Item_Immortals_Pride_Halberd",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/immortalspride_weapon/immortalspride_weapon.vmdl"
+    },
+    {
+      "id": "7008",
+      "name": "Immortals Pride Pauldrons",
+      "item_name": "#DOTA_Item_Immortals_Pride_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/immortalspride_shoulder/immortalspride_shoulder.vmdl"
+    },
+    {
+      "id": "7220",
+      "name": "Bracers of the Errant Soldier",
+      "item_name": "#DOTA_Item_Bracers_of_the_Errant_Soldier",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/errant_bracers/errant_bracers.vmdl"
+    },
+    {
+      "id": "7221",
+      "name": "Standards of the Errant Soldier",
+      "item_name": "#DOTA_Item_Standards_of_the_Errant_Soldier",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/errant_standards/errant_standards.vmdl"
+    },
+    {
+      "id": "7222",
+      "name": "Cowl of the Errant Soldier",
+      "item_name": "#DOTA_Item_Cowl_of_the_Errant_Soldier",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/errant_cowl/errant_cowl.vmdl"
+    },
+    {
+      "id": "7223",
+      "name": "Pauldrons of the Errant Soldier",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Errant_Soldier",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/errant_pauldrons/errant_pauldrons.vmdl"
+    },
+    {
+      "id": "7224",
+      "name": "Spear of the Errant Soldier",
+      "item_name": "#DOTA_Item_Spear_of_the_Errant_Soldier",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/errant_spear/errant_spear.vmdl"
+    },
+    {
+      "id": "7484",
+      "name": "Arms of the Onyx Crucible Helmet",
+      "item_name": "#DOTA_Item_Arms_of_the_Onyx_Crucible_Helmet",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/arms_of_the_onyx_crucible_head/arms_of_the_onyx_crucible_head.vmdl"
+    },
+    {
+      "id": "7485",
+      "name": "Arms of the Onyx Crucible Shoulders",
+      "item_name": "#DOTA_Item_Arms_of_the_Onyx_Crucible_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/arms_of_the_onyx_crucible_shoulder/arms_of_the_onyx_crucible_shoulder.vmdl"
+    },
+    {
+      "id": "7486",
+      "name": "Arms of the Onyx Crucible Bracers",
+      "item_name": "#DOTA_Item_Arms_of_the_Onyx_Crucible_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/arms_of_the_onyx_crucible_arms/arms_of_the_onyx_crucible_arms.vmdl"
+    },
+    {
+      "id": "7487",
+      "name": "Arms of the Onyx Crucible Blade",
+      "item_name": "#DOTA_Item_Arms_of_the_Onyx_Crucible_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/arms_of_the_onyx_crucible_weapon/arms_of_the_onyx_crucible_weapon.vmdl"
+    },
+    {
+      "id": "7488",
+      "name": "Arms of the Onyx Crucible War Banners",
+      "item_name": "#DOTA_Item_Arms_of_the_Onyx_Crucible_War_Banners",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/arms_of_the_onyx_crucible_back/arms_of_the_onyx_crucible_back.vmdl"
+    },
+    {
+      "id": "7491",
+      "name": "Compendium Arms of the Onyx Crucible War Banners",
+      "item_name": "#DOTA_Item_Compendium_Arms_of_the_Onyx_Crucible_War_Banners",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/promo_arms_of_the_onyx_crucible_back/promo_arms_of_the_onyx_crucible_back.vmdl"
+    },
+    {
+      "id": "7587",
+      "name": "Compendium Arms of the Onyx Crucible Helmet",
+      "item_name": "#DOTA_Item_Compendium_Arms_of_the_Onyx_Crucible_Helmet",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/arms_of_the_onyx_crucible_head/arms_of_the_onyx_crucible_head.vmdl"
+    },
+    {
+      "id": "7588",
+      "name": "Compendium Arms of the Onyx Crucible Shoulders",
+      "item_name": "#DOTA_Item_Compendium_Arms_of_the_Onyx_Crucible_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/arms_of_the_onyx_crucible_shoulder/arms_of_the_onyx_crucible_shoulder.vmdl"
+    },
+    {
+      "id": "7589",
+      "name": "Compendium Arms of the Onyx Crucible Bracers",
+      "item_name": "#DOTA_Item_Compendium_Arms_of_the_Onyx_Crucible_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/arms_of_the_onyx_crucible_arms/arms_of_the_onyx_crucible_arms.vmdl"
+    },
+    {
+      "id": "7590",
+      "name": "Compendium Arms of the Onyx Crucible Blade",
+      "item_name": "#DOTA_Item_Compendium_Arms_of_the_Onyx_Crucible_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/promo_arms_of_the_onyx_crucible_weapon/promo_arms_of_the_onyx_crucible_weapon.vmdl"
+    },
+    {
+      "id": "7930",
+      "name": "Legacy of the Fallen Legion",
+      "item_name": "#DOTA_Item_Legacy_of_the_Fallen_Legion",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legacy_of_the_fallen_legion/legacy_of_the_fallen_legion.vmdl"
+    },
+    {
+      "id": "8316",
+      "name": "Almond the Frondillo",
+      "item_name": "#DOTA_Item_Almond_the_Frondillo",
+      "item_slot": "summon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8366",
+      "name": "All Heroes' Default Pet",
+      "item_name": "#DOTA_Wearable_All_Heroes_DefaultPet",
+      "item_slot": "summon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "8820",
+      "name": "Bracers of the Daemonfell Flame",
+      "item_name": "#DOTA_Item_Bracers_of_the_Daemonfell_Flame",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/athenas_flame_arms/athenas_flame_arms.vmdl"
+    },
+    {
+      "id": "8821",
+      "name": "Armor of the Daemonfell Flame",
+      "item_name": "#DOTA_Item_Armor_of_the_Daemonfell_Flame",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/athenas_flame_shoulder/athenas_flame_shoulder.vmdl"
+    },
+    {
+      "id": "8822",
+      "name": "Banner of the Daemonfell Flame",
+      "item_name": "#DOTA_Item_Banner_of_the_Daemonfell_Flame",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/athenas_flame_back/athenas_flame_back.vmdl"
+    },
+    {
+      "id": "8823",
+      "name": "Spear of the Daemonfell Flame",
+      "item_name": "#DOTA_Item_Spear_of_the_Daemonfell_Flame",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/athenas_flame_weapon/athenas_flame_weapon.vmdl"
+    },
+    {
+      "id": "8824",
+      "name": "Helm of the Daemonfell Flame",
+      "item_name": "#DOTA_Item_Helm_of_the_Daemonfell_Flame",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/athenas_flame_head/athenas_flame_head.vmdl"
+    },
+    {
+      "id": "9116",
+      "name": "Legionnaire Ray Sword",
+      "item_name": "#DOTA_Item_Legionnaire_Ray_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/single_legioncommander_raysword/single_legioncommander_raysword.vmdl"
+    },
+    {
+      "id": "9183",
+      "name": "Blade of Zhuzhou",
+      "item_name": "#DOTA_Item_Blade_of_Zhuzhou",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/the_armors_of_zhuzhou_weapon/the_armors_of_zhuzhou_weapon.vmdl"
+    },
+    {
+      "id": "9184",
+      "name": "Armor of Zhuzhou",
+      "item_name": "#DOTA_Item_Armor_of_Zhuzhou",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/the_armors_of_zhuzhou_shoulder/the_armors_of_zhuzhou_shoulder.vmdl"
+    },
+    {
+      "id": "9185",
+      "name": "Helm of Zhuzhou",
+      "item_name": "#DOTA_Item_Helm_of_Zhuzhou",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/the_armors_of_zhuzhou_head/the_armors_of_zhuzhou_head.vmdl"
+    },
+    {
+      "id": "9186",
+      "name": "Mantle of Zhuzhou",
+      "item_name": "#DOTA_Item_Mantle_of_Zhuzhou",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/the_armors_of_zhuzhou_back/the_armors_of_zhuzhou_back.vmdl"
+    },
+    {
+      "id": "9187",
+      "name": "Bracers of Zhuzhou",
+      "item_name": "#DOTA_Item_Bracers_of_Zhuzhou",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/the_armors_of_zhuzhou_arms/the_armors_of_zhuzhou_arms.vmdl"
+    },
+    {
+      "id": "9236",
+      "name": "Baneful Devotion",
+      "item_name": "#DOTA_Item_Baneful_Devotion",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/lc_immortal_head_ti7/lc_immortal_head_ti7.vmdl"
+    },
+    {
+      "id": "9780",
+      "name": "Mantle of Desolate Conquest",
+      "item_name": "#DOTA_Item_Mantle_of_Desolate_Conquest",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_shoulder.vmdl"
+    },
+    {
+      "id": "9781",
+      "name": "Banners of Desolate Conquest",
+      "item_name": "#DOTA_Item_Banners_of_Desolate_Conquest",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_back.vmdl"
+    },
+    {
+      "id": "9782",
+      "name": "Lance of Desolate Conquest",
+      "item_name": "#DOTA_Item_Lance_of_Desolate_Conquest",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_weapon.vmdl"
+    },
+    {
+      "id": "9783",
+      "name": "Bracers of Desolate Conquest",
+      "item_name": "#DOTA_Item_Bracers_of_Desolate_Conquest",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_arms.vmdl"
+    },
+    {
+      "id": "9784",
+      "name": "Helm of Desolate Conquest",
+      "item_name": "#DOTA_Item_Helm_of_Desolate_Conquest",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_head.vmdl"
+    },
+    {
+      "id": "9785",
+      "name": "Legs of Desolate Conquest",
+      "item_name": "#DOTA_Item_Legs_of_Desolate_Conquest",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_legs.vmdl"
+    },
+    {
+      "id": "9791",
+      "name": "Lower Armor of the Sharpstar",
+      "item_name": "#DOTA_Item_Lower_Armor_of_the_Sharpstar",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/esl_netherstar_arms/esl_netherstar_legs.vmdl"
+    },
+    {
+      "id": "9792",
+      "name": "Lower Armor of the Battlefield",
+      "item_name": "#DOTA_Item_Lower_Armor_of_the_Battlefield",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/battlefield_arms/battlefield_legs.vmdl"
+    },
+    {
+      "id": "9801",
+      "name": "Helm of the Sharpstar",
+      "item_name": "#DOTA_Item_Helm_of_the_Sharpstar",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/esl_netherstar_head/esl_netherstar_head.vmdl"
+    },
+    {
+      "id": "9802",
+      "name": "Plate of the Sharpstar",
+      "item_name": "#DOTA_Item_Plate_of_the_Sharpstar",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/esl_netherstar_shoulder/esl_netherstar_shoulder.vmdl"
+    },
+    {
+      "id": "9803",
+      "name": "Pauldrons of the Sharpstar",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Sharpstar",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/esl_netherstar_arms/esl_netherstar_arms.vmdl"
+    },
+    {
+      "id": "9805",
+      "name": "Halberd of the Sharpstar",
+      "item_name": "#DOTA_Item_Halberd_of_the_Sharpstar",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/esl_netherstar_weapon/esl_netherstar_weapon.vmdl"
+    },
+    {
+      "id": "9806",
+      "name": "Standard of the Sharpstar",
+      "item_name": "#DOTA_Item_Standard_of_the_Sharpstar",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/esl_netherstar_back/esl_netherstar_back.vmdl"
+    },
+    {
+      "id": "12785",
+      "name": "Spear of the Arctic Hall",
+      "item_name": "#DOTA_Item_Spear_of_the_Arctic_Hall",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/frostivus2018_lc_frosty_yasha_weapon/frostivus2018_lc_frosty_yasha_weapon.vmdl"
+    },
+    {
+      "id": "12786",
+      "name": "Belt of the Arctic Hall",
+      "item_name": "#DOTA_Item_Belt_of_the_Arctic_Hall",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/frostivus2018_lc_frosty_yasha_legs/frostivus2018_lc_frosty_yasha_legs.vmdl"
+    },
+    {
+      "id": "12788",
+      "name": "Helm of the Arctic Hall",
+      "item_name": "#DOTA_Item_Helm_of_the_Arctic_Hall",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/frostivus2018_lc_frosty_yasha_head/frostivus2018_lc_frosty_yasha_head.vmdl"
+    },
+    {
+      "id": "12789",
+      "name": "Bracers of the Arctic Hall",
+      "item_name": "#DOTA_Item_Bracers_of_the_Arctic_Hall",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/frostivus2018_lc_frosty_yasha_arms/frostivus2018_lc_frosty_yasha_arms.vmdl"
+    },
+    {
+      "id": "12790",
+      "name": "Banners of the Arctic Hall",
+      "item_name": "#DOTA_Item_Banners_of_the_Arctic_Hall",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/frostivus2018_lc_frosty_yasha_back/frostivus2018_lc_frosty_yasha_back.vmdl"
+    },
+    {
+      "id": "12791",
+      "name": "Armor of the Arctic Hall",
+      "item_name": "#DOTA_Item_Armor_of_the_Arctic_Hall",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/frostivus2018_lc_frosty_yasha_shoulder/frostivus2018_lc_frosty_yasha_shoulder.vmdl"
+    },
+    {
+      "id": "12918",
+      "name": "Taunt: Fearless Cadence",
+      "item_name": "#DOTA_Item_Taunt_Fearless_Cadence",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "13048",
+      "name": "Pike of the Honored Servant of the Empire",
+      "item_name": "#DOTA_Item_Pike_of_the_Honored_Servant_of_the_Empire",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/ti9_cache_lc_gryphonwing_knight_weapon/ti9_cache_lc_gryphonwing_knight_weapon.vmdl"
+    },
+    {
+      "id": "13050",
+      "name": "Helm of the Honored Servant of the Empire",
+      "item_name": "#DOTA_Item_Helm_of_the_Honored_Servant_of_the_Empire",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/ti9_cache_lc_gryphonwing_knight_head/ti9_cache_lc_gryphonwing_knight_head.vmdl"
+    },
+    {
+      "id": "13051",
+      "name": "Bracers of the Honored Servant of the Empire",
+      "item_name": "#DOTA_Item_Bracers_of_the_Honored_Servant_of_the_Empire",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/ti9_cache_lc_gryphonwing_knight_arms/ti9_cache_lc_gryphonwing_knight_arms.vmdl"
+    },
+    {
+      "id": "13052",
+      "name": "Pauldrons of the Honored Servant of the Empire",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Honored_Servant_of_the_Empire",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/ti9_cache_lc_gryphonwing_knight_shoulder/ti9_cache_lc_gryphonwing_knight_shoulder.vmdl"
+    },
+    {
+      "id": "13053",
+      "name": "Legs of the Honored Servant of the Empire",
+      "item_name": "#DOTA_Item_Legs_of_the_Honored_Servant_of_the_Empire",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/ti9_cache_lc_gryphonwing_knight_legs/ti9_cache_lc_gryphonwing_knight_legs.vmdl"
+    },
+    {
+      "id": "13054",
+      "name": "Crest of the Honored Servant of the Empire",
+      "item_name": "#DOTA_Item_Crest_of_the_Honored_Servant_of_the_Empire",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/ti9_cache_lc_gryphonwing_knight_back/ti9_cache_lc_gryphonwing_knight_back.vmdl"
+    },
+    {
+      "id": "13257",
+      "name": "Valkyrie of the Remains Arms",
+      "item_name": "#DOTA_Item_Vote_Only_Valkyrie_of_the_Remains_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/valkyrie_of_the_remains_arms/valkyrie_of_the_remains_arms.vmdl"
+    },
+    {
+      "id": "13258",
+      "name": "Valkyrie of the Remains Back",
+      "item_name": "#DOTA_Item_Vote_Only_Valkyrie_of_the_Remains_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/valkyrie_of_the_remains_back/valkyrie_of_the_remains_back.vmdl"
+    },
+    {
+      "id": "13259",
+      "name": "Valkyrie of the Remains Legs",
+      "item_name": "#DOTA_Item_Vote_Only_Valkyrie_of_the_Remains_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/valkyrie_of_the_remains_legs/valkyrie_of_the_remains_legs.vmdl"
+    },
+    {
+      "id": "13260",
+      "name": "Valkyrie of the Remains Head",
+      "item_name": "#DOTA_Item_Vote_Only_Valkyrie_of_the_Remains_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/valkyrie_of_the_remains_head/valkyrie_of_the_remains_head.vmdl"
+    },
+    {
+      "id": "13261",
+      "name": "Valkyrie of the Remains Shoulder",
+      "item_name": "#DOTA_Item_Vote_Only_Valkyrie_of_the_Remains_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/valkyrie_of_the_remains_shoulder/valkyrie_of_the_remains_shoulder.vmdl"
+    },
+    {
+      "id": "13282",
+      "name": "Valkyrie of the Remains Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_Valkyrie_of_the_Remains_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/valkyrie_of_the_remains_weapon/valkyrie_of_the_remains_weapon.vmdl"
+    },
+    {
+      "id": "13394",
+      "name": "Crimsonwing Slayer Shoulders",
+      "item_name": "#DOTA_Item_Crimsonwing_Slayer_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/bloody_battle_angel_shoulder/bloody_battle_angel_shoulder.vmdl"
+    },
+    {
+      "id": "13395",
+      "name": "Crimsonwing Slayer Weapon",
+      "item_name": "#DOTA_Item_Crimsonwing_Slayer_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/bloody_battle_angel_the_international_2019_weapon/bloody_battle_angel_the_international_2019_weapon.vmdl"
+    },
+    {
+      "id": "13396",
+      "name": "Crimsonwing Slayer Bracers",
+      "item_name": "#DOTA_Item_Crimsonwing_Slayer_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/bloody_battle_angel_the_international_2019_arms/bloody_battle_angel_the_international_2019_arms.vmdl"
+    },
+    {
+      "id": "13397",
+      "name": "Crimsonwing Slayer Wings",
+      "item_name": "#DOTA_Item_Crimsonwing_Slayer_Wings",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/bloody_battle_angel_the_international_2019_back/bloody_battle_angel_the_international_2019_back.vmdl"
+    },
+    {
+      "id": "13398",
+      "name": "Crimsonwing Slayer Helm",
+      "item_name": "#DOTA_Item_Crimsonwing_Slayer_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/bloody_battle_angel_the_international_2019_head/bloody_battle_angel_the_international_2019_head.vmdl"
+    },
+    {
+      "id": "13399",
+      "name": "Crimsonwing Slayer Belt",
+      "item_name": "#DOTA_Item_Crimsonwing_Slayer_Belt",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/bloody_battle_angel_the_international_2019_legs/bloody_battle_angel_the_international_2019_legs.vmdl"
+    },
+    {
+      "id": "13984",
+      "name": "Radiant Conqueror Back",
+      "item_name": "#DOTA_Item_Radiant_Conqueror_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/radiant_conqueror_back/radiant_conqueror_back.vmdl"
+    },
+    {
+      "id": "13985",
+      "name": "Radiant Conqueror Weapon",
+      "item_name": "#DOTA_Item_Radiant_Conqueror_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/radiant_conqueror_weapon/radiant_conqueror_weapon.vmdl"
+    },
+    {
+      "id": "13986",
+      "name": "Radiant Conqueror Shoulder",
+      "item_name": "#DOTA_Item_Radiant_Conqueror_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/radiant_conqueror_shoulder/radiant_conqueror_shoulder.vmdl"
+    },
+    {
+      "id": "13987",
+      "name": "Radiant Conqueror Legs",
+      "item_name": "#DOTA_Item_Radiant_Conqueror_Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/radiant_conqueror_legs/radiant_conqueror_legs.vmdl"
+    },
+    {
+      "id": "13988",
+      "name": "Radiant Conqueror Head",
+      "item_name": "#DOTA_Item_Radiant_Conqueror_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/radiant_conqueror_head/radiant_conqueror_head.vmdl"
+    },
+    {
+      "id": "13989",
+      "name": "Radiant Conqueror Arms",
+      "item_name": "#DOTA_Item_Radiant_Conqueror_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/radiant_conqueror_arms/radiant_conqueror_arms.vmdl"
+    },
+    {
+      "id": "17711",
+      "name": "The Vindictive Demonslayer Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_The_Vindictive_Demonslayer_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/the_vindictive_demonslayer_weapon/the_vindictive_demonslayer_weapon.vmdl"
+    },
+    {
+      "id": "17712",
+      "name": "The Vindictive Demonslayer Shoulder",
+      "item_name": "#DOTA_Item_Vote_Only_The_Vindictive_Demonslayer_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/the_vindictive_demonslayer_shoulder/the_vindictive_demonslayer_shoulder.vmdl"
+    },
+    {
+      "id": "17713",
+      "name": "The Vindictive Demonslayer Legs",
+      "item_name": "#DOTA_Item_Vote_Only_The_Vindictive_Demonslayer_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/the_vindictive_demonslayer_legs/the_vindictive_demonslayer_legs.vmdl"
+    },
+    {
+      "id": "17714",
+      "name": "The Vindictive Demonslayer Back",
+      "item_name": "#DOTA_Item_Vote_Only_The_Vindictive_Demonslayer_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/the_vindictive_demonslayer_back/the_vindictive_demonslayer_back.vmdl"
+    },
+    {
+      "id": "17715",
+      "name": "The Vindictive Demonslayer Arms",
+      "item_name": "#DOTA_Item_Vote_Only_The_Vindictive_Demonslayer_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/the_vindictive_demonslayer_arms/the_vindictive_demonslayer_arms.vmdl"
+    },
+    {
+      "id": "17716",
+      "name": "The Vindictive Demonslayer Head",
+      "item_name": "#DOTA_Item_Vote_Only_The_Vindictive_Demonslayer_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/the_vindictive_demonslayer_head/the_vindictive_demonslayer_head.vmdl"
+    },
+    {
+      "id": "18313",
+      "name": "Legion Commander's Diretide Shimmer Costume",
+      "item_name": "#DOTA_Item_Legion_Commanders_Diretide_Shimmer_Costume",
+      "item_slot": "costume",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18337",
+      "name": "Legion Commander's Diretide Shimmer Arms",
+      "item_name": "#DOTA_Item_Legion_Commanders_Diretide_Shimmer_Arms",
+      "item_slot": "arms",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/legion_commander/legion_commander_arms.vmdl"
+    },
+    {
+      "id": "18338",
+      "name": "Legion Commander's Diretide Shimmer Back",
+      "item_name": "#DOTA_Item_Legion_Commanders_Diretide_Shimmer_Back",
+      "item_slot": "back",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/legion_commander/legion_commander_back.vmdl"
+    },
+    {
+      "id": "18339",
+      "name": "Legion Commander's Diretide Shimmer Head",
+      "item_name": "#DOTA_Item_Legion_Commanders_Diretide_Shimmer_Head",
+      "item_slot": "head",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/legion_commander/legion_commander_head.vmdl"
+    },
+    {
+      "id": "18340",
+      "name": "Legion Commander's Diretide Shimmer Shoulders",
+      "item_name": "#DOTA_Item_Legion_Commanders_Diretide_Shimmer_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/legion_commander/legion_commander_shoulders.vmdl"
+    },
+    {
+      "id": "18341",
+      "name": "Legion Commander's Diretide Shimmer Weapon",
+      "item_name": "#DOTA_Item_Legion_Commanders_Diretide_Shimmer_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "wearable",
+      "model_player": "models/heroes/legion_commander/legion_commander_weapon.vmdl"
+    },
+    {
+      "id": "18589",
+      "name": "Lineage Mantle of Desolate Conquest",
+      "item_name": "#DOTA_Item_Lineage_Mantle_of_Desolate_Conquest",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_shoulder.vmdl"
+    },
+    {
+      "id": "18590",
+      "name": "Lineage Banners of Desolate Conquest",
+      "item_name": "#DOTA_Item_Lineage_Banners_of_Desolate_Conquest",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_back.vmdl"
+    },
+    {
+      "id": "18591",
+      "name": "Lineage Lance of Desolate Conquest",
+      "item_name": "#DOTA_Item_Lineage_Lance_of_Desolate_Conquest",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_weapon.vmdl"
+    },
+    {
+      "id": "18592",
+      "name": "Lineage Bracers of Desolate Conquest",
+      "item_name": "#DOTA_Item_Lineage_Bracers_of_Desolate_Conquest",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_arms.vmdl"
+    },
+    {
+      "id": "18593",
+      "name": "Lineage Helm of Desolate Conquest",
+      "item_name": "#DOTA_Item_Lineage_Helm_of_Desolate_Conquest",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_head.vmdl"
+    },
+    {
+      "id": "18594",
+      "name": "Lineage Legs of Desolate Conquest",
+      "item_name": "#DOTA_Item_Lineage_Legs_of_Desolate_Conquest",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_ti8/legion_commander_ti8_legs.vmdl"
+    },
+    {
+      "id": "19272",
+      "name": "Blazing Empire - Weapon",
+      "item_name": "#DOTA_Item_Blazing_Empire__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/conquests_of_golden_sun_weapon/conquests_of_golden_sun_weapon.vmdl"
+    },
+    {
+      "id": "19273",
+      "name": "Blazing Empire - Head",
+      "item_name": "#DOTA_Item_Blazing_Empire__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/conquests_of_golden_sun_head/conquests_of_golden_sun_head.vmdl"
+    },
+    {
+      "id": "19274",
+      "name": "Blazing Empire - Shoulder",
+      "item_name": "#DOTA_Item_Blazing_Empire__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/conquests_of_golden_sun_shoulder/conquests_of_golden_sun_shoulder.vmdl"
+    },
+    {
+      "id": "19275",
+      "name": "Blazing Empire - Arms",
+      "item_name": "#DOTA_Item_Blazing_Empire__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/conquests_of_golden_sun_arms/conquests_of_golden_sun_arms.vmdl"
+    },
+    {
+      "id": "19276",
+      "name": "Blazing Empire - Back",
+      "item_name": "#DOTA_Item_Blazing_Empire__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/conquests_of_golden_sun_back/conquests_of_golden_sun_back.vmdl"
+    },
+    {
+      "id": "20345",
+      "name": "Stonehall Royal Guard Set",
+      "item_name": "#DOTA_Item_Stonehall_Royal_Guard_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20372",
+      "name": "Commander of the Dragon Guard Set",
+      "item_name": "#DOTA_Item_Commander_of_the_Dragon_Guard_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20414",
+      "name": "Equine Emissary",
+      "item_name": "#DOTA_Item_Equine_Emissary",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20429",
+      "name": "Flight of the Valkyrie",
+      "item_name": "#DOTA_Item_Flight_of_the_Valkyrie",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20597",
+      "name": "Judge of the Battlefield",
+      "item_name": "#DOTA_Item_Judge_of_the_Battlefield",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20604",
+      "name": "Immortals Pride",
+      "item_name": "#DOTA_Item_Immortals_Pride",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20699",
+      "name": "Errant Soldier",
+      "item_name": "#DOTA_Item_Errant_Soldier",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20717",
+      "name": "Arms of the Onyx Crucible",
+      "item_name": "#DOTA_Item_Arms_of_the_Onyx_Crucible",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20718",
+      "name": "Compendium Arms of the Onyx Crucible",
+      "item_name": "#DOTA_Item_Compendium_Arms_of_the_Onyx_Crucible",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20907",
+      "name": "Sharpstar Armor",
+      "item_name": "#DOTA_Item_Sharpstar_Armor",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20982",
+      "name": "Daemonfell Flame",
+      "item_name": "#DOTA_Item_Daemonfell_Flame",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21100",
+      "name": "The Gifts of Zhuzhou",
+      "item_name": "#DOTA_Item_The_Gifts_of_Zhuzhou",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21190",
+      "name": "Desolate Conquest",
+      "item_name": "#DOTA_Item_Desolate_Conquest",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21298",
+      "name": "Siege of the Arctic Hall",
+      "item_name": "#DOTA_Item_Siege_of_the_Arctic_Hall",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21337",
+      "name": "Honored Servant of the Empire",
+      "item_name": "#DOTA_Item_Honored_Servant_of_the_Empire",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21400",
+      "name": "Crimsonwing Slayer",
+      "item_name": "#DOTA_Item_Crimsonwing_Slayer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21401",
+      "name": "Valkyrie of the Remains",
+      "item_name": "#DOTA_Item_Vote_Only_Valkyrie_of_the_Remains",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21475",
+      "name": "Radiant Conqueror",
+      "item_name": "#DOTA_Item_Radiant_Conqueror",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21683",
+      "name": "The Vindictive Demonslayer",
+      "item_name": "#DOTA_Item_Vote_Only_The_Vindictive_Demonslayer",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21792",
+      "name": "Legion Commander's Diretide Shimmer Bundle",
+      "item_name": "#DOTA_Item_Legion_Commanders_Diretide_Shimmer_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21862",
+      "name": "Lineage Desolate Conquest",
+      "item_name": "#DOTA_Item_Lineage_Desolate_Conquest",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21863",
+      "name": "Blazing Empire",
+      "item_name": "#DOTA_Item_Blazing_Empire",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25757",
+      "name": "Bird of Prey",
+      "item_name": "#DOTA_Item_Bird_of_Prey",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25758",
+      "name": "Bird of Prey - Weapon",
+      "item_name": "#DOTA_Item_Bird_of_Prey__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/lc_bird_of_prey_weapon/lc_bird_of_prey_weapon.vmdl"
+    },
+    {
+      "id": "25759",
+      "name": "Bird of Prey - Shoulder",
+      "item_name": "#DOTA_Item_Bird_of_Prey__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/lc_bird_of_prey_shoulder/lc_bird_of_prey_shoulder.vmdl"
+    },
+    {
+      "id": "25760",
+      "name": "Bird of Prey - Legs",
+      "item_name": "#DOTA_Item_Bird_of_Prey__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/lc_bird_of_prey_legs/lc_bird_of_prey_legs.vmdl"
+    },
+    {
+      "id": "25761",
+      "name": "Bird of Prey - Head",
+      "item_name": "#DOTA_Item_Bird_of_Prey__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/lc_bird_of_prey_wearable/lc_bird_of_prey_wearable.vmdl"
+    },
+    {
+      "id": "25762",
+      "name": "Bird of Prey - Back",
+      "item_name": "#DOTA_Item_Bird_of_Prey__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/lc_bird_of_prey_back/lc_bird_of_prey_back.vmdl"
+    },
+    {
+      "id": "25763",
+      "name": "Bird of Prey - Arms",
+      "item_name": "#DOTA_Item_Bird_of_Prey__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/lc_bird_of_prey_arms/lc_bird_of_prey_arms.vmdl"
+    },
+    {
+      "id": "29094",
+      "name": "Phalanx of the Bronze Eagle - Arms",
+      "item_name": "#DOTA_Item_Phalanx_of_the_Bronze_Eagle__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_imperial_valor_arms/legion_commander_imperial_valor_arms.vmdl"
+    },
+    {
+      "id": "29215",
+      "name": "Phalanx of the Bronze Eagle - Back",
+      "item_name": "#DOTA_Item_Phalanx_of_the_Bronze_Eagle__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_imperial_valor_back/legion_commander_imperial_valor_back.vmdl"
+    },
+    {
+      "id": "29216",
+      "name": "Phalanx of the Bronze Eagle - Wearable",
+      "item_name": "#DOTA_Item_Phalanx_of_the_Bronze_Eagle__Wearable",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_imperial_valor_wearable/legion_commander_imperial_valor_wearable.vmdl"
+    },
+    {
+      "id": "29217",
+      "name": "Phalanx of the Bronze Eagle - Legs",
+      "item_name": "#DOTA_Item_Phalanx_of_the_Bronze_Eagle__Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_imperial_valor_legs/legion_commander_imperial_valor_legs.vmdl"
+    },
+    {
+      "id": "29218",
+      "name": "Phalanx of the Bronze Eagle - Shoulder",
+      "item_name": "#DOTA_Item_Phalanx_of_the_Bronze_Eagle__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_imperial_valor_shoulder/legion_commander_imperial_valor_shoulder.vmdl"
+    },
+    {
+      "id": "29219",
+      "name": "Phalanx of the Bronze Eagle - Weapon",
+      "item_name": "#DOTA_Item_Phalanx_of_the_Bronze_Eagle__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_imperial_valor_weapon/legion_commander_imperial_valor_weapon.vmdl"
+    },
+    {
+      "id": "29252",
+      "name": "Triumph of the Imperatrix Arms",
+      "item_name": "#DOTA_Item_Triumph_of_the_Imperatrix_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_triumph_of_centurion_arms/legion_commander_triumph_of_centurion_arms.vmdl"
+    },
+    {
+      "id": "29253",
+      "name": "Triumph of the Imperatrix Back",
+      "item_name": "#DOTA_Item_Triumph_of_the_Imperatrix_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_triumph_of_centurion_back/legion_commander_triumph_of_centurion_back.vmdl"
+    },
+    {
+      "id": "29254",
+      "name": "Triumph of the Imperatrix Head",
+      "item_name": "#DOTA_Item_Triumph_of_the_Imperatrix_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_triumph_of_centurion_wearable/legion_commander_triumph_of_centurion_wearable.vmdl"
+    },
+    {
+      "id": "29255",
+      "name": "Triumph of the Imperatrix Legs",
+      "item_name": "#DOTA_Item_Triumph_of_the_Imperatrix_Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_triumph_of_centurion_legs/legion_commander_triumph_of_centurion_legs.vmdl"
+    },
+    {
+      "id": "29256",
+      "name": "Triumph of the Imperatrix Shoulder",
+      "item_name": "#DOTA_Item_Triumph_of_the_Imperatrix_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_triumph_of_centurion_shoulder/legion_commander_triumph_of_centurion_shoulder.vmdl"
+    },
+    {
+      "id": "29257",
+      "name": "Triumph of the Imperatrix Weapon",
+      "item_name": "#DOTA_Item_Triumph_of_the_Imperatrix_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/legion_commander_triumph_of_centurion_weapon/legion_commander_triumph_of_centurion_weapon.vmdl"
+    },
+    {
+      "id": "29283",
+      "name": "Phalanx of the Bronze Eagle",
+      "item_name": "#DOTA_Item_Phalanx_of_the_Bronze_Eagle",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "29291",
+      "name": "Triumph of the Imperatrix",
+      "item_name": "#DOTA_Item_Triumph_of_the_Imperatrix",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "31099",
+      "name": "Drakon's Deed Tassets",
+      "item_name": "#DOTA_Item_Drakons_Deed_Tassets",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/apostle_of_war_legs/apostle_of_war_legs.vmdl"
+    },
+    {
+      "id": "31100",
+      "name": "Drakon's Deed Pauldrons",
+      "item_name": "#DOTA_Item_Drakons_Deed_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/apostle_of_war_shoulders/apostle_of_war_shoulders.vmdl"
+    },
+    {
+      "id": "31101",
+      "name": "Drakon's Deed Lance",
+      "item_name": "#DOTA_Item_Drakons_Deed_Lance",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/apostle_of_war_weapon/apostle_of_war_weapon.vmdl"
+    },
+    {
+      "id": "31103",
+      "name": "Drakon's Deed Gauntlets",
+      "item_name": "#DOTA_Item_Drakons_Deed_Gauntlets",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/apostle_of_war_arms/apostle_of_war_arms.vmdl"
+    },
+    {
+      "id": "31104",
+      "name": "Drakon's Deed Banners",
+      "item_name": "#DOTA_Item_Drakons_Deed_Banners",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/apostle_of_war_back/apostle_of_war_back.vmdl"
+    },
+    {
+      "id": "31105",
+      "name": "Drakon's Deed Helm",
+      "item_name": "#DOTA_Item_Drakons_Deed_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/apostle_of_war_head/apostle_of_war_head.vmdl"
+    },
+    {
+      "id": "31106",
+      "name": "Drakon's Deed",
+      "item_name": "#DOTA_Item_Drakons_Deed",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "34333",
+      "name": "Drakon's Ire",
+      "item_name": "#DOTA_Item_Drakons_Ire",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "34334",
+      "name": "Drakon's Ire Tassets",
+      "item_name": "#DOTA_Item_Drakons_Ire_Tassets",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/apostle_of_war_legs_alt/apostle_of_war_legs_alt.vmdl"
+    },
+    {
+      "id": "34335",
+      "name": "Drakon's Ire Pauldrons",
+      "item_name": "#DOTA_Item_Drakons_Ire_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/apostle_of_war_shoulders_alt/apostle_of_war_shoulders_alt.vmdl"
+    },
+    {
+      "id": "34336",
+      "name": "Drakon's Ire Lance",
+      "item_name": "#DOTA_Item_Drakons_Ire_Lance",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/apostle_of_war_weapon_alt/apostle_of_war_weapon_alt.vmdl"
+    },
+    {
+      "id": "34337",
+      "name": "Drakon's Ire Gauntlets",
+      "item_name": "#DOTA_Item_Drakons_Ire_Gauntlets",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/apostle_of_war_arms_alt/apostle_of_war_arms_alt.vmdl"
+    },
+    {
+      "id": "34338",
+      "name": "Drakon's Ire Banners",
+      "item_name": "#DOTA_Item_Drakons_Ire_Banners",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/apostle_of_war_back_alt/apostle_of_war_back_alt.vmdl"
+    },
+    {
+      "id": "34339",
+      "name": "Drakon's Ire Helm",
+      "item_name": "#DOTA_Item_Drakons_Ire_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/legion_commander/apostle_of_war_head_alt/apostle_of_war_head_alt.vmdl"
+    }
+  ]
+}

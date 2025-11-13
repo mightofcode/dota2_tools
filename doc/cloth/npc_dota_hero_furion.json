@@ -1,0 +1,2913 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "29",
+      "name": "Nature's Prophet Staff",
+      "item_name": "#DOTA_Item_Natures_Prophet_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/furion/furion_staff.vmdl"
+    },
+    "head": {
+      "id": "30",
+      "name": "Nature's Prophet Horns",
+      "item_name": "#DOTA_Item_Natures_Prophet_Horns",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/furion/furion_horns.vmdl"
+    },
+    "neck": {
+      "id": "31",
+      "name": "Nature's Prophet Beard",
+      "item_name": "#DOTA_Item_Natures_Prophet_Beard",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "model_player": "models/heroes/furion/furion_beard.vmdl"
+    },
+    "back": {
+      "id": "32",
+      "name": "Nature's Prophet Cape",
+      "item_name": "#DOTA_Item_Natures_Prophet_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/furion/furion_cape.vmdl"
+    },
+    "shoulder": {
+      "id": "33",
+      "name": "Nature's Prophet Necklace",
+      "item_name": "#DOTA_Item_Natures_Prophet_Necklace",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/furion/furion_necklace.vmdl"
+    },
+    "arms": {
+      "id": "49",
+      "name": "Nature's Prophet Bracers",
+      "item_name": "#DOTA_Item_Natures_Prophet_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/furion/furion_bracer.vmdl"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Desert_Bloom",
+      "store_bundle": "Desert Bloom",
+      "portrait_image": "econ/sets/v2/desert_bloom",
+      "items": [
+        {
+          "name": "Desert Bloom - Arms",
+          "id": "14905",
+          "item_name": "#DOTA_Item_Desert_Bloom__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/np_desert_traveller_arms/np_desert_traveller_arms.vmdl"
+        },
+        {
+          "name": "Desert Bloom - Back",
+          "id": "14904",
+          "item_name": "#DOTA_Item_Desert_Bloom__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/np_desert_traveller_back/np_desert_traveller_back.vmdl"
+        },
+        {
+          "name": "Desert Bloom - Head",
+          "id": "14903",
+          "item_name": "#DOTA_Item_Desert_Bloom__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/np_desert_traveller_head/np_desert_traveller_head.vmdl"
+        },
+        {
+          "name": "Desert Bloom - Neck",
+          "id": "14902",
+          "item_name": "#DOTA_Item_Desert_Bloom__Neck",
+          "item_slot": "neck",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/np_desert_traveller_neck/np_desert_traveller_neck.vmdl"
+        },
+        {
+          "name": "Desert Bloom - Shoulder",
+          "id": "14901",
+          "item_name": "#DOTA_Item_Desert_Bloom__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/np_desert_traveller_shoulder/np_desert_traveller_shoulder.vmdl"
+        },
+        {
+          "name": "Desert Bloom - Treant",
+          "id": "14899",
+          "item_name": "#DOTA_Item_Desert_Bloom__Treant",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Desert Bloom - Weapon",
+          "id": "14900",
+          "item_name": "#DOTA_Item_Desert_Bloom__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/np_desert_traveller_weapon/np_desert_traveller_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Father_of_the_Forest",
+      "store_bundle": "Father of the Forest",
+      "portrait_image": "econ/sets/v2/father_of_the_forest",
+      "items": [
+        {
+          "name": "Beard of the Father",
+          "id": "6853",
+          "item_name": "#DOTA_Item_Beard_of_the_Father",
+          "item_slot": "neck",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/father_neck/father_neck.vmdl"
+        },
+        {
+          "name": "Braid of the Father",
+          "id": "6851",
+          "item_name": "#DOTA_Item_Braid_of_the_Father",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/father_shoulder/father_shoulder.vmdl"
+        },
+        {
+          "name": "Wrist Guards of the Father",
+          "id": "6852",
+          "item_name": "#DOTA_Item_Wrist_Guards_of_the_Father",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/father_arms/father_arms.vmdl"
+        },
+        {
+          "name": "Verdant Shawl of the Father",
+          "id": "6849",
+          "item_name": "#DOTA_Item_Verdant_Shawl_of_the_Father",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/father_back/father_back.vmdl"
+        },
+        {
+          "name": "Staff of the Father",
+          "id": "6848",
+          "item_name": "#DOTA_Item_Staff_of_the_Father",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/father_weapon/father_weapon.vmdl"
+        },
+        {
+          "name": "Mighty Horns of the Father",
+          "id": "6850",
+          "item_name": "#DOTA_Item_Mighty_Horns_of_the_Father",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/father_head/father_head.vmdl"
+        },
+        {
+          "name": "Children of Verodicia",
+          "id": "6854",
+          "item_name": "#DOTA_Item_Children_of_Verodicia",
+          "item_slot": "ability3",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Fungal_Lord",
+      "store_bundle": "Fungal Lord Set",
+      "portrait_image": "econ/sets/v2/fungal_lord",
+      "items": [
+        {
+          "name": "Wild Moss Beard of the Fungal Lord",
+          "id": "5803",
+          "item_name": "#DOTA_Item_Wild_Moss_Beard_of_the_Fungal_Lord",
+          "item_slot": "neck",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/fungal_lord_beard/fungal_lord_beard.vmdl"
+        },
+        {
+          "name": "Staff of the Fungal Lord",
+          "id": "5802",
+          "item_name": "#DOTA_Item_Staff_of_the_Fungal_Lord",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/fungal_lord_staff/fungal_lord_staff.vmdl"
+        },
+        {
+          "name": "Shoulders of the Fungal Lord",
+          "id": "5800",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Fungal_Lord",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/fungal_lord_shoulders/fungal_lord_shoulders.vmdl"
+        },
+        {
+          "name": "Ironwood Arms of the Fungal Lord",
+          "id": "5799",
+          "item_name": "#DOTA_Item_Ironwood_Arms_of_the_Fungal_Lord",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/fungal_lord_arms/fungal_lord_arms.vmdl"
+        },
+        {
+          "name": "Cap of the Fungal Lord",
+          "id": "5797",
+          "item_name": "#DOTA_Item_Cap_of_the_Fungal_Lord",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/fungal_lord_hat/fungal_lord_hat.vmdl"
+        },
+        {
+          "name": "Great Moss Cape of the Fungal Lord",
+          "id": "5798",
+          "item_name": "#DOTA_Item_Great_Moss_Cape_of_the_Fungal_Lord",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/fungal_lord_cape/fungal_lord_cape.vmdl"
+        },
+        {
+          "name": "Shroom Thing",
+          "id": "5806",
+          "item_name": "#DOTA_Item_Shroom_Thing",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Furion_Beast_Bole",
+      "store_bundle": "Master of Beast and Bole Set",
+      "portrait_image": "econ/sets/v2/furion_beast_bole",
+      "items": [
+        {
+          "name": "Staff of the Eagle",
+          "id": "4108",
+          "item_name": "#DOTA_Item_Staff_of_the_Eagle",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/staff_eagle_1.vmdl"
+        },
+        {
+          "name": "Grand Crown of the Gigas",
+          "id": "4064",
+          "item_name": "#DOTA_Item_Grand_Crown_of_the_Gigas",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/horns_moose_1.vmdl"
+        },
+        {
+          "name": "Druidic Ritual Crest",
+          "id": "4079",
+          "item_name": "#DOTA_Item_Druidic_Ritual_Crest",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/shoulders_bark_1.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Birds_Stone",
+      "store_bundle": "Bird's Stone Set",
+      "portrait_image": "econ/sets/v2/furion_birds_stone",
+      "items": [
+        {
+          "name": "Drape of Bird's Stone",
+          "id": "5714",
+          "item_name": "#DOTA_Item_Drape_of_Birds_Stone",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/drape_of_birds_stone/drape_of_birds_stone.vmdl"
+        },
+        {
+          "name": "Bracers of Bird's Stone",
+          "id": "5715",
+          "item_name": "#DOTA_Item_Bracers_of_Birds_Stone",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/bracers_of_birds_stone/bracers_of_birds_stone.vmdl"
+        },
+        {
+          "name": "Helm of Bird's Stone",
+          "id": "5716",
+          "item_name": "#DOTA_Item_Helm_of_Birds_Stone",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/helm_of_birds_stone/helm_of_birds_stone.vmdl"
+        },
+        {
+          "name": "Crest of Bird's Stone",
+          "id": "5718",
+          "item_name": "#DOTA_Item_Crest_of_Birds_Stone",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/crest_of_birds_stone/crest_of_birds_stone.vmdl"
+        },
+        {
+          "name": "Staff of Bird's Stone",
+          "id": "5719",
+          "item_name": "#DOTA_Item_Staff_of_Birds_Stone",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/staff_of_birds_stone/staff_of_birds_stone.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Furion_Forest_Lord",
+      "store_bundle": "The Regal Forest Lord Set",
+      "portrait_image": "econ/sets/v2/furion_forest_lord",
+      "items": [
+        {
+          "name": "Runestaff of Verodicia",
+          "id": "4030",
+          "item_name": "#DOTA_Item_Runestaff_of_Verodicia",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/staff_regal_1.vmdl"
+        },
+        {
+          "name": "Horns of Noblesse",
+          "id": "4028",
+          "item_name": "#DOTA_Item_Horns_of_Noblesse",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/horns_regal_1.vmdl"
+        },
+        {
+          "name": "Luxuriant Chin-Foliage",
+          "id": "4027",
+          "item_name": "#DOTA_Item_Luxuriant_ChinFoliage",
+          "item_slot": "neck",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/beard_regal_1.vmdl"
+        },
+        {
+          "name": "Cape of Verdant Dreaming",
+          "id": "4029",
+          "item_name": "#DOTA_Item_Cape_of_Verdant_Dreaming",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/cape_regal_1.vmdl"
+        },
+        {
+          "name": "Runed Ailettes",
+          "id": "4031",
+          "item_name": "#DOTA_Item_Runed_Ailettes",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/shoulders_regal_1.vmdl"
+        },
+        {
+          "name": "Cuffs of Oak and Yew",
+          "id": "4091",
+          "item_name": "#DOTA_Item_Cuffs_of_Oak_and_Yew",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/bracer_regal_1.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Furion_Heartwood_Vanguard",
+      "store_bundle": "Heartwood Vanguard Set",
+      "portrait_image": "econ/sets/v2/furion_heartwood",
+      "items": [
+        {
+          "name": "Sinorian Sphere Staff",
+          "id": "4065",
+          "item_name": "#DOTA_Item_Sinorian_Sphere_Staff",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/staff_dwarven.vmdl"
+        },
+        {
+          "name": "Diadem of the Goddess Enthroned",
+          "id": "4085",
+          "item_name": "#DOTA_Item_Diadem_of_the_Goddess_Enthroned",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/horn_twocurl.vmdl"
+        },
+        {
+          "name": "Beard of Cycles",
+          "id": "4084",
+          "item_name": "#DOTA_Item_Beard_of_Cycles",
+          "item_slot": "neck",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/beard_wraparound.vmdl"
+        },
+        {
+          "name": "Flared Wooden Crest",
+          "id": "4075",
+          "item_name": "#DOTA_Item_Flared_Wooden_Crest",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/shoulders_wooden_1.vmdl"
+        },
+        {
+          "name": "Guard of the Deep Tribes",
+          "id": "4087",
+          "item_name": "#DOTA_Item_Guard_of_the_Deep_Tribes",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/bracer_celtic.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_NP_Cute_cactus",
+      "store_bundle": "NP Cute cactus",
+      "portrait_image": "econ/sets/v2/furion_np_cute_cactus",
+      "items": [
+        {
+          "name": "NP Cute cactus treant",
+          "id": "14406",
+          "item_name": "#DOTA_NP_Cute_cactus_treant",
+          "item_slot": "ability3",
+          "item_rarity": "common"
+        },
+        {
+          "name": "NP Cute cactus Back",
+          "id": "14412",
+          "item_name": "#DOTA_Item_Vote_Only_NP_Cute_cactus_Back",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/np_cute_cactus_back/np_cute_cactus_back.vmdl"
+        },
+        {
+          "name": "NP Cute cactus Arms",
+          "id": "14413",
+          "item_name": "#DOTA_Item_Vote_Only_NP_Cute_cactus_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/np_cute_cactus_arms/np_cute_cactus_arms.vmdl"
+        },
+        {
+          "name": "NP Cute cactus Head",
+          "id": "14411",
+          "item_name": "#DOTA_Item_Vote_Only_NP_Cute_cactus_Head",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/np_cute_cactus_head/np_cute_cactus_head.vmdl"
+        },
+        {
+          "name": "NP Cute cactus Neck",
+          "id": "14409",
+          "item_name": "#DOTA_Item_Vote_Only_NP_Cute_cactus_Neck",
+          "item_slot": "neck",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/np_cute_cactus_neck/np_cute_cactus_neck.vmdl"
+        },
+        {
+          "name": "NP Cute cactus Shoulder",
+          "id": "14408",
+          "item_name": "#DOTA_Item_Vote_Only_NP_Cute_cactus_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/np_cute_cactus_shoulder/np_cute_cactus_shoulder.vmdl"
+        },
+        {
+          "name": "NP Cute cactus Weapon",
+          "id": "14407",
+          "item_name": "#DOTA_Item_Vote_Only_NP_Cute_cactus_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/np_cute_cactus_weapon/np_cute_cactus_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Furion_Peace_Bringer",
+      "store_bundle": "Garments of the Peace-Bringer Set",
+      "portrait_image": "econ/sets/v2/furion_peace_bringer",
+      "items": [
+        {
+          "name": "Flower Staff of the Peace-Bringer",
+          "id": "4226",
+          "item_name": "#DOTA_Item_Flower_Staff_of_the_PeaceBringer",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/flowerstaff.vmdl"
+        },
+        {
+          "name": "Lei of the Peace-Bringer",
+          "id": "4227",
+          "item_name": "#DOTA_Item_Lei_of_the_PeaceBringer",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/peace_flowers.vmdl"
+        },
+        {
+          "name": "Horns of the Peace-Bringer",
+          "id": "4228",
+          "item_name": "#DOTA_Item_Horns_of_the_PeaceBringer",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/peace_horns.vmdl"
+        },
+        {
+          "name": "Beard of the Peace-Bringer",
+          "id": "4229",
+          "item_name": "#DOTA_Item_Beard_of_the_PeaceBringer",
+          "item_slot": "neck",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/peace_beard.vmdl"
+        },
+        {
+          "name": "Toga of the Peace-Bringer",
+          "id": "4026",
+          "item_name": "#DOTA_Item_Toga_of_the_PeaceBringer",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/peace_toga.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Furion_Scion_Savage",
+      "store_bundle": "Scion of the Savage Set",
+      "portrait_image": "econ/sets/v2/furion_scion_savage",
+      "items": [
+        {
+          "name": "Staff of the Tusk-Bereft",
+          "id": "4062",
+          "item_name": "#DOTA_Item_Staff_of_the_TuskBereft",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/staff_tusks_1.vmdl"
+        },
+        {
+          "name": "Horns of the Forest Lord",
+          "id": "4025",
+          "item_name": "#DOTA_Item_Horns_of_the_Forest_Lord",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/horns_curly_1.vmdl"
+        },
+        {
+          "name": "Doubly Braided Beard",
+          "id": "4078",
+          "item_name": "#DOTA_Item_Doubly_Braided_Beard",
+          "item_slot": "neck",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/beard_doublebraid_1.vmdl"
+        },
+        {
+          "name": "Pauldron of Al-Fusha",
+          "id": "4070",
+          "item_name": "#DOTA_Item_Pauldron_of_AlFusha",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/shoulders_tusks_1.vmdl"
+        },
+        {
+          "name": "Tusked Bracers",
+          "id": "4063",
+          "item_name": "#DOTA_Item_Tusked_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/bracer_tusks_1.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Guardian_of_the_Eternal_Seasons",
+      "store_bundle": "Guardian of the Eternal Seasons",
+      "portrait_image": "econ/sets/v2/guardian_of_the_eternal_seasons",
+      "items": [
+        {
+          "name": "Locks of the Eternal Seasons",
+          "id": "6245",
+          "item_name": "#DOTA_Item_Locks_of_the_Eternal_Seasons",
+          "item_slot": "neck",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/eternalseasons_neck/eternalseasons_neck.vmdl"
+        },
+        {
+          "name": "Shoulders of the Eternal Seasons",
+          "id": "6246",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Eternal_Seasons",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/eternalseasons_shoulders/eternalseasons_shoulders.vmdl"
+        },
+        {
+          "name": "Mane of the Eternal Seasons",
+          "id": "6247",
+          "item_name": "#DOTA_Item_Mane_of_the_Eternal_Seasons",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/eternalseasons_head/eternalseasons_head.vmdl"
+        },
+        {
+          "name": "Birch of the Eternal Seasons",
+          "id": "6248",
+          "item_name": "#DOTA_Item_Birch_of_the_Eternal_Seasons",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/eternalseasons_weapon/eternalseasons_weapon.vmdl"
+        },
+        {
+          "name": "Bonsaiko",
+          "id": "6249",
+          "item_name": "#DOTA_Item_Bonsaiko",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Arms of the Eternal Seasons",
+          "id": "6285",
+          "item_name": "#DOTA_Item_Arms_of_the_Eternal_Seasons",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/eternalseasons_arms/eternalseasons_arms.vmdl"
+        },
+        {
+          "name": "Robes of the Eternal Seasons",
+          "id": "6286",
+          "item_name": "#DOTA_Item_Robes_of_the_Eternal_Seasons",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/eternalseasons_back/eternalseasons_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Woodland_Outcast",
+      "store_bundle": "Woodland Outcast Set",
+      "portrait_image": "econ/sets/v2/natures_outcast",
+      "items": [
+        {
+          "name": "Beard of the Woodland Outcast",
+          "id": "5413",
+          "item_name": "#DOTA_Item_Beard_of_the_Woodland_Outcast",
+          "item_slot": "neck",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/natures_outcast_beard01/natures_outcast_beard01.vmdl"
+        },
+        {
+          "name": "Stature of the Woodland Outcast",
+          "id": "5414",
+          "item_name": "#DOTA_Item_Stature_of_the_Woodland_Outcast",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/natures_outcast_horns01/natures_outcast_horns01.vmdl"
+        },
+        {
+          "name": "Pack of the Woodland Outcast",
+          "id": "5415",
+          "item_name": "#DOTA_Item_Pack_of_the_Woodland_Outcast",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/natures_outcast_backpack01/natures_outcast_backpack01.vmdl"
+        },
+        {
+          "name": "Pride of the Woodland Outcast",
+          "id": "5416",
+          "item_name": "#DOTA_Item_Pride_of_the_Woodland_Outcast",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/natures_outcast_weapon01/natures_outcast_weapon01.vmdl"
+        },
+        {
+          "name": "Petals of the Woodland Outcast",
+          "id": "5417",
+          "item_name": "#DOTA_Item_Petals_of_the_Woodland_Outcast",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/natures_outcast_shoulder01/natures_outcast_shoulder01.vmdl"
+        },
+        {
+          "name": "Oak of the Woodland Outcast",
+          "id": "5418",
+          "item_name": "#DOTA_Item_Oak_of_the_Woodland_Outcast",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/natures_outcast_bracer01/natures_outcast_bracer01.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Primeval_Prophet",
+      "store_bundle": "Primeval Prophet",
+      "portrait_image": "econ/sets/v2/primeval_prophet",
+      "items": [
+        {
+          "name": "Primeval Beard",
+          "id": "6743",
+          "item_name": "#DOTA_Item_Primeval_Beard",
+          "item_slot": "neck",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/primeval_neck/primeval_neck.vmdl"
+        },
+        {
+          "name": "Primeval Bracers",
+          "id": "6746",
+          "item_name": "#DOTA_Item_Primeval_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/primeval_arms/primeval_arms.vmdl"
+        },
+        {
+          "name": "Primeval Cape",
+          "id": "6747",
+          "item_name": "#DOTA_Item_Primeval_Cape",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/primeval_back/primeval_back.vmdl"
+        },
+        {
+          "name": "Primeval Horns",
+          "id": "6748",
+          "item_name": "#DOTA_Item_Primeval_Horns",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/primeval_head/primeval_head.vmdl"
+        },
+        {
+          "name": "Primeval Treant",
+          "id": "6316",
+          "item_name": "#DOTA_Item_Primeval_Treant",
+          "item_slot": "ability3",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Primeval Staff",
+          "id": "6749",
+          "item_name": "#DOTA_Item_Primeval_Staff",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/primeval_weapon/primeval_weapon.vmdl"
+        },
+        {
+          "name": "Primeval Shoulder",
+          "id": "6776",
+          "item_name": "#DOTA_Item_Primeval_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/primeval_shoulder/primeval_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Prolific_Planter",
+      "store_bundle": "Prolific Planter",
+      "portrait_image": "econ/sets/v2/prolific_planter",
+      "items": [
+        {
+          "name": "Prolific Planter Back",
+          "id": "14144",
+          "item_name": "#DOTA_Item_Prolific_Planter_Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/supreme_gardener_back/supreme_gardener_back.vmdl"
+        },
+        {
+          "name": "Prolific Planter Neck",
+          "id": "14114",
+          "item_name": "#DOTA_Item_Prolific_Planter_Neck",
+          "item_slot": "neck",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/supreme_gardener_neck/supreme_gardener_neck.vmdl"
+        },
+        {
+          "name": "Prolific Planter Weapon",
+          "id": "14113",
+          "item_name": "#DOTA_Item_Prolific_Planter_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/supreme_gardener_weapon/supreme_gardener_weapon.vmdl"
+        },
+        {
+          "name": "Prolific Planter Treants",
+          "id": "14112",
+          "item_name": "#DOTA_Item_Prolific_Planter_Treants",
+          "item_slot": "ability3",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Prolific Planter Shoulder",
+          "id": "14111",
+          "item_name": "#DOTA_Item_Prolific_Planter_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/supreme_gardener_shoulder/supreme_gardener_shoulder.vmdl"
+        },
+        {
+          "name": "Prolific Planter Head",
+          "id": "14110",
+          "item_name": "#DOTA_Item_Prolific_Planter_Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/supreme_gardener_head/supreme_gardener_head.vmdl"
+        },
+        {
+          "name": "Prolific Planter Arms",
+          "id": "14083",
+          "item_name": "#DOTA_Item_Prolific_Planter_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/supreme_gardener_arms/supreme_gardener_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Signs_of_the_Allfather",
+      "store_bundle": "Signs of the Allfather",
+      "portrait_image": "econ/sets/v2/signs_of_the_allfather",
+      "items": [
+        {
+          "name": "Signs of the Allfather - Arms",
+          "id": "14281",
+          "item_name": "#DOTA_Item_Signs_of_the_Allfather__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/allfather_of_nature_arms/allfather_of_nature_arms.vmdl"
+        },
+        {
+          "name": "Signs of the Allfather - Back",
+          "id": "14280",
+          "item_name": "#DOTA_Item_Signs_of_the_Allfather__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/allfather_of_nature_back/allfather_of_nature_back.vmdl"
+        },
+        {
+          "name": "Signs of the Allfather - Head",
+          "id": "14279",
+          "item_name": "#DOTA_Item_Signs_of_the_Allfather__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/allfather_of_nature_head/allfather_of_nature_head.vmdl"
+        },
+        {
+          "name": "Signs of the Allfather - Neck",
+          "id": "14278",
+          "item_name": "#DOTA_Item_Signs_of_the_Allfather__Neck",
+          "item_slot": "neck",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/allfather_of_nature_neck/allfather_of_nature_neck.vmdl"
+        },
+        {
+          "name": "Signs of the Allfather - Shoulder",
+          "id": "14277",
+          "item_name": "#DOTA_Item_Signs_of_the_Allfather__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/allfather_of_nature_shoulder/allfather_of_nature_shoulder.vmdl"
+        },
+        {
+          "name": "Signs of the Allfather - Treant",
+          "id": "14276",
+          "item_name": "#DOTA_Item_Signs_of_the_Allfather__Treant",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Signs of the Allfather - Weapon",
+          "id": "14275",
+          "item_name": "#DOTA_Item_Signs_of_the_Allfather__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/allfather_of_nature_weapon/allfather_of_nature_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sovereign_of_the_Woodlands",
+      "store_bundle": "Sovereign of the Woodlands",
+      "portrait_image": "econ/sets/v2/sovereign_of_the_woodlands",
+      "items": [
+        {
+          "name": "Beard of the Sovereign",
+          "id": "5962",
+          "item_name": "#DOTA_Item_Beard_of_the_Sovereign",
+          "item_slot": "neck",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/sovereign_beard/sovereign_beard.vmdl"
+        },
+        {
+          "name": "Cape of the Sovereign",
+          "id": "6112",
+          "item_name": "#DOTA_Item_Cape_of_the_Sovereign",
+          "item_slot": "back",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/sovereign_cape/sovereign_cape.vmdl"
+        },
+        {
+          "name": "Horns of the Sovereign",
+          "id": "6113",
+          "item_name": "#DOTA_Item_Horns_of_the_Sovereign",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/sovereign_horns/sovereign_horns.vmdl"
+        },
+        {
+          "name": "Staff of the Sovereign",
+          "id": "6114",
+          "item_name": "#DOTA_Item_Staff_of_the_Sovereign",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/sovereign_staff/sovereign_staff.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Sovereign",
+          "id": "6135",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Sovereign",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/furion/sovereign_shoulders/sovereign_shoulders.vmdl"
+        },
+        {
+          "name": "Bracers of the Sovereign",
+          "id": "6225",
+          "item_name": "#DOTA_Item_Bracers_of_the_Sovereign",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/furion/sovereign_bracers/sovereign_bracers.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Stagheart_Sovereign",
+      "store_bundle": "Stagheart Sovereign",
+      "portrait_image": "econ/sets/v2/stagheart_sovereign",
+      "items": [
+        {
+          "name": "Stagheart Sovereign - Weapon",
+          "id": "19236",
+          "item_name": "#DOTA_Item_Stagheart_Sovereign__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/wildthorn_set_weapon/wildthorn_set_weapon.vmdl"
+        },
+        {
+          "name": "Stagheart Sovereign - Shoulder",
+          "id": "19235",
+          "item_name": "#DOTA_Item_Stagheart_Sovereign__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/wildthorn_set_shoulder/wildthorn_set_shoulder.vmdl"
+        },
+        {
+          "name": "Stagheart Sovereign - Arms",
+          "id": "19234",
+          "item_name": "#DOTA_Item_Stagheart_Sovereign__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/wildthorn_set_arms/wildthorn_set_arms.vmdl"
+        },
+        {
+          "name": "Stagheart Sovereign - Back",
+          "id": "19233",
+          "item_name": "#DOTA_Item_Stagheart_Sovereign__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/wildthorn_set_back/wildthorn_set_back.vmdl"
+        },
+        {
+          "name": "Stagheart Sovereign - Neck",
+          "id": "19232",
+          "item_name": "#DOTA_Item_Stagheart_Sovereign__Neck",
+          "item_slot": "neck",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/wildthorn_set_neck/wildthorn_set_neck.vmdl"
+        },
+        {
+          "name": "Stagheart Sovereign - Head",
+          "id": "19231",
+          "item_name": "#DOTA_Item_Stagheart_Sovereign__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/wildthorn_set_head/wildthorn_set_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Dread_Prophet",
+      "store_bundle": "The Dread Prophet",
+      "portrait_image": "econ/sets/v2/the_dread_prophet",
+      "items": [
+        {
+          "name": "Staff of the Dread Prophet",
+          "id": "8971",
+          "item_name": "#DOTA_Item_Staff_of_the_Dread_Prophet",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/abyssal_prophet_weapon/abyssal_prophet_weapon.vmdl"
+        },
+        {
+          "name": "Beard of the Dread Prophet",
+          "id": "8972",
+          "item_name": "#DOTA_Item_Beard_of_the_Dread_Prophet",
+          "item_slot": "neck",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/abyssal_prophet_neck/abyssal_prophet_neck.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Dread Prophet",
+          "id": "8973",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Dread_Prophet",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/abyssal_prophet_shoulder/abyssal_prophet_shoulder.vmdl"
+        },
+        {
+          "name": "Squid of the Dread Prophet",
+          "id": "8981",
+          "item_name": "#DOTA_Item_Squid_of_the_Dread_Prophet",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/abyssal_prophet_head/abyssal_prophet_head.vmdl"
+        },
+        {
+          "name": "Cape of the Dread Prophet",
+          "id": "9408",
+          "item_name": "#DOTA_Item_Cape_of_the_Dread_Prophet",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/abyssal_prophet_back/abyssal_prophet_back.vmdl"
+        },
+        {
+          "name": "Bracers of the Dread Prophet",
+          "id": "9409",
+          "item_name": "#DOTA_Item_Bracers_of_the_Dread_Prophet",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/abyssal_prophet_arms/abyssal_prophet_arms.vmdl"
+        },
+        {
+          "name": "Coralents of the Dread Prophet",
+          "id": "8970",
+          "item_name": "#DOTA_Item_Coralents_of_the_Dread_Prophet",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Truebark_Adherent",
+      "store_bundle": "Truebark Adherent",
+      "portrait_image": "econ/sets/v2/truebark_adherent",
+      "items": [
+        {
+          "name": "Treant of the Truebark Adherent",
+          "id": "9018",
+          "item_name": "#DOTA_Item_Treant_of_the_Truebark_Adherent",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Staff of the Truebark Adherent",
+          "id": "9017",
+          "item_name": "#DOTA_Item_Staff_of_the_Truebark_Adherent",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/the_ancient_guardian_weapon/the_ancient_guardian_weapon.vmdl"
+        },
+        {
+          "name": "Mantle of the Truebark Adherent",
+          "id": "9003",
+          "item_name": "#DOTA_Item_Mantle_of_the_Truebark_Adherent",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/the_ancient_guardian_shoulder/the_ancient_guardian_shoulder.vmdl"
+        },
+        {
+          "name": "Crown of the Truebark Adherent",
+          "id": "9002",
+          "item_name": "#DOTA_Item_Crown_of_the_Truebark_Adherent",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/the_ancient_guardian_head/the_ancient_guardian_head.vmdl"
+        },
+        {
+          "name": "Beard of the Truebark Adherent",
+          "id": "9001",
+          "item_name": "#DOTA_Item_Beard_of_the_Truebark_Adherent",
+          "item_slot": "neck",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/the_ancient_guardian_neck/the_ancient_guardian_neck.vmdl"
+        },
+        {
+          "name": "Cape of the Truebark Adherent",
+          "id": "9000",
+          "item_name": "#DOTA_Item_Cape_of_the_Truebark_Adherent",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/the_ancient_guardian_back/the_ancient_guardian_back.vmdl"
+        },
+        {
+          "name": "Bracers of the Truebark Adherent",
+          "id": "8999",
+          "item_name": "#DOTA_Item_Bracers_of_the_Truebark_Adherent",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/the_ancient_guardian_arms/the_ancient_guardian_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Vanguard_of_the_Emerald_Insurgence",
+      "store_bundle": "Vanguard of the Emerald Insurgence",
+      "portrait_image": "econ/sets/v2/vanguard_of_the_emerald_insurgence",
+      "items": [
+        {
+          "name": "Beard of the Emerald Insurgence",
+          "id": "12494",
+          "item_name": "#DOTA_Item_Beard_of_the_Emerald_Insurgence",
+          "item_slot": "neck",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/defender_of_the_jungle_neck/defender_of_the_jungle_neck.vmdl"
+        },
+        {
+          "name": "Style of the Emerald Insurgence",
+          "id": "12493",
+          "item_name": "#DOTA_Item_Style_of_the_Emerald_Insurgence",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/defender_of_the_jungle_head/defender_of_the_jungle_head.vmdl"
+        },
+        {
+          "name": "Shield of the Emerald Insurgence",
+          "id": "12492",
+          "item_name": "#DOTA_Item_Shield_of_the_Emerald_Insurgence",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/defender_of_the_jungle_arms/defender_of_the_jungle_arms.vmdl"
+        },
+        {
+          "name": "Lakad Coconut of the Emerald Insurgence",
+          "id": "12491",
+          "item_name": "#DOTA_Item_Lakad_Coconut_of_the_Emerald_Insurgence",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Armor of the Emerald Insurgence",
+          "id": "12490",
+          "item_name": "#DOTA_Item_Armor_of_the_Emerald_Insurgence",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/defender_of_the_jungle_shoulder/defender_of_the_jungle_shoulder.vmdl"
+        },
+        {
+          "name": "Belt of the Emerald Insurgence",
+          "id": "12489",
+          "item_name": "#DOTA_Item_Belt_of_the_Emerald_Insurgence",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/defender_of_the_jungle_back/defender_of_the_jungle_back.vmdl"
+        },
+        {
+          "name": "Staff of the Emerald Insurgence",
+          "id": "12488",
+          "item_name": "#DOTA_Item_Staff_of_the_Emerald_Insurgence",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/furion/defender_of_the_jungle_weapon/defender_of_the_jungle_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Verdant_Swarm",
+      "store_bundle": "Verdant Swarm",
+      "portrait_image": "econ/sets/v2/verdant_swarm",
+      "items": [
+        {
+          "name": "Verdant Swarm - Neck",
+          "id": "25792",
+          "item_name": "#DOTA_Item_Verdant_Swarm__Neck",
+          "item_slot": "neck",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/np_verdant_swarm_neck/np_verdant_swarm_neck.vmdl"
+        },
+        {
+          "name": "Verdant Swarm - Arms",
+          "id": "25791",
+          "item_name": "#DOTA_Item_Verdant_Swarm__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/np_verdant_swarm_arms/np_verdant_swarm_arms.vmdl"
+        },
+        {
+          "name": "Verdant Swarm - Shoulder",
+          "id": "25790",
+          "item_name": "#DOTA_Item_Verdant_Swarm__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/np_verdant_swarm_shoulder/np_verdant_swarm_shoulder.vmdl"
+        },
+        {
+          "name": "Verdant Swarm - Back",
+          "id": "25789",
+          "item_name": "#DOTA_Item_Verdant_Swarm__Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/np_verdant_swarm_back/np_verdant_swarm_back.vmdl"
+        },
+        {
+          "name": "Verdant Swarm - Weapon",
+          "id": "25788",
+          "item_name": "#DOTA_Item_Verdant_Swarm__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/np_verdant_swarm_weapon/np_verdant_swarm_weapon.vmdl"
+        },
+        {
+          "name": "Verdant Swarm - Head",
+          "id": "25784",
+          "item_name": "#DOTA_Item_Verdant_Swarm__Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/furion/np_verdant_swarm_head/np_verdant_swarm_head.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "29",
+      "name": "Nature's Prophet Staff",
+      "item_name": "#DOTA_Item_Natures_Prophet_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/furion/furion_staff.vmdl"
+    },
+    {
+      "id": "30",
+      "name": "Nature's Prophet Horns",
+      "item_name": "#DOTA_Item_Natures_Prophet_Horns",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/furion/furion_horns.vmdl"
+    },
+    {
+      "id": "31",
+      "name": "Nature's Prophet Beard",
+      "item_name": "#DOTA_Item_Natures_Prophet_Beard",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/furion/furion_beard.vmdl"
+    },
+    {
+      "id": "32",
+      "name": "Nature's Prophet Cape",
+      "item_name": "#DOTA_Item_Natures_Prophet_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/furion/furion_cape.vmdl"
+    },
+    {
+      "id": "33",
+      "name": "Nature's Prophet Necklace",
+      "item_name": "#DOTA_Item_Natures_Prophet_Necklace",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/furion/furion_necklace.vmdl"
+    },
+    {
+      "id": "49",
+      "name": "Nature's Prophet Bracers",
+      "item_name": "#DOTA_Item_Natures_Prophet_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/furion/furion_bracer.vmdl"
+    },
+    {
+      "id": "4024",
+      "name": "Coat of the Elder Grove",
+      "item_name": "#DOTA_Item_Coat_of_the_Elder_Grove",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/cape_leafy.vmdl"
+    },
+    {
+      "id": "4025",
+      "name": "Horns of the Forest Lord",
+      "item_name": "#DOTA_Item_Horns_of_the_Forest_Lord",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/horns_curly_1.vmdl"
+    },
+    {
+      "id": "4026",
+      "name": "Toga of the Peace-Bringer",
+      "item_name": "#DOTA_Item_Toga_of_the_PeaceBringer",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/peace_toga.vmdl"
+    },
+    {
+      "id": "4027",
+      "name": "Luxuriant Chin-Foliage",
+      "item_name": "#DOTA_Item_Luxuriant_ChinFoliage",
+      "item_slot": "neck",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/beard_regal_1.vmdl"
+    },
+    {
+      "id": "4028",
+      "name": "Horns of Noblesse",
+      "item_name": "#DOTA_Item_Horns_of_Noblesse",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/horns_regal_1.vmdl"
+    },
+    {
+      "id": "4029",
+      "name": "Cape of Verdant Dreaming",
+      "item_name": "#DOTA_Item_Cape_of_Verdant_Dreaming",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/cape_regal_1.vmdl"
+    },
+    {
+      "id": "4030",
+      "name": "Runestaff of Verodicia",
+      "item_name": "#DOTA_Item_Runestaff_of_Verodicia",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/staff_regal_1.vmdl"
+    },
+    {
+      "id": "4031",
+      "name": "Runed Ailettes",
+      "item_name": "#DOTA_Item_Runed_Ailettes",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/shoulders_regal_1.vmdl"
+    },
+    {
+      "id": "4058",
+      "name": "Taunt: Shredding the Lute Invisible",
+      "item_name": "#DOTA_Item_Taunt_Shredding_the_Lute_Invisible",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "taunt"
+    },
+    {
+      "id": "4062",
+      "name": "Staff of the Tusk-Bereft",
+      "item_name": "#DOTA_Item_Staff_of_the_TuskBereft",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/staff_tusks_1.vmdl"
+    },
+    {
+      "id": "4063",
+      "name": "Tusked Bracers",
+      "item_name": "#DOTA_Item_Tusked_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/bracer_tusks_1.vmdl"
+    },
+    {
+      "id": "4064",
+      "name": "Grand Crown of the Gigas",
+      "item_name": "#DOTA_Item_Grand_Crown_of_the_Gigas",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/horns_moose_1.vmdl"
+    },
+    {
+      "id": "4065",
+      "name": "Sinorian Sphere Staff",
+      "item_name": "#DOTA_Item_Sinorian_Sphere_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/staff_dwarven.vmdl"
+    },
+    {
+      "id": "4067",
+      "name": "Taunt: Victory Jig",
+      "item_name": "#DOTA_Item_Taunt_Victory_Jig",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "4069",
+      "name": "Twin Bull Adornment",
+      "item_name": "#DOTA_Item_Twin_Bull_Adornment",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/horns_bull_1.vmdl"
+    },
+    {
+      "id": "4070",
+      "name": "Pauldron of Al-Fusha",
+      "item_name": "#DOTA_Item_Pauldron_of_AlFusha",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/shoulders_tusks_1.vmdl"
+    },
+    {
+      "id": "4071",
+      "name": "Castor's Spaulder",
+      "item_name": "#DOTA_Item_Castors_Spaulder",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/shoulders_beaver_1.vmdl"
+    },
+    {
+      "id": "4074",
+      "name": "Curled Root-Staff",
+      "item_name": "#DOTA_Item_Curled_RootStaff",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/staff_leafy_1.vmdl"
+    },
+    {
+      "id": "4075",
+      "name": "Flared Wooden Crest",
+      "item_name": "#DOTA_Item_Flared_Wooden_Crest",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/shoulders_wooden_1.vmdl"
+    },
+    {
+      "id": "4078",
+      "name": "Doubly Braided Beard",
+      "item_name": "#DOTA_Item_Doubly_Braided_Beard",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/beard_doublebraid_1.vmdl"
+    },
+    {
+      "id": "4079",
+      "name": "Druidic Ritual Crest",
+      "item_name": "#DOTA_Item_Druidic_Ritual_Crest",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/shoulders_bark_1.vmdl"
+    },
+    {
+      "id": "4084",
+      "name": "Beard of Cycles",
+      "item_name": "#DOTA_Item_Beard_of_Cycles",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/beard_wraparound.vmdl"
+    },
+    {
+      "id": "4085",
+      "name": "Diadem of the Goddess Enthroned",
+      "item_name": "#DOTA_Item_Diadem_of_the_Goddess_Enthroned",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/horn_twocurl.vmdl"
+    },
+    {
+      "id": "4086",
+      "name": "Drape of Foliate Magery",
+      "item_name": "#DOTA_Item_Drape_of_Foliate_Magery",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/cape_over_shoulder.vmdl"
+    },
+    {
+      "id": "4087",
+      "name": "Guard of the Deep Tribes",
+      "item_name": "#DOTA_Item_Guard_of_the_Deep_Tribes",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/bracer_celtic.vmdl"
+    },
+    {
+      "id": "4088",
+      "name": "Pine-Sage Sigil Stones",
+      "item_name": "#DOTA_Item_PineSage_Sigil_Stones",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/bracer_stones_1.vmdl"
+    },
+    {
+      "id": "4089",
+      "name": "Modestly Braided Beard",
+      "item_name": "#DOTA_Item_Modestly_Braided_Beard",
+      "item_slot": "neck",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/beard_singlebraid_1.vmdl"
+    },
+    {
+      "id": "4091",
+      "name": "Cuffs of Oak and Yew",
+      "item_name": "#DOTA_Item_Cuffs_of_Oak_and_Yew",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/bracer_regal_1.vmdl"
+    },
+    {
+      "id": "4104",
+      "name": "Call of the Dendrochron",
+      "item_name": "#DOTA_Item_Call_of_the_Dendrochron",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4108",
+      "name": "Staff of the Eagle",
+      "item_name": "#DOTA_Item_Staff_of_the_Eagle",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/staff_eagle_1.vmdl"
+    },
+    {
+      "id": "4159",
+      "name": "Spectrolite Staff",
+      "item_name": "#DOTA_Item_Spectrolite_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/staff_posoh.vmdl"
+    },
+    {
+      "id": "4226",
+      "name": "Flower Staff of the Peace-Bringer",
+      "item_name": "#DOTA_Item_Flower_Staff_of_the_PeaceBringer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/flowerstaff.vmdl"
+    },
+    {
+      "id": "4227",
+      "name": "Lei of the Peace-Bringer",
+      "item_name": "#DOTA_Item_Lei_of_the_PeaceBringer",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/peace_flowers.vmdl"
+    },
+    {
+      "id": "4228",
+      "name": "Horns of the Peace-Bringer",
+      "item_name": "#DOTA_Item_Horns_of_the_PeaceBringer",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/peace_horns.vmdl"
+    },
+    {
+      "id": "4229",
+      "name": "Beard of the Peace-Bringer",
+      "item_name": "#DOTA_Item_Beard_of_the_PeaceBringer",
+      "item_slot": "neck",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/peace_beard.vmdl"
+    },
+    {
+      "id": "4298",
+      "name": "Metal Horns",
+      "item_name": "#DOTA_Item_Metal_Horns",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/furion_metal_horn.vmdl"
+    },
+    {
+      "id": "4566",
+      "name": "Scythe of Vyse",
+      "item_name": "#DOTA_Item_Scythe_of_Vyse",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/scythe_of_vyse.vmdl"
+    },
+    {
+      "id": "5112",
+      "name": "Flowering Treant",
+      "item_name": "#DOTA_Item_Flowering_Treant",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5158",
+      "name": "Nature's Grip",
+      "item_name": "#DOTA_Item_Natures_Grip",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/natures_grasp/natures_grasp.vmdl"
+    },
+    {
+      "id": "5389",
+      "name": "Enchanted Manglewood Staff",
+      "item_name": "#DOTA_Item_Enchanted_Manglewood_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/enchanted_manglewood_staff/enchanted_manglewood_staff.vmdl"
+    },
+    {
+      "id": "5413",
+      "name": "Beard of the Woodland Outcast",
+      "item_name": "#DOTA_Item_Beard_of_the_Woodland_Outcast",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/natures_outcast_beard01/natures_outcast_beard01.vmdl"
+    },
+    {
+      "id": "5414",
+      "name": "Stature of the Woodland Outcast",
+      "item_name": "#DOTA_Item_Stature_of_the_Woodland_Outcast",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/natures_outcast_horns01/natures_outcast_horns01.vmdl"
+    },
+    {
+      "id": "5415",
+      "name": "Pack of the Woodland Outcast",
+      "item_name": "#DOTA_Item_Pack_of_the_Woodland_Outcast",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/natures_outcast_backpack01/natures_outcast_backpack01.vmdl"
+    },
+    {
+      "id": "5416",
+      "name": "Pride of the Woodland Outcast",
+      "item_name": "#DOTA_Item_Pride_of_the_Woodland_Outcast",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/natures_outcast_weapon01/natures_outcast_weapon01.vmdl"
+    },
+    {
+      "id": "5417",
+      "name": "Petals of the Woodland Outcast",
+      "item_name": "#DOTA_Item_Petals_of_the_Woodland_Outcast",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/natures_outcast_shoulder01/natures_outcast_shoulder01.vmdl"
+    },
+    {
+      "id": "5418",
+      "name": "Oak of the Woodland Outcast",
+      "item_name": "#DOTA_Item_Oak_of_the_Woodland_Outcast",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/natures_outcast_bracer01/natures_outcast_bracer01.vmdl"
+    },
+    {
+      "id": "5562",
+      "name": "Savage Orchid",
+      "item_name": "#DOTA_Item_Savage_Orchid",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/the_savage_orchid/the_savage_orchid.vmdl"
+    },
+    {
+      "id": "5604",
+      "name": "Hallowed Horde",
+      "item_name": "#DOTA_Item_Hallowed_Horde",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5714",
+      "name": "Drape of Bird's Stone",
+      "item_name": "#DOTA_Item_Drape_of_Birds_Stone",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/drape_of_birds_stone/drape_of_birds_stone.vmdl"
+    },
+    {
+      "id": "5715",
+      "name": "Bracers of Bird's Stone",
+      "item_name": "#DOTA_Item_Bracers_of_Birds_Stone",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/bracers_of_birds_stone/bracers_of_birds_stone.vmdl"
+    },
+    {
+      "id": "5716",
+      "name": "Helm of Bird's Stone",
+      "item_name": "#DOTA_Item_Helm_of_Birds_Stone",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/helm_of_birds_stone/helm_of_birds_stone.vmdl"
+    },
+    {
+      "id": "5718",
+      "name": "Crest of Bird's Stone",
+      "item_name": "#DOTA_Item_Crest_of_Birds_Stone",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/crest_of_birds_stone/crest_of_birds_stone.vmdl"
+    },
+    {
+      "id": "5719",
+      "name": "Staff of Bird's Stone",
+      "item_name": "#DOTA_Item_Staff_of_Birds_Stone",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/staff_of_birds_stone/staff_of_birds_stone.vmdl"
+    },
+    {
+      "id": "5797",
+      "name": "Cap of the Fungal Lord",
+      "item_name": "#DOTA_Item_Cap_of_the_Fungal_Lord",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/fungal_lord_hat/fungal_lord_hat.vmdl"
+    },
+    {
+      "id": "5798",
+      "name": "Great Moss Cape of the Fungal Lord",
+      "item_name": "#DOTA_Item_Great_Moss_Cape_of_the_Fungal_Lord",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/fungal_lord_cape/fungal_lord_cape.vmdl"
+    },
+    {
+      "id": "5799",
+      "name": "Ironwood Arms of the Fungal Lord",
+      "item_name": "#DOTA_Item_Ironwood_Arms_of_the_Fungal_Lord",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/fungal_lord_arms/fungal_lord_arms.vmdl"
+    },
+    {
+      "id": "5800",
+      "name": "Shoulders of the Fungal Lord",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Fungal_Lord",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/fungal_lord_shoulders/fungal_lord_shoulders.vmdl"
+    },
+    {
+      "id": "5802",
+      "name": "Staff of the Fungal Lord",
+      "item_name": "#DOTA_Item_Staff_of_the_Fungal_Lord",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/fungal_lord_staff/fungal_lord_staff.vmdl"
+    },
+    {
+      "id": "5803",
+      "name": "Wild Moss Beard of the Fungal Lord",
+      "item_name": "#DOTA_Item_Wild_Moss_Beard_of_the_Fungal_Lord",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/fungal_lord_beard/fungal_lord_beard.vmdl"
+    },
+    {
+      "id": "5806",
+      "name": "Shroom Thing",
+      "item_name": "#DOTA_Item_Shroom_Thing",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5820",
+      "name": "Scythe of Ice",
+      "item_name": "#DOTA_Item_Scythe_of_Ice",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/scythe_of_ice/scythe_of_ice.vmdl"
+    },
+    {
+      "id": "5834",
+      "name": "Evergreen Stalker",
+      "item_name": "#DOTA_Item_Evergreen_Stalker",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5962",
+      "name": "Beard of the Sovereign",
+      "item_name": "#DOTA_Item_Beard_of_the_Sovereign",
+      "item_slot": "neck",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/sovereign_beard/sovereign_beard.vmdl"
+    },
+    {
+      "id": "6011",
+      "name": "Living Nelum",
+      "item_name": "#DOTA_Item_Living_Nelum",
+      "item_slot": "ability3",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6012",
+      "name": "Staff of the Enduring Colt",
+      "item_name": "#DOTA_Item_Staff_of_the_Enduring_Colt",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/weapon_horse_enduring/weapon_horse_enduring.vmdl"
+    },
+    {
+      "id": "6112",
+      "name": "Cape of the Sovereign",
+      "item_name": "#DOTA_Item_Cape_of_the_Sovereign",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/sovereign_cape/sovereign_cape.vmdl"
+    },
+    {
+      "id": "6113",
+      "name": "Horns of the Sovereign",
+      "item_name": "#DOTA_Item_Horns_of_the_Sovereign",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/sovereign_horns/sovereign_horns.vmdl"
+    },
+    {
+      "id": "6114",
+      "name": "Staff of the Sovereign",
+      "item_name": "#DOTA_Item_Staff_of_the_Sovereign",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/sovereign_staff/sovereign_staff.vmdl"
+    },
+    {
+      "id": "6135",
+      "name": "Pauldrons of the Sovereign",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Sovereign",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/sovereign_shoulders/sovereign_shoulders.vmdl"
+    },
+    {
+      "id": "6225",
+      "name": "Bracers of the Sovereign",
+      "item_name": "#DOTA_Item_Bracers_of_the_Sovereign",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/sovereign_bracers/sovereign_bracers.vmdl"
+    },
+    {
+      "id": "6245",
+      "name": "Locks of the Eternal Seasons",
+      "item_name": "#DOTA_Item_Locks_of_the_Eternal_Seasons",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/eternalseasons_neck/eternalseasons_neck.vmdl"
+    },
+    {
+      "id": "6246",
+      "name": "Shoulders of the Eternal Seasons",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Eternal_Seasons",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/eternalseasons_shoulders/eternalseasons_shoulders.vmdl"
+    },
+    {
+      "id": "6247",
+      "name": "Mane of the Eternal Seasons",
+      "item_name": "#DOTA_Item_Mane_of_the_Eternal_Seasons",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/eternalseasons_head/eternalseasons_head.vmdl"
+    },
+    {
+      "id": "6248",
+      "name": "Birch of the Eternal Seasons",
+      "item_name": "#DOTA_Item_Birch_of_the_Eternal_Seasons",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/eternalseasons_weapon/eternalseasons_weapon.vmdl"
+    },
+    {
+      "id": "6249",
+      "name": "Bonsaiko",
+      "item_name": "#DOTA_Item_Bonsaiko",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6285",
+      "name": "Arms of the Eternal Seasons",
+      "item_name": "#DOTA_Item_Arms_of_the_Eternal_Seasons",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/eternalseasons_arms/eternalseasons_arms.vmdl"
+    },
+    {
+      "id": "6286",
+      "name": "Robes of the Eternal Seasons",
+      "item_name": "#DOTA_Item_Robes_of_the_Eternal_Seasons",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/eternalseasons_back/eternalseasons_back.vmdl"
+    },
+    {
+      "id": "6316",
+      "name": "Primeval Treant",
+      "item_name": "#DOTA_Item_Primeval_Treant",
+      "item_slot": "ability3",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6570",
+      "name": "Shroomling",
+      "item_name": "#DOTA_Item_Shroomling",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6708",
+      "name": "Staff of the Lunar Tree",
+      "item_name": "#DOTA_Item_Staff_of_the_Lunar_Tree",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/lunartree_weapon/lunartree_weapon.vmdl"
+    },
+    {
+      "id": "6743",
+      "name": "Primeval Beard",
+      "item_name": "#DOTA_Item_Primeval_Beard",
+      "item_slot": "neck",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/primeval_neck/primeval_neck.vmdl"
+    },
+    {
+      "id": "6746",
+      "name": "Primeval Bracers",
+      "item_name": "#DOTA_Item_Primeval_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/primeval_arms/primeval_arms.vmdl"
+    },
+    {
+      "id": "6747",
+      "name": "Primeval Cape",
+      "item_name": "#DOTA_Item_Primeval_Cape",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/primeval_back/primeval_back.vmdl"
+    },
+    {
+      "id": "6748",
+      "name": "Primeval Horns",
+      "item_name": "#DOTA_Item_Primeval_Horns",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/primeval_head/primeval_head.vmdl"
+    },
+    {
+      "id": "6749",
+      "name": "Primeval Staff",
+      "item_name": "#DOTA_Item_Primeval_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/primeval_weapon/primeval_weapon.vmdl"
+    },
+    {
+      "id": "6776",
+      "name": "Primeval Shoulder",
+      "item_name": "#DOTA_Item_Primeval_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/primeval_shoulder/primeval_shoulder.vmdl"
+    },
+    {
+      "id": "6848",
+      "name": "Staff of the Father",
+      "item_name": "#DOTA_Item_Staff_of_the_Father",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/father_weapon/father_weapon.vmdl"
+    },
+    {
+      "id": "6849",
+      "name": "Verdant Shawl of the Father",
+      "item_name": "#DOTA_Item_Verdant_Shawl_of_the_Father",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/father_back/father_back.vmdl"
+    },
+    {
+      "id": "6850",
+      "name": "Mighty Horns of the Father",
+      "item_name": "#DOTA_Item_Mighty_Horns_of_the_Father",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/father_head/father_head.vmdl"
+    },
+    {
+      "id": "6851",
+      "name": "Braid of the Father",
+      "item_name": "#DOTA_Item_Braid_of_the_Father",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/father_shoulder/father_shoulder.vmdl"
+    },
+    {
+      "id": "6852",
+      "name": "Wrist Guards of the Father",
+      "item_name": "#DOTA_Item_Wrist_Guards_of_the_Father",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/father_arms/father_arms.vmdl"
+    },
+    {
+      "id": "6853",
+      "name": "Beard of the Father",
+      "item_name": "#DOTA_Item_Beard_of_the_Father",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/father_neck/father_neck.vmdl"
+    },
+    {
+      "id": "6854",
+      "name": "Children of Verodicia",
+      "item_name": "#DOTA_Item_Children_of_Verodicia",
+      "item_slot": "ability3",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7213",
+      "name": "Fluttering Staff",
+      "item_name": "#DOTA_Item_Fluttering_Staff",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/fluttering_staff/fluttering_staff.vmdl"
+    },
+    {
+      "id": "7230",
+      "name": "Ravenous Woodfang",
+      "item_name": "#DOTA_Item_Ravenous_Woodfang",
+      "item_slot": "ability3",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7278",
+      "name": "Sufferwood Sapling",
+      "item_name": "#DOTA_Item_Sufferwood_Sapling",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/dark_staff/dark_staff.vmdl"
+    },
+    {
+      "id": "8057",
+      "name": "Taunt: Make It Rain",
+      "item_name": "#DOTA_Item_Taunt_Make_It_Rain",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "taunt"
+    },
+    {
+      "id": "8364",
+      "name": "Nature's Prophet Treant",
+      "item_name": "#DOTA_Item_Natures_Prophet_Treant",
+      "item_slot": "ability3",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "8970",
+      "name": "Coralents of the Dread Prophet",
+      "item_name": "#DOTA_Item_Coralents_of_the_Dread_Prophet",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8971",
+      "name": "Staff of the Dread Prophet",
+      "item_name": "#DOTA_Item_Staff_of_the_Dread_Prophet",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/abyssal_prophet_weapon/abyssal_prophet_weapon.vmdl"
+    },
+    {
+      "id": "8972",
+      "name": "Beard of the Dread Prophet",
+      "item_name": "#DOTA_Item_Beard_of_the_Dread_Prophet",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/abyssal_prophet_neck/abyssal_prophet_neck.vmdl"
+    },
+    {
+      "id": "8973",
+      "name": "Pauldrons of the Dread Prophet",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Dread_Prophet",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/abyssal_prophet_shoulder/abyssal_prophet_shoulder.vmdl"
+    },
+    {
+      "id": "8981",
+      "name": "Squid of the Dread Prophet",
+      "item_name": "#DOTA_Item_Squid_of_the_Dread_Prophet",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/abyssal_prophet_head/abyssal_prophet_head.vmdl"
+    },
+    {
+      "id": "8999",
+      "name": "Bracers of the Truebark Adherent",
+      "item_name": "#DOTA_Item_Bracers_of_the_Truebark_Adherent",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/the_ancient_guardian_arms/the_ancient_guardian_arms.vmdl"
+    },
+    {
+      "id": "9000",
+      "name": "Cape of the Truebark Adherent",
+      "item_name": "#DOTA_Item_Cape_of_the_Truebark_Adherent",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/the_ancient_guardian_back/the_ancient_guardian_back.vmdl"
+    },
+    {
+      "id": "9001",
+      "name": "Beard of the Truebark Adherent",
+      "item_name": "#DOTA_Item_Beard_of_the_Truebark_Adherent",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/the_ancient_guardian_neck/the_ancient_guardian_neck.vmdl"
+    },
+    {
+      "id": "9002",
+      "name": "Crown of the Truebark Adherent",
+      "item_name": "#DOTA_Item_Crown_of_the_Truebark_Adherent",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/the_ancient_guardian_head/the_ancient_guardian_head.vmdl"
+    },
+    {
+      "id": "9003",
+      "name": "Mantle of the Truebark Adherent",
+      "item_name": "#DOTA_Item_Mantle_of_the_Truebark_Adherent",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/the_ancient_guardian_shoulder/the_ancient_guardian_shoulder.vmdl"
+    },
+    {
+      "id": "9017",
+      "name": "Staff of the Truebark Adherent",
+      "item_name": "#DOTA_Item_Staff_of_the_Truebark_Adherent",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/the_ancient_guardian_weapon/the_ancient_guardian_weapon.vmdl"
+    },
+    {
+      "id": "9018",
+      "name": "Treant of the Truebark Adherent",
+      "item_name": "#DOTA_Item_Treant_of_the_Truebark_Adherent",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9408",
+      "name": "Cape of the Dread Prophet",
+      "item_name": "#DOTA_Item_Cape_of_the_Dread_Prophet",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/abyssal_prophet_back/abyssal_prophet_back.vmdl"
+    },
+    {
+      "id": "9409",
+      "name": "Bracers of the Dread Prophet",
+      "item_name": "#DOTA_Item_Bracers_of_the_Dread_Prophet",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/abyssal_prophet_arms/abyssal_prophet_arms.vmdl"
+    },
+    {
+      "id": "10021",
+      "name": "Expired Treasure of the Deep Druids",
+      "item_name": "#DOTA_Item_Expired_Treasure_of_the_Deep_Druids",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "retired_treasure_chest"
+    },
+    {
+      "id": "12488",
+      "name": "Staff of the Emerald Insurgence",
+      "item_name": "#DOTA_Item_Staff_of_the_Emerald_Insurgence",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/defender_of_the_jungle_weapon/defender_of_the_jungle_weapon.vmdl"
+    },
+    {
+      "id": "12489",
+      "name": "Belt of the Emerald Insurgence",
+      "item_name": "#DOTA_Item_Belt_of_the_Emerald_Insurgence",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/defender_of_the_jungle_back/defender_of_the_jungle_back.vmdl"
+    },
+    {
+      "id": "12490",
+      "name": "Armor of the Emerald Insurgence",
+      "item_name": "#DOTA_Item_Armor_of_the_Emerald_Insurgence",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/defender_of_the_jungle_shoulder/defender_of_the_jungle_shoulder.vmdl"
+    },
+    {
+      "id": "12491",
+      "name": "Lakad Coconut of the Emerald Insurgence",
+      "item_name": "#DOTA_Item_Lakad_Coconut_of_the_Emerald_Insurgence",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12492",
+      "name": "Shield of the Emerald Insurgence",
+      "item_name": "#DOTA_Item_Shield_of_the_Emerald_Insurgence",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/defender_of_the_jungle_arms/defender_of_the_jungle_arms.vmdl"
+    },
+    {
+      "id": "12493",
+      "name": "Style of the Emerald Insurgence",
+      "item_name": "#DOTA_Item_Style_of_the_Emerald_Insurgence",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/defender_of_the_jungle_head/defender_of_the_jungle_head.vmdl"
+    },
+    {
+      "id": "12494",
+      "name": "Beard of the Emerald Insurgence",
+      "item_name": "#DOTA_Item_Beard_of_the_Emerald_Insurgence",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/defender_of_the_jungle_neck/defender_of_the_jungle_neck.vmdl"
+    },
+    {
+      "id": "13534",
+      "name": "Monarch of the Sapphire Glen",
+      "item_name": "#DOTA_Item_Monarch_of_the_Sapphire_Glen",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_ti9_immortal_back/np_ti9_immortal_back.vmdl"
+    },
+    {
+      "id": "14083",
+      "name": "Prolific Planter Arms",
+      "item_name": "#DOTA_Item_Prolific_Planter_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/supreme_gardener_arms/supreme_gardener_arms.vmdl"
+    },
+    {
+      "id": "14110",
+      "name": "Prolific Planter Head",
+      "item_name": "#DOTA_Item_Prolific_Planter_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/supreme_gardener_head/supreme_gardener_head.vmdl"
+    },
+    {
+      "id": "14111",
+      "name": "Prolific Planter Shoulder",
+      "item_name": "#DOTA_Item_Prolific_Planter_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/supreme_gardener_shoulder/supreme_gardener_shoulder.vmdl"
+    },
+    {
+      "id": "14112",
+      "name": "Prolific Planter Treants",
+      "item_name": "#DOTA_Item_Prolific_Planter_Treants",
+      "item_slot": "ability3",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14113",
+      "name": "Prolific Planter Weapon",
+      "item_name": "#DOTA_Item_Prolific_Planter_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/supreme_gardener_weapon/supreme_gardener_weapon.vmdl"
+    },
+    {
+      "id": "14114",
+      "name": "Prolific Planter Neck",
+      "item_name": "#DOTA_Item_Prolific_Planter_Neck",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/supreme_gardener_neck/supreme_gardener_neck.vmdl"
+    },
+    {
+      "id": "14144",
+      "name": "Prolific Planter Back",
+      "item_name": "#DOTA_Item_Prolific_Planter_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/supreme_gardener_back/supreme_gardener_back.vmdl"
+    },
+    {
+      "id": "14275",
+      "name": "Signs of the Allfather - Weapon",
+      "item_name": "#DOTA_Item_Signs_of_the_Allfather__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/allfather_of_nature_weapon/allfather_of_nature_weapon.vmdl"
+    },
+    {
+      "id": "14276",
+      "name": "Signs of the Allfather - Treant",
+      "item_name": "#DOTA_Item_Signs_of_the_Allfather__Treant",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14277",
+      "name": "Signs of the Allfather - Shoulder",
+      "item_name": "#DOTA_Item_Signs_of_the_Allfather__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/allfather_of_nature_shoulder/allfather_of_nature_shoulder.vmdl"
+    },
+    {
+      "id": "14278",
+      "name": "Signs of the Allfather - Neck",
+      "item_name": "#DOTA_Item_Signs_of_the_Allfather__Neck",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/allfather_of_nature_neck/allfather_of_nature_neck.vmdl"
+    },
+    {
+      "id": "14279",
+      "name": "Signs of the Allfather - Head",
+      "item_name": "#DOTA_Item_Signs_of_the_Allfather__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/allfather_of_nature_head/allfather_of_nature_head.vmdl"
+    },
+    {
+      "id": "14280",
+      "name": "Signs of the Allfather - Back",
+      "item_name": "#DOTA_Item_Signs_of_the_Allfather__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/allfather_of_nature_back/allfather_of_nature_back.vmdl"
+    },
+    {
+      "id": "14281",
+      "name": "Signs of the Allfather - Arms",
+      "item_name": "#DOTA_Item_Signs_of_the_Allfather__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/allfather_of_nature_arms/allfather_of_nature_arms.vmdl"
+    },
+    {
+      "id": "14406",
+      "name": "NP Cute cactus treant",
+      "item_name": "#DOTA_NP_Cute_cactus_treant",
+      "item_slot": "ability3",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14407",
+      "name": "NP Cute cactus Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_NP_Cute_cactus_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_cute_cactus_weapon/np_cute_cactus_weapon.vmdl"
+    },
+    {
+      "id": "14408",
+      "name": "NP Cute cactus Shoulder",
+      "item_name": "#DOTA_Item_Vote_Only_NP_Cute_cactus_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_cute_cactus_shoulder/np_cute_cactus_shoulder.vmdl"
+    },
+    {
+      "id": "14409",
+      "name": "NP Cute cactus Neck",
+      "item_name": "#DOTA_Item_Vote_Only_NP_Cute_cactus_Neck",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_cute_cactus_neck/np_cute_cactus_neck.vmdl"
+    },
+    {
+      "id": "14411",
+      "name": "NP Cute cactus Head",
+      "item_name": "#DOTA_Item_Vote_Only_NP_Cute_cactus_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_cute_cactus_head/np_cute_cactus_head.vmdl"
+    },
+    {
+      "id": "14412",
+      "name": "NP Cute cactus Back",
+      "item_name": "#DOTA_Item_Vote_Only_NP_Cute_cactus_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_cute_cactus_back/np_cute_cactus_back.vmdl"
+    },
+    {
+      "id": "14413",
+      "name": "NP Cute cactus Arms",
+      "item_name": "#DOTA_Item_Vote_Only_NP_Cute_cactus_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_cute_cactus_arms/np_cute_cactus_arms.vmdl"
+    },
+    {
+      "id": "14899",
+      "name": "Desert Bloom - Treant",
+      "item_name": "#DOTA_Item_Desert_Bloom__Treant",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14900",
+      "name": "Desert Bloom - Weapon",
+      "item_name": "#DOTA_Item_Desert_Bloom__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_desert_traveller_weapon/np_desert_traveller_weapon.vmdl"
+    },
+    {
+      "id": "14901",
+      "name": "Desert Bloom - Shoulder",
+      "item_name": "#DOTA_Item_Desert_Bloom__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_desert_traveller_shoulder/np_desert_traveller_shoulder.vmdl"
+    },
+    {
+      "id": "14902",
+      "name": "Desert Bloom - Neck",
+      "item_name": "#DOTA_Item_Desert_Bloom__Neck",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_desert_traveller_neck/np_desert_traveller_neck.vmdl"
+    },
+    {
+      "id": "14903",
+      "name": "Desert Bloom - Head",
+      "item_name": "#DOTA_Item_Desert_Bloom__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_desert_traveller_head/np_desert_traveller_head.vmdl"
+    },
+    {
+      "id": "14904",
+      "name": "Desert Bloom - Back",
+      "item_name": "#DOTA_Item_Desert_Bloom__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_desert_traveller_back/np_desert_traveller_back.vmdl"
+    },
+    {
+      "id": "14905",
+      "name": "Desert Bloom - Arms",
+      "item_name": "#DOTA_Item_Desert_Bloom__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_desert_traveller_arms/np_desert_traveller_arms.vmdl"
+    },
+    {
+      "id": "19231",
+      "name": "Stagheart Sovereign - Head",
+      "item_name": "#DOTA_Item_Stagheart_Sovereign__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/wildthorn_set_head/wildthorn_set_head.vmdl"
+    },
+    {
+      "id": "19232",
+      "name": "Stagheart Sovereign - Neck",
+      "item_name": "#DOTA_Item_Stagheart_Sovereign__Neck",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/wildthorn_set_neck/wildthorn_set_neck.vmdl"
+    },
+    {
+      "id": "19233",
+      "name": "Stagheart Sovereign - Back",
+      "item_name": "#DOTA_Item_Stagheart_Sovereign__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/wildthorn_set_back/wildthorn_set_back.vmdl"
+    },
+    {
+      "id": "19234",
+      "name": "Stagheart Sovereign - Arms",
+      "item_name": "#DOTA_Item_Stagheart_Sovereign__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/wildthorn_set_arms/wildthorn_set_arms.vmdl"
+    },
+    {
+      "id": "19235",
+      "name": "Stagheart Sovereign - Shoulder",
+      "item_name": "#DOTA_Item_Stagheart_Sovereign__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/wildthorn_set_shoulder/wildthorn_set_shoulder.vmdl"
+    },
+    {
+      "id": "19236",
+      "name": "Stagheart Sovereign - Weapon",
+      "item_name": "#DOTA_Item_Stagheart_Sovereign__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/wildthorn_set_weapon/wildthorn_set_weapon.vmdl"
+    },
+    {
+      "id": "20004",
+      "name": "The Regal Forest Lord Set",
+      "item_name": "#DOTA_Item_The_Regal_Forest_Lord_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20008",
+      "name": "Scion of the Savage Set",
+      "item_name": "#DOTA_Item_Scion_of_the_Savage_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20009",
+      "name": "Heartwood Vanguard Set",
+      "item_name": "#DOTA_Item_Heartwood_Vanguard_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20010",
+      "name": "Garments of the Peace-Bringer Set",
+      "item_name": "#DOTA_Item_Garments_of_the_PeaceBringer_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20011",
+      "name": "Master of Beast and Bole Set",
+      "item_name": "#DOTA_Item_Master_of_Beast_and_Bole_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20255",
+      "name": "Woodland Outcast Set",
+      "item_name": "#DOTA_Item_Woodland_Outcast_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20317",
+      "name": "Bird's Stone Set",
+      "item_name": "#DOTA_Item_Birds_Stone_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20329",
+      "name": "Fungal Lord Set",
+      "item_name": "#DOTA_Item_Fungal_Lord_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20421",
+      "name": "Sovereign of the Woodlands",
+      "item_name": "#DOTA_Item_Sovereign_of_the_Woodlands",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20435",
+      "name": "Guardian of the Eternal Seasons",
+      "item_name": "#DOTA_Item_Guardian_of_the_Eternal_Seasons",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20536",
+      "name": "Primeval Prophet",
+      "item_name": "#DOTA_Item_Primeval_Prophet",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20559",
+      "name": "Promo Guardian of the Eternal Seasons",
+      "item_name": "#DOTA_Item_Promo_Guardian_of_the_Eternal_Seasons",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20568",
+      "name": "Promo Primeval Prophet",
+      "item_name": "#DOTA_Item_Promo_Primeval_Prophet",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20586",
+      "name": "Father of the Forest",
+      "item_name": "#DOTA_Item_Father_of_the_Forest",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21069",
+      "name": "Truebark Adherent",
+      "item_name": "#DOTA_Item_Truebark_Adherent",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21128",
+      "name": "The Dread Prophet",
+      "item_name": "#DOTA_Item_The_Dread_Prophet",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21246",
+      "name": "Vanguard of the Emerald Insurgence",
+      "item_name": "#DOTA_Item_Vanguard_of_the_Emerald_Insurgence",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21498",
+      "name": "Prolific Planter",
+      "item_name": "#DOTA_Item_Prolific_Planter",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21529",
+      "name": "Signs of the Allfather",
+      "item_name": "#DOTA_Item_Signs_of_the_Allfather",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21555",
+      "name": "NP Cute cactus",
+      "item_name": "#DOTA_Item_Vote_Only_NP_Cute_cactus",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21616",
+      "name": "Desert Bloom",
+      "item_name": "#DOTA_Item_Desert_Bloom",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21854",
+      "name": "Stagheart Sovereign",
+      "item_name": "#DOTA_Item_Stagheart_Sovereign",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25784",
+      "name": "Verdant Swarm - Head",
+      "item_name": "#DOTA_Item_Verdant_Swarm__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_verdant_swarm_head/np_verdant_swarm_head.vmdl"
+    },
+    {
+      "id": "25787",
+      "name": "Verdant Swarm - Treant",
+      "item_name": "#DOTA_Item_Verdant_Swarm__Treant",
+      "item_slot": "ability3",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25788",
+      "name": "Verdant Swarm - Weapon",
+      "item_name": "#DOTA_Item_Verdant_Swarm__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_verdant_swarm_weapon/np_verdant_swarm_weapon.vmdl"
+    },
+    {
+      "id": "25789",
+      "name": "Verdant Swarm - Back",
+      "item_name": "#DOTA_Item_Verdant_Swarm__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_verdant_swarm_back/np_verdant_swarm_back.vmdl"
+    },
+    {
+      "id": "25790",
+      "name": "Verdant Swarm - Shoulder",
+      "item_name": "#DOTA_Item_Verdant_Swarm__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_verdant_swarm_shoulder/np_verdant_swarm_shoulder.vmdl"
+    },
+    {
+      "id": "25791",
+      "name": "Verdant Swarm - Arms",
+      "item_name": "#DOTA_Item_Verdant_Swarm__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_verdant_swarm_arms/np_verdant_swarm_arms.vmdl"
+    },
+    {
+      "id": "25792",
+      "name": "Verdant Swarm - Neck",
+      "item_name": "#DOTA_Item_Verdant_Swarm__Neck",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_verdant_swarm_neck/np_verdant_swarm_neck.vmdl"
+    },
+    {
+      "id": "25802",
+      "name": "Verdant Swarm",
+      "item_name": "#DOTA_Item_Verdant_Swarm",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "29574",
+      "name": "Monarch of the Sapphire Glen of the Crimson Witness",
+      "item_name": "#DOTA_Item_Monarch_of_the_Sapphire_Glen_of_the_Crimson_Witness",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/furion/np_ti9_immortal_back/np_ti9_immortal_back.vmdl"
+    }
+  ]
+}

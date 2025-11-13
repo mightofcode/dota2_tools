@@ -1,0 +1,1774 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "27",
+      "name": "Silencer's Weapon",
+      "item_name": "#DOTA_Item_Silencers_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/silencer/silencer_weapon.vmdl"
+    },
+    "offhand_weapon": {
+      "id": "28",
+      "name": "Silencer's Shield",
+      "item_name": "#DOTA_Item_Silencers_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/silencer/silencer_shield.vmdl"
+    },
+    "arms": {
+      "id": "301",
+      "name": "Silencer's Bracers",
+      "item_name": "#DOTA_Item_Silencers_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/silencer/silender_bracers.vmdl"
+    },
+    "head": {
+      "id": "302",
+      "name": "Silencer's Helmet",
+      "item_name": "#DOTA_Item_Silencers_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/silencer/silencer_helmet.vmdl"
+    },
+    "shoulder": {
+      "id": "303",
+      "name": "Silencer's Shoulders",
+      "item_name": "#DOTA_Item_Silencers_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "model_player": "models/heroes/silencer/silencer_shoulder.vmdl"
+    },
+    "belt": {
+      "id": "304",
+      "name": "Silencer's Robe",
+      "item_name": "#DOTA_Item_Silencers_Robe",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "model_player": "models/heroes/silencer/silencer_robe.vmdl"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Grand_Suppressor",
+      "store_bundle": "Grand Suppressor",
+      "portrait_image": "econ/sets/v2/grand_suppressor",
+      "items": [
+        {
+          "name": "Grand Suppressor - Head",
+          "id": "26315",
+          "item_name": "#DOTA_Item_Grand_Suppressor__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silencer_grand_archivist_head/silencer_grand_archivist_head.vmdl"
+        },
+        {
+          "name": "Grand Suppressor - Shoulder",
+          "id": "26316",
+          "item_name": "#DOTA_Item_Grand_Suppressor__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silencer_grand_archivist_shoulder/silencer_grand_archivist_shoulder.vmdl"
+        },
+        {
+          "name": "Grand Suppressor - Arms",
+          "id": "26317",
+          "item_name": "#DOTA_Item_Grand_Suppressor__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silencer_grand_archivist_arms/silencer_grand_archivist_arms.vmdl"
+        },
+        {
+          "name": "Grand Suppressor - Belt",
+          "id": "26318",
+          "item_name": "#DOTA_Item_Grand_Suppressor__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silencer_grand_archivist_belt/silencer_grand_archivist_belt.vmdl"
+        },
+        {
+          "name": "Grand Suppressor - Weapon",
+          "id": "26319",
+          "item_name": "#DOTA_Item_Grand_Suppressor__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silencer_grand_archivist_weapon/silencer_grand_archivist_weapon.vmdl"
+        },
+        {
+          "name": "Grand Suppressor - Off-Hand Weapon",
+          "id": "26320",
+          "item_name": "#DOTA_Item_Grand_Suppressor__OffHand_Weapon",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silencer_grand_archivist_offhand_weapon/silencer_grand_archivist_offhand_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Hazhadal_Magebreaker",
+      "store_bundle": "Hazhadal Magebreaker",
+      "portrait_image": "econ/sets/v2/hazhadal_magebreaker",
+      "items": [
+        {
+          "name": "Cape of the Hazhadal Magebreaker",
+          "id": "9114",
+          "item_name": "#DOTA_Item_Cape_of_the_Hazhadal_Magebreaker",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/the_hazhadal_magebreaker_shoulder/the_hazhadal_magebreaker_shoulder.vmdl"
+        },
+        {
+          "name": "Mask of the Hazhadal Magebreaker",
+          "id": "9113",
+          "item_name": "#DOTA_Item_Mask_of_the_Hazhadal_Magebreaker",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/the_hazhadal_magebreaker_head/the_hazhadal_magebreaker_head.vmdl"
+        },
+        {
+          "name": "Bracers of the Hazhadal Magebreaker",
+          "id": "9112",
+          "item_name": "#DOTA_Item_Bracers_of_the_Hazhadal_Magebreaker",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/the_hazhadal_magebreaker_arms/the_hazhadal_magebreaker_arms.vmdl"
+        },
+        {
+          "name": "Belt of the Hazhadal Magebreaker",
+          "id": "9111",
+          "item_name": "#DOTA_Item_Belt_of_the_Hazhadal_Magebreaker",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/the_hazhadal_magebreaker_belt/the_hazhadal_magebreaker_belt.vmdl"
+        },
+        {
+          "name": "Shield of the Hazhadal Magebreaker",
+          "id": "9110",
+          "item_name": "#DOTA_Item_Shield_of_the_Hazhadal_Magebreaker",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/the_hazhadal_magebreaker_off_hand/the_hazhadal_magebreaker_off_hand.vmdl"
+        },
+        {
+          "name": "Edge of the Hazhadal Magebreaker",
+          "id": "9109",
+          "item_name": "#DOTA_Item_Edge_of_the_Hazhadal_Magebreaker",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/the_hazhadal_magebreaker_weapon/the_hazhadal_magebreaker_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Heirlooms_of_Aeol_Drias",
+      "store_bundle": "Heirlooms of Aeol Drias",
+      "portrait_image": "econ/sets/v2/heirlooms_of_aeol_drias",
+      "items": [
+        {
+          "name": "Threads of Aeol Drias",
+          "id": "6483",
+          "item_name": "#DOTA_Item_Threads_of_Aeol_Drias",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/silencer/aeol_drias_belt/aeol_drias_belt.vmdl"
+        },
+        {
+          "name": "Headgear of Aeol Drias",
+          "id": "6862",
+          "item_name": "#DOTA_Item_Headgear_of_Aeol_Drias",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/silencer/aeol_drias_head/aeol_drias_head.vmdl"
+        },
+        {
+          "name": "Buckler of Aeol Drias",
+          "id": "6863",
+          "item_name": "#DOTA_Item_Buckler_of_Aeol_Drias",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/silencer/aeol_drias_shield/aeol_drias_shield.vmdl"
+        },
+        {
+          "name": "Tunic of Aeol Drias",
+          "id": "6864",
+          "item_name": "#DOTA_Item_Tunic_of_Aeol_Drias",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/silencer/aeol_drias_shoulder/aeol_drias_shoulder.vmdl"
+        },
+        {
+          "name": "Glaive of Aeol Drias",
+          "id": "6865",
+          "item_name": "#DOTA_Item_Glaive_of_Aeol_Drias",
+          "item_slot": "weapon",
+          "item_rarity": "common",
+          "model_player": "models/items/silencer/aeol_drias_weapon/aeol_drias_weapon.vmdl"
+        },
+        {
+          "name": "Bracers of Aeol Drias",
+          "id": "6876",
+          "item_name": "#DOTA_Item_Bracers_of_Aeol_Drias",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/silencer/aeol_drias_arms/aeol_drias_arms.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Hush_of_Eternal_Night",
+      "store_bundle": "Hush of Eternal Night",
+      "portrait_image": "econ/sets/v2/hush_of_eternal_night",
+      "items": [
+        {
+          "name": "Belt of Eternal Night",
+          "id": "12825",
+          "item_name": "#DOTA_Item_Belt_of_Eternal_Night",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/frostivus2018_silencer_silent_paragon_belt/frostivus2018_silencer_silent_paragon_belt.vmdl"
+        },
+        {
+          "name": "Glaive of Eternal Night",
+          "id": "12824",
+          "item_name": "#DOTA_Item_Glaive_of_Eternal_Night",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/frostivus2018_silencer_silent_paragon_weapon/frostivus2018_silencer_silent_paragon_weapon.vmdl"
+        },
+        {
+          "name": "Mask of Eternal Night",
+          "id": "12823",
+          "item_name": "#DOTA_Item_Mask_of_Eternal_Night",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/frostivus2018_silencer_silent_paragon_head/frostivus2018_silencer_silent_paragon_head.vmdl"
+        },
+        {
+          "name": "Bracer of Eternal Night",
+          "id": "12822",
+          "item_name": "#DOTA_Item_Bracer_of_Eternal_Night",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/frostivus2018_silencer_silent_paragon_arms/frostivus2018_silencer_silent_paragon_arms.vmdl"
+        },
+        {
+          "name": "Armor of Eternal Night",
+          "id": "12821",
+          "item_name": "#DOTA_Item_Armor_of_Eternal_Night",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/frostivus2018_silencer_silent_paragon_shoulder/frostivus2018_silencer_silent_paragon_shoulder.vmdl"
+        },
+        {
+          "name": "Shield of Eternal Night",
+          "id": "12826",
+          "item_name": "#DOTA_Item_Shield_of_Eternal_Night",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/frostivus2018_silencer_silent_paragon_off_hand/frostivus2018_silencer_silent_paragon_off_hand.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Order_of_the_Silvered_Talon",
+      "store_bundle": "Order of the Silvered Talon",
+      "portrait_image": "econ/sets/v2/order_of_the_silvered_talon",
+      "items": [
+        {
+          "name": "Belt of the Silvered Talon",
+          "id": "12915",
+          "item_name": "#DOTA_Item_Belt_of_the_Silvered_Talon",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_belt/frostivus2018_silencer_high_priest_belt.vmdl"
+        },
+        {
+          "name": "Vestment of the Silvered Talon",
+          "id": "12914",
+          "item_name": "#DOTA_Item_Vestment_of_the_Silvered_Talon",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_shoulder/frostivus2018_silencer_high_priest_shoulder.vmdl"
+        },
+        {
+          "name": "Glaive of the Silvered Talon",
+          "id": "12913",
+          "item_name": "#DOTA_Item_Glaive_of_the_Silvered_Talon",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_weapon/frostivus2018_silencer_high_priest_weapon.vmdl"
+        },
+        {
+          "name": "Shield of the Silvered Talon",
+          "id": "12911",
+          "item_name": "#DOTA_Item_Shield_of_the_Silvered_Talon",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_off_hand/frostivus2018_silencer_high_priest_off_hand.vmdl"
+        },
+        {
+          "name": "Bracer of the Silvered Talon",
+          "id": "12910",
+          "item_name": "#DOTA_Item_Bracer_of_the_Silvered_Talon",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_arms/frostivus2018_silencer_high_priest_arms.vmdl"
+        },
+        {
+          "name": "Helm of the Silvered Talon",
+          "id": "12912",
+          "item_name": "#DOTA_Item_Helm_of_the_Silvered_Talon",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_head/frostivus2018_silencer_high_priest_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Guardian_of_Silence",
+      "store_bundle": "Guardian of Silence Set",
+      "portrait_image": "econ/sets/v2/silencer_guardian_of_silence",
+      "items": [
+        {
+          "name": "Bracers of the Silent Guardian",
+          "id": "5539",
+          "item_name": "#DOTA_Item_Bracers_of_the_Silent_Guardian",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/silencer/bracers_of_the_silent_guardian/bracers_of_the_silent_guardian.vmdl"
+        },
+        {
+          "name": "Shift of the Silent Guardian",
+          "id": "5540",
+          "item_name": "#DOTA_Item_Shift_of_the_Silent_Guardian",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/silencer/shift_of_the_silent_guardian/shift_of_the_silent_guardian.vmdl"
+        },
+        {
+          "name": "Shield of the Silent Guardian",
+          "id": "5542",
+          "item_name": "#DOTA_Item_Shield_of_the_Silent_Guardian",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/silencer/shield_of_the_silent_guardian/shield_of_the_silent_guardian.vmdl"
+        },
+        {
+          "name": "Pauldron of the Silent Guardian",
+          "id": "5543",
+          "item_name": "#DOTA_Item_Pauldron_of_the_Silent_Guardian",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/silencer/pauldron_of_the_silent_guardian/pauldron_of_the_silent_guardian.vmdl"
+        },
+        {
+          "name": "Blade of the Silent Guardian",
+          "id": "5544",
+          "item_name": "#DOTA_Item_Blade_of_the_Silent_Guardian",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/silencer/blade_of_the_silent_guardian/blade_of_the_silent_guardian.vmdl"
+        },
+        {
+          "name": "Helm of the Silent Guardian",
+          "id": "5547",
+          "item_name": "#DOTA_Item_Helm_of_the_Silent_Guardian",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/silencer/helm_of_the_silent_guardian/helm_of_the_silent_guardian.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Silent_Champion",
+      "store_bundle": "Silent Champion",
+      "portrait_image": "econ/sets/v2/silent_champion",
+      "items": [
+        {
+          "name": "Arms of the Silent Champion",
+          "id": "6159",
+          "item_name": "#DOTA_Item_Arms_of_the_Silent_Champion",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/silencer/silentchampion_arms/silentchampion_arms.vmdl"
+        },
+        {
+          "name": "Glaive of the Silent Champion",
+          "id": "6160",
+          "item_name": "#DOTA_Item_Glaive_of_the_Silent_Champion",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/silencer/silentchampion_glaive/silentchampion_glaive.vmdl"
+        },
+        {
+          "name": "Shield of the Silent Champion",
+          "id": "6161",
+          "item_name": "#DOTA_Item_Shield_of_the_Silent_Champion",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/silencer/silentchampion_shield/silentchampion_shield.vmdl"
+        },
+        {
+          "name": "Shoulders of the Silent Champion",
+          "id": "6162",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Silent_Champion",
+          "item_slot": "shoulder",
+          "item_rarity": "common",
+          "model_player": "models/items/silencer/silentchampion_shoulders/silentchampion_shoulders.vmdl"
+        },
+        {
+          "name": "Robe of the Silent Champion",
+          "id": "6163",
+          "item_name": "#DOTA_Item_Robe_of_the_Silent_Champion",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/silencer/silentchampion_belt/silentchampion_belt.vmdl"
+        },
+        {
+          "name": "Helmet of the Silent Champion",
+          "id": "6164",
+          "item_name": "#DOTA_Item_Helmet_of_the_Silent_Champion",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/silencer/silentchampion_helmet/silentchampion_helmet.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Silent_Edict",
+      "store_bundle": "Silent Edict",
+      "portrait_image": "econ/sets/v2/silent_edict",
+      "items": [
+        {
+          "name": "Robe of the Silent Edict",
+          "id": "9027",
+          "item_name": "#DOTA_Item_Robe_of_the_Silent_Edict",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silent_guardian_belt/silent_guardian_belt.vmdl"
+        },
+        {
+          "name": "Armguards of the Silent Edict",
+          "id": "9026",
+          "item_name": "#DOTA_Item_Armguards_of_the_Silent_Edict",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silent_guardian_arms/silent_guardian_arms.vmdl"
+        },
+        {
+          "name": "Shoulders of the Silent Edict",
+          "id": "9025",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Silent_Edict",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silent_guardian_shoulder/silent_guardian_shoulder.vmdl"
+        },
+        {
+          "name": "Hair of the Silent Edict",
+          "id": "9024",
+          "item_name": "#DOTA_Item_Hair_of_the_Silent_Edict",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silent_guardian_head/silent_guardian_head.vmdl"
+        },
+        {
+          "name": "Shield of the Silent Edict",
+          "id": "9023",
+          "item_name": "#DOTA_Item_Shield_of_the_Silent_Edict",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand.vmdl"
+        },
+        {
+          "name": "Glaive of the Silent Edict",
+          "id": "9022",
+          "item_name": "#DOTA_Item_Glaive_of_the_Silent_Edict",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silent_guardian_weapon/silent_guardian_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Silent_Slayer",
+      "store_bundle": "Silent Slayer",
+      "portrait_image": "econ/sets/v2/silent_slayer",
+      "items": [
+        {
+          "name": "Silent Slayer - Equipment",
+          "id": "13926",
+          "item_name": "#DOTA_Item_Silent_Slayer__Equipment",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silent_huner_arms/silent_huner_arms.vmdl"
+        },
+        {
+          "name": "Silent Slayer - Belt",
+          "id": "13924",
+          "item_name": "#DOTA_Item_Silent_Slayer__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silent_huner_belt/silent_huner_belt.vmdl"
+        },
+        {
+          "name": "Silent Slayer - Off-Hand",
+          "id": "13922",
+          "item_name": "#DOTA_Item_Silent_Slayer__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silent_huner_off_hand/silent_huner_off_hand.vmdl"
+        },
+        {
+          "name": "Silent Slayer - Weapon",
+          "id": "13920",
+          "item_name": "#DOTA_Item_Silent_Slayer__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silent_huner_weapon/silent_huner_weapon.vmdl"
+        },
+        {
+          "name": "Silent Slayer - Shoulder",
+          "id": "13921",
+          "item_name": "#DOTA_Item_Silent_Slayer__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silent_huner_shoulder/silent_huner_shoulder.vmdl"
+        },
+        {
+          "name": "Silent Slayer - Head",
+          "id": "13923",
+          "item_name": "#DOTA_Item_Silent_Slayer__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silent_huner_head/silent_huner_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Hidden_Talent",
+      "store_bundle": "The Hidden Talent Set",
+      "portrait_image": "econ/sets/v2/the_hidden_talent",
+      "items": [
+        {
+          "name": "Shield of the Hidden Talent",
+          "id": "4563",
+          "item_name": "#DOTA_Item_Shield_of_the_Hidden_Talent",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/silencer/iq_shield/iq_shield.vmdl"
+        },
+        {
+          "name": "Bracers of the Hidden Talent",
+          "id": "4565",
+          "item_name": "#DOTA_Item_Bracers_of_the_Hidden_Talent",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/silencer/iq_bracers/iq_bracers.vmdl"
+        },
+        {
+          "name": "Helm of the Hidden Talent",
+          "id": "4567",
+          "item_name": "#DOTA_Item_Helm_of_the_Hidden_Talent",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/silencer/iq_helm/iq_helm.vmdl"
+        },
+        {
+          "name": "Robe of the Hidden Talent",
+          "id": "4569",
+          "item_name": "#DOTA_Item_Robe_of_the_Hidden_Talent",
+          "item_slot": "belt",
+          "item_rarity": "rare",
+          "model_player": "models/items/silencer/iq_robe/iq_robe.vmdl"
+        },
+        {
+          "name": "Shoulders of the Hidden Talent",
+          "id": "4571",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Hidden_Talent",
+          "item_slot": "shoulder",
+          "item_rarity": "rare",
+          "model_player": "models/items/silencer/iq_shoulders/iq_shoulders.vmdl"
+        },
+        {
+          "name": "Glaive of the Hidden Talent",
+          "id": "4572",
+          "item_name": "#DOTA_Item_Glaive_of_the_Hidden_Talent",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/silencer/iq_weapon/iq_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Tools_of_the_Final_Utterance",
+      "store_bundle": "Tools of the Final Utterance",
+      "portrait_image": "econ/sets/v2/tools_of_final_utterance",
+      "items": [
+        {
+          "name": "Prow of the Final Utterance",
+          "id": "8122",
+          "item_name": "#DOTA_Item_Prow_of_the_Final_Utterance",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/silencer/bts_final_utterance_head/bts_final_utterance_head.vmdl"
+        },
+        {
+          "name": "Shield of the Final Utterance",
+          "id": "8123",
+          "item_name": "#DOTA_Item_Shield_of_the_Final_Utterance",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/silencer/bts_final_utterance_offhand/bts_final_utterance_offhand.vmdl"
+        },
+        {
+          "name": "Gauntlets of the Final Utterance",
+          "id": "8124",
+          "item_name": "#DOTA_Item_Gauntlets_of_the_Final_Utterance",
+          "item_slot": "arms",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/silencer/bts_final_utterance_arms/bts_final_utterance_arms.vmdl"
+        },
+        {
+          "name": "Tassets of the Final Utterance",
+          "id": "8125",
+          "item_name": "#DOTA_Item_Tassets_of_the_Final_Utterance",
+          "item_slot": "belt",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/silencer/bts_final_utterance_belt/bts_final_utterance_belt.vmdl"
+        },
+        {
+          "name": "Pauldrons of the Final Utterance",
+          "id": "8126",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Final_Utterance",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/silencer/bts_final_utterance_shoulder/bts_final_utterance_shoulder.vmdl"
+        },
+        {
+          "name": "Edge of the Final Utterance",
+          "id": "8235",
+          "item_name": "#DOTA_Item_Edge_of_the_Final_Utterance",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/silencer/bts_silencer_weapon/bts_silencer_weapon.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Whisper_of_the_Tribunal",
+      "store_bundle": "Whisper of the Tribunal",
+      "portrait_image": "econ/sets/v2/whisper_of_the_tribunal",
+      "items": [
+        {
+          "name": "Bracers of the Tribunal",
+          "id": "6387",
+          "item_name": "#DOTA_Item_Bracers_of_the_Tribunal",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/silencer/whispertribunal_arms/whispertribunal_arms.vmdl"
+        },
+        {
+          "name": "Glaive of the Tribunal",
+          "id": "6394",
+          "item_name": "#DOTA_Item_Glaive_of_the_Tribunal",
+          "item_slot": "weapon",
+          "item_rarity": "rare",
+          "model_player": "models/items/silencer/whispertribunal__weapon/whispertribunal__weapon.vmdl"
+        },
+        {
+          "name": "Helmet of the Tribunal",
+          "id": "6389",
+          "item_name": "#DOTA_Item_Helmet_of_the_Tribunal",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/silencer/whispertribunal_head/whispertribunal_head.vmdl"
+        },
+        {
+          "name": "Mantle of the Tribunal",
+          "id": "6390",
+          "item_name": "#DOTA_Item_Mantle_of_the_Tribunal",
+          "item_slot": "belt",
+          "item_rarity": "common",
+          "model_player": "models/items/silencer/whispertribunal_belt/whispertribunal_belt.vmdl"
+        },
+        {
+          "name": "Shield of the Tribunal",
+          "id": "6391",
+          "item_name": "#DOTA_Item_Shield_of_the_Tribunal",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/whispertribunal_shield/whispertribunal_shield.vmdl"
+        },
+        {
+          "name": "Drapes of the Tribunal",
+          "id": "6393",
+          "item_name": "#DOTA_Item_Drapes_of_the_Tribunal",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/silencer/whispertribunal_shoulder/whispertribunal_shoulder.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Whispering_Wings",
+      "store_bundle": "Whispering Wings",
+      "portrait_image": "econ/sets/v2/whispering_wings",
+      "items": [
+        {
+          "name": "Whispering Wings - Offhand Weapon",
+          "id": "28219",
+          "item_name": "#DOTA_Item_Whispering_Wings__Offhand_Weapon",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silencer_avilliva_shield/silencer_avilliva_shield.vmdl"
+        },
+        {
+          "name": "Whispering Wings - Weapon",
+          "id": "28220",
+          "item_name": "#DOTA_Item_Whispering_Wings__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silencer_avilliva_weapon/silencer_avilliva_weapon.vmdl"
+        },
+        {
+          "name": "Whispering Wings - Head",
+          "id": "28222",
+          "item_name": "#DOTA_Item_Whispering_Wings__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silencer_avilliva_head/silencer_avilliva_head.vmdl"
+        },
+        {
+          "name": "Whispering Wings - Belt",
+          "id": "28223",
+          "item_name": "#DOTA_Item_Whispering_Wings__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silencer_avilliva_belt/silencer_avilliva_belt.vmdl"
+        },
+        {
+          "name": "Whispering Wings - Arms",
+          "id": "28224",
+          "item_name": "#DOTA_Item_Whispering_Wings__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silencer_avilliva_arms/silencer_avilliva_arms.vmdl"
+        },
+        {
+          "name": "Whispering Wings - Shoulder",
+          "id": "28225",
+          "item_name": "#DOTA_Item_Whispering_Wings__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical",
+          "model_player": "models/items/silencer/silencer_avilliva_shoulders/silencer_avilliva_shoulders.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "27",
+      "name": "Silencer's Weapon",
+      "item_name": "#DOTA_Item_Silencers_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/silencer/silencer_weapon.vmdl"
+    },
+    {
+      "id": "28",
+      "name": "Silencer's Shield",
+      "item_name": "#DOTA_Item_Silencers_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/silencer/silencer_shield.vmdl"
+    },
+    {
+      "id": "301",
+      "name": "Silencer's Bracers",
+      "item_name": "#DOTA_Item_Silencers_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/silencer/silender_bracers.vmdl"
+    },
+    {
+      "id": "302",
+      "name": "Silencer's Helmet",
+      "item_name": "#DOTA_Item_Silencers_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/silencer/silencer_helmet.vmdl"
+    },
+    {
+      "id": "303",
+      "name": "Silencer's Shoulders",
+      "item_name": "#DOTA_Item_Silencers_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/silencer/silencer_shoulder.vmdl"
+    },
+    {
+      "id": "304",
+      "name": "Silencer's Robe",
+      "item_name": "#DOTA_Item_Silencers_Robe",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/silencer/silencer_robe.vmdl"
+    },
+    {
+      "id": "4533",
+      "name": "Whirling Mind Slicer",
+      "item_name": "#DOTA_Item_Whirling_Mind_Slicer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/anuxi_mind_slicer/anuxi_mind_slicer.vmdl"
+    },
+    {
+      "id": "4563",
+      "name": "Shield of the Hidden Talent",
+      "item_name": "#DOTA_Item_Shield_of_the_Hidden_Talent",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/iq_shield/iq_shield.vmdl"
+    },
+    {
+      "id": "4565",
+      "name": "Bracers of the Hidden Talent",
+      "item_name": "#DOTA_Item_Bracers_of_the_Hidden_Talent",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/iq_bracers/iq_bracers.vmdl"
+    },
+    {
+      "id": "4567",
+      "name": "Helm of the Hidden Talent",
+      "item_name": "#DOTA_Item_Helm_of_the_Hidden_Talent",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/iq_helm/iq_helm.vmdl"
+    },
+    {
+      "id": "4569",
+      "name": "Robe of the Hidden Talent",
+      "item_name": "#DOTA_Item_Robe_of_the_Hidden_Talent",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/iq_robe/iq_robe.vmdl"
+    },
+    {
+      "id": "4571",
+      "name": "Shoulders of the Hidden Talent",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Hidden_Talent",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/iq_shoulders/iq_shoulders.vmdl"
+    },
+    {
+      "id": "4572",
+      "name": "Glaive of the Hidden Talent",
+      "item_name": "#DOTA_Item_Glaive_of_the_Hidden_Talent",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/iq_weapon/iq_weapon.vmdl"
+    },
+    {
+      "id": "5397",
+      "name": "Star of Silence",
+      "item_name": "#DOTA_Item_Star_of_Silence",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/star_of_silence/star_of_silence.vmdl"
+    },
+    {
+      "id": "5539",
+      "name": "Bracers of the Silent Guardian",
+      "item_name": "#DOTA_Item_Bracers_of_the_Silent_Guardian",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/bracers_of_the_silent_guardian/bracers_of_the_silent_guardian.vmdl"
+    },
+    {
+      "id": "5540",
+      "name": "Shift of the Silent Guardian",
+      "item_name": "#DOTA_Item_Shift_of_the_Silent_Guardian",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/shift_of_the_silent_guardian/shift_of_the_silent_guardian.vmdl"
+    },
+    {
+      "id": "5542",
+      "name": "Shield of the Silent Guardian",
+      "item_name": "#DOTA_Item_Shield_of_the_Silent_Guardian",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/shield_of_the_silent_guardian/shield_of_the_silent_guardian.vmdl"
+    },
+    {
+      "id": "5543",
+      "name": "Pauldron of the Silent Guardian",
+      "item_name": "#DOTA_Item_Pauldron_of_the_Silent_Guardian",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/pauldron_of_the_silent_guardian/pauldron_of_the_silent_guardian.vmdl"
+    },
+    {
+      "id": "5544",
+      "name": "Blade of the Silent Guardian",
+      "item_name": "#DOTA_Item_Blade_of_the_Silent_Guardian",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/blade_of_the_silent_guardian/blade_of_the_silent_guardian.vmdl"
+    },
+    {
+      "id": "5547",
+      "name": "Helm of the Silent Guardian",
+      "item_name": "#DOTA_Item_Helm_of_the_Silent_Guardian",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/helm_of_the_silent_guardian/helm_of_the_silent_guardian.vmdl"
+    },
+    {
+      "id": "5780",
+      "name": "Shield of Stillness",
+      "item_name": "#DOTA_Item_Shield_of_Stillness",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/shield_of_stillness/shield_of_stillness.vmdl"
+    },
+    {
+      "id": "5831",
+      "name": "Fan of Piercing Silence",
+      "item_name": "#DOTA_Item_Fan_of_Piercing_Silence",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/fanpiercingsilence/fanpiercingsilence.vmdl"
+    },
+    {
+      "id": "6159",
+      "name": "Arms of the Silent Champion",
+      "item_name": "#DOTA_Item_Arms_of_the_Silent_Champion",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silentchampion_arms/silentchampion_arms.vmdl"
+    },
+    {
+      "id": "6160",
+      "name": "Glaive of the Silent Champion",
+      "item_name": "#DOTA_Item_Glaive_of_the_Silent_Champion",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silentchampion_glaive/silentchampion_glaive.vmdl"
+    },
+    {
+      "id": "6161",
+      "name": "Shield of the Silent Champion",
+      "item_name": "#DOTA_Item_Shield_of_the_Silent_Champion",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silentchampion_shield/silentchampion_shield.vmdl"
+    },
+    {
+      "id": "6162",
+      "name": "Shoulders of the Silent Champion",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Silent_Champion",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silentchampion_shoulders/silentchampion_shoulders.vmdl"
+    },
+    {
+      "id": "6163",
+      "name": "Robe of the Silent Champion",
+      "item_name": "#DOTA_Item_Robe_of_the_Silent_Champion",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silentchampion_belt/silentchampion_belt.vmdl"
+    },
+    {
+      "id": "6164",
+      "name": "Helmet of the Silent Champion",
+      "item_name": "#DOTA_Item_Helmet_of_the_Silent_Champion",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silentchampion_helmet/silentchampion_helmet.vmdl"
+    },
+    {
+      "id": "6387",
+      "name": "Bracers of the Tribunal",
+      "item_name": "#DOTA_Item_Bracers_of_the_Tribunal",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/whispertribunal_arms/whispertribunal_arms.vmdl"
+    },
+    {
+      "id": "6389",
+      "name": "Helmet of the Tribunal",
+      "item_name": "#DOTA_Item_Helmet_of_the_Tribunal",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/whispertribunal_head/whispertribunal_head.vmdl"
+    },
+    {
+      "id": "6390",
+      "name": "Mantle of the Tribunal",
+      "item_name": "#DOTA_Item_Mantle_of_the_Tribunal",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/whispertribunal_belt/whispertribunal_belt.vmdl"
+    },
+    {
+      "id": "6391",
+      "name": "Shield of the Tribunal",
+      "item_name": "#DOTA_Item_Shield_of_the_Tribunal",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/whispertribunal_shield/whispertribunal_shield.vmdl"
+    },
+    {
+      "id": "6393",
+      "name": "Drapes of the Tribunal",
+      "item_name": "#DOTA_Item_Drapes_of_the_Tribunal",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/whispertribunal_shoulder/whispertribunal_shoulder.vmdl"
+    },
+    {
+      "id": "6394",
+      "name": "Glaive of the Tribunal",
+      "item_name": "#DOTA_Item_Glaive_of_the_Tribunal",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/whispertribunal__weapon/whispertribunal__weapon.vmdl"
+    },
+    {
+      "id": "6483",
+      "name": "Threads of Aeol Drias",
+      "item_name": "#DOTA_Item_Threads_of_Aeol_Drias",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/aeol_drias_belt/aeol_drias_belt.vmdl"
+    },
+    {
+      "id": "6715",
+      "name": "Moon Whirl",
+      "item_name": "#DOTA_Item_Moon_Whirl",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/moon_whirl_weapon/moon_whirl_weapon.vmdl"
+    },
+    {
+      "id": "6862",
+      "name": "Headgear of Aeol Drias",
+      "item_name": "#DOTA_Item_Headgear_of_Aeol_Drias",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/aeol_drias_head/aeol_drias_head.vmdl"
+    },
+    {
+      "id": "6863",
+      "name": "Buckler of Aeol Drias",
+      "item_name": "#DOTA_Item_Buckler_of_Aeol_Drias",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/aeol_drias_shield/aeol_drias_shield.vmdl"
+    },
+    {
+      "id": "6864",
+      "name": "Tunic of Aeol Drias",
+      "item_name": "#DOTA_Item_Tunic_of_Aeol_Drias",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/aeol_drias_shoulder/aeol_drias_shoulder.vmdl"
+    },
+    {
+      "id": "6865",
+      "name": "Glaive of Aeol Drias",
+      "item_name": "#DOTA_Item_Glaive_of_Aeol_Drias",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/aeol_drias_weapon/aeol_drias_weapon.vmdl"
+    },
+    {
+      "id": "6876",
+      "name": "Bracers of Aeol Drias",
+      "item_name": "#DOTA_Item_Bracers_of_Aeol_Drias",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/aeol_drias_arms/aeol_drias_arms.vmdl"
+    },
+    {
+      "id": "7467",
+      "name": "Dam'arakan Muzzle",
+      "item_name": "#DOTA_Item_Damarakan_Muzzle",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/ti6_helmet/mesh/ti6_helmet.vmdl"
+    },
+    {
+      "id": "8033",
+      "name": "Dam'arakan Muzzle of the Crimson Witness",
+      "item_name": "#DOTA_Item_Damarakan_Muzzle_of_the_Crimson_Witness",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/ti6_helmet/mesh/ti6_helmet.vmdl"
+    },
+    {
+      "id": "8122",
+      "name": "Prow of the Final Utterance",
+      "item_name": "#DOTA_Item_Prow_of_the_Final_Utterance",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/bts_final_utterance_head/bts_final_utterance_head.vmdl"
+    },
+    {
+      "id": "8123",
+      "name": "Shield of the Final Utterance",
+      "item_name": "#DOTA_Item_Shield_of_the_Final_Utterance",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/bts_final_utterance_offhand/bts_final_utterance_offhand.vmdl"
+    },
+    {
+      "id": "8124",
+      "name": "Gauntlets of the Final Utterance",
+      "item_name": "#DOTA_Item_Gauntlets_of_the_Final_Utterance",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/bts_final_utterance_arms/bts_final_utterance_arms.vmdl"
+    },
+    {
+      "id": "8125",
+      "name": "Tassets of the Final Utterance",
+      "item_name": "#DOTA_Item_Tassets_of_the_Final_Utterance",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/bts_final_utterance_belt/bts_final_utterance_belt.vmdl"
+    },
+    {
+      "id": "8126",
+      "name": "Pauldrons of the Final Utterance",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Final_Utterance",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/bts_final_utterance_shoulder/bts_final_utterance_shoulder.vmdl"
+    },
+    {
+      "id": "8235",
+      "name": "Edge of the Final Utterance",
+      "item_name": "#DOTA_Item_Edge_of_the_Final_Utterance",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/bts_silencer_weapon/bts_silencer_weapon.vmdl"
+    },
+    {
+      "id": "9022",
+      "name": "Glaive of the Silent Edict",
+      "item_name": "#DOTA_Item_Glaive_of_the_Silent_Edict",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silent_guardian_weapon/silent_guardian_weapon.vmdl"
+    },
+    {
+      "id": "9023",
+      "name": "Shield of the Silent Edict",
+      "item_name": "#DOTA_Item_Shield_of_the_Silent_Edict",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand.vmdl"
+    },
+    {
+      "id": "9024",
+      "name": "Hair of the Silent Edict",
+      "item_name": "#DOTA_Item_Hair_of_the_Silent_Edict",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silent_guardian_head/silent_guardian_head.vmdl"
+    },
+    {
+      "id": "9025",
+      "name": "Shoulders of the Silent Edict",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Silent_Edict",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silent_guardian_shoulder/silent_guardian_shoulder.vmdl"
+    },
+    {
+      "id": "9026",
+      "name": "Armguards of the Silent Edict",
+      "item_name": "#DOTA_Item_Armguards_of_the_Silent_Edict",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silent_guardian_arms/silent_guardian_arms.vmdl"
+    },
+    {
+      "id": "9027",
+      "name": "Robe of the Silent Edict",
+      "item_name": "#DOTA_Item_Robe_of_the_Silent_Edict",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silent_guardian_belt/silent_guardian_belt.vmdl"
+    },
+    {
+      "id": "9109",
+      "name": "Edge of the Hazhadal Magebreaker",
+      "item_name": "#DOTA_Item_Edge_of_the_Hazhadal_Magebreaker",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/the_hazhadal_magebreaker_weapon/the_hazhadal_magebreaker_weapon.vmdl"
+    },
+    {
+      "id": "9110",
+      "name": "Shield of the Hazhadal Magebreaker",
+      "item_name": "#DOTA_Item_Shield_of_the_Hazhadal_Magebreaker",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/the_hazhadal_magebreaker_off_hand/the_hazhadal_magebreaker_off_hand.vmdl"
+    },
+    {
+      "id": "9111",
+      "name": "Belt of the Hazhadal Magebreaker",
+      "item_name": "#DOTA_Item_Belt_of_the_Hazhadal_Magebreaker",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/the_hazhadal_magebreaker_belt/the_hazhadal_magebreaker_belt.vmdl"
+    },
+    {
+      "id": "9112",
+      "name": "Bracers of the Hazhadal Magebreaker",
+      "item_name": "#DOTA_Item_Bracers_of_the_Hazhadal_Magebreaker",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/the_hazhadal_magebreaker_arms/the_hazhadal_magebreaker_arms.vmdl"
+    },
+    {
+      "id": "9113",
+      "name": "Mask of the Hazhadal Magebreaker",
+      "item_name": "#DOTA_Item_Mask_of_the_Hazhadal_Magebreaker",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/the_hazhadal_magebreaker_head/the_hazhadal_magebreaker_head.vmdl"
+    },
+    {
+      "id": "9114",
+      "name": "Cape of the Hazhadal Magebreaker",
+      "item_name": "#DOTA_Item_Cape_of_the_Hazhadal_Magebreaker",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/the_hazhadal_magebreaker_shoulder/the_hazhadal_magebreaker_shoulder.vmdl"
+    },
+    {
+      "id": "12414",
+      "name": "Glaive of Oscilla",
+      "item_name": "#DOTA_Item_Glaive_of_Oscilla",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silencer_ti8_immortal_weapon/silencer_ti8_immortal_weapon.vmdl"
+    },
+    {
+      "id": "12821",
+      "name": "Armor of Eternal Night",
+      "item_name": "#DOTA_Item_Armor_of_Eternal_Night",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_silent_paragon_shoulder/frostivus2018_silencer_silent_paragon_shoulder.vmdl"
+    },
+    {
+      "id": "12822",
+      "name": "Bracer of Eternal Night",
+      "item_name": "#DOTA_Item_Bracer_of_Eternal_Night",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_silent_paragon_arms/frostivus2018_silencer_silent_paragon_arms.vmdl"
+    },
+    {
+      "id": "12823",
+      "name": "Mask of Eternal Night",
+      "item_name": "#DOTA_Item_Mask_of_Eternal_Night",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_silent_paragon_head/frostivus2018_silencer_silent_paragon_head.vmdl"
+    },
+    {
+      "id": "12824",
+      "name": "Glaive of Eternal Night",
+      "item_name": "#DOTA_Item_Glaive_of_Eternal_Night",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_silent_paragon_weapon/frostivus2018_silencer_silent_paragon_weapon.vmdl"
+    },
+    {
+      "id": "12825",
+      "name": "Belt of Eternal Night",
+      "item_name": "#DOTA_Item_Belt_of_Eternal_Night",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_silent_paragon_belt/frostivus2018_silencer_silent_paragon_belt.vmdl"
+    },
+    {
+      "id": "12826",
+      "name": "Shield of Eternal Night",
+      "item_name": "#DOTA_Item_Shield_of_Eternal_Night",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_silent_paragon_off_hand/frostivus2018_silencer_silent_paragon_off_hand.vmdl"
+    },
+    {
+      "id": "12910",
+      "name": "Bracer of the Silvered Talon",
+      "item_name": "#DOTA_Item_Bracer_of_the_Silvered_Talon",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_arms/frostivus2018_silencer_high_priest_arms.vmdl"
+    },
+    {
+      "id": "12911",
+      "name": "Shield of the Silvered Talon",
+      "item_name": "#DOTA_Item_Shield_of_the_Silvered_Talon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_off_hand/frostivus2018_silencer_high_priest_off_hand.vmdl"
+    },
+    {
+      "id": "12912",
+      "name": "Helm of the Silvered Talon",
+      "item_name": "#DOTA_Item_Helm_of_the_Silvered_Talon",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_head/frostivus2018_silencer_high_priest_head.vmdl"
+    },
+    {
+      "id": "12913",
+      "name": "Glaive of the Silvered Talon",
+      "item_name": "#DOTA_Item_Glaive_of_the_Silvered_Talon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_weapon/frostivus2018_silencer_high_priest_weapon.vmdl"
+    },
+    {
+      "id": "12914",
+      "name": "Vestment of the Silvered Talon",
+      "item_name": "#DOTA_Item_Vestment_of_the_Silvered_Talon",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_shoulder/frostivus2018_silencer_high_priest_shoulder.vmdl"
+    },
+    {
+      "id": "12915",
+      "name": "Belt of the Silvered Talon",
+      "item_name": "#DOTA_Item_Belt_of_the_Silvered_Talon",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_belt/frostivus2018_silencer_high_priest_belt.vmdl"
+    },
+    {
+      "id": "13920",
+      "name": "Silent Slayer - Weapon",
+      "item_name": "#DOTA_Item_Silent_Slayer__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silent_huner_weapon/silent_huner_weapon.vmdl"
+    },
+    {
+      "id": "13921",
+      "name": "Silent Slayer - Shoulder",
+      "item_name": "#DOTA_Item_Silent_Slayer__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silent_huner_shoulder/silent_huner_shoulder.vmdl"
+    },
+    {
+      "id": "13922",
+      "name": "Silent Slayer - Off-Hand",
+      "item_name": "#DOTA_Item_Silent_Slayer__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silent_huner_off_hand/silent_huner_off_hand.vmdl"
+    },
+    {
+      "id": "13923",
+      "name": "Silent Slayer - Head",
+      "item_name": "#DOTA_Item_Silent_Slayer__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silent_huner_head/silent_huner_head.vmdl"
+    },
+    {
+      "id": "13924",
+      "name": "Silent Slayer - Belt",
+      "item_name": "#DOTA_Item_Silent_Slayer__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silent_huner_belt/silent_huner_belt.vmdl"
+    },
+    {
+      "id": "13926",
+      "name": "Silent Slayer - Equipment",
+      "item_name": "#DOTA_Item_Silent_Slayer__Equipment",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silent_huner_arms/silent_huner_arms.vmdl"
+    },
+    {
+      "id": "14962",
+      "name": "Aspect of Oscilla",
+      "item_name": "#DOTA_Item_Aspect_of_Oscilla",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silencer_ti10_immortal_shield/silencer_ti10_immortal_shield.vmdl"
+    },
+    {
+      "id": "20132",
+      "name": "The Hidden Talent Set",
+      "item_name": "#DOTA_Item_The_Hidden_Talent_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20274",
+      "name": "Guardian of Silence Set",
+      "item_name": "#DOTA_Item_Guardian_of_Silence_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20409",
+      "name": "Silent Champion",
+      "item_name": "#DOTA_Item_Silent_Champion",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20483",
+      "name": "Whisper of the Tribunal",
+      "item_name": "#DOTA_Item_Whisper_of_the_Tribunal",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20600",
+      "name": "Heirlooms of Aeol Drias",
+      "item_name": "#DOTA_Item_Heirlooms_of_Aeol_Drias",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20776",
+      "name": "Tools of the Final Utterance",
+      "item_name": "#DOTA_Item_Tools_of_the_Final_Utterance",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21071",
+      "name": "Silent Edict",
+      "item_name": "#DOTA_Item_Silent_Edict",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21090",
+      "name": "Hazhadal Magebreaker",
+      "item_name": "#DOTA_Item_Hazhadal_Magebreaker",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21304",
+      "name": "Hush of Eternal Night",
+      "item_name": "#DOTA_Item_Hush_of_Eternal_Night",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21320",
+      "name": "Order of the Silvered Talon",
+      "item_name": "#DOTA_Item_Order_of_the_Silvered_Talon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21465",
+      "name": "Silent Slayer",
+      "item_name": "#DOTA_Item_Silent_Slayer",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23206",
+      "name": "Summer Lineage Bracer of the Silvered Talon",
+      "item_name": "#DOTA_Item_Summer_Lineage_Bracer_of_the_Silvered_Talon",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_arms/frostivus2018_silencer_high_priest_arms.vmdl"
+    },
+    {
+      "id": "23207",
+      "name": "Summer Lineage Shield of the Silvered Talon",
+      "item_name": "#DOTA_Item_Summer_Lineage_Shield_of_the_Silvered_Talon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_off_hand/frostivus2018_silencer_high_priest_off_hand.vmdl"
+    },
+    {
+      "id": "23208",
+      "name": "Summer Lineage Helm of the Silvered Talon",
+      "item_name": "#DOTA_Item_Summer_Lineage_Helm_of_the_Silvered_Talon",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_head/frostivus2018_silencer_high_priest_head.vmdl"
+    },
+    {
+      "id": "23209",
+      "name": "Summer Lineage Glaive of the Silvered Talon",
+      "item_name": "#DOTA_Item_Summer_Lineage_Glaive_of_the_Silvered_Talon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_weapon/frostivus2018_silencer_high_priest_weapon.vmdl"
+    },
+    {
+      "id": "23210",
+      "name": "Summer Lineage Vestment of the Silvered Talon",
+      "item_name": "#DOTA_Item_Summer_Lineage_Vestment_of_the_Silvered_Talon",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_shoulder/frostivus2018_silencer_high_priest_shoulder.vmdl"
+    },
+    {
+      "id": "23211",
+      "name": "Summer Lineage Belt of the Silvered Talon",
+      "item_name": "#DOTA_Item_Summer_Lineage_Belt_of_the_Silvered_Talon",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/frostivus2018_silencer_high_priest_belt/frostivus2018_silencer_high_priest_belt.vmdl"
+    },
+    {
+      "id": "23212",
+      "name": "Summer Lineage Order of the Silvered Talon",
+      "item_name": "#DOTA_Item_Summer_Lineage_Order_of_the_Silvered_Talon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26314",
+      "name": "Grand Suppressor",
+      "item_name": "#DOTA_Item_Grand_Suppressor",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26315",
+      "name": "Grand Suppressor - Head",
+      "item_name": "#DOTA_Item_Grand_Suppressor__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silencer_grand_archivist_head/silencer_grand_archivist_head.vmdl"
+    },
+    {
+      "id": "26316",
+      "name": "Grand Suppressor - Shoulder",
+      "item_name": "#DOTA_Item_Grand_Suppressor__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silencer_grand_archivist_shoulder/silencer_grand_archivist_shoulder.vmdl"
+    },
+    {
+      "id": "26317",
+      "name": "Grand Suppressor - Arms",
+      "item_name": "#DOTA_Item_Grand_Suppressor__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silencer_grand_archivist_arms/silencer_grand_archivist_arms.vmdl"
+    },
+    {
+      "id": "26318",
+      "name": "Grand Suppressor - Belt",
+      "item_name": "#DOTA_Item_Grand_Suppressor__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silencer_grand_archivist_belt/silencer_grand_archivist_belt.vmdl"
+    },
+    {
+      "id": "26319",
+      "name": "Grand Suppressor - Weapon",
+      "item_name": "#DOTA_Item_Grand_Suppressor__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silencer_grand_archivist_weapon/silencer_grand_archivist_weapon.vmdl"
+    },
+    {
+      "id": "26320",
+      "name": "Grand Suppressor - Off-Hand Weapon",
+      "item_name": "#DOTA_Item_Grand_Suppressor__OffHand_Weapon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silencer_grand_archivist_offhand_weapon/silencer_grand_archivist_offhand_weapon.vmdl"
+    },
+    {
+      "id": "28219",
+      "name": "Whispering Wings - Offhand Weapon",
+      "item_name": "#DOTA_Item_Whispering_Wings__Offhand_Weapon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silencer_avilliva_shield/silencer_avilliva_shield.vmdl"
+    },
+    {
+      "id": "28220",
+      "name": "Whispering Wings - Weapon",
+      "item_name": "#DOTA_Item_Whispering_Wings__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silencer_avilliva_weapon/silencer_avilliva_weapon.vmdl"
+    },
+    {
+      "id": "28221",
+      "name": "Whispering Wings",
+      "item_name": "#DOTA_Item_Whispering_Wings",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28222",
+      "name": "Whispering Wings - Head",
+      "item_name": "#DOTA_Item_Whispering_Wings__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silencer_avilliva_head/silencer_avilliva_head.vmdl"
+    },
+    {
+      "id": "28223",
+      "name": "Whispering Wings - Belt",
+      "item_name": "#DOTA_Item_Whispering_Wings__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silencer_avilliva_belt/silencer_avilliva_belt.vmdl"
+    },
+    {
+      "id": "28224",
+      "name": "Whispering Wings - Arms",
+      "item_name": "#DOTA_Item_Whispering_Wings__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silencer_avilliva_arms/silencer_avilliva_arms.vmdl"
+    },
+    {
+      "id": "28225",
+      "name": "Whispering Wings - Shoulder",
+      "item_name": "#DOTA_Item_Whispering_Wings__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/silencer/silencer_avilliva_shoulders/silencer_avilliva_shoulders.vmdl"
+    }
+  ]
+}

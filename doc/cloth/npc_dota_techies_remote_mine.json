@@ -1,0 +1,22 @@
+{
+  "defaults": {
+    "ambient_effects": {
+      "id": "8645",
+      "name": "Techies Remote Mine's Ambient Effects",
+      "item_name": "#DOTA_Item_Techies_Remote_Mine_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [],
+  "items": [
+    {
+      "id": "8645",
+      "name": "Techies Remote Mine's Ambient Effects",
+      "item_name": "#DOTA_Item_Techies_Remote_Mine_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    }
+  ]
+}

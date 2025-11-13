@@ -1,0 +1,1101 @@
+{
+  "defaults": {
+    "head": {
+      "id": "277",
+      "name": "Weaver's Antennae",
+      "item_name": "#DOTA_Item_Weavers_Antennae",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/weaver/weaver_antlers.vmdl"
+    },
+    "legs": {
+      "id": "278",
+      "name": "Weaver's Legs",
+      "item_name": "#DOTA_Item_Weavers_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "model_player": "models/heroes/weaver/weaver_legs.vmdl"
+    },
+    "arms": {
+      "id": "279",
+      "name": "Weaver's Arms",
+      "item_name": "#DOTA_Item_Weavers_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "model_player": "models/heroes/weaver/weaver_arms.vmdl"
+    },
+    "back": {
+      "id": "280",
+      "name": "Weaver's Back",
+      "item_name": "#DOTA_Item_Weavers_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/weaver/weaver_head.vmdl"
+    },
+    "misc": {
+      "id": "585",
+      "name": "Weaver's Miscellaneous",
+      "item_name": "#DOTA_Item_Weavers_Miscellaneous",
+      "item_slot": "misc",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Armored_Exoskeleton",
+      "store_bundle": "Armored Exoskeleton Set",
+      "portrait_image": "econ/sets/v2/armored_exoskeleton",
+      "items": [
+        {
+          "name": "Armored Exoskeleton Arms",
+          "id": "4570",
+          "item_name": "#DOTA_Item_Armored_Exoskeleton_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/weaver/stalkers_exoskeleton_arms_low/stalkers_exoskeleton_arms_low.vmdl"
+        },
+        {
+          "name": "Armored Exoskeleton Back",
+          "id": "4635",
+          "item_name": "#DOTA_Item_Armored_Exoskeleton_Back",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/weaver/stalkers_exoskeleton_back_low/stalkers_exoskeleton_back_low.vmdl"
+        },
+        {
+          "name": "Armored Exoskeleton Wings",
+          "id": "4636",
+          "item_name": "#DOTA_Item_Armored_Exoskeleton_Wings",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/weaver/stalkers_exoskeleton_head_low/stalkers_exoskeleton_head_low.vmdl"
+        },
+        {
+          "name": "Armored Exoskeleton Legs",
+          "id": "4637",
+          "item_name": "#DOTA_Item_Armored_Exoskeleton_Legs",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/weaver/stalkers_exoskeleton_legs_low/stalkers_exoskeleton_legs_low.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Combine_of_the_Loomkeeper",
+      "store_bundle": "Combine of the Loomkeeper",
+      "portrait_image": "econ/sets/v2/combine_of_the_loomkeeper",
+      "items": [
+        {
+          "name": "Abdomen of the Loomkeeper",
+          "id": "9070",
+          "item_name": "#DOTA_Item_Abdomen_of_the_Loomkeeper",
+          "item_slot": "misc",
+          "item_rarity": "mythical",
+          "model_player": "models/items/weaver/the_dusk_crawler_misc/the_dusk_crawler_misc.vmdl"
+        },
+        {
+          "name": "Legs of the Loomkeeper",
+          "id": "9069",
+          "item_name": "#DOTA_Item_Legs_of_the_Loomkeeper",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/weaver/the_dusk_crawler_legs/the_dusk_crawler_legs.vmdl"
+        },
+        {
+          "name": "Claws of the Loomkeeper",
+          "id": "9068",
+          "item_name": "#DOTA_Item_Claws_of_the_Loomkeeper",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/weaver/the_dusk_crawler_arms/the_dusk_crawler_arms.vmdl"
+        },
+        {
+          "name": "Thorax of the Loomkeeper",
+          "id": "9067",
+          "item_name": "#DOTA_Item_Thorax_of_the_Loomkeeper",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/weaver/the_dusk_crawler_back/the_dusk_crawler_back.vmdl"
+        },
+        {
+          "name": "Antennae of the Loomkeeper",
+          "id": "9066",
+          "item_name": "#DOTA_Item_Antennae_of_the_Loomkeeper",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/weaver/the_dusk_crawler_head/the_dusk_crawler_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dimension_Ripper",
+      "store_bundle": "Dimension Ripper",
+      "portrait_image": "econ/sets/v2/dimension_ripper",
+      "items": [
+        {
+          "name": "Dimension Ripper Arms",
+          "id": "18469",
+          "item_name": "#DOTA_Item_Dimension_Ripper_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/weaver/spring2021_dimension_ripper_arms/spring2021_dimension_ripper_arms.vmdl"
+        },
+        {
+          "name": "Dimension Ripper Back",
+          "id": "18470",
+          "item_name": "#DOTA_Item_Dimension_Ripper_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/weaver/spring2021_dimension_ripper_back/spring2021_dimension_ripper_back.vmdl"
+        },
+        {
+          "name": "Dimension Ripper Head",
+          "id": "18471",
+          "item_name": "#DOTA_Item_Dimension_Ripper_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/weaver/spring2021_dimension_ripper_head/spring2021_dimension_ripper_head.vmdl"
+        },
+        {
+          "name": "Dimension Ripper Legs",
+          "id": "18472",
+          "item_name": "#DOTA_Item_Dimension_Ripper_Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/weaver/spring2021_dimension_ripper_legs/spring2021_dimension_ripper_legs.vmdl"
+        },
+        {
+          "name": "Dimension Ripper Misc",
+          "id": "18473",
+          "item_name": "#DOTA_Item_Dimension_Ripper_Misc",
+          "item_slot": "misc",
+          "item_rarity": "mythical",
+          "model_player": "models/items/weaver/spring2021_dimension_ripper_misc/spring2021_dimension_ripper_misc.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ember_Tipped_Carapace",
+      "store_bundle": "Ember Tipped Carapace Set",
+      "portrait_image": "econ/sets/v2/ember_tipped",
+      "items": [
+        {
+          "name": "Ember Tipped Carapace",
+          "id": "4819",
+          "item_name": "#DOTA_Item_Ember_Tipped_Carapace",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/weaver/etc_back/etc_back.vmdl"
+        },
+        {
+          "name": "Ember Tipped Striders",
+          "id": "4820",
+          "item_name": "#DOTA_Item_Ember_Tipped_Striders",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/weaver/etc_legs/etc_legs.vmdl"
+        },
+        {
+          "name": "Ember Tipped Manipulators",
+          "id": "4821",
+          "item_name": "#DOTA_Item_Ember_Tipped_Manipulators",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/weaver/etc_arms/etc_arms.vmdl"
+        },
+        {
+          "name": "Ember Tipped Antennae",
+          "id": "4822",
+          "item_name": "#DOTA_Item_Ember_Tipped_Antennae",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/weaver/etc_head/etc_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Grasp_of_the_Riven_Exile",
+      "store_bundle": "Grasp of the Riven Exile",
+      "portrait_image": "econ/sets/v2/grasp_of_the_riven_exile",
+      "items": [
+        {
+          "name": "Legs of the Riven Exile",
+          "id": "9931",
+          "item_name": "#DOTA_Item_Legs_of_the_Riven_Exile",
+          "item_slot": "legs",
+          "item_rarity": "mythical",
+          "model_player": "models/items/weaver/ti8_weaver_brood_crawler_legs/ti8_weaver_brood_crawler_legs.vmdl"
+        },
+        {
+          "name": "Mandibles of the Riven Exile",
+          "id": "9930",
+          "item_name": "#DOTA_Item_Mandibles_of_the_Riven_Exile",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/weaver/ti8_weaver_brood_crawler_head/ti8_weaver_brood_crawler_head.vmdl"
+        },
+        {
+          "name": "Abdomen of the Riven Exile",
+          "id": "9927",
+          "item_name": "#DOTA_Item_Abdomen_of_the_Riven_Exile",
+          "item_slot": "misc",
+          "item_rarity": "mythical",
+          "model_player": "models/items/weaver/ti8_weaver_brood_crawler_misc/ti8_weaver_brood_crawler_misc.vmdl"
+        },
+        {
+          "name": "Spurs of the Riven Exile",
+          "id": "9928",
+          "item_name": "#DOTA_Item_Spurs_of_the_Riven_Exile",
+          "item_slot": "arms",
+          "item_rarity": "mythical",
+          "model_player": "models/items/weaver/ti8_weaver_brood_crawler_arms/ti8_weaver_brood_crawler_arms.vmdl"
+        },
+        {
+          "name": "Crest of the Riven Exile",
+          "id": "9929",
+          "item_name": "#DOTA_Item_Crest_of_the_Riven_Exile",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/weaver/ti8_weaver_brood_crawler_back/ti8_weaver_brood_crawler_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Inerrant_Eminence",
+      "store_bundle": "Inerrant Eminence",
+      "portrait_image": "econ/sets/v2/inerrant_eminence",
+      "items": [
+        {
+          "name": "Sting of Inerrant Eminence",
+          "id": "13238",
+          "item_name": "#DOTA_Item_Sting_of_Inerrant_Eminence",
+          "item_slot": "misc",
+          "item_rarity": "rare",
+          "model_player": "models/items/weaver/weaver_devil_ripper_misc/weaver_devil_ripper_misc.vmdl"
+        },
+        {
+          "name": "Legs of Inerrant Eminence",
+          "id": "13225",
+          "item_name": "#DOTA_Item_Legs_of_Inerrant_Eminence",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/weaver/weaver_devil_ripper_legs/weaver_devil_ripper_legs.vmdl"
+        },
+        {
+          "name": "Hands of Inerrant Eminence",
+          "id": "13224",
+          "item_name": "#DOTA_Item_Hands_of_Inerrant_Eminence",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/weaver/weaver_devil_ripper_arms/weaver_devil_ripper_arms.vmdl"
+        },
+        {
+          "name": "Horns of Eminence",
+          "id": "13223",
+          "item_name": "#DOTA_Item_Horns_of_Eminence",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/weaver/weaver_devil_ripper_head/weaver_devil_ripper_head.vmdl"
+        },
+        {
+          "name": "Face of Inerrant Eminence",
+          "id": "13222",
+          "item_name": "#DOTA_Item_Face_of_Inerrant_Eminence",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/weaver/weaver_devil_ripper_back/weaver_devil_ripper_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Master_Weaver",
+      "store_bundle": "Master Weaver Set",
+      "portrait_image": "econ/sets/v2/master_weaver_set",
+      "items": [
+        {
+          "name": "Antennae of the Master Weaver",
+          "id": "5660",
+          "item_name": "#DOTA_Item_Antennae_of_the_Master_Weaver",
+          "item_slot": "head",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/weaver/master_weaver_head/master_weaver_head.vmdl"
+        },
+        {
+          "name": "Arms of the Master Weaver",
+          "id": "5606",
+          "item_name": "#DOTA_Item_Arms_of_the_Master_Weaver",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/weaver/master_weaver_arms/master_weaver_arms.vmdl"
+        },
+        {
+          "name": "Spikes of the Master Weaver",
+          "id": "5632",
+          "item_name": "#DOTA_Item_Spikes_of_the_Master_Weaver",
+          "item_slot": "misc",
+          "item_rarity": "common",
+          "model_player": "models/items/weaver/spikes_master_weaver/spikes_master_weaver.vmdl"
+        },
+        {
+          "name": "Legs of the Master Weaver",
+          "id": "5633",
+          "item_name": "#DOTA_Item_Legs_of_the_Master_Weaver",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/weaver/master_weaver_legs/master_weaver_legs.vmdl"
+        },
+        {
+          "name": "Back of the Master Weaver",
+          "id": "5635",
+          "item_name": "#DOTA_Item_Back_of_the_Master_Weaver",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/weaver/master_weaver_back/master_weaver_back.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dimensional_Infestation",
+      "store_bundle": "Dimensional Infestation Set",
+      "portrait_image": "econ/sets/v2/weaver_dimensional_infestation",
+      "items": [
+        {
+          "name": "Infesting Cranium",
+          "id": "6130",
+          "item_name": "#DOTA_Item_Infesting_Cranium",
+          "item_slot": "back",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/weaver/infesting_cranium/infesting_cranium.vmdl"
+        },
+        {
+          "name": "Infesting Legs",
+          "id": "6131",
+          "item_name": "#DOTA_Item_Infesting_Legs",
+          "item_slot": "legs",
+          "item_rarity": "common",
+          "model_player": "models/items/weaver/infesting_legs/infesting_legs.vmdl"
+        },
+        {
+          "name": "Infesting Receptors",
+          "id": "6132",
+          "item_name": "#DOTA_Item_Infesting_Receptors",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/weaver/infesting_receptors/infesting_receptors.vmdl"
+        },
+        {
+          "name": "Infesting Claws",
+          "id": "6133",
+          "item_name": "#DOTA_Item_Infesting_Claws",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/weaver/infesting_claws/infesting_claws.vmdl"
+        },
+        {
+          "name": "Infesting Incubator",
+          "id": "6134",
+          "item_name": "#DOTA_Item_Infesting_Incubator",
+          "item_slot": "misc",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/weaver/infesting_incubator/infesting_incubator.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Threads_of_Entwined_Fate",
+      "store_bundle": "Threads of Entwined Fate & Star Series 8 Bundle",
+      "portrait_image": "econ/sets/v2/weaver_threads",
+      "items": [
+        {
+          "name": "Feelers of Entwined Fate",
+          "id": "5682",
+          "item_name": "#DOTA_Item_Feelers_of_Entwined_Fate",
+          "item_slot": "arms",
+          "item_rarity": "common",
+          "model_player": "models/items/weaver/starl_arms_t1/starl_arms_t1.vmdl"
+        },
+        {
+          "name": "Stinger of Entwined Fate",
+          "id": "5566",
+          "item_name": "#DOTA_Item_Stinger_of_Entwined_Fate",
+          "item_slot": "misc",
+          "item_rarity": "common",
+          "model_player": "models/items/weaver/starl_misc_t1/starl_misc_t1.vmdl"
+        },
+        {
+          "name": "Limbs of Entwined Fate",
+          "id": "5676",
+          "item_name": "#DOTA_Item_Limbs_of_Entwined_Fate",
+          "item_slot": "legs",
+          "item_rarity": "uncommon",
+          "model_player": "models/items/weaver/starl_legs_t1/starl_legs_t1.vmdl"
+        },
+        {
+          "name": "Whiskers of Entwined Fate",
+          "id": "5679",
+          "item_name": "#DOTA_Item_Whiskers_of_Entwined_Fate",
+          "item_slot": "head",
+          "item_rarity": "common",
+          "model_player": "models/items/weaver/starl_head_t1/starl_head_t1.vmdl"
+        },
+        {
+          "name": "Crown of Entwined Fate",
+          "id": "5680",
+          "item_name": "#DOTA_Item_Crown_of_Entwined_Fate",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/weaver/starl_back_t1/starl_back_t1.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Vespoid_Stalker",
+      "store_bundle": "Vespoid Stalker",
+      "portrait_image": "econ/sets/v2/weaver_vespoid_stalker",
+      "items": [
+        {
+          "name": "Vespoid Stalker Back",
+          "id": "17889",
+          "item_name": "#DOTA_Item_Vespoid_Stalker_Back",
+          "item_slot": "back",
+          "item_rarity": "rare",
+          "model_player": "models/items/weaver/vespoid_stalker_back/vespoid_stalker_back.vmdl"
+        },
+        {
+          "name": "Vespoid Stalker Head",
+          "id": "17888",
+          "item_name": "#DOTA_Item_Vespoid_Stalker_Head",
+          "item_slot": "head",
+          "item_rarity": "rare",
+          "model_player": "models/items/weaver/vespoid_stalker_head/vespoid_stalker_head.vmdl"
+        },
+        {
+          "name": "Vespoid Stalker Arms",
+          "id": "17890",
+          "item_name": "#DOTA_Item_Vespoid_Stalker_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare",
+          "model_player": "models/items/weaver/vespoid_stalker_arms/vespoid_stalker_arms.vmdl"
+        },
+        {
+          "name": "Vespoid Stalker Legs",
+          "id": "17887",
+          "item_name": "#DOTA_Item_Vespoid_Stalker_Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare",
+          "model_player": "models/items/weaver/vespoid_stalker_legs/vespoid_stalker_legs.vmdl"
+        },
+        {
+          "name": "Vespoid Stalker Misc",
+          "id": "17886",
+          "item_name": "#DOTA_Item_Vespoid_Stalker_Misc",
+          "item_slot": "misc",
+          "item_rarity": "rare",
+          "model_player": "models/items/weaver/vespoid_stalker_misc/vespoid_stalker_misc.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "277",
+      "name": "Weaver's Antennae",
+      "item_name": "#DOTA_Item_Weavers_Antennae",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/weaver/weaver_antlers.vmdl"
+    },
+    {
+      "id": "278",
+      "name": "Weaver's Legs",
+      "item_name": "#DOTA_Item_Weavers_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/weaver/weaver_legs.vmdl"
+    },
+    {
+      "id": "279",
+      "name": "Weaver's Arms",
+      "item_name": "#DOTA_Item_Weavers_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/weaver/weaver_arms.vmdl"
+    },
+    {
+      "id": "280",
+      "name": "Weaver's Back",
+      "item_name": "#DOTA_Item_Weavers_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/weaver/weaver_head.vmdl"
+    },
+    {
+      "id": "585",
+      "name": "Weaver's Miscellaneous",
+      "item_name": "#DOTA_Item_Weavers_Miscellaneous",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4570",
+      "name": "Armored Exoskeleton Arms",
+      "item_name": "#DOTA_Item_Armored_Exoskeleton_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/stalkers_exoskeleton_arms_low/stalkers_exoskeleton_arms_low.vmdl"
+    },
+    {
+      "id": "4635",
+      "name": "Armored Exoskeleton Back",
+      "item_name": "#DOTA_Item_Armored_Exoskeleton_Back",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/stalkers_exoskeleton_back_low/stalkers_exoskeleton_back_low.vmdl"
+    },
+    {
+      "id": "4636",
+      "name": "Armored Exoskeleton Wings",
+      "item_name": "#DOTA_Item_Armored_Exoskeleton_Wings",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/stalkers_exoskeleton_head_low/stalkers_exoskeleton_head_low.vmdl"
+    },
+    {
+      "id": "4637",
+      "name": "Armored Exoskeleton Legs",
+      "item_name": "#DOTA_Item_Armored_Exoskeleton_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/stalkers_exoskeleton_legs_low/stalkers_exoskeleton_legs_low.vmdl"
+    },
+    {
+      "id": "4819",
+      "name": "Ember Tipped Carapace",
+      "item_name": "#DOTA_Item_Ember_Tipped_Carapace",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/etc_back/etc_back.vmdl"
+    },
+    {
+      "id": "4820",
+      "name": "Ember Tipped Striders",
+      "item_name": "#DOTA_Item_Ember_Tipped_Striders",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/etc_legs/etc_legs.vmdl"
+    },
+    {
+      "id": "4821",
+      "name": "Ember Tipped Manipulators",
+      "item_name": "#DOTA_Item_Ember_Tipped_Manipulators",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/etc_arms/etc_arms.vmdl"
+    },
+    {
+      "id": "4822",
+      "name": "Ember Tipped Antennae",
+      "item_name": "#DOTA_Item_Ember_Tipped_Antennae",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/etc_head/etc_head.vmdl"
+    },
+    {
+      "id": "5566",
+      "name": "Stinger of Entwined Fate",
+      "item_name": "#DOTA_Item_Stinger_of_Entwined_Fate",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/starl_misc_t1/starl_misc_t1.vmdl"
+    },
+    {
+      "id": "5606",
+      "name": "Arms of the Master Weaver",
+      "item_name": "#DOTA_Item_Arms_of_the_Master_Weaver",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/master_weaver_arms/master_weaver_arms.vmdl"
+    },
+    {
+      "id": "5632",
+      "name": "Spikes of the Master Weaver",
+      "item_name": "#DOTA_Item_Spikes_of_the_Master_Weaver",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/spikes_master_weaver/spikes_master_weaver.vmdl"
+    },
+    {
+      "id": "5633",
+      "name": "Legs of the Master Weaver",
+      "item_name": "#DOTA_Item_Legs_of_the_Master_Weaver",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/master_weaver_legs/master_weaver_legs.vmdl"
+    },
+    {
+      "id": "5635",
+      "name": "Back of the Master Weaver",
+      "item_name": "#DOTA_Item_Back_of_the_Master_Weaver",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/master_weaver_back/master_weaver_back.vmdl"
+    },
+    {
+      "id": "5660",
+      "name": "Antennae of the Master Weaver",
+      "item_name": "#DOTA_Item_Antennae_of_the_Master_Weaver",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/master_weaver_head/master_weaver_head.vmdl"
+    },
+    {
+      "id": "5676",
+      "name": "Limbs of Entwined Fate",
+      "item_name": "#DOTA_Item_Limbs_of_Entwined_Fate",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/starl_legs_t1/starl_legs_t1.vmdl"
+    },
+    {
+      "id": "5679",
+      "name": "Whiskers of Entwined Fate",
+      "item_name": "#DOTA_Item_Whiskers_of_Entwined_Fate",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/starl_head_t1/starl_head_t1.vmdl"
+    },
+    {
+      "id": "5680",
+      "name": "Crown of Entwined Fate",
+      "item_name": "#DOTA_Item_Crown_of_Entwined_Fate",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/starl_back_t1/starl_back_t1.vmdl"
+    },
+    {
+      "id": "5682",
+      "name": "Feelers of Entwined Fate",
+      "item_name": "#DOTA_Item_Feelers_of_Entwined_Fate",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/starl_arms_t1/starl_arms_t1.vmdl"
+    },
+    {
+      "id": "6130",
+      "name": "Infesting Cranium",
+      "item_name": "#DOTA_Item_Infesting_Cranium",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/infesting_cranium/infesting_cranium.vmdl"
+    },
+    {
+      "id": "6131",
+      "name": "Infesting Legs",
+      "item_name": "#DOTA_Item_Infesting_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/infesting_legs/infesting_legs.vmdl"
+    },
+    {
+      "id": "6132",
+      "name": "Infesting Receptors",
+      "item_name": "#DOTA_Item_Infesting_Receptors",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/infesting_receptors/infesting_receptors.vmdl"
+    },
+    {
+      "id": "6133",
+      "name": "Infesting Claws",
+      "item_name": "#DOTA_Item_Infesting_Claws",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/infesting_claws/infesting_claws.vmdl"
+    },
+    {
+      "id": "6134",
+      "name": "Infesting Incubator",
+      "item_name": "#DOTA_Item_Infesting_Incubator",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/infesting_incubator/infesting_incubator.vmdl"
+    },
+    {
+      "id": "7468",
+      "name": "Skittering Desolation",
+      "item_name": "#DOTA_Item_Skittering_Desolation",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/skittering_desolation_arms/skittering_desolation_arms.vmdl"
+    },
+    {
+      "id": "7578",
+      "name": "Crimson Pique",
+      "item_name": "#DOTA_Item_Crimson_Pique",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/crimson_pique/mesh/crimson_pique_model.vmdl"
+    },
+    {
+      "id": "7810",
+      "name": "Crimson Cyrridae",
+      "item_name": "#DOTA_Item_Crimson_Cyrridae",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/weaver_immortal_head_ti7/weaver_immortal_head_ti7.vmdl"
+    },
+    {
+      "id": "7813",
+      "name": "Golden Cyrridae",
+      "item_name": "#DOTA_Item_Golden_Cyrridae",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/weaver_immortal_head_ti7/weaver_immortal_head_ti7.vmdl"
+    },
+    {
+      "id": "9066",
+      "name": "Antennae of the Loomkeeper",
+      "item_name": "#DOTA_Item_Antennae_of_the_Loomkeeper",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/the_dusk_crawler_head/the_dusk_crawler_head.vmdl"
+    },
+    {
+      "id": "9067",
+      "name": "Thorax of the Loomkeeper",
+      "item_name": "#DOTA_Item_Thorax_of_the_Loomkeeper",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/the_dusk_crawler_back/the_dusk_crawler_back.vmdl"
+    },
+    {
+      "id": "9068",
+      "name": "Claws of the Loomkeeper",
+      "item_name": "#DOTA_Item_Claws_of_the_Loomkeeper",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/the_dusk_crawler_arms/the_dusk_crawler_arms.vmdl"
+    },
+    {
+      "id": "9069",
+      "name": "Legs of the Loomkeeper",
+      "item_name": "#DOTA_Item_Legs_of_the_Loomkeeper",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/the_dusk_crawler_legs/the_dusk_crawler_legs.vmdl"
+    },
+    {
+      "id": "9070",
+      "name": "Abdomen of the Loomkeeper",
+      "item_name": "#DOTA_Item_Abdomen_of_the_Loomkeeper",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/the_dusk_crawler_misc/the_dusk_crawler_misc.vmdl"
+    },
+    {
+      "id": "9743",
+      "name": "Taunt: Exterminated",
+      "item_name": "#DOTA_Item_Taunt_Exterminated",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "9927",
+      "name": "Abdomen of the Riven Exile",
+      "item_name": "#DOTA_Item_Abdomen_of_the_Riven_Exile",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/ti8_weaver_brood_crawler_misc/ti8_weaver_brood_crawler_misc.vmdl"
+    },
+    {
+      "id": "9928",
+      "name": "Spurs of the Riven Exile",
+      "item_name": "#DOTA_Item_Spurs_of_the_Riven_Exile",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/ti8_weaver_brood_crawler_arms/ti8_weaver_brood_crawler_arms.vmdl"
+    },
+    {
+      "id": "9929",
+      "name": "Crest of the Riven Exile",
+      "item_name": "#DOTA_Item_Crest_of_the_Riven_Exile",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/ti8_weaver_brood_crawler_back/ti8_weaver_brood_crawler_back.vmdl"
+    },
+    {
+      "id": "9930",
+      "name": "Mandibles of the Riven Exile",
+      "item_name": "#DOTA_Item_Mandibles_of_the_Riven_Exile",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/ti8_weaver_brood_crawler_head/ti8_weaver_brood_crawler_head.vmdl"
+    },
+    {
+      "id": "9931",
+      "name": "Legs of the Riven Exile",
+      "item_name": "#DOTA_Item_Legs_of_the_Riven_Exile",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/ti8_weaver_brood_crawler_legs/ti8_weaver_brood_crawler_legs.vmdl"
+    },
+    {
+      "id": "13222",
+      "name": "Face of Inerrant Eminence",
+      "item_name": "#DOTA_Item_Face_of_Inerrant_Eminence",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/weaver_devil_ripper_back/weaver_devil_ripper_back.vmdl"
+    },
+    {
+      "id": "13223",
+      "name": "Horns of Eminence",
+      "item_name": "#DOTA_Item_Horns_of_Eminence",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/weaver_devil_ripper_head/weaver_devil_ripper_head.vmdl"
+    },
+    {
+      "id": "13224",
+      "name": "Hands of Inerrant Eminence",
+      "item_name": "#DOTA_Item_Hands_of_Inerrant_Eminence",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/weaver_devil_ripper_arms/weaver_devil_ripper_arms.vmdl"
+    },
+    {
+      "id": "13225",
+      "name": "Legs of Inerrant Eminence",
+      "item_name": "#DOTA_Item_Legs_of_Inerrant_Eminence",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/weaver_devil_ripper_legs/weaver_devil_ripper_legs.vmdl"
+    },
+    {
+      "id": "13238",
+      "name": "Sting of Inerrant Eminence",
+      "item_name": "#DOTA_Item_Sting_of_Inerrant_Eminence",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/weaver_devil_ripper_misc/weaver_devil_ripper_misc.vmdl"
+    },
+    {
+      "id": "17886",
+      "name": "Vespoid Stalker Misc",
+      "item_name": "#DOTA_Item_Vespoid_Stalker_Misc",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/vespoid_stalker_misc/vespoid_stalker_misc.vmdl"
+    },
+    {
+      "id": "17887",
+      "name": "Vespoid Stalker Legs",
+      "item_name": "#DOTA_Item_Vespoid_Stalker_Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/vespoid_stalker_legs/vespoid_stalker_legs.vmdl"
+    },
+    {
+      "id": "17888",
+      "name": "Vespoid Stalker Head",
+      "item_name": "#DOTA_Item_Vespoid_Stalker_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/vespoid_stalker_head/vespoid_stalker_head.vmdl"
+    },
+    {
+      "id": "17889",
+      "name": "Vespoid Stalker Back",
+      "item_name": "#DOTA_Item_Vespoid_Stalker_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/vespoid_stalker_back/vespoid_stalker_back.vmdl"
+    },
+    {
+      "id": "17890",
+      "name": "Vespoid Stalker Arms",
+      "item_name": "#DOTA_Item_Vespoid_Stalker_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/vespoid_stalker_arms/vespoid_stalker_arms.vmdl"
+    },
+    {
+      "id": "18469",
+      "name": "Dimension Ripper Arms",
+      "item_name": "#DOTA_Item_Dimension_Ripper_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/spring2021_dimension_ripper_arms/spring2021_dimension_ripper_arms.vmdl"
+    },
+    {
+      "id": "18470",
+      "name": "Dimension Ripper Back",
+      "item_name": "#DOTA_Item_Dimension_Ripper_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/spring2021_dimension_ripper_back/spring2021_dimension_ripper_back.vmdl"
+    },
+    {
+      "id": "18471",
+      "name": "Dimension Ripper Head",
+      "item_name": "#DOTA_Item_Dimension_Ripper_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/spring2021_dimension_ripper_head/spring2021_dimension_ripper_head.vmdl"
+    },
+    {
+      "id": "18472",
+      "name": "Dimension Ripper Legs",
+      "item_name": "#DOTA_Item_Dimension_Ripper_Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/spring2021_dimension_ripper_legs/spring2021_dimension_ripper_legs.vmdl"
+    },
+    {
+      "id": "18473",
+      "name": "Dimension Ripper Misc",
+      "item_name": "#DOTA_Item_Dimension_Ripper_Misc",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/weaver/spring2021_dimension_ripper_misc/spring2021_dimension_ripper_misc.vmdl"
+    },
+    {
+      "id": "20136",
+      "name": "Ember Tipped Carapace Set",
+      "item_name": "#DOTA_Item_Ember_Tipped_Carapace_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20171",
+      "name": "Armored Exoskeleton Set",
+      "item_name": "#DOTA_Item_Armored_Exoskeleton_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20304",
+      "name": "Master Weaver Set",
+      "item_name": "#DOTA_Item_Master_Weaver_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20314",
+      "name": "Threads of Entwined Fate & Star Series 8 Bundle",
+      "item_name": "#DOTA_Item_Threads_of_Entwined_Fate__Star_Series_8_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20398",
+      "name": "Dimensional Infestation Set",
+      "item_name": "#DOTA_Item_Dimensional_Infestation_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21082",
+      "name": "Combine of the Loomkeeper",
+      "item_name": "#DOTA_Item_Combine_of_the_Loomkeeper",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21205",
+      "name": "Grasp of the Riven Exile",
+      "item_name": "#DOTA_Item_Grasp_of_the_Riven_Exile",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21360",
+      "name": "Inerrant Eminence",
+      "item_name": "#DOTA_Item_Inerrant_Eminence",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21714",
+      "name": "Vespoid Stalker",
+      "item_name": "#DOTA_Item_Vespoid_Stalker",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21811",
+      "name": "Dimension Ripper",
+      "item_name": "#DOTA_Item_Dimension_Ripper",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    }
+  ]
+}

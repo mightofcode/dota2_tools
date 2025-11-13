@@ -1,0 +1,22 @@
+{
+  "defaults": {
+    "ambient_effects": {
+      "id": "8362",
+      "name": "Warlock Golem's Ambient Effects",
+      "item_name": "#DOTA_Item_Warlock_Golem_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [],
+  "items": [
+    {
+      "id": "8362",
+      "name": "Warlock Golem's Ambient Effects",
+      "item_name": "#DOTA_Item_Warlock_Golem_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    }
+  ]
+}

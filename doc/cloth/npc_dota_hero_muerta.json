@@ -1,0 +1,378 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "804",
+      "name": "Muerta's Mercy & Grace",
+      "item_name": "#DOTA_Item_Muertas_Mercy__Grace",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "model_player": "models/heroes/muerta/muerta_weapons.vmdl"
+    },
+    "head": {
+      "id": "807",
+      "name": "Muerta's Mask",
+      "item_name": "#DOTA_Item_Muertas_Mask",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "model_player": "models/heroes/muerta/muerta_head.vmdl"
+    },
+    "back": {
+      "id": "808",
+      "name": "Muerta's Shroud",
+      "item_name": "#DOTA_Item_Muertas_Shroud",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "model_player": "models/heroes/muerta/muerta_back.vmdl"
+    },
+    "armor": {
+      "id": "809",
+      "name": "Muerta's Armor",
+      "item_name": "#DOTA_Item_Muertas_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "model_player": "models/heroes/muerta/muerta_armor.vmdl"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Blackwing_Bandolera",
+      "store_bundle": "Blackwing Bandolera",
+      "portrait_image": "econ/sets/v2/blackwing_bandolera",
+      "items": [
+        {
+          "name": "Blackwing Bandolera - Ultimate Form",
+          "id": "30950",
+          "item_name": "#DOTA_Item_Blackwing_Bandolera__Ultimate_Form",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Blackwing Bandolera - Weapon",
+          "id": "30949",
+          "item_name": "#DOTA_Item_Blackwing_Bandolera__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/muerta/deathcaster_weapon/deathcaster_weapon.vmdl"
+        },
+        {
+          "name": "Blackwing Bandolera - Armor",
+          "id": "30948",
+          "item_name": "#DOTA_Item_Blackwing_Bandolera__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical",
+          "model_player": "models/items/muerta/deathcaster_armor/deathcaster_armor.vmdl"
+        },
+        {
+          "name": "Blackwing Bandolera - Back",
+          "id": "30947",
+          "item_name": "#DOTA_Item_Blackwing_Bandolera__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/muerta/deathcaster_back/deathcaster_back.vmdl"
+        },
+        {
+          "name": "Blackwing Bandolera - Head",
+          "id": "30946",
+          "item_name": "#DOTA_Item_Blackwing_Bandolera__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/muerta/deathcaster_head/deathcaster_head.vmdl"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Mariposa_Mori",
+      "store_bundle": "Mariposa Mori",
+      "portrait_image": "econ/sets/v2/mariposa_mori",
+      "items": [
+        {
+          "name": "Mariposa Mori - Weapon",
+          "id": "30969",
+          "item_name": "#DOTA_Item_Mariposa_Mori__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/muerta/the_netherbutterfly_weapon/the_netherbutterfly_weapon.vmdl"
+        },
+        {
+          "name": "Mariposa Mori - Head",
+          "id": "30968",
+          "item_name": "#DOTA_Item_Mariposa_Mori__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/muerta/the_netherbutterfly_head/the_netherbutterfly_head.vmdl"
+        },
+        {
+          "name": "Mariposa Mori - Back",
+          "id": "30967",
+          "item_name": "#DOTA_Item_Mariposa_Mori__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/muerta/the_netherbutterfly_back/the_netherbutterfly_back.vmdl"
+        },
+        {
+          "name": "Mariposa Mori - Armor",
+          "id": "30966",
+          "item_name": "#DOTA_Item_Mariposa_Mori__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical",
+          "model_player": "models/items/muerta/the_netherbutterfly_armor/the_netherbutterfly_armor.vmdl"
+        },
+        {
+          "name": "Mariposa Mori - Ultimate",
+          "id": "30965",
+          "item_name": "#DOTA_Item_Mariposa_Mori__Ultimate",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Rose_of_Moira",
+      "store_bundle": "Rose of Moira",
+      "portrait_image": "econ/sets/v2/rose_of_moira",
+      "items": [
+        {
+          "name": "Rose of Moira - Ultimate",
+          "id": "32563",
+          "item_name": "#DOTA_Item_Rose_of_Moira__Ultimate",
+          "item_slot": "ability_ultimate",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Rose of Moira - Crown",
+          "id": "32562",
+          "item_name": "#DOTA_Item_Rose_of_Moira__Crown",
+          "item_slot": "head",
+          "item_rarity": "mythical",
+          "model_player": "models/items/muerta/soul_warden_crown/soul_warden_crown.vmdl"
+        },
+        {
+          "name": "Rose of Moira - Raiment",
+          "id": "32561",
+          "item_name": "#DOTA_Item_Rose_of_Moira__Raiment",
+          "item_slot": "armor",
+          "item_rarity": "mythical",
+          "model_player": "models/items/muerta/soul_warden_raiment/soul_warden_raiment.vmdl"
+        },
+        {
+          "name": "Rose of Moira - Prison",
+          "id": "32560",
+          "item_name": "#DOTA_Item_Rose_of_Moira__Prison",
+          "item_slot": "back",
+          "item_rarity": "mythical",
+          "model_player": "models/items/muerta/soul_warden_prison/soul_warden_prison.vmdl"
+        },
+        {
+          "name": "Rose of Moira - Revolvers",
+          "id": "32559",
+          "item_name": "#DOTA_Item_Rose_of_Moira__Revolvers",
+          "item_slot": "weapon",
+          "item_rarity": "mythical",
+          "model_player": "models/items/muerta/soul_warden_revolvers/soul_warden_revolvers.vmdl"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "804",
+      "name": "Muerta's Mercy & Grace",
+      "item_name": "#DOTA_Item_Muertas_Mercy__Grace",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/muerta/muerta_weapons.vmdl"
+    },
+    {
+      "id": "806",
+      "name": "Muerta's True Form",
+      "item_name": "#DOTA_Item_Muertas_True_Form",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "807",
+      "name": "Muerta's Mask",
+      "item_name": "#DOTA_Item_Muertas_Mask",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/muerta/muerta_head.vmdl"
+    },
+    {
+      "id": "808",
+      "name": "Muerta's Shroud",
+      "item_name": "#DOTA_Item_Muertas_Shroud",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/muerta/muerta_back.vmdl"
+    },
+    {
+      "id": "809",
+      "name": "Muerta's Armor",
+      "item_name": "#DOTA_Item_Muertas_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "default_item",
+      "model_player": "models/heroes/muerta/muerta_armor.vmdl"
+    },
+    {
+      "id": "30946",
+      "name": "Blackwing Bandolera - Head",
+      "item_name": "#DOTA_Item_Blackwing_Bandolera__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/muerta/deathcaster_head/deathcaster_head.vmdl"
+    },
+    {
+      "id": "30947",
+      "name": "Blackwing Bandolera - Back",
+      "item_name": "#DOTA_Item_Blackwing_Bandolera__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/muerta/deathcaster_back/deathcaster_back.vmdl"
+    },
+    {
+      "id": "30948",
+      "name": "Blackwing Bandolera - Armor",
+      "item_name": "#DOTA_Item_Blackwing_Bandolera__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/muerta/deathcaster_armor/deathcaster_armor.vmdl"
+    },
+    {
+      "id": "30949",
+      "name": "Blackwing Bandolera - Weapon",
+      "item_name": "#DOTA_Item_Blackwing_Bandolera__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/muerta/deathcaster_weapon/deathcaster_weapon.vmdl"
+    },
+    {
+      "id": "30950",
+      "name": "Blackwing Bandolera - Ultimate Form",
+      "item_name": "#DOTA_Item_Blackwing_Bandolera__Ultimate_Form",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30965",
+      "name": "Mariposa Mori - Ultimate",
+      "item_name": "#DOTA_Item_Mariposa_Mori__Ultimate",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30966",
+      "name": "Mariposa Mori - Armor",
+      "item_name": "#DOTA_Item_Mariposa_Mori__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/muerta/the_netherbutterfly_armor/the_netherbutterfly_armor.vmdl"
+    },
+    {
+      "id": "30967",
+      "name": "Mariposa Mori - Back",
+      "item_name": "#DOTA_Item_Mariposa_Mori__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/muerta/the_netherbutterfly_back/the_netherbutterfly_back.vmdl"
+    },
+    {
+      "id": "30968",
+      "name": "Mariposa Mori - Head",
+      "item_name": "#DOTA_Item_Mariposa_Mori__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/muerta/the_netherbutterfly_head/the_netherbutterfly_head.vmdl"
+    },
+    {
+      "id": "30969",
+      "name": "Mariposa Mori - Weapon",
+      "item_name": "#DOTA_Item_Mariposa_Mori__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/muerta/the_netherbutterfly_weapon/the_netherbutterfly_weapon.vmdl"
+    },
+    {
+      "id": "31072",
+      "name": "Blackwing Bandolera",
+      "item_name": "#DOTA_Item_Blackwing_Bandolera",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "31075",
+      "name": "Mariposa Mori",
+      "item_name": "#DOTA_Item_Mariposa_Mori",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "32559",
+      "name": "Rose of Moira - Revolvers",
+      "item_name": "#DOTA_Item_Rose_of_Moira__Revolvers",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/muerta/soul_warden_revolvers/soul_warden_revolvers.vmdl"
+    },
+    {
+      "id": "32560",
+      "name": "Rose of Moira - Prison",
+      "item_name": "#DOTA_Item_Rose_of_Moira__Prison",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/muerta/soul_warden_prison/soul_warden_prison.vmdl"
+    },
+    {
+      "id": "32561",
+      "name": "Rose of Moira - Raiment",
+      "item_name": "#DOTA_Item_Rose_of_Moira__Raiment",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/muerta/soul_warden_raiment/soul_warden_raiment.vmdl"
+    },
+    {
+      "id": "32562",
+      "name": "Rose of Moira - Crown",
+      "item_name": "#DOTA_Item_Rose_of_Moira__Crown",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable",
+      "model_player": "models/items/muerta/soul_warden_crown/soul_warden_crown.vmdl"
+    },
+    {
+      "id": "32563",
+      "name": "Rose of Moira - Ultimate",
+      "item_name": "#DOTA_Item_Rose_of_Moira__Ultimate",
+      "item_slot": "ability_ultimate",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "32572",
+      "name": "Rose of Moira",
+      "item_name": "#DOTA_Item_Rose_of_Moira",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    }
+  ]
+}
