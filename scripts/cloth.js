@@ -345,6 +345,17 @@ function analyzePersonaItems(data) {
                 });
             }
 
+            // 构建 visuals 对象
+            const visuals = soundModifiers.length > 0 ? {
+                sound: soundModifiers
+            } : null;
+
+            // 验证：visuals 不为空才保存
+            if (visuals === null) {
+                console.log(chalk.yellow(`跳过无效的persona物品 (ID: ${itemId}, 无visuals数据)`));
+                return;
+            }
+
             const personaInfo = {
                 id: itemId,
                 name: item.name,
@@ -354,9 +365,7 @@ function analyzePersonaItems(data) {
                 prefab: item.prefab,
                 model_player: item.model_player,
                 entity_model: entityModel,
-                visuals: soundModifiers.length > 0 ? {
-                    sound: soundModifiers
-                } : null
+                visuals: visuals
             };
 
             // 收集使用该身心的英雄
@@ -561,6 +570,7 @@ function handleClearCommand(state) {
     state.selectedUnit = null;
     state.itemList = {};
     state.unitClothData = null;
+    state.selectedPersona = null;
     console.log(chalk.yellow('已重置状态'));
 }
 
@@ -577,11 +587,75 @@ function handleStatusCommand(state) {
     } else {
         console.log(chalk.cyan('\n=== 当前状态 ===\n'));
         console.log(`选中单位: ${chalk.green(state.selectedUnit)}`);
+
+        if (state.selectedPersona) {
+            console.log(`选中 Persona: ${chalk.green(state.selectedPersona.name)}`);
+            console.log(`Entity Model: ${chalk.cyan(state.selectedPersona.entity_model || 'N/A')}`);
+        }
+
         console.log(`物品数量: ${chalk.yellow(Object.keys(state.itemList).length)} 件\n`);
 
         if (Object.keys(state.itemList).length > 0) {
             displayItemList(state.itemList);
         }
+    }
+}
+
+// 处理 persona 命令 - 选择 persona 时的询问
+async function selectPersona(rl, personaList, state) {
+    return new Promise((resolve) => {
+        console.log(chalk.cyan(`\n找到 ${personaList.length} 个 Persona:\n`));
+        personaList.forEach((persona, index) => {
+            console.log(`  ${chalk.yellow(index + 1)}. ${persona.name} (${persona.item_rarity})`);
+            if (persona.entity_model) {
+                console.log(`     Model: ${persona.entity_model}`);
+            }
+        });
+        console.log();
+
+        rl.question('请输入序号选择 Persona (或按 Enter 返回): ', (choice) => {
+            const index = parseInt(choice) - 1;
+            if (index >= 0 && index < personaList.length) {
+                const selectedPersona = personaList[index];
+                state.selectedPersona = selectedPersona;
+                state.itemList = {}; // 清空物品列表
+                console.log(chalk.green(`✓ 已选择 Persona: ${selectedPersona.name}`));
+                console.log(chalk.cyan(`Entity Model: ${selectedPersona.entity_model || 'N/A'}`));
+                console.log(chalk.yellow('物品列表已清空'));
+            } else if (choice === '') {
+                console.log(chalk.yellow('已取消选择'));
+            } else {
+                console.log(chalk.red('无效的选择'));
+            }
+            resolve();
+        });
+    });
+}
+
+// 处理 persona 命令
+async function handlePersonaCommand(state, rl) {
+    if (!state.selectedUnit) {
+        console.log(chalk.red('请先选择一个单位'));
+        return;
+    }
+
+    const personaList = state.unitClothData?.personaList || [];
+
+    if (personaList.length === 0) {
+        console.log(chalk.yellow('该单位没有任何 Persona 物品'));
+        return;
+    }
+
+    if (personaList.length === 1) {
+        // 直接选择唯一的 persona
+        state.selectedPersona = personaList[0];
+        state.itemList = {}; // 清空物品列表
+        console.log(chalk.green(`✓ 已选择 Persona: ${personaList[0].name}`));
+        console.log(chalk.cyan(`Entity Model: ${personaList[0].entity_model || 'N/A'}`));
+        console.log(chalk.yellow('物品列表已清空'));
+    } else {
+        // 显示多个 persona 供选择
+        await selectPersona(rl, personaList, state);
     }
 }
 
@@ -707,6 +781,11 @@ async function handleCommand(command, state, rl, allUnits) {
         return;
     }
 
+    if (command === 'persona') {
+        await handlePersonaCommand(state, rl);
+        return;
+    }
+
     if (command.startsWith('set ')) {
         await handleSetCommand(command, state, rl);
         return;
@@ -727,6 +806,7 @@ function showHelp() {
     console.log(chalk.yellow('请输入单位名称 (以 npc_dota_ 开头) 进行搜索'));
     console.log(chalk.yellow('命令:'));
     console.log(chalk.yellow('  set <套装名>  - 添加套装'));
+    console.log(chalk.yellow('  persona      - 选择 Persona'));
     console.log(chalk.yellow('  status       - 显示当前状态'));
     console.log(chalk.yellow('  clear        - 重置状态'));
     console.log(chalk.yellow('  exit/quit    - 退出\n'));
@@ -745,7 +825,8 @@ async function startInteractiveCLI() {
     const state = {
         selectedUnit: null,
         itemList: {},
-        unitClothData: null
+        unitClothData: null,
+        selectedPersona: null
     };
 
     const allUnits = await getAllUnits();
