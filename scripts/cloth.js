@@ -706,7 +706,7 @@ async function handleSetCommand(command, state, rl) {
         });
 
         sortedSets.forEach((set, index) => {
-            console.log(`  ${chalk.yellow(index + 1)}. ${set.name} (${set.items.length} 件物品)`);
+            console.log(`  ${chalk.yellow(index + 1)}. ${set.store_bundle} (${set.items.length} 件物品)`);
         });
         console.log();
 
