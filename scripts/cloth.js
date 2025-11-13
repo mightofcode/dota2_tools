@@ -664,6 +664,124 @@ async function handlePersonaCommand(state, rl) {
     }
 }
 
+// 从物品列表中查找物品
+function findItemByName(query, items) {
+    if (!query || !items || items.length === 0) {
+        return [];
+    }
+
+    const queryLower = query.toLowerCase();
+    const results = items.filter(item => {
+        return item.name.toLowerCase().includes(queryLower);
+    });
+
+    return results.sort((a, b) => {
+        // 优先匹配开头的项
+        const aStartsWith = a.name.toLowerCase().startsWith(queryLower);
+        const bStartsWith = b.name.toLowerCase().startsWith(queryLower);
+
+        if (aStartsWith && !bStartsWith) return -1;
+        if (!aStartsWith && bStartsWith) return 1;
+
+        return a.name.length - b.name.length;
+    });
+}
+
+// 显示物品搜索结果列表
+function displayItemResultsList(items) {
+    if (items.length === 0) {
+        console.log(chalk.yellow('未找到任何物品'));
+        return;
+    }
+
+    console.log(chalk.cyan(`\n找到 ${items.length} 个匹配的物品:\n`));
+    items.forEach((item, index) => {
+        console.log(`  ${chalk.yellow(index + 1)}. ${item.name} (${item.item_rarity})`);
+        console.log(`     槽位: ${item.item_slot}, ID: ${item.id}`);
+    });
+    console.log();
+}
+
+// 处理选择物品时的询问
+async function selectItem(rl, results, state) {
+    return new Promise((resolve) => {
+        displayItemResultsList(results);
+
+        rl.question('请输入序号选择物品 (或按 Enter 返回): ', (choice) => {
+            const index = parseInt(choice) - 1;
+            if (index >= 0 && index < results.length) {
+                const selectedItem = results[index];
+                // 如果有相同 item_slot 的物品，先删除它
+                if (selectedItem.item_slot in state.itemList) {
+                    delete state.itemList[selectedItem.item_slot];
+                }
+                // 添加新物品
+                state.itemList[selectedItem.item_slot] = {
+                    id: selectedItem.id,
+                    name: selectedItem.name,
+                    item_name: selectedItem.item_name,
+                    item_slot: selectedItem.item_slot,
+                    item_rarity: selectedItem.item_rarity,
+                    model_player: selectedItem.model_player
+                };
+                console.log(chalk.green(`✓ 已添加物品: ${selectedItem.name}`));
+                console.log(chalk.cyan(`当前物品数量: ${Object.keys(state.itemList).length} 件`));
+                displayItemList(state.itemList);
+            } else if (choice === '') {
+                console.log(chalk.yellow('已取消选择'));
+            } else {
+                console.log(chalk.red('无效的选择'));
+            }
+            resolve();
+        });
+    });
+}
+
+// 处理 item 命令
+async function handleItemCommand(command, state, rl) {
+    if (!state.selectedUnit) {
+        console.log(chalk.red('请先选择一个单位'));
+        return;
+    }
+
+    const itemQuery = command.substring(5).trim();
+    const items = state.unitClothData?.items || [];
+
+    if (!itemQuery) {
+        console.log(chalk.yellow('请输入物品名称'));
+        return;
+    }
+
+    // 进行模糊搜索
+    const results = findItemByName(itemQuery, items);
+
+    if (results.length === 0) {
+        console.log(chalk.red(`未找到匹配 "${itemQuery}" 的物品`));
+    } else if (results.length === 1) {
+        // 直接添加唯一的物品
+        const selectedItem = results[0];
+        // 如果有相同 item_slot 的物品，先删除它
+        if (selectedItem.item_slot in state.itemList) {
+            delete state.itemList[selectedItem.item_slot];
+        }
+        // 添加新物品
+        state.itemList[selectedItem.item_slot] = {
+            id: selectedItem.id,
+            name: selectedItem.name,
+            item_name: selectedItem.item_name,
+            item_slot: selectedItem.item_slot,
+            item_rarity: selectedItem.item_rarity,
+            model_player: selectedItem.model_player
+        };
+        console.log(chalk.green(`✓ 已添加物品: ${selectedItem.name}`));
+        console.log(chalk.cyan(`当前物品数量: ${Object.keys(state.itemList).length} 件`));
+        displayItemList(state.itemList);
+    } else {
+        // 显示多个物品供选择
+        await selectItem(rl, results, state);
+    }
+}
+
 // 处理 set 命令 - 选择套装时的询问
 async function selectItemSet(rl, results, state) {
     return new Promise((resolve) => {
@@ -853,6 +971,13 @@ async function handleCommand(command, state, rl, allUnits) {
         return;
     }
 
+    if (cmd === 'item') {
+        // 重新构造原始命令传递给 handleItemCommand
+        const originalCommand = args.length > 0 ? `item ${args.join(' ')}` : 'item';
+        await handleItemCommand(originalCommand, state, rl);
+        return;
+    }
+
     // 如果没有选择单位，则进行单位搜索
     if (!state.selectedUnit) {
         await handleUnitSearch(command, state, rl, allUnits);
@@ -868,6 +993,7 @@ function showHelp() {
     console.log(chalk.yellow('请输入单位名称 (以 npc_dota_ 开头) 进行搜索'));
     console.log(chalk.yellow('命令:'));
     console.log(chalk.yellow('  set <套装名>  - 添加套装'));
+    console.log(chalk.yellow('  item <物品名> - 添加物品'));
     console.log(chalk.yellow('  persona      - 选择 Persona'));
     console.log(chalk.yellow('  status       - 显示当前状态'));
     console.log(chalk.yellow('  clear        - 重置状态'));
