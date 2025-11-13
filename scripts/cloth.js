@@ -396,6 +396,35 @@ async function getAllUnits(clothDir = './doc/cloth') {
     }
 }
 
+// 加载单位的物品数据
+async function loadUnitClothData(unitName, clothDir = './doc/cloth') {
+    try {
+        const filePath = path.join(clothDir, `${unitName}.json`);
+        const data = await fs.readJson(filePath);
+        return data || { defaults: {}, item_sets: [], items: [] };
+    } catch (error) {
+        console.log(chalk.red(`无法加载单位数据: ${error.message}`));
+        return null;
+    }
+}
+
+// 显示物品列表
+function displayItemList(items) {
+    if (Object.keys(items).length === 0) {
+        console.log(chalk.yellow('物品列表为空'));
+        return;
+    }
+
+    console.log(chalk.cyan('\n=== 物品列表 ===\n'));
+    let index = 1;
+    Object.entries(items).forEach(([slot, item]) => {
+        console.log(`${chalk.yellow(index)}. [${slot}] ${chalk.green(item.name)} (${item.item_rarity})`);
+        console.log(`   ID: ${item.id}, Name: ${item.item_name}`);
+        index++;
+    });
+    console.log();
+}
+
 // 交互式CLI模式
 async function startInteractiveCLI() {
     const readline = require('readline');
@@ -406,6 +435,7 @@ async function startInteractiveCLI() {
     });
 
     let selectedUnit = null;
+    let itemList = {}; // 当前单位的物品列表
     let allUnits = await getAllUnits();
 
     const showPrompt = () => {
@@ -423,6 +453,7 @@ async function startInteractiveCLI() {
             // 处理 clear 命令
             if (command === 'clear') {
                 selectedUnit = null;
+                itemList = {};
                 console.log(chalk.yellow('已重置状态'));
                 showPrompt();
                 return;
@@ -435,6 +466,23 @@ async function startInteractiveCLI() {
                 return;
             }
 
+            // 处理 status 命令
+            if (command === 'status') {
+                if (!selectedUnit) {
+                    console.log(chalk.yellow('未选择任何单位'));
+                } else {
+                    console.log(chalk.cyan('\n=== 当前状态 ===\n'));
+                    console.log(`选中单位: ${chalk.green(selectedUnit)}`);
+                    console.log(`物品数量: ${chalk.yellow(Object.keys(itemList).length)} 件\n`);
+
+                    if (Object.keys(itemList).length > 0) {
+                        displayItemList(itemList);
+                    }
+                }
+                showPrompt();
+                return;
+            }
+
             // 如果没有选择单位，则进行单位搜索
             if (!selectedUnit) {
                 const results = fuzzySearch(command, allUnits);
@@ -443,7 +491,17 @@ async function startInteractiveCLI() {
                     console.log(chalk.red(`未找到匹配 "${command}" 的单位`));
                 } else if (results.length === 1) {
                     selectedUnit = results[0];
-                    console.log(chalk.green(`✓ 已选择单位: ${selectedUnit}`));
+
+                    // 自动加载单位的物品数据
+                    const clothData = await loadUnitClothData(selectedUnit);
+                    if (clothData && clothData.defaults) {
+                        itemList = clothData.defaults;
+                        console.log(chalk.green(`✓ 已选择单位: ${selectedUnit}`));
+                        console.log(chalk.cyan(`已加载 ${Object.keys(itemList).length} 件物品`));
+                        displayItemList(itemList);
+                    } else {
+                        console.log(chalk.yellow(`单位 ${selectedUnit} 没有物品数据`));
+                    }
                 } else {
                     console.log(chalk.cyan(`\n找到 ${results.length} 个匹配的单位:\n`));
                     results.forEach((unit, index) => {
@@ -456,7 +514,17 @@ async function startInteractiveCLI() {
                         const index = parseInt(choice) - 1;
                         if (index >= 0 && index < results.length) {
                             selectedUnit = results[index];
-                            console.log(chalk.green(`✓ 已选择单位: ${selectedUnit}`));
+
+                            // 自动加载单位的物品数据
+                            const clothData = await loadUnitClothData(selectedUnit);
+                            if (clothData && clothData.defaults) {
+                                itemList = clothData.defaults;
+                                console.log(chalk.green(`✓ 已选择单位: ${selectedUnit}`));
+                                console.log(chalk.cyan(`已加载 ${Object.keys(itemList).length} 件物品`));
+                                displayItemList(itemList);
+                            } else {
+                                console.log(chalk.yellow(`单位 ${selectedUnit} 没有物品数据`));
+                            }
                         } else if (choice === '') {
                             console.log(chalk.yellow('已取消选择'));
                         } else {
