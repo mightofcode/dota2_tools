@@ -103,48 +103,57 @@ async function generateClothsData(defaultItems) {
 
 async function analyzeItemsGame() {
     console.log(chalk.blue('开始分析dota2饰品配置文件...'));
-    
+
     try {
-        // 检查文件是否存在
+        const outputPath = './doc/cloths.json';
+
+        // 检查缓存文件是否存在
+        if (await fs.pathExists(outputPath)) {
+            console.log(chalk.yellow(`检测到已存在的缓存文件: ${outputPath}`));
+            const cachedData = await fs.readJson(outputPath);
+            console.log(chalk.green('直接读取缓存数据，跳过重新解析'));
+            return cachedData;
+        }
+
+        // 检查源文件是否存在
         if (!await fs.pathExists(itemsGamePath)) {
             console.log(chalk.red(`文件不存在: ${itemsGamePath}`));
             return;
         }
-        
+
         // 读取文件内容
         const content = await fs.readFile(itemsGamePath, 'utf8');
         console.log(chalk.green(`文件读取成功，大小: ${content.length} 字符`));
-        
+
         // 使用valve-kv解析内容
         const parsed = deserialize(content);
         console.log(chalk.yellow('KV文件解析完成'));
-        
+
         // 建立物品索引
         buildItemsIndex(parsed);
-        
+
         // 打印树形结构
         printTreeStructure(parsed);
-        
+
         // 分析default_item物品
         const defaultItems = analyzeDefaultItems(parsed);
-        
+
         // 分析套装信息
         const itemSets = analyzeItemSets(parsed);
-        
+
         // 分析英雄物品信息
         const heroItems = analyzeItemsByHero(parsed);
-        
+
         // 生成并保存结果
         const result = await generateClothsData(defaultItems);
         result.item_sets = itemSets;
         result.items = heroItems;
-        
+
         // 重新保存包含所有信息的完整数据
-        const outputPath = './doc/cloths.json';
         await fs.writeJson(outputPath, result, { spaces: 2 });
-        
+
         return parsed;
-        
+
     } catch (error) {
         console.log(chalk.red(`分析失败: ${error.message}`));
         throw error;
