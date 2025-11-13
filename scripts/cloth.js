@@ -359,30 +359,127 @@ function analyzeItemSets(data) {
     return heroSets;
 }
 
+// 模糊搜索函数
+function fuzzySearch(query, items) {
+    if (!query) return [];
+
+    const queryLower = query.toLowerCase();
+    const results = items.filter(item => {
+        return item.toLowerCase().includes(queryLower);
+    });
+
+    return results.sort((a, b) => {
+        // 优先匹配开头的项
+        const aStartsWith = a.toLowerCase().startsWith(queryLower);
+        const bStartsWith = b.toLowerCase().startsWith(queryLower);
+
+        if (aStartsWith && !bStartsWith) return -1;
+        if (!aStartsWith && bStartsWith) return 1;
+
+        // 按长度排序（更接近搜索词的排前面）
+        return a.length - b.length;
+    });
+}
+
+// 获取所有单位（以npc_dota_开头的文件）
+async function getAllUnits(clothDir = './doc/cloth') {
+    try {
+        const files = await fs.readdir(clothDir);
+        const units = files
+            .filter(file => file.startsWith('npc_dota_') && file.endsWith('.json'))
+            .map(file => file.replace('.json', ''));
+
+        return units.sort();
+    } catch (error) {
+        console.log(chalk.red('无法读取单位列表'));
+        return [];
+    }
+}
+
 // 交互式CLI模式
 async function startInteractiveCLI() {
     const readline = require('readline');
 
     const rl = readline.createInterface({
         input: process.stdin,
-        output: process.stdout,
-        prompt: 'cloth> '
+        output: process.stdout
     });
 
-    rl.prompt();
+    let selectedUnit = null;
+    let allUnits = await getAllUnits();
 
-    rl.on('line', (line) => {
-        const command = line.trim();
+    const showPrompt = () => {
+        const prompt = selectedUnit
+            ? `cloth[${chalk.green(selectedUnit)}]> `
+            : 'cloth> ';
+        rl.question(prompt, async (input) => {
+            const command = input.trim();
 
-        if (command) {
-            console.log(`收到指令: ${command}`);
-        }
+            if (!command) {
+                showPrompt();
+                return;
+            }
 
-        rl.prompt();
-    }).on('close', () => {
-        console.log(chalk.yellow('\n已退出交互式模式'));
-        process.exit(0);
-    });
+            // 处理 clear 命令
+            if (command === 'clear') {
+                selectedUnit = null;
+                console.log(chalk.yellow('已重置状态'));
+                showPrompt();
+                return;
+            }
+
+            // 处理 exit 命令
+            if (command === 'exit' || command === 'quit') {
+                console.log(chalk.yellow('\n已退出交互式模式'));
+                rl.close();
+                return;
+            }
+
+            // 如果没有选择单位，则进行单位搜索
+            if (!selectedUnit) {
+                const results = fuzzySearch(command, allUnits);
+
+                if (results.length === 0) {
+                    console.log(chalk.red(`未找到匹配 "${command}" 的单位`));
+                } else if (results.length === 1) {
+                    selectedUnit = results[0];
+                    console.log(chalk.green(`✓ 已选择单位: ${selectedUnit}`));
+                } else {
+                    console.log(chalk.cyan(`\n找到 ${results.length} 个匹配的单位:\n`));
+                    results.forEach((unit, index) => {
+                        console.log(`  ${chalk.yellow(index + 1)}. ${unit}`);
+                    });
+                    console.log();
+
+                    // 提示用户输入序号
+                    rl.question('请输入序号选择单位 (或按 Enter 返回): ', async (choice) => {
+                        const index = parseInt(choice) - 1;
+                        if (index >= 0 && index < results.length) {
+                            selectedUnit = results[index];
+                            console.log(chalk.green(`✓ 已选择单位: ${selectedUnit}`));
+                        } else if (choice === '') {
+                            console.log(chalk.yellow('已取消选择'));
+                        } else {
+                            console.log(chalk.red('无效的选择'));
+                        }
+                        showPrompt();
+                    });
+                    return;
+                }
+            } else {
+                // 如果已选择单位，则处理其他命令
+                console.log(chalk.blue(`[${selectedUnit}] 收到指令: ${command}`));
+            }
+
+            showPrompt();
+        });
+    };
+
+    console.log(chalk.cyan('进入交互式CLI模式'));
+    console.log(chalk.yellow('请输入单位名称 (以 npc_dota_ 开头) 进行搜索'));
+    console.log(chalk.yellow('输入 clear 重置状态，输入 exit 退出\n'));
+
+    showPrompt();
 }
 
 // 如果直接运行此脚本
