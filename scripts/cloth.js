@@ -673,7 +673,7 @@ async function selectItemSet(rl, results, state) {
             const index = parseInt(choice) - 1;
             if (index >= 0 && index < results.length) {
                 state.itemList = mergeItemLists(state.itemList, results[index].items);
-                console.log(chalk.green(`✓ 已添加套装: ${results[index].name}`));
+                console.log(chalk.green(`✓ 已添加套装: ${results[index].store_bundle}`));
                 console.log(chalk.cyan(`当前物品数量: ${Object.keys(state.itemList).length} 件`));
                 displayItemList(state.itemList);
             } else if (choice === '') {
@@ -716,21 +716,23 @@ async function handleSetCommand(command, state, rl) {
         });
         console.log();
 
-        // 提示用户输入序号
-        rl.question('请输入序号选择套装 (或按 Enter 返回): ', async (choice) => {
-            const index = parseInt(choice) - 1;
-            if (index >= 0 && index < sortedSets.length) {
-                state.itemList = mergeItemLists(state.itemList, sortedSets[index].items);
-                console.log(chalk.green(`✓ 已添加套装: ${sortedSets[index].name}`));
-                console.log(chalk.cyan(`当前物品数量: ${Object.keys(state.itemList).length} 件`));
-                displayItemList(state.itemList);
-            } else if (choice === '') {
-                console.log(chalk.yellow('已取消选择'));
-            } else {
-                console.log(chalk.red('无效的选择'));
-            }
+        // 提示用户输入序号 - 使用 Promise 包装
+        return new Promise((resolve) => {
+            rl.question('请输入序号选择套装 (或按 Enter 返回): ', (choice) => {
+                const index = parseInt(choice) - 1;
+                if (index >= 0 && index < sortedSets.length) {
+                    state.itemList = mergeItemLists(state.itemList, sortedSets[index].items);
+                    console.log(chalk.green(`✓ 已添加套装: ${sortedSets[index].store_bundle}`));
+                    console.log(chalk.cyan(`当前物品数量: ${Object.keys(state.itemList).length} 件`));
+                    displayItemList(state.itemList);
+                } else if (choice === '') {
+                    console.log(chalk.yellow('已取消选择'));
+                } else {
+                    console.log(chalk.red('无效的选择'));
+                }
+                resolve();
+            });
         });
-        return;
     }
 
     // 有参数时，进行模糊搜索
@@ -741,7 +743,7 @@ async function handleSetCommand(command, state, rl) {
     } else if (results.length === 1) {
         // 直接添加唯一的套装
         state.itemList = mergeItemLists(state.itemList, results[0].items);
-        console.log(chalk.green(`✓ 已添加套装: ${results[0].name}`));
+        console.log(chalk.green(`✓ 已添加套装: ${results[0].store_bundle}`));
         console.log(chalk.cyan(`当前物品数量: ${Object.keys(state.itemList).length} 件`));
         displayItemList(state.itemList);
     } else {
