@@ -319,6 +319,19 @@ function analyzePersonaItems(data) {
         const item = items[itemId];
 
         if (item && item.item_slot === 'persona_selector') {
+            // 查找 entity_model 类型的 asset_modifier
+            let entityModel = null;
+            if (item.visuals && item.visuals.asset_modifier) {
+                const modifiers = Array.isArray(item.visuals.asset_modifier)
+                    ? item.visuals.asset_modifier
+                    : [item.visuals.asset_modifier];
+
+                const entityModelModifier = modifiers.find(m => m && m.type === 'entity_model');
+                if (entityModelModifier && entityModelModifier.modifier) {
+                    entityModel = entityModelModifier.modifier;
+                }
+            }
+
             const personaInfo = {
                 id: itemId,
                 name: item.name,
@@ -326,7 +339,8 @@ function analyzePersonaItems(data) {
                 item_slot: item.item_slot,
                 item_rarity: item.item_rarity || 'common',
                 prefab: item.prefab,
-                model_player: item.model_player
+                model_player: item.model_player,
+                entity_model: entityModel
             };
 
             // 收集使用该身心的英雄
