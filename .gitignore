@@ -5,6 +5,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+doc/cloth
+
 # Environment variables
 .env
 .env.local
