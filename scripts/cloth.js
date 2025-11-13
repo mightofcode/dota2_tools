@@ -607,7 +607,7 @@ function handleStatusCommand(state) {
 }
 
 // 将物品列表转换为 KV 格式
-function itemListToKV(itemList, selectedPersona) {
+function itemListToKV(itemList) {
     const lines = [];
     lines.push('"AttachWearables"');
     lines.push('{');
@@ -621,14 +621,6 @@ function itemListToKV(itemList, selectedPersona) {
         lines.push('    }');
         itemIndex++;
     });
-
-    // 如果有 persona，添加 Model 字段
-    if (selectedPersona && selectedPersona.entity_model) {
-        lines.push(`    "${itemIndex}"`);
-        lines.push('    {');
-        lines.push(`        "Model"    "${selectedPersona.entity_model}"`);
-        lines.push('    }');
-    }
 
     lines.push('}');
     return lines.join('\n');
@@ -647,19 +639,24 @@ function handleDumpCommand(state) {
     }
 
     // 生成 KV 格式
-    const kvOutput = itemListToKV(state.itemList, state.selectedPersona);
+    const kvOutput = itemListToKV(state.itemList);
 
     console.log(chalk.cyan('\n=== KV 格式输出 ===\n'));
     console.log(kvOutput);
+
+    // 如果有 persona，单独输出 Model
+    if (state.selectedPersona && state.selectedPersona.entity_model) {
+        console.log(`"Model"    "${state.selectedPersona.entity_model}"`);
+    }
+
     console.log();
 
     // 统计信息
     console.log(chalk.yellow('统计信息:'));
     const itemCount = Object.keys(state.itemList).length;
-    const totalLines = itemCount + (state.selectedPersona ? 1 : 0);
+    const hasPersona = state.selectedPersona && state.selectedPersona.entity_model ? 1 : 0;
     console.log(`  物品数量: ${itemCount}`);
-    console.log(`  包含 Persona: ${state.selectedPersona ? '是' : '否'}`);
-    console.log(`  总 ItemDef/Model 数: ${totalLines}`);
+    console.log(`  包含 Persona: ${hasPersona ? '是' : '否'}`);
     console.log();
 }
 
