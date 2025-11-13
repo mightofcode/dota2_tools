@@ -408,6 +408,55 @@ async function loadUnitClothData(unitName, clothDir = './doc/cloth') {
     }
 }
 
+// 从套装中查找物品
+function findItemSetByName(query, itemSets) {
+    if (!query || !itemSets || itemSets.length === 0) {
+        return [];
+    }
+
+    const queryLower = query.toLowerCase();
+    const results = itemSets.filter(set => {
+        return set.name.toLowerCase().includes(queryLower);
+    });
+
+    return results.sort((a, b) => {
+        // 优先匹配开头的项
+        const aStartsWith = a.name.toLowerCase().startsWith(queryLower);
+        const bStartsWith = b.name.toLowerCase().startsWith(queryLower);
+
+        if (aStartsWith && !bStartsWith) return -1;
+        if (!aStartsWith && bStartsWith) return 1;
+
+        return a.name.length - b.name.length;
+    });
+}
+
+// 合并物品列表（后添加的物品优先级更高）
+function mergeItemLists(baseItems, newItems) {
+    const merged = { ...baseItems };
+
+    newItems.forEach(item => {
+        merged[item.item_slot] = item;
+    });
+
+    return merged;
+}
+
+// 显示套装列表
+function displayItemSetList(sets) {
+    if (sets.length === 0) {
+        console.log(chalk.yellow('未找到任何套装'));
+        return;
+    }
+
+    console.log(chalk.cyan(`\n找到 ${sets.length} 个匹配的套装:\n`));
+    sets.forEach((set, index) => {
+        console.log(`  ${chalk.yellow(index + 1)}. ${set.name}`);
+        console.log(`     包含 ${set.items.length} 件物品`);
+    });
+    console.log();
+}
+
 // 显示物品列表
 function displayItemList(items) {
     if (Object.keys(items).length === 0) {
@@ -436,6 +485,7 @@ async function startInteractiveCLI() {
 
     let selectedUnit = null;
     let itemList = {}; // 当前单位的物品列表
+    let unitClothData = null; // 当前单位的完整数据
     let allUnits = await getAllUnits();
 
     const showPrompt = () => {
@@ -454,6 +504,7 @@ async function startInteractiveCLI() {
             if (command === 'clear') {
                 selectedUnit = null;
                 itemList = {};
+                unitClothData = null;
                 console.log(chalk.yellow('已重置状态'));
                 showPrompt();
                 return;
@@ -483,6 +534,51 @@ async function startInteractiveCLI() {
                 return;
             }
 
+            // 处理 set 命令
+            if (command.startsWith('set ')) {
+                if (!selectedUnit) {
+                    console.log(chalk.red('请先选择一个单位'));
+                    showPrompt();
+                    return;
+                }
+
+                const setQuery = command.substring(4).trim();
+                const itemSets = unitClothData?.item_sets || [];
+
+                const results = findItemSetByName(setQuery, itemSets);
+
+                if (results.length === 0) {
+                    console.log(chalk.red(`未找到匹配 "${setQuery}" 的套装`));
+                } else if (results.length === 1) {
+                    // 直接添加唯一的套装
+                    itemList = mergeItemLists(itemList, results[0].items);
+                    console.log(chalk.green(`✓ 已添加套装: ${results[0].name}`));
+                    console.log(chalk.cyan(`当前物品数量: ${Object.keys(itemList).length} 件`));
+                    displayItemList(itemList);
+                } else {
+                    // 显示多个套装供选择
+                    displayItemSetList(results);
+
+                    rl.question('请输入序号选择套装 (或按 Enter 返回): ', async (choice) => {
+                        const index = parseInt(choice) - 1;
+                        if (index >= 0 && index < results.length) {
+                            itemList = mergeItemLists(itemList, results[index].items);
+                            console.log(chalk.green(`✓ 已添加套装: ${results[index].name}`));
+                            console.log(chalk.cyan(`当前物品数量: ${Object.keys(itemList).length} 件`));
+                            displayItemList(itemList);
+                        } else if (choice === '') {
+                            console.log(chalk.yellow('已取消添加'));
+                        } else {
+                            console.log(chalk.red('无效的选择'));
+                        }
+                        showPrompt();
+                    });
+                    return;
+                }
+                showPrompt();
+                return;
+            }
+
             // 如果没有选择单位，则进行单位搜索
             if (!selectedUnit) {
                 const results = fuzzySearch(command, allUnits);
@@ -495,6 +591,7 @@ async function startInteractiveCLI() {
                     // 自动加载单位的物品数据
                     const clothData = await loadUnitClothData(selectedUnit);
                     if (clothData && clothData.defaults) {
+                        unitClothData = clothData;
                         itemList = clothData.defaults;
                         console.log(chalk.green(`✓ 已选择单位: ${selectedUnit}`));
                         console.log(chalk.cyan(`已加载 ${Object.keys(itemList).length} 件物品`));
@@ -518,6 +615,7 @@ async function startInteractiveCLI() {
                             // 自动加载单位的物品数据
                             const clothData = await loadUnitClothData(selectedUnit);
                             if (clothData && clothData.defaults) {
+                                unitClothData = clothData;
                                 itemList = clothData.defaults;
                                 console.log(chalk.green(`✓ 已选择单位: ${selectedUnit}`));
                                 console.log(chalk.cyan(`已加载 ${Object.keys(itemList).length} 件物品`));
@@ -545,7 +643,11 @@ async function startInteractiveCLI() {
 
     console.log(chalk.cyan('进入交互式CLI模式'));
     console.log(chalk.yellow('请输入单位名称 (以 npc_dota_ 开头) 进行搜索'));
-    console.log(chalk.yellow('输入 clear 重置状态，输入 exit 退出\n'));
+    console.log(chalk.yellow('命令:'));
+    console.log(chalk.yellow('  set <套装名>  - 添加套装'));
+    console.log(chalk.yellow('  status       - 显示当前状态'));
+    console.log(chalk.yellow('  clear        - 重置状态'));
+    console.log(chalk.yellow('  exit/quit    - 退出\n'));
 
     showPrompt();
 }
