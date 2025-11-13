@@ -739,14 +739,47 @@ async function startInteractiveCLI() {
     askForCommand();
 }
 
+// 清空缓存目录
+async function clearCacheDirectory(clothDir = './doc/cloth') {
+    try {
+        if (await fs.pathExists(clothDir)) {
+            await fs.remove(clothDir);
+            console.log(chalk.green(`已清空缓存目录: ${clothDir}`));
+        }
+    } catch (error) {
+        console.log(chalk.red(`清空缓存目录失败: ${error.message}`));
+        throw error;
+    }
+}
+
+// 解析命令行参数
+function parseArguments() {
+    const args = process.argv.slice(2);
+    return {
+        forceRefresh: args.includes('-f') || args.includes('--force')
+    };
+}
+
 // 如果直接运行此脚本
 if (require.main === module) {
-    analyzeItemsGame()
-        .then(() => {
+    const options = parseArguments();
+
+    (async () => {
+        try {
+            // 如果指定了 -f 参数，清空缓存目录
+            if (options.forceRefresh) {
+                console.log(chalk.yellow('检测到 -f 参数，将清空缓存并重新分析...'));
+                await clearCacheDirectory();
+            }
+
+            await analyzeItemsGame();
             console.log(chalk.cyan('\n进入交互式CLI模式，输入命令进行操作...'));
             startInteractiveCLI();
-        })
-        .catch(console.error);
+        } catch (error) {
+            console.error(error);
+            process.exit(1);
+        }
+    })();
 }
 
 module.exports = {
