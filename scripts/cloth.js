@@ -11,18 +11,18 @@ let itemsIndex = {};
 
 function analyzeItemsByHero(data) {
     console.log(chalk.cyan('\n=== 分析英雄物品信息 ==='));
-    
+
     if (!data.items_game || !data.items_game.items) {
         console.log(chalk.red('未找到 items_game.items 数据'));
         return {};
     }
-    
+
     const items = data.items_game.items;
     const heroItems = {};
-    
+
     Object.keys(items).forEach(itemId => {
         const item = items[itemId];
-        
+
         if (item && item.used_by_heroes) {
             const itemInfo = {
                 id: itemId,
@@ -30,9 +30,10 @@ function analyzeItemsByHero(data) {
                 item_name: item.item_name,
                 item_slot: item.item_slot || 'weapon',
                 item_rarity: item.item_rarity || 'common',
-                prefab: item.prefab
+                prefab: item.prefab,
+                model_player: item.model_player
             };
-            
+
             Object.keys(item.used_by_heroes).forEach(heroName => {
                 if (heroName !== '0') { // 过滤掉英雄名为"0"的数据
                     if (!heroItems[heroName]) {
@@ -43,7 +44,7 @@ function analyzeItemsByHero(data) {
             });
         }
     });
-    
+
     console.log(`处理了 ${Object.keys(heroItems).length} 个英雄的物品信息`);
     return heroItems;
 }
@@ -86,7 +87,8 @@ async function generateClothsData(defaultItems, itemSets, heroItems) {
                     name: item.name,
                     item_name: item.item_name,
                     item_slot: item.item_slot,
-                    item_rarity: item.item_rarity
+                    item_rarity: item.item_rarity,
+                    model_player: item.model_player
                 };
             }
         });
@@ -324,7 +326,8 @@ function analyzeItemSets(data) {
                         id: itemInfo.id,
                         item_name: itemInfo.item_name,
                         item_slot: itemInfo.item_slot,
-                        item_rarity: itemInfo.item_rarity
+                        item_rarity: itemInfo.item_rarity,
+                        model_player: itemInfo.model_player
                     });
                     
                     // 收集使用该物品的英雄
