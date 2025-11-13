@@ -474,6 +474,182 @@ function displayItemList(items) {
     console.log();
 }
 
+// 处理 clear 命令
+function handleClearCommand(state) {
+    state.selectedUnit = null;
+    state.itemList = {};
+    state.unitClothData = null;
+    console.log(chalk.yellow('已重置状态'));
+}
+
+// 处理 exit 命令
+function handleExitCommand() {
+    console.log(chalk.yellow('\n已退出交互式模式'));
+    process.exit(0);
+}
+
+// 处理 status 命令
+function handleStatusCommand(state) {
+    if (!state.selectedUnit) {
+        console.log(chalk.yellow('未选择任何单位'));
+    } else {
+        console.log(chalk.cyan('\n=== 当前状态 ===\n'));
+        console.log(`选中单位: ${chalk.green(state.selectedUnit)}`);
+        console.log(`物品数量: ${chalk.yellow(Object.keys(state.itemList).length)} 件\n`);
+
+        if (Object.keys(state.itemList).length > 0) {
+            displayItemList(state.itemList);
+        }
+    }
+}
+
+// 处理 set 命令 - 选择套装时的询问
+async function selectItemSet(rl, results, state) {
+    return new Promise((resolve) => {
+        displayItemSetList(results);
+
+        rl.question('请输入序号选择套装 (或按 Enter 返回): ', (choice) => {
+            const index = parseInt(choice) - 1;
+            if (index >= 0 && index < results.length) {
+                state.itemList = mergeItemLists(state.itemList, results[index].items);
+                console.log(chalk.green(`✓ 已添加套装: ${results[index].name}`));
+                console.log(chalk.cyan(`当前物品数量: ${Object.keys(state.itemList).length} 件`));
+                displayItemList(state.itemList);
+            } else if (choice === '') {
+                console.log(chalk.yellow('已取消添加'));
+            } else {
+                console.log(chalk.red('无效的选择'));
+            }
+            resolve();
+        });
+    });
+}
+
+// 处理 set 命令
+async function handleSetCommand(command, state, rl) {
+    if (!state.selectedUnit) {
+        console.log(chalk.red('请先选择一个单位'));
+        return;
+    }
+
+    const setQuery = command.substring(4).trim();
+    const itemSets = state.unitClothData?.item_sets || [];
+    const results = findItemSetByName(setQuery, itemSets);
+
+    if (results.length === 0) {
+        console.log(chalk.red(`未找到匹配 "${setQuery}" 的套装`));
+    } else if (results.length === 1) {
+        // 直接添加唯一的套装
+        state.itemList = mergeItemLists(state.itemList, results[0].items);
+        console.log(chalk.green(`✓ 已添加套装: ${results[0].name}`));
+        console.log(chalk.cyan(`当前物品数量: ${Object.keys(state.itemList).length} 件`));
+        displayItemList(state.itemList);
+    } else {
+        // 显示多个套装供选择
+        await selectItemSet(rl, results, state);
+    }
+}
+
+// 处理选择单位时的询问
+async function selectUnit(rl, results, state, allUnits) {
+    return new Promise((resolve) => {
+        console.log(chalk.cyan(`\n找到 ${results.length} 个匹配的单位:\n`));
+        results.forEach((unit, index) => {
+            console.log(`  ${chalk.yellow(index + 1)}. ${unit}`);
+        });
+        console.log();
+
+        rl.question('请输入序号选择单位 (或按 Enter 返回): ', async (choice) => {
+            const index = parseInt(choice) - 1;
+            if (index >= 0 && index < results.length) {
+                await selectUnitByName(results[index], state);
+            } else if (choice === '') {
+                console.log(chalk.yellow('已取消选择'));
+            } else {
+                console.log(chalk.red('无效的选择'));
+            }
+            resolve();
+        });
+    });
+}
+
+// 通过单位名称选择单位（共用逻辑）
+async function selectUnitByName(unitName, state) {
+    state.selectedUnit = unitName;
+
+    // 自动加载单位的物品数据
+    const clothData = await loadUnitClothData(unitName);
+    if (clothData && clothData.defaults) {
+        state.unitClothData = clothData;
+        state.itemList = clothData.defaults;
+        console.log(chalk.green(`✓ 已选择单位: ${unitName}`));
+        console.log(chalk.cyan(`已加载 ${Object.keys(state.itemList).length} 件物品`));
+        displayItemList(state.itemList);
+    } else {
+        console.log(chalk.yellow(`单位 ${unitName} 没有物品数据`));
+    }
+}
+
+// 处理单位搜索和选择
+async function handleUnitSearch(command, state, rl, allUnits) {
+    const results = fuzzySearch(command, allUnits);
+
+    if (results.length === 0) {
+        console.log(chalk.red(`未找到匹配 "${command}" 的单位`));
+    } else if (results.length === 1) {
+        await selectUnitByName(results[0], state);
+    } else {
+        await selectUnit(rl, results, state, allUnits);
+    }
+}
+
+// 处理用户输入的命令
+async function handleCommand(command, state, rl, allUnits) {
+    if (!command) {
+        return;
+    }
+
+    // 内置命令
+    if (command === 'clear') {
+        handleClearCommand(state);
+        return;
+    }
+
+    if (command === 'exit' || command === 'quit') {
+        handleExitCommand();
+        return;
+    }
+
+    if (command === 'status') {
+        handleStatusCommand(state);
+        return;
+    }
+
+    if (command.startsWith('set ')) {
+        await handleSetCommand(command, state, rl);
+        return;
+    }
+
+    // 如果没有选择单位，则进行单位搜索
+    if (!state.selectedUnit) {
+        await handleUnitSearch(command, state, rl, allUnits);
+    } else {
+        // 如果已选择单位，处理其他命令
+        console.log(chalk.blue(`[${state.selectedUnit}] 收到指令: ${command}`));
+    }
+}
+
+// 显示帮助信息
+function showHelp() {
+    console.log(chalk.cyan('进入交互式CLI模式'));
+    console.log(chalk.yellow('请输入单位名称 (以 npc_dota_ 开头) 进行搜索'));
+    console.log(chalk.yellow('命令:'));
+    console.log(chalk.yellow('  set <套装名>  - 添加套装'));
+    console.log(chalk.yellow('  status       - 显示当前状态'));
+    console.log(chalk.yellow('  clear        - 重置状态'));
+    console.log(chalk.yellow('  exit/quit    - 退出\n'));
+}
+
 // 交互式CLI模式
 async function startInteractiveCLI() {
     const readline = require('readline');
@@ -483,173 +659,32 @@ async function startInteractiveCLI() {
         output: process.stdout
     });
 
-    let selectedUnit = null;
-    let itemList = {}; // 当前单位的物品列表
-    let unitClothData = null; // 当前单位的完整数据
-    let allUnits = await getAllUnits();
+    // 状态管理
+    const state = {
+        selectedUnit: null,
+        itemList: {},
+        unitClothData: null
+    };
 
-    const showPrompt = () => {
-        const prompt = selectedUnit
-            ? `cloth[${chalk.green(selectedUnit)}]> `
+    const allUnits = await getAllUnits();
+
+    // 显示帮助信息
+    showHelp();
+
+    // 交互式命令循环
+    const askForCommand = async () => {
+        const prompt = state.selectedUnit
+            ? `cloth[${chalk.green(state.selectedUnit)}]> `
             : 'cloth> ';
+
         rl.question(prompt, async (input) => {
             const command = input.trim();
-
-            if (!command) {
-                showPrompt();
-                return;
-            }
-
-            // 处理 clear 命令
-            if (command === 'clear') {
-                selectedUnit = null;
-                itemList = {};
-                unitClothData = null;
-                console.log(chalk.yellow('已重置状态'));
-                showPrompt();
-                return;
-            }
-
-            // 处理 exit 命令
-            if (command === 'exit' || command === 'quit') {
-                console.log(chalk.yellow('\n已退出交互式模式'));
-                rl.close();
-                return;
-            }
-
-            // 处理 status 命令
-            if (command === 'status') {
-                if (!selectedUnit) {
-                    console.log(chalk.yellow('未选择任何单位'));
-                } else {
-                    console.log(chalk.cyan('\n=== 当前状态 ===\n'));
-                    console.log(`选中单位: ${chalk.green(selectedUnit)}`);
-                    console.log(`物品数量: ${chalk.yellow(Object.keys(itemList).length)} 件\n`);
-
-                    if (Object.keys(itemList).length > 0) {
-                        displayItemList(itemList);
-                    }
-                }
-                showPrompt();
-                return;
-            }
-
-            // 处理 set 命令
-            if (command.startsWith('set ')) {
-                if (!selectedUnit) {
-                    console.log(chalk.red('请先选择一个单位'));
-                    showPrompt();
-                    return;
-                }
-
-                const setQuery = command.substring(4).trim();
-                const itemSets = unitClothData?.item_sets || [];
-
-                const results = findItemSetByName(setQuery, itemSets);
-
-                if (results.length === 0) {
-                    console.log(chalk.red(`未找到匹配 "${setQuery}" 的套装`));
-                } else if (results.length === 1) {
-                    // 直接添加唯一的套装
-                    itemList = mergeItemLists(itemList, results[0].items);
-                    console.log(chalk.green(`✓ 已添加套装: ${results[0].name}`));
-                    console.log(chalk.cyan(`当前物品数量: ${Object.keys(itemList).length} 件`));
-                    displayItemList(itemList);
-                } else {
-                    // 显示多个套装供选择
-                    displayItemSetList(results);
-
-                    rl.question('请输入序号选择套装 (或按 Enter 返回): ', async (choice) => {
-                        const index = parseInt(choice) - 1;
-                        if (index >= 0 && index < results.length) {
-                            itemList = mergeItemLists(itemList, results[index].items);
-                            console.log(chalk.green(`✓ 已添加套装: ${results[index].name}`));
-                            console.log(chalk.cyan(`当前物品数量: ${Object.keys(itemList).length} 件`));
-                            displayItemList(itemList);
-                        } else if (choice === '') {
-                            console.log(chalk.yellow('已取消添加'));
-                        } else {
-                            console.log(chalk.red('无效的选择'));
-                        }
-                        showPrompt();
-                    });
-                    return;
-                }
-                showPrompt();
-                return;
-            }
-
-            // 如果没有选择单位，则进行单位搜索
-            if (!selectedUnit) {
-                const results = fuzzySearch(command, allUnits);
-
-                if (results.length === 0) {
-                    console.log(chalk.red(`未找到匹配 "${command}" 的单位`));
-                } else if (results.length === 1) {
-                    selectedUnit = results[0];
-
-                    // 自动加载单位的物品数据
-                    const clothData = await loadUnitClothData(selectedUnit);
-                    if (clothData && clothData.defaults) {
-                        unitClothData = clothData;
-                        itemList = clothData.defaults;
-                        console.log(chalk.green(`✓ 已选择单位: ${selectedUnit}`));
-                        console.log(chalk.cyan(`已加载 ${Object.keys(itemList).length} 件物品`));
-                        displayItemList(itemList);
-                    } else {
-                        console.log(chalk.yellow(`单位 ${selectedUnit} 没有物品数据`));
-                    }
-                } else {
-                    console.log(chalk.cyan(`\n找到 ${results.length} 个匹配的单位:\n`));
-                    results.forEach((unit, index) => {
-                        console.log(`  ${chalk.yellow(index + 1)}. ${unit}`);
-                    });
-                    console.log();
-
-                    // 提示用户输入序号
-                    rl.question('请输入序号选择单位 (或按 Enter 返回): ', async (choice) => {
-                        const index = parseInt(choice) - 1;
-                        if (index >= 0 && index < results.length) {
-                            selectedUnit = results[index];
-
-                            // 自动加载单位的物品数据
-                            const clothData = await loadUnitClothData(selectedUnit);
-                            if (clothData && clothData.defaults) {
-                                unitClothData = clothData;
-                                itemList = clothData.defaults;
-                                console.log(chalk.green(`✓ 已选择单位: ${selectedUnit}`));
-                                console.log(chalk.cyan(`已加载 ${Object.keys(itemList).length} 件物品`));
-                                displayItemList(itemList);
-                            } else {
-                                console.log(chalk.yellow(`单位 ${selectedUnit} 没有物品数据`));
-                            }
-                        } else if (choice === '') {
-                            console.log(chalk.yellow('已取消选择'));
-                        } else {
-                            console.log(chalk.red('无效的选择'));
-                        }
-                        showPrompt();
-                    });
-                    return;
-                }
-            } else {
-                // 如果已选择单位，则处理其他命令
-                console.log(chalk.blue(`[${selectedUnit}] 收到指令: ${command}`));
-            }
-
-            showPrompt();
+            await handleCommand(command, state, rl, allUnits);
+            askForCommand();
         });
     };
 
-    console.log(chalk.cyan('进入交互式CLI模式'));
-    console.log(chalk.yellow('请输入单位名称 (以 npc_dota_ 开头) 进行搜索'));
-    console.log(chalk.yellow('命令:'));
-    console.log(chalk.yellow('  set <套装名>  - 添加套装'));
-    console.log(chalk.yellow('  status       - 显示当前状态'));
-    console.log(chalk.yellow('  clear        - 重置状态'));
-    console.log(chalk.yellow('  exit/quit    - 退出\n'));
-
-    showPrompt();
+    askForCommand();
 }
 
 // 如果直接运行此脚本
