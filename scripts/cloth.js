@@ -49,7 +49,7 @@ function analyzeItemsByHero(data) {
     return heroItems;
 }
 
-async function generateClothsData(defaultItems, itemSets, heroItems) {
+async function generateClothsData(defaultItems, itemSets, heroItems, personaItems) {
     console.log(chalk.cyan('\n=== 生成英雄默认饰品数据 ==='));
 
     const clothDir = './doc/cloth';
@@ -104,6 +104,7 @@ async function generateClothsData(defaultItems, itemSets, heroItems) {
     Object.keys(heroDefaults).forEach(hero => allHeroes.add(hero));
     Object.keys(itemSets).forEach(hero => allHeroes.add(hero));
     Object.keys(heroItems).forEach(hero => allHeroes.add(hero));
+    Object.keys(personaItems).forEach(hero => allHeroes.add(hero));
 
     // 保存每个英雄的数据
     const savedHeroes = [];
@@ -111,7 +112,8 @@ async function generateClothsData(defaultItems, itemSets, heroItems) {
         const heroData = {
             defaults: heroDefaults[heroName] || {},
             item_sets: itemSets[heroName] || [],
-            items: heroItems[heroName] || []
+            items: heroItems[heroName] || [],
+            personaList: personaItems[heroName] || []
         };
 
         const heroFile = path.join(clothDir, `${heroName}.json`);
@@ -195,8 +197,11 @@ async function analyzeItemsGame() {
         // 分析英雄物品信息
         const heroItems = analyzeItemsByHero(parsed);
 
+        // 分析身心(Persona)物品
+        const personaItems = analyzePersonaItems(parsed);
+
         // 生成并保存结果 - 按英雄分别保存
-        await generateClothsData(defaultItems, itemSets, heroItems);
+        await generateClothsData(defaultItems, itemSets, heroItems, personaItems);
 
         return parsed;
 
@@ -297,6 +302,49 @@ function analyzeDefaultItems(data) {
     console.log(`\n找到 ${defaultItems.length} 个 default_item 物品`);
     
     return defaultItems;
+}
+
+function analyzePersonaItems(data) {
+    console.log(chalk.cyan('\n=== 分析身心(Persona)物品 ==='));
+
+    if (!data.items_game || !data.items_game.items) {
+        console.log(chalk.red('未找到 items_game.items 数据'));
+        return {};
+    }
+
+    const items = data.items_game.items;
+    const personaItems = {};
+
+    Object.keys(items).forEach(itemId => {
+        const item = items[itemId];
+
+        if (item && item.item_slot === 'persona_selector') {
+            const personaInfo = {
+                id: itemId,
+                name: item.name,
+                item_name: item.item_name,
+                item_slot: item.item_slot,
+                item_rarity: item.item_rarity || 'common',
+                prefab: item.prefab,
+                model_player: item.model_player
+            };
+
+            // 收集使用该身心的英雄
+            if (item.used_by_heroes) {
+                Object.keys(item.used_by_heroes).forEach(heroName => {
+                    if (heroName !== '0') { // 过滤掉英雄名为"0"的数据
+                        if (!personaItems[heroName]) {
+                            personaItems[heroName] = [];
+                        }
+                        personaItems[heroName].push(personaInfo);
+                    }
+                });
+            }
+        }
+    });
+
+    console.log(`处理了 ${Object.keys(personaItems).length} 个英雄的身心物品`);
+    return personaItems;
 }
 
 function analyzeItemSets(data) {
