@@ -1,0 +1,593 @@
+{
+  "defaults": {
+    "head": {
+      "id": "755",
+      "name": "Dawnbreaker's Head",
+      "item_name": "#DOTA_Item_Dawnbreakers_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "arms": {
+      "id": "756",
+      "name": "Dawnbreaker's Arms",
+      "item_name": "#DOTA_Item_Dawnbreakers_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common"
+    },
+    "armor": {
+      "id": "757",
+      "name": "Dawnbreaker's Armor",
+      "item_name": "#DOTA_Item_Dawnbreakers_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common"
+    },
+    "weapon": {
+      "id": "758",
+      "name": "Dawnbreaker's Weapon",
+      "item_name": "#DOTA_Item_Dawnbreakers_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Astral_Herald",
+      "store_bundle": "Astral Herald",
+      "portrait_image": "econ/sets/v2/astral_herald",
+      "items": [
+        {
+          "name": "Astral Herald Armor",
+          "id": "25456",
+          "item_name": "#DOTA_Item_Astral_Herald_Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Astral Herald Arms",
+          "id": "25457",
+          "item_name": "#DOTA_Item_Astral_Herald_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Astral Herald Head",
+          "id": "25458",
+          "item_name": "#DOTA_Item_Astral_Herald_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Astral Herald Weapon",
+          "id": "25459",
+          "item_name": "#DOTA_Item_Astral_Herald_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dying_Light",
+      "store_bundle": "Dying Light",
+      "portrait_image": "econ/sets/v2/dawnbreaker_dying_light",
+      "items": [
+        {
+          "name": "Maul of the Dying Light",
+          "id": "27546",
+          "item_name": "#DOTA_Item_Maul_of_the_Dying_Light",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Crown of the Dying Light",
+          "id": "27545",
+          "item_name": "#DOTA_Item_Crown_of_the_Dying_Light",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bracer of the Dying Light",
+          "id": "27544",
+          "item_name": "#DOTA_Item_Bracer_of_the_Dying_Light",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Armor of the Dying Light",
+          "id": "27543",
+          "item_name": "#DOTA_Item_Armor_of_the_Dying_Light",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Perception_of_the_First_Light",
+      "store_bundle": "Perception of the First Light",
+      "portrait_image": "econ/sets/v2/perception_of_the_first_light",
+      "items": [
+        {
+          "name": "Perception of the First Light - Weapon",
+          "id": "19614",
+          "item_name": "#DOTA_Item_Perception_of_the_First_Light__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Perception of the First Light - Head",
+          "id": "19613",
+          "item_name": "#DOTA_Item_Perception_of_the_First_Light__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Perception of the First Light - Arms",
+          "id": "19612",
+          "item_name": "#DOTA_Item_Perception_of_the_First_Light__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Perception of the First Light - Armor",
+          "id": "19611",
+          "item_name": "#DOTA_Item_Perception_of_the_First_Light__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Pulsar_Sentinel",
+      "store_bundle": "Pulsar Sentinel",
+      "portrait_image": "econ/sets/v2/pulsar_sentinel",
+      "items": [
+        {
+          "name": "Pulsar Sentinel - Head",
+          "id": "28856",
+          "item_name": "#DOTA_Item_Pulsar_Sentinel__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Pulsar Sentinel - Arms",
+          "id": "28855",
+          "item_name": "#DOTA_Item_Pulsar_Sentinel__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Pulsar Sentinel - Weapon",
+          "id": "28753",
+          "item_name": "#DOTA_Item_Pulsar_Sentinel__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Pulsar Sentinel - Armor",
+          "id": "28752",
+          "item_name": "#DOTA_Item_Pulsar_Sentinel__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Red_Dawn",
+      "store_bundle": "Red Dawn",
+      "portrait_image": "econ/sets/v2/red_dawn",
+      "items": [
+        {
+          "name": "Red Dawn - Armor",
+          "id": "25726",
+          "item_name": "#DOTA_Item_Red_Dawn__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Red Dawn - Arms",
+          "id": "25727",
+          "item_name": "#DOTA_Item_Red_Dawn__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Red Dawn - Head",
+          "id": "25728",
+          "item_name": "#DOTA_Item_Red_Dawn__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Red Dawn - Weapon",
+          "id": "25729",
+          "item_name": "#DOTA_Item_Red_Dawn__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Starforge_Reformer",
+      "store_bundle": "Starforge Reformer",
+      "portrait_image": "econ/sets/v2/starforge_reformer",
+      "items": [
+        {
+          "name": "Starforge Reformer - Head",
+          "id": "30415",
+          "item_name": "#DOTA_Item_Starforge_Reformer__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Starforge Reformer - Weapon",
+          "id": "30414",
+          "item_name": "#DOTA_Item_Starforge_Reformer__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Starforge Reformer - Arms",
+          "id": "30412",
+          "item_name": "#DOTA_Item_Starforge_Reformer__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Starforge Reformer - Armor",
+          "id": "30411",
+          "item_name": "#DOTA_Item_Starforge_Reformer__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Starlorn_Adjudicator",
+      "store_bundle": "Starlorn Adjudicator",
+      "portrait_image": "econ/sets/v2/starlorn_adjudicator",
+      "items": [
+        {
+          "name": "Starlorn Adjudicator - Head",
+          "id": "25716",
+          "item_name": "#DOTA_Item_Starlorn_Adjudicator__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Starlorn Adjudicator - Arms",
+          "id": "25717",
+          "item_name": "#DOTA_Item_Starlorn_Adjudicator__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Starlorn Adjudicator - Armor",
+          "id": "25718",
+          "item_name": "#DOTA_Item_Starlorn_Adjudicator__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Starlorn Adjudicator - Weapon",
+          "id": "25715",
+          "item_name": "#DOTA_Item_Starlorn_Adjudicator__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "755",
+      "name": "Dawnbreaker's Head",
+      "item_name": "#DOTA_Item_Dawnbreakers_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "756",
+      "name": "Dawnbreaker's Arms",
+      "item_name": "#DOTA_Item_Dawnbreakers_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "757",
+      "name": "Dawnbreaker's Armor",
+      "item_name": "#DOTA_Item_Dawnbreakers_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "758",
+      "name": "Dawnbreaker's Weapon",
+      "item_name": "#DOTA_Item_Dawnbreakers_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "19611",
+      "name": "Perception of the First Light - Armor",
+      "item_name": "#DOTA_Item_Perception_of_the_First_Light__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19612",
+      "name": "Perception of the First Light - Arms",
+      "item_name": "#DOTA_Item_Perception_of_the_First_Light__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19613",
+      "name": "Perception of the First Light - Head",
+      "item_name": "#DOTA_Item_Perception_of_the_First_Light__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19614",
+      "name": "Perception of the First Light - Weapon",
+      "item_name": "#DOTA_Item_Perception_of_the_First_Light__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "21921",
+      "name": "Perception of the First Light",
+      "item_name": "#DOTA_Item_Perception_of_the_First_Light",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25455",
+      "name": "Astral Herald",
+      "item_name": "#DOTA_Item_Astral_Herald",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25456",
+      "name": "Astral Herald Armor",
+      "item_name": "#DOTA_Item_Astral_Herald_Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25457",
+      "name": "Astral Herald Arms",
+      "item_name": "#DOTA_Item_Astral_Herald_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25458",
+      "name": "Astral Herald Head",
+      "item_name": "#DOTA_Item_Astral_Herald_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25459",
+      "name": "Astral Herald Weapon",
+      "item_name": "#DOTA_Item_Astral_Herald_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25714",
+      "name": "Starlorn Adjudicator",
+      "item_name": "#DOTA_Item_Starlorn_Adjudicator",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25715",
+      "name": "Starlorn Adjudicator - Weapon",
+      "item_name": "#DOTA_Item_Starlorn_Adjudicator__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25716",
+      "name": "Starlorn Adjudicator - Head",
+      "item_name": "#DOTA_Item_Starlorn_Adjudicator__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25717",
+      "name": "Starlorn Adjudicator - Arms",
+      "item_name": "#DOTA_Item_Starlorn_Adjudicator__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25718",
+      "name": "Starlorn Adjudicator - Armor",
+      "item_name": "#DOTA_Item_Starlorn_Adjudicator__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25724",
+      "name": "Red Dawn",
+      "item_name": "#DOTA_Item_Red_Dawn",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25726",
+      "name": "Red Dawn - Armor",
+      "item_name": "#DOTA_Item_Red_Dawn__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25727",
+      "name": "Red Dawn - Arms",
+      "item_name": "#DOTA_Item_Red_Dawn__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25728",
+      "name": "Red Dawn - Head",
+      "item_name": "#DOTA_Item_Red_Dawn__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25729",
+      "name": "Red Dawn - Weapon",
+      "item_name": "#DOTA_Item_Red_Dawn__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27543",
+      "name": "Armor of the Dying Light",
+      "item_name": "#DOTA_Item_Armor_of_the_Dying_Light",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27544",
+      "name": "Bracer of the Dying Light",
+      "item_name": "#DOTA_Item_Bracer_of_the_Dying_Light",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27545",
+      "name": "Crown of the Dying Light",
+      "item_name": "#DOTA_Item_Crown_of_the_Dying_Light",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27546",
+      "name": "Maul of the Dying Light",
+      "item_name": "#DOTA_Item_Maul_of_the_Dying_Light",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27547",
+      "name": "Dying Light",
+      "item_name": "#DOTA_Item_Dying_Light",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28752",
+      "name": "Pulsar Sentinel - Armor",
+      "item_name": "#DOTA_Item_Pulsar_Sentinel__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28753",
+      "name": "Pulsar Sentinel - Weapon",
+      "item_name": "#DOTA_Item_Pulsar_Sentinel__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28855",
+      "name": "Pulsar Sentinel - Arms",
+      "item_name": "#DOTA_Item_Pulsar_Sentinel__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28856",
+      "name": "Pulsar Sentinel - Head",
+      "item_name": "#DOTA_Item_Pulsar_Sentinel__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29054",
+      "name": "Pulsar Sentinel",
+      "item_name": "#DOTA_Item_Pulsar_Sentinel",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "30411",
+      "name": "Starforge Reformer - Armor",
+      "item_name": "#DOTA_Item_Starforge_Reformer__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30412",
+      "name": "Starforge Reformer - Arms",
+      "item_name": "#DOTA_Item_Starforge_Reformer__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30414",
+      "name": "Starforge Reformer - Weapon",
+      "item_name": "#DOTA_Item_Starforge_Reformer__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30415",
+      "name": "Starforge Reformer - Head",
+      "item_name": "#DOTA_Item_Starforge_Reformer__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30451",
+      "name": "Starforge Reformer",
+      "item_name": "#DOTA_Item_Starforge_Reformer",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    }
+  ]
+}

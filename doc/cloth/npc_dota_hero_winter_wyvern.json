@@ -1,0 +1,572 @@
+{
+  "defaults": {
+    "head": {
+      "id": "551",
+      "name": "Winter Wyvern's Headdress",
+      "item_name": "#DOTA_Item_Winter_Wyverns_Headdress",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "552",
+      "name": "Winter Wyvern's Pelt",
+      "item_name": "#DOTA_Item_Winter_Wyverns_Pelt",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "ambient_effects": {
+      "id": "553",
+      "name": "Winter Wyvern''s Ambient Effects",
+      "item_name": "#DOTA_Item_Winter_Wyverns_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Arctic_Recluse",
+      "store_bundle": "Arctic Recluse",
+      "portrait_image": "econ/sets/v2/arctic_recluse",
+      "items": [
+        {
+          "name": "Wings of the Arctic Recluse",
+          "id": "9511",
+          "item_name": "#DOTA_Item_Wings_of_the_Arctic_Recluse",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Crown of the Arctic Recluse",
+          "id": "9510",
+          "item_name": "#DOTA_Item_Crown_of_the_Arctic_Recluse",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Auroras_Pyre",
+      "store_bundle": "Aurora's Pyre",
+      "portrait_image": "econ/sets/v2/auroras_pyre",
+      "items": [
+        {
+          "name": "Aurora's Pyre Back",
+          "id": "18507",
+          "item_name": "#DOTA_Item_Auroras_Pyre_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Aurora's Pyre Head",
+          "id": "18506",
+          "item_name": "#DOTA_Item_Auroras_Pyre_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Defender_of_the_Brumal_Crest",
+      "store_bundle": "Defender of the Brumal Crest",
+      "portrait_image": "econ/sets/v2/defender_of_the_brumal_crest",
+      "items": [
+        {
+          "name": "Defender of the Brumal Crest - Back",
+          "id": "14226",
+          "item_name": "#DOTA_Item_Defender_of_the_Brumal_Crest__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Defender of the Brumal Crest - Head",
+          "id": "14225",
+          "item_name": "#DOTA_Item_Defender_of_the_Brumal_Crest__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Frostheart",
+      "store_bundle": "Frostheart",
+      "portrait_image": "econ/sets/v2/frostheart",
+      "items": [
+        {
+          "name": "Wings of Frostheart",
+          "id": "8286",
+          "item_name": "#DOTA_Item_Wings_of_Frostheart",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Crown of Frostheart",
+          "id": "8281",
+          "item_name": "#DOTA_Item_Crown_of_Frostheart",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Iceburnt_Elegy",
+      "store_bundle": "Iceburnt Elegy",
+      "portrait_image": "econ/sets/v2/iceburnt_elegy",
+      "items": [
+        {
+          "name": "Wings of the Iceburnt Elegy",
+          "id": "7292",
+          "item_name": "#DOTA_Item_Wings_of_the_Iceburnt_Elegy",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Crown of the Iceburnt Elegy",
+          "id": "7291",
+          "item_name": "#DOTA_Item_Crown_of_the_Iceburnt_Elegy",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Noble_Frostheart",
+      "store_bundle": "Noble Frostheart",
+      "portrait_image": "econ/sets/v2/noble_frostheart",
+      "items": [
+        {
+          "name": "Noble Crown of Frostheart",
+          "id": "8516",
+          "item_name": "#DOTA_Item_Noble_Crown_of_Frostheart",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Noble Wings of Frostheart",
+          "id": "8517",
+          "item_name": "#DOTA_Item_Noble_Wings_of_Frostheart",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Polar_Night",
+      "store_bundle": "Polar Night",
+      "portrait_image": "econ/sets/v2/polar_night",
+      "items": [
+        {
+          "name": "Polar Night Head",
+          "id": "14778",
+          "item_name": "#DOTA_Item_Polar_Night_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Polar Night Back",
+          "id": "14777",
+          "item_name": "#DOTA_Item_Polar_Night_Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Portents_of_the_Elder_Myth",
+      "store_bundle": "Portents of the Elder Myth",
+      "portrait_image": "econ/sets/v2/portents_of_the_elder_myth",
+      "items": [
+        {
+          "name": "Wings of the Elder Myth",
+          "id": "9036",
+          "item_name": "#DOTA_Item_Wings_of_the_Elder_Myth",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Diadem of the Elder Myth",
+          "id": "9035",
+          "item_name": "#DOTA_Item_Diadem_of_the_Elder_Myth",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Secrets_of_the_Katekhein",
+      "store_bundle": "Secrets of the Katekhein",
+      "portrait_image": "econ/sets/v2/secrets_of_the_katekhein",
+      "items": [
+        {
+          "name": "Wings of the Katekhein",
+          "id": "9276",
+          "item_name": "#DOTA_Item_Wings_of_the_Katekhein",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Horn of the Katekhein",
+          "id": "9277",
+          "item_name": "#DOTA_Item_Horn_of_the_Katekhein",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Wrath_of_Zaug",
+      "store_bundle": "The Wrath of Zaug",
+      "portrait_image": "econ/sets/v2/the_wrath_of_zaug",
+      "items": [
+        {
+          "name": "The Wrath of Zaug - Head",
+          "id": "13451",
+          "item_name": "#DOTA_Item_The_Wrath_of_Zaug__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Wrath of Zaug - Back",
+          "id": "13438",
+          "item_name": "#DOTA_Item_The_Wrath_of_Zaug__Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Currents_of_Endless_Woe",
+      "store_bundle": "Currents of Endless Woe",
+      "portrait_image": "econ/sets/v2/winter_wyvern_currents_of_endless_woe",
+      "items": [
+        {
+          "name": "Currents of Endless Woe - Back",
+          "id": "22876",
+          "item_name": "#DOTA_Item_Currents_of_Endless_Woe__Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Currents of Endless Woe - Head",
+          "id": "22873",
+          "item_name": "#DOTA_Item_Currents_of_Endless_Woe__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "551",
+      "name": "Winter Wyvern's Headdress",
+      "item_name": "#DOTA_Item_Winter_Wyverns_Headdress",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "552",
+      "name": "Winter Wyvern's Pelt",
+      "item_name": "#DOTA_Item_Winter_Wyverns_Pelt",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "553",
+      "name": "Winter Wyvern''s Ambient Effects",
+      "item_name": "#DOTA_Item_Winter_Wyverns_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "7291",
+      "name": "Crown of the Iceburnt Elegy",
+      "item_name": "#DOTA_Item_Crown_of_the_Iceburnt_Elegy",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7292",
+      "name": "Wings of the Iceburnt Elegy",
+      "item_name": "#DOTA_Item_Wings_of_the_Iceburnt_Elegy",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8017",
+      "name": "Iceflight Edifice",
+      "item_name": "#DOTA_Item_Iceflight_Edifice",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8281",
+      "name": "Crown of Frostheart",
+      "item_name": "#DOTA_Item_Crown_of_Frostheart",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8286",
+      "name": "Wings of Frostheart",
+      "item_name": "#DOTA_Item_Wings_of_Frostheart",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8516",
+      "name": "Noble Crown of Frostheart",
+      "item_name": "#DOTA_Item_Noble_Crown_of_Frostheart",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8517",
+      "name": "Noble Wings of Frostheart",
+      "item_name": "#DOTA_Item_Noble_Wings_of_Frostheart",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9035",
+      "name": "Diadem of the Elder Myth",
+      "item_name": "#DOTA_Item_Diadem_of_the_Elder_Myth",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9036",
+      "name": "Wings of the Elder Myth",
+      "item_name": "#DOTA_Item_Wings_of_the_Elder_Myth",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9167",
+      "name": "Taunt:  Pleasant Distraction",
+      "item_name": "#DOTA_Item_Taunt__Pleasant_Distraction",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "9276",
+      "name": "Wings of the Katekhein",
+      "item_name": "#DOTA_Item_Wings_of_the_Katekhein",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9277",
+      "name": "Horn of the Katekhein",
+      "item_name": "#DOTA_Item_Horn_of_the_Katekhein",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9510",
+      "name": "Crown of the Arctic Recluse",
+      "item_name": "#DOTA_Item_Crown_of_the_Arctic_Recluse",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9511",
+      "name": "Wings of the Arctic Recluse",
+      "item_name": "#DOTA_Item_Wings_of_the_Arctic_Recluse",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13438",
+      "name": "The Wrath of Zaug - Back",
+      "item_name": "#DOTA_Item_The_Wrath_of_Zaug__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13451",
+      "name": "The Wrath of Zaug - Head",
+      "item_name": "#DOTA_Item_The_Wrath_of_Zaug__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14225",
+      "name": "Defender of the Brumal Crest - Head",
+      "item_name": "#DOTA_Item_Defender_of_the_Brumal_Crest__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14226",
+      "name": "Defender of the Brumal Crest - Back",
+      "item_name": "#DOTA_Item_Defender_of_the_Brumal_Crest__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14777",
+      "name": "Polar Night Back",
+      "item_name": "#DOTA_Item_Polar_Night_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14778",
+      "name": "Polar Night Head",
+      "item_name": "#DOTA_Item_Polar_Night_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18506",
+      "name": "Aurora's Pyre Head",
+      "item_name": "#DOTA_Item_Auroras_Pyre_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18507",
+      "name": "Aurora's Pyre Back",
+      "item_name": "#DOTA_Item_Auroras_Pyre_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20811",
+      "name": "Iceburnt Elegy",
+      "item_name": "#DOTA_Item_Iceburnt_Elegy",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20963",
+      "name": "Frostheart",
+      "item_name": "#DOTA_Item_Frostheart",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21034",
+      "name": "Noble Frostheart",
+      "item_name": "#DOTA_Item_Noble_Frostheart",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21074",
+      "name": "Portents of the Elder Myth",
+      "item_name": "#DOTA_Item_Portents_of_the_Elder_Myth",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21112",
+      "name": "Secrets of the Katekhein",
+      "item_name": "#DOTA_Item_Secrets_of_the_Katekhein",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21144",
+      "name": "Arctic Recluse",
+      "item_name": "#DOTA_Item_Arctic_Recluse",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21370",
+      "name": "The Wrath of Zaug",
+      "item_name": "#DOTA_Item_The_Wrath_of_Zaug",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21520",
+      "name": "Defender of the Brumal Crest",
+      "item_name": "#DOTA_Item_Defender_of_the_Brumal_Crest",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21590",
+      "name": "Polar Night",
+      "item_name": "#DOTA_Item_Polar_Night",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21818",
+      "name": "Aurora's Pyre",
+      "item_name": "#DOTA_Item_Auroras_Pyre",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22873",
+      "name": "Currents of Endless Woe - Head",
+      "item_name": "#DOTA_Item_Currents_of_Endless_Woe__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22876",
+      "name": "Currents of Endless Woe - Back",
+      "item_name": "#DOTA_Item_Currents_of_Endless_Woe__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22878",
+      "name": "Currents of Endless Woe",
+      "item_name": "#DOTA_Item_Currents_of_Endless_Woe",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "29673",
+      "name": "Solitude of the Winter Squall",
+      "item_name": "#DOTA_Item_Solitude_of_the_Winter_Squall",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    }
+  ]
+}

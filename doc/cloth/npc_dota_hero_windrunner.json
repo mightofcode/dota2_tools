@@ -1,0 +1,2268 @@
+{
+  "defaults": {
+    "head": {
+      "id": "21",
+      "name": "Wind Ranger's Head",
+      "item_name": "#DOTA_Item_Wind_Rangers_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "weapon": {
+      "id": "22",
+      "name": "Wind Ranger's Bow",
+      "item_name": "#DOTA_Item_Wind_Rangers_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "shoulder": {
+      "id": "23",
+      "name": "Wind Ranger's Shoulder Pads",
+      "item_name": "#DOTA_Item_Wind_Rangers_Shoulder_Pads",
+      "item_slot": "shoulder",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "24",
+      "name": "Wind Ranger's Cape",
+      "item_name": "#DOTA_Item_Wind_Rangers_Cape",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "offhand_weapon": {
+      "id": "25",
+      "name": "Wind Ranger's Quiver",
+      "item_name": "#DOTA_Item_Wind_Rangers_Quiver",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Aria_of_the_Wild_Wind",
+      "store_bundle": "Aria of the Wild Wind Set",
+      "portrait_image": "econ/sets/v2/aria_of_the_wild_wind",
+      "items": [
+        {
+          "name": "Song of the Wild Wind",
+          "id": "6038",
+          "item_name": "#DOTA_Item_Song_of_the_Wild_Wind",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Style of the Wild Wind",
+          "id": "6039",
+          "item_name": "#DOTA_Item_Style_of_the_Wild_Wind",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Quiver of the Wild Wind",
+          "id": "6037",
+          "item_name": "#DOTA_Item_Quiver_of_the_Wild_Wind",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Tail of the Wild Wind",
+          "id": "6040",
+          "item_name": "#DOTA_Item_Tail_of_the_Wild_Wind",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Capelet of the Wild Wind",
+          "id": "6041",
+          "item_name": "#DOTA_Item_Capelet_of_the_Wild_Wind",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Array_of_Tranquility",
+      "store_bundle": "Array of Tranquility",
+      "portrait_image": "econ/sets/v2/array_of_tranquility",
+      "items": [
+        {
+          "name": "Braid of Tranquility",
+          "id": "6831",
+          "item_name": "#DOTA_Item_Braid_of_Tranquility",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Bow of Tranquility",
+          "id": "6835",
+          "item_name": "#DOTA_Item_Bow_of_Tranquility",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Cloak of Tranquility",
+          "id": "6836",
+          "item_name": "#DOTA_Item_Cloak_of_Tranquility",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Quiver of Tranquility",
+          "id": "6837",
+          "item_name": "#DOTA_Item_Quiver_of_Tranquility",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Sentry of Tranquility",
+          "id": "6838",
+          "item_name": "#DOTA_Item_Sentry_of_Tranquility",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Autumnal_Zinogre_Armor_Set",
+      "store_bundle": "Autumnal Zinogre Armor Set",
+      "portrait_image": "econ/sets/v2/autumnal_zinogre_armor_set",
+      "items": [
+        {
+          "name": "Autumnal Zinogre Mail",
+          "id": "35871",
+          "item_name": "#DOTA_Item_Autumnal_Zinogre_Mail",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Autumnal Zinogre Helm",
+          "id": "35868",
+          "item_name": "#DOTA_Item_Autumnal_Zinogre_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Autumnal Usurper's Rumble Bow",
+          "id": "35874",
+          "item_name": "#DOTA_Item_Autumnal_Usurpers_Rumble_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Autumnal Usurper's Rumble Quiver",
+          "id": "35877",
+          "item_name": "#DOTA_Item_Autumnal_Usurpers_Rumble_Quiver",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Autumnal Hunter's Cape",
+          "id": "35880",
+          "item_name": "#DOTA_Item_Autumnal_Hunters_Cape",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bindings_of_the_Battleranger",
+      "store_bundle": "Bindings of the Battleranger",
+      "portrait_image": "econ/sets/v2/bindings_of_the_battleranger",
+      "items": [
+        {
+          "name": "Bow of the Battleranger",
+          "id": "7927",
+          "item_name": "#DOTA_Item_Bow_of_the_Battleranger",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Quiver of the Battleranger",
+          "id": "7925",
+          "item_name": "#DOTA_Item_Quiver_of_the_Battleranger",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Style of the Battleranger",
+          "id": "7924",
+          "item_name": "#DOTA_Item_Style_of_the_Battleranger",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cloak of the Battleranger",
+          "id": "7923",
+          "item_name": "#DOTA_Item_Cloak_of_the_Battleranger",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Pauldrons of the Battleranger",
+          "id": "7926",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Battleranger",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Compass_of_the_Rising_Gale_Bundle",
+      "store_bundle": "Compass of the Rising Gale Bundle",
+      "portrait_image": "econ/sets/v2/compass_of_the_rising_gale_bundle",
+      "items": [
+        {
+          "name": "Cape of the Rising Gale",
+          "id": "13804",
+          "item_name": "#DOTA_Item_Cape_of_the_Rising_Gale",
+          "item_slot": "back",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Quiver of the Rising Gale",
+          "id": "13808",
+          "item_name": "#DOTA_Item_Quiver_of_the_Rising_Gale",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Armor of the Rising Gale",
+          "id": "13807",
+          "item_name": "#DOTA_Item_Armor_of_the_Rising_Gale",
+          "item_slot": "shoulder",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Compass of the Rising Gale",
+          "id": "13806",
+          "item_name": "#DOTA_Item_Compass_of_the_Rising_Gale",
+          "item_slot": "hero_base",
+          "item_rarity": "arcana"
+        },
+        {
+          "name": "Longbow of the Rising Gale",
+          "id": "13805",
+          "item_name": "#DOTA_Item_Longbow_of_the_Rising_Gale",
+          "item_slot": "weapon",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Hair of the Rising Gale",
+          "id": "32650",
+          "item_name": "#DOTA_Item_Hair_of_the_Rising_Gale",
+          "item_slot": "head",
+          "item_rarity": "legendary"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Featherfall",
+      "store_bundle": "Featherfall",
+      "portrait_image": "econ/sets/v2/featherfall_windrunner",
+      "items": [
+        {
+          "name": "Featherfall Quiver",
+          "id": "4831",
+          "item_name": "#DOTA_Item_Featherfall_Quiver",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Featherfall Spaulders",
+          "id": "4832",
+          "item_name": "#DOTA_Item_Featherfall_Spaulders",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Featherfall Locks",
+          "id": "4833",
+          "item_name": "#DOTA_Item_Featherfall_Locks",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Featherfall Cloak",
+          "id": "4834",
+          "item_name": "#DOTA_Item_Featherfall_Cloak",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Featherfall Bow",
+          "id": "4835",
+          "item_name": "#DOTA_Item_Featherfall_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Featherswing",
+      "store_bundle": "Featherswing",
+      "portrait_image": "econ/sets/v2/featherswing",
+      "items": [
+        {
+          "name": "Featherswing Hair",
+          "id": "8252",
+          "item_name": "#DOTA_Item_Featherswing_Hair",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Deadly Featherswing",
+          "id": "8254",
+          "item_name": "#DOTA_Item_Deadly_Featherswing",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Featherswing Cape",
+          "id": "8257",
+          "item_name": "#DOTA_Item_Featherswing_Cape",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Featherswing Quiver",
+          "id": "8261",
+          "item_name": "#DOTA_Item_Featherswing_Quiver",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Featherswing Pauldron",
+          "id": "8263",
+          "item_name": "#DOTA_Item_Featherswing_Pauldron",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Flowersong_Tempest",
+      "store_bundle": "Flowersong Tempest",
+      "portrait_image": "econ/sets/v2/flowersong_tempest",
+      "items": [
+        {
+          "name": "Flowersong",
+          "id": "8966",
+          "item_name": "#DOTA_Item_Flowersong",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Flowersong Guard",
+          "id": "8965",
+          "item_name": "#DOTA_Item_Flowersong_Guard",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Flowersong Thorns",
+          "id": "8964",
+          "item_name": "#DOTA_Item_Flowersong_Thorns",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Flowersong Beauty",
+          "id": "8962",
+          "item_name": "#DOTA_Item_Flowersong_Beauty",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Flowersong Breeze",
+          "id": "8961",
+          "item_name": "#DOTA_Item_Flowersong_Breeze",
+          "item_slot": "back",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Fluttering_Breeze",
+      "store_bundle": "Fluttering Breeze",
+      "portrait_image": "econ/sets/v2/fluttering_breeze",
+      "items": [
+        {
+          "name": "Fluttering Breeze - Head",
+          "id": "19148",
+          "item_name": "#DOTA_Item_Fluttering_Breeze__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Fluttering Breeze - Shoulder",
+          "id": "19146",
+          "item_name": "#DOTA_Item_Fluttering_Breeze__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Fluttering Breeze - Back",
+          "id": "19145",
+          "item_name": "#DOTA_Item_Fluttering_Breeze__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Fluttering Breeze - Arrows",
+          "id": "19143",
+          "item_name": "#DOTA_Item_Fluttering_Breeze__Arrows",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Fluttering Breeze - Bow",
+          "id": "19142",
+          "item_name": "#DOTA_Item_Fluttering_Breeze__Bow",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Compass of the Rising Gale",
+          "id": "13806",
+          "item_name": "#DOTA_Item_Compass_of_the_Rising_Gale",
+          "item_slot": "hero_base",
+          "item_rarity": "arcana"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Wings_of_the_Gilded_Falcon",
+      "store_bundle": "Wings of the Gilded Falcon Set",
+      "portrait_image": "econ/sets/v2/gilded_falcon",
+      "items": [
+        {
+          "name": "Gilded Falcon Bow",
+          "id": "4552",
+          "item_name": "#DOTA_Item_Gilded_Falcon_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Gilded Falcon Quiver",
+          "id": "4553",
+          "item_name": "#DOTA_Item_Gilded_Falcon_Quiver",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Gilded Falcon Cloak",
+          "id": "4554",
+          "item_name": "#DOTA_Item_Gilded_Falcon_Cloak",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Gilded Falcon Helm",
+          "id": "4559",
+          "item_name": "#DOTA_Item_Gilded_Falcon_Helm",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Gilded Falcon Wings",
+          "id": "4562",
+          "item_name": "#DOTA_Item_Gilded_Falcon_Wings",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Papillion_Weald",
+      "store_bundle": "Papillion Weald",
+      "portrait_image": "econ/sets/v2/papillion_weald",
+      "items": [
+        {
+          "name": "Bow of the Papillion Weald",
+          "id": "18435",
+          "item_name": "#DOTA_Item_Bow_of_the_Papillion_Weald",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Dress of the Papillion Weald",
+          "id": "18434",
+          "item_name": "#DOTA_Item_Dress_of_the_Papillion_Weald",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Hair of the Papillion Weald",
+          "id": "18433",
+          "item_name": "#DOTA_Item_Hair_of_the_Papillion_Weald",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Quiver of the Papillion Weald",
+          "id": "18431",
+          "item_name": "#DOTA_Item_Quiver_of_the_Papillion_Weald",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Wings of the Papillion Weald",
+          "id": "18430",
+          "item_name": "#DOTA_Item_Wings_of_the_Papillion_Weald",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Prismatic_Zinogre_Armor",
+      "store_bundle": "Prismatic Zinogre Armor",
+      "portrait_image": "econ/sets/v2/prismatic_zinogre_armor",
+      "items": [
+        {
+          "name": "Prismatic Zinogre Helm",
+          "id": "35869",
+          "item_name": "#DOTA_Item_Prismatic_Zinogre_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Usurper’s Rumble Bow",
+          "id": "35875",
+          "item_name": "#DOTA_Item_Prismatic_Usurpers_Rumble_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Prismatic Usurper’s Rumble Quiver",
+          "id": "35878",
+          "item_name": "#DOTA_Item_Prismatic_Usurpers_Rumble_Quiver",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Hunter’s Cape",
+          "id": "35881",
+          "item_name": "#DOTA_Item_Prismatic_Hunters_Cape",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Zinogre Mail",
+          "id": "35872",
+          "item_name": "#DOTA_Item_Prismatic_Zinogre_Mail",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Roving_Pathfinder",
+      "store_bundle": "Roving Pathfinder",
+      "portrait_image": "econ/sets/v2/roving_pathfinder",
+      "items": [
+        {
+          "name": "Longbow of the Roving Pathfinder",
+          "id": "8922",
+          "item_name": "#DOTA_Item_Longbow_of_the_Roving_Pathfinder",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Mantle of the Roving Pathfinder",
+          "id": "8921",
+          "item_name": "#DOTA_Item_Mantle_of_the_Roving_Pathfinder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Quiver of the Roving Pathfinder",
+          "id": "8917",
+          "item_name": "#DOTA_Item_Quiver_of_the_Roving_Pathfinder",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Tricorn of the Roving Pathfinder",
+          "id": "8911",
+          "item_name": "#DOTA_Item_Tricorn_of_the_Roving_Pathfinder",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Scarf of the Roving Pathfinder",
+          "id": "8912",
+          "item_name": "#DOTA_Item_Scarf_of_the_Roving_Pathfinder",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Song_of_the_Bluebird",
+      "store_bundle": "Song of the Bluebird",
+      "portrait_image": "econ/sets/v2/song_of_the_bluebird",
+      "items": [
+        {
+          "name": " Song of the Bluebird - Shoulder",
+          "id": "18746",
+          "item_name": "#DOTA_Item__Song_of_the_Bluebird__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": " Song of the Bluebird - Quiver",
+          "id": "18718",
+          "item_name": "#DOTA_Item__Song_of_the_Bluebird__Quiver",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": " Song of the Bluebird - Back",
+          "id": "18716",
+          "item_name": "#DOTA_Item__Song_of_the_Bluebird__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": " Song of the Bluebird - Bow",
+          "id": "18747",
+          "item_name": "#DOTA_Item__Song_of_the_Bluebird__Bow",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": " Song of the Bluebird - Head",
+          "id": "18749",
+          "item_name": "#DOTA_Item__Song_of_the_Bluebird__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": " Song of the Bluebird - Hood",
+          "id": "18748",
+          "item_name": "#DOTA_Item__Song_of_the_Bluebird__Hood",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Songs_of_the_Soulfinch",
+      "store_bundle": "Songs of the Soulfinch",
+      "portrait_image": "econ/sets/v2/songs_of_the_soulfinch",
+      "items": [
+        {
+          "name": "Songs of the Soulfinch - Shoulders",
+          "id": "27534",
+          "item_name": "#DOTA_Item_Songs_of_the_Soulfinch__Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Songs of the Soulfinch - Weapon",
+          "id": "27533",
+          "item_name": "#DOTA_Item_Songs_of_the_Soulfinch__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Songs of the Soulfinch - Head",
+          "id": "27532",
+          "item_name": "#DOTA_Item_Songs_of_the_Soulfinch__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Songs of the Soulfinch - Offhand",
+          "id": "27526",
+          "item_name": "#DOTA_Item_Songs_of_the_Soulfinch__Offhand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Songs of the Soulfinch - Back",
+          "id": "27523",
+          "item_name": "#DOTA_Item_Songs_of_the_Soulfinch__Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sylvan_Guards_Zinogre_Armor_Set",
+      "store_bundle": "Sylvan Guard’s Zinogre Armor Set",
+      "portrait_image": "econ/sets/v2/sylvan_guards_zinogre_armor_set",
+      "items": [
+        {
+          "name": "Sylvan Guard’s Usurper’s Rumble Bow",
+          "id": "35873",
+          "item_name": "#DOTA_Item_Sylvan_Guards_Usurpers_Rumble_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Sylvan Guard’s Usurper’s Rumble Quiver",
+          "id": "35876",
+          "item_name": "#DOTA_Item_Sylvan_Guards_Usurpers_Rumble_Quiver",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Sylvan Guard’s Zinogre Helm",
+          "id": "35867",
+          "item_name": "#DOTA_Item_Sylvan_Guards_Zinogre_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Sylvan Guard’s Zinogre Mail",
+          "id": "35870",
+          "item_name": "#DOTA_Item_Sylvan_Guards_Zinogre_Mail",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Sylvan Guard’s Hunter’s Cape",
+          "id": "35879",
+          "item_name": "#DOTA_Item_Sylvan_Guards_Hunters_Cape",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Falconers_Design",
+      "store_bundle": "Falconer's Design Set",
+      "portrait_image": "econ/sets/v2/windrunner_falconer",
+      "items": [
+        {
+          "name": "Shoulderpads of the Falcon",
+          "id": "4495",
+          "item_name": "#DOTA_Item_Shoulderpads_of_the_Falcon",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Verdant Coif",
+          "id": "4504",
+          "item_name": "#DOTA_Item_Verdant_Coif",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Cape of the Wind Leaf",
+          "id": "4512",
+          "item_name": "#DOTA_Item_Cape_of_the_Wind_Leaf",
+          "item_slot": "back",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Falconside_Armor",
+      "store_bundle": "Falconside Armor",
+      "portrait_image": "econ/sets/v2/windrunner_falconside_armor",
+      "items": [
+        {
+          "name": "Pauldrons of Falconside Armor",
+          "id": "8582",
+          "item_name": "#DOTA_Item_Pauldrons_of_Falconside_Armor",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Cape of Falconside Armor",
+          "id": "8583",
+          "item_name": "#DOTA_Item_Cape_of_Falconside_Armor",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Tiara of Falconside Armor",
+          "id": "8584",
+          "item_name": "#DOTA_Item_Tiara_of_Falconside_Armor",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Quiver of Falconside Armor",
+          "id": "8585",
+          "item_name": "#DOTA_Item_Quiver_of_Falconside_Armor",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Falconside",
+          "id": "8581",
+          "item_name": "#DOTA_Item_Falconside",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Redwood_Arms",
+      "store_bundle": "Redwood Arms Set",
+      "portrait_image": "econ/sets/v2/windrunner_redwood",
+      "items": [
+        {
+          "name": "Bloodwood Arc",
+          "id": "4549",
+          "item_name": "#DOTA_Item_Bloodwood_Arc",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Bloodwood Reserve",
+          "id": "4561",
+          "item_name": "#DOTA_Item_Bloodwood_Reserve",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Flight_of_the_Sparrowhawk",
+      "store_bundle": "Flight of the Sparrowhawk Set",
+      "portrait_image": "econ/sets/v2/windrunner_sparrowhawk",
+      "items": [
+        {
+          "name": "Sparrowhawk Bow",
+          "id": "4598",
+          "item_name": "#DOTA_Item_Sparrowhawk_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Sparrowhawk Cape",
+          "id": "4601",
+          "item_name": "#DOTA_Item_Sparrowhawk_Cape",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Sparrowhawk Hood",
+          "id": "4603",
+          "item_name": "#DOTA_Item_Sparrowhawk_Hood",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Sparrowhawk Quiver",
+          "id": "4619",
+          "item_name": "#DOTA_Item_Sparrowhawk_Quiver",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Sparrowhawk Wings",
+          "id": "4607",
+          "item_name": "#DOTA_Item_Sparrowhawk_Wings",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_ZaruKina_Protectors_Garb",
+      "store_bundle": "Zaru'Kina Protector's Garb Set",
+      "portrait_image": "econ/sets/v2/windrunner_zarukina",
+      "items": [
+        {
+          "name": "Zaru'Kina Protector's Cape",
+          "id": "4520",
+          "item_name": "#DOTA_Item_ZaruKina_Protectors_Cape",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Zaru'Kina Protector's Bow",
+          "id": "4521",
+          "item_name": "#DOTA_Item_ZaruKina_Protectors_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Zaru'Kina Protector's Pads",
+          "id": "4522",
+          "item_name": "#DOTA_Item_ZaruKina_Protectors_Pads",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Zaru'Kina Protector's Hair",
+          "id": "4548",
+          "item_name": "#DOTA_Item_ZaruKina_Protectors_Hair",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Northern_Wind",
+      "store_bundle": "The Northern Wind Set",
+      "portrait_image": "econ/sets/v2/wr_northern_wind",
+      "items": [
+        {
+          "name": "Arc of the Northern Wind",
+          "id": "5279",
+          "item_name": "#DOTA_Item_Arc_of_the_Northern_Wind",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Cloak of the Northern Wind",
+          "id": "5278",
+          "item_name": "#DOTA_Item_Cloak_of_the_Northern_Wind",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Pauldrons of the Northern Wind",
+          "id": "5280",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Northern_Wind",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Quiver of the Northern Wind",
+          "id": "5281",
+          "item_name": "#DOTA_Item_Quiver_of_the_Northern_Wind",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Circlet of the Northern Wind",
+          "id": "5282",
+          "item_name": "#DOTA_Item_Circlet_of_the_Northern_Wind",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Zinogre_Armor",
+      "store_bundle": "Zinogre Armor",
+      "portrait_image": "econ/sets/v2/zinogre_armor",
+      "items": [
+        {
+          "name": "Usurper’s Rumble Quiver",
+          "id": "33643",
+          "item_name": "#DOTA_Item_Usurpers_Rumble_Quiver",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Usurper’s Rumble Bow",
+          "id": "33642",
+          "item_name": "#DOTA_Item_Usurpers_Rumble_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Zinogre Mail",
+          "id": "33641",
+          "item_name": "#DOTA_Item_Zinogre_Mail",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Hunter’s Cape",
+          "id": "33644",
+          "item_name": "#DOTA_Item_Hunters_Cape",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Zinogre Helm",
+          "id": "33640",
+          "item_name": "#DOTA_Item_Zinogre_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "21",
+      "name": "Wind Ranger's Head",
+      "item_name": "#DOTA_Item_Wind_Rangers_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "22",
+      "name": "Wind Ranger's Bow",
+      "item_name": "#DOTA_Item_Wind_Rangers_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "23",
+      "name": "Wind Ranger's Shoulder Pads",
+      "item_name": "#DOTA_Item_Wind_Rangers_Shoulder_Pads",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "24",
+      "name": "Wind Ranger's Cape",
+      "item_name": "#DOTA_Item_Wind_Rangers_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "25",
+      "name": "Wind Ranger's Quiver",
+      "item_name": "#DOTA_Item_Wind_Rangers_Quiver",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "828",
+      "name": "Windranger's Base",
+      "item_name": "#DOTA_Item_Windrangers_Base",
+      "item_slot": "hero_base",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4180",
+      "name": "Nature's Shortbow",
+      "item_name": "#DOTA_Item_Natures_Shortbow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4408",
+      "name": "Barrel Quiver",
+      "item_name": "#DOTA_Item_Barrel_Quiver",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4426",
+      "name": "Bow of the Sun Vine",
+      "item_name": "#DOTA_Item_Bow_of_the_Sun_Vine",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4454",
+      "name": "Lyralei's Breeze",
+      "item_name": "#DOTA_Item_Lyraleis_Breeze",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4457",
+      "name": "Makeshift Hornwood Bow",
+      "item_name": "#DOTA_Item_Makeshift_Hornwood_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4473",
+      "name": "Markswoman's Cap",
+      "item_name": "#DOTA_Item_Markswomans_Cap",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4483",
+      "name": "Stinger",
+      "item_name": "#DOTA_Item_Stinger",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4495",
+      "name": "Shoulderpads of the Falcon",
+      "item_name": "#DOTA_Item_Shoulderpads_of_the_Falcon",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4504",
+      "name": "Verdant Coif",
+      "item_name": "#DOTA_Item_Verdant_Coif",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4512",
+      "name": "Cape of the Wind Leaf",
+      "item_name": "#DOTA_Item_Cape_of_the_Wind_Leaf",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4520",
+      "name": "Zaru'Kina Protector's Cape",
+      "item_name": "#DOTA_Item_ZaruKina_Protectors_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4521",
+      "name": "Zaru'Kina Protector's Bow",
+      "item_name": "#DOTA_Item_ZaruKina_Protectors_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4522",
+      "name": "Zaru'Kina Protector's Pads",
+      "item_name": "#DOTA_Item_ZaruKina_Protectors_Pads",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4548",
+      "name": "Zaru'Kina Protector's Hair",
+      "item_name": "#DOTA_Item_ZaruKina_Protectors_Hair",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4549",
+      "name": "Bloodwood Arc",
+      "item_name": "#DOTA_Item_Bloodwood_Arc",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4552",
+      "name": "Gilded Falcon Bow",
+      "item_name": "#DOTA_Item_Gilded_Falcon_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4553",
+      "name": "Gilded Falcon Quiver",
+      "item_name": "#DOTA_Item_Gilded_Falcon_Quiver",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4554",
+      "name": "Gilded Falcon Cloak",
+      "item_name": "#DOTA_Item_Gilded_Falcon_Cloak",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4559",
+      "name": "Gilded Falcon Helm",
+      "item_name": "#DOTA_Item_Gilded_Falcon_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4561",
+      "name": "Bloodwood Reserve",
+      "item_name": "#DOTA_Item_Bloodwood_Reserve",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4562",
+      "name": "Gilded Falcon Wings",
+      "item_name": "#DOTA_Item_Gilded_Falcon_Wings",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4568",
+      "name": "Bow of the Oyoloe",
+      "item_name": "#DOTA_Item_Bow_of_the_Oyoloe",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4598",
+      "name": "Sparrowhawk Bow",
+      "item_name": "#DOTA_Item_Sparrowhawk_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4601",
+      "name": "Sparrowhawk Cape",
+      "item_name": "#DOTA_Item_Sparrowhawk_Cape",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4603",
+      "name": "Sparrowhawk Hood",
+      "item_name": "#DOTA_Item_Sparrowhawk_Hood",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4607",
+      "name": "Sparrowhawk Wings",
+      "item_name": "#DOTA_Item_Sparrowhawk_Wings",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4619",
+      "name": "Sparrowhawk Quiver",
+      "item_name": "#DOTA_Item_Sparrowhawk_Quiver",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4831",
+      "name": "Featherfall Quiver",
+      "item_name": "#DOTA_Item_Featherfall_Quiver",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4832",
+      "name": "Featherfall Spaulders",
+      "item_name": "#DOTA_Item_Featherfall_Spaulders",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4833",
+      "name": "Featherfall Locks",
+      "item_name": "#DOTA_Item_Featherfall_Locks",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4834",
+      "name": "Featherfall Cloak",
+      "item_name": "#DOTA_Item_Featherfall_Cloak",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4835",
+      "name": "Featherfall Bow",
+      "item_name": "#DOTA_Item_Featherfall_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5278",
+      "name": "Cloak of the Northern Wind",
+      "item_name": "#DOTA_Item_Cloak_of_the_Northern_Wind",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5279",
+      "name": "Arc of the Northern Wind",
+      "item_name": "#DOTA_Item_Arc_of_the_Northern_Wind",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5280",
+      "name": "Pauldrons of the Northern Wind",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Northern_Wind",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5281",
+      "name": "Quiver of the Northern Wind",
+      "item_name": "#DOTA_Item_Quiver_of_the_Northern_Wind",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5282",
+      "name": "Circlet of the Northern Wind",
+      "item_name": "#DOTA_Item_Circlet_of_the_Northern_Wind",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5390",
+      "name": "Mistral Braid",
+      "item_name": "#DOTA_Item_Mistral_Braid",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5580",
+      "name": "Windweave Headband",
+      "item_name": "#DOTA_Item_Windweave_Headband",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5674",
+      "name": "Raider's Patch",
+      "item_name": "#DOTA_Item_Raiders_Patch",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5836",
+      "name": "Iguana's Quiver",
+      "item_name": "#DOTA_Item_Iguanas_Quiver",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5838",
+      "name": "Iguana's Bow",
+      "item_name": "#DOTA_Item_Iguanas_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5852",
+      "name": "Style of the Grove",
+      "item_name": "#DOTA_Item_Style_of_the_Grove",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6037",
+      "name": "Quiver of the Wild Wind",
+      "item_name": "#DOTA_Item_Quiver_of_the_Wild_Wind",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6038",
+      "name": "Song of the Wild Wind",
+      "item_name": "#DOTA_Item_Song_of_the_Wild_Wind",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6039",
+      "name": "Style of the Wild Wind",
+      "item_name": "#DOTA_Item_Style_of_the_Wild_Wind",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6040",
+      "name": "Tail of the Wild Wind",
+      "item_name": "#DOTA_Item_Tail_of_the_Wild_Wind",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6041",
+      "name": "Capelet of the Wild Wind",
+      "item_name": "#DOTA_Item_Capelet_of_the_Wild_Wind",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6687",
+      "name": "Sylvan Cascade",
+      "item_name": "#DOTA_Item_Sylvan_Cascade",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6758",
+      "name": "Rainmaker",
+      "item_name": "#DOTA_Item_Rainmaker",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6831",
+      "name": "Braid of Tranquility",
+      "item_name": "#DOTA_Item_Braid_of_Tranquility",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6835",
+      "name": "Bow of Tranquility",
+      "item_name": "#DOTA_Item_Bow_of_Tranquility",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6836",
+      "name": "Cloak of Tranquility",
+      "item_name": "#DOTA_Item_Cloak_of_Tranquility",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6837",
+      "name": "Quiver of Tranquility",
+      "item_name": "#DOTA_Item_Quiver_of_Tranquility",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6838",
+      "name": "Sentry of Tranquility",
+      "item_name": "#DOTA_Item_Sentry_of_Tranquility",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7668",
+      "name": "Taunt: You Prefer Arrows?",
+      "item_name": "#DOTA_Item_Taunt_You_Prefer_Arrows",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "taunt"
+    },
+    {
+      "id": "7923",
+      "name": "Cloak of the Battleranger",
+      "item_name": "#DOTA_Item_Cloak_of_the_Battleranger",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7924",
+      "name": "Style of the Battleranger",
+      "item_name": "#DOTA_Item_Style_of_the_Battleranger",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7925",
+      "name": "Quiver of the Battleranger",
+      "item_name": "#DOTA_Item_Quiver_of_the_Battleranger",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7926",
+      "name": "Pauldrons of the Battleranger",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Battleranger",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7927",
+      "name": "Bow of the Battleranger",
+      "item_name": "#DOTA_Item_Bow_of_the_Battleranger",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7978",
+      "name": "Peregrine Flight",
+      "item_name": "#DOTA_Item_Peregrine_Flight",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8252",
+      "name": "Featherswing Hair",
+      "item_name": "#DOTA_Item_Featherswing_Hair",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8254",
+      "name": "Deadly Featherswing",
+      "item_name": "#DOTA_Item_Deadly_Featherswing",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8257",
+      "name": "Featherswing Cape",
+      "item_name": "#DOTA_Item_Featherswing_Cape",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8261",
+      "name": "Featherswing Quiver",
+      "item_name": "#DOTA_Item_Featherswing_Quiver",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8263",
+      "name": "Featherswing Pauldron",
+      "item_name": "#DOTA_Item_Featherswing_Pauldron",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8581",
+      "name": "Falconside",
+      "item_name": "#DOTA_Item_Falconside",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8582",
+      "name": "Pauldrons of Falconside Armor",
+      "item_name": "#DOTA_Item_Pauldrons_of_Falconside_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8583",
+      "name": "Cape of Falconside Armor",
+      "item_name": "#DOTA_Item_Cape_of_Falconside_Armor",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8584",
+      "name": "Tiara of Falconside Armor",
+      "item_name": "#DOTA_Item_Tiara_of_Falconside_Armor",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8585",
+      "name": "Quiver of Falconside Armor",
+      "item_name": "#DOTA_Item_Quiver_of_Falconside_Armor",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8911",
+      "name": "Tricorn of the Roving Pathfinder",
+      "item_name": "#DOTA_Item_Tricorn_of_the_Roving_Pathfinder",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8912",
+      "name": "Scarf of the Roving Pathfinder",
+      "item_name": "#DOTA_Item_Scarf_of_the_Roving_Pathfinder",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8917",
+      "name": "Quiver of the Roving Pathfinder",
+      "item_name": "#DOTA_Item_Quiver_of_the_Roving_Pathfinder",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8921",
+      "name": "Mantle of the Roving Pathfinder",
+      "item_name": "#DOTA_Item_Mantle_of_the_Roving_Pathfinder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8922",
+      "name": "Longbow of the Roving Pathfinder",
+      "item_name": "#DOTA_Item_Longbow_of_the_Roving_Pathfinder",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8961",
+      "name": "Flowersong Breeze",
+      "item_name": "#DOTA_Item_Flowersong_Breeze",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8962",
+      "name": "Flowersong Beauty",
+      "item_name": "#DOTA_Item_Flowersong_Beauty",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8964",
+      "name": "Flowersong Thorns",
+      "item_name": "#DOTA_Item_Flowersong_Thorns",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8965",
+      "name": "Flowersong Guard",
+      "item_name": "#DOTA_Item_Flowersong_Guard",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8966",
+      "name": "Flowersong",
+      "item_name": "#DOTA_Item_Flowersong",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12326",
+      "name": "Sylvan Vedette",
+      "item_name": "#DOTA_Item_Sylvan_Vedette",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13804",
+      "name": "Cape of the Rising Gale",
+      "item_name": "#DOTA_Item_Cape_of_the_Rising_Gale",
+      "item_slot": "back",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13805",
+      "name": "Longbow of the Rising Gale",
+      "item_name": "#DOTA_Item_Longbow_of_the_Rising_Gale",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13806",
+      "name": "Compass of the Rising Gale",
+      "item_name": "#DOTA_Item_Compass_of_the_Rising_Gale",
+      "item_slot": "hero_base",
+      "item_rarity": "arcana",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13807",
+      "name": "Armor of the Rising Gale",
+      "item_name": "#DOTA_Item_Armor_of_the_Rising_Gale",
+      "item_slot": "shoulder",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13808",
+      "name": "Quiver of the Rising Gale",
+      "item_name": "#DOTA_Item_Quiver_of_the_Rising_Gale",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18430",
+      "name": "Wings of the Papillion Weald",
+      "item_name": "#DOTA_Item_Wings_of_the_Papillion_Weald",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18431",
+      "name": "Quiver of the Papillion Weald",
+      "item_name": "#DOTA_Item_Quiver_of_the_Papillion_Weald",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18433",
+      "name": "Hair of the Papillion Weald",
+      "item_name": "#DOTA_Item_Hair_of_the_Papillion_Weald",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18434",
+      "name": "Dress of the Papillion Weald",
+      "item_name": "#DOTA_Item_Dress_of_the_Papillion_Weald",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18435",
+      "name": "Bow of the Papillion Weald",
+      "item_name": "#DOTA_Item_Bow_of_the_Papillion_Weald",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18716",
+      "name": " Song of the Bluebird - Back",
+      "item_name": "#DOTA_Item__Song_of_the_Bluebird__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18718",
+      "name": " Song of the Bluebird - Quiver",
+      "item_name": "#DOTA_Item__Song_of_the_Bluebird__Quiver",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18746",
+      "name": " Song of the Bluebird - Shoulder",
+      "item_name": "#DOTA_Item__Song_of_the_Bluebird__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18747",
+      "name": " Song of the Bluebird - Bow",
+      "item_name": "#DOTA_Item__Song_of_the_Bluebird__Bow",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18748",
+      "name": " Song of the Bluebird - Hood",
+      "item_name": "#DOTA_Item__Song_of_the_Bluebird__Hood",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18749",
+      "name": " Song of the Bluebird - Head",
+      "item_name": "#DOTA_Item__Song_of_the_Bluebird__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19142",
+      "name": "Fluttering Breeze - Bow",
+      "item_name": "#DOTA_Item_Fluttering_Breeze__Bow",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19143",
+      "name": "Fluttering Breeze - Arrows",
+      "item_name": "#DOTA_Item_Fluttering_Breeze__Arrows",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19145",
+      "name": "Fluttering Breeze - Back",
+      "item_name": "#DOTA_Item_Fluttering_Breeze__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19146",
+      "name": "Fluttering Breeze - Shoulder",
+      "item_name": "#DOTA_Item_Fluttering_Breeze__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19148",
+      "name": "Fluttering Breeze - Head",
+      "item_name": "#DOTA_Item_Fluttering_Breeze__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20069",
+      "name": "Falconer's Design Set",
+      "item_name": "#DOTA_Item_Falconers_Design_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20070",
+      "name": "Zaru'Kina Protector's Garb Set",
+      "item_name": "#DOTA_Item_ZaruKina_Protectors_Garb_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20071",
+      "name": "Flight of the Sparrowhawk Set",
+      "item_name": "#DOTA_Item_Flight_of_the_Sparrowhawk_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20083",
+      "name": "Wind Ranger's Sylvan Bundle",
+      "item_name": "#DOTA_Item_Wind_Rangers_Sylvan_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20113",
+      "name": "Wings of the Gilded Falcon Set",
+      "item_name": "#DOTA_Item_Wings_of_the_Gilded_Falcon_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20144",
+      "name": "Featherfall",
+      "item_name": "#DOTA_Item_Featherfall",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20225",
+      "name": "The Northern Wind Set",
+      "item_name": "#DOTA_Item_The_Northern_Wind_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20261",
+      "name": "Redwood Arms Set",
+      "item_name": "#DOTA_Item_Redwood_Arms_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20373",
+      "name": "Aria of the Wild Wind Set",
+      "item_name": "#DOTA_Item_Aria_of_the_Wild_Wind_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20578",
+      "name": "Array of Tranquility",
+      "item_name": "#DOTA_Item_Array_of_Tranquility",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20826",
+      "name": "Flowersong Tempest",
+      "item_name": "#DOTA_Item_Flowersong_Tempest",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20915",
+      "name": "Featherswing",
+      "item_name": "#DOTA_Item_Featherswing",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20944",
+      "name": "Falconside Armor",
+      "item_name": "#DOTA_Item_Falconside_Armor",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21017",
+      "name": "Bindings of the Battleranger",
+      "item_name": "#DOTA_Item_Bindings_of_the_Battleranger",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21060",
+      "name": "Roving Pathfinder",
+      "item_name": "#DOTA_Item_Roving_Pathfinder",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21444",
+      "name": "Compass of the Rising Gale Bundle",
+      "item_name": "#DOTA_Item_Compass_of_the_Rising_Gale_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "arcana",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21806",
+      "name": "Papillion Weald",
+      "item_name": "#DOTA_Item_Papillion_Weald",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21840",
+      "name": "Fluttering Breeze",
+      "item_name": "#DOTA_Item_Fluttering_Breeze",
+      "item_slot": "weapon",
+      "item_rarity": "arcana",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22287",
+      "name": "Song of the Bluebird",
+      "item_name": "#DOTA_Item_Song_of_the_Bluebird",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "27523",
+      "name": "Songs of the Soulfinch - Back",
+      "item_name": "#DOTA_Item_Songs_of_the_Soulfinch__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27526",
+      "name": "Songs of the Soulfinch - Offhand",
+      "item_name": "#DOTA_Item_Songs_of_the_Soulfinch__Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27531",
+      "name": "Songs of the Soulfinch",
+      "item_name": "#DOTA_Item_Songs_of_the_Soulfinch",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "27532",
+      "name": "Songs of the Soulfinch - Head",
+      "item_name": "#DOTA_Item_Songs_of_the_Soulfinch__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27533",
+      "name": "Songs of the Soulfinch - Weapon",
+      "item_name": "#DOTA_Item_Songs_of_the_Soulfinch__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27534",
+      "name": "Songs of the Soulfinch - Shoulders",
+      "item_name": "#DOTA_Item_Songs_of_the_Soulfinch__Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "32650",
+      "name": "Hair of the Rising Gale",
+      "item_name": "#DOTA_Item_Hair_of_the_Rising_Gale",
+      "item_slot": "head",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "33640",
+      "name": "Zinogre Helm",
+      "item_name": "#DOTA_Item_Zinogre_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "33641",
+      "name": "Zinogre Mail",
+      "item_name": "#DOTA_Item_Zinogre_Mail",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "33642",
+      "name": "Usurper’s Rumble Bow",
+      "item_name": "#DOTA_Item_Usurpers_Rumble_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "33643",
+      "name": "Usurper’s Rumble Quiver",
+      "item_name": "#DOTA_Item_Usurpers_Rumble_Quiver",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "33644",
+      "name": "Hunter’s Cape",
+      "item_name": "#DOTA_Item_Hunters_Cape",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "33967",
+      "name": "Zinogre Armor",
+      "item_name": "#DOTA_Item_Zinogre_Armor",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "35867",
+      "name": "Sylvan Guard’s Zinogre Helm",
+      "item_name": "#DOTA_Item_Sylvan_Guards_Zinogre_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35868",
+      "name": "Autumnal Zinogre Helm",
+      "item_name": "#DOTA_Item_Autumnal_Zinogre_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35869",
+      "name": "Prismatic Zinogre Helm",
+      "item_name": "#DOTA_Item_Prismatic_Zinogre_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35870",
+      "name": "Sylvan Guard’s Zinogre Mail",
+      "item_name": "#DOTA_Item_Sylvan_Guards_Zinogre_Mail",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35871",
+      "name": "Autumnal Zinogre Mail",
+      "item_name": "#DOTA_Item_Autumnal_Zinogre_Mail",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35872",
+      "name": "Prismatic Zinogre Mail",
+      "item_name": "#DOTA_Item_Prismatic_Zinogre_Mail",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35873",
+      "name": "Sylvan Guard’s Usurper’s Rumble Bow",
+      "item_name": "#DOTA_Item_Sylvan_Guards_Usurpers_Rumble_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35874",
+      "name": "Autumnal Usurper's Rumble Bow",
+      "item_name": "#DOTA_Item_Autumnal_Usurpers_Rumble_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35875",
+      "name": "Prismatic Usurper’s Rumble Bow",
+      "item_name": "#DOTA_Item_Prismatic_Usurpers_Rumble_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35876",
+      "name": "Sylvan Guard’s Usurper’s Rumble Quiver",
+      "item_name": "#DOTA_Item_Sylvan_Guards_Usurpers_Rumble_Quiver",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35877",
+      "name": "Autumnal Usurper's Rumble Quiver",
+      "item_name": "#DOTA_Item_Autumnal_Usurpers_Rumble_Quiver",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35878",
+      "name": "Prismatic Usurper’s Rumble Quiver",
+      "item_name": "#DOTA_Item_Prismatic_Usurpers_Rumble_Quiver",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35879",
+      "name": "Sylvan Guard’s Hunter’s Cape",
+      "item_name": "#DOTA_Item_Sylvan_Guards_Hunters_Cape",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35880",
+      "name": "Autumnal Hunter's Cape",
+      "item_name": "#DOTA_Item_Autumnal_Hunters_Cape",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35881",
+      "name": "Prismatic Hunter’s Cape",
+      "item_name": "#DOTA_Item_Prismatic_Hunters_Cape",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35882",
+      "name": "Sylvan Guard’s Zinogre Armor Set",
+      "item_name": "#DOTA_Item_Sylvan_Guards_Zinogre_Armor_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "35883",
+      "name": "Autumnal Zinogre Armor Set",
+      "item_name": "#DOTA_Item_Autumnal_Zinogre_Armor_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "35884",
+      "name": "Prismatic Zinogre Armor",
+      "item_name": "#DOTA_Item_Prismatic_Zinogre_Armor",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    }
+  ]
+}

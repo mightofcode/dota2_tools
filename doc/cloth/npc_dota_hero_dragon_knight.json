@@ -1,0 +1,3086 @@
+{
+  "defaults": {
+    "head": {
+      "id": "63",
+      "name": "Dragon Knight's Helmet",
+      "item_name": "#DOTA_Item_Dragon_Knights_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "shoulder": {
+      "id": "64",
+      "name": "Dragon Knight's Shoulder Armor",
+      "item_name": "#DOTA_Item_Dragon_Knights_Shoulder_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common"
+    },
+    "arms": {
+      "id": "65",
+      "name": "Dragon Knight's Bracers",
+      "item_name": "#DOTA_Item_Dragon_Knights_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common"
+    },
+    "weapon": {
+      "id": "66",
+      "name": "Dragon Knight's Weapon",
+      "item_name": "#DOTA_Item_Dragon_Knights_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "offhand_weapon": {
+      "id": "67",
+      "name": "Dragon Knight's Offhand",
+      "item_name": "#DOTA_Item_Dragon_Knights_Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "68",
+      "name": "Dragon Knight's Skirt",
+      "item_name": "#DOTA_Item_Dragon_Knights_Skirt",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "shapeshift": {
+      "id": "8647",
+      "name": "Dragon Knight's Elder Dragon",
+      "item_name": "#DOTA_Item_Dragon_Knights_Elder_Dragon",
+      "item_slot": "shapeshift",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Bitterwing_Legacy",
+      "store_bundle": "Bitterwing Legacy",
+      "portrait_image": "econ/sets/v2/bitterwing_legacy",
+      "items": [
+        {
+          "name": "Bitterwing",
+          "id": "9644",
+          "item_name": "#DOTA_Item_Bitterwing",
+          "item_slot": "shapeshift",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Blade of the Bitterwing Legacy",
+          "id": "9643",
+          "item_name": "#DOTA_Item_Blade_of_the_Bitterwing_Legacy",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Arms of the Bitterwing Legacy",
+          "id": "9642",
+          "item_name": "#DOTA_Item_Arms_of_the_Bitterwing_Legacy",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shield of the Bitterwing Legacy",
+          "id": "9641",
+          "item_name": "#DOTA_Item_Shield_of_the_Bitterwing_Legacy",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Barding of the Bitterwing Legacy",
+          "id": "9640",
+          "item_name": "#DOTA_Item_Barding_of_the_Bitterwing_Legacy",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shoulder of the Bitterwing Legacy",
+          "id": "9639",
+          "item_name": "#DOTA_Item_Shoulder_of_the_Bitterwing_Legacy",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Helm of the Bitterwing Legacy",
+          "id": "9638",
+          "item_name": "#DOTA_Item_Helm_of_the_Bitterwing_Legacy",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Blazing_Oblivion",
+      "store_bundle": "Blazing Oblivion",
+      "portrait_image": "econ/sets/v2/blazing_oblivion",
+      "items": [
+        {
+          "name": "Elder Drake of Blazing Oblivion",
+          "id": "7671",
+          "item_name": "#DOTA_Item_Elder_Drake_of_Blazing_Oblivion",
+          "item_slot": "shapeshift",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Helm of Blazing Oblivion",
+          "id": "8801",
+          "item_name": "#DOTA_Item_Helm_of_Blazing_Oblivion",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cuirass of Blazing Oblivion",
+          "id": "8800",
+          "item_name": "#DOTA_Item_Cuirass_of_Blazing_Oblivion",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Skirt of Blazing Oblivion",
+          "id": "8798",
+          "item_name": "#DOTA_Item_Skirt_of_Blazing_Oblivion",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Blade of Blazing Oblivion",
+          "id": "8797",
+          "item_name": "#DOTA_Item_Blade_of_Blazing_Oblivion",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Shield of Blazing Oblivion",
+          "id": "8796",
+          "item_name": "#DOTA_Item_Shield_of_Blazing_Oblivion",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bracers of Blazing Oblivion",
+          "id": "8799",
+          "item_name": "#DOTA_Item_Bracers_of_Blazing_Oblivion",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Blazing_Superiority",
+      "store_bundle": "The Blazing Superiority",
+      "portrait_image": "econ/sets/v2/blazing_superiority",
+      "items": [
+        {
+          "name": "Helmet of the Blazing Superiority",
+          "id": "6371",
+          "item_name": "#DOTA_Item_Helmet_of_the_Blazing_Superiority",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Pauldrons of the Blazing Superiority",
+          "id": "6372",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Blazing_Superiority",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Shield of the Blazing Superiority",
+          "id": "6373",
+          "item_name": "#DOTA_Item_Shield_of_the_Blazing_Superiority",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Skirt of the Blazing Superiority",
+          "id": "6374",
+          "item_name": "#DOTA_Item_Skirt_of_the_Blazing_Superiority",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Sword of the Blazing Superiority",
+          "id": "6375",
+          "item_name": "#DOTA_Item_Sword_of_the_Blazing_Superiority",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Vambrace of the Blazing Superiority",
+          "id": "6376",
+          "item_name": "#DOTA_Item_Vambrace_of_the_Blazing_Superiority",
+          "item_slot": "arms",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Deep_Vault_Rathalos_Armor_Set",
+      "store_bundle": "Deep Vault Rathalos Armor Set",
+      "portrait_image": "econ/sets/v2/deep_vault_rathalos_armor_set",
+      "items": [
+        {
+          "name": "Monster Hunter Rathalos Form",
+          "id": "31375",
+          "item_name": "#DOTA_Item_Monster_Hunter_Rathalos_Form",
+          "item_slot": "shapeshift",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Deep Vault Rathalos Helm",
+          "id": "35810",
+          "item_name": "#DOTA_Item_Deep_Vault_Rathalos_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Deep Vault Heat Edge Sword",
+          "id": "35822",
+          "item_name": "#DOTA_Item_Deep_Vault_Heat_Edge_Sword",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Deep Vault Heat Edge Shield",
+          "id": "35825",
+          "item_name": "#DOTA_Item_Deep_Vault_Heat_Edge_Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Deep Vault Rathalos Coil and Greaves",
+          "id": "35809",
+          "item_name": "#DOTA_Item_Deep_Vault_Rathalos_Coil_and_Greaves",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Deep Vault Rathalos Mail",
+          "id": "35811",
+          "item_name": "#DOTA_Item_Deep_Vault_Rathalos_Mail",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Deep Vault Rathalos Braces",
+          "id": "35808",
+          "item_name": "#DOTA_Item_Deep_Vault_Rathalos_Braces",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Enchanted_Plate_of_the_Crimson_Wyvern",
+      "store_bundle": "Enchanted Plate of the Crimson Wyvern Set",
+      "portrait_image": "econ/sets/v2/dragon_knight_crimson_wyvern",
+      "items": [
+        {
+          "name": "Crimson Wyvern Skirt",
+          "id": "4519",
+          "item_name": "#DOTA_Item_Crimson_Wyvern_Skirt",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Crimson Wyvern Shield",
+          "id": "4513",
+          "item_name": "#DOTA_Item_Crimson_Wyvern_Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Crimson Wyvern Shoulders",
+          "id": "4564",
+          "item_name": "#DOTA_Item_Crimson_Wyvern_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Crimson Wyvern Bracers",
+          "id": "4610",
+          "item_name": "#DOTA_Item_Crimson_Wyvern_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Crimson Wyvern Sword",
+          "id": "4612",
+          "item_name": "#DOTA_Item_Crimson_Wyvern_Sword_",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Crimson Wyvern Helm",
+          "id": "4516",
+          "item_name": "#DOTA_Item_Crimson_Wyvern_Helm",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dragon_Knight_Davion",
+      "store_bundle": "Armor of Sir Davion Set",
+      "portrait_image": "econ/sets/v2/dragon_knight_davion",
+      "items": [
+        {
+          "name": "Light Cape of Sir Davion",
+          "id": "4124",
+          "item_name": "#DOTA_Item_Light_Cape_of_Sir_Davion",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Slayer-Sword of Sir Davion",
+          "id": "4125",
+          "item_name": "#DOTA_Item_SlayerSword_of_Sir_Davion",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Enameled Shield of Sir Davion",
+          "id": "4143",
+          "item_name": "#DOTA_Item_Enameled_Shield_of_Sir_Davion",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Dragonbone Helm of Sir Davion",
+          "id": "4137",
+          "item_name": "#DOTA_Item_Dragonbone_Helm_of_Sir_Davion",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Pauldrons of Sir Davion",
+          "id": "4126",
+          "item_name": "#DOTA_Item_Pauldrons_of_Sir_Davion",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Bracers of Sir Davion",
+          "id": "4127",
+          "item_name": "#DOTA_Item_Bracers_of_Sir_Davion",
+          "item_slot": "arms",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_FireBlessed_Mail_of_the_Drake",
+      "store_bundle": "Fire-Blessed Mail of the Drake Set",
+      "portrait_image": "econ/sets/v2/dragon_knight_drake",
+      "items": [
+        {
+          "name": "Bracers of the Drake",
+          "id": "4458",
+          "item_name": "#DOTA_Item_Bracers_of_the_Drake",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Cape of the Drake",
+          "id": "4461",
+          "item_name": "#DOTA_Item_Cape_of_the_Drake",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Armor of the Drake",
+          "id": "4462",
+          "item_name": "#DOTA_Item_Armor_of_the_Drake",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Helmet of the Drake",
+          "id": "4471",
+          "item_name": "#DOTA_Item_Helmet_of_the_Drake",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Shield of the Drake",
+          "id": "4484",
+          "item_name": "#DOTA_Item_Shield_of_the_Drake",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Sword of the Drake",
+          "id": "4503",
+          "item_name": "#DOTA_Item_Sword_of_the_Drake",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bones_of_the_Slain_Dragon",
+      "store_bundle": "Bones of the Slain Dragon Set",
+      "portrait_image": "econ/sets/v2/dragon_knight_slain_dragon",
+      "items": [
+        {
+          "name": "Shoulders of the Slain Dragon",
+          "id": "4281",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Slain_Dragon",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Vambraces of the Slain Dragon",
+          "id": "4370",
+          "item_name": "#DOTA_Item_Vambraces_of_the_Slain_Dragon",
+          "item_slot": "arms",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Edge of the Slain Dragon",
+          "id": "4391",
+          "item_name": "#DOTA_Item_Edge_of_the_Slain_Dragon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Helm of the Slain Dragon",
+          "id": "4323",
+          "item_name": "#DOTA_Item_Helm_of_the_Slain_Dragon",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Uldoraks_Hide",
+      "store_bundle": "Uldorak's Hide Set",
+      "portrait_image": "econ/sets/v2/dragon_knight_uldorak",
+      "items": [
+        {
+          "name": "Wyrm Shield of Uldorak",
+          "id": "4095",
+          "item_name": "#DOTA_Item_Wyrm_Shield_of_Uldorak",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Wyrm Helm of Uldorak",
+          "id": "4114",
+          "item_name": "#DOTA_Item_Wyrm_Helm_of_Uldorak",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Wyrm Skirt of Uldorak",
+          "id": "4116",
+          "item_name": "#DOTA_Item_Wyrm_Skirt_of_Uldorak",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Dragonmaw",
+          "id": "4154",
+          "item_name": "#DOTA_Item_Dragonmaw",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Wyrm Pauldrons of Uldorak",
+          "id": "4117",
+          "item_name": "#DOTA_Item_Wyrm_Pauldrons_of_Uldorak",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Wyrm Bracers of Uldorak",
+          "id": "4115",
+          "item_name": "#DOTA_Item_Wyrm_Bracers_of_Uldorak",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dragons_Ascension",
+      "store_bundle": "Dragon's Ascension",
+      "portrait_image": "econ/sets/v2/dragons_ascension",
+      "items": [
+        {
+          "name": "Sword of Ascension",
+          "id": "6787",
+          "item_name": "#DOTA_Item_Sword_of_Ascension",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Drapes of Ascension",
+          "id": "6788",
+          "item_name": "#DOTA_Item_Drapes_of_Ascension",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shield of Ascension",
+          "id": "6789",
+          "item_name": "#DOTA_Item_Shield_of_Ascension",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Gauntlets of Ascension",
+          "id": "6790",
+          "item_name": "#DOTA_Item_Gauntlets_of_Ascension",
+          "item_slot": "arms",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Pauldrons of Ascension",
+          "id": "6791",
+          "item_name": "#DOTA_Item_Pauldrons_of_Ascension",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Helm of Ascension",
+          "id": "6792",
+          "item_name": "#DOTA_Item_Helm_of_Ascension",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Fire_Dragon_of_Doom",
+      "store_bundle": "Fire Dragon of Doom",
+      "portrait_image": "econ/sets/v2/fire_dragon_of_doom",
+      "items": [
+        {
+          "name": "Skirt of the Fire Dragon",
+          "id": "6922",
+          "item_name": "#DOTA_Item_Skirt_of_the_Fire_Dragon",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Helm of the Fire Dragon",
+          "id": "6923",
+          "item_name": "#DOTA_Item_Helm_of_the_Fire_Dragon",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Shield of the Fire Dragon",
+          "id": "6924",
+          "item_name": "#DOTA_Item_Shield_of_the_Fire_Dragon",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Pauldrons of the Fire Dragon",
+          "id": "6925",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Fire_Dragon",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Blade of the Fire Dragon",
+          "id": "6926",
+          "item_name": "#DOTA_Item_Blade_of_the_Fire_Dragon",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Gauntlets of the Fire Dragon",
+          "id": "6927",
+          "item_name": "#DOTA_Item_Gauntlets_of_the_Fire_Dragon",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Fire_Tribunal",
+      "store_bundle": "Fire Tribunal Set",
+      "portrait_image": "econ/sets/v2/fire_tribunal_set",
+      "items": [
+        {
+          "name": "Fire Tribunal Arms",
+          "id": "6093",
+          "item_name": "#DOTA_Item_Fire_Tribunal_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Fire Tribunal Helm",
+          "id": "6099",
+          "item_name": "#DOTA_Item_Fire_Tribunal_Helm",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Fire Tribunal Sword",
+          "id": "6103",
+          "item_name": "#DOTA_Item_Fire_Tribunal_Sword",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Fire Tribunal Shoulders",
+          "id": "6104",
+          "item_name": "#DOTA_Item_Fire_Tribunal_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Fire Tribunal Tabard",
+          "id": "6105",
+          "item_name": "#DOTA_Item_Fire_Tribunal_Tabard",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Fire Tribunal Shield",
+          "id": "6106",
+          "item_name": "#DOTA_Item_Fire_Tribunal_Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Griffin_Knight",
+      "store_bundle": "Griffin Knight",
+      "portrait_image": "econ/sets/v2/griffin_knight",
+      "items": [
+        {
+          "name": "Griffin Knight - Weapon",
+          "id": "30786",
+          "item_name": "#DOTA_Item_Griffin_Knight__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Griffin Knight - Shoulder",
+          "id": "30784",
+          "item_name": "#DOTA_Item_Griffin_Knight__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Griffin Knight - Shield",
+          "id": "30749",
+          "item_name": "#DOTA_Item_Griffin_Knight__Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Griffin Knight - Head",
+          "id": "30738",
+          "item_name": "#DOTA_Item_Griffin_Knight__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Griffin Knight - Back",
+          "id": "30737",
+          "item_name": "#DOTA_Item_Griffin_Knight__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Griffin Knight - Arms",
+          "id": "30736",
+          "item_name": "#DOTA_Item_Griffin_Knight__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Griffin Knight - Dragon Form",
+          "id": "30735",
+          "item_name": "#DOTA_Item_Griffin_Knight__Dragon_Form",
+          "item_slot": "shapeshift",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Imperium_Rathalos_Armor_Set",
+      "store_bundle": "Imperium Rathalos Armor Set",
+      "portrait_image": "econ/sets/v2/imperium_rathalos_armor_set",
+      "items": [
+        {
+          "name": "Monster Hunter Rathalos Form",
+          "id": "31375",
+          "item_name": "#DOTA_Item_Monster_Hunter_Rathalos_Form",
+          "item_slot": "shapeshift",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Imperium Rathalos Helm",
+          "id": "35815",
+          "item_name": "#DOTA_Item_Imperium_Rathalos_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Imperium Heat Edge Sword",
+          "id": "35823",
+          "item_name": "#DOTA_Item_Imperium_Heat_Edge_Sword",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Imperium Heat Edge Shield",
+          "id": "35826",
+          "item_name": "#DOTA_Item_Imperium_Heat_Edge_Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Imperium Rathalos Coil and Greaves",
+          "id": "35814",
+          "item_name": "#DOTA_Item_Imperium_Rathalos_Coil_and_Greaves",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Imperium Rathalos Mail",
+          "id": "35816",
+          "item_name": "#DOTA_Item_Imperium_Rathalos_Mail",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Imperium Rathalos Braces",
+          "id": "35813",
+          "item_name": "#DOTA_Item_Imperium_Rathalos_Braces",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Knight_of_the_Burning_Scale",
+      "store_bundle": "Knight of the Burning Scale",
+      "portrait_image": "econ/sets/v2/knight_of_the_burning_scale",
+      "items": [
+        {
+          "name": "Blade of the Burning Scale",
+          "id": "8978",
+          "item_name": "#DOTA_Item_Blade_of_the_Burning_Scale",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Cuirass of the Burning Scale",
+          "id": "8977",
+          "item_name": "#DOTA_Item_Cuirass_of_the_Burning_Scale",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Shield of the Burning Scale",
+          "id": "8976",
+          "item_name": "#DOTA_Item_Shield_of_the_Burning_Scale",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Helm of the Burning Scale",
+          "id": "8975",
+          "item_name": "#DOTA_Item_Helm_of_the_Burning_Scale",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Cape of the Burning Scale",
+          "id": "8974",
+          "item_name": "#DOTA_Item_Cape_of_the_Burning_Scale",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bracers of the Burning Scale",
+          "id": "8963",
+          "item_name": "#DOTA_Item_Bracers_of_the_Burning_Scale",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Shadow of the Burning Scale",
+          "id": "8979",
+          "item_name": "#DOTA_Item_Shadow_of_the_Burning_Scale",
+          "item_slot": "shapeshift",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Legacy_of_the_Eldwurm_Crest",
+      "store_bundle": "Legacy of the Eldwurm Crest",
+      "portrait_image": "econ/sets/v2/legacy_of_the_eldwurm_crest",
+      "items": [
+        {
+          "name": "Sword of the Eldwurm Crest",
+          "id": "7441",
+          "item_name": "#DOTA_Item_Sword_of_the_Eldwurm_Crest",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cuirass of the Eldwurm Crest",
+          "id": "7440",
+          "item_name": "#DOTA_Item_Cuirass_of_the_Eldwurm_Crest",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Armlets of the Eldwurm Crest",
+          "id": "7439",
+          "item_name": "#DOTA_Item_Armlets_of_the_Eldwurm_Crest",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Helm of the Eldwurm Crest",
+          "id": "7438",
+          "item_name": "#DOTA_Item_Helm_of_the_Eldwurm_Crest",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Shield of the Eldwurm Crest",
+          "id": "7360",
+          "item_name": "#DOTA_Item_Shield_of_the_Eldwurm_Crest",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Tassets of the Eldwurm Crest",
+          "id": "7437",
+          "item_name": "#DOTA_Item_Tassets_of_the_Eldwurm_Crest",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Outland_Ravager",
+      "store_bundle": "Outland Ravager",
+      "portrait_image": "econ/sets/v2/outland_ravager",
+      "items": [
+        {
+          "name": "Dragon of the Outland Ravager",
+          "id": "9136",
+          "item_name": "#DOTA_Item_Dragon_of_the_Outland_Ravager",
+          "item_slot": "shapeshift",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Sword of the Outland Ravager",
+          "id": "9135",
+          "item_name": "#DOTA_Item_Sword_of_the_Outland_Ravager",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Burning Shield of the Outland Ravager",
+          "id": "9134",
+          "item_name": "#DOTA_Item_Burning_Shield_of_the_Outland_Ravager",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Helm of the Outland Ravager",
+          "id": "9132",
+          "item_name": "#DOTA_Item_Helm_of_the_Outland_Ravager",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bracers of the Outland Ravager",
+          "id": "9130",
+          "item_name": "#DOTA_Item_Bracers_of_the_Outland_Ravager",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Armor of the Outland Ravager",
+          "id": "9133",
+          "item_name": "#DOTA_Item_Armor_of_the_Outland_Ravager",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Mantle of the Outland Ravager",
+          "id": "9131",
+          "item_name": "#DOTA_Item_Mantle_of_the_Outland_Ravager",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Pact_of_the_Wurmblood",
+      "store_bundle": "Pact of the Wurmblood",
+      "portrait_image": "econ/sets/v2/pact_of_the_wurmblood",
+      "items": [
+        {
+          "name": "Helm of the Wurmblood",
+          "id": "7416",
+          "item_name": "#DOTA_Item_Helm_of_the_Wurmblood",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Cuirass of the Wurmblood",
+          "id": "7417",
+          "item_name": "#DOTA_Item_Cuirass_of_the_Wurmblood",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Gauntlets of the Wurmblood",
+          "id": "7418",
+          "item_name": "#DOTA_Item_Gauntlets_of_the_Wurmblood",
+          "item_slot": "arms",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Tassets of the Wurmblood",
+          "id": "7419",
+          "item_name": "#DOTA_Item_Tassets_of_the_Wurmblood",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Shield of the Wurmblood",
+          "id": "7420",
+          "item_name": "#DOTA_Item_Shield_of_the_Wurmblood",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Lance of the Wurmblood",
+          "id": "7421",
+          "item_name": "#DOTA_Item_Lance_of_the_Wurmblood",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Prismatic_Rathalos_Armor_Set",
+      "store_bundle": "Prismatic Rathalos Armor Set",
+      "portrait_image": "econ/sets/v2/prismatic_rathalos_armor_set",
+      "items": [
+        {
+          "name": "Monster Hunter Rathalos Form",
+          "id": "31375",
+          "item_name": "#DOTA_Item_Monster_Hunter_Rathalos_Form",
+          "item_slot": "shapeshift",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Rathalos Coil and Greaves",
+          "id": "35820",
+          "item_name": "#DOTA_Item_Prismatic_Rathalos_Coil_and_Greaves",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Rathalos Helm",
+          "id": "35821",
+          "item_name": "#DOTA_Item_Prismatic_Rathalos_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Heat Edge Shield",
+          "id": "35827",
+          "item_name": "#DOTA_Item_Prismatic_Heat_Edge_Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Heat Edge Sword",
+          "id": "35824",
+          "item_name": "#DOTA_Item_Prismatic_Heat_Edge_Sword",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Rathalos Mail",
+          "id": "35812",
+          "item_name": "#DOTA_Item_Prismatic_Rathalos_Mail",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Rathalos Braces",
+          "id": "35819",
+          "item_name": "#DOTA_Item_Prismatic_Rathalos_Braces",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Rathalos_Armor",
+      "store_bundle": "Rathalos Armor",
+      "portrait_image": "econ/sets/v2/rathalos_armor",
+      "items": [
+        {
+          "name": "Rathalos Helm",
+          "id": "34303",
+          "item_name": "#DOTA_Item_Rathalos_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Heat Edge Sword",
+          "id": "34305",
+          "item_name": "#DOTA_Item_Heat_Edge_Sword",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Heat Edge Shield",
+          "id": "34306",
+          "item_name": "#DOTA_Item_Heat_Edge_Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Monster Hunter Rathalos Form",
+          "id": "31375",
+          "item_name": "#DOTA_Item_Monster_Hunter_Rathalos_Form",
+          "item_slot": "shapeshift",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Rathalos Coil and Greaves",
+          "id": "34302",
+          "item_name": "#DOTA_Item_Rathalos_Coil_and_Greaves",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Rathalos Mail",
+          "id": "34304",
+          "item_name": "#DOTA_Item_Rathalos_Mail",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Rathalos Braces",
+          "id": "34301",
+          "item_name": "#DOTA_Item_Rathalos_Braces",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Scorched_Amber",
+      "store_bundle": "Scorched Amber",
+      "portrait_image": "econ/sets/v2/scorched_amber",
+      "items": [
+        {
+          "name": "Scorched Amber Armor",
+          "id": "13330",
+          "item_name": "#DOTA_Item_Scorched_Amber_Armor",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Scorched Amber Dragon Form",
+          "id": "13329",
+          "item_name": "#DOTA_Item_Scorched_Amber_Dragon_Form",
+          "item_slot": "shapeshift",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Scorched Amber Helm",
+          "id": "13328",
+          "item_name": "#DOTA_Item_Scorched_Amber_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Scorched Amber Sword",
+          "id": "13327",
+          "item_name": "#DOTA_Item_Scorched_Amber_Sword",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Scorched Amber Shield",
+          "id": "13326",
+          "item_name": "#DOTA_Item_Scorched_Amber_Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Scorched Amber Belt",
+          "id": "13325",
+          "item_name": "#DOTA_Item_Scorched_Amber_Belt",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Scorched Amber Bracer",
+          "id": "13324",
+          "item_name": "#DOTA_Item_Scorched_Amber_Bracer",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Silverwurm_Sacrifice",
+      "store_bundle": "Silverwurm Sacrifice",
+      "portrait_image": "econ/sets/v2/silverwurm_sacrifice",
+      "items": [
+        {
+          "name": "Silverwurm Sacrifice - Arms",
+          "id": "18001",
+          "item_name": "#DOTA_Item_Silverwurm_Sacrifice__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Silverwurm Sacrifice - Back",
+          "id": "18000",
+          "item_name": "#DOTA_Item_Silverwurm_Sacrifice__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Silverwurm Sacrifice - Dragon Form",
+          "id": "17999",
+          "item_name": "#DOTA_Item_Silverwurm_Sacrifice__Dragon_Form",
+          "item_slot": "shapeshift",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Silverwurm Sacrifice - Head",
+          "id": "17998",
+          "item_name": "#DOTA_Item_Silverwurm_Sacrifice__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Silverwurm Sacrifice - Off-Hand",
+          "id": "17969",
+          "item_name": "#DOTA_Item_Silverwurm_Sacrifice__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Silverwurm Sacrifice - Shoulder",
+          "id": "17968",
+          "item_name": "#DOTA_Item_Silverwurm_Sacrifice__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Silverwurm Sacrifice - Weapon",
+          "id": "17967",
+          "item_name": "#DOTA_Item_Silverwurm_Sacrifice__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Spring_Lineage_Blazing_Oblivion",
+      "store_bundle": "Spring Lineage Blazing Oblivion",
+      "portrait_image": "econ/sets/v2/spring_lineage_blazing_oblivion",
+      "items": [
+        {
+          "name": "Spring Lineage Shield of Blazing Oblivion",
+          "id": "22856",
+          "item_name": "#DOTA_Item_Spring_Lineage_Shield_of_Blazing_Oblivion",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Spring Lineage Blade of Blazing Oblivion",
+          "id": "22857",
+          "item_name": "#DOTA_Item_Spring_Lineage_Blade_of_Blazing_Oblivion",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Spring Lineage Skirt of Blazing Oblivion",
+          "id": "22858",
+          "item_name": "#DOTA_Item_Spring_Lineage_Skirt_of_Blazing_Oblivion",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Spring Lineage Bracers of Blazing Oblivion",
+          "id": "22859",
+          "item_name": "#DOTA_Item_Spring_Lineage_Bracers_of_Blazing_Oblivion",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Spring Lineage Cuirass of Blazing Oblivion",
+          "id": "22860",
+          "item_name": "#DOTA_Item_Spring_Lineage_Cuirass_of_Blazing_Oblivion",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Spring Lineage Helm of Blazing Oblivion",
+          "id": "22861",
+          "item_name": "#DOTA_Item_Spring_Lineage_Helm_of_Blazing_Oblivion",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Spring Lineage Elder Drake of Blazing Oblivion",
+          "id": "22855",
+          "item_name": "#DOTA_Item_Spring_Lineage_Elder_Drake_of_Blazing_Oblivion",
+          "item_slot": "shapeshift",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Gilded_Maw",
+      "store_bundle": "The Gilded Maw",
+      "portrait_image": "econ/sets/v2/the_gilded_maw",
+      "items": [
+        {
+          "name": "The Gilded Maw Forms",
+          "id": "18397",
+          "item_name": "#DOTA_Item_The_Gilded_Maw_Forms",
+          "item_slot": "shapeshift",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Gilded Maw Arms",
+          "id": "18395",
+          "item_name": "#DOTA_Item_The_Gilded_Maw_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Gilded Maw Back",
+          "id": "14252",
+          "item_name": "#DOTA_Item_The_Gilded_Maw_Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Gilded Maw Shield",
+          "id": "14246",
+          "item_name": "#DOTA_Item_The_Gilded_Maw_Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Gilded Maw Weapon",
+          "id": "14245",
+          "item_name": "#DOTA_Item_The_Gilded_Maw_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Gilded Maw Shoulder",
+          "id": "14244",
+          "item_name": "#DOTA_Item_The_Gilded_Maw_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Gilded Maw Helm",
+          "id": "14243",
+          "item_name": "#DOTA_Item_The_Gilded_Maw_Helm",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Third_Awakening",
+      "store_bundle": "Third Awakening",
+      "portrait_image": "econ/sets/v2/third_awakening",
+      "items": [
+        {
+          "name": "Helm of the Third Awakening",
+          "id": "12220",
+          "item_name": "#DOTA_Item_Helm_of_the_Third_Awakening",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Shield of the Third Awakening",
+          "id": "12219",
+          "item_name": "#DOTA_Item_Shield_of_the_Third_Awakening",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Belt of the Third Awakening",
+          "id": "12218",
+          "item_name": "#DOTA_Item_Belt_of_the_Third_Awakening",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cuirass of the Third Awakening",
+          "id": "9999",
+          "item_name": "#DOTA_Item_Cuirass_of_the_Third_Awakening",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Sword of the Third Awakening",
+          "id": "9998",
+          "item_name": "#DOTA_Item_Sword_of_the_Third_Awakening",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bracers of the Third Awakening",
+          "id": "9997",
+          "item_name": "#DOTA_Item_Bracers_of_the_Third_Awakening",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dragon Form of the Third Awakening",
+          "id": "9996",
+          "item_name": "#DOTA_Item_Dragon_Form_of_the_Third_Awakening",
+          "item_slot": "shapeshift",
+          "item_rarity": "mythical"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "63",
+      "name": "Dragon Knight's Helmet",
+      "item_name": "#DOTA_Item_Dragon_Knights_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "64",
+      "name": "Dragon Knight's Shoulder Armor",
+      "item_name": "#DOTA_Item_Dragon_Knights_Shoulder_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "65",
+      "name": "Dragon Knight's Bracers",
+      "item_name": "#DOTA_Item_Dragon_Knights_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "66",
+      "name": "Dragon Knight's Weapon",
+      "item_name": "#DOTA_Item_Dragon_Knights_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "67",
+      "name": "Dragon Knight's Offhand",
+      "item_name": "#DOTA_Item_Dragon_Knights_Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "68",
+      "name": "Dragon Knight's Skirt",
+      "item_name": "#DOTA_Item_Dragon_Knights_Skirt",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "732",
+      "name": "Dragon Knight's Persona",
+      "item_name": "#DOTA_Item_Dragon_Knights_Persona",
+      "item_slot": "persona_selector",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "748",
+      "name": "Dragon Knight Persona Dragon Form",
+      "item_name": "#DOTA_Item_Dragon_Knight_Persona_Dragon_Form",
+      "item_slot": "shapeshift_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "762",
+      "name": "Dragon Knight Persona Armor",
+      "item_name": "#DOTA_Item_Dragon_Knight_Persona_Armor",
+      "item_slot": "armor_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "763",
+      "name": "Dragon Knight Persona Head",
+      "item_name": "#DOTA_Item_Dragon_Knight_Persona_Head",
+      "item_slot": "head_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "765",
+      "name": "Dragon Knight Persona Weapon",
+      "item_name": "#DOTA_Item_Dragon_Knight_Persona_Weapon",
+      "item_slot": "weapon_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4095",
+      "name": "Wyrm Shield of Uldorak",
+      "item_name": "#DOTA_Item_Wyrm_Shield_of_Uldorak",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4114",
+      "name": "Wyrm Helm of Uldorak",
+      "item_name": "#DOTA_Item_Wyrm_Helm_of_Uldorak",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4115",
+      "name": "Wyrm Bracers of Uldorak",
+      "item_name": "#DOTA_Item_Wyrm_Bracers_of_Uldorak",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4116",
+      "name": "Wyrm Skirt of Uldorak",
+      "item_name": "#DOTA_Item_Wyrm_Skirt_of_Uldorak",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4117",
+      "name": "Wyrm Pauldrons of Uldorak",
+      "item_name": "#DOTA_Item_Wyrm_Pauldrons_of_Uldorak",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4124",
+      "name": "Light Cape of Sir Davion",
+      "item_name": "#DOTA_Item_Light_Cape_of_Sir_Davion",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4125",
+      "name": "Slayer-Sword of Sir Davion",
+      "item_name": "#DOTA_Item_SlayerSword_of_Sir_Davion",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4126",
+      "name": "Pauldrons of Sir Davion",
+      "item_name": "#DOTA_Item_Pauldrons_of_Sir_Davion",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4127",
+      "name": "Bracers of Sir Davion",
+      "item_name": "#DOTA_Item_Bracers_of_Sir_Davion",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4137",
+      "name": "Dragonbone Helm of Sir Davion",
+      "item_name": "#DOTA_Item_Dragonbone_Helm_of_Sir_Davion",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4143",
+      "name": "Enameled Shield of Sir Davion",
+      "item_name": "#DOTA_Item_Enameled_Shield_of_Sir_Davion",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4154",
+      "name": "Dragonmaw",
+      "item_name": "#DOTA_Item_Dragonmaw",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4281",
+      "name": "Shoulders of the Slain Dragon",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Slain_Dragon",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4323",
+      "name": "Helm of the Slain Dragon",
+      "item_name": "#DOTA_Item_Helm_of_the_Slain_Dragon",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4370",
+      "name": "Vambraces of the Slain Dragon",
+      "item_name": "#DOTA_Item_Vambraces_of_the_Slain_Dragon",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4391",
+      "name": "Edge of the Slain Dragon",
+      "item_name": "#DOTA_Item_Edge_of_the_Slain_Dragon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4424",
+      "name": "Elder Shield",
+      "item_name": "#DOTA_Item_Elder_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4443",
+      "name": "Dragonblood Ravager",
+      "item_name": "#DOTA_Item_Dragonblood_Ravager",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4458",
+      "name": "Bracers of the Drake",
+      "item_name": "#DOTA_Item_Bracers_of_the_Drake",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4461",
+      "name": "Cape of the Drake",
+      "item_name": "#DOTA_Item_Cape_of_the_Drake",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4462",
+      "name": "Armor of the Drake",
+      "item_name": "#DOTA_Item_Armor_of_the_Drake",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4471",
+      "name": "Helmet of the Drake",
+      "item_name": "#DOTA_Item_Helmet_of_the_Drake",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4484",
+      "name": "Shield of the Drake",
+      "item_name": "#DOTA_Item_Shield_of_the_Drake",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4503",
+      "name": "Sword of the Drake",
+      "item_name": "#DOTA_Item_Sword_of_the_Drake",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4513",
+      "name": "Crimson Wyvern Shield",
+      "item_name": "#DOTA_Item_Crimson_Wyvern_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4516",
+      "name": "Crimson Wyvern Helm",
+      "item_name": "#DOTA_Item_Crimson_Wyvern_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4519",
+      "name": "Crimson Wyvern Skirt",
+      "item_name": "#DOTA_Item_Crimson_Wyvern_Skirt",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4564",
+      "name": "Crimson Wyvern Shoulders",
+      "item_name": "#DOTA_Item_Crimson_Wyvern_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4610",
+      "name": "Crimson Wyvern Bracers",
+      "item_name": "#DOTA_Item_Crimson_Wyvern_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4612",
+      "name": "Crimson Wyvern Sword",
+      "item_name": "#DOTA_Item_Crimson_Wyvern_Sword_",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4731",
+      "name": "Ember Edge",
+      "item_name": "#DOTA_Item_Ember_Edge",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5084",
+      "name": "Crest of the Wyrm Lords",
+      "item_name": "#DOTA_Item_Crest_of_the_Wyrm_Lords",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5790",
+      "name": "Salamander's Fang",
+      "item_name": "#DOTA_Item_Salamanders_Fang",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6060",
+      "name": "Ashtongue",
+      "item_name": "#DOTA_Item_Ashtongue",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6093",
+      "name": "Fire Tribunal Arms",
+      "item_name": "#DOTA_Item_Fire_Tribunal_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6099",
+      "name": "Fire Tribunal Helm",
+      "item_name": "#DOTA_Item_Fire_Tribunal_Helm",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6103",
+      "name": "Fire Tribunal Sword",
+      "item_name": "#DOTA_Item_Fire_Tribunal_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6104",
+      "name": "Fire Tribunal Shoulders",
+      "item_name": "#DOTA_Item_Fire_Tribunal_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6105",
+      "name": "Fire Tribunal Tabard",
+      "item_name": "#DOTA_Item_Fire_Tribunal_Tabard",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6106",
+      "name": "Fire Tribunal Shield",
+      "item_name": "#DOTA_Item_Fire_Tribunal_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6337",
+      "name": "Heavy Wingblade",
+      "item_name": "#DOTA_Item_Heavy_Wingblade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6371",
+      "name": "Helmet of the Blazing Superiority",
+      "item_name": "#DOTA_Item_Helmet_of_the_Blazing_Superiority",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6372",
+      "name": "Pauldrons of the Blazing Superiority",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Blazing_Superiority",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6373",
+      "name": "Shield of the Blazing Superiority",
+      "item_name": "#DOTA_Item_Shield_of_the_Blazing_Superiority",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6374",
+      "name": "Skirt of the Blazing Superiority",
+      "item_name": "#DOTA_Item_Skirt_of_the_Blazing_Superiority",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6375",
+      "name": "Sword of the Blazing Superiority",
+      "item_name": "#DOTA_Item_Sword_of_the_Blazing_Superiority",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6376",
+      "name": "Vambrace of the Blazing Superiority",
+      "item_name": "#DOTA_Item_Vambrace_of_the_Blazing_Superiority",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6615",
+      "name": "Kindred of the Iron Dragon",
+      "item_name": "#DOTA_Item_Kindred_of_the_Iron_Dragon",
+      "item_slot": "shapeshift",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6787",
+      "name": "Sword of Ascension",
+      "item_name": "#DOTA_Item_Sword_of_Ascension",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6788",
+      "name": "Drapes of Ascension",
+      "item_name": "#DOTA_Item_Drapes_of_Ascension",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6789",
+      "name": "Shield of Ascension",
+      "item_name": "#DOTA_Item_Shield_of_Ascension",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6790",
+      "name": "Gauntlets of Ascension",
+      "item_name": "#DOTA_Item_Gauntlets_of_Ascension",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6791",
+      "name": "Pauldrons of Ascension",
+      "item_name": "#DOTA_Item_Pauldrons_of_Ascension",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6792",
+      "name": "Helm of Ascension",
+      "item_name": "#DOTA_Item_Helm_of_Ascension",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6807",
+      "name": "The Dragon's Soul",
+      "item_name": "#DOTA_Item_The_Dragons_Soul",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6922",
+      "name": "Skirt of the Fire Dragon",
+      "item_name": "#DOTA_Item_Skirt_of_the_Fire_Dragon",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6923",
+      "name": "Helm of the Fire Dragon",
+      "item_name": "#DOTA_Item_Helm_of_the_Fire_Dragon",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6924",
+      "name": "Shield of the Fire Dragon",
+      "item_name": "#DOTA_Item_Shield_of_the_Fire_Dragon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6925",
+      "name": "Pauldrons of the Fire Dragon",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Fire_Dragon",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6926",
+      "name": "Blade of the Fire Dragon",
+      "item_name": "#DOTA_Item_Blade_of_the_Fire_Dragon",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6927",
+      "name": "Gauntlets of the Fire Dragon",
+      "item_name": "#DOTA_Item_Gauntlets_of_the_Fire_Dragon",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7360",
+      "name": "Shield of the Eldwurm Crest",
+      "item_name": "#DOTA_Item_Shield_of_the_Eldwurm_Crest",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7416",
+      "name": "Helm of the Wurmblood",
+      "item_name": "#DOTA_Item_Helm_of_the_Wurmblood",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7417",
+      "name": "Cuirass of the Wurmblood",
+      "item_name": "#DOTA_Item_Cuirass_of_the_Wurmblood",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7418",
+      "name": "Gauntlets of the Wurmblood",
+      "item_name": "#DOTA_Item_Gauntlets_of_the_Wurmblood",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7419",
+      "name": "Tassets of the Wurmblood",
+      "item_name": "#DOTA_Item_Tassets_of_the_Wurmblood",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7420",
+      "name": "Shield of the Wurmblood",
+      "item_name": "#DOTA_Item_Shield_of_the_Wurmblood",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7421",
+      "name": "Lance of the Wurmblood",
+      "item_name": "#DOTA_Item_Lance_of_the_Wurmblood",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7437",
+      "name": "Tassets of the Eldwurm Crest",
+      "item_name": "#DOTA_Item_Tassets_of_the_Eldwurm_Crest",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7438",
+      "name": "Helm of the Eldwurm Crest",
+      "item_name": "#DOTA_Item_Helm_of_the_Eldwurm_Crest",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7439",
+      "name": "Armlets of the Eldwurm Crest",
+      "item_name": "#DOTA_Item_Armlets_of_the_Eldwurm_Crest",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7440",
+      "name": "Cuirass of the Eldwurm Crest",
+      "item_name": "#DOTA_Item_Cuirass_of_the_Eldwurm_Crest",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7441",
+      "name": "Sword of the Eldwurm Crest",
+      "item_name": "#DOTA_Item_Sword_of_the_Eldwurm_Crest",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7671",
+      "name": "Elder Drake of Blazing Oblivion",
+      "item_name": "#DOTA_Item_Elder_Drake_of_Blazing_Oblivion",
+      "item_slot": "shapeshift",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8647",
+      "name": "Dragon Knight's Elder Dragon",
+      "item_name": "#DOTA_Item_Dragon_Knights_Elder_Dragon",
+      "item_slot": "shapeshift",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "8796",
+      "name": "Shield of Blazing Oblivion",
+      "item_name": "#DOTA_Item_Shield_of_Blazing_Oblivion",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8797",
+      "name": "Blade of Blazing Oblivion",
+      "item_name": "#DOTA_Item_Blade_of_Blazing_Oblivion",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8798",
+      "name": "Skirt of Blazing Oblivion",
+      "item_name": "#DOTA_Item_Skirt_of_Blazing_Oblivion",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8799",
+      "name": "Bracers of Blazing Oblivion",
+      "item_name": "#DOTA_Item_Bracers_of_Blazing_Oblivion",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8800",
+      "name": "Cuirass of Blazing Oblivion",
+      "item_name": "#DOTA_Item_Cuirass_of_Blazing_Oblivion",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8801",
+      "name": "Helm of Blazing Oblivion",
+      "item_name": "#DOTA_Item_Helm_of_Blazing_Oblivion",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8963",
+      "name": "Bracers of the Burning Scale",
+      "item_name": "#DOTA_Item_Bracers_of_the_Burning_Scale",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8974",
+      "name": "Cape of the Burning Scale",
+      "item_name": "#DOTA_Item_Cape_of_the_Burning_Scale",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8975",
+      "name": "Helm of the Burning Scale",
+      "item_name": "#DOTA_Item_Helm_of_the_Burning_Scale",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8976",
+      "name": "Shield of the Burning Scale",
+      "item_name": "#DOTA_Item_Shield_of_the_Burning_Scale",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8977",
+      "name": "Cuirass of the Burning Scale",
+      "item_name": "#DOTA_Item_Cuirass_of_the_Burning_Scale",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8978",
+      "name": "Blade of the Burning Scale",
+      "item_name": "#DOTA_Item_Blade_of_the_Burning_Scale",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8979",
+      "name": "Shadow of the Burning Scale",
+      "item_name": "#DOTA_Item_Shadow_of_the_Burning_Scale",
+      "item_slot": "shapeshift",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9130",
+      "name": "Bracers of the Outland Ravager",
+      "item_name": "#DOTA_Item_Bracers_of_the_Outland_Ravager",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9131",
+      "name": "Mantle of the Outland Ravager",
+      "item_name": "#DOTA_Item_Mantle_of_the_Outland_Ravager",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9132",
+      "name": "Helm of the Outland Ravager",
+      "item_name": "#DOTA_Item_Helm_of_the_Outland_Ravager",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9133",
+      "name": "Armor of the Outland Ravager",
+      "item_name": "#DOTA_Item_Armor_of_the_Outland_Ravager",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9134",
+      "name": "Burning Shield of the Outland Ravager",
+      "item_name": "#DOTA_Item_Burning_Shield_of_the_Outland_Ravager",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9135",
+      "name": "Sword of the Outland Ravager",
+      "item_name": "#DOTA_Item_Sword_of_the_Outland_Ravager",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9136",
+      "name": "Dragon of the Outland Ravager",
+      "item_name": "#DOTA_Item_Dragon_of_the_Outland_Ravager",
+      "item_slot": "shapeshift",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9638",
+      "name": "Helm of the Bitterwing Legacy",
+      "item_name": "#DOTA_Item_Helm_of_the_Bitterwing_Legacy",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9639",
+      "name": "Shoulder of the Bitterwing Legacy",
+      "item_name": "#DOTA_Item_Shoulder_of_the_Bitterwing_Legacy",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9640",
+      "name": "Barding of the Bitterwing Legacy",
+      "item_name": "#DOTA_Item_Barding_of_the_Bitterwing_Legacy",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9641",
+      "name": "Shield of the Bitterwing Legacy",
+      "item_name": "#DOTA_Item_Shield_of_the_Bitterwing_Legacy",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9642",
+      "name": "Arms of the Bitterwing Legacy",
+      "item_name": "#DOTA_Item_Arms_of_the_Bitterwing_Legacy",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9643",
+      "name": "Blade of the Bitterwing Legacy",
+      "item_name": "#DOTA_Item_Blade_of_the_Bitterwing_Legacy",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9644",
+      "name": "Bitterwing",
+      "item_name": "#DOTA_Item_Bitterwing",
+      "item_slot": "shapeshift",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9996",
+      "name": "Dragon Form of the Third Awakening",
+      "item_name": "#DOTA_Item_Dragon_Form_of_the_Third_Awakening",
+      "item_slot": "shapeshift",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9997",
+      "name": "Bracers of the Third Awakening",
+      "item_name": "#DOTA_Item_Bracers_of_the_Third_Awakening",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9998",
+      "name": "Sword of the Third Awakening",
+      "item_name": "#DOTA_Item_Sword_of_the_Third_Awakening",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9999",
+      "name": "Cuirass of the Third Awakening",
+      "item_name": "#DOTA_Item_Cuirass_of_the_Third_Awakening",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "10135",
+      "name": "Expired Treasure of the Hunted Dragon",
+      "item_name": "#DOTA_Item_Expired_Treasure_of_the_Hunted_Dragon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "retired_treasure_chest"
+    },
+    {
+      "id": "12218",
+      "name": "Belt of the Third Awakening",
+      "item_name": "#DOTA_Item_Belt_of_the_Third_Awakening",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12219",
+      "name": "Shield of the Third Awakening",
+      "item_name": "#DOTA_Item_Shield_of_the_Third_Awakening",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12220",
+      "name": "Helm of the Third Awakening",
+      "item_name": "#DOTA_Item_Helm_of_the_Third_Awakening",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13324",
+      "name": "Scorched Amber Bracer",
+      "item_name": "#DOTA_Item_Scorched_Amber_Bracer",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13325",
+      "name": "Scorched Amber Belt",
+      "item_name": "#DOTA_Item_Scorched_Amber_Belt",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13326",
+      "name": "Scorched Amber Shield",
+      "item_name": "#DOTA_Item_Scorched_Amber_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13327",
+      "name": "Scorched Amber Sword",
+      "item_name": "#DOTA_Item_Scorched_Amber_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13328",
+      "name": "Scorched Amber Helm",
+      "item_name": "#DOTA_Item_Scorched_Amber_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13329",
+      "name": "Scorched Amber Dragon Form",
+      "item_name": "#DOTA_Item_Scorched_Amber_Dragon_Form",
+      "item_slot": "shapeshift",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13330",
+      "name": "Scorched Amber Armor",
+      "item_name": "#DOTA_Item_Scorched_Amber_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14243",
+      "name": "The Gilded Maw Helm",
+      "item_name": "#DOTA_Item_The_Gilded_Maw_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14244",
+      "name": "The Gilded Maw Shoulder",
+      "item_name": "#DOTA_Item_The_Gilded_Maw_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14245",
+      "name": "The Gilded Maw Weapon",
+      "item_name": "#DOTA_Item_The_Gilded_Maw_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14246",
+      "name": "The Gilded Maw Shield",
+      "item_name": "#DOTA_Item_The_Gilded_Maw_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14252",
+      "name": "The Gilded Maw Back",
+      "item_name": "#DOTA_Item_The_Gilded_Maw_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17967",
+      "name": "Silverwurm Sacrifice - Weapon",
+      "item_name": "#DOTA_Item_Silverwurm_Sacrifice__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17968",
+      "name": "Silverwurm Sacrifice - Shoulder",
+      "item_name": "#DOTA_Item_Silverwurm_Sacrifice__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17969",
+      "name": "Silverwurm Sacrifice - Off-Hand",
+      "item_name": "#DOTA_Item_Silverwurm_Sacrifice__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17998",
+      "name": "Silverwurm Sacrifice - Head",
+      "item_name": "#DOTA_Item_Silverwurm_Sacrifice__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17999",
+      "name": "Silverwurm Sacrifice - Dragon Form",
+      "item_name": "#DOTA_Item_Silverwurm_Sacrifice__Dragon_Form",
+      "item_slot": "shapeshift",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18000",
+      "name": "Silverwurm Sacrifice - Back",
+      "item_name": "#DOTA_Item_Silverwurm_Sacrifice__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18001",
+      "name": "Silverwurm Sacrifice - Arms",
+      "item_name": "#DOTA_Item_Silverwurm_Sacrifice__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18113",
+      "name": "Davion of Dragon Hold",
+      "item_name": "#DOTA_Item_Davion_of_Dragon_Hold",
+      "item_slot": "persona_selector",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18395",
+      "name": "The Gilded Maw Arms",
+      "item_name": "#DOTA_Item_The_Gilded_Maw_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18397",
+      "name": "The Gilded Maw Forms",
+      "item_name": "#DOTA_Item_The_Gilded_Maw_Forms",
+      "item_slot": "shapeshift",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19008",
+      "name": "Davion's Dragon Hold Helm",
+      "item_name": "#DOTA_Item_Davions_Dragon_Hold_Helm",
+      "item_slot": "head_persona_1",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19010",
+      "name": "Davion's Dragon Hold Pauldrons",
+      "item_name": "#DOTA_Item_Davions_Dragon_Hold_Pauldrons",
+      "item_slot": "armor_persona_1",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19011",
+      "name": "Davion's Broken Dragon Hold Sword",
+      "item_name": "#DOTA_Item_Davions_Broken_Dragon_Hold_Sword",
+      "item_slot": "weapon_persona_1",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20025",
+      "name": "Uldorak's Hide Set",
+      "item_name": "#DOTA_Item_Uldoraks_Hide_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20035",
+      "name": "Armor of Sir Davion Set",
+      "item_name": "#DOTA_Item_Armor_of_Sir_Davion_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20061",
+      "name": "Bones of the Slain Dragon Set",
+      "item_name": "#DOTA_Item_Bones_of_the_Slain_Dragon_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20062",
+      "name": "Fire-Blessed Mail of the Drake Set",
+      "item_name": "#DOTA_Item_FireBlessed_Mail_of_the_Drake_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20063",
+      "name": "Enchanted Plate of the Crimson Wyvern Set",
+      "item_name": "#DOTA_Item_Enchanted_Plate_of_the_Crimson_Wyvern_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20387",
+      "name": "Fire Tribunal Set",
+      "item_name": "#DOTA_Item_Fire_Tribunal_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20480",
+      "name": "The Blazing Superiority",
+      "item_name": "#DOTA_Item_The_Blazing_Superiority",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20550",
+      "name": "Dragon's Ascension",
+      "item_name": "#DOTA_Item_Dragons_Ascension",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20558",
+      "name": "Promo Dragon's Ascension",
+      "item_name": "#DOTA_Item_Promo_Dragons_Ascension",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20611",
+      "name": "Fire Dragon of Doom",
+      "item_name": "#DOTA_Item_Fire_Dragon_of_Doom",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20827",
+      "name": "Knight of the Burning Scale",
+      "item_name": "#DOTA_Item_Knight_of_the_Burning_Scale",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20863",
+      "name": "Pact of the Wurmblood",
+      "item_name": "#DOTA_Item_Pact_of_the_Wurmblood",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20902",
+      "name": "Blazing Oblivion",
+      "item_name": "#DOTA_Item_Blazing_Oblivion",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20986",
+      "name": "Legacy of the Eldwurm Crest",
+      "item_name": "#DOTA_Item_Legacy_of_the_Eldwurm_Crest",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21092",
+      "name": "Outland Ravager",
+      "item_name": "#DOTA_Item_Outland_Ravager",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21174",
+      "name": "Bitterwing Legacy",
+      "item_name": "#DOTA_Item_Bitterwing_Legacy",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21218",
+      "name": "Third Awakening",
+      "item_name": "#DOTA_Item_Third_Awakening",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21387",
+      "name": "Scorched Amber",
+      "item_name": "#DOTA_Item_Scorched_Amber",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21718",
+      "name": "Silverwurm Sacrifice",
+      "item_name": "#DOTA_Item_Silverwurm_Sacrifice",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21807",
+      "name": "The Gilded Maw",
+      "item_name": "#DOTA_Item_The_Gilded_Maw",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22854",
+      "name": "Spring Lineage Blazing Oblivion",
+      "item_name": "#DOTA_Item_Spring_Lineage_Blazing_Oblivion",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22855",
+      "name": "Spring Lineage Elder Drake of Blazing Oblivion",
+      "item_name": "#DOTA_Item_Spring_Lineage_Elder_Drake_of_Blazing_Oblivion",
+      "item_slot": "shapeshift",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22856",
+      "name": "Spring Lineage Shield of Blazing Oblivion",
+      "item_name": "#DOTA_Item_Spring_Lineage_Shield_of_Blazing_Oblivion",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22857",
+      "name": "Spring Lineage Blade of Blazing Oblivion",
+      "item_name": "#DOTA_Item_Spring_Lineage_Blade_of_Blazing_Oblivion",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22858",
+      "name": "Spring Lineage Skirt of Blazing Oblivion",
+      "item_name": "#DOTA_Item_Spring_Lineage_Skirt_of_Blazing_Oblivion",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22859",
+      "name": "Spring Lineage Bracers of Blazing Oblivion",
+      "item_name": "#DOTA_Item_Spring_Lineage_Bracers_of_Blazing_Oblivion",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22860",
+      "name": "Spring Lineage Cuirass of Blazing Oblivion",
+      "item_name": "#DOTA_Item_Spring_Lineage_Cuirass_of_Blazing_Oblivion",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22861",
+      "name": "Spring Lineage Helm of Blazing Oblivion",
+      "item_name": "#DOTA_Item_Spring_Lineage_Helm_of_Blazing_Oblivion",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23628",
+      "name": "Draconic Divide",
+      "item_name": "#DOTA_Item_Draconic_Divide",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29653",
+      "name": "Griffin Knight - Toxic Frostburn Weapon",
+      "item_name": "#DOTA_Item_Griffin_Knight__Toxic_Frostburn_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29654",
+      "name": "Griffin Knight - Toxic Frostburn Shield",
+      "item_name": "#DOTA_Item_Griffin_Knight__Toxic_Frostburn_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29655",
+      "name": "Griffin Knight - Toxic Frostburn Helm",
+      "item_name": "#DOTA_Item_Griffin_Knight__Toxic_Frostburn_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30735",
+      "name": "Griffin Knight - Dragon Form",
+      "item_name": "#DOTA_Item_Griffin_Knight__Dragon_Form",
+      "item_slot": "shapeshift",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30736",
+      "name": "Griffin Knight - Arms",
+      "item_name": "#DOTA_Item_Griffin_Knight__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30737",
+      "name": "Griffin Knight - Back",
+      "item_name": "#DOTA_Item_Griffin_Knight__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30738",
+      "name": "Griffin Knight - Head",
+      "item_name": "#DOTA_Item_Griffin_Knight__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30749",
+      "name": "Griffin Knight - Shield",
+      "item_name": "#DOTA_Item_Griffin_Knight__Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30784",
+      "name": "Griffin Knight - Shoulder",
+      "item_name": "#DOTA_Item_Griffin_Knight__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30786",
+      "name": "Griffin Knight - Weapon",
+      "item_name": "#DOTA_Item_Griffin_Knight__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30834",
+      "name": "Griffin Knight",
+      "item_name": "#DOTA_Item_Griffin_Knight",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "31375",
+      "name": "Monster Hunter Rathalos Form",
+      "item_name": "#DOTA_Item_Monster_Hunter_Rathalos_Form",
+      "item_slot": "shapeshift",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34241",
+      "name": "Rathalos Armor",
+      "item_name": "#DOTA_Item_Rathalos_Armor",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "34301",
+      "name": "Rathalos Braces",
+      "item_name": "#DOTA_Item_Rathalos_Braces",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34302",
+      "name": "Rathalos Coil and Greaves",
+      "item_name": "#DOTA_Item_Rathalos_Coil_and_Greaves",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34303",
+      "name": "Rathalos Helm",
+      "item_name": "#DOTA_Item_Rathalos_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34304",
+      "name": "Rathalos Mail",
+      "item_name": "#DOTA_Item_Rathalos_Mail",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34305",
+      "name": "Heat Edge Sword",
+      "item_name": "#DOTA_Item_Heat_Edge_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34306",
+      "name": "Heat Edge Shield",
+      "item_name": "#DOTA_Item_Heat_Edge_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35807",
+      "name": "Deep Vault Rathalos Armor Set",
+      "item_name": "#DOTA_Item_Deep_Vault_Rathalos_Armor_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "35808",
+      "name": "Deep Vault Rathalos Braces",
+      "item_name": "#DOTA_Item_Deep_Vault_Rathalos_Braces",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35809",
+      "name": "Deep Vault Rathalos Coil and Greaves",
+      "item_name": "#DOTA_Item_Deep_Vault_Rathalos_Coil_and_Greaves",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35810",
+      "name": "Deep Vault Rathalos Helm",
+      "item_name": "#DOTA_Item_Deep_Vault_Rathalos_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35811",
+      "name": "Deep Vault Rathalos Mail",
+      "item_name": "#DOTA_Item_Deep_Vault_Rathalos_Mail",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35812",
+      "name": "Prismatic Rathalos Mail",
+      "item_name": "#DOTA_Item_Prismatic_Rathalos_Mail",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35813",
+      "name": "Imperium Rathalos Braces",
+      "item_name": "#DOTA_Item_Imperium_Rathalos_Braces",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35814",
+      "name": "Imperium Rathalos Coil and Greaves",
+      "item_name": "#DOTA_Item_Imperium_Rathalos_Coil_and_Greaves",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35815",
+      "name": "Imperium Rathalos Helm",
+      "item_name": "#DOTA_Item_Imperium_Rathalos_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35816",
+      "name": "Imperium Rathalos Mail",
+      "item_name": "#DOTA_Item_Imperium_Rathalos_Mail",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35817",
+      "name": "Imperium Rathalos Armor Set",
+      "item_name": "#DOTA_Item_Imperium_Rathalos_Armor_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "35818",
+      "name": "Prismatic Rathalos Armor Set",
+      "item_name": "#DOTA_Item_Prismatic_Rathalos_Armor_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "35819",
+      "name": "Prismatic Rathalos Braces",
+      "item_name": "#DOTA_Item_Prismatic_Rathalos_Braces",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35820",
+      "name": "Prismatic Rathalos Coil and Greaves",
+      "item_name": "#DOTA_Item_Prismatic_Rathalos_Coil_and_Greaves",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35821",
+      "name": "Prismatic Rathalos Helm",
+      "item_name": "#DOTA_Item_Prismatic_Rathalos_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35822",
+      "name": "Deep Vault Heat Edge Sword",
+      "item_name": "#DOTA_Item_Deep_Vault_Heat_Edge_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35823",
+      "name": "Imperium Heat Edge Sword",
+      "item_name": "#DOTA_Item_Imperium_Heat_Edge_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35824",
+      "name": "Prismatic Heat Edge Sword",
+      "item_name": "#DOTA_Item_Prismatic_Heat_Edge_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35825",
+      "name": "Deep Vault Heat Edge Shield",
+      "item_name": "#DOTA_Item_Deep_Vault_Heat_Edge_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35826",
+      "name": "Imperium Heat Edge Shield",
+      "item_name": "#DOTA_Item_Imperium_Heat_Edge_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35827",
+      "name": "Prismatic Heat Edge Shield",
+      "item_name": "#DOTA_Item_Prismatic_Heat_Edge_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    }
+  ]
+}

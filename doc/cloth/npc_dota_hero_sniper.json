@@ -1,0 +1,2520 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "281",
+      "name": "Sniper's Weapon",
+      "item_name": "#DOTA_Item_Snipers_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "282",
+      "name": "Sniper's Cape",
+      "item_name": "#DOTA_Item_Snipers_Cape",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "283",
+      "name": "Sniper's Head Gear",
+      "item_name": "#DOTA_Item_Snipers_Head_Gear",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "shoulder": {
+      "id": "284",
+      "name": "Sniper's Shoulder Armor",
+      "item_name": "#DOTA_Item_Snipers_Shoulder_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common"
+    },
+    "arms": {
+      "id": "285",
+      "name": "Sniper's Bracers",
+      "item_name": "#DOTA_Item_Snipers_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Blacksail_Cannoneer",
+      "store_bundle": "Blacksail Cannoneer",
+      "portrait_image": "econ/sets/v2/blacksail_cannoneer",
+      "items": [
+        {
+          "name": "Blacksail Cannoneer Hat",
+          "id": "14978",
+          "item_name": "#DOTA_Item_Blacksail_Cannoneer_Hat",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Blacksail Cannoneer Weapon",
+          "id": "14708",
+          "item_name": "#DOTA_Item_Blacksail_Cannoneer_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Blacksail Cannoneer Arms",
+          "id": "14707",
+          "item_name": "#DOTA_Item_Blacksail_Cannoneer_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Blacksail Cannoneer Shoulder",
+          "id": "14705",
+          "item_name": "#DOTA_Item_Blacksail_Cannoneer_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Blacksail Cannoneer Back",
+          "id": "14704",
+          "item_name": "#DOTA_Item_Blacksail_Cannoneer_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Deep_sea_overlord",
+      "store_bundle": "Deep sea overlord",
+      "portrait_image": "econ/sets/v2/deep_sea_overlord",
+      "items": [
+        {
+          "name": "Deep sea overlord Arms",
+          "id": "14211",
+          "item_name": "#DOTA_Item_Vote_Only_Deep_sea_overlord_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Deep sea overlord Back",
+          "id": "14210",
+          "item_name": "#DOTA_Item_Vote_Only_Deep_sea_overlord_Back",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Deep sea overlord Head",
+          "id": "14209",
+          "item_name": "#DOTA_Item_Vote_Only_Deep_sea_overlord_Head",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Deep sea overlord Shoulder",
+          "id": "14207",
+          "item_name": "#DOTA_Item_Vote_Only_Deep_sea_overlord_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Deep sea overlord Weapon",
+          "id": "14206",
+          "item_name": "#DOTA_Item_Vote_Only_Deep_sea_overlord_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dreadwood_Odogaron_Armor_Set",
+      "store_bundle": "Dreadwood Odogaron Armor Set",
+      "portrait_image": "econ/sets/v2/dreadwood_odogaron_armor_set",
+      "items": [
+        {
+          "name": "Dreadwood Garon Rifle",
+          "id": "36059",
+          "item_name": "#DOTA_Item_Dreadwood_Garon_Rifle",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dreadwood Odogaron Vambraces β and Greaves β",
+          "id": "35554",
+          "item_name": "#DOTA_Item_Dreadwood_Odogaron_Vambraces__and_Greaves_",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dreadwood Odogaron Cape β",
+          "id": "35564",
+          "item_name": "#DOTA_Item_Dreadwood_Odogaron_Cape_",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dreadwood Odogaron Mail β",
+          "id": "35555",
+          "item_name": "#DOTA_Item_Dreadwood_Odogaron_Mail_",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dreadwood Odogaron Helm β",
+          "id": "35563",
+          "item_name": "#DOTA_Item_Dreadwood_Odogaron_Helm_",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Exact_Marksman",
+      "store_bundle": "Exact Marksman",
+      "portrait_image": "econ/sets/v2/exact_marksman",
+      "items": [
+        {
+          "name": "Cloak of the Exact Marksman",
+          "id": "7178",
+          "item_name": "#DOTA_Item_Cloak_of_the_Exact_Marksman",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Perforator",
+          "id": "7187",
+          "item_name": "#DOTA_Item_Perforator",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Arm of the Exact Marksman",
+          "id": "7525",
+          "item_name": "#DOTA_Item_Arm_of_the_Exact_Marksman",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Spaulders of the Exact Marksman",
+          "id": "7526",
+          "item_name": "#DOTA_Item_Spaulders_of_the_Exact_Marksman",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cap of the Exact Marksman",
+          "id": "7532",
+          "item_name": "#DOTA_Item_Cap_of_the_Exact_Marksman",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Expired_Gun",
+      "store_bundle": "Expired Gun",
+      "portrait_image": "econ/sets/v2/expired_gun",
+      "items": [
+        {
+          "name": "Necklace of the Expired Gun",
+          "id": "23714",
+          "item_name": "#DOTA_Item_Necklace_of_the_Expired_Gun",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ensemble of the Expired Gun",
+          "id": "27420",
+          "item_name": "#DOTA_Item_Ensemble_of_the_Expired_Gun",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Stock of the Expired Gun",
+          "id": "27421",
+          "item_name": "#DOTA_Item_Stock_of_the_Expired_Gun",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cover of the Expired Gun",
+          "id": "27422",
+          "item_name": "#DOTA_Item_Cover_of_the_Expired_Gun",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Poncho of the Expired Gun",
+          "id": "27423",
+          "item_name": "#DOTA_Item_Poncho_of_the_Expired_Gun",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ghillied_Gunman",
+      "store_bundle": "Ghillied Gunman",
+      "portrait_image": "econ/sets/v2/ghillied_gunman",
+      "items": [
+        {
+          "name": "Ghillied Gunman Sniper Rifle",
+          "id": "18479",
+          "item_name": "#DOTA_Item_Ghillied_Gunman_Sniper_Rifle",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ghillied Gunman Shoulders",
+          "id": "18478",
+          "item_name": "#DOTA_Item_Ghillied_Gunman_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ghillied Gunman Nest Cap",
+          "id": "18477",
+          "item_name": "#DOTA_Item_Ghillied_Gunman_Nest_Cap",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ghillied Gunman Cape",
+          "id": "18476",
+          "item_name": "#DOTA_Item_Ghillied_Gunman_Cape",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ghillied Gunman Arms",
+          "id": "18475",
+          "item_name": "#DOTA_Item_Ghillied_Gunman_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Hare_Hunt",
+      "store_bundle": "The Hare Hunt Set",
+      "portrait_image": "econ/sets/v2/hare_hunt",
+      "items": [
+        {
+          "name": "Hare Hunt Hat",
+          "id": "5435",
+          "item_name": "#DOTA_Item_Hare_Hunt_Hat",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Hare Hunt Rifle",
+          "id": "5431",
+          "item_name": "#DOTA_Item_Hare_Hunt_Rifle",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Hare Hunt Sleeves",
+          "id": "5432",
+          "item_name": "#DOTA_Item_Hare_Hunt_Sleeves",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Hare Hunt Shoulders",
+          "id": "5433",
+          "item_name": "#DOTA_Item_Hare_Hunt_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Hare Hunt Cape",
+          "id": "5434",
+          "item_name": "#DOTA_Item_Hare_Hunt_Cape",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Haunted_Hunter",
+      "store_bundle": "Haunted Hunter",
+      "portrait_image": "econ/sets/v2/haunted_hunter",
+      "items": [
+        {
+          "name": "Haunted Hunter - Arms",
+          "id": "22295",
+          "item_name": "#DOTA_Item_Haunted_Hunter__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Haunted Hunter - Back",
+          "id": "22296",
+          "item_name": "#DOTA_Item_Haunted_Hunter__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Haunted Hunter - Head",
+          "id": "22297",
+          "item_name": "#DOTA_Item_Haunted_Hunter__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Haunted Hunter - Shoulder",
+          "id": "22298",
+          "item_name": "#DOTA_Item_Haunted_Hunter__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Haunted Hunter - Weapon",
+          "id": "22299",
+          "item_name": "#DOTA_Item_Haunted_Hunter__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Keen_Machine",
+      "store_bundle": "Keen Machine",
+      "portrait_image": "econ/sets/v2/keen_machine",
+      "items": [
+        {
+          "name": "Thud-Gun of the Keen Machine",
+          "id": "7156",
+          "item_name": "#DOTA_Item_ThudGun_of_the_Keen_Machine",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Heavy Plates of the Keen Machine",
+          "id": "7157",
+          "item_name": "#DOTA_Item_Heavy_Plates_of_the_Keen_Machine",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Cyclopean Helm of the Keen Machine",
+          "id": "7158",
+          "item_name": "#DOTA_Item_Cyclopean_Helm_of_the_Keen_Machine",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Lucky Bullet of the Keen Machine",
+          "id": "7160",
+          "item_name": "#DOTA_Item_Lucky_Bullet_of_the_Keen_Machine",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Heavy Cloak of the Keen Machine",
+          "id": "7163",
+          "item_name": "#DOTA_Item_Heavy_Cloak_of_the_Keen_Machine",
+          "item_slot": "back",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Longbeard_Dwarf_Engineer",
+      "store_bundle": "Longbeard Dwarf Engineer",
+      "portrait_image": "econ/sets/v2/longbeard_dwarf_engineer",
+      "items": [
+        {
+          "name": "Helm of the Longbeard Dwarf Engineer",
+          "id": "8480",
+          "item_name": "#DOTA_Item_Helm_of_the_Longbeard_Dwarf_Engineer",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Blunderbuss of the Longbeard Dwarf Engineer",
+          "id": "8482",
+          "item_name": "#DOTA_Item_Blunderbuss_of_the_Longbeard_Dwarf_Engineer",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Cape of the Longbeard Dwarf Engineer",
+          "id": "8492",
+          "item_name": "#DOTA_Item_Cape_of_the_Longbeard_Dwarf_Engineer",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Spaulder of the Longbeard Dwarf Engineer",
+          "id": "8494",
+          "item_name": "#DOTA_Item_Spaulder_of_the_Longbeard_Dwarf_Engineer",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Armguards of the Longbeard Dwarf Engineer",
+          "id": "8484",
+          "item_name": "#DOTA_Item_Armguards_of_the_Longbeard_Dwarf_Engineer",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Hinterland_Stalker",
+      "store_bundle": "Hinterland Stalker",
+      "portrait_image": "econ/sets/v2/mlg_hunters_origin",
+      "items": [
+        {
+          "name": "Beard of the Hinterland Stalker",
+          "id": "8237",
+          "item_name": "#DOTA_Item_Beard_of_the_Hinterland_Stalker",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Mantle of the Hinterland Stalker",
+          "id": "8239",
+          "item_name": "#DOTA_Item_Mantle_of_the_Hinterland_Stalker",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Gauntlet of the Hinterland Stalker",
+          "id": "8241",
+          "item_name": "#DOTA_Item_Gauntlet_of_the_Hinterland_Stalker",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Pelt of the Hinterland Stalker",
+          "id": "8243",
+          "item_name": "#DOTA_Item_Pelt_of_the_Hinterland_Stalker",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Stonefire",
+          "id": "8244",
+          "item_name": "#DOTA_Item_Stonefire",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Occultists_Pursuit",
+      "store_bundle": "Occultist's Pursuit",
+      "portrait_image": "econ/sets/v2/occultists_pursuit",
+      "items": [
+        {
+          "name": "Cannon of the Occultist's Pursuit",
+          "id": "9097",
+          "item_name": "#DOTA_Item_Cannon_of_the_Occultists_Pursuit",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Pauldrons of the Occultist's Pursuit",
+          "id": "9096",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Occultists_Pursuit",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bracers of the Occultist's Pursuit",
+          "id": "9095",
+          "item_name": "#DOTA_Item_Bracers_of_the_Occultists_Pursuit",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Top Hat of the Occultist's Pursuit",
+          "id": "9093",
+          "item_name": "#DOTA_Item_Top_Hat_of_the_Occultists_Pursuit",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Pack of the Occultist's Pursuit",
+          "id": "9092",
+          "item_name": "#DOTA_Item_Pack_of_the_Occultists_Pursuit",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Odogaron_Armor",
+      "store_bundle": "Odogaron Armor",
+      "portrait_image": "econ/sets/v2/odogaron_armor",
+      "items": [
+        {
+          "name": "Garon Rifle",
+          "id": "34256",
+          "item_name": "#DOTA_Item_Garon_Rifle",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Odogaron Vambraces β and Greaves β",
+          "id": "34257",
+          "item_name": "#DOTA_Item_Odogaron_Vambraces__and_Greaves_",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Odogaron Cape β",
+          "id": "34260",
+          "item_name": "#DOTA_Item_Odogaron_Cape_",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Odogaron Mail β",
+          "id": "34258",
+          "item_name": "#DOTA_Item_Odogaron_Mail_",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Odogaron Helm β",
+          "id": "34259",
+          "item_name": "#DOTA_Item_Odogaron_Helm_",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Prismatic_Odogaron_Set",
+      "store_bundle": "Prismatic Odogaron Set",
+      "portrait_image": "econ/sets/v2/prismatic_odogaron_set",
+      "items": [
+        {
+          "name": "Prismatic Garon Rifle",
+          "id": "36060",
+          "item_name": "#DOTA_Item_Prismatic_Garon_Rifle",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Odogaron Vambraces β and Greaves β",
+          "id": "35565",
+          "item_name": "#DOTA_Item_Prismatic_Odogaron_Vambraces__and_Greaves_",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Odogaron Cape β",
+          "id": "35568",
+          "item_name": "#DOTA_Item_Prismatic_Odogaron_Cape_",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Odogaron Mail β",
+          "id": "35566",
+          "item_name": "#DOTA_Item_Prismatic_Odogaron_Mail_",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Odogaron Helm β",
+          "id": "35567",
+          "item_name": "#DOTA_Item_Prismatic_Odogaron_Helm_",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Seasoned_Expeditionary",
+      "store_bundle": "Seasoned Expeditionary",
+      "portrait_image": "econ/sets/v2/seasoned_expeditionary",
+      "items": [
+        {
+          "name": "Arms of the Seasoned Expeditionary",
+          "id": "9654",
+          "item_name": "#DOTA_Item_Arms_of_the_Seasoned_Expeditionary",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Back of the Seasoned Expeditionary",
+          "id": "9653",
+          "item_name": "#DOTA_Item_Back_of_the_Seasoned_Expeditionary",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shoulder of the Seasoned Expeditionary",
+          "id": "9652",
+          "item_name": "#DOTA_Item_Shoulder_of_the_Seasoned_Expeditionary",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Head of the Seasoned Expeditionary",
+          "id": "9651",
+          "item_name": "#DOTA_Item_Head_of_the_Seasoned_Expeditionary",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Weapon of the Seasoned Expeditionary",
+          "id": "9650",
+          "item_name": "#DOTA_Item_Weapon_of_the_Seasoned_Expeditionary",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Shooting_Star",
+      "store_bundle": "Shooting Star",
+      "portrait_image": "econ/sets/v2/shooting_star",
+      "items": [
+        {
+          "name": "Cape of the Shooting Star",
+          "id": "8161",
+          "item_name": "#DOTA_Item_Cape_of_the_Shooting_Star",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Goggles of the Shooting Star",
+          "id": "8163",
+          "item_name": "#DOTA_Item_Goggles_of_the_Shooting_Star",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Shoulders of the Shooting Star",
+          "id": "8164",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Shooting_Star",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Carbine of the Shooting Star",
+          "id": "8165",
+          "item_name": "#DOTA_Item_Carbine_of_the_Shooting_Star",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bracer and Boots of the Shooting Star",
+          "id": "8197",
+          "item_name": "#DOTA_Item_Bracer_and_Boots_of_the_Shooting_Star",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Foxfire_Odogaron_Armor_Set",
+      "store_bundle": "Foxfire Odogaron Armor Set",
+      "portrait_image": "econ/sets/v2/sniper_foxfire_odogaron_armor_set",
+      "items": [
+        {
+          "name": "Foxfire Garon Rifle",
+          "id": "36179",
+          "item_name": "#DOTA_Item_Foxfire_Garon_Rifle",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Foxfire Odogaron Vambraces β and Greaves β",
+          "id": "36175",
+          "item_name": "#DOTA_Item_Foxfire_Odogaron_Vambraces__and_Greaves_",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Foxfire Odogaron Cape β",
+          "id": "36178",
+          "item_name": "#DOTA_Item_Foxfire_Odogaron_Cape_",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Foxfire Odogaron Mail β",
+          "id": "36176",
+          "item_name": "#DOTA_Item_Foxfire_Odogaron_Mail_",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Foxfire Odogaron Helm β",
+          "id": "36177",
+          "item_name": "#DOTA_Item_Foxfire_Odogaron_Helm_",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Gunslinger",
+      "store_bundle": "Gunslinger Set",
+      "portrait_image": "econ/sets/v2/sniper_gunslinger_set",
+      "items": [
+        {
+          "name": "Gunslinger's Rifle",
+          "id": "5039",
+          "item_name": "#DOTA_Item_Gunslingers_Rifle",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Gunslinger's Bracers",
+          "id": "5040",
+          "item_name": "#DOTA_Item_Gunslingers_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Gunslinger's Hat",
+          "id": "5038",
+          "item_name": "#DOTA_Item_Gunslingers_Hat",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Gunslinger's Cape",
+          "id": "5041",
+          "item_name": "#DOTA_Item_Gunslingers_Cape",
+          "item_slot": "back",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Sharpshooter",
+      "store_bundle": "The Sharpshooter Set",
+      "portrait_image": "econ/sets/v2/sniper_sharpshooter",
+      "items": [
+        {
+          "name": "Sharpshooter's Stache",
+          "id": "4698",
+          "item_name": "#DOTA_Item_Sharpshooters_Stache",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Killstealer",
+          "id": "4699",
+          "item_name": "#DOTA_Item_Killstealer",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Sharpshooter's Pauldrons",
+          "id": "4700",
+          "item_name": "#DOTA_Item_Sharpshooters_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Sharpshooter's Cloak",
+          "id": "4701",
+          "item_name": "#DOTA_Item_Sharpshooters_Cloak",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Sharpshooter's Bullet Bracers",
+          "id": "4793",
+          "item_name": "#DOTA_Item_Sharpshooters_Bullet_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Spirit_of_The_Howling_Wolf",
+      "store_bundle": "Spirit of the Howling Wolf Set",
+      "portrait_image": "econ/sets/v2/spirit_of_the_howling_wolf",
+      "items": [
+        {
+          "name": "Spaulders of The Howling Wolf",
+          "id": "5743",
+          "item_name": "#DOTA_Item_Spaulders_of_The_Howling_Wolf",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Bracers of The Howling Wolf",
+          "id": "5739",
+          "item_name": "#DOTA_Item_Bracers_of_The_Howling_Wolf",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Pelt of The Howling Wolf",
+          "id": "5740",
+          "item_name": "#DOTA_Item_Pelt_of_The_Howling_Wolf",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Rifle of The Howling Wolf",
+          "id": "5741",
+          "item_name": "#DOTA_Item_Rifle_of_The_Howling_Wolf",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Hat of The Howling Wolf",
+          "id": "5742",
+          "item_name": "#DOTA_Item_Hat_of_The_Howling_Wolf",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Tales_of_the_Ardalan_Interdictor",
+      "store_bundle": "Tales of the Ardalan Interdictor",
+      "portrait_image": "econ/sets/v2/tales_of_the_ardalan_interdictor",
+      "items": [
+        {
+          "name": "Colar of the Ardalan Interdictor",
+          "id": "14970",
+          "item_name": "#DOTA_Item_Colar_of_the_Ardalan_Interdictor",
+          "item_slot": "shoulder",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Helm of the Ardalan Interdictor",
+          "id": "14968",
+          "item_name": "#DOTA_Item_Helm_of_the_Ardalan_Interdictor",
+          "item_slot": "head",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Weapon of the Ardalan Interdictor",
+          "id": "14971",
+          "item_name": "#DOTA_Item_Weapon_of_the_Ardalan_Interdictor",
+          "item_slot": "weapon",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Bracers of the Ardalan Interdictor",
+          "id": "14969",
+          "item_name": "#DOTA_Item_Bracers_of_the_Ardalan_Interdictor",
+          "item_slot": "arms",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Pack of the Ardalan Interdictor",
+          "id": "14972",
+          "item_name": "#DOTA_Item_Pack_of_the_Ardalan_Interdictor",
+          "item_slot": "back",
+          "item_rarity": "immortal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Gear_of_the_TallyHo_Hunter",
+      "store_bundle": "Gear of the Tally-Ho Hunter Set",
+      "portrait_image": "econ/sets/v2/tally_ho_hunter",
+      "items": [
+        {
+          "name": "Cape of the Great Safari",
+          "id": "4726",
+          "item_name": "#DOTA_Item_Cape_of_the_Great_Safari",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Bracers of the Seasoned Hunter",
+          "id": "4727",
+          "item_name": "#DOTA_Item_Bracers_of_the_Seasoned_Hunter",
+          "item_slot": "arms",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Rifle of the Great Safari",
+          "id": "4729",
+          "item_name": "#DOTA_Item_Rifle_of_the_Great_Safari",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Sharpeye's Mementos",
+          "id": "4728",
+          "item_name": "#DOTA_Item_Sharpeyes_Mementos",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Hunter's Helm",
+          "id": "4725",
+          "item_name": "#DOTA_Item_Hunters_Helm",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Dwarf_Engineer",
+      "store_bundle": "The Dwarf Engineer",
+      "portrait_image": "econ/sets/v2/the_dwarf_engineer",
+      "items": [
+        {
+          "name": "Armguards of the Dwarf Engineer",
+          "id": "8253",
+          "item_name": "#DOTA_Item_Armguards_of_the_Dwarf_Engineer",
+          "item_slot": "arms",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Cape of the Dwarf Engineer",
+          "id": "8255",
+          "item_name": "#DOTA_Item_Cape_of_the_Dwarf_Engineer",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Helm of the Dwarf Engineer",
+          "id": "8256",
+          "item_name": "#DOTA_Item_Helm_of_the_Dwarf_Engineer",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Spaulder of the Dwarf Engineer",
+          "id": "8260",
+          "item_name": "#DOTA_Item_Spaulder_of_the_Dwarf_Engineer",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Blunderbuss of the Dwarf Engineer",
+          "id": "8250",
+          "item_name": "#DOTA_Item_Blunderbuss_of_the_Dwarf_Engineer",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Silver_Fox",
+      "store_bundle": "The Silver Fox",
+      "portrait_image": "econ/sets/v2/the_silver_fox",
+      "items": [
+        {
+          "name": "Bracers of the Silver Fox",
+          "id": "9594",
+          "item_name": "#DOTA_Item_Bracers_of_the_Silver_Fox",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cape of the Silver Fox",
+          "id": "9593",
+          "item_name": "#DOTA_Item_Cape_of_the_Silver_Fox",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Helm of the Silver Fox",
+          "id": "9592",
+          "item_name": "#DOTA_Item_Helm_of_the_Silver_Fox",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Weapon of the Silver Fox",
+          "id": "9591",
+          "item_name": "#DOTA_Item_Weapon_of_the_Silver_Fox",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Pauldrons of the Silver Fox",
+          "id": "9590",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Silver_Fox",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Wild_West",
+      "store_bundle": "Wild West",
+      "portrait_image": "econ/sets/v2/wild_west",
+      "items": [
+        {
+          "name": "Karabin of the Wild West",
+          "id": "6215",
+          "item_name": "#DOTA_Item_Karabin_of_the_Wild_West",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Hat of the Wild West",
+          "id": "6328",
+          "item_name": "#DOTA_Item_Hat_of_the_Wild_West",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Cape of the Wild West",
+          "id": "6329",
+          "item_name": "#DOTA_Item_Cape_of_the_Wild_West",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Shoulders of the Wild West",
+          "id": "6330",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Wild_West",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Gloves of the Wild West",
+          "id": "6331",
+          "item_name": "#DOTA_Item_Gloves_of_the_Wild_West",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Witch_Hunt",
+      "store_bundle": "Witch Hunt",
+      "portrait_image": "econ/sets/v2/witch_hunt",
+      "items": [
+        {
+          "name": "Witch Hunt Pauldrons",
+          "id": "18142",
+          "item_name": "#DOTA_Item_Witch_Hunt_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Witch Hunt Arms",
+          "id": "18141",
+          "item_name": "#DOTA_Item_Witch_Hunt_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Witch Hunt Cape",
+          "id": "18140",
+          "item_name": "#DOTA_Item_Witch_Hunt_Cape",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Witch Hunt Hat",
+          "id": "18139",
+          "item_name": "#DOTA_Item_Witch_Hunt_Hat",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Witch Hunt Weapon",
+          "id": "18138",
+          "item_name": "#DOTA_Item_Witch_Hunt_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "281",
+      "name": "Sniper's Weapon",
+      "item_name": "#DOTA_Item_Snipers_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "282",
+      "name": "Sniper's Cape",
+      "item_name": "#DOTA_Item_Snipers_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "283",
+      "name": "Sniper's Head Gear",
+      "item_name": "#DOTA_Item_Snipers_Head_Gear",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "284",
+      "name": "Sniper's Shoulder Armor",
+      "item_name": "#DOTA_Item_Snipers_Shoulder_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "285",
+      "name": "Sniper's Bracers",
+      "item_name": "#DOTA_Item_Snipers_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4594",
+      "name": "Instagib OSP",
+      "item_name": "#DOTA_Item_Instagib_OSP",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4698",
+      "name": "Sharpshooter's Stache",
+      "item_name": "#DOTA_Item_Sharpshooters_Stache",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4699",
+      "name": "Killstealer",
+      "item_name": "#DOTA_Item_Killstealer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4700",
+      "name": "Sharpshooter's Pauldrons",
+      "item_name": "#DOTA_Item_Sharpshooters_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4701",
+      "name": "Sharpshooter's Cloak",
+      "item_name": "#DOTA_Item_Sharpshooters_Cloak",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4725",
+      "name": "Hunter's Helm",
+      "item_name": "#DOTA_Item_Hunters_Helm",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4726",
+      "name": "Cape of the Great Safari",
+      "item_name": "#DOTA_Item_Cape_of_the_Great_Safari",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4727",
+      "name": "Bracers of the Seasoned Hunter",
+      "item_name": "#DOTA_Item_Bracers_of_the_Seasoned_Hunter",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4728",
+      "name": "Sharpeye's Mementos",
+      "item_name": "#DOTA_Item_Sharpeyes_Mementos",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4729",
+      "name": "Rifle of the Great Safari",
+      "item_name": "#DOTA_Item_Rifle_of_the_Great_Safari",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4793",
+      "name": "Sharpshooter's Bullet Bracers",
+      "item_name": "#DOTA_Item_Sharpshooters_Bullet_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4806",
+      "name": "Grampa Sharpie's Shin Shooter",
+      "item_name": "#DOTA_Item_Grampa_Sharpies_Shin_Shooter",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4807",
+      "name": "Gramma Sharpie's Smokin' Rug",
+      "item_name": "#DOTA_Item_Gramma_Sharpies_Smokin_Rug",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4881",
+      "name": "Spottin' Goggles",
+      "item_name": "#DOTA_Item_Spottin_Goggles",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5038",
+      "name": "Gunslinger's Hat",
+      "item_name": "#DOTA_Item_Gunslingers_Hat",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5039",
+      "name": "Gunslinger's Rifle",
+      "item_name": "#DOTA_Item_Gunslingers_Rifle",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5040",
+      "name": "Gunslinger's Bracers",
+      "item_name": "#DOTA_Item_Gunslingers_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5041",
+      "name": "Gunslinger's Cape",
+      "item_name": "#DOTA_Item_Gunslingers_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5240",
+      "name": "Wolfhound Rifle",
+      "item_name": "#DOTA_Item_Wolfhound_Rifle",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5431",
+      "name": "Hare Hunt Rifle",
+      "item_name": "#DOTA_Item_Hare_Hunt_Rifle",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5432",
+      "name": "Hare Hunt Sleeves",
+      "item_name": "#DOTA_Item_Hare_Hunt_Sleeves",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5433",
+      "name": "Hare Hunt Shoulders",
+      "item_name": "#DOTA_Item_Hare_Hunt_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5434",
+      "name": "Hare Hunt Cape",
+      "item_name": "#DOTA_Item_Hare_Hunt_Cape",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5435",
+      "name": "Hare Hunt Hat",
+      "item_name": "#DOTA_Item_Hare_Hunt_Hat",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5717",
+      "name": "Hobbly-Bob",
+      "item_name": "#DOTA_Item_HobblyBob",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5739",
+      "name": "Bracers of The Howling Wolf",
+      "item_name": "#DOTA_Item_Bracers_of_The_Howling_Wolf",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5740",
+      "name": "Pelt of The Howling Wolf",
+      "item_name": "#DOTA_Item_Pelt_of_The_Howling_Wolf",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5741",
+      "name": "Rifle of The Howling Wolf",
+      "item_name": "#DOTA_Item_Rifle_of_The_Howling_Wolf",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5742",
+      "name": "Hat of The Howling Wolf",
+      "item_name": "#DOTA_Item_Hat_of_The_Howling_Wolf",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5743",
+      "name": "Spaulders of The Howling Wolf",
+      "item_name": "#DOTA_Item_Spaulders_of_The_Howling_Wolf",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5977",
+      "name": "Dragon's Breath",
+      "item_name": "#DOTA_Item_Dragons_Breath",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6215",
+      "name": "Karabin of the Wild West",
+      "item_name": "#DOTA_Item_Karabin_of_the_Wild_West",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6328",
+      "name": "Hat of the Wild West",
+      "item_name": "#DOTA_Item_Hat_of_the_Wild_West",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6329",
+      "name": "Cape of the Wild West",
+      "item_name": "#DOTA_Item_Cape_of_the_Wild_West",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6330",
+      "name": "Shoulders of the Wild West",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Wild_West",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6331",
+      "name": "Gloves of the Wild West",
+      "item_name": "#DOTA_Item_Gloves_of_the_Wild_West",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6352",
+      "name": "Hobbly Cape",
+      "item_name": "#DOTA_Item_Hobbly_Cape",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6453",
+      "name": "Muh Keen Gun",
+      "item_name": "#DOTA_Item_Muh_Keen_Gun",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6895",
+      "name": "The Feeder-Eater",
+      "item_name": "#DOTA_Item_The_FeederEater",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7156",
+      "name": "Thud-Gun of the Keen Machine",
+      "item_name": "#DOTA_Item_ThudGun_of_the_Keen_Machine",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7157",
+      "name": "Heavy Plates of the Keen Machine",
+      "item_name": "#DOTA_Item_Heavy_Plates_of_the_Keen_Machine",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7158",
+      "name": "Cyclopean Helm of the Keen Machine",
+      "item_name": "#DOTA_Item_Cyclopean_Helm_of_the_Keen_Machine",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7160",
+      "name": "Lucky Bullet of the Keen Machine",
+      "item_name": "#DOTA_Item_Lucky_Bullet_of_the_Keen_Machine",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7163",
+      "name": "Heavy Cloak of the Keen Machine",
+      "item_name": "#DOTA_Item_Heavy_Cloak_of_the_Keen_Machine",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7178",
+      "name": "Cloak of the Exact Marksman",
+      "item_name": "#DOTA_Item_Cloak_of_the_Exact_Marksman",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7187",
+      "name": "Perforator",
+      "item_name": "#DOTA_Item_Perforator",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7525",
+      "name": "Arm of the Exact Marksman",
+      "item_name": "#DOTA_Item_Arm_of_the_Exact_Marksman",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7526",
+      "name": "Spaulders of the Exact Marksman",
+      "item_name": "#DOTA_Item_Spaulders_of_the_Exact_Marksman",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7532",
+      "name": "Cap of the Exact Marksman",
+      "item_name": "#DOTA_Item_Cap_of_the_Exact_Marksman",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8161",
+      "name": "Cape of the Shooting Star",
+      "item_name": "#DOTA_Item_Cape_of_the_Shooting_Star",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8163",
+      "name": "Goggles of the Shooting Star",
+      "item_name": "#DOTA_Item_Goggles_of_the_Shooting_Star",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8164",
+      "name": "Shoulders of the Shooting Star",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Shooting_Star",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8165",
+      "name": "Carbine of the Shooting Star",
+      "item_name": "#DOTA_Item_Carbine_of_the_Shooting_Star",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8197",
+      "name": "Bracer and Boots of the Shooting Star",
+      "item_name": "#DOTA_Item_Bracer_and_Boots_of_the_Shooting_Star",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8221",
+      "name": "Taunt: Quick Draw!",
+      "item_name": "#DOTA_Item_Taunt_Quick_Draw",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "8237",
+      "name": "Beard of the Hinterland Stalker",
+      "item_name": "#DOTA_Item_Beard_of_the_Hinterland_Stalker",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8239",
+      "name": "Mantle of the Hinterland Stalker",
+      "item_name": "#DOTA_Item_Mantle_of_the_Hinterland_Stalker",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8241",
+      "name": "Gauntlet of the Hinterland Stalker",
+      "item_name": "#DOTA_Item_Gauntlet_of_the_Hinterland_Stalker",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8243",
+      "name": "Pelt of the Hinterland Stalker",
+      "item_name": "#DOTA_Item_Pelt_of_the_Hinterland_Stalker",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8244",
+      "name": "Stonefire",
+      "item_name": "#DOTA_Item_Stonefire",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8250",
+      "name": "Blunderbuss of the Dwarf Engineer",
+      "item_name": "#DOTA_Item_Blunderbuss_of_the_Dwarf_Engineer",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8253",
+      "name": "Armguards of the Dwarf Engineer",
+      "item_name": "#DOTA_Item_Armguards_of_the_Dwarf_Engineer",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8255",
+      "name": "Cape of the Dwarf Engineer",
+      "item_name": "#DOTA_Item_Cape_of_the_Dwarf_Engineer",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8256",
+      "name": "Helm of the Dwarf Engineer",
+      "item_name": "#DOTA_Item_Helm_of_the_Dwarf_Engineer",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8260",
+      "name": "Spaulder of the Dwarf Engineer",
+      "item_name": "#DOTA_Item_Spaulder_of_the_Dwarf_Engineer",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8480",
+      "name": "Helm of the Longbeard Dwarf Engineer",
+      "item_name": "#DOTA_Item_Helm_of_the_Longbeard_Dwarf_Engineer",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8482",
+      "name": "Blunderbuss of the Longbeard Dwarf Engineer",
+      "item_name": "#DOTA_Item_Blunderbuss_of_the_Longbeard_Dwarf_Engineer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8484",
+      "name": "Armguards of the Longbeard Dwarf Engineer",
+      "item_name": "#DOTA_Item_Armguards_of_the_Longbeard_Dwarf_Engineer",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8492",
+      "name": "Cape of the Longbeard Dwarf Engineer",
+      "item_name": "#DOTA_Item_Cape_of_the_Longbeard_Dwarf_Engineer",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8494",
+      "name": "Spaulder of the Longbeard Dwarf Engineer",
+      "item_name": "#DOTA_Item_Spaulder_of_the_Longbeard_Dwarf_Engineer",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9092",
+      "name": "Pack of the Occultist's Pursuit",
+      "item_name": "#DOTA_Item_Pack_of_the_Occultists_Pursuit",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9093",
+      "name": "Top Hat of the Occultist's Pursuit",
+      "item_name": "#DOTA_Item_Top_Hat_of_the_Occultists_Pursuit",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9095",
+      "name": "Bracers of the Occultist's Pursuit",
+      "item_name": "#DOTA_Item_Bracers_of_the_Occultists_Pursuit",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9096",
+      "name": "Pauldrons of the Occultist's Pursuit",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Occultists_Pursuit",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9097",
+      "name": "Cannon of the Occultist's Pursuit",
+      "item_name": "#DOTA_Item_Cannon_of_the_Occultists_Pursuit",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9197",
+      "name": "Full-Bore Bonanza",
+      "item_name": "#DOTA_Item_FullBore_Bonanza",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9455",
+      "name": "Golden Full-Bore Bonanza",
+      "item_name": "#DOTA_Item_Golden_FullBore_Bonanza",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9590",
+      "name": "Pauldrons of the Silver Fox",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Silver_Fox",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9591",
+      "name": "Weapon of the Silver Fox",
+      "item_name": "#DOTA_Item_Weapon_of_the_Silver_Fox",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9592",
+      "name": "Helm of the Silver Fox",
+      "item_name": "#DOTA_Item_Helm_of_the_Silver_Fox",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9593",
+      "name": "Cape of the Silver Fox",
+      "item_name": "#DOTA_Item_Cape_of_the_Silver_Fox",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9594",
+      "name": "Bracers of the Silver Fox",
+      "item_name": "#DOTA_Item_Bracers_of_the_Silver_Fox",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9650",
+      "name": "Weapon of the Seasoned Expeditionary",
+      "item_name": "#DOTA_Item_Weapon_of_the_Seasoned_Expeditionary",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9651",
+      "name": "Head of the Seasoned Expeditionary",
+      "item_name": "#DOTA_Item_Head_of_the_Seasoned_Expeditionary",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9652",
+      "name": "Shoulder of the Seasoned Expeditionary",
+      "item_name": "#DOTA_Item_Shoulder_of_the_Seasoned_Expeditionary",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9653",
+      "name": "Back of the Seasoned Expeditionary",
+      "item_name": "#DOTA_Item_Back_of_the_Seasoned_Expeditionary",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9654",
+      "name": "Arms of the Seasoned Expeditionary",
+      "item_name": "#DOTA_Item_Arms_of_the_Seasoned_Expeditionary",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9818",
+      "name": "Shatterhand Carbine",
+      "item_name": "#DOTA_Item_Shatterhand_Carbine",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14206",
+      "name": "Deep sea overlord Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_Deep_sea_overlord_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14207",
+      "name": "Deep sea overlord Shoulder",
+      "item_name": "#DOTA_Item_Vote_Only_Deep_sea_overlord_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14209",
+      "name": "Deep sea overlord Head",
+      "item_name": "#DOTA_Item_Vote_Only_Deep_sea_overlord_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14210",
+      "name": "Deep sea overlord Back",
+      "item_name": "#DOTA_Item_Vote_Only_Deep_sea_overlord_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14211",
+      "name": "Deep sea overlord Arms",
+      "item_name": "#DOTA_Item_Vote_Only_Deep_sea_overlord_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14704",
+      "name": "Blacksail Cannoneer Back",
+      "item_name": "#DOTA_Item_Blacksail_Cannoneer_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14705",
+      "name": "Blacksail Cannoneer Shoulder",
+      "item_name": "#DOTA_Item_Blacksail_Cannoneer_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14707",
+      "name": "Blacksail Cannoneer Arms",
+      "item_name": "#DOTA_Item_Blacksail_Cannoneer_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14708",
+      "name": "Blacksail Cannoneer Weapon",
+      "item_name": "#DOTA_Item_Blacksail_Cannoneer_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14968",
+      "name": "Helm of the Ardalan Interdictor",
+      "item_name": "#DOTA_Item_Helm_of_the_Ardalan_Interdictor",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14969",
+      "name": "Bracers of the Ardalan Interdictor",
+      "item_name": "#DOTA_Item_Bracers_of_the_Ardalan_Interdictor",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14970",
+      "name": "Colar of the Ardalan Interdictor",
+      "item_name": "#DOTA_Item_Colar_of_the_Ardalan_Interdictor",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14971",
+      "name": "Weapon of the Ardalan Interdictor",
+      "item_name": "#DOTA_Item_Weapon_of_the_Ardalan_Interdictor",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14972",
+      "name": "Pack of the Ardalan Interdictor",
+      "item_name": "#DOTA_Item_Pack_of_the_Ardalan_Interdictor",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14978",
+      "name": "Blacksail Cannoneer Hat",
+      "item_name": "#DOTA_Item_Blacksail_Cannoneer_Hat",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18138",
+      "name": "Witch Hunt Weapon",
+      "item_name": "#DOTA_Item_Witch_Hunt_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18139",
+      "name": "Witch Hunt Hat",
+      "item_name": "#DOTA_Item_Witch_Hunt_Hat",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18140",
+      "name": "Witch Hunt Cape",
+      "item_name": "#DOTA_Item_Witch_Hunt_Cape",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18141",
+      "name": "Witch Hunt Arms",
+      "item_name": "#DOTA_Item_Witch_Hunt_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18142",
+      "name": "Witch Hunt Pauldrons",
+      "item_name": "#DOTA_Item_Witch_Hunt_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18475",
+      "name": "Ghillied Gunman Arms",
+      "item_name": "#DOTA_Item_Ghillied_Gunman_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18476",
+      "name": "Ghillied Gunman Cape",
+      "item_name": "#DOTA_Item_Ghillied_Gunman_Cape",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18477",
+      "name": "Ghillied Gunman Nest Cap",
+      "item_name": "#DOTA_Item_Ghillied_Gunman_Nest_Cap",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18478",
+      "name": "Ghillied Gunman Shoulders",
+      "item_name": "#DOTA_Item_Ghillied_Gunman_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18479",
+      "name": "Ghillied Gunman Sniper Rifle",
+      "item_name": "#DOTA_Item_Ghillied_Gunman_Sniper_Rifle",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20101",
+      "name": "Gear of the Tally-Ho Hunter Set",
+      "item_name": "#DOTA_Item_Gear_of_the_TallyHo_Hunter_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20130",
+      "name": "The Sharpshooter Set",
+      "item_name": "#DOTA_Item_The_Sharpshooter_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20256",
+      "name": "The Hare Hunt Set",
+      "item_name": "#DOTA_Item_The_Hare_Hunt_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20264",
+      "name": "Gunslinger Set",
+      "item_name": "#DOTA_Item_Gunslinger_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20321",
+      "name": "Spirit of the Howling Wolf Set",
+      "item_name": "#DOTA_Item_Spirit_of_the_Howling_Wolf_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20453",
+      "name": "Wild West",
+      "item_name": "#DOTA_Item_Wild_West",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20677",
+      "name": "Keen Machine",
+      "item_name": "#DOTA_Item_Keen_Machine",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20819",
+      "name": "Shooting Star",
+      "item_name": "#DOTA_Item_Shooting_Star",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20871",
+      "name": "Exact Marksman",
+      "item_name": "#DOTA_Item_Exact_Marksman",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20899",
+      "name": "Hinterland Stalker",
+      "item_name": "#DOTA_Item_Hinterland_Stalker",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20960",
+      "name": "The Dwarf Engineer",
+      "item_name": "#DOTA_Item_The_Dwarf_Engineer",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21024",
+      "name": "Longbeard Dwarf Engineer",
+      "item_name": "#DOTA_Item_Longbeard_Dwarf_Engineer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21087",
+      "name": "Occultist's Pursuit",
+      "item_name": "#DOTA_Item_Occultists_Pursuit",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21164",
+      "name": "The Silver Fox",
+      "item_name": "#DOTA_Item_The_Silver_Fox",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21176",
+      "name": "Seasoned Expeditionary",
+      "item_name": "#DOTA_Item_Seasoned_Expeditionary",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21517",
+      "name": "Deep sea overlord",
+      "item_name": "#DOTA_Item_Vote_Only_Deep_sea_overlord",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21578",
+      "name": "Blacksail Cannoneer",
+      "item_name": "#DOTA_Item_Blacksail_Cannoneer",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21654",
+      "name": "Tales of the Ardalan Interdictor",
+      "item_name": "#DOTA_Item_Tales_of_the_Ardalan_Interdictor",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21777",
+      "name": "Witch Hunt",
+      "item_name": "#DOTA_Item_Witch_Hunt",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21812",
+      "name": "Ghillied Gunman",
+      "item_name": "#DOTA_Item_Ghillied_Gunman",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21952",
+      "name": "Expired Gun",
+      "item_name": "#DOTA_Item_Expired_Gun",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22295",
+      "name": "Haunted Hunter - Arms",
+      "item_name": "#DOTA_Item_Haunted_Hunter__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22296",
+      "name": "Haunted Hunter - Back",
+      "item_name": "#DOTA_Item_Haunted_Hunter__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22297",
+      "name": "Haunted Hunter - Head",
+      "item_name": "#DOTA_Item_Haunted_Hunter__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22298",
+      "name": "Haunted Hunter - Shoulder",
+      "item_name": "#DOTA_Item_Haunted_Hunter__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22299",
+      "name": "Haunted Hunter - Weapon",
+      "item_name": "#DOTA_Item_Haunted_Hunter__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22321",
+      "name": "Haunted Hunter",
+      "item_name": "#DOTA_Item_Haunted_Hunter",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23714",
+      "name": "Necklace of the Expired Gun",
+      "item_name": "#DOTA_Item_Necklace_of_the_Expired_Gun",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27420",
+      "name": "Ensemble of the Expired Gun",
+      "item_name": "#DOTA_Item_Ensemble_of_the_Expired_Gun",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27421",
+      "name": "Stock of the Expired Gun",
+      "item_name": "#DOTA_Item_Stock_of_the_Expired_Gun",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27422",
+      "name": "Cover of the Expired Gun",
+      "item_name": "#DOTA_Item_Cover_of_the_Expired_Gun",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27423",
+      "name": "Poncho of the Expired Gun",
+      "item_name": "#DOTA_Item_Poncho_of_the_Expired_Gun",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34242",
+      "name": "Odogaron Armor",
+      "item_name": "#DOTA_Item_Odogaron_Armor",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "34256",
+      "name": "Garon Rifle",
+      "item_name": "#DOTA_Item_Garon_Rifle",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34257",
+      "name": "Odogaron Vambraces β and Greaves β",
+      "item_name": "#DOTA_Item_Odogaron_Vambraces__and_Greaves_",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34258",
+      "name": "Odogaron Mail β",
+      "item_name": "#DOTA_Item_Odogaron_Mail_",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34259",
+      "name": "Odogaron Helm β",
+      "item_name": "#DOTA_Item_Odogaron_Helm_",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34260",
+      "name": "Odogaron Cape β",
+      "item_name": "#DOTA_Item_Odogaron_Cape_",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35554",
+      "name": "Dreadwood Odogaron Vambraces β and Greaves β",
+      "item_name": "#DOTA_Item_Dreadwood_Odogaron_Vambraces__and_Greaves_",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35555",
+      "name": "Dreadwood Odogaron Mail β",
+      "item_name": "#DOTA_Item_Dreadwood_Odogaron_Mail_",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35563",
+      "name": "Dreadwood Odogaron Helm β",
+      "item_name": "#DOTA_Item_Dreadwood_Odogaron_Helm_",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35564",
+      "name": "Dreadwood Odogaron Cape β",
+      "item_name": "#DOTA_Item_Dreadwood_Odogaron_Cape_",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35565",
+      "name": "Prismatic Odogaron Vambraces β and Greaves β",
+      "item_name": "#DOTA_Item_Prismatic_Odogaron_Vambraces__and_Greaves_",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35566",
+      "name": "Prismatic Odogaron Mail β",
+      "item_name": "#DOTA_Item_Prismatic_Odogaron_Mail_",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35567",
+      "name": "Prismatic Odogaron Helm β",
+      "item_name": "#DOTA_Item_Prismatic_Odogaron_Helm_",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35568",
+      "name": "Prismatic Odogaron Cape β",
+      "item_name": "#DOTA_Item_Prismatic_Odogaron_Cape_",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35569",
+      "name": "Dreadwood Odogaron Armor Set",
+      "item_name": "#DOTA_Item_Dreadwood_Odogaron_Armor_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "35570",
+      "name": "Prismatic Odogaron Set",
+      "item_name": "#DOTA_Item_Prismatic_Odogaron_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "36059",
+      "name": "Dreadwood Garon Rifle",
+      "item_name": "#DOTA_Item_Dreadwood_Garon_Rifle",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36060",
+      "name": "Prismatic Garon Rifle",
+      "item_name": "#DOTA_Item_Prismatic_Garon_Rifle",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36175",
+      "name": "Foxfire Odogaron Vambraces β and Greaves β",
+      "item_name": "#DOTA_Item_Foxfire_Odogaron_Vambraces__and_Greaves_",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36176",
+      "name": "Foxfire Odogaron Mail β",
+      "item_name": "#DOTA_Item_Foxfire_Odogaron_Mail_",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36177",
+      "name": "Foxfire Odogaron Helm β",
+      "item_name": "#DOTA_Item_Foxfire_Odogaron_Helm_",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36178",
+      "name": "Foxfire Odogaron Cape β",
+      "item_name": "#DOTA_Item_Foxfire_Odogaron_Cape_",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36179",
+      "name": "Foxfire Garon Rifle",
+      "item_name": "#DOTA_Item_Foxfire_Garon_Rifle",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36180",
+      "name": "Foxfire Odogaron Armor Set",
+      "item_name": "#DOTA_Item_Foxfire_Odogaron_Armor_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    }
+  ]
+}

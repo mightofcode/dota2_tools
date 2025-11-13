@@ -1,0 +1,631 @@
+{
+  "defaults": {
+    "head": {
+      "id": "777",
+      "name": "Marci's Head",
+      "item_name": "#DOTA_Item_Marcis_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "armor": {
+      "id": "778",
+      "name": "Marci's Tunic",
+      "item_name": "#DOTA_Item_Marcis_Tunic",
+      "item_slot": "armor",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "779",
+      "name": "Marci's Back",
+      "item_name": "#DOTA_Item_Marcis_Back",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "shoulder": {
+      "id": "780",
+      "name": "Marci's Shoulders",
+      "item_name": "#DOTA_Item_Marcis_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Bloomjewel_Brawler",
+      "store_bundle": "Bloomjewel Brawler",
+      "portrait_image": "econ/sets/v2/bloomjewel_brawler",
+      "items": [
+        {
+          "name": "Bloomjewel Brawler - Back",
+          "id": "28536",
+          "item_name": "#DOTA_Item_Bloomjewel_Brawler__Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bloomjewel Brawler - Armor",
+          "id": "28535",
+          "item_name": "#DOTA_Item_Bloomjewel_Brawler__Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bloomjewel Brawler - Shoulder",
+          "id": "28534",
+          "item_name": "#DOTA_Item_Bloomjewel_Brawler__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bloomjewel Brawler - Head",
+          "id": "28533",
+          "item_name": "#DOTA_Item_Bloomjewel_Brawler__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Blue_Horizons",
+      "store_bundle": "Blue Horizons",
+      "portrait_image": "econ/sets/v2/blue_horizons",
+      "items": [
+        {
+          "name": "Blue Horizons - Head",
+          "id": "25113",
+          "item_name": "#DOTA_Item_Blue_Horizons__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Blue Horizons - Shoulder",
+          "id": "25114",
+          "item_name": "#DOTA_Item_Blue_Horizons__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Blue Horizons - Back",
+          "id": "25115",
+          "item_name": "#DOTA_Item_Blue_Horizons__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Blue Horizons - Armor",
+          "id": "25116",
+          "item_name": "#DOTA_Item_Blue_Horizons__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Brightfist",
+      "store_bundle": "Brightfist",
+      "portrait_image": "econ/sets/v2/brightfist",
+      "items": [
+        {
+          "name": "Brightfist Armor",
+          "id": "25350",
+          "item_name": "#DOTA_Item_Brightfist_Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Brightfist Back",
+          "id": "25351",
+          "item_name": "#DOTA_Item_Brightfist_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Brightfist Shoulder",
+          "id": "25356",
+          "item_name": "#DOTA_Item_Brightfist_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Brightfist Head",
+          "id": "25357",
+          "item_name": "#DOTA_Item_Brightfist_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Cosmic_Cartographer",
+      "store_bundle": "Cosmic Cartographer",
+      "portrait_image": "econ/sets/v2/cosmic_cartographer",
+      "items": [
+        {
+          "name": "Cosmic Cartographer - Armor",
+          "id": "25373",
+          "item_name": "#DOTA_Item_Cosmic_Cartographer__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cosmic Cartographer - Back",
+          "id": "25177",
+          "item_name": "#DOTA_Item_Cosmic_Cartographer__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cosmic Cartographer - Shoulder",
+          "id": "25130",
+          "item_name": "#DOTA_Item_Cosmic_Cartographer__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cosmic Cartographer - Head",
+          "id": "25129",
+          "item_name": "#DOTA_Item_Cosmic_Cartographer__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Faithful_Fortune",
+      "store_bundle": "Faithful Fortune",
+      "portrait_image": "econ/sets/v2/faithful_fortune",
+      "items": [
+        {
+          "name": "Faithful Fortune - Back",
+          "id": "25179",
+          "item_name": "#DOTA_Item_Faithful_Fortune__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Faithful Fortune - Head",
+          "id": "25181",
+          "item_name": "#DOTA_Item_Faithful_Fortune__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Faithful Fortune - Shoulder",
+          "id": "25183",
+          "item_name": "#DOTA_Item_Faithful_Fortune__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Faithful Fortune - Armor",
+          "id": "26140",
+          "item_name": "#DOTA_Item_Faithful_Fortune__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Little_Red",
+      "store_bundle": "Little Red",
+      "portrait_image": "econ/sets/v2/little_red",
+      "items": [
+        {
+          "name": "Little Red - Hood",
+          "id": "27549",
+          "item_name": "#DOTA_Item_Little_Red__Hood",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Little Red - Cloak",
+          "id": "28217",
+          "item_name": "#DOTA_Item_Little_Red__Cloak",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Little Red - Pack",
+          "id": "28243",
+          "item_name": "#DOTA_Item_Little_Red__Pack",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Little Red - Armor",
+          "id": "28244",
+          "item_name": "#DOTA_Item_Little_Red__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Little Red - Wolf Pet",
+          "id": "32637",
+          "item_name": "#DOTA_Item_Little_Red__Wolf_Pet",
+          "item_slot": "summon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Taunt: Riding High",
+          "id": "32638",
+          "item_name": "#DOTA_Item_Taunt_Riding_High",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_School_of_the_Solar_Fang",
+      "store_bundle": "School of the Solar Fang",
+      "portrait_image": "econ/sets/v2/school_of_the_solar_fang",
+      "items": [
+        {
+          "name": "School of the Solar Fang - Shoulder",
+          "id": "28300",
+          "item_name": "#DOTA_Item_School_of_the_Solar_Fang__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "School of the Solar Fang - Head",
+          "id": "28299",
+          "item_name": "#DOTA_Item_School_of_the_Solar_Fang__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "School of the Solar Fang - Back",
+          "id": "28298",
+          "item_name": "#DOTA_Item_School_of_the_Solar_Fang__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "School of the Solar Fang - Armor",
+          "id": "28297",
+          "item_name": "#DOTA_Item_School_of_the_Solar_Fang__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "777",
+      "name": "Marci's Head",
+      "item_name": "#DOTA_Item_Marcis_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "778",
+      "name": "Marci's Tunic",
+      "item_name": "#DOTA_Item_Marcis_Tunic",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "779",
+      "name": "Marci's Back",
+      "item_name": "#DOTA_Item_Marcis_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "780",
+      "name": "Marci's Shoulders",
+      "item_name": "#DOTA_Item_Marcis_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "8366",
+      "name": "All Heroes' Default Pet",
+      "item_name": "#DOTA_Wearable_All_Heroes_DefaultPet",
+      "item_slot": "summon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "25112",
+      "name": "Blue Horizons",
+      "item_name": "#DOTA_Item_Blue_Horizons",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25113",
+      "name": "Blue Horizons - Head",
+      "item_name": "#DOTA_Item_Blue_Horizons__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25114",
+      "name": "Blue Horizons - Shoulder",
+      "item_name": "#DOTA_Item_Blue_Horizons__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25115",
+      "name": "Blue Horizons - Back",
+      "item_name": "#DOTA_Item_Blue_Horizons__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25116",
+      "name": "Blue Horizons - Armor",
+      "item_name": "#DOTA_Item_Blue_Horizons__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25129",
+      "name": "Cosmic Cartographer - Head",
+      "item_name": "#DOTA_Item_Cosmic_Cartographer__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25130",
+      "name": "Cosmic Cartographer - Shoulder",
+      "item_name": "#DOTA_Item_Cosmic_Cartographer__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25177",
+      "name": "Cosmic Cartographer - Back",
+      "item_name": "#DOTA_Item_Cosmic_Cartographer__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25178",
+      "name": "Faithful Fortune",
+      "item_name": "#DOTA_Item_Faithful_Fortune",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25179",
+      "name": "Faithful Fortune - Back",
+      "item_name": "#DOTA_Item_Faithful_Fortune__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25181",
+      "name": "Faithful Fortune - Head",
+      "item_name": "#DOTA_Item_Faithful_Fortune__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25183",
+      "name": "Faithful Fortune - Shoulder",
+      "item_name": "#DOTA_Item_Faithful_Fortune__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25349",
+      "name": "Brightfist",
+      "item_name": "#DOTA_Item_Brightfist",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25350",
+      "name": "Brightfist Armor",
+      "item_name": "#DOTA_Item_Brightfist_Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25351",
+      "name": "Brightfist Back",
+      "item_name": "#DOTA_Item_Brightfist_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25356",
+      "name": "Brightfist Shoulder",
+      "item_name": "#DOTA_Item_Brightfist_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25357",
+      "name": "Brightfist Head",
+      "item_name": "#DOTA_Item_Brightfist_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25372",
+      "name": "Cosmic Cartographer",
+      "item_name": "#DOTA_Item_Cosmic_Cartographer",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25373",
+      "name": "Cosmic Cartographer - Armor",
+      "item_name": "#DOTA_Item_Cosmic_Cartographer__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26140",
+      "name": "Faithful Fortune - Armor",
+      "item_name": "#DOTA_Item_Faithful_Fortune__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27549",
+      "name": "Little Red - Hood",
+      "item_name": "#DOTA_Item_Little_Red__Hood",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28217",
+      "name": "Little Red - Cloak",
+      "item_name": "#DOTA_Item_Little_Red__Cloak",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28243",
+      "name": "Little Red - Pack",
+      "item_name": "#DOTA_Item_Little_Red__Pack",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28244",
+      "name": "Little Red - Armor",
+      "item_name": "#DOTA_Item_Little_Red__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28274",
+      "name": "Little Red",
+      "item_name": "#DOTA_Item_Little_Red",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28297",
+      "name": "School of the Solar Fang - Armor",
+      "item_name": "#DOTA_Item_School_of_the_Solar_Fang__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28298",
+      "name": "School of the Solar Fang - Back",
+      "item_name": "#DOTA_Item_School_of_the_Solar_Fang__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28299",
+      "name": "School of the Solar Fang - Head",
+      "item_name": "#DOTA_Item_School_of_the_Solar_Fang__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28300",
+      "name": "School of the Solar Fang - Shoulder",
+      "item_name": "#DOTA_Item_School_of_the_Solar_Fang__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28333",
+      "name": "School of the Solar Fang",
+      "item_name": "#DOTA_Item_School_of_the_Solar_Fang",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28533",
+      "name": "Bloomjewel Brawler - Head",
+      "item_name": "#DOTA_Item_Bloomjewel_Brawler__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28534",
+      "name": "Bloomjewel Brawler - Shoulder",
+      "item_name": "#DOTA_Item_Bloomjewel_Brawler__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28535",
+      "name": "Bloomjewel Brawler - Armor",
+      "item_name": "#DOTA_Item_Bloomjewel_Brawler__Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28536",
+      "name": "Bloomjewel Brawler - Back",
+      "item_name": "#DOTA_Item_Bloomjewel_Brawler__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28997",
+      "name": "Bloomjewel Brawler",
+      "item_name": "#DOTA_Item_Bloomjewel_Brawler",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "32637",
+      "name": "Little Red - Wolf Pet",
+      "item_name": "#DOTA_Item_Little_Red__Wolf_Pet",
+      "item_slot": "summon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "32638",
+      "name": "Taunt: Riding High",
+      "item_name": "#DOTA_Item_Taunt_Riding_High",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "taunt"
+    }
+  ]
+}

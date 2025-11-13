@@ -1,0 +1,1766 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "195",
+      "name": "Nyx's Claws",
+      "item_name": "#DOTA_Item_Nyxs_Claws",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "196",
+      "name": "Nyx's Armor",
+      "item_name": "#DOTA_Item_Nyxs_Armor",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "197",
+      "name": "Nyx's Helmet",
+      "item_name": "#DOTA_Item_Nyxs_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "misc": {
+      "id": "578",
+      "name": "Nyx's Miscellaneous",
+      "item_name": "#DOTA_Item_Nyxs_Miscellaneous",
+      "item_slot": "misc",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Bottomfeeder",
+      "store_bundle": "Bottomfeeder",
+      "portrait_image": "econ/sets/v2/bottomfeeder",
+      "items": [
+        {
+          "name": "Bottomfeeder Carapace",
+          "id": "17965",
+          "item_name": "#DOTA_Item_Bottomfeeder_Carapace",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bottomfeeder Jaws",
+          "id": "17964",
+          "item_name": "#DOTA_Item_Bottomfeeder_Jaws",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bottomfeeder Abdomen",
+          "id": "17966",
+          "item_name": "#DOTA_Item_Bottomfeeder_Abdomen",
+          "item_slot": "misc",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bottomfeeder Piercers",
+          "id": "17963",
+          "item_name": "#DOTA_Item_Bottomfeeder_Piercers",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Chitinous_Stalker",
+      "store_bundle": "Chitinous Stalker",
+      "portrait_image": "econ/sets/v2/chitinous_stalker",
+      "items": [
+        {
+          "name": "Tail of the Chitinous Stalker",
+          "id": "9440",
+          "item_name": "#DOTA_Item_Tail_of_the_Chitinous_Stalker",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Oculi of the Chitinous Stalker",
+          "id": "9441",
+          "item_name": "#DOTA_Item_Oculi_of_the_Chitinous_Stalker",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Pincers of the Chitinous Stalker",
+          "id": "9447",
+          "item_name": "#DOTA_Item_Pincers_of_the_Chitinous_Stalker",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Armor of the Chitinous Stalker",
+          "id": "9448",
+          "item_name": "#DOTA_Item_Armor_of_the_Chitinous_Stalker",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Chosen_Larva_Set",
+      "store_bundle": "Chosen Larva Bundle",
+      "portrait_image": "econ/sets/v2/chosen_larva",
+      "items": [
+        {
+          "name": "Carapace of the Chosen Larva",
+          "id": "5567",
+          "item_name": "#DOTA_Item_Carapace_of_the_Chosen_Larva",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Helmet of the Chosen Larva",
+          "id": "5568",
+          "item_name": "#DOTA_Item_Helmet_of_the_Chosen_Larva",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Stinger of the Chosen Larva",
+          "id": "5569",
+          "item_name": "#DOTA_Item_Stinger_of_the_Chosen_Larva",
+          "item_slot": "misc",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Pincers of the Chosen Larva",
+          "id": "5570",
+          "item_name": "#DOTA_Item_Pincers_of_the_Chosen_Larva",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Chosen_of_the_Burning_Sand",
+      "store_bundle": "Chosen of the Burning Sand",
+      "portrait_image": "econ/sets/v2/chosen_of_the_burning_sand",
+      "items": [
+        {
+          "name": "Crystal Blades of the Burning Sand",
+          "id": "23310",
+          "item_name": "#DOTA_Item_Crystal_Blades_of_the_Burning_Sand",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Crown of the Burning Sand",
+          "id": "23309",
+          "item_name": "#DOTA_Item_Crown_of_the_Burning_Sand",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Carapace of the Burning Sand",
+          "id": "23308",
+          "item_name": "#DOTA_Item_Carapace_of_the_Burning_Sand",
+          "item_slot": "back",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Cicatrix_Regalia",
+      "store_bundle": "Cicatrix Regalia",
+      "portrait_image": "econ/sets/v2/cicatrix_regalia",
+      "items": [
+        {
+          "name": "Helm of Cicatrix Regalia",
+          "id": "6678",
+          "item_name": "#DOTA_Item_Helm_of_Cicatrix_Regalia",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Guard of Cicatrix Regalia",
+          "id": "6679",
+          "item_name": "#DOTA_Item_Guard_of_Cicatrix_Regalia",
+          "item_slot": "misc",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Claws of Cicatrix Regalia",
+          "id": "6680",
+          "item_name": "#DOTA_Item_Claws_of_Cicatrix_Regalia",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Armor of Cicatrix Regalia",
+          "id": "6681",
+          "item_name": "#DOTA_Item_Armor_of_Cicatrix_Regalia",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Cursed_Zealot",
+      "store_bundle": "Cursed Zealot",
+      "portrait_image": "econ/sets/v2/cursed_zealot",
+      "items": [
+        {
+          "name": "Cursed Zealot Visage",
+          "id": "8829",
+          "item_name": "#DOTA_Item_Cursed_Zealot_Visage",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cursed Zealot Carapace",
+          "id": "8831",
+          "item_name": "#DOTA_Item_Cursed_Zealot_Carapace",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cursed Zealot Tail",
+          "id": "8832",
+          "item_name": "#DOTA_Item_Cursed_Zealot_Tail",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cursed Zealot Claws",
+          "id": "8830",
+          "item_name": "#DOTA_Item_Cursed_Zealot_Claws",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Deviant_Metamorphosis",
+      "store_bundle": "Deviant Metamorphosis",
+      "portrait_image": "econ/sets/v2/deviant_metamorphosis",
+      "items": [
+        {
+          "name": "Deviant Shell",
+          "id": "9280",
+          "item_name": "#DOTA_Item_Deviant_Shell",
+          "item_slot": "misc",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Deviant Tibia",
+          "id": "9281",
+          "item_name": "#DOTA_Item_Deviant_Tibia",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Deviant Casque",
+          "id": "9282",
+          "item_name": "#DOTA_Item_Deviant_Casque",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Deviant Carapace",
+          "id": "9284",
+          "item_name": "#DOTA_Item_Deviant_Carapace",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Carapace_of_the_Hidden_Hive",
+      "store_bundle": "Carapace of the Hidden Hive Set",
+      "portrait_image": "econ/sets/v2/hidden_hive",
+      "items": [
+        {
+          "name": "Claws of the Hidden Hive",
+          "id": "4796",
+          "item_name": "#DOTA_Item_Claws_of_the_Hidden_Hive",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Horn of the Hidden Hive",
+          "id": "4795",
+          "item_name": "#DOTA_Item_Horn_of_the_Hidden_Hive",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shell of the Hidden Hive",
+          "id": "4797",
+          "item_name": "#DOTA_Item_Shell_of_the_Hidden_Hive",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Mecha_Nyx",
+      "store_bundle": "Mecha Nyx",
+      "portrait_image": "econ/sets/v2/mecha_nyx",
+      "items": [
+        {
+          "name": "Mecha Nyx - Weapon",
+          "id": "28307",
+          "item_name": "#DOTA_Item_Mecha_Nyx__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Mecha Nyx - Misc",
+          "id": "28306",
+          "item_name": "#DOTA_Item_Mecha_Nyx__Misc",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Mecha Nyx - Head",
+          "id": "28305",
+          "item_name": "#DOTA_Item_Mecha_Nyx__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Mecha Nyx - Back",
+          "id": "28304",
+          "item_name": "#DOTA_Item_Mecha_Nyx__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sapphire_Crab",
+      "store_bundle": "Sapphire Crab",
+      "portrait_image": "econ/sets/v2/nerubian_assassin_sapphire_crab",
+      "items": [
+        {
+          "name": "Sapphire Crab Weapon",
+          "id": "22330",
+          "item_name": "#DOTA_Item_Sapphire_Crab_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Sapphire Crab Misc",
+          "id": "22331",
+          "item_name": "#DOTA_Item_Sapphire_Crab_Misc",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Sapphire Crab Head",
+          "id": "22332",
+          "item_name": "#DOTA_Item_Sapphire_Crab_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Sapphire Crab Back",
+          "id": "22333",
+          "item_name": "#DOTA_Item_Sapphire_Crab_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Shards_of_Meteorite",
+      "store_bundle": "Shards of Meteorite",
+      "portrait_image": "econ/sets/v2/nerubian_assassin_shards_of_meteorite",
+      "items": [
+        {
+          "name": "Shards of Meteorite Weapon",
+          "id": "18284",
+          "item_name": "#DOTA_Item_Shards_of_Meteorite_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shards of Meteorite Back",
+          "id": "18283",
+          "item_name": "#DOTA_Item_Shards_of_Meteorite_Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shards of Meteorite Misc",
+          "id": "18282",
+          "item_name": "#DOTA_Item_Shards_of_Meteorite_Misc",
+          "item_slot": "misc",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shards of Meteorite Head",
+          "id": "18281",
+          "item_name": "#DOTA_Item_Shards_of_Meteorite_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Summer_Lineage_Sacred_Orb_Set",
+      "store_bundle": "Summer Lineage Sacred Orb Set",
+      "portrait_image": "econ/sets/v2/nerubian_assassin_summer_lineage_sacred_orb_set",
+      "items": [
+        {
+          "name": "Summer Lineage Sacred Orb Venom Claws",
+          "id": "23219",
+          "item_name": "#DOTA_Item_Summer_Lineage_Sacred_Orb_Venom_Claws",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Summer Lineage Sacred Orb Helm",
+          "id": "23220",
+          "item_name": "#DOTA_Item_Summer_Lineage_Sacred_Orb_Helm",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Summer Lineage Sacred Orb Carapace",
+          "id": "23221",
+          "item_name": "#DOTA_Item_Summer_Lineage_Sacred_Orb_Carapace",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_TI9_Cache_Nyx_Moonlight_Hunter",
+      "store_bundle": "TI9 Cache Nyx Moonlight Hunter",
+      "portrait_image": "econ/sets/v2/nerubian_assassin_ti9_cache_nyx_moonlight_hunter",
+      "items": [
+        {
+          "name": "TI9 Cache Nyx Moonlight Hunter Head",
+          "id": "13412",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Nyx_Moonlight_Hunter_Head",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "TI9 Cache Nyx  Moonlight Hunter Back",
+          "id": "13411",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Nyx__Moonlight_Hunter_Back",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "TI9 Cache Nyx Moonlight Hunter Misc",
+          "id": "13410",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Nyx_Moonlight_Hunter_Misc",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "TI9 Cache Nyx Moonlight Hunter Weapon",
+          "id": "13409",
+          "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Nyx_Moonlight_Hunter_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Alpha_Predator",
+      "store_bundle": "Alpha Predator Set",
+      "portrait_image": "econ/sets/v2/nyx_alpha_predator",
+      "items": [
+        {
+          "name": "Spines of the Predator",
+          "id": "5201",
+          "item_name": "#DOTA_Item_Spines_of_the_Predator",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mind Piercer of the Predator",
+          "id": "5202",
+          "item_name": "#DOTA_Item_Mind_Piercer_of_the_Predator",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Preyfinders of the Predator",
+          "id": "5203",
+          "item_name": "#DOTA_Item_Preyfinders_of_the_Predator",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Blades of the Predator",
+          "id": "5204",
+          "item_name": "#DOTA_Item_Blades_of_the_Predator",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Rancorous_Nemesis",
+      "store_bundle": "Rancorous Nemesis",
+      "portrait_image": "econ/sets/v2/rancorous_nemesis",
+      "items": [
+        {
+          "name": "Carapice of the Rancorous Nemesis ",
+          "id": "7772",
+          "item_name": "#DOTA_Item_Carapice_of_the_Rancorous_Nemesis_",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Horn of the Rancorous Nemesis",
+          "id": "7788",
+          "item_name": "#DOTA_Item_Horn_of_the_Rancorous_Nemesis",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Sting of the Rancorous Nemesis",
+          "id": "7770",
+          "item_name": "#DOTA_Item_Sting_of_the_Rancorous_Nemesis",
+          "item_slot": "misc",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Claws of the Rancorous Nemesis",
+          "id": "7771",
+          "item_name": "#DOTA_Item_Claws_of_the_Rancorous_Nemesis",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sacred_Orb",
+      "store_bundle": "Sacred Orb Set",
+      "portrait_image": "econ/sets/v2/sacred_orb_set",
+      "items": [
+        {
+          "name": "Sacred Orb Carapace",
+          "id": "5228",
+          "item_name": "#DOTA_Item_Sacred_Orb_Carapace",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Sacred Orb Helm",
+          "id": "5237",
+          "item_name": "#DOTA_Item_Sacred_Orb_Helm",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Sacred Orb Venom Claws",
+          "id": "5238",
+          "item_name": "#DOTA_Item_Sacred_Orb_Venom_Claws",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sect_of_Kaktos",
+      "store_bundle": "Sect of Kaktos",
+      "portrait_image": "econ/sets/v2/sect_of_kaktos",
+      "items": [
+        {
+          "name": "Carapace of Kaktos",
+          "id": "9082",
+          "item_name": "#DOTA_Item_Carapace_of_Kaktos",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Jaw of Kaktos",
+          "id": "9081",
+          "item_name": "#DOTA_Item_Jaw_of_Kaktos",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Shell of Kaktos",
+          "id": "9080",
+          "item_name": "#DOTA_Item_Shell_of_Kaktos",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Claws of Kaktos",
+          "id": "9079",
+          "item_name": "#DOTA_Item_Claws_of_Kaktos",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Shadow_Hunter",
+      "store_bundle": "Shadow Hunter Set",
+      "portrait_image": "econ/sets/v2/shadow_hunter",
+      "items": [
+        {
+          "name": "Shadow Calvaria",
+          "id": "5926",
+          "item_name": "#DOTA_Item_Shadow_Calvaria",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Shadow Tracers",
+          "id": "5927",
+          "item_name": "#DOTA_Item_Shadow_Tracers",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Shadow Claws",
+          "id": "5928",
+          "item_name": "#DOTA_Item_Shadow_Claws",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Shadow Spine",
+          "id": "5929",
+          "item_name": "#DOTA_Item_Shadow_Spine",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Shimmer_of_the_Anointed",
+      "store_bundle": "Shimmer of the Anointed",
+      "portrait_image": "econ/sets/v2/shimmer_of_the_anointed",
+      "items": [
+        {
+          "name": "Caripace of the Anointed",
+          "id": "12246",
+          "item_name": "#DOTA_Item_Caripace_of_the_Anointed",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Daggers of the Anointed",
+          "id": "12245",
+          "item_name": "#DOTA_Item_Daggers_of_the_Anointed",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Head of the Anointed",
+          "id": "12244",
+          "item_name": "#DOTA_Item_Head_of_the_Anointed",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Armor of the Anointed",
+          "id": "12242",
+          "item_name": "#DOTA_Item_Armor_of_the_Anointed",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sovereign_of_the_Hive",
+      "store_bundle": "Sovereign of the Hive",
+      "portrait_image": "econ/sets/v2/sovereign_of_the_hive",
+      "items": [
+        {
+          "name": "Sovereign of the Exocorp",
+          "id": "7735",
+          "item_name": "#DOTA_Item_Sovereign_of_the_Exocorp",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Sovereign of the Menacing Guise",
+          "id": "7736",
+          "item_name": "#DOTA_Item_Sovereign_of_the_Menacing_Guise",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Sovereign of the Colossal Blades",
+          "id": "7737",
+          "item_name": "#DOTA_Item_Sovereign_of_the_Colossal_Blades",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Starhive_Inhibitor",
+      "store_bundle": "Starhive Inhibitor",
+      "portrait_image": "econ/sets/v2/starhive_inhibitor",
+      "items": [
+        {
+          "name": "Starhive Inhibitor - Head",
+          "id": "14180",
+          "item_name": "#DOTA_Item_Starhive_Inhibitor__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Starhive Inhibitor - Back",
+          "id": "14179",
+          "item_name": "#DOTA_Item_Starhive_Inhibitor__Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Starhive Inhibitor - Weapon",
+          "id": "14178",
+          "item_name": "#DOTA_Item_Starhive_Inhibitor__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Starhive Inhibitor - Abdomen",
+          "id": "14177",
+          "item_name": "#DOTA_Item_Starhive_Inhibitor__Abdomen",
+          "item_slot": "misc",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Age_of_Gilded_Worship",
+      "store_bundle": "The Age of Gilded Worship",
+      "portrait_image": "econ/sets/v2/the_age_of_gilded_worship",
+      "items": [
+        {
+          "name": "Strike of Gilded Worship",
+          "id": "13751",
+          "item_name": "#DOTA_Item_Strike_of_Gilded_Worship",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Crown of Gilded Worship",
+          "id": "13752",
+          "item_name": "#DOTA_Item_Crown_of_Gilded_Worship",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Armor of Gilded Worship",
+          "id": "13753",
+          "item_name": "#DOTA_Item_Armor_of_Gilded_Worship",
+          "item_slot": "misc",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Carapace of Gilded Worship",
+          "id": "13754",
+          "item_name": "#DOTA_Item_Carapace_of_Gilded_Worship",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Writhing_Executioner",
+      "store_bundle": "Writhing Executioner",
+      "portrait_image": "econ/sets/v2/writhing_executioner",
+      "items": [
+        {
+          "name": "Carapace of the Writhing Executioner",
+          "id": "8114",
+          "item_name": "#DOTA_Item_Carapace_of_the_Writhing_Executioner",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Tail of the Writhing Executioner",
+          "id": "8115",
+          "item_name": "#DOTA_Item_Tail_of_the_Writhing_Executioner",
+          "item_slot": "misc",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Talons of the Writhing Executioner",
+          "id": "8116",
+          "item_name": "#DOTA_Item_Talons_of_the_Writhing_Executioner",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Crest of the Writhing Executioner",
+          "id": "8117",
+          "item_name": "#DOTA_Item_Crest_of_the_Writhing_Executioner",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "195",
+      "name": "Nyx's Claws",
+      "item_name": "#DOTA_Item_Nyxs_Claws",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "196",
+      "name": "Nyx's Armor",
+      "item_name": "#DOTA_Item_Nyxs_Armor",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "197",
+      "name": "Nyx's Helmet",
+      "item_name": "#DOTA_Item_Nyxs_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "578",
+      "name": "Nyx's Miscellaneous",
+      "item_name": "#DOTA_Item_Nyxs_Miscellaneous",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4795",
+      "name": "Horn of the Hidden Hive",
+      "item_name": "#DOTA_Item_Horn_of_the_Hidden_Hive",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4796",
+      "name": "Claws of the Hidden Hive",
+      "item_name": "#DOTA_Item_Claws_of_the_Hidden_Hive",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4797",
+      "name": "Shell of the Hidden Hive",
+      "item_name": "#DOTA_Item_Shell_of_the_Hidden_Hive",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5201",
+      "name": "Spines of the Predator",
+      "item_name": "#DOTA_Item_Spines_of_the_Predator",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5202",
+      "name": "Mind Piercer of the Predator",
+      "item_name": "#DOTA_Item_Mind_Piercer_of_the_Predator",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5203",
+      "name": "Preyfinders of the Predator",
+      "item_name": "#DOTA_Item_Preyfinders_of_the_Predator",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5204",
+      "name": "Blades of the Predator",
+      "item_name": "#DOTA_Item_Blades_of_the_Predator",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5228",
+      "name": "Sacred Orb Carapace",
+      "item_name": "#DOTA_Item_Sacred_Orb_Carapace",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5237",
+      "name": "Sacred Orb Helm",
+      "item_name": "#DOTA_Item_Sacred_Orb_Helm",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5238",
+      "name": "Sacred Orb Venom Claws",
+      "item_name": "#DOTA_Item_Sacred_Orb_Venom_Claws",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5345",
+      "name": "Nyx Assassin's Dagon",
+      "item_name": "#DOTA_Item_Nyx_Assassins_Dagon",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5567",
+      "name": "Carapace of the Chosen Larva",
+      "item_name": "#DOTA_Item_Carapace_of_the_Chosen_Larva",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5568",
+      "name": "Helmet of the Chosen Larva",
+      "item_name": "#DOTA_Item_Helmet_of_the_Chosen_Larva",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5569",
+      "name": "Stinger of the Chosen Larva",
+      "item_name": "#DOTA_Item_Stinger_of_the_Chosen_Larva",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5570",
+      "name": "Pincers of the Chosen Larva",
+      "item_name": "#DOTA_Item_Pincers_of_the_Chosen_Larva",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5926",
+      "name": "Shadow Calvaria",
+      "item_name": "#DOTA_Item_Shadow_Calvaria",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5927",
+      "name": "Shadow Tracers",
+      "item_name": "#DOTA_Item_Shadow_Tracers",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5928",
+      "name": "Shadow Claws",
+      "item_name": "#DOTA_Item_Shadow_Claws",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5929",
+      "name": "Shadow Spine",
+      "item_name": "#DOTA_Item_Shadow_Spine",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6678",
+      "name": "Helm of Cicatrix Regalia",
+      "item_name": "#DOTA_Item_Helm_of_Cicatrix_Regalia",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6679",
+      "name": "Guard of Cicatrix Regalia",
+      "item_name": "#DOTA_Item_Guard_of_Cicatrix_Regalia",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6680",
+      "name": "Claws of Cicatrix Regalia",
+      "item_name": "#DOTA_Item_Claws_of_Cicatrix_Regalia",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6681",
+      "name": "Armor of Cicatrix Regalia",
+      "item_name": "#DOTA_Item_Armor_of_Cicatrix_Regalia",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7735",
+      "name": "Sovereign of the Exocorp",
+      "item_name": "#DOTA_Item_Sovereign_of_the_Exocorp",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7736",
+      "name": "Sovereign of the Menacing Guise",
+      "item_name": "#DOTA_Item_Sovereign_of_the_Menacing_Guise",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7737",
+      "name": "Sovereign of the Colossal Blades",
+      "item_name": "#DOTA_Item_Sovereign_of_the_Colossal_Blades",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7770",
+      "name": "Sting of the Rancorous Nemesis",
+      "item_name": "#DOTA_Item_Sting_of_the_Rancorous_Nemesis",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7771",
+      "name": "Claws of the Rancorous Nemesis",
+      "item_name": "#DOTA_Item_Claws_of_the_Rancorous_Nemesis",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7772",
+      "name": "Carapice of the Rancorous Nemesis ",
+      "item_name": "#DOTA_Item_Carapice_of_the_Rancorous_Nemesis_",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7788",
+      "name": "Horn of the Rancorous Nemesis",
+      "item_name": "#DOTA_Item_Horn_of_the_Rancorous_Nemesis",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8005",
+      "name": "Latticean Shards",
+      "item_name": "#DOTA_Item_Latticean_Shards",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8021",
+      "name": "Golden Latticean Shards",
+      "item_name": "#DOTA_Item_Golden_Latticean_Shards",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8032",
+      "name": "Latticean Shards of the Crimson Witness",
+      "item_name": "#DOTA_Item_Latticean_Shards_of_the_Crimson_Witness",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8114",
+      "name": "Carapace of the Writhing Executioner",
+      "item_name": "#DOTA_Item_Carapace_of_the_Writhing_Executioner",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8115",
+      "name": "Tail of the Writhing Executioner",
+      "item_name": "#DOTA_Item_Tail_of_the_Writhing_Executioner",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8116",
+      "name": "Talons of the Writhing Executioner",
+      "item_name": "#DOTA_Item_Talons_of_the_Writhing_Executioner",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8117",
+      "name": "Crest of the Writhing Executioner",
+      "item_name": "#DOTA_Item_Crest_of_the_Writhing_Executioner",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8829",
+      "name": "Cursed Zealot Visage",
+      "item_name": "#DOTA_Item_Cursed_Zealot_Visage",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8830",
+      "name": "Cursed Zealot Claws",
+      "item_name": "#DOTA_Item_Cursed_Zealot_Claws",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8831",
+      "name": "Cursed Zealot Carapace",
+      "item_name": "#DOTA_Item_Cursed_Zealot_Carapace",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8832",
+      "name": "Cursed Zealot Tail",
+      "item_name": "#DOTA_Item_Cursed_Zealot_Tail",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9079",
+      "name": "Claws of Kaktos",
+      "item_name": "#DOTA_Item_Claws_of_Kaktos",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9080",
+      "name": "Shell of Kaktos",
+      "item_name": "#DOTA_Item_Shell_of_Kaktos",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9081",
+      "name": "Jaw of Kaktos",
+      "item_name": "#DOTA_Item_Jaw_of_Kaktos",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9082",
+      "name": "Carapace of Kaktos",
+      "item_name": "#DOTA_Item_Carapace_of_Kaktos",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9280",
+      "name": "Deviant Shell",
+      "item_name": "#DOTA_Item_Deviant_Shell",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9281",
+      "name": "Deviant Tibia",
+      "item_name": "#DOTA_Item_Deviant_Tibia",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9282",
+      "name": "Deviant Casque",
+      "item_name": "#DOTA_Item_Deviant_Casque",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9284",
+      "name": "Deviant Carapace",
+      "item_name": "#DOTA_Item_Deviant_Carapace",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9440",
+      "name": "Tail of the Chitinous Stalker",
+      "item_name": "#DOTA_Item_Tail_of_the_Chitinous_Stalker",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9441",
+      "name": "Oculi of the Chitinous Stalker",
+      "item_name": "#DOTA_Item_Oculi_of_the_Chitinous_Stalker",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9447",
+      "name": "Pincers of the Chitinous Stalker",
+      "item_name": "#DOTA_Item_Pincers_of_the_Chitinous_Stalker",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9448",
+      "name": "Armor of the Chitinous Stalker",
+      "item_name": "#DOTA_Item_Armor_of_the_Chitinous_Stalker",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12242",
+      "name": "Armor of the Anointed",
+      "item_name": "#DOTA_Item_Armor_of_the_Anointed",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12244",
+      "name": "Head of the Anointed",
+      "item_name": "#DOTA_Item_Head_of_the_Anointed",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12245",
+      "name": "Daggers of the Anointed",
+      "item_name": "#DOTA_Item_Daggers_of_the_Anointed",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12246",
+      "name": "Caripace of the Anointed",
+      "item_name": "#DOTA_Item_Caripace_of_the_Anointed",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12957",
+      "name": "Latticean Hierarchy",
+      "item_name": "#DOTA_Item_Latticean_Hierarchy",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13409",
+      "name": "TI9 Cache Nyx Moonlight Hunter Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Nyx_Moonlight_Hunter_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13410",
+      "name": "TI9 Cache Nyx Moonlight Hunter Misc",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Nyx_Moonlight_Hunter_Misc",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13411",
+      "name": "TI9 Cache Nyx  Moonlight Hunter Back",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Nyx__Moonlight_Hunter_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13412",
+      "name": "TI9 Cache Nyx Moonlight Hunter Head",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Nyx_Moonlight_Hunter_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13574",
+      "name": "Crimson Latticean Hierarchy",
+      "item_name": "#DOTA_Item_Crimson_Latticean_Hierarchy",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13751",
+      "name": "Strike of Gilded Worship",
+      "item_name": "#DOTA_Item_Strike_of_Gilded_Worship",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13752",
+      "name": "Crown of Gilded Worship",
+      "item_name": "#DOTA_Item_Crown_of_Gilded_Worship",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13753",
+      "name": "Armor of Gilded Worship",
+      "item_name": "#DOTA_Item_Armor_of_Gilded_Worship",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13754",
+      "name": "Carapace of Gilded Worship",
+      "item_name": "#DOTA_Item_Carapace_of_Gilded_Worship",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14177",
+      "name": "Starhive Inhibitor - Abdomen",
+      "item_name": "#DOTA_Item_Starhive_Inhibitor__Abdomen",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14178",
+      "name": "Starhive Inhibitor - Weapon",
+      "item_name": "#DOTA_Item_Starhive_Inhibitor__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14179",
+      "name": "Starhive Inhibitor - Back",
+      "item_name": "#DOTA_Item_Starhive_Inhibitor__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14180",
+      "name": "Starhive Inhibitor - Head",
+      "item_name": "#DOTA_Item_Starhive_Inhibitor__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17963",
+      "name": "Bottomfeeder Piercers",
+      "item_name": "#DOTA_Item_Bottomfeeder_Piercers",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17964",
+      "name": "Bottomfeeder Jaws",
+      "item_name": "#DOTA_Item_Bottomfeeder_Jaws",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17965",
+      "name": "Bottomfeeder Carapace",
+      "item_name": "#DOTA_Item_Bottomfeeder_Carapace",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17966",
+      "name": "Bottomfeeder Abdomen",
+      "item_name": "#DOTA_Item_Bottomfeeder_Abdomen",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18281",
+      "name": "Shards of Meteorite Head",
+      "item_name": "#DOTA_Item_Shards_of_Meteorite_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18282",
+      "name": "Shards of Meteorite Misc",
+      "item_name": "#DOTA_Item_Shards_of_Meteorite_Misc",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18283",
+      "name": "Shards of Meteorite Back",
+      "item_name": "#DOTA_Item_Shards_of_Meteorite_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18284",
+      "name": "Shards of Meteorite Weapon",
+      "item_name": "#DOTA_Item_Shards_of_Meteorite_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20133",
+      "name": "Carapace of the Hidden Hive Set",
+      "item_name": "#DOTA_Item_Carapace_of_the_Hidden_Hive_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20215",
+      "name": "Alpha Predator Set",
+      "item_name": "#DOTA_Item_Alpha_Predator_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20232",
+      "name": "Sacred Orb Set",
+      "item_name": "#DOTA_Item_Sacred_Orb_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20289",
+      "name": "Chosen Larva Bundle",
+      "item_name": "#DOTA_Item_Chosen_Larva_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20356",
+      "name": "Shadow Hunter Set",
+      "item_name": "#DOTA_Item_Shadow_Hunter_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20521",
+      "name": "Cicatrix Regalia",
+      "item_name": "#DOTA_Item_Cicatrix_Regalia",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20745",
+      "name": "Sovereign of the Hive",
+      "item_name": "#DOTA_Item_Sovereign_of_the_Hive",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20773",
+      "name": "Writhing Executioner",
+      "item_name": "#DOTA_Item_Writhing_Executioner",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20845",
+      "name": "Deviant Metamorphosis",
+      "item_name": "#DOTA_Item_Deviant_Metamorphosis",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20992",
+      "name": "Cursed Zealot",
+      "item_name": "#DOTA_Item_Cursed_Zealot",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21000",
+      "name": "Rancorous Nemesis",
+      "item_name": "#DOTA_Item_Rancorous_Nemesis",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21085",
+      "name": "Sect of Kaktos",
+      "item_name": "#DOTA_Item_Sect_of_Kaktos",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21134",
+      "name": "Chitinous Stalker",
+      "item_name": "#DOTA_Item_Chitinous_Stalker",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21223",
+      "name": "Shimmer of the Anointed",
+      "item_name": "#DOTA_Item_Shimmer_of_the_Anointed",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21403",
+      "name": "TI9 Cache Nyx Moonlight Hunter",
+      "item_name": "#DOTA_Item_Vote_Only_TI9_Cache_Nyx_Moonlight_Hunter",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21404",
+      "name": "The Age of Gilded Worship",
+      "item_name": "#DOTA_Item_The_Age_of_Gilded_Worship",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21511",
+      "name": "Starhive Inhibitor",
+      "item_name": "#DOTA_Item_Starhive_Inhibitor",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21729",
+      "name": "Bottomfeeder",
+      "item_name": "#DOTA_Item_Bottomfeeder",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21785",
+      "name": "Shards of Meteorite",
+      "item_name": "#DOTA_Item_Shards_of_Meteorite",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22330",
+      "name": "Sapphire Crab Weapon",
+      "item_name": "#DOTA_Item_Sapphire_Crab_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22331",
+      "name": "Sapphire Crab Misc",
+      "item_name": "#DOTA_Item_Sapphire_Crab_Misc",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22332",
+      "name": "Sapphire Crab Head",
+      "item_name": "#DOTA_Item_Sapphire_Crab_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22333",
+      "name": "Sapphire Crab Back",
+      "item_name": "#DOTA_Item_Sapphire_Crab_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22334",
+      "name": "Sapphire Crab",
+      "item_name": "#DOTA_Item_Sapphire_Crab",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23218",
+      "name": "Summer Lineage Sacred Orb Set",
+      "item_name": "#DOTA_Item_Summer_Lineage_Sacred_Orb_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23219",
+      "name": "Summer Lineage Sacred Orb Venom Claws",
+      "item_name": "#DOTA_Item_Summer_Lineage_Sacred_Orb_Venom_Claws",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23220",
+      "name": "Summer Lineage Sacred Orb Helm",
+      "item_name": "#DOTA_Item_Summer_Lineage_Sacred_Orb_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23221",
+      "name": "Summer Lineage Sacred Orb Carapace",
+      "item_name": "#DOTA_Item_Summer_Lineage_Sacred_Orb_Carapace",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23308",
+      "name": "Carapace of the Burning Sand",
+      "item_name": "#DOTA_Item_Carapace_of_the_Burning_Sand",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23309",
+      "name": "Crown of the Burning Sand",
+      "item_name": "#DOTA_Item_Crown_of_the_Burning_Sand",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23310",
+      "name": "Crystal Blades of the Burning Sand",
+      "item_name": "#DOTA_Item_Crystal_Blades_of_the_Burning_Sand",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23330",
+      "name": "Chosen of the Burning Sand",
+      "item_name": "#DOTA_Item_Chosen_of_the_Burning_Sand",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28304",
+      "name": "Mecha Nyx - Back",
+      "item_name": "#DOTA_Item_Mecha_Nyx__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28305",
+      "name": "Mecha Nyx - Head",
+      "item_name": "#DOTA_Item_Mecha_Nyx__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28306",
+      "name": "Mecha Nyx - Misc",
+      "item_name": "#DOTA_Item_Mecha_Nyx__Misc",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28307",
+      "name": "Mecha Nyx - Weapon",
+      "item_name": "#DOTA_Item_Mecha_Nyx__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28335",
+      "name": "Mecha Nyx",
+      "item_name": "#DOTA_Item_Mecha_Nyx",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    }
+  ]
+}

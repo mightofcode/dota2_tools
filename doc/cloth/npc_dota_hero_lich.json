@@ -1,0 +1,1600 @@
+{
+  "defaults": {
+    "belt": {
+      "id": "331",
+      "name": "Lich's Belt",
+      "item_name": "#DOTA_Item_Lichs_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common"
+    },
+    "neck": {
+      "id": "332",
+      "name": "Lich's Neck",
+      "item_name": "#DOTA_Item_Lichs_Neck",
+      "item_slot": "neck",
+      "item_rarity": "common"
+    },
+    "arms": {
+      "id": "333",
+      "name": "Lich's Bracers",
+      "item_name": "#DOTA_Item_Lichs_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "334",
+      "name": "Lich's Back",
+      "item_name": "#DOTA_Item_Lichs_Back",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "ambient_effects": {
+      "id": "506",
+      "name": "Lich's Ambient Effects",
+      "item_name": "#DOTA_Item_Lichs_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "571",
+      "name": "Lich's Head",
+      "item_name": "#DOTA_Item_Lichs_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_CobraKa",
+      "store_bundle": "Cobra-Ka",
+      "portrait_image": "econ/sets/v2/cobraka",
+      "items": [
+        {
+          "name": "Cobra-Ka - Head",
+          "id": "14582",
+          "item_name": "#DOTA_Item_CobraKa__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cobra-Ka - Back",
+          "id": "14581",
+          "item_name": "#DOTA_Item_CobraKa__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cobra-Ka - Belt",
+          "id": "14580",
+          "item_name": "#DOTA_Item_CobraKa__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cobra-Ka - Arms",
+          "id": "14579",
+          "item_name": "#DOTA_Item_CobraKa__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cobra-Ka - Neck",
+          "id": "14578",
+          "item_name": "#DOTA_Item_CobraKa__Neck",
+          "item_slot": "neck",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dead_Winter",
+      "store_bundle": "Dead Winter Set",
+      "portrait_image": "econ/sets/v2/dead_winter",
+      "items": [
+        {
+          "name": "Dead Winter Mantle",
+          "id": "4851",
+          "item_name": "#DOTA_Item_Dead_Winter_Mantle",
+          "item_slot": "neck",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Dead Winter Soul",
+          "id": "4852",
+          "item_name": "#DOTA_Item_Dead_Winter_Soul",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dead Winter Sash",
+          "id": "4853",
+          "item_name": "#DOTA_Item_Dead_Winter_Sash",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Dead Winter Grasp",
+          "id": "4854",
+          "item_name": "#DOTA_Item_Dead_Winter_Grasp",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Eldritch_Ice",
+      "store_bundle": "Eldritch Ice Set",
+      "portrait_image": "econ/sets/v2/eldritch_ice",
+      "items": [
+        {
+          "name": "Bindings of Eldritch Ice",
+          "id": "4895",
+          "item_name": "#DOTA_Item_Bindings_of_Eldritch_Ice",
+          "item_slot": "belt",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Bracers of Eldritch Ice",
+          "id": "4898",
+          "item_name": "#DOTA_Item_Bracers_of_Eldritch_Ice",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Glacier of Eldritch Ice",
+          "id": "4896",
+          "item_name": "#DOTA_Item_Glacier_of_Eldritch_Ice",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Mantle of Eldritch Ice",
+          "id": "4897",
+          "item_name": "#DOTA_Item_Mantle_of_Eldritch_Ice",
+          "item_slot": "neck",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Frozen_Emperor",
+      "store_bundle": "Frozen Emperor",
+      "portrait_image": "econ/sets/v2/frozen_emperor",
+      "items": [
+        {
+          "name": "Frozen Emperor's Demon Mask",
+          "id": "7063",
+          "item_name": "#DOTA_Item_Frozen_Emperors_Demon_Mask",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Frozen Emperor's Twin Dragon Cape",
+          "id": "6949",
+          "item_name": "#DOTA_Item_Frozen_Emperors_Twin_Dragon_Cape",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Frozen Emperor's Guardian Lion",
+          "id": "7064",
+          "item_name": "#DOTA_Item_Frozen_Emperors_Guardian_Lion",
+          "item_slot": "neck",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Frozen Emperor's Cursed Belt",
+          "id": "7065",
+          "item_name": "#DOTA_Item_Frozen_Emperors_Cursed_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Frozen Emperor's Runed Bracers",
+          "id": "7066",
+          "item_name": "#DOTA_Item_Frozen_Emperors_Runed_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Frozen_Star",
+      "store_bundle": "Frozen Star",
+      "portrait_image": "econ/sets/v2/frozen_star",
+      "items": [
+        {
+          "name": "Statue of the Frozen Star",
+          "id": "6216",
+          "item_name": "#DOTA_Item_Statue_of_the_Frozen_Star",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Mantle of the Frozen Star",
+          "id": "6218",
+          "item_name": "#DOTA_Item_Mantle_of_the_Frozen_Star",
+          "item_slot": "neck",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bindings of the Frozen Star",
+          "id": "6217",
+          "item_name": "#DOTA_Item_Bindings_of_the_Frozen_Star",
+          "item_slot": "belt",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Bracers of the Frozen Star",
+          "id": "6214",
+          "item_name": "#DOTA_Item_Bracers_of_the_Frozen_Star",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Garb_of_the_Frost_Lord",
+      "store_bundle": "Garb of the Frost Lord",
+      "portrait_image": "econ/sets/v2/garb_of_the_frost_lord",
+      "items": [
+        {
+          "name": "Crown of the Frost Lord",
+          "id": "8451",
+          "item_name": "#DOTA_Item_Crown_of_the_Frost_Lord",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Cloak of the Frost Lord",
+          "id": "8452",
+          "item_name": "#DOTA_Item_Cloak_of_the_Frost_Lord",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Restraints of the Frost Lord",
+          "id": "8453",
+          "item_name": "#DOTA_Item_Restraints_of_the_Frost_Lord",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Gauntlets of the Frost Lord",
+          "id": "8454",
+          "item_name": "#DOTA_Item_Gauntlets_of_the_Frost_Lord",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Collar of the Frost Lord",
+          "id": "8455",
+          "item_name": "#DOTA_Item_Collar_of_the_Frost_Lord",
+          "item_slot": "neck",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Icebound_King_Set",
+      "store_bundle": "Icebound King Set",
+      "portrait_image": "econ/sets/v2/icebound_king_set",
+      "items": [
+        {
+          "name": "Icebound King Set Arms",
+          "id": "14132",
+          "item_name": "#DOTA_Item_Vote_Only_Icebound_King_Set_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Icebound King Set Back",
+          "id": "14131",
+          "item_name": "#DOTA_Item_Vote_Only_Icebound_King_Set_Back",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Icebound King Set Belt",
+          "id": "14130",
+          "item_name": "#DOTA_Item_Vote_Only_Icebound_King_Set_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Icebound King Set Head",
+          "id": "14129",
+          "item_name": "#DOTA_Item_Vote_Only_Icebound_King_Set_Head",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Icebound King Set Neck",
+          "id": "14127",
+          "item_name": "#DOTA_Item_Vote_Only_Icebound_King_Set_Neck",
+          "item_slot": "neck",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Jiang_Shis_Revenge",
+      "store_bundle": "Jiang Shi's Revenge",
+      "portrait_image": "econ/sets/v2/jiang_shis_revenge",
+      "items": [
+        {
+          "name": "Coffin of the Jiang Shi's Revenge",
+          "id": "7885",
+          "item_name": "#DOTA_Item_Coffin_of_the_Jiang_Shis_Revenge",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Robe of the Jiang Shi's Revenge",
+          "id": "7899",
+          "item_name": "#DOTA_Item_Robe_of_the_Jiang_Shis_Revenge",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Hat of the Jiang Shi's Revenge",
+          "id": "7907",
+          "item_name": "#DOTA_Item_Hat_of_the_Jiang_Shis_Revenge",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Necklace of the Jiang Shi's Revenge",
+          "id": "7931",
+          "item_name": "#DOTA_Item_Necklace_of_the_Jiang_Shis_Revenge",
+          "item_slot": "neck",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Sleeves of the Jiang Shi's Revenge",
+          "id": "7932",
+          "item_name": "#DOTA_Item_Sleeves_of_the_Jiang_Shis_Revenge",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ascendance_of_the_Rime_Lord",
+      "store_bundle": "Ascendance of the Rime Lord",
+      "portrait_image": "econ/sets/v2/lich_ascendance_of_the_rime_lord",
+      "items": [
+        {
+          "name": "Crown of the Rime Lord",
+          "id": "12638",
+          "item_name": "#DOTA_Item_Crown_of_the_Rime_Lord",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Vestment of the Rime Lord",
+          "id": "12637",
+          "item_name": "#DOTA_Item_Vestment_of_the_Rime_Lord",
+          "item_slot": "neck",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bracers of the Rime Lord",
+          "id": "12636",
+          "item_name": "#DOTA_Item_Bracers_of_the_Rime_Lord",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Robe of the Rime Lord",
+          "id": "9561",
+          "item_name": "#DOTA_Item_Robe_of_the_Rime_Lord",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Cloak of the Rime Lord",
+          "id": "9560",
+          "item_name": "#DOTA_Item_Cloak_of_the_Rime_Lord",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Forbidden_Knowledge",
+      "store_bundle": "Forbidden Knowledge",
+      "portrait_image": "econ/sets/v2/lich_forbidden_knowledge",
+      "items": [
+        {
+          "name": "Cuffs of Forbidden Knowledge",
+          "id": "8599",
+          "item_name": "#DOTA_Item_Cuffs_of_Forbidden_Knowledge",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Tome of Forbidden Knowledge",
+          "id": "8600",
+          "item_name": "#DOTA_Item_Tome_of_Forbidden_Knowledge",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Robe of Forbidden Knowledge",
+          "id": "8601",
+          "item_name": "#DOTA_Item_Robe_of_Forbidden_Knowledge",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cage of Forbidden Knowledge",
+          "id": "8602",
+          "item_name": "#DOTA_Item_Cage_of_Forbidden_Knowledge",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Shackles of Forbidden Knowledge",
+          "id": "8603",
+          "item_name": "#DOTA_Item_Shackles_of_Forbidden_Knowledge",
+          "item_slot": "neck",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_The_Curse_of_Black_Pool",
+      "store_bundle": "The Curse of Black Pool",
+      "portrait_image": "econ/sets/v2/lich_the_curse_of_black_pool",
+      "items": [
+        {
+          "name": "The Curse of Black Pool Arms",
+          "id": "14307",
+          "item_name": "#DOTA_Item_Vote_Only_The_Curse_of_Black_Pool_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "The Curse of Black Pool Back",
+          "id": "14308",
+          "item_name": "#DOTA_Item_Vote_Only_The_Curse_of_Black_Pool_Back",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "The Curse of Black Pool Belt",
+          "id": "14309",
+          "item_name": "#DOTA_Item_Vote_Only_The_Curse_of_Black_Pool_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "The Curse of Black Pool Head",
+          "id": "14310",
+          "item_name": "#DOTA_Item_Vote_Only_The_Curse_of_Black_Pool_Head",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "The Curse of Black Pool Neck",
+          "id": "14311",
+          "item_name": "#DOTA_Item_Vote_Only_The_Curse_of_Black_Pool_Neck",
+          "item_slot": "neck",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Lord_of_the_Forsaken",
+      "store_bundle": "Lord of the Forsaken",
+      "portrait_image": "econ/sets/v2/lord_of_the_forsaken",
+      "items": [
+        {
+          "name": "Lord of the Forsaken Arms",
+          "id": "14156",
+          "item_name": "#DOTA_Item_Lord_of_the_Forsaken_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Lord of the Forsaken Back",
+          "id": "14154",
+          "item_name": "#DOTA_Item_Lord_of_the_Forsaken_Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Lord of the Forsaken Belt",
+          "id": "14155",
+          "item_name": "#DOTA_Item_Lord_of_the_Forsaken_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Lord of the Forsaken Head",
+          "id": "14153",
+          "item_name": "#DOTA_Item_Lord_of_the_Forsaken_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Lord of the Forsaken Neck",
+          "id": "14566",
+          "item_name": "#DOTA_Item_Lord_of_the_Forsaken_Neck",
+          "item_slot": "neck",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Revival_of_the_Ice_Witch",
+      "store_bundle": "Revival of the Ice Witch",
+      "portrait_image": "econ/sets/v2/revival_of_the_ice_witch",
+      "items": [
+        {
+          "name": "Revival of the Ice Witch Belt",
+          "id": "17606",
+          "item_name": "#DOTA_Item_Revival_of_the_Ice_Witch_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Revival of the Ice Witch Back",
+          "id": "17605",
+          "item_name": "#DOTA_Item_Revival_of_the_Ice_Witch_Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Revival of the Ice Witch Arms",
+          "id": "17604",
+          "item_name": "#DOTA_Item_Revival_of_the_Ice_Witch_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Revival of the Ice Witch Neck",
+          "id": "17603",
+          "item_name": "#DOTA_Item_Revival_of_the_Ice_Witch_Neck",
+          "item_slot": "neck",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Revival of the Ice Witch Head",
+          "id": "17602",
+          "item_name": "#DOTA_Item_Revival_of_the_Ice_Witch_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Rites_of_Vile_Convocation",
+      "store_bundle": "Rites of Vile Convocation",
+      "portrait_image": "econ/sets/v2/rites_of_vile_convocation",
+      "items": [
+        {
+          "name": "Crown of Vile Convocation",
+          "id": "12797",
+          "item_name": "#DOTA_Item_Crown_of_Vile_Convocation",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Belt of Vile Convocation",
+          "id": "12796",
+          "item_name": "#DOTA_Item_Belt_of_Vile_Convocation",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Chains of Vile Convocation",
+          "id": "12795",
+          "item_name": "#DOTA_Item_Chains_of_Vile_Convocation",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bracer of Vile Convocation",
+          "id": "12794",
+          "item_name": "#DOTA_Item_Bracer_of_Vile_Convocation",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Point of Vile Convocation",
+          "id": "12792",
+          "item_name": "#DOTA_Item_Point_of_Vile_Convocation",
+          "item_slot": "neck",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Shares_of_the_Mad_Mutineer",
+      "store_bundle": "Shares of the Mad Mutineer",
+      "portrait_image": "econ/sets/v2/shares_of_the_mad_mutineer",
+      "items": [
+        {
+          "name": "Belt of the Mad Mutineer",
+          "id": "17577",
+          "item_name": "#DOTA_Item_Belt_of_the_Mad_Mutineer",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Hat of the Mad Mutineer",
+          "id": "17576",
+          "item_name": "#DOTA_Item_Hat_of_the_Mad_Mutineer",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Back of the Mad Mutineer",
+          "id": "17575",
+          "item_name": "#DOTA_Item_Back_of_the_Mad_Mutineer",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Arms of the Mad Mutineer",
+          "id": "13744",
+          "item_name": "#DOTA_Item_Arms_of_the_Mad_Mutineer",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Collar of the Mad Mutineer",
+          "id": "14999",
+          "item_name": "#DOTA_Item_Collar_of_the_Mad_Mutineer",
+          "item_slot": "neck",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sorcerer_of_the_Black_Pool",
+      "store_bundle": "Sorcerer of the Black Pool",
+      "portrait_image": "econ/sets/v2/sorcerer_of_the_black_pool",
+      "items": [
+        {
+          "name": "Mantle of the Black Pool",
+          "id": "7102",
+          "item_name": "#DOTA_Item_Mantle_of_the_Black_Pool",
+          "item_slot": "neck",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Wraps of the Black Pool",
+          "id": "6890",
+          "item_name": "#DOTA_Item_Wraps_of_the_Black_Pool",
+          "item_slot": "arms",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Belt of the Black Pool",
+          "id": "6891",
+          "item_name": "#DOTA_Item_Belt_of_the_Black_Pool",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Spikes of the Black Pool",
+          "id": "6896",
+          "item_name": "#DOTA_Item_Spikes_of_the_Black_Pool",
+          "item_slot": "back",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Serakund_Tyrant",
+      "store_bundle": "The Serakund Tyrant",
+      "portrait_image": "econ/sets/v2/the_serakund_tyrant",
+      "items": [
+        {
+          "name": "Mantle of the Serakund Tyrant",
+          "id": "8520",
+          "item_name": "#DOTA_Item_Mantle_of_the_Serakund_Tyrant",
+          "item_slot": "neck",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Crown of the Serakund Tyrant",
+          "id": "8521",
+          "item_name": "#DOTA_Item_Crown_of_the_Serakund_Tyrant",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Tassets of the Serakund Tyrant",
+          "id": "8523",
+          "item_name": "#DOTA_Item_Tassets_of_the_Serakund_Tyrant",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Core of the Serakund Tyrant",
+          "id": "8522",
+          "item_name": "#DOTA_Item_Core_of_the_Serakund_Tyrant",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bracers of the Serakund Tyrant",
+          "id": "8519",
+          "item_name": "#DOTA_Item_Bracers_of_the_Serakund_Tyrant",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "331",
+      "name": "Lich's Belt",
+      "item_name": "#DOTA_Item_Lichs_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "332",
+      "name": "Lich's Neck",
+      "item_name": "#DOTA_Item_Lichs_Neck",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "333",
+      "name": "Lich's Bracers",
+      "item_name": "#DOTA_Item_Lichs_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "334",
+      "name": "Lich's Back",
+      "item_name": "#DOTA_Item_Lichs_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "506",
+      "name": "Lich's Ambient Effects",
+      "item_name": "#DOTA_Item_Lichs_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "571",
+      "name": "Lich's Head",
+      "item_name": "#DOTA_Item_Lichs_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4851",
+      "name": "Dead Winter Mantle",
+      "item_name": "#DOTA_Item_Dead_Winter_Mantle",
+      "item_slot": "neck",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4852",
+      "name": "Dead Winter Soul",
+      "item_name": "#DOTA_Item_Dead_Winter_Soul",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4853",
+      "name": "Dead Winter Sash",
+      "item_name": "#DOTA_Item_Dead_Winter_Sash",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4854",
+      "name": "Dead Winter Grasp",
+      "item_name": "#DOTA_Item_Dead_Winter_Grasp",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4895",
+      "name": "Bindings of Eldritch Ice",
+      "item_name": "#DOTA_Item_Bindings_of_Eldritch_Ice",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4896",
+      "name": "Glacier of Eldritch Ice",
+      "item_name": "#DOTA_Item_Glacier_of_Eldritch_Ice",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4897",
+      "name": "Mantle of Eldritch Ice",
+      "item_name": "#DOTA_Item_Mantle_of_Eldritch_Ice",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4898",
+      "name": "Bracers of Eldritch Ice",
+      "item_name": "#DOTA_Item_Bracers_of_Eldritch_Ice",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6214",
+      "name": "Bracers of the Frozen Star",
+      "item_name": "#DOTA_Item_Bracers_of_the_Frozen_Star",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6216",
+      "name": "Statue of the Frozen Star",
+      "item_name": "#DOTA_Item_Statue_of_the_Frozen_Star",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6217",
+      "name": "Bindings of the Frozen Star",
+      "item_name": "#DOTA_Item_Bindings_of_the_Frozen_Star",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6218",
+      "name": "Mantle of the Frozen Star",
+      "item_name": "#DOTA_Item_Mantle_of_the_Frozen_Star",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6890",
+      "name": "Wraps of the Black Pool",
+      "item_name": "#DOTA_Item_Wraps_of_the_Black_Pool",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6891",
+      "name": "Belt of the Black Pool",
+      "item_name": "#DOTA_Item_Belt_of_the_Black_Pool",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6896",
+      "name": "Spikes of the Black Pool",
+      "item_name": "#DOTA_Item_Spikes_of_the_Black_Pool",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6949",
+      "name": "Frozen Emperor's Twin Dragon Cape",
+      "item_name": "#DOTA_Item_Frozen_Emperors_Twin_Dragon_Cape",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7063",
+      "name": "Frozen Emperor's Demon Mask",
+      "item_name": "#DOTA_Item_Frozen_Emperors_Demon_Mask",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7064",
+      "name": "Frozen Emperor's Guardian Lion",
+      "item_name": "#DOTA_Item_Frozen_Emperors_Guardian_Lion",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7065",
+      "name": "Frozen Emperor's Cursed Belt",
+      "item_name": "#DOTA_Item_Frozen_Emperors_Cursed_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7066",
+      "name": "Frozen Emperor's Runed Bracers",
+      "item_name": "#DOTA_Item_Frozen_Emperors_Runed_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7102",
+      "name": "Mantle of the Black Pool",
+      "item_name": "#DOTA_Item_Mantle_of_the_Black_Pool",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7576",
+      "name": "Shearing Deposition",
+      "item_name": "#DOTA_Item_Shearing_Deposition",
+      "item_slot": "neck",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7885",
+      "name": "Coffin of the Jiang Shi's Revenge",
+      "item_name": "#DOTA_Item_Coffin_of_the_Jiang_Shis_Revenge",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7899",
+      "name": "Robe of the Jiang Shi's Revenge",
+      "item_name": "#DOTA_Item_Robe_of_the_Jiang_Shis_Revenge",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7907",
+      "name": "Hat of the Jiang Shi's Revenge",
+      "item_name": "#DOTA_Item_Hat_of_the_Jiang_Shis_Revenge",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7931",
+      "name": "Necklace of the Jiang Shi's Revenge",
+      "item_name": "#DOTA_Item_Necklace_of_the_Jiang_Shis_Revenge",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7932",
+      "name": "Sleeves of the Jiang Shi's Revenge",
+      "item_name": "#DOTA_Item_Sleeves_of_the_Jiang_Shis_Revenge",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8451",
+      "name": "Crown of the Frost Lord",
+      "item_name": "#DOTA_Item_Crown_of_the_Frost_Lord",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8452",
+      "name": "Cloak of the Frost Lord",
+      "item_name": "#DOTA_Item_Cloak_of_the_Frost_Lord",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8453",
+      "name": "Restraints of the Frost Lord",
+      "item_name": "#DOTA_Item_Restraints_of_the_Frost_Lord",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8454",
+      "name": "Gauntlets of the Frost Lord",
+      "item_name": "#DOTA_Item_Gauntlets_of_the_Frost_Lord",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8455",
+      "name": "Collar of the Frost Lord",
+      "item_name": "#DOTA_Item_Collar_of_the_Frost_Lord",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8519",
+      "name": "Bracers of the Serakund Tyrant",
+      "item_name": "#DOTA_Item_Bracers_of_the_Serakund_Tyrant",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8520",
+      "name": "Mantle of the Serakund Tyrant",
+      "item_name": "#DOTA_Item_Mantle_of_the_Serakund_Tyrant",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8521",
+      "name": "Crown of the Serakund Tyrant",
+      "item_name": "#DOTA_Item_Crown_of_the_Serakund_Tyrant",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8522",
+      "name": "Core of the Serakund Tyrant",
+      "item_name": "#DOTA_Item_Core_of_the_Serakund_Tyrant",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8523",
+      "name": "Tassets of the Serakund Tyrant",
+      "item_name": "#DOTA_Item_Tassets_of_the_Serakund_Tyrant",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8599",
+      "name": "Cuffs of Forbidden Knowledge",
+      "item_name": "#DOTA_Item_Cuffs_of_Forbidden_Knowledge",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8600",
+      "name": "Tome of Forbidden Knowledge",
+      "item_name": "#DOTA_Item_Tome_of_Forbidden_Knowledge",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8601",
+      "name": "Robe of Forbidden Knowledge",
+      "item_name": "#DOTA_Item_Robe_of_Forbidden_Knowledge",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8602",
+      "name": "Cage of Forbidden Knowledge",
+      "item_name": "#DOTA_Item_Cage_of_Forbidden_Knowledge",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8603",
+      "name": "Shackles of Forbidden Knowledge",
+      "item_name": "#DOTA_Item_Shackles_of_Forbidden_Knowledge",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9560",
+      "name": "Cloak of the Rime Lord",
+      "item_name": "#DOTA_Item_Cloak_of_the_Rime_Lord",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9561",
+      "name": "Robe of the Rime Lord",
+      "item_name": "#DOTA_Item_Robe_of_the_Rime_Lord",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9756",
+      "name": "Glare of the Tyrant",
+      "item_name": "#DOTA_Item_Glare_of_the_Tyrant",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12636",
+      "name": "Bracers of the Rime Lord",
+      "item_name": "#DOTA_Item_Bracers_of_the_Rime_Lord",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12637",
+      "name": "Vestment of the Rime Lord",
+      "item_name": "#DOTA_Item_Vestment_of_the_Rime_Lord",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12638",
+      "name": "Crown of the Rime Lord",
+      "item_name": "#DOTA_Item_Crown_of_the_Rime_Lord",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12792",
+      "name": "Point of Vile Convocation",
+      "item_name": "#DOTA_Item_Point_of_Vile_Convocation",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12794",
+      "name": "Bracer of Vile Convocation",
+      "item_name": "#DOTA_Item_Bracer_of_Vile_Convocation",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12795",
+      "name": "Chains of Vile Convocation",
+      "item_name": "#DOTA_Item_Chains_of_Vile_Convocation",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12796",
+      "name": "Belt of Vile Convocation",
+      "item_name": "#DOTA_Item_Belt_of_Vile_Convocation",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12797",
+      "name": "Crown of Vile Convocation",
+      "item_name": "#DOTA_Item_Crown_of_Vile_Convocation",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12953",
+      "name": "Taunt: Ice Cold Baller",
+      "item_name": "#DOTA_Item_Taunt_Ice_Cold_Baller",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "13744",
+      "name": "Arms of the Mad Mutineer",
+      "item_name": "#DOTA_Item_Arms_of_the_Mad_Mutineer",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14127",
+      "name": "Icebound King Set Neck",
+      "item_name": "#DOTA_Item_Vote_Only_Icebound_King_Set_Neck",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14129",
+      "name": "Icebound King Set Head",
+      "item_name": "#DOTA_Item_Vote_Only_Icebound_King_Set_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14130",
+      "name": "Icebound King Set Belt",
+      "item_name": "#DOTA_Item_Vote_Only_Icebound_King_Set_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14131",
+      "name": "Icebound King Set Back",
+      "item_name": "#DOTA_Item_Vote_Only_Icebound_King_Set_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14132",
+      "name": "Icebound King Set Arms",
+      "item_name": "#DOTA_Item_Vote_Only_Icebound_King_Set_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14153",
+      "name": "Lord of the Forsaken Head",
+      "item_name": "#DOTA_Item_Lord_of_the_Forsaken_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14154",
+      "name": "Lord of the Forsaken Back",
+      "item_name": "#DOTA_Item_Lord_of_the_Forsaken_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14155",
+      "name": "Lord of the Forsaken Belt",
+      "item_name": "#DOTA_Item_Lord_of_the_Forsaken_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14156",
+      "name": "Lord of the Forsaken Arms",
+      "item_name": "#DOTA_Item_Lord_of_the_Forsaken_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14307",
+      "name": "The Curse of Black Pool Arms",
+      "item_name": "#DOTA_Item_Vote_Only_The_Curse_of_Black_Pool_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14308",
+      "name": "The Curse of Black Pool Back",
+      "item_name": "#DOTA_Item_Vote_Only_The_Curse_of_Black_Pool_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14309",
+      "name": "The Curse of Black Pool Belt",
+      "item_name": "#DOTA_Item_Vote_Only_The_Curse_of_Black_Pool_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14310",
+      "name": "The Curse of Black Pool Head",
+      "item_name": "#DOTA_Item_Vote_Only_The_Curse_of_Black_Pool_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14311",
+      "name": "The Curse of Black Pool Neck",
+      "item_name": "#DOTA_Item_Vote_Only_The_Curse_of_Black_Pool_Neck",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14566",
+      "name": "Lord of the Forsaken Neck",
+      "item_name": "#DOTA_Item_Lord_of_the_Forsaken_Neck",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14578",
+      "name": "Cobra-Ka - Neck",
+      "item_name": "#DOTA_Item_CobraKa__Neck",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14579",
+      "name": "Cobra-Ka - Arms",
+      "item_name": "#DOTA_Item_CobraKa__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14580",
+      "name": "Cobra-Ka - Belt",
+      "item_name": "#DOTA_Item_CobraKa__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14581",
+      "name": "Cobra-Ka - Back",
+      "item_name": "#DOTA_Item_CobraKa__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14582",
+      "name": "Cobra-Ka - Head",
+      "item_name": "#DOTA_Item_CobraKa__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14998",
+      "name": "Perversions of the Bloodwhorl",
+      "item_name": "#DOTA_Item_Perversions_of_the_Bloodwhorl",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14999",
+      "name": "Collar of the Mad Mutineer",
+      "item_name": "#DOTA_Item_Collar_of_the_Mad_Mutineer",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17575",
+      "name": "Back of the Mad Mutineer",
+      "item_name": "#DOTA_Item_Back_of_the_Mad_Mutineer",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17576",
+      "name": "Hat of the Mad Mutineer",
+      "item_name": "#DOTA_Item_Hat_of_the_Mad_Mutineer",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17577",
+      "name": "Belt of the Mad Mutineer",
+      "item_name": "#DOTA_Item_Belt_of_the_Mad_Mutineer",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17602",
+      "name": "Revival of the Ice Witch Head",
+      "item_name": "#DOTA_Item_Revival_of_the_Ice_Witch_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17603",
+      "name": "Revival of the Ice Witch Neck",
+      "item_name": "#DOTA_Item_Revival_of_the_Ice_Witch_Neck",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17604",
+      "name": "Revival of the Ice Witch Arms",
+      "item_name": "#DOTA_Item_Revival_of_the_Ice_Witch_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17605",
+      "name": "Revival of the Ice Witch Back",
+      "item_name": "#DOTA_Item_Revival_of_the_Ice_Witch_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17606",
+      "name": "Revival of the Ice Witch Belt",
+      "item_name": "#DOTA_Item_Revival_of_the_Ice_Witch_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20147",
+      "name": "Dead Winter Set",
+      "item_name": "#DOTA_Item_Dead_Winter_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20155",
+      "name": "Eldritch Ice Set",
+      "item_name": "#DOTA_Item_Eldritch_Ice_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20416",
+      "name": "Frozen Star",
+      "item_name": "#DOTA_Item_Frozen_Star",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20650",
+      "name": "Sorcerer of the Black Pool",
+      "item_name": "#DOTA_Item_Sorcerer_of_the_Black_Pool",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20661",
+      "name": "Frozen Emperor",
+      "item_name": "#DOTA_Item_Frozen_Emperor",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20799",
+      "name": "Garb of the Frost Lord",
+      "item_name": "#DOTA_Item_Garb_of_the_Frost_Lord",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20932",
+      "name": "The Serakund Tyrant",
+      "item_name": "#DOTA_Item_The_Serakund_Tyrant",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21008",
+      "name": "Jiang Shi's Revenge",
+      "item_name": "#DOTA_Item_Jiang_Shis_Revenge",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21044",
+      "name": "Forbidden Knowledge",
+      "item_name": "#DOTA_Item_Forbidden_Knowledge",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21273",
+      "name": "Ascendance of the Rime Lord",
+      "item_name": "#DOTA_Item_Ascendance_of_the_Rime_Lord",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21299",
+      "name": "Rites of Vile Convocation",
+      "item_name": "#DOTA_Item_Rites_of_Vile_Convocation",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21501",
+      "name": "Icebound King Set",
+      "item_name": "#DOTA_Item_Vote_Only_Icebound_King_Set",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21536",
+      "name": "The Curse of Black Pool",
+      "item_name": "#DOTA_Item_Vote_Only_The_Curse_of_Black_Pool",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21598",
+      "name": "Lord of the Forsaken",
+      "item_name": "#DOTA_Item_Lord_of_the_Forsaken",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21637",
+      "name": "Cobra-Ka",
+      "item_name": "#DOTA_Item_CobraKa",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21661",
+      "name": "Shares of the Mad Mutineer",
+      "item_name": "#DOTA_Item_Shares_of_the_Mad_Mutineer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21665",
+      "name": "Revival of the Ice Witch",
+      "item_name": "#DOTA_Item_Revival_of_the_Ice_Witch",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    }
+  ]
+}

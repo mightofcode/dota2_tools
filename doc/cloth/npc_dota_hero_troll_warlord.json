@@ -1,0 +1,497 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "373",
+      "name": "Troll Warlord's Default Weapon",
+      "item_name": "#DOTA_Item_Troll_Warlords_Default_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "offhand_weapon": {
+      "id": "374",
+      "name": "Troll Warlord's Default Off-Hand Weapon",
+      "item_name": "#DOTA_Item_Troll_Warlords_Default_OffHand_Weapon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common"
+    },
+    "weapon2": {
+      "id": "379",
+      "name": "Troll Warlord's Default Melee Weapon",
+      "item_name": "#DOTA_Item_Troll_Warlords_Default_Melee_Weapon",
+      "item_slot": "weapon2",
+      "item_rarity": "common"
+    },
+    "offhand_weapon2": {
+      "id": "380",
+      "name": "Troll Warlord's Default Melee Off-Hand Weapon",
+      "item_name": "#DOTA_Item_Troll_Warlords_Default_Melee_OffHand_Weapon",
+      "item_slot": "offhand_weapon2",
+      "item_rarity": "common"
+    },
+    "shoulder": {
+      "id": "410",
+      "name": "Troll Warlord's Default Shoulders",
+      "item_name": "#DOTA_Item_Troll_Warlords_Default_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "411",
+      "name": "Troll Warlord's Default Head",
+      "item_name": "#DOTA_Item_Troll_Warlords_Default_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "armor": {
+      "id": "412",
+      "name": "Troll Warlord's Default Armor",
+      "item_name": "#DOTA_Item_Troll_Warlords_Default_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Conspicuous_Culprit",
+      "store_bundle": "Conspicuous Culprit",
+      "portrait_image": "econ/sets/v2/conspicuous_culprit",
+      "items": [
+        {
+          "name": "Conspicuous Culprit Armor",
+          "id": "18567",
+          "item_name": "#DOTA_Item_Conspicuous_Culprit_Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Conspicuous Culprit Mohawk",
+          "id": "18494",
+          "item_name": "#DOTA_Item_Conspicuous_Culprit_Mohawk",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Conspicuous Culprit Weapons",
+          "id": "18492",
+          "item_name": "#DOTA_Item_Conspicuous_Culprit_Weapons",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Conspicuous Culprit Shoulder",
+          "id": "18110",
+          "item_name": "#DOTA_Item_Conspicuous_Culprit_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Icewrack_Marauder",
+      "store_bundle": "Icewrack Marauder",
+      "portrait_image": "econ/sets/v2/icewrack_marauder",
+      "items": [
+        {
+          "name": "Axes of the Icewrack Marauder",
+          "id": "9597",
+          "item_name": "#DOTA_Item_Axes_of_the_Icewrack_Marauder",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Armor of the Icewrack Marauder",
+          "id": "9596",
+          "item_name": "#DOTA_Item_Armor_of_the_Icewrack_Marauder",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Head of the Icewrack Marauder",
+          "id": "9595",
+          "item_name": "#DOTA_Item_Head_of_the_Icewrack_Marauder",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shoulders of the Icewrack Marauder",
+          "id": "9676",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Icewrack_Marauder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Imperious_Command",
+      "store_bundle": "Imperious Command",
+      "portrait_image": "econ/sets/v2/imperious_command",
+      "items": [
+        {
+          "name": "Hair of the Imperious Command",
+          "id": "7875",
+          "item_name": "#DOTA_Item_Hair_of_the_Imperious_Command",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Armor of the Imperious Command",
+          "id": "7867",
+          "item_name": "#DOTA_Item_Armor_of_the_Imperious_Command",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Twin Blades of the Imperious Command",
+          "id": "7873",
+          "item_name": "#DOTA_Item_Twin_Blades_of_the_Imperious_Command",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Shoulders of the Imperious Command",
+          "id": "9677",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Imperious_Command",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Plunder_of_the_Savage_Monger",
+      "store_bundle": "Plunder of the Savage Monger",
+      "portrait_image": "econ/sets/v2/plunder_of_the_savage_monger",
+      "items": [
+        {
+          "name": "Armor of the Savage Monger",
+          "id": "12562",
+          "item_name": "#DOTA_Item_Armor_of_the_Savage_Monger",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Weapons of the Savage Monger",
+          "id": "12561",
+          "item_name": "#DOTA_Item_Weapons_of_the_Savage_Monger",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Helm of the Savage Monger",
+          "id": "12560",
+          "item_name": "#DOTA_Item_Helm_of_the_Savage_Monger",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Barding of the Savage Monger",
+          "id": "12559",
+          "item_name": "#DOTA_Item_Barding_of_the_Savage_Monger",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Spoils_of_the_Nomad_King",
+      "store_bundle": "Spoils of the Nomad King",
+      "portrait_image": "econ/sets/v2/spoils_of_the_nomad_king",
+      "items": [
+        {
+          "name": "Spoils of the Nomad King - Weapons",
+          "id": "24174",
+          "item_name": "#DOTA_Item_Spoils_of_the_Nomad_King__Weapons",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Spoils of the Nomad King - Armor",
+          "id": "24176",
+          "item_name": "#DOTA_Item_Spoils_of_the_Nomad_King__Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Spoils of the Nomad King - Head",
+          "id": "24177",
+          "item_name": "#DOTA_Item_Spoils_of_the_Nomad_King__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "373",
+      "name": "Troll Warlord's Default Weapon",
+      "item_name": "#DOTA_Item_Troll_Warlords_Default_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "374",
+      "name": "Troll Warlord's Default Off-Hand Weapon",
+      "item_name": "#DOTA_Item_Troll_Warlords_Default_OffHand_Weapon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "379",
+      "name": "Troll Warlord's Default Melee Weapon",
+      "item_name": "#DOTA_Item_Troll_Warlords_Default_Melee_Weapon",
+      "item_slot": "weapon2",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "380",
+      "name": "Troll Warlord's Default Melee Off-Hand Weapon",
+      "item_name": "#DOTA_Item_Troll_Warlords_Default_Melee_OffHand_Weapon",
+      "item_slot": "offhand_weapon2",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "410",
+      "name": "Troll Warlord's Default Shoulders",
+      "item_name": "#DOTA_Item_Troll_Warlords_Default_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "411",
+      "name": "Troll Warlord's Default Head",
+      "item_name": "#DOTA_Item_Troll_Warlords_Default_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "412",
+      "name": "Troll Warlord's Default Armor",
+      "item_name": "#DOTA_Item_Troll_Warlords_Default_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "7818",
+      "name": "Bitter Lineage",
+      "item_name": "#DOTA_Item_Bitter_Lineage",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7867",
+      "name": "Armor of the Imperious Command",
+      "item_name": "#DOTA_Item_Armor_of_the_Imperious_Command",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7873",
+      "name": "Twin Blades of the Imperious Command",
+      "item_name": "#DOTA_Item_Twin_Blades_of_the_Imperious_Command",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7875",
+      "name": "Hair of the Imperious Command",
+      "item_name": "#DOTA_Item_Hair_of_the_Imperious_Command",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8073",
+      "name": "Taunt: Troll's Groove!",
+      "item_name": "#DOTA_Item_Taunt_Trolls_Groove",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "9595",
+      "name": "Head of the Icewrack Marauder",
+      "item_name": "#DOTA_Item_Head_of_the_Icewrack_Marauder",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9596",
+      "name": "Armor of the Icewrack Marauder",
+      "item_name": "#DOTA_Item_Armor_of_the_Icewrack_Marauder",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9597",
+      "name": "Axes of the Icewrack Marauder",
+      "item_name": "#DOTA_Item_Axes_of_the_Icewrack_Marauder",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9676",
+      "name": "Shoulders of the Icewrack Marauder",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Icewrack_Marauder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9677",
+      "name": "Shoulders of the Imperious Command",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Imperious_Command",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12559",
+      "name": "Barding of the Savage Monger",
+      "item_name": "#DOTA_Item_Barding_of_the_Savage_Monger",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12560",
+      "name": "Helm of the Savage Monger",
+      "item_name": "#DOTA_Item_Helm_of_the_Savage_Monger",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12561",
+      "name": "Weapons of the Savage Monger",
+      "item_name": "#DOTA_Item_Weapons_of_the_Savage_Monger",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12562",
+      "name": "Armor of the Savage Monger",
+      "item_name": "#DOTA_Item_Armor_of_the_Savage_Monger",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14296",
+      "name": "Scale of Bitter Spoil",
+      "item_name": "#DOTA_Item_Scale_of_Bitter_Spoil",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18110",
+      "name": "Conspicuous Culprit Shoulder",
+      "item_name": "#DOTA_Item_Conspicuous_Culprit_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18492",
+      "name": "Conspicuous Culprit Weapons",
+      "item_name": "#DOTA_Item_Conspicuous_Culprit_Weapons",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18494",
+      "name": "Conspicuous Culprit Mohawk",
+      "item_name": "#DOTA_Item_Conspicuous_Culprit_Mohawk",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18567",
+      "name": "Conspicuous Culprit Armor",
+      "item_name": "#DOTA_Item_Conspicuous_Culprit_Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "21006",
+      "name": "Imperious Command",
+      "item_name": "#DOTA_Item_Imperious_Command",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21165",
+      "name": "Icewrack Marauder",
+      "item_name": "#DOTA_Item_Icewrack_Marauder",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21259",
+      "name": "Plunder of the Savage Monger",
+      "item_name": "#DOTA_Item_Plunder_of_the_Savage_Monger",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21815",
+      "name": "Conspicuous Culprit",
+      "item_name": "#DOTA_Item_Conspicuous_Culprit",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "24172",
+      "name": "Spoils of the Nomad King",
+      "item_name": "#DOTA_Item_Spoils_of_the_Nomad_King",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "24174",
+      "name": "Spoils of the Nomad King - Weapons",
+      "item_name": "#DOTA_Item_Spoils_of_the_Nomad_King__Weapons",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "24176",
+      "name": "Spoils of the Nomad King - Armor",
+      "item_name": "#DOTA_Item_Spoils_of_the_Nomad_King__Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "24177",
+      "name": "Spoils of the Nomad King - Head",
+      "item_name": "#DOTA_Item_Spoils_of_the_Nomad_King__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    }
+  ]
+}

@@ -1,0 +1,2256 @@
+{
+  "defaults": {
+    "misc": {
+      "id": "231",
+      "name": "Clockwerk's Rocket",
+      "item_name": "#DOTA_Item_Clockwerks_Rocket",
+      "item_slot": "misc",
+      "item_rarity": "common"
+    },
+    "weapon": {
+      "id": "446",
+      "name": "Clockwerk's Weapon",
+      "item_name": "#DOTA_Item_Clockwerks_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "armor": {
+      "id": "484",
+      "name": "Clockwerk's Armor",
+      "item_name": "#DOTA_Item_Clockwerks_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "485",
+      "name": "Clockwerk's Head",
+      "item_name": "#DOTA_Item_Clockwerks_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "costume": {
+      "id": "724",
+      "name": "Clockwerk's Costume",
+      "item_name": "#DOTA_Item_Clockwerks_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Agony_of_Endless_Days",
+      "store_bundle": "Agony of Endless Days",
+      "portrait_image": "econ/sets/v2/agony_of_endless_days",
+      "items": [
+        {
+          "name": "Rocket of Endless Days",
+          "id": "17954",
+          "item_name": "#DOTA_Item_Rocket_of_Endless_Days",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Hook of Endless Days",
+          "id": "17953",
+          "item_name": "#DOTA_Item_Hook_of_Endless_Days",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Armor of Endless Days",
+          "id": "17952",
+          "item_name": "#DOTA_Item_Armor_of_Endless_Days",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Mind of Endless Days",
+          "id": "17951",
+          "item_name": "#DOTA_Item_Mind_of_Endless_Days",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cogs of Endless Days",
+          "id": "17955",
+          "item_name": "#DOTA_Item_Cogs_of_Endless_Days",
+          "item_slot": "ability2",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Apex_Automated",
+      "store_bundle": "Apex Automated",
+      "portrait_image": "econ/sets/v2/apex_automated",
+      "items": [
+        {
+          "name": "Apex Automated - Armor",
+          "id": "19190",
+          "item_name": "#DOTA_Item_Apex_Automated__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Apex Automated - Head",
+          "id": "19189",
+          "item_name": "#DOTA_Item_Apex_Automated__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Apex Automated - Rocket",
+          "id": "19188",
+          "item_name": "#DOTA_Item_Apex_Automated__Rocket",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Apex Automated - Weapon",
+          "id": "19187",
+          "item_name": "#DOTA_Item_Apex_Automated__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Apex Automated - Power Cog",
+          "id": "19186",
+          "item_name": "#DOTA_Item_Apex_Automated__Power_Cog",
+          "item_slot": "ability2",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Battletrap",
+      "store_bundle": "Battletrap",
+      "portrait_image": "econ/sets/v2/battletrap",
+      "items": [
+        {
+          "name": "Battletrap Armor",
+          "id": "6945",
+          "item_name": "#DOTA_Item_Battletrap_Armor",
+          "item_slot": "armor",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Battletrap Battlehelm",
+          "id": "6950",
+          "item_name": "#DOTA_Item_Battletrap_Battlehelm",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Battletrap Bullet Flare",
+          "id": "7037",
+          "item_name": "#DOTA_Item_Battletrap_Bullet_Flare",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Battletrap Battle Cog",
+          "id": "7051",
+          "item_name": "#DOTA_Item_Battletrap_Battle_Cog",
+          "item_slot": "ability2",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Battletrap Battlewrench",
+          "id": "7038",
+          "item_name": "#DOTA_Item_Battletrap_Battlewrench",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Clock_Master",
+      "store_bundle": "Clock Master",
+      "portrait_image": "econ/sets/v2/clockmaster",
+      "items": [
+        {
+          "name": "Clock Master's Helmet",
+          "id": "6414",
+          "item_name": "#DOTA_Item_Clock_Masters_Helmet",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Clock Master's Hook",
+          "id": "6415",
+          "item_name": "#DOTA_Item_Clock_Masters_Hook",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Clock Master's Power Cogs",
+          "id": "6429",
+          "item_name": "#DOTA_Item_Clock_Masters_Power_Cogs",
+          "item_slot": "ability2",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Clock Master's Bunker Rocket",
+          "id": "6416",
+          "item_name": "#DOTA_Item_Clock_Masters_Bunker_Rocket",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Clock Master's Survival Gear",
+          "id": "6413",
+          "item_name": "#DOTA_Item_Clock_Masters_Survival_Gear",
+          "item_slot": "armor",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Clockwerks_Diretide_Shimmer_Bundle",
+      "store_bundle": "Clockwerk's Diretide Shimmer Bundle",
+      "portrait_image": "econ/sets/v2/clockwerks_diretide_shimmer_bundle",
+      "items": [
+        {
+          "name": "Clockwerk's Diretide Shimmer Costume",
+          "id": "17808",
+          "item_name": "#DOTA_Item_Clockwerks_Diretide_Shimmer_Costume",
+          "item_slot": "costume",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Clockwerk's Diretide Shimmer Head",
+          "id": "17809",
+          "item_name": "#DOTA_Item_Clockwerks_Diretide_Shimmer_Head",
+          "item_slot": "head",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Clockwerk's Diretide Shimmer Armor",
+          "id": "17810",
+          "item_name": "#DOTA_Item_Clockwerks_Diretide_Shimmer_Armor",
+          "item_slot": "armor",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Clockwerk's Diretide Shimmer Rocket",
+          "id": "17811",
+          "item_name": "#DOTA_Item_Clockwerks_Diretide_Shimmer_Rocket",
+          "item_slot": "misc",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Clockwerk's Diretide Shimmer Weapon",
+          "id": "17812",
+          "item_name": "#DOTA_Item_Clockwerks_Diretide_Shimmer_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "seasonal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Artisan_of_Havoc",
+      "store_bundle": "Artisan of Havoc",
+      "portrait_image": "econ/sets/v2/clockwerk_artisan_of_havoc",
+      "items": [
+        {
+          "name": "Artisan of Havoc Helmet",
+          "id": "6805",
+          "item_name": "#DOTA_Item_Artisan_of_Havoc_Helmet",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Artisan of Havoc Armor",
+          "id": "6809",
+          "item_name": "#DOTA_Item_Artisan_of_Havoc_Armor",
+          "item_slot": "armor",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Artisan of Havoc Hook",
+          "id": "6810",
+          "item_name": "#DOTA_Item_Artisan_of_Havoc_Hook",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Artisan of Havoc Rocket",
+          "id": "6811",
+          "item_name": "#DOTA_Item_Artisan_of_Havoc_Rocket",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Mortar_Forge",
+      "store_bundle": "Mortar Forge",
+      "portrait_image": "econ/sets/v2/clockwerk_mortarforge",
+      "items": [
+        {
+          "name": "Mortar Forge Claw",
+          "id": "6481",
+          "item_name": "#DOTA_Item_Mortar_Forge_Claw",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Mortar Forge Helm",
+          "id": "6482",
+          "item_name": "#DOTA_Item_Mortar_Forge_Helm",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Mortar Forge Rocket Cannon",
+          "id": "6484",
+          "item_name": "#DOTA_Item_Mortar_Forge_Rocket_Cannon",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Mortar Forge Steam Exoskeleton",
+          "id": "6485",
+          "item_name": "#DOTA_Item_Mortar_Forge_Steam_Exoskeleton",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Cogwatch_Captain",
+      "store_bundle": "Cogwatch Captain",
+      "portrait_image": "econ/sets/v2/cogwatch_captain",
+      "items": [
+        {
+          "name": "Cogwatch Captain Cogs",
+          "id": "14877",
+          "item_name": "#DOTA_Item_Cogwatch_Captain_Cogs",
+          "item_slot": "ability2",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Cogwatch Captain Armor",
+          "id": "14876",
+          "item_name": "#DOTA_Item_Cogwatch_Captain_Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Cogwatch Captain Head",
+          "id": "14875",
+          "item_name": "#DOTA_Item_Cogwatch_Captain_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Cogwatch Captain Rocket",
+          "id": "14874",
+          "item_name": "#DOTA_Item_Cogwatch_Captain_Rocket",
+          "item_slot": "misc",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Cogwatch Captain Weapon",
+          "id": "14873",
+          "item_name": "#DOTA_Item_Cogwatch_Captain_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Directive_of_the_Sunbound",
+      "store_bundle": "Directive of the Sunbound",
+      "portrait_image": "econ/sets/v2/directive_of_the_sunbound",
+      "items": [
+        {
+          "name": "Armor of the Sunbound Directive",
+          "id": "13296",
+          "item_name": "#DOTA_Item_Armor_of_the_Sunbound_Directive",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Helm of the Sunbound Directive",
+          "id": "13295",
+          "item_name": "#DOTA_Item_Helm_of_the_Sunbound_Directive",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Rocket of the Sunbound Directive",
+          "id": "13293",
+          "item_name": "#DOTA_Item_Rocket_of_the_Sunbound_Directive",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cogs of the Sunbound Directive",
+          "id": "13292",
+          "item_name": "#DOTA_Item_Cogs_of_the_Sunbound_Directive",
+          "item_slot": "ability2",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Club of the Sunbound Directive",
+          "id": "13294",
+          "item_name": "#DOTA_Item_Club_of_the_Sunbound_Directive",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Distinguished_Forgemaster",
+      "store_bundle": "Distinguished Forgemaster",
+      "portrait_image": "econ/sets/v2/distinguished_forgemaster",
+      "items": [
+        {
+          "name": "Distinguished Forgemaster - Head",
+          "id": "14702",
+          "item_name": "#DOTA_Item_Distinguished_Forgemaster__Head",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Distinguished Forgemaster - Misc",
+          "id": "14701",
+          "item_name": "#DOTA_Item_Distinguished_Forgemaster__Misc",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Distinguished Forgemaster - Weapon",
+          "id": "14700",
+          "item_name": "#DOTA_Item_Distinguished_Forgemaster__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Distinguished Forgemaster - Armor",
+          "id": "14699",
+          "item_name": "#DOTA_Item_Distinguished_Forgemaster__Armor",
+          "item_slot": "armor",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Distinguished Forgemaster - Forge",
+          "id": "14703",
+          "item_name": "#DOTA_Item_Distinguished_Forgemaster__Forge",
+          "item_slot": "ability2",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Hare_of_the_Cog",
+      "store_bundle": "Hare of the Cog",
+      "portrait_image": "econ/sets/v2/hare_of_the_cog",
+      "items": [
+        {
+          "name": "Hare of the Cog - Weapon",
+          "id": "30958",
+          "item_name": "#DOTA_Item_Hare_of_the_Cog__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Hare of the Cog - Misc",
+          "id": "30957",
+          "item_name": "#DOTA_Item_Hare_of_the_Cog__Misc",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Hare of the Cog - Head",
+          "id": "30956",
+          "item_name": "#DOTA_Item_Hare_of_the_Cog__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Hare of the Cog - Armor",
+          "id": "30955",
+          "item_name": "#DOTA_Item_Hare_of_the_Cog__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Hare of the Cog - Carrot",
+          "id": "29601",
+          "item_name": "#DOTA_Item_Hare_of_the_Cog__Carrot",
+          "item_slot": "ability2",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Iron_Clock_Knight",
+      "store_bundle": "Iron Clock Knight",
+      "portrait_image": "econ/sets/v2/iron_clock_knight",
+      "items": [
+        {
+          "name": "Armor of the Iron Clock Knight",
+          "id": "7017",
+          "item_name": "#DOTA_Item_Armor_of_the_Iron_Clock_Knight",
+          "item_slot": "armor",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Head of the Iron Clock Knight",
+          "id": "7018",
+          "item_name": "#DOTA_Item_Head_of_the_Iron_Clock_Knight",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Rocket of the Iron Clock Knight",
+          "id": "7030",
+          "item_name": "#DOTA_Item_Rocket_of_the_Iron_Clock_Knight",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Hook of the Iron Clock Knight",
+          "id": "7031",
+          "item_name": "#DOTA_Item_Hook_of_the_Iron_Clock_Knight",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Mechanical_Departure",
+      "store_bundle": "Mechanical Departure",
+      "portrait_image": "econ/sets/v2/mechanical_departure",
+      "items": [
+        {
+          "name": "Mechanical Departure Armor",
+          "id": "13694",
+          "item_name": "#DOTA_Item_Mechanical_Departure_Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mechanical Departure Cogs",
+          "id": "13881",
+          "item_name": "#DOTA_Item_Mechanical_Departure_Cogs",
+          "item_slot": "ability2",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mechanical Departure Head",
+          "id": "13695",
+          "item_name": "#DOTA_Item_Mechanical_Departure_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mechanical Departure Rocket",
+          "id": "13878",
+          "item_name": "#DOTA_Item_Mechanical_Departure_Rocket",
+          "item_slot": "misc",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mechanical Departure Weapon",
+          "id": "13879",
+          "item_name": "#DOTA_Item_Mechanical_Departure_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Mechanised_Pilgrim",
+      "store_bundle": "Mechanised Pilgrim",
+      "portrait_image": "econ/sets/v2/mechanised_pilgrim",
+      "items": [
+        {
+          "name": "Cog of the Mechanised Pilgrim",
+          "id": "7410",
+          "item_name": "#DOTA_Item_Cog_of_the_Mechanised_Pilgrim",
+          "item_slot": "ability2",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Armor of the Mechanised Pilgrim",
+          "id": "8776",
+          "item_name": "#DOTA_Item_Armor_of_the_Mechanised_Pilgrim",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Searchlight Helm of the Mechanised Pilgrim",
+          "id": "8777",
+          "item_name": "#DOTA_Item_Searchlight_Helm_of_the_Mechanised_Pilgrim",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Flare of the Mechanised Pilgrim",
+          "id": "8778",
+          "item_name": "#DOTA_Item_Flare_of_the_Mechanised_Pilgrim",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Hammer of the Mechanised Pilgrim",
+          "id": "8779",
+          "item_name": "#DOTA_Item_Hammer_of_the_Mechanised_Pilgrim",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Pit_Boss_Prospector",
+      "store_bundle": "Pit Boss Prospector",
+      "portrait_image": "econ/sets/v2/pit_boss_prospector",
+      "items": [
+        {
+          "name": "Pit Boss Prospector Pick",
+          "id": "12235",
+          "item_name": "#DOTA_Item_Pit_Boss_Prospector_Pick",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Pit Boss Prospector Drill",
+          "id": "12234",
+          "item_name": "#DOTA_Item_Pit_Boss_Prospector_Drill",
+          "item_slot": "misc",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Pit Boss Prospector Power Cog",
+          "id": "12233",
+          "item_name": "#DOTA_Item_Pit_Boss_Prospector_Power_Cog",
+          "item_slot": "ability2",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Pit Boss Prospector Helm",
+          "id": "12231",
+          "item_name": "#DOTA_Item_Pit_Boss_Prospector_Helm",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Pit Boss Prospector Heavy Hammer",
+          "id": "12230",
+          "item_name": "#DOTA_Item_Pit_Boss_Prospector_Heavy_Hammer",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Pressure_Regulator",
+      "store_bundle": "Pressure Regulator",
+      "portrait_image": "econ/sets/v2/pressure_regulator",
+      "items": [
+        {
+          "name": "Mines of the Pressure Regulator",
+          "id": "9347",
+          "item_name": "#DOTA_Item_Mines_of_the_Pressure_Regulator",
+          "item_slot": "ability2",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Harpoon of the Pressure Regulator",
+          "id": "9348",
+          "item_name": "#DOTA_Item_Harpoon_of_the_Pressure_Regulator",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Torpedo of the Pressure Regulator",
+          "id": "9349",
+          "item_name": "#DOTA_Item_Torpedo_of_the_Pressure_Regulator",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Diving Helm of the Pressure Regulator",
+          "id": "9350",
+          "item_name": "#DOTA_Item_Diving_Helm_of_the_Pressure_Regulator",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Valves of the Pressure Regulator",
+          "id": "9351",
+          "item_name": "#DOTA_Item_Valves_of_the_Pressure_Regulator",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Clown_of_Toy_Circus",
+      "store_bundle": "Clown of Toy Circus",
+      "portrait_image": "econ/sets/v2/rattletrap_clown_of_toy_circus",
+      "items": [
+        {
+          "name": "Clown of Toy Circus Weapon",
+          "id": "17980",
+          "item_name": "#DOTA_Item_Vote_Only_Clown_of_Toy_Circus_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Clown of Toy Circus Head",
+          "id": "17981",
+          "item_name": "#DOTA_Item_Vote_Only_Clown_of_Toy_Circus_Head",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Clown of Toy Circus Armor",
+          "id": "17982",
+          "item_name": "#DOTA_Item_Vote_Only_Clown_of_Toy_Circus_Armor",
+          "item_slot": "armor",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Clown of Toy Circus Misc",
+          "id": "17983",
+          "item_name": "#DOTA_Item_Vote_Only_Clown_of_Toy_Circus_Misc",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Clown of Toy Circus Cogs",
+          "id": "17991",
+          "item_name": "#DOTA_Clown_of_Toy_Circus_Cogs",
+          "item_slot": "ability2",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Knight_of_the_Clock_Tower",
+      "store_bundle": "Knight of the Clock Tower",
+      "portrait_image": "econ/sets/v2/rattletrap_knight_of_the_clock_tower",
+      "items": [
+        {
+          "name": "Knight of the Clock Tower Weapon",
+          "id": "12438",
+          "item_name": "#DOTA_Item_Knight_of_the_Clock_Tower_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Knight of the Clock Tower Misc",
+          "id": "12456",
+          "item_name": "#DOTA_Item_Knight_of_the_Clock_Tower_Misc",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Knight of the Clock Tower Head",
+          "id": "12457",
+          "item_name": "#DOTA_Item_Knight_of_the_Clock_Tower_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Knight of the Clock Tower Armor",
+          "id": "12458",
+          "item_name": "#DOTA_Item_Knight_of_the_Clock_Tower_Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Knight of the Clock Tower Power Cogs",
+          "id": "12459",
+          "item_name": "#DOTA_Knight_of_the_Clock_Tower_Power_Cogs",
+          "item_slot": "ability2",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Brass_Flyer",
+      "store_bundle": "The Brass Flyer",
+      "portrait_image": "econ/sets/v2/rattletrap_the_brass_flyer",
+      "items": [
+        {
+          "name": "The Brass Flyer Head",
+          "id": "17739",
+          "item_name": "#DOTA_Item_The_Brass_Flyer_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Brass Flyer Armor",
+          "id": "17738",
+          "item_name": "#DOTA_Item_The_Brass_Flyer_Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Brass Flyer Weapon",
+          "id": "17737",
+          "item_name": "#DOTA_Item_The_Brass_Flyer_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Brass Flyer Missile",
+          "id": "17736",
+          "item_name": "#DOTA_Item_The_Brass_Flyer_Missile",
+          "item_slot": "misc",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Seadogs_Stash",
+      "store_bundle": "Seadog's Stash",
+      "portrait_image": "econ/sets/v2/seadogs_stash",
+      "items": [
+        {
+          "name": "Seadog's Stash - Armor",
+          "id": "25780",
+          "item_name": "#DOTA_Item_Seadogs_Stash__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Seadog's Stash - Head",
+          "id": "25781",
+          "item_name": "#DOTA_Item_Seadogs_Stash__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Seadog's Stash - Rocket",
+          "id": "25782",
+          "item_name": "#DOTA_Item_Seadogs_Stash__Rocket",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Seadog's Stash - Weapon",
+          "id": "25783",
+          "item_name": "#DOTA_Item_Seadogs_Stash__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Seadog's Stash - Power Cogs",
+          "id": "26139",
+          "item_name": "#DOTA_Item_Seadogs_Stash__Power_Cogs",
+          "item_slot": "ability2",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Steelcrow_Munitions",
+      "store_bundle": "Steelcrow Munitions",
+      "portrait_image": "econ/sets/v2/steelcrow_munitions",
+      "items": [
+        {
+          "name": "Pack of the Steelcrow",
+          "id": "9013",
+          "item_name": "#DOTA_Item_Pack_of_the_Steelcrow",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Helmet of the Steelcrow",
+          "id": "9014",
+          "item_name": "#DOTA_Item_Helmet_of_the_Steelcrow",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Talon of the Steelcrow",
+          "id": "9015",
+          "item_name": "#DOTA_Item_Talon_of_the_Steelcrow",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Rocket of the Steelcrow",
+          "id": "9016",
+          "item_name": "#DOTA_Item_Rocket_of_the_Steelcrow",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Iron_Pioneer",
+      "store_bundle": "The Iron Pioneer",
+      "portrait_image": "econ/sets/v2/the_iron_pioneer",
+      "items": [
+        {
+          "name": "The Iron Pioneer Harpoon",
+          "id": "12737",
+          "item_name": "#DOTA_Item_The_Iron_Pioneer_Harpoon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Iron Pioneer Missile",
+          "id": "12736",
+          "item_name": "#DOTA_Item_The_Iron_Pioneer_Missile",
+          "item_slot": "misc",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Iron Pioneer Armor",
+          "id": "12735",
+          "item_name": "#DOTA_Item_The_Iron_Pioneer_Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Iron Pioneer Helm",
+          "id": "12734",
+          "item_name": "#DOTA_Item_The_Iron_Pioneer_Helm",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Iron Pioneer Cogs",
+          "id": "12733",
+          "item_name": "#DOTA_Item_The_Iron_Pioneer_Cogs",
+          "item_slot": "ability2",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Keen_Commander",
+      "store_bundle": "The Keen Commander",
+      "portrait_image": "econ/sets/v2/the_keen_commander",
+      "items": [
+        {
+          "name": "Cap of the Keen Commander",
+          "id": "9509",
+          "item_name": "#DOTA_Item_Cap_of_the_Keen_Commander",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Rocket of the Keen Commander",
+          "id": "9508",
+          "item_name": "#DOTA_Item_Rocket_of_the_Keen_Commander",
+          "item_slot": "misc",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Gear of the Keen Commander",
+          "id": "9507",
+          "item_name": "#DOTA_Item_Gear_of_the_Keen_Commander",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Harpoon of the Keen Commander",
+          "id": "9506",
+          "item_name": "#DOTA_Item_Harpoon_of_the_Keen_Commander",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Cog of the Keen Commander",
+          "id": "9207",
+          "item_name": "#DOTA_Item_Cog_of_the_Keen_Commander",
+          "item_slot": "ability2",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Warcog",
+      "store_bundle": "Warcog",
+      "portrait_image": "econ/sets/v2/warcog",
+      "items": [
+        {
+          "name": "Warcog Electro Zapper",
+          "id": "7125",
+          "item_name": "#DOTA_Item_Warcog_Electro_Zapper",
+          "item_slot": "ability2",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Warcog Body Armor",
+          "id": "5090",
+          "item_name": "#DOTA_Item_Warcog_Body_Armor",
+          "item_slot": "armor",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Warcog Trench Digger",
+          "id": "7122",
+          "item_name": "#DOTA_Item_Warcog_Trench_Digger",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Warcog Metal Mask",
+          "id": "7123",
+          "item_name": "#DOTA_Item_Warcog_Metal_Mask",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Warcog Blaster Shell",
+          "id": "7126",
+          "item_name": "#DOTA_Item_Warcog_Blaster_Shell",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "231",
+      "name": "Clockwerk's Rocket",
+      "item_name": "#DOTA_Item_Clockwerks_Rocket",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "446",
+      "name": "Clockwerk's Weapon",
+      "item_name": "#DOTA_Item_Clockwerks_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "484",
+      "name": "Clockwerk's Armor",
+      "item_name": "#DOTA_Item_Clockwerks_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "485",
+      "name": "Clockwerk's Head",
+      "item_name": "#DOTA_Item_Clockwerks_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "724",
+      "name": "Clockwerk's Costume",
+      "item_name": "#DOTA_Item_Clockwerks_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "5090",
+      "name": "Warcog Body Armor",
+      "item_name": "#DOTA_Item_Warcog_Body_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6239",
+      "name": "Telebolt Projektor",
+      "item_name": "#DOTA_Item_Telebolt_Projektor",
+      "item_slot": "ability2",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6413",
+      "name": "Clock Master's Survival Gear",
+      "item_name": "#DOTA_Item_Clock_Masters_Survival_Gear",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6414",
+      "name": "Clock Master's Helmet",
+      "item_name": "#DOTA_Item_Clock_Masters_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6415",
+      "name": "Clock Master's Hook",
+      "item_name": "#DOTA_Item_Clock_Masters_Hook",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6416",
+      "name": "Clock Master's Bunker Rocket",
+      "item_name": "#DOTA_Item_Clock_Masters_Bunker_Rocket",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6429",
+      "name": "Clock Master's Power Cogs",
+      "item_name": "#DOTA_Item_Clock_Masters_Power_Cogs",
+      "item_slot": "ability2",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6481",
+      "name": "Mortar Forge Claw",
+      "item_name": "#DOTA_Item_Mortar_Forge_Claw",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6482",
+      "name": "Mortar Forge Helm",
+      "item_name": "#DOTA_Item_Mortar_Forge_Helm",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6484",
+      "name": "Mortar Forge Rocket Cannon",
+      "item_name": "#DOTA_Item_Mortar_Forge_Rocket_Cannon",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6485",
+      "name": "Mortar Forge Steam Exoskeleton",
+      "item_name": "#DOTA_Item_Mortar_Forge_Steam_Exoskeleton",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6541",
+      "name": "Scrapper's Helm",
+      "item_name": "#DOTA_Item_Scrappers_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6702",
+      "name": "Genuine Scrapper's Helm",
+      "item_name": "#DOTA_Item_Genuine_Scrappers_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6805",
+      "name": "Artisan of Havoc Helmet",
+      "item_name": "#DOTA_Item_Artisan_of_Havoc_Helmet",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6809",
+      "name": "Artisan of Havoc Armor",
+      "item_name": "#DOTA_Item_Artisan_of_Havoc_Armor",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6810",
+      "name": "Artisan of Havoc Hook",
+      "item_name": "#DOTA_Item_Artisan_of_Havoc_Hook",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6811",
+      "name": "Artisan of Havoc Rocket",
+      "item_name": "#DOTA_Item_Artisan_of_Havoc_Rocket",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6823",
+      "name": "Eternal Machine Head",
+      "item_name": "#DOTA_Item_Eternal_Machine_Head",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6945",
+      "name": "Battletrap Armor",
+      "item_name": "#DOTA_Item_Battletrap_Armor",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6950",
+      "name": "Battletrap Battlehelm",
+      "item_name": "#DOTA_Item_Battletrap_Battlehelm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7017",
+      "name": "Armor of the Iron Clock Knight",
+      "item_name": "#DOTA_Item_Armor_of_the_Iron_Clock_Knight",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7018",
+      "name": "Head of the Iron Clock Knight",
+      "item_name": "#DOTA_Item_Head_of_the_Iron_Clock_Knight",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7030",
+      "name": "Rocket of the Iron Clock Knight",
+      "item_name": "#DOTA_Item_Rocket_of_the_Iron_Clock_Knight",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7031",
+      "name": "Hook of the Iron Clock Knight",
+      "item_name": "#DOTA_Item_Hook_of_the_Iron_Clock_Knight",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7037",
+      "name": "Battletrap Bullet Flare",
+      "item_name": "#DOTA_Item_Battletrap_Bullet_Flare",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7038",
+      "name": "Battletrap Battlewrench",
+      "item_name": "#DOTA_Item_Battletrap_Battlewrench",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7051",
+      "name": "Battletrap Battle Cog",
+      "item_name": "#DOTA_Item_Battletrap_Battle_Cog",
+      "item_slot": "ability2",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7122",
+      "name": "Warcog Trench Digger",
+      "item_name": "#DOTA_Item_Warcog_Trench_Digger",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7123",
+      "name": "Warcog Metal Mask",
+      "item_name": "#DOTA_Item_Warcog_Metal_Mask",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7125",
+      "name": "Warcog Electro Zapper",
+      "item_name": "#DOTA_Item_Warcog_Electro_Zapper",
+      "item_slot": "ability2",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7126",
+      "name": "Warcog Blaster Shell",
+      "item_name": "#DOTA_Item_Warcog_Blaster_Shell",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7410",
+      "name": "Cog of the Mechanised Pilgrim",
+      "item_name": "#DOTA_Item_Cog_of_the_Mechanised_Pilgrim",
+      "item_slot": "ability2",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7466",
+      "name": "Paraflare Cannon",
+      "item_name": "#DOTA_Item_Paraflare_Cannon",
+      "item_slot": "misc",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8068",
+      "name": "Taunt: Do the Robot!",
+      "item_name": "#DOTA_Item_Taunt_Do_the_Robot",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "8635",
+      "name": "Clockwerk's Power Cogs",
+      "item_name": "#DOTA_Item_Clockwerks_Power_Cogs",
+      "item_slot": "ability2",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "8776",
+      "name": "Armor of the Mechanised Pilgrim",
+      "item_name": "#DOTA_Item_Armor_of_the_Mechanised_Pilgrim",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8777",
+      "name": "Searchlight Helm of the Mechanised Pilgrim",
+      "item_name": "#DOTA_Item_Searchlight_Helm_of_the_Mechanised_Pilgrim",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8778",
+      "name": "Flare of the Mechanised Pilgrim",
+      "item_name": "#DOTA_Item_Flare_of_the_Mechanised_Pilgrim",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8779",
+      "name": "Hammer of the Mechanised Pilgrim",
+      "item_name": "#DOTA_Item_Hammer_of_the_Mechanised_Pilgrim",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9013",
+      "name": "Pack of the Steelcrow",
+      "item_name": "#DOTA_Item_Pack_of_the_Steelcrow",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9014",
+      "name": "Helmet of the Steelcrow",
+      "item_name": "#DOTA_Item_Helmet_of_the_Steelcrow",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9015",
+      "name": "Talon of the Steelcrow",
+      "item_name": "#DOTA_Item_Talon_of_the_Steelcrow",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9016",
+      "name": "Rocket of the Steelcrow",
+      "item_name": "#DOTA_Item_Rocket_of_the_Steelcrow",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9207",
+      "name": "Cog of the Keen Commander",
+      "item_name": "#DOTA_Item_Cog_of_the_Keen_Commander",
+      "item_slot": "ability2",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9347",
+      "name": "Mines of the Pressure Regulator",
+      "item_name": "#DOTA_Item_Mines_of_the_Pressure_Regulator",
+      "item_slot": "ability2",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9348",
+      "name": "Harpoon of the Pressure Regulator",
+      "item_name": "#DOTA_Item_Harpoon_of_the_Pressure_Regulator",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9349",
+      "name": "Torpedo of the Pressure Regulator",
+      "item_name": "#DOTA_Item_Torpedo_of_the_Pressure_Regulator",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9350",
+      "name": "Diving Helm of the Pressure Regulator",
+      "item_name": "#DOTA_Item_Diving_Helm_of_the_Pressure_Regulator",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9351",
+      "name": "Valves of the Pressure Regulator",
+      "item_name": "#DOTA_Item_Valves_of_the_Pressure_Regulator",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9506",
+      "name": "Harpoon of the Keen Commander",
+      "item_name": "#DOTA_Item_Harpoon_of_the_Keen_Commander",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9507",
+      "name": "Gear of the Keen Commander",
+      "item_name": "#DOTA_Item_Gear_of_the_Keen_Commander",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9508",
+      "name": "Rocket of the Keen Commander",
+      "item_name": "#DOTA_Item_Rocket_of_the_Keen_Commander",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9509",
+      "name": "Cap of the Keen Commander",
+      "item_name": "#DOTA_Item_Cap_of_the_Keen_Commander",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12230",
+      "name": "Pit Boss Prospector Heavy Hammer",
+      "item_name": "#DOTA_Item_Pit_Boss_Prospector_Heavy_Hammer",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12231",
+      "name": "Pit Boss Prospector Helm",
+      "item_name": "#DOTA_Item_Pit_Boss_Prospector_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12233",
+      "name": "Pit Boss Prospector Power Cog",
+      "item_name": "#DOTA_Item_Pit_Boss_Prospector_Power_Cog",
+      "item_slot": "ability2",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12234",
+      "name": "Pit Boss Prospector Drill",
+      "item_name": "#DOTA_Item_Pit_Boss_Prospector_Drill",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12235",
+      "name": "Pit Boss Prospector Pick",
+      "item_name": "#DOTA_Item_Pit_Boss_Prospector_Pick",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12438",
+      "name": "Knight of the Clock Tower Weapon",
+      "item_name": "#DOTA_Item_Knight_of_the_Clock_Tower_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12456",
+      "name": "Knight of the Clock Tower Misc",
+      "item_name": "#DOTA_Item_Knight_of_the_Clock_Tower_Misc",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12457",
+      "name": "Knight of the Clock Tower Head",
+      "item_name": "#DOTA_Item_Knight_of_the_Clock_Tower_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12458",
+      "name": "Knight of the Clock Tower Armor",
+      "item_name": "#DOTA_Item_Knight_of_the_Clock_Tower_Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12459",
+      "name": "Knight of the Clock Tower Power Cogs",
+      "item_name": "#DOTA_Knight_of_the_Clock_Tower_Power_Cogs",
+      "item_slot": "ability2",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12733",
+      "name": "The Iron Pioneer Cogs",
+      "item_name": "#DOTA_Item_The_Iron_Pioneer_Cogs",
+      "item_slot": "ability2",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12734",
+      "name": "The Iron Pioneer Helm",
+      "item_name": "#DOTA_Item_The_Iron_Pioneer_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12735",
+      "name": "The Iron Pioneer Armor",
+      "item_name": "#DOTA_Item_The_Iron_Pioneer_Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12736",
+      "name": "The Iron Pioneer Missile",
+      "item_name": "#DOTA_Item_The_Iron_Pioneer_Missile",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12737",
+      "name": "The Iron Pioneer Harpoon",
+      "item_name": "#DOTA_Item_The_Iron_Pioneer_Harpoon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13292",
+      "name": "Cogs of the Sunbound Directive",
+      "item_name": "#DOTA_Item_Cogs_of_the_Sunbound_Directive",
+      "item_slot": "ability2",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13293",
+      "name": "Rocket of the Sunbound Directive",
+      "item_name": "#DOTA_Item_Rocket_of_the_Sunbound_Directive",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13294",
+      "name": "Club of the Sunbound Directive",
+      "item_name": "#DOTA_Item_Club_of_the_Sunbound_Directive",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13295",
+      "name": "Helm of the Sunbound Directive",
+      "item_name": "#DOTA_Item_Helm_of_the_Sunbound_Directive",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13296",
+      "name": "Armor of the Sunbound Directive",
+      "item_name": "#DOTA_Item_Armor_of_the_Sunbound_Directive",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13694",
+      "name": "Mechanical Departure Armor",
+      "item_name": "#DOTA_Item_Mechanical_Departure_Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13695",
+      "name": "Mechanical Departure Head",
+      "item_name": "#DOTA_Item_Mechanical_Departure_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13758",
+      "name": "Golden Rabid Watchcog",
+      "item_name": "#DOTA_Item_Golden_Rabid_Watchcog",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13878",
+      "name": "Mechanical Departure Rocket",
+      "item_name": "#DOTA_Item_Mechanical_Departure_Rocket",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13879",
+      "name": "Mechanical Departure Weapon",
+      "item_name": "#DOTA_Item_Mechanical_Departure_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13881",
+      "name": "Mechanical Departure Cogs",
+      "item_name": "#DOTA_Item_Mechanical_Departure_Cogs",
+      "item_slot": "ability2",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14699",
+      "name": "Distinguished Forgemaster - Armor",
+      "item_name": "#DOTA_Item_Distinguished_Forgemaster__Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14700",
+      "name": "Distinguished Forgemaster - Weapon",
+      "item_name": "#DOTA_Item_Distinguished_Forgemaster__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14701",
+      "name": "Distinguished Forgemaster - Misc",
+      "item_name": "#DOTA_Item_Distinguished_Forgemaster__Misc",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14702",
+      "name": "Distinguished Forgemaster - Head",
+      "item_name": "#DOTA_Item_Distinguished_Forgemaster__Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14703",
+      "name": "Distinguished Forgemaster - Forge",
+      "item_name": "#DOTA_Item_Distinguished_Forgemaster__Forge",
+      "item_slot": "ability2",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14873",
+      "name": "Cogwatch Captain Weapon",
+      "item_name": "#DOTA_Item_Cogwatch_Captain_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14874",
+      "name": "Cogwatch Captain Rocket",
+      "item_name": "#DOTA_Item_Cogwatch_Captain_Rocket",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14875",
+      "name": "Cogwatch Captain Head",
+      "item_name": "#DOTA_Item_Cogwatch_Captain_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14876",
+      "name": "Cogwatch Captain Armor",
+      "item_name": "#DOTA_Item_Cogwatch_Captain_Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14877",
+      "name": "Cogwatch Captain Cogs",
+      "item_name": "#DOTA_Item_Cogwatch_Captain_Cogs",
+      "item_slot": "ability2",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14992",
+      "name": "Rabid Watchcog",
+      "item_name": "#DOTA_Item_Rabid_Watchcog",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17736",
+      "name": "The Brass Flyer Missile",
+      "item_name": "#DOTA_Item_The_Brass_Flyer_Missile",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17737",
+      "name": "The Brass Flyer Weapon",
+      "item_name": "#DOTA_Item_The_Brass_Flyer_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17738",
+      "name": "The Brass Flyer Armor",
+      "item_name": "#DOTA_Item_The_Brass_Flyer_Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17739",
+      "name": "The Brass Flyer Head",
+      "item_name": "#DOTA_Item_The_Brass_Flyer_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17808",
+      "name": "Clockwerk's Diretide Shimmer Costume",
+      "item_name": "#DOTA_Item_Clockwerks_Diretide_Shimmer_Costume",
+      "item_slot": "costume",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17809",
+      "name": "Clockwerk's Diretide Shimmer Head",
+      "item_name": "#DOTA_Item_Clockwerks_Diretide_Shimmer_Head",
+      "item_slot": "head",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17810",
+      "name": "Clockwerk's Diretide Shimmer Armor",
+      "item_name": "#DOTA_Item_Clockwerks_Diretide_Shimmer_Armor",
+      "item_slot": "armor",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17811",
+      "name": "Clockwerk's Diretide Shimmer Rocket",
+      "item_name": "#DOTA_Item_Clockwerks_Diretide_Shimmer_Rocket",
+      "item_slot": "misc",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17812",
+      "name": "Clockwerk's Diretide Shimmer Weapon",
+      "item_name": "#DOTA_Item_Clockwerks_Diretide_Shimmer_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17951",
+      "name": "Mind of Endless Days",
+      "item_name": "#DOTA_Item_Mind_of_Endless_Days",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17952",
+      "name": "Armor of Endless Days",
+      "item_name": "#DOTA_Item_Armor_of_Endless_Days",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17953",
+      "name": "Hook of Endless Days",
+      "item_name": "#DOTA_Item_Hook_of_Endless_Days",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17954",
+      "name": "Rocket of Endless Days",
+      "item_name": "#DOTA_Item_Rocket_of_Endless_Days",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17955",
+      "name": "Cogs of Endless Days",
+      "item_name": "#DOTA_Item_Cogs_of_Endless_Days",
+      "item_slot": "ability2",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17980",
+      "name": "Clown of Toy Circus Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_Clown_of_Toy_Circus_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17981",
+      "name": "Clown of Toy Circus Head",
+      "item_name": "#DOTA_Item_Vote_Only_Clown_of_Toy_Circus_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17982",
+      "name": "Clown of Toy Circus Armor",
+      "item_name": "#DOTA_Item_Vote_Only_Clown_of_Toy_Circus_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17983",
+      "name": "Clown of Toy Circus Misc",
+      "item_name": "#DOTA_Item_Vote_Only_Clown_of_Toy_Circus_Misc",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17991",
+      "name": "Clown of Toy Circus Cogs",
+      "item_name": "#DOTA_Clown_of_Toy_Circus_Cogs",
+      "item_slot": "ability2",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19186",
+      "name": "Apex Automated - Power Cog",
+      "item_name": "#DOTA_Item_Apex_Automated__Power_Cog",
+      "item_slot": "ability2",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19187",
+      "name": "Apex Automated - Weapon",
+      "item_name": "#DOTA_Item_Apex_Automated__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19188",
+      "name": "Apex Automated - Rocket",
+      "item_name": "#DOTA_Item_Apex_Automated__Rocket",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19189",
+      "name": "Apex Automated - Head",
+      "item_name": "#DOTA_Item_Apex_Automated__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19190",
+      "name": "Apex Automated - Armor",
+      "item_name": "#DOTA_Item_Apex_Automated__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20491",
+      "name": "Clock Master",
+      "item_name": "#DOTA_Item_Clock_Master",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20549",
+      "name": "Mortar Forge",
+      "item_name": "#DOTA_Item_Mortar_Forge",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20553",
+      "name": "Artisan of Havoc",
+      "item_name": "#DOTA_Item_Artisan_of_Havoc",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20555",
+      "name": "Promo Artisan of Havoc",
+      "item_name": "#DOTA_Item_Promo_Artisan_of_Havoc",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20590",
+      "name": "Promo Mortar Forge",
+      "item_name": "#DOTA_Item_Promo_Mortar_Forge",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20633",
+      "name": "Iron Clock Knight",
+      "item_name": "#DOTA_Item_Iron_Clock_Knight",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20657",
+      "name": "Battletrap",
+      "item_name": "#DOTA_Item_Battletrap",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20670",
+      "name": "Warcog",
+      "item_name": "#DOTA_Item_Warcog",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20835",
+      "name": "Steelcrow Munitions",
+      "item_name": "#DOTA_Item_Steelcrow_Munitions",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20973",
+      "name": "Mechanised Pilgrim",
+      "item_name": "#DOTA_Item_Mechanised_Pilgrim",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21121",
+      "name": "Pressure Regulator",
+      "item_name": "#DOTA_Item_Pressure_Regulator",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21141",
+      "name": "The Keen Commander",
+      "item_name": "#DOTA_Item_The_Keen_Commander",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21221",
+      "name": "Pit Boss Prospector",
+      "item_name": "#DOTA_Item_Pit_Boss_Prospector",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21240",
+      "name": "Knight of the Clock Tower",
+      "item_name": "#DOTA_Item_Knight_of_the_Clock_Tower",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21289",
+      "name": "The Iron Pioneer",
+      "item_name": "#DOTA_Item_The_Iron_Pioneer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21381",
+      "name": "Directive of the Sunbound",
+      "item_name": "#DOTA_Item_Directive_of_the_Sunbound",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21456",
+      "name": "Mechanical Departure",
+      "item_name": "#DOTA_Item_Mechanical_Departure",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21577",
+      "name": "Distinguished Forgemaster",
+      "item_name": "#DOTA_Item_Distinguished_Forgemaster",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21611",
+      "name": "Cogwatch Captain",
+      "item_name": "#DOTA_Item_Cogwatch_Captain",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21638",
+      "name": "Clown of Toy Circus",
+      "item_name": "#DOTA_Item_Vote_Only_Clown_of_Toy_Circus",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21679",
+      "name": "The Brass Flyer",
+      "item_name": "#DOTA_Item_The_Brass_Flyer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21698",
+      "name": "Clockwerk's Diretide Shimmer Bundle",
+      "item_name": "#DOTA_Item_Clockwerks_Diretide_Shimmer_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21727",
+      "name": "Agony of Endless Days",
+      "item_name": "#DOTA_Item_Agony_of_Endless_Days",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21847",
+      "name": "Apex Automated",
+      "item_name": "#DOTA_Item_Apex_Automated",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25779",
+      "name": "Seadog's Stash",
+      "item_name": "#DOTA_Item_Seadogs_Stash",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25780",
+      "name": "Seadog's Stash - Armor",
+      "item_name": "#DOTA_Item_Seadogs_Stash__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25781",
+      "name": "Seadog's Stash - Head",
+      "item_name": "#DOTA_Item_Seadogs_Stash__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25782",
+      "name": "Seadog's Stash - Rocket",
+      "item_name": "#DOTA_Item_Seadogs_Stash__Rocket",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25783",
+      "name": "Seadog's Stash - Weapon",
+      "item_name": "#DOTA_Item_Seadogs_Stash__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26139",
+      "name": "Seadog's Stash - Power Cogs",
+      "item_name": "#DOTA_Item_Seadogs_Stash__Power_Cogs",
+      "item_slot": "ability2",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29601",
+      "name": "Hare of the Cog - Carrot",
+      "item_name": "#DOTA_Item_Hare_of_the_Cog__Carrot",
+      "item_slot": "ability2",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30955",
+      "name": "Hare of the Cog - Armor",
+      "item_name": "#DOTA_Item_Hare_of_the_Cog__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30956",
+      "name": "Hare of the Cog - Head",
+      "item_name": "#DOTA_Item_Hare_of_the_Cog__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30957",
+      "name": "Hare of the Cog - Misc",
+      "item_name": "#DOTA_Item_Hare_of_the_Cog__Misc",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30958",
+      "name": "Hare of the Cog - Weapon",
+      "item_name": "#DOTA_Item_Hare_of_the_Cog__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "31071",
+      "name": "Hare of the Cog",
+      "item_name": "#DOTA_Item_Hare_of_the_Cog",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    }
+  ]
+}

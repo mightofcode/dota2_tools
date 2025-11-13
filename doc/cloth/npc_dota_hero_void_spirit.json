@@ -1,0 +1,490 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "686",
+      "name": "Void Spirit's Weapon",
+      "item_name": "#DOTA_Item_Void_Spirits_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "687",
+      "name": "Void Spirit's Head",
+      "item_name": "#DOTA_Item_Void_Spirits_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "armor": {
+      "id": "688",
+      "name": "Void Spirit's Armor",
+      "item_name": "#DOTA_Item_Void_Spirits_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common"
+    },
+    "belt": {
+      "id": "689",
+      "name": "Void Spirit's Belt",
+      "item_name": "#DOTA_Item_Void_Spirits_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common"
+    },
+    "ambient_effects": {
+      "id": "690",
+      "name": "Void Spirit's Ambient Effects",
+      "item_name": "#DOTA_Item_Void_Spirits_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_10th_Anniversary_Hidden_Vector",
+      "store_bundle": "10th Anniversary Hidden Vector",
+      "portrait_image": "econ/sets/v2/10th_anniversary_hidden_vector",
+      "items": [
+        {
+          "name": "10th Anniversary Hidden Vector - Hat",
+          "id": "24612",
+          "item_name": "#DOTA_Item_10th_Anniversary_Hidden_Vector__Hat",
+          "item_slot": "head",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "10th Anniversary Hidden Vector - Blade",
+          "id": "27126",
+          "item_name": "#DOTA_Item_10th_Anniversary_Hidden_Vector__Blade",
+          "item_slot": "weapon",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "10th Anniversary Hidden Vector - Armor",
+          "id": "27127",
+          "item_name": "#DOTA_Item_10th_Anniversary_Hidden_Vector__Armor",
+          "item_slot": "armor",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "10th Anniversary Hidden Vector - Belt",
+          "id": "27128",
+          "item_name": "#DOTA_Item_10th_Anniversary_Hidden_Vector__Belt",
+          "item_slot": "belt",
+          "item_rarity": "immortal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Fascinations_of_Flight",
+      "store_bundle": "Fascinations of Flight",
+      "portrait_image": "econ/sets/v2/fascinations_of_flight",
+      "items": [
+        {
+          "name": "Fascinations of Flight - Weapon",
+          "id": "26577",
+          "item_name": "#DOTA_Item_Fascinations_of_Flight__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Fascinations of Flight - Head",
+          "id": "26665",
+          "item_name": "#DOTA_Item_Fascinations_of_Flight__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Fascinations of Flight - Armor",
+          "id": "26666",
+          "item_name": "#DOTA_Item_Fascinations_of_Flight__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Fascinations of Flight - Belt",
+          "id": "26668",
+          "item_name": "#DOTA_Item_Fascinations_of_Flight__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Hidden_Vector",
+      "store_bundle": "Hidden Vector",
+      "portrait_image": "econ/sets/v2/hidden_vector",
+      "items": [
+        {
+          "name": "Hidden Vector - Blade",
+          "id": "18363",
+          "item_name": "#DOTA_Item_Hidden_Vector__Blade",
+          "item_slot": "weapon",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Hidden Vector - Hat",
+          "id": "18364",
+          "item_name": "#DOTA_Item_Hidden_Vector__Hat",
+          "item_slot": "head",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Hidden Vector - Armor",
+          "id": "18365",
+          "item_name": "#DOTA_Item_Hidden_Vector__Armor",
+          "item_slot": "armor",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Hidden Vector - Belt",
+          "id": "18366",
+          "item_name": "#DOTA_Item_Hidden_Vector__Belt",
+          "item_slot": "belt",
+          "item_rarity": "immortal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sublime_Equilibrium",
+      "store_bundle": "Sublime Equilibrium",
+      "portrait_image": "econ/sets/v2/sublime_equilibrium",
+      "items": [
+        {
+          "name": "Sublime Equilibrium - Head",
+          "id": "26595",
+          "item_name": "#DOTA_Item_Sublime_Equilibrium__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Sublime Equilibrium - Weapon",
+          "id": "26597",
+          "item_name": "#DOTA_Item_Sublime_Equilibrium__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Sublime Equilibrium - Belt",
+          "id": "26659",
+          "item_name": "#DOTA_Item_Sublime_Equilibrium__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Sublime Equilibrium - Armor",
+          "id": "26661",
+          "item_name": "#DOTA_Item_Sublime_Equilibrium__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Umbral_Expanse",
+      "store_bundle": "Umbral Expanse",
+      "portrait_image": "econ/sets/v2/umbral_expanse",
+      "items": [
+        {
+          "name": "Umbral Expanse - Armor",
+          "id": "34321",
+          "item_name": "#DOTA_Item_Umbral_Expanse__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Umbral Expanse - Belt",
+          "id": "34322",
+          "item_name": "#DOTA_Item_Umbral_Expanse__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Umbral Expanse - Head",
+          "id": "34323",
+          "item_name": "#DOTA_Item_Umbral_Expanse__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Umbral Expanse - Weapon",
+          "id": "34324",
+          "item_name": "#DOTA_Item_Umbral_Expanse__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "686",
+      "name": "Void Spirit's Weapon",
+      "item_name": "#DOTA_Item_Void_Spirits_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "687",
+      "name": "Void Spirit's Head",
+      "item_name": "#DOTA_Item_Void_Spirits_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "688",
+      "name": "Void Spirit's Armor",
+      "item_name": "#DOTA_Item_Void_Spirits_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "689",
+      "name": "Void Spirit's Belt",
+      "item_name": "#DOTA_Item_Void_Spirits_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "690",
+      "name": "Void Spirit's Ambient Effects",
+      "item_name": "#DOTA_Item_Void_Spirits_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "6976",
+      "name": "Taunt: Curious Movements Indeed",
+      "item_name": "#DOTA_Item_Taunt_Curious_Movements_Indeed",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "taunt"
+    },
+    {
+      "id": "18363",
+      "name": "Hidden Vector - Blade",
+      "item_name": "#DOTA_Item_Hidden_Vector__Blade",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18364",
+      "name": "Hidden Vector - Hat",
+      "item_name": "#DOTA_Item_Hidden_Vector__Hat",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18365",
+      "name": "Hidden Vector - Armor",
+      "item_name": "#DOTA_Item_Hidden_Vector__Armor",
+      "item_slot": "armor",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18366",
+      "name": "Hidden Vector - Belt",
+      "item_name": "#DOTA_Item_Hidden_Vector__Belt",
+      "item_slot": "belt",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "21797",
+      "name": "Hidden Vector",
+      "item_name": "#DOTA_Item_Hidden_Vector",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "24612",
+      "name": "10th Anniversary Hidden Vector - Hat",
+      "item_name": "#DOTA_Item_10th_Anniversary_Hidden_Vector__Hat",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26577",
+      "name": "Fascinations of Flight - Weapon",
+      "item_name": "#DOTA_Item_Fascinations_of_Flight__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26593",
+      "name": "Sublime Equilibrium",
+      "item_name": "#DOTA_Item_Sublime_Equilibrium",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26595",
+      "name": "Sublime Equilibrium - Head",
+      "item_name": "#DOTA_Item_Sublime_Equilibrium__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26597",
+      "name": "Sublime Equilibrium - Weapon",
+      "item_name": "#DOTA_Item_Sublime_Equilibrium__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26659",
+      "name": "Sublime Equilibrium - Belt",
+      "item_name": "#DOTA_Item_Sublime_Equilibrium__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26661",
+      "name": "Sublime Equilibrium - Armor",
+      "item_name": "#DOTA_Item_Sublime_Equilibrium__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26664",
+      "name": "Fascinations of Flight",
+      "item_name": "#DOTA_Item_Fascinations_of_Flight",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26665",
+      "name": "Fascinations of Flight - Head",
+      "item_name": "#DOTA_Item_Fascinations_of_Flight__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26666",
+      "name": "Fascinations of Flight - Armor",
+      "item_name": "#DOTA_Item_Fascinations_of_Flight__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26668",
+      "name": "Fascinations of Flight - Belt",
+      "item_name": "#DOTA_Item_Fascinations_of_Flight__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27126",
+      "name": "10th Anniversary Hidden Vector - Blade",
+      "item_name": "#DOTA_Item_10th_Anniversary_Hidden_Vector__Blade",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27127",
+      "name": "10th Anniversary Hidden Vector - Armor",
+      "item_name": "#DOTA_Item_10th_Anniversary_Hidden_Vector__Armor",
+      "item_slot": "armor",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27128",
+      "name": "10th Anniversary Hidden Vector - Belt",
+      "item_name": "#DOTA_Item_10th_Anniversary_Hidden_Vector__Belt",
+      "item_slot": "belt",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27129",
+      "name": "10th Anniversary Hidden Vector",
+      "item_name": "#DOTA_Item_10th_Anniversary_Hidden_Vector",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "29688",
+      "name": "Fascinations of Flight - Vector Variant Weapon",
+      "item_name": "#DOTA_Item_Fascinations_of_Flight__Vector_Variant_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29689",
+      "name": "Fascinations of Flight - Vector Variant Head",
+      "item_name": "#DOTA_Item_Fascinations_of_Flight__Vector_Variant_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29799",
+      "name": "Fascinations of Flight - Vector Variant Armor",
+      "item_name": "#DOTA_Item_Fascinations_of_Flight__Vector_Variant_Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34320",
+      "name": "Umbral Expanse",
+      "item_name": "#DOTA_Item_Umbral_Expanse",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "34321",
+      "name": "Umbral Expanse - Armor",
+      "item_name": "#DOTA_Item_Umbral_Expanse__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34322",
+      "name": "Umbral Expanse - Belt",
+      "item_name": "#DOTA_Item_Umbral_Expanse__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34323",
+      "name": "Umbral Expanse - Head",
+      "item_name": "#DOTA_Item_Umbral_Expanse__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34324",
+      "name": "Umbral Expanse - Weapon",
+      "item_name": "#DOTA_Item_Umbral_Expanse__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    }
+  ]
+}

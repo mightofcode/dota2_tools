@@ -1,0 +1,1609 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "211",
+      "name": "Necrophos' Sickle",
+      "item_name": "#DOTA_Item_Necrophos_Sickle",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "body_head": {
+      "id": "212",
+      "name": "Necrophos' Beard",
+      "item_name": "#DOTA_Item_Necrophos_Beard",
+      "item_slot": "body_head",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "213",
+      "name": "Necrophos' Headdress",
+      "item_name": "#DOTA_Item_Necrophos_Headdress",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "shoulder": {
+      "id": "214",
+      "name": "Necrophos' Vestments",
+      "item_name": "#DOTA_Item_Necrophos_Vestments",
+      "item_slot": "shoulder",
+      "item_rarity": "common"
+    },
+    "ambient_effects": {
+      "id": "508",
+      "name": "Necrophos' Ambient Effects",
+      "item_name": "#DOTA_Item_Necrophos_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    },
+    "legs": {
+      "id": "659",
+      "name": "Necrophos' Skirt",
+      "item_name": "#DOTA_Item_Necrophos_Skirt",
+      "item_slot": "legs",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Apostle_of_Decay",
+      "store_bundle": "Apostle of Decay",
+      "portrait_image": "econ/sets/v2/apostle_of_decay",
+      "items": [
+        {
+          "name": "Vestments of Decay",
+          "id": "8930",
+          "item_name": "#DOTA_Item_Vestments_of_Decay",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Hood of Decay",
+          "id": "8927",
+          "item_name": "#DOTA_Item_Hood_of_Decay",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Mask of Decay",
+          "id": "8928",
+          "item_name": "#DOTA_Item_Mask_of_Decay",
+          "item_slot": "body_head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Scythe of Decay",
+          "id": "8929",
+          "item_name": "#DOTA_Item_Scythe_of_Decay",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Relics_of_the_Putrid_Pontiff",
+      "store_bundle": "Relics of the Putrid Pontiff Set",
+      "portrait_image": "econ/sets/v2/death_protest",
+      "items": [
+        {
+          "name": "Scythe of Twin Deaths",
+          "id": "4686",
+          "item_name": "#DOTA_Item_Scythe_of_Twin_Deaths",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Reliquary of Rotting Doom",
+          "id": "4687",
+          "item_name": "#DOTA_Item_Reliquary_of_Rotting_Doom",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Beard of Weeping Scorn",
+          "id": "4689",
+          "item_name": "#DOTA_Item_Beard_of_Weeping_Scorn",
+          "item_slot": "body_head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Pretiosa of Putrescense",
+          "id": "4688",
+          "item_name": "#DOTA_Item_Pretiosa_of_Putrescense",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Exodus_of_the_Plague_Witch",
+      "store_bundle": "Exodus of the Plague Witch",
+      "portrait_image": "econ/sets/v2/exodus_of_the_plague_witch",
+      "items": [
+        {
+          "name": "Exodus of the Plague Witch Beard",
+          "id": "9480",
+          "item_name": "#DOTA_Item_Exodus_of_the_Plague_Witch_Beard",
+          "item_slot": "body_head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Exodus of the Plague Witch Head",
+          "id": "9479",
+          "item_name": "#DOTA_Item_Exodus_of_the_Plague_Witch_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Exodus of the Plague Witch Back",
+          "id": "9478",
+          "item_name": "#DOTA_Item_Exodus_of_the_Plague_Witch_Back",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Exodus of the Plague Witch Weapon",
+          "id": "9477",
+          "item_name": "#DOTA_Item_Exodus_of_the_Plague_Witch_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Fowl_Omen",
+      "store_bundle": "Fowl Omen",
+      "portrait_image": "econ/sets/v2/fowl_omen",
+      "items": [
+        {
+          "name": "Fowl Omen Scythe",
+          "id": "13066",
+          "item_name": "#DOTA_Item_Fowl_Omen_Scythe",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Fowl Omen Beard",
+          "id": "13069",
+          "item_name": "#DOTA_Item_Fowl_Omen_Beard",
+          "item_slot": "body_head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Fowl Omen Head",
+          "id": "13068",
+          "item_name": "#DOTA_Item_Fowl_Omen_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Fowl Omen Skirt",
+          "id": "13067",
+          "item_name": "#DOTA_Item_Fowl_Omen_Skirt",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Fowl Omen Shoulder",
+          "id": "13065",
+          "item_name": "#DOTA_Item_Fowl_Omen_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Golden_Sullen_Sanctum",
+      "store_bundle": "Golden Sullen Sanctum",
+      "portrait_image": "econ/sets/v2/golden_sullen_sanctum",
+      "items": [
+        {
+          "name": "Golden Sullen Shrine",
+          "id": "24878",
+          "item_name": "#DOTA_Item_Golden_Sullen_Shrine",
+          "item_slot": "head",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Golden Sullen Strands",
+          "id": "24879",
+          "item_name": "#DOTA_Item_Golden_Sullen_Strands",
+          "item_slot": "body_head",
+          "item_rarity": "immortal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Immemorial_Emperor",
+      "store_bundle": "Immemorial Emperor Set",
+      "portrait_image": "econ/sets/v2/immemorial_emperor",
+      "items": [
+        {
+          "name": "Immemorial Emperor's Coronet",
+          "id": "6052",
+          "item_name": "#DOTA_Item_Immemorial_Emperors_Coronet",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Immemorial Emperor's Beard",
+          "id": "6051",
+          "item_name": "#DOTA_Item_Immemorial_Emperors_Beard",
+          "item_slot": "body_head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Immemorial Emperor's Mantle",
+          "id": "6053",
+          "item_name": "#DOTA_Item_Immemorial_Emperors_Mantle",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Immemorial Emperor's Scythe",
+          "id": "6054",
+          "item_name": "#DOTA_Item_Immemorial_Emperors_Scythe",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Master_Necromancer",
+      "store_bundle": "Master Necromancer",
+      "portrait_image": "econ/sets/v2/master_necromancer",
+      "items": [
+        {
+          "name": "Robe of the Master Necromancer",
+          "id": "8046",
+          "item_name": "#DOTA_Item_Robe_of_the_Master_Necromancer",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Scythe of the Master Necromancer",
+          "id": "8045",
+          "item_name": "#DOTA_Item_Scythe_of_the_Master_Necromancer",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Sleeves of the Master Necromancer",
+          "id": "8043",
+          "item_name": "#DOTA_Item_Sleeves_of_the_Master_Necromancer",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Guise of the Master Necromancer",
+          "id": "8044",
+          "item_name": "#DOTA_Item_Guise_of_the_Master_Necromancer",
+          "item_slot": "body_head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Lich_Master_Necromancer",
+      "store_bundle": "Lich Master Necromancer",
+      "portrait_image": "econ/sets/v2/necrolyte_lich_master_necromancer",
+      "items": [
+        {
+          "name": "Lich Sleeves of the Master Necromancer",
+          "id": "8474",
+          "item_name": "#DOTA_Item_Lich_Sleeves_of_the_Master_Necromancer",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Lich Guise of the Master Necromancer",
+          "id": "8475",
+          "item_name": "#DOTA_Item_Lich_Guise_of_the_Master_Necromancer",
+          "item_slot": "body_head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Lich Scythe of the Master Necromancer",
+          "id": "8476",
+          "item_name": "#DOTA_Item_Lich_Scythe_of_the_Master_Necromancer",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Lich Robe of the Master Necromancer",
+          "id": "8477",
+          "item_name": "#DOTA_Item_Lich_Robe_of_the_Master_Necromancer",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Plague_Baron",
+      "store_bundle": "Plague Baron",
+      "portrait_image": "econ/sets/v2/plague_baron",
+      "items": [
+        {
+          "name": "Plague Baron Collar",
+          "id": "17926",
+          "item_name": "#DOTA_Item_Plague_Baron_Collar",
+          "item_slot": "body_head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Plague Baron Hat",
+          "id": "17930",
+          "item_name": "#DOTA_Item_Plague_Baron_Hat",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Plague Baron Skirt",
+          "id": "17927",
+          "item_name": "#DOTA_Item_Plague_Baron_Skirt",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Plague Baron Wand",
+          "id": "17928",
+          "item_name": "#DOTA_Item_Plague_Baron_Wand",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Plague Baron Wings",
+          "id": "17929",
+          "item_name": "#DOTA_Item_Plague_Baron_Wings",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Robes_of_the_Heretic",
+      "store_bundle": "Robes of the Heretic",
+      "portrait_image": "econ/sets/v2/robes_of_the_heretic",
+      "items": [
+        {
+          "name": "Beard of the Heretic",
+          "id": "6377",
+          "item_name": "#DOTA_Item_Beard_of_the_Heretic",
+          "item_slot": "body_head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Hood of the Heretic",
+          "id": "6378",
+          "item_name": "#DOTA_Item_Hood_of_the_Heretic",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Scythe of the Heretic",
+          "id": "6379",
+          "item_name": "#DOTA_Item_Scythe_of_the_Heretic",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Mantle of the Heretic",
+          "id": "6380",
+          "item_name": "#DOTA_Item_Mantle_of_the_Heretic",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_RotIron_Ripper",
+      "store_bundle": "Rot-Iron Ripper",
+      "portrait_image": "econ/sets/v2/rotiron_ripper",
+      "items": [
+        {
+          "name": "Rot-Iron Ripper - Head",
+          "id": "25024",
+          "item_name": "#DOTA_Item_RotIron_Ripper__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Rot-Iron Ripper - Body",
+          "id": "25410",
+          "item_name": "#DOTA_Item_RotIron_Ripper__Body",
+          "item_slot": "body_head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Rot-Iron Ripper - Shoulders",
+          "id": "25411",
+          "item_name": "#DOTA_Item_RotIron_Ripper__Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Rot-Iron Ripper - Legs",
+          "id": "25412",
+          "item_name": "#DOTA_Item_RotIron_Ripper__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Rot-Iron Ripper - Weapon",
+          "id": "25413",
+          "item_name": "#DOTA_Item_RotIron_Ripper__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Scourge_Dominion",
+      "store_bundle": "Scourge Dominion",
+      "portrait_image": "econ/sets/v2/scourge_dominion",
+      "items": [
+        {
+          "name": "Scythe of the Scourge Dominion",
+          "id": "7728",
+          "item_name": "#DOTA_Item_Scythe_of_the_Scourge_Dominion",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mantle of the Scourge Dominion",
+          "id": "7738",
+          "item_name": "#DOTA_Item_Mantle_of_the_Scourge_Dominion",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Crown of the Scourge Dominion",
+          "id": "7729",
+          "item_name": "#DOTA_Item_Crown_of_the_Scourge_Dominion",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Beard of the Scourge Dominion",
+          "id": "7739",
+          "item_name": "#DOTA_Item_Beard_of_the_Scourge_Dominion",
+          "item_slot": "body_head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Serpents_Spite",
+      "store_bundle": [
+        "Serpent's Spite",
+        "Serpent's Spite"
+      ],
+      "portrait_image": "econ/sets/v2/serpents_spite",
+      "items": [
+        {
+          "name": "Serpent's Spite - Head",
+          "id": "32669",
+          "item_name": "#DOTA_Item_Serpents_Spite__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Serpent's Spite - Robe",
+          "id": "32670",
+          "item_name": "#DOTA_Item_Serpents_Spite__Robe",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Serpent's Spite - Sash",
+          "id": "32671",
+          "item_name": "#DOTA_Item_Serpents_Spite__Sash",
+          "item_slot": "body_head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Serpent's Spite - Scythe",
+          "id": "32672",
+          "item_name": "#DOTA_Item_Serpents_Spite__Scythe",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Serpent's Spite - Tail",
+          "id": "32673",
+          "item_name": "#DOTA_Item_Serpents_Spite__Tail",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sullen_Sanctum",
+      "store_bundle": "Sullen Sanctum",
+      "portrait_image": "econ/sets/v2/sullen_sanctum",
+      "items": [
+        {
+          "name": "Sullen Shrine",
+          "id": "23345",
+          "item_name": "#DOTA_Item_Sullen_Shrine",
+          "item_slot": "head",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Sullen Strands",
+          "id": "23346",
+          "item_name": "#DOTA_Item_Sullen_Strands",
+          "item_slot": "body_head",
+          "item_rarity": "immortal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Murid_Divine",
+      "store_bundle": "The Murid Divine",
+      "portrait_image": "econ/sets/v2/the_murid_divine",
+      "items": [
+        {
+          "name": "Staff of the Murid Divine",
+          "id": "9842",
+          "item_name": "#DOTA_Item_Staff_of_the_Murid_Divine",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Robe of the Murid Divine",
+          "id": "9841",
+          "item_name": "#DOTA_Item_Robe_of_the_Murid_Divine",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Legs of the Murid Divine",
+          "id": "9840",
+          "item_name": "#DOTA_Item_Legs_of_the_Murid_Divine",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Crown of the Murid Divine",
+          "id": "9839",
+          "item_name": "#DOTA_Item_Crown_of_the_Murid_Divine",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Beard of the Murid Divine",
+          "id": "9838",
+          "item_name": "#DOTA_Item_Beard_of_the_Murid_Divine",
+          "item_slot": "body_head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Plaguemonger",
+      "store_bundle": "The Plaguemonger",
+      "portrait_image": "econ/sets/v2/the_plaguemonger",
+      "items": [
+        {
+          "name": "Beard of the the Plaguemonger",
+          "id": "9484",
+          "item_name": "#DOTA_Item_Beard_of_the_the_Plaguemonger",
+          "item_slot": "body_head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Headdress of the Plaguemonger",
+          "id": "9483",
+          "item_name": "#DOTA_Item_Headdress_of_the_Plaguemonger",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Robe of the Plaguemonger",
+          "id": "9482",
+          "item_name": "#DOTA_Item_Robe_of_the_Plaguemonger",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Scythe of the Plaguemonger",
+          "id": "9481",
+          "item_name": "#DOTA_Item_Scythe_of_the_Plaguemonger",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Fringe of the Plaguemonger",
+          "id": "9760",
+          "item_name": "#DOTA_Item_Fringe_of_the_Plaguemonger",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Vestments_of_the_Ten_Plagues",
+      "store_bundle": "Vestments of the Ten Plagues Set",
+      "portrait_image": "econ/sets/v2/vestments_ten_plague_set",
+      "items": [
+        {
+          "name": "Vestments of the Ten Plagues Beard",
+          "id": "5622",
+          "item_name": "#DOTA_Item_Vestments_of_the_Ten_Plagues_Beard",
+          "item_slot": "body_head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Vestments of the Ten Plagues Helm",
+          "id": "5623",
+          "item_name": "#DOTA_Item_Vestments_of_the_Ten_Plagues_Helm",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Vestments of the Ten Plagues Shoulders",
+          "id": "5624",
+          "item_name": "#DOTA_Item_Vestments_of_the_Ten_Plagues_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Vestments of the Ten Plagues Scythe",
+          "id": "5625",
+          "item_name": "#DOTA_Item_Vestments_of_the_Ten_Plagues_Scythe",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Wrath_of_Ka",
+      "store_bundle": "Wrath of Ka",
+      "portrait_image": "econ/sets/v2/wrath_of_ka",
+      "items": [
+        {
+          "name": "Moldering Mask of Ka",
+          "id": "6291",
+          "item_name": "#DOTA_Item_Moldering_Mask_of_Ka",
+          "item_slot": "body_head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shroud of Ka",
+          "id": "7083",
+          "item_name": "#DOTA_Item_Shroud_of_Ka",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Wings of Ka",
+          "id": "7124",
+          "item_name": "#DOTA_Item_Wings_of_Ka",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Scythe of Ka",
+          "id": "7132",
+          "item_name": "#DOTA_Item_Scythe_of_Ka",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "211",
+      "name": "Necrophos' Sickle",
+      "item_name": "#DOTA_Item_Necrophos_Sickle",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "212",
+      "name": "Necrophos' Beard",
+      "item_name": "#DOTA_Item_Necrophos_Beard",
+      "item_slot": "body_head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "213",
+      "name": "Necrophos' Headdress",
+      "item_name": "#DOTA_Item_Necrophos_Headdress",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "214",
+      "name": "Necrophos' Vestments",
+      "item_name": "#DOTA_Item_Necrophos_Vestments",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "508",
+      "name": "Necrophos' Ambient Effects",
+      "item_name": "#DOTA_Item_Necrophos_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "659",
+      "name": "Necrophos' Skirt",
+      "item_name": "#DOTA_Item_Necrophos_Skirt",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4398",
+      "name": "Soul Reaper",
+      "item_name": "#DOTA_Item_Soul_Reaper",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4621",
+      "name": "Scythe of Pestilence",
+      "item_name": "#DOTA_Item_Scythe_of_Pestilence",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4686",
+      "name": "Scythe of Twin Deaths",
+      "item_name": "#DOTA_Item_Scythe_of_Twin_Deaths",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4687",
+      "name": "Reliquary of Rotting Doom",
+      "item_name": "#DOTA_Item_Reliquary_of_Rotting_Doom",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4688",
+      "name": "Pretiosa of Putrescense",
+      "item_name": "#DOTA_Item_Pretiosa_of_Putrescense",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4689",
+      "name": "Beard of Weeping Scorn",
+      "item_name": "#DOTA_Item_Beard_of_Weeping_Scorn",
+      "item_slot": "body_head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4730",
+      "name": "Direstone Liferipper",
+      "item_name": "#DOTA_Item_Direstone_Liferipper",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5098",
+      "name": "Raven Scythe",
+      "item_name": "#DOTA_Item_Raven_Scythe",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5420",
+      "name": "Laments of the Dead",
+      "item_name": "#DOTA_Item_Laments_of_the_Dead",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5622",
+      "name": "Vestments of the Ten Plagues Beard",
+      "item_name": "#DOTA_Item_Vestments_of_the_Ten_Plagues_Beard",
+      "item_slot": "body_head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5623",
+      "name": "Vestments of the Ten Plagues Helm",
+      "item_name": "#DOTA_Item_Vestments_of_the_Ten_Plagues_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5624",
+      "name": "Vestments of the Ten Plagues Shoulders",
+      "item_name": "#DOTA_Item_Vestments_of_the_Ten_Plagues_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5625",
+      "name": "Vestments of the Ten Plagues Scythe",
+      "item_name": "#DOTA_Item_Vestments_of_the_Ten_Plagues_Scythe",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6051",
+      "name": "Immemorial Emperor's Beard",
+      "item_name": "#DOTA_Item_Immemorial_Emperors_Beard",
+      "item_slot": "body_head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6052",
+      "name": "Immemorial Emperor's Coronet",
+      "item_name": "#DOTA_Item_Immemorial_Emperors_Coronet",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6053",
+      "name": "Immemorial Emperor's Mantle",
+      "item_name": "#DOTA_Item_Immemorial_Emperors_Mantle",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6054",
+      "name": "Immemorial Emperor's Scythe",
+      "item_name": "#DOTA_Item_Immemorial_Emperors_Scythe",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6291",
+      "name": "Moldering Mask of Ka",
+      "item_name": "#DOTA_Item_Moldering_Mask_of_Ka",
+      "item_slot": "body_head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6377",
+      "name": "Beard of the Heretic",
+      "item_name": "#DOTA_Item_Beard_of_the_Heretic",
+      "item_slot": "body_head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6378",
+      "name": "Hood of the Heretic",
+      "item_name": "#DOTA_Item_Hood_of_the_Heretic",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6379",
+      "name": "Scythe of the Heretic",
+      "item_name": "#DOTA_Item_Scythe_of_the_Heretic",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6380",
+      "name": "Mantle of the Heretic",
+      "item_name": "#DOTA_Item_Mantle_of_the_Heretic",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6591",
+      "name": "Scythe of Plague",
+      "item_name": "#DOTA_Item_Scythe_of_Plague",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7083",
+      "name": "Shroud of Ka",
+      "item_name": "#DOTA_Item_Shroud_of_Ka",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7124",
+      "name": "Wings of Ka",
+      "item_name": "#DOTA_Item_Wings_of_Ka",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7132",
+      "name": "Scythe of Ka",
+      "item_name": "#DOTA_Item_Scythe_of_Ka",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7427",
+      "name": "Sullen Hollow",
+      "item_name": "#DOTA_Item_Sullen_Hollow",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7508",
+      "name": "Golden Sullen Hollow",
+      "item_name": "#DOTA_Item_Golden_Sullen_Hollow",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7728",
+      "name": "Scythe of the Scourge Dominion",
+      "item_name": "#DOTA_Item_Scythe_of_the_Scourge_Dominion",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7729",
+      "name": "Crown of the Scourge Dominion",
+      "item_name": "#DOTA_Item_Crown_of_the_Scourge_Dominion",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7738",
+      "name": "Mantle of the Scourge Dominion",
+      "item_name": "#DOTA_Item_Mantle_of_the_Scourge_Dominion",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7739",
+      "name": "Beard of the Scourge Dominion",
+      "item_name": "#DOTA_Item_Beard_of_the_Scourge_Dominion",
+      "item_slot": "body_head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8043",
+      "name": "Sleeves of the Master Necromancer",
+      "item_name": "#DOTA_Item_Sleeves_of_the_Master_Necromancer",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8044",
+      "name": "Guise of the Master Necromancer",
+      "item_name": "#DOTA_Item_Guise_of_the_Master_Necromancer",
+      "item_slot": "body_head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8045",
+      "name": "Scythe of the Master Necromancer",
+      "item_name": "#DOTA_Item_Scythe_of_the_Master_Necromancer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8046",
+      "name": "Robe of the Master Necromancer",
+      "item_name": "#DOTA_Item_Robe_of_the_Master_Necromancer",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8474",
+      "name": "Lich Sleeves of the Master Necromancer",
+      "item_name": "#DOTA_Item_Lich_Sleeves_of_the_Master_Necromancer",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8475",
+      "name": "Lich Guise of the Master Necromancer",
+      "item_name": "#DOTA_Item_Lich_Guise_of_the_Master_Necromancer",
+      "item_slot": "body_head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8476",
+      "name": "Lich Scythe of the Master Necromancer",
+      "item_name": "#DOTA_Item_Lich_Scythe_of_the_Master_Necromancer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8477",
+      "name": "Lich Robe of the Master Necromancer",
+      "item_name": "#DOTA_Item_Lich_Robe_of_the_Master_Necromancer",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8927",
+      "name": "Hood of Decay",
+      "item_name": "#DOTA_Item_Hood_of_Decay",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8928",
+      "name": "Mask of Decay",
+      "item_name": "#DOTA_Item_Mask_of_Decay",
+      "item_slot": "body_head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8929",
+      "name": "Scythe of Decay",
+      "item_name": "#DOTA_Item_Scythe_of_Decay",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8930",
+      "name": "Vestments of Decay",
+      "item_name": "#DOTA_Item_Vestments_of_Decay",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9089",
+      "name": "Sullen Harvest",
+      "item_name": "#DOTA_Item_Sullen_Harvest",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9477",
+      "name": "Exodus of the Plague Witch Weapon",
+      "item_name": "#DOTA_Item_Exodus_of_the_Plague_Witch_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9478",
+      "name": "Exodus of the Plague Witch Back",
+      "item_name": "#DOTA_Item_Exodus_of_the_Plague_Witch_Back",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9479",
+      "name": "Exodus of the Plague Witch Head",
+      "item_name": "#DOTA_Item_Exodus_of_the_Plague_Witch_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9480",
+      "name": "Exodus of the Plague Witch Beard",
+      "item_name": "#DOTA_Item_Exodus_of_the_Plague_Witch_Beard",
+      "item_slot": "body_head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9481",
+      "name": "Scythe of the Plaguemonger",
+      "item_name": "#DOTA_Item_Scythe_of_the_Plaguemonger",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9482",
+      "name": "Robe of the Plaguemonger",
+      "item_name": "#DOTA_Item_Robe_of_the_Plaguemonger",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9483",
+      "name": "Headdress of the Plaguemonger",
+      "item_name": "#DOTA_Item_Headdress_of_the_Plaguemonger",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9484",
+      "name": "Beard of the the Plaguemonger",
+      "item_name": "#DOTA_Item_Beard_of_the_the_Plaguemonger",
+      "item_slot": "body_head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9760",
+      "name": "Fringe of the Plaguemonger",
+      "item_name": "#DOTA_Item_Fringe_of_the_Plaguemonger",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9838",
+      "name": "Beard of the Murid Divine",
+      "item_name": "#DOTA_Item_Beard_of_the_Murid_Divine",
+      "item_slot": "body_head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9839",
+      "name": "Crown of the Murid Divine",
+      "item_name": "#DOTA_Item_Crown_of_the_Murid_Divine",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9840",
+      "name": "Legs of the Murid Divine",
+      "item_name": "#DOTA_Item_Legs_of_the_Murid_Divine",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9841",
+      "name": "Robe of the Murid Divine",
+      "item_name": "#DOTA_Item_Robe_of_the_Murid_Divine",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9842",
+      "name": "Staff of the Murid Divine",
+      "item_name": "#DOTA_Item_Staff_of_the_Murid_Divine",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12932",
+      "name": "Sullen Rampart",
+      "item_name": "#DOTA_Item_Sullen_Rampart",
+      "item_slot": "legs",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13065",
+      "name": "Fowl Omen Shoulder",
+      "item_name": "#DOTA_Item_Fowl_Omen_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13066",
+      "name": "Fowl Omen Scythe",
+      "item_name": "#DOTA_Item_Fowl_Omen_Scythe",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13067",
+      "name": "Fowl Omen Skirt",
+      "item_name": "#DOTA_Item_Fowl_Omen_Skirt",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13068",
+      "name": "Fowl Omen Head",
+      "item_name": "#DOTA_Item_Fowl_Omen_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13069",
+      "name": "Fowl Omen Beard",
+      "item_name": "#DOTA_Item_Fowl_Omen_Beard",
+      "item_slot": "body_head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17926",
+      "name": "Plague Baron Collar",
+      "item_name": "#DOTA_Item_Plague_Baron_Collar",
+      "item_slot": "body_head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17927",
+      "name": "Plague Baron Skirt",
+      "item_name": "#DOTA_Item_Plague_Baron_Skirt",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17928",
+      "name": "Plague Baron Wand",
+      "item_name": "#DOTA_Item_Plague_Baron_Wand",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17929",
+      "name": "Plague Baron Wings",
+      "item_name": "#DOTA_Item_Plague_Baron_Wings",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17930",
+      "name": "Plague Baron Hat",
+      "item_name": "#DOTA_Item_Plague_Baron_Hat",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18212",
+      "name": "Aghs BP Beard of the Murid Divine",
+      "item_name": "#DOTA_Item_Aghs_BP_Beard_of_the_Murid_Divine",
+      "item_slot": "body_head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18213",
+      "name": "Aghs BP Crown of the Murid Divine",
+      "item_name": "#DOTA_Item_Aghs_BP_Crown_of_the_Murid_Divine",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18214",
+      "name": "Aghs BP Legs of the Murid Divine",
+      "item_name": "#DOTA_Item_Aghs_BP_Legs_of_the_Murid_Divine",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18215",
+      "name": "Aghs BP Robe of the Murid Divine",
+      "item_name": "#DOTA_Item_Aghs_BP_Robe_of_the_Murid_Divine",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18216",
+      "name": "Aghs BP Staff of the Murid Divine",
+      "item_name": "#DOTA_Item_Aghs_BP_Staff_of_the_Murid_Divine",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20107",
+      "name": "Relics of the Putrid Pontiff Set",
+      "item_name": "#DOTA_Item_Relics_of_the_Putrid_Pontiff_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20298",
+      "name": "Vestments of the Ten Plagues Set",
+      "item_name": "#DOTA_Item_Vestments_of_the_Ten_Plagues_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20375",
+      "name": "Immemorial Emperor Set",
+      "item_name": "#DOTA_Item_Immemorial_Emperor_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20481",
+      "name": "Robes of the Heretic",
+      "item_name": "#DOTA_Item_Robes_of_the_Heretic",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20676",
+      "name": "Wrath of Ka",
+      "item_name": "#DOTA_Item_Wrath_of_Ka",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20823",
+      "name": "Apostle of Decay",
+      "item_name": "#DOTA_Item_Apostle_of_Decay",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20882",
+      "name": "Master Necromancer",
+      "item_name": "#DOTA_Item_Master_Necromancer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20894",
+      "name": "Scourge Dominion",
+      "item_name": "#DOTA_Item_Scourge_Dominion",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21032",
+      "name": "Lich Master Necromancer",
+      "item_name": "#DOTA_Item_Lich_Master_Necromancer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21129",
+      "name": "The Plaguemonger",
+      "item_name": "#DOTA_Item_The_Plaguemonger",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21131",
+      "name": "Exodus of the Plague Witch",
+      "item_name": "#DOTA_Item_Exodus_of_the_Plague_Witch",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21195",
+      "name": "The Murid Divine",
+      "item_name": "#DOTA_Item_The_Murid_Divine",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21340",
+      "name": "Fowl Omen",
+      "item_name": "#DOTA_Item_Fowl_Omen",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21722",
+      "name": "Plague Baron",
+      "item_name": "#DOTA_Item_Plague_Baron",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22276",
+      "name": "Aghs BP The Murid Divine",
+      "item_name": "#DOTA_Item_Aghs_BP_The_Murid_Divine",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23345",
+      "name": "Sullen Shrine",
+      "item_name": "#DOTA_Item_Sullen_Shrine",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23346",
+      "name": "Sullen Strands",
+      "item_name": "#DOTA_Item_Sullen_Strands",
+      "item_slot": "body_head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23717",
+      "name": "Sullen Sanctum",
+      "item_name": "#DOTA_Item_Sullen_Sanctum",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "24878",
+      "name": "Golden Sullen Shrine",
+      "item_name": "#DOTA_Item_Golden_Sullen_Shrine",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "24879",
+      "name": "Golden Sullen Strands",
+      "item_name": "#DOTA_Item_Golden_Sullen_Strands",
+      "item_slot": "body_head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "24880",
+      "name": "Golden Sullen Sanctum",
+      "item_name": "#DOTA_Item_Golden_Sullen_Sanctum",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25023",
+      "name": "Rot-Iron Ripper",
+      "item_name": "#DOTA_Item_RotIron_Ripper",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25024",
+      "name": "Rot-Iron Ripper - Head",
+      "item_name": "#DOTA_Item_RotIron_Ripper__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25410",
+      "name": "Rot-Iron Ripper - Body",
+      "item_name": "#DOTA_Item_RotIron_Ripper__Body",
+      "item_slot": "body_head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25411",
+      "name": "Rot-Iron Ripper - Shoulders",
+      "item_name": "#DOTA_Item_RotIron_Ripper__Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25412",
+      "name": "Rot-Iron Ripper - Legs",
+      "item_name": "#DOTA_Item_RotIron_Ripper__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25413",
+      "name": "Rot-Iron Ripper - Weapon",
+      "item_name": "#DOTA_Item_RotIron_Ripper__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "32668",
+      "name": "Serpent's Spite",
+      "item_name": "#DOTA_Item_Serpents_Spite",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "32669",
+      "name": "Serpent's Spite - Head",
+      "item_name": "#DOTA_Item_Serpents_Spite__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "32670",
+      "name": "Serpent's Spite - Robe",
+      "item_name": "#DOTA_Item_Serpents_Spite__Robe",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "32671",
+      "name": "Serpent's Spite - Sash",
+      "item_name": "#DOTA_Item_Serpents_Spite__Sash",
+      "item_slot": "body_head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "32672",
+      "name": "Serpent's Spite - Scythe",
+      "item_name": "#DOTA_Item_Serpents_Spite__Scythe",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "32673",
+      "name": "Serpent's Spite - Tail",
+      "item_name": "#DOTA_Item_Serpents_Spite__Tail",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    }
+  ]
+}

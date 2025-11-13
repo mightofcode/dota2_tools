@@ -1,0 +1,1506 @@
+{
+  "defaults": {
+    "arms": {
+      "id": "394",
+      "name": "Techies Bomb Arsenal",
+      "item_name": "#DOTA_Item_Techies_Bomb_Arsenal",
+      "item_slot": "arms",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "487",
+      "name": "Techies Spoon Costume",
+      "item_name": "#DOTA_Item_Techies_Spoon_Costume",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "weapon": {
+      "id": "489",
+      "name": "Techies Slingshot",
+      "item_name": "#DOTA_Item_Techies_Slingshot",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "mount": {
+      "id": "490",
+      "name": "Techies Cart",
+      "item_name": "#DOTA_Item_Techies_Cart",
+      "item_slot": "mount",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "491",
+      "name": "Techies Spleen Costume",
+      "item_name": "#DOTA_Item_Techies_Spleen_Costume",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "shoulder": {
+      "id": "492",
+      "name": "Techies Squee Costume",
+      "item_name": "#DOTA_Item_Techies_Squee_Costume",
+      "item_slot": "shoulder",
+      "item_rarity": "common"
+    },
+    "belt": {
+      "id": "499",
+      "name": "Techies Sign",
+      "item_name": "#DOTA_Item_Techies_Sign",
+      "item_slot": "belt",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Bombtrails_and_Boomsticks",
+      "store_bundle": "Bombtrails and Boomsticks",
+      "portrait_image": "econ/sets/v2/bombtrails_and_boomsticks",
+      "items": [
+        {
+          "name": "Bombtrails and Boomsticks Sign",
+          "id": "6289",
+          "item_name": "#DOTA_Item_Bombtrails_and_Boomsticks_Sign",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bombtrails and Boomsticks Weapon",
+          "id": "6288",
+          "item_name": "#DOTA_Item_Bombtrails_and_Boomsticks_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bombtrails and Boomsticks Cart",
+          "id": "6046",
+          "item_name": "#DOTA_Item_Bombtrails_and_Boomsticks_Cart",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bombtrails and Boomsticks Squee",
+          "id": "6045",
+          "item_name": "#DOTA_Item_Bombtrails_and_Boomsticks_Squee",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bombtrails and Boomsticks Mines",
+          "id": "6044",
+          "item_name": "#DOTA_Item_Bombtrails_and_Boomsticks_Mines",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bombtrails and Boomsticks Spoon",
+          "id": "6043",
+          "item_name": "#DOTA_Item_Bombtrails_and_Boomsticks_Spoon",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bombtrails and Boomsticks Spleen",
+          "id": "6042",
+          "item_name": "#DOTA_Item_Bombtrails_and_Boomsticks_Spleen",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dire_Palico_Disguise_Bomb_Unit",
+      "store_bundle": "Dire Palico Disguise Bomb Unit",
+      "portrait_image": "econ/sets/v2/dire_palico_disguise_bomb_unit",
+      "items": [
+        {
+          "name": "Palico Sign",
+          "id": "34347",
+          "item_name": "#DOTA_Item_Palico_Sign",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Palico Sticky Bomb",
+          "id": "34237",
+          "item_name": "#DOTA_Item_Palico_Sticky_Bomb",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dire Palico Disguise Spleen",
+          "id": "35859",
+          "item_name": "#DOTA_Item_Dire_Palico_Disguise_Spleen",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dire Palico Disguise Squee",
+          "id": "35860",
+          "item_name": "#DOTA_Item_Dire_Palico_Disguise_Squee",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dire Palico Acorn Cannon",
+          "id": "36114",
+          "item_name": "#DOTA_Item_Dire_Palico_Acorn_Cannon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dire Barrel Disguise Spoon",
+          "id": "35861",
+          "item_name": "#DOTA_Item_Dire_Barrel_Disguise_Spoon",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dire Palico Tank",
+          "id": "36154",
+          "item_name": "#DOTA_Item_Dire_Palico_Tank",
+          "item_slot": "mount",
+          "item_rarity": "legendary"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_March_of_the_Powderkeg_Patrol",
+      "store_bundle": "March of the Powderkeg Patrol",
+      "portrait_image": "econ/sets/v2/march_of_the_powderkeg_patrol",
+      "items": [
+        {
+          "name": "Munitions of the Powderkeg Patrol",
+          "id": "12847",
+          "item_name": "#DOTA_Item_Munitions_of_the_Powderkeg_Patrol",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Cart of the Powderkeg Patrol",
+          "id": "12846",
+          "item_name": "#DOTA_Item_Cart_of_the_Powderkeg_Patrol",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mark of the Powderkeg Patrol",
+          "id": "12845",
+          "item_name": "#DOTA_Item_Mark_of_the_Powderkeg_Patrol",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Coat of the Powderkeg Patrol",
+          "id": "12841",
+          "item_name": "#DOTA_Item_Coat_of_the_Powderkeg_Patrol",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Keg of the Powderkeg Patrol",
+          "id": "12842",
+          "item_name": "#DOTA_Item_Keg_of_the_Powderkeg_Patrol",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Colors of the Powderkeg Patrol",
+          "id": "12843",
+          "item_name": "#DOTA_Item_Colors_of_the_Powderkeg_Patrol",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Remote Mine of the Powderkeg Patrol",
+          "id": "12844",
+          "item_name": "#DOTA_Item_Remote_Mine_of_the_Powderkeg_Patrol",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Pachyderm_Powderwagon",
+      "store_bundle": "Pachyderm Powderwagon",
+      "portrait_image": "econ/sets/v2/pachyderm_powderwagon",
+      "items": [
+        {
+          "name": "Pachyderm Powderwagon Sign",
+          "id": "13666",
+          "item_name": "#DOTA_Item_Pachyderm_Powderwagon_Sign",
+          "item_slot": "belt",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Pachyderm Powderwagon Remote Mine",
+          "id": "13548",
+          "item_name": "#DOTA_Item_Pachyderm_Powderwagon_Remote_Mine",
+          "item_slot": "arms",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Pachyderm Powderwagon Spoon",
+          "id": "13530",
+          "item_name": "#DOTA_Item_Pachyderm_Powderwagon_Spoon",
+          "item_slot": "back",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Pachyderm Powderwagon Weapon",
+          "id": "13529",
+          "item_name": "#DOTA_Item_Pachyderm_Powderwagon_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Pachyderm Powderwagon Spleen",
+          "id": "13526",
+          "item_name": "#DOTA_Item_Pachyderm_Powderwagon_Spleen",
+          "item_slot": "head",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Pachyderm Powderwagon Elephant",
+          "id": "13527",
+          "item_name": "#DOTA_Item_Pachyderm_Powderwagon_Elephant",
+          "item_slot": "mount",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Pachyderm Powderwagon Squee",
+          "id": "13528",
+          "item_name": "#DOTA_Item_Pachyderm_Powderwagon_Squee",
+          "item_slot": "shoulder",
+          "item_rarity": "immortal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Poison_Palico_Disguise_Bomb_Unit",
+      "store_bundle": "Poison Palico Disguise Bomb Unit",
+      "portrait_image": "econ/sets/v2/poison_palico_disguise_bomb_unit",
+      "items": [
+        {
+          "name": "Palico Sign",
+          "id": "34347",
+          "item_name": "#DOTA_Item_Palico_Sign",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Palico Sticky Bomb",
+          "id": "34237",
+          "item_name": "#DOTA_Item_Palico_Sticky_Bomb",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Poison Palico Tank",
+          "id": "36182",
+          "item_name": "#DOTA_Item_Poison_Palico_Tank",
+          "item_slot": "mount",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Poison Palico Acorn Cannon",
+          "id": "36184",
+          "item_name": "#DOTA_Item_Poison_Palico_Acorn_Cannon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Poison Palico Disguise Squee",
+          "id": "36185",
+          "item_name": "#DOTA_Item_Poison_Palico_Disguise_Squee",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Poison Palico Disguise Spleen",
+          "id": "36186",
+          "item_name": "#DOTA_Item_Poison_Palico_Disguise_Spleen",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Poison Barrel Disguise Spoon",
+          "id": "36183",
+          "item_name": "#DOTA_Item_Poison_Barrel_Disguise_Spoon",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Powdersled_Rookery",
+      "store_bundle": "Powdersled Rookery",
+      "portrait_image": "econ/sets/v2/powdersled_rookery",
+      "items": [
+        {
+          "name": "Powdersled Rookery Sled",
+          "id": "12836",
+          "item_name": "#DOTA_Item_Powdersled_Rookery_Sled",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Powdersled Rookery Cannon",
+          "id": "12834",
+          "item_name": "#DOTA_Item_Powdersled_Rookery_Cannon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Powdersled Rookery Bomb",
+          "id": "12835",
+          "item_name": "#DOTA_Item_Powdersled_Rookery_Bomb",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Powdersled Rookery Spleen",
+          "id": "12833",
+          "item_name": "#DOTA_Item_Powdersled_Rookery_Spleen",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Powdersled Rookery Squee",
+          "id": "12839",
+          "item_name": "#DOTA_Item_Powdersled_Rookery_Squee",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Powdersled Rookery Spoon",
+          "id": "12840",
+          "item_name": "#DOTA_Item_Powdersled_Rookery_Spoon",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Powdersled Rookery Sign",
+          "id": "12837",
+          "item_name": "#DOTA_Item_Powdersled_Rookery_Sign",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Primer_of_the_Sappers_Guile",
+      "store_bundle": "Primer of the Sapper's Guile",
+      "portrait_image": "econ/sets/v2/primer_of_the_sappers_guile",
+      "items": [
+        {
+          "name": "Skip of the Sapper's Guile",
+          "id": "9966",
+          "item_name": "#DOTA_Item_Skip_of_the_Sappers_Guile",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Helm of the Sapper's Guile",
+          "id": "9965",
+          "item_name": "#DOTA_Item_Helm_of_the_Sappers_Guile",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Sack of the Sapper's Guile",
+          "id": "9964",
+          "item_name": "#DOTA_Item_Sack_of_the_Sappers_Guile",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Implements of the Sapper's Guile",
+          "id": "9963",
+          "item_name": "#DOTA_Item_Implements_of_the_Sappers_Guile",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Arsenal of the Sapper's Guile",
+          "id": "9961",
+          "item_name": "#DOTA_Item_Arsenal_of_the_Sappers_Guile",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Sign of the Sapper's Guile",
+          "id": "9960",
+          "item_name": "#DOTA_Item_Sign_of_the_Sappers_Guile",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Auxiliary of the Sapper's Guile",
+          "id": "9962",
+          "item_name": "#DOTA_Item_Auxiliary_of_the_Sappers_Guile",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Prismatic_Palico_Disguise_Bomb_Unit",
+      "store_bundle": "Prismatic Palico Disguise Bomb Unit",
+      "portrait_image": "econ/sets/v2/prismatic_palico_disguise_bomb_unit",
+      "items": [
+        {
+          "name": "Palico Sign",
+          "id": "34347",
+          "item_name": "#DOTA_Item_Palico_Sign",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Palico Sticky Bomb",
+          "id": "34237",
+          "item_name": "#DOTA_Item_Palico_Sticky_Bomb",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Palico Disguise Spleen",
+          "id": "35855",
+          "item_name": "#DOTA_Item_Prismatic_Palico_Disguise_Spleen",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Palico Disguise Squee",
+          "id": "35856",
+          "item_name": "#DOTA_Item_Prismatic_Palico_Disguise_Squee",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Palico Acorn Cannon",
+          "id": "36115",
+          "item_name": "#DOTA_Item_Prismatic_Palico_Acorn_Cannon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Palico Tank",
+          "id": "36155",
+          "item_name": "#DOTA_Item_Prismatic_Palico_Tank",
+          "item_slot": "mount",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Prismatic Barrel Disguise Spoon",
+          "id": "35862",
+          "item_name": "#DOTA_Item_Prismatic_Barrel_Disguise_Spoon",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Swine_of_the_Sunken_Galley_Set",
+      "store_bundle": "Swine of the Sunken Galley Bundle",
+      "portrait_image": "econ/sets/v2/swine_of_the_sunken_galley_set",
+      "items": [
+        {
+          "name": "Swine Powder Barrel",
+          "id": "7011",
+          "item_name": "#DOTA_Item_Swine_Powder_Barrel",
+          "item_slot": "back",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Swine Arsenal",
+          "id": "6908",
+          "item_name": "#DOTA_Item_Swine_Arsenal",
+          "item_slot": "arms",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Swine Helmet",
+          "id": "6911",
+          "item_name": "#DOTA_Item_Swine_Helmet",
+          "item_slot": "shoulder",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Swine Visor",
+          "id": "7009",
+          "item_name": "#DOTA_Item_Swine_Visor",
+          "item_slot": "head",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Swine of the Sunken Galley",
+          "id": "6879",
+          "item_name": "#DOTA_Item_Swine_of_the_Sunken_Galley",
+          "item_slot": "mount",
+          "item_rarity": "arcana"
+        },
+        {
+          "name": "Mark of the Taunting Swine",
+          "id": "6946",
+          "item_name": "#DOTA_Item_Mark_of_the_Taunting_Swine",
+          "item_slot": "belt",
+          "item_rarity": "legendary"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Palico_Disguise_Bomb_Unit",
+      "store_bundle": "Palico Disguise Bomb Unit",
+      "portrait_image": "econ/sets/v2/techies_palico_disguise_bomb_unit",
+      "items": [
+        {
+          "name": "Palico Tank",
+          "id": "34340",
+          "item_name": "#DOTA_Item_Palico_Tank",
+          "item_slot": "mount",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Palico Sign",
+          "id": "34347",
+          "item_name": "#DOTA_Item_Palico_Sign",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Palico Disguise Spleen",
+          "id": "34341",
+          "item_name": "#DOTA_Item_Palico_Disguise_Spleen",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Palico Disguise Squee",
+          "id": "34342",
+          "item_name": "#DOTA_Item_Palico_Disguise_Squee",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Barrel Disguise Spoon",
+          "id": "34345",
+          "item_name": "#DOTA_Item_Barrel_Disguise_Spoon",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Palico Sticky Bomb",
+          "id": "34237",
+          "item_name": "#DOTA_Item_Palico_Sticky_Bomb",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Palico Acorn Cannon",
+          "id": "34343",
+          "item_name": "#DOTA_Item_Palico_Acorn_Cannon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Pirate_of_Treasures_Bight",
+      "store_bundle": "Pirate of Treasure's Bight",
+      "portrait_image": "econ/sets/v2/techies_pirate_of_treasures_bight",
+      "items": [
+        {
+          "name": "Pirate of Treasure's Bight Weapon",
+          "id": "14861",
+          "item_name": "#DOTA_Item_Vote_Only_Pirate_of_Treasures_Bight_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Pirate of Treasure's Bight Mount",
+          "id": "14864",
+          "item_name": "#DOTA_Item_Vote_Only_Pirate_of_Treasures_Bight_Mount",
+          "item_slot": "mount",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Pirate of Treasure's Bight Head",
+          "id": "14865",
+          "item_name": "#DOTA_Item_Vote_Only_Pirate_of_Treasures_Bight_Head",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Pirate of Treasure's Bight Back",
+          "id": "14866",
+          "item_name": "#DOTA_Item_Vote_Only_Pirate_of_Treasures_Bight_Back",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Pirate of Treasure's Bight Shoulder",
+          "id": "14867",
+          "item_name": "#DOTA_Item_Vote_Only_Pirate_of_Treasures_Bight_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Pirate of Treasure's Sign",
+          "id": "14862",
+          "item_name": "#DOTA_Pirate_of_Treasures_Sign",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Pirate of Treasure's Mines",
+          "id": "14863",
+          "item_name": "#DOTA_Pirate_of_Treasures_Mines",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_War_Rig_Eradicators",
+      "store_bundle": "War Rig Eradicators",
+      "portrait_image": "econ/sets/v2/war_rig_eradicators",
+      "items": [
+        {
+          "name": "War Rig Eradicators - Arms",
+          "id": "26372",
+          "item_name": "#DOTA_Item_War_Rig_Eradicators__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "War Rig Eradicators - Back",
+          "id": "26176",
+          "item_name": "#DOTA_Item_War_Rig_Eradicators__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "War Rig Eradicators - Belt",
+          "id": "26158",
+          "item_name": "#DOTA_Item_War_Rig_Eradicators__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "War Rig Eradicators - Head",
+          "id": "26177",
+          "item_name": "#DOTA_Item_War_Rig_Eradicators__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "War Rig Eradicators - Rig",
+          "id": "26423",
+          "item_name": "#DOTA_Item_War_Rig_Eradicators__Rig",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "War Rig Eradicators - Shoulder",
+          "id": "26373",
+          "item_name": "#DOTA_Item_War_Rig_Eradicators__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "War Rig Eradicators - Weapon",
+          "id": "26422",
+          "item_name": "#DOTA_Item_War_Rig_Eradicators__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "394",
+      "name": "Techies Bomb Arsenal",
+      "item_name": "#DOTA_Item_Techies_Bomb_Arsenal",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "487",
+      "name": "Techies Spoon Costume",
+      "item_name": "#DOTA_Item_Techies_Spoon_Costume",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "489",
+      "name": "Techies Slingshot",
+      "item_name": "#DOTA_Item_Techies_Slingshot",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "490",
+      "name": "Techies Cart",
+      "item_name": "#DOTA_Item_Techies_Cart",
+      "item_slot": "mount",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "491",
+      "name": "Techies Spleen Costume",
+      "item_name": "#DOTA_Item_Techies_Spleen_Costume",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "492",
+      "name": "Techies Squee Costume",
+      "item_name": "#DOTA_Item_Techies_Squee_Costume",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "499",
+      "name": "Techies Sign",
+      "item_name": "#DOTA_Item_Techies_Sign",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "6042",
+      "name": "Bombtrails and Boomsticks Spleen",
+      "item_name": "#DOTA_Item_Bombtrails_and_Boomsticks_Spleen",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6043",
+      "name": "Bombtrails and Boomsticks Spoon",
+      "item_name": "#DOTA_Item_Bombtrails_and_Boomsticks_Spoon",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6044",
+      "name": "Bombtrails and Boomsticks Mines",
+      "item_name": "#DOTA_Item_Bombtrails_and_Boomsticks_Mines",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6045",
+      "name": "Bombtrails and Boomsticks Squee",
+      "item_name": "#DOTA_Item_Bombtrails_and_Boomsticks_Squee",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6046",
+      "name": "Bombtrails and Boomsticks Cart",
+      "item_name": "#DOTA_Item_Bombtrails_and_Boomsticks_Cart",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6288",
+      "name": "Bombtrails and Boomsticks Weapon",
+      "item_name": "#DOTA_Item_Bombtrails_and_Boomsticks_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6289",
+      "name": "Bombtrails and Boomsticks Sign",
+      "item_name": "#DOTA_Item_Bombtrails_and_Boomsticks_Sign",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6879",
+      "name": "Swine of the Sunken Galley",
+      "item_name": "#DOTA_Item_Swine_of_the_Sunken_Galley",
+      "item_slot": "mount",
+      "item_rarity": "arcana",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6907",
+      "name": "Taunt: Techies Squint and Laugh",
+      "item_name": "#DOTA_Item_Taunt_Techies_Squint_and_Laugh",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "6908",
+      "name": "Swine Arsenal",
+      "item_name": "#DOTA_Item_Swine_Arsenal",
+      "item_slot": "arms",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6911",
+      "name": "Swine Helmet",
+      "item_name": "#DOTA_Item_Swine_Helmet",
+      "item_slot": "shoulder",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6946",
+      "name": "Mark of the Taunting Swine",
+      "item_name": "#DOTA_Item_Mark_of_the_Taunting_Swine",
+      "item_slot": "belt",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7009",
+      "name": "Swine Visor",
+      "item_name": "#DOTA_Item_Swine_Visor",
+      "item_slot": "head",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7011",
+      "name": "Swine Powder Barrel",
+      "item_name": "#DOTA_Item_Swine_Powder_Barrel",
+      "item_slot": "back",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9166",
+      "name": "Taunt: We Have Liftoff",
+      "item_name": "#DOTA_Item_Taunt_We_Have_Liftoff",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "9960",
+      "name": "Sign of the Sapper's Guile",
+      "item_name": "#DOTA_Item_Sign_of_the_Sappers_Guile",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9961",
+      "name": "Arsenal of the Sapper's Guile",
+      "item_name": "#DOTA_Item_Arsenal_of_the_Sappers_Guile",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9962",
+      "name": "Auxiliary of the Sapper's Guile",
+      "item_name": "#DOTA_Item_Auxiliary_of_the_Sappers_Guile",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9963",
+      "name": "Implements of the Sapper's Guile",
+      "item_name": "#DOTA_Item_Implements_of_the_Sappers_Guile",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9964",
+      "name": "Sack of the Sapper's Guile",
+      "item_name": "#DOTA_Item_Sack_of_the_Sappers_Guile",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9965",
+      "name": "Helm of the Sapper's Guile",
+      "item_name": "#DOTA_Item_Helm_of_the_Sappers_Guile",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9966",
+      "name": "Skip of the Sapper's Guile",
+      "item_name": "#DOTA_Item_Skip_of_the_Sappers_Guile",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12833",
+      "name": "Powdersled Rookery Spleen",
+      "item_name": "#DOTA_Item_Powdersled_Rookery_Spleen",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12834",
+      "name": "Powdersled Rookery Cannon",
+      "item_name": "#DOTA_Item_Powdersled_Rookery_Cannon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12835",
+      "name": "Powdersled Rookery Bomb",
+      "item_name": "#DOTA_Item_Powdersled_Rookery_Bomb",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12836",
+      "name": "Powdersled Rookery Sled",
+      "item_name": "#DOTA_Item_Powdersled_Rookery_Sled",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12837",
+      "name": "Powdersled Rookery Sign",
+      "item_name": "#DOTA_Item_Powdersled_Rookery_Sign",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12839",
+      "name": "Powdersled Rookery Squee",
+      "item_name": "#DOTA_Item_Powdersled_Rookery_Squee",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12840",
+      "name": "Powdersled Rookery Spoon",
+      "item_name": "#DOTA_Item_Powdersled_Rookery_Spoon",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12841",
+      "name": "Coat of the Powderkeg Patrol",
+      "item_name": "#DOTA_Item_Coat_of_the_Powderkeg_Patrol",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12842",
+      "name": "Keg of the Powderkeg Patrol",
+      "item_name": "#DOTA_Item_Keg_of_the_Powderkeg_Patrol",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12843",
+      "name": "Colors of the Powderkeg Patrol",
+      "item_name": "#DOTA_Item_Colors_of_the_Powderkeg_Patrol",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12844",
+      "name": "Remote Mine of the Powderkeg Patrol",
+      "item_name": "#DOTA_Item_Remote_Mine_of_the_Powderkeg_Patrol",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12845",
+      "name": "Mark of the Powderkeg Patrol",
+      "item_name": "#DOTA_Item_Mark_of_the_Powderkeg_Patrol",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12846",
+      "name": "Cart of the Powderkeg Patrol",
+      "item_name": "#DOTA_Item_Cart_of_the_Powderkeg_Patrol",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12847",
+      "name": "Munitions of the Powderkeg Patrol",
+      "item_name": "#DOTA_Item_Munitions_of_the_Powderkeg_Patrol",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13526",
+      "name": "Pachyderm Powderwagon Spleen",
+      "item_name": "#DOTA_Item_Pachyderm_Powderwagon_Spleen",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13527",
+      "name": "Pachyderm Powderwagon Elephant",
+      "item_name": "#DOTA_Item_Pachyderm_Powderwagon_Elephant",
+      "item_slot": "mount",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13528",
+      "name": "Pachyderm Powderwagon Squee",
+      "item_name": "#DOTA_Item_Pachyderm_Powderwagon_Squee",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13529",
+      "name": "Pachyderm Powderwagon Weapon",
+      "item_name": "#DOTA_Item_Pachyderm_Powderwagon_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13530",
+      "name": "Pachyderm Powderwagon Spoon",
+      "item_name": "#DOTA_Item_Pachyderm_Powderwagon_Spoon",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13548",
+      "name": "Pachyderm Powderwagon Remote Mine",
+      "item_name": "#DOTA_Item_Pachyderm_Powderwagon_Remote_Mine",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13666",
+      "name": "Pachyderm Powderwagon Sign",
+      "item_name": "#DOTA_Item_Pachyderm_Powderwagon_Sign",
+      "item_slot": "belt",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14861",
+      "name": "Pirate of Treasure's Bight Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_Pirate_of_Treasures_Bight_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14862",
+      "name": "Pirate of Treasure's Sign",
+      "item_name": "#DOTA_Pirate_of_Treasures_Sign",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14863",
+      "name": "Pirate of Treasure's Mines",
+      "item_name": "#DOTA_Pirate_of_Treasures_Mines",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14864",
+      "name": "Pirate of Treasure's Bight Mount",
+      "item_name": "#DOTA_Item_Vote_Only_Pirate_of_Treasures_Bight_Mount",
+      "item_slot": "mount",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14865",
+      "name": "Pirate of Treasure's Bight Head",
+      "item_name": "#DOTA_Item_Vote_Only_Pirate_of_Treasures_Bight_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14866",
+      "name": "Pirate of Treasure's Bight Back",
+      "item_name": "#DOTA_Item_Vote_Only_Pirate_of_Treasures_Bight_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14867",
+      "name": "Pirate of Treasure's Bight Shoulder",
+      "item_name": "#DOTA_Item_Vote_Only_Pirate_of_Treasures_Bight_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20374",
+      "name": "Bombtrails and Boomsticks",
+      "item_name": "#DOTA_Item_Bombtrails_and_Boomsticks",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20610",
+      "name": "Swine of the Sunken Galley Bundle",
+      "item_name": "#DOTA_Item_Swine_of_the_Sunken_Galley_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "arcana",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21211",
+      "name": "Primer of the Sapper's Guile",
+      "item_name": "#DOTA_Item_Primer_of_the_Sappers_Guile",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21306",
+      "name": "Powdersled Rookery",
+      "item_name": "#DOTA_Item_Powdersled_Rookery",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21307",
+      "name": "March of the Powderkeg Patrol",
+      "item_name": "#DOTA_Item_March_of_the_Powderkeg_Patrol",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21424",
+      "name": "Pachyderm Powderwagon",
+      "item_name": "#DOTA_Item_Pachyderm_Powderwagon",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21607",
+      "name": "Pirate of Treasure's Bight",
+      "item_name": "#DOTA_Item_Vote_Only_Pirate_of_Treasures_Bight",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26158",
+      "name": "War Rig Eradicators - Belt",
+      "item_name": "#DOTA_Item_War_Rig_Eradicators__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26176",
+      "name": "War Rig Eradicators - Back",
+      "item_name": "#DOTA_Item_War_Rig_Eradicators__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26177",
+      "name": "War Rig Eradicators - Head",
+      "item_name": "#DOTA_Item_War_Rig_Eradicators__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26372",
+      "name": "War Rig Eradicators - Arms",
+      "item_name": "#DOTA_Item_War_Rig_Eradicators__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26373",
+      "name": "War Rig Eradicators - Shoulder",
+      "item_name": "#DOTA_Item_War_Rig_Eradicators__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26422",
+      "name": "War Rig Eradicators - Weapon",
+      "item_name": "#DOTA_Item_War_Rig_Eradicators__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26423",
+      "name": "War Rig Eradicators - Rig",
+      "item_name": "#DOTA_Item_War_Rig_Eradicators__Rig",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26537",
+      "name": "War Rig Eradicators",
+      "item_name": "#DOTA_Item_War_Rig_Eradicators",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "34237",
+      "name": "Palico Sticky Bomb",
+      "item_name": "#DOTA_Item_Palico_Sticky_Bomb",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34277",
+      "name": "Palico Disguise Bomb Unit",
+      "item_name": "#DOTA_Item_Palico_Disguise_Bomb_Unit",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "34340",
+      "name": "Palico Tank",
+      "item_name": "#DOTA_Item_Palico_Tank",
+      "item_slot": "mount",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34341",
+      "name": "Palico Disguise Spleen",
+      "item_name": "#DOTA_Item_Palico_Disguise_Spleen",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34342",
+      "name": "Palico Disguise Squee",
+      "item_name": "#DOTA_Item_Palico_Disguise_Squee",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34343",
+      "name": "Palico Acorn Cannon",
+      "item_name": "#DOTA_Item_Palico_Acorn_Cannon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34345",
+      "name": "Barrel Disguise Spoon",
+      "item_name": "#DOTA_Item_Barrel_Disguise_Spoon",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34347",
+      "name": "Palico Sign",
+      "item_name": "#DOTA_Item_Palico_Sign",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35853",
+      "name": "Prismatic Palico Disguise Bomb Unit",
+      "item_name": "#DOTA_Item_Prismatic_Palico_Disguise_Bomb_Unit",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "35855",
+      "name": "Prismatic Palico Disguise Spleen",
+      "item_name": "#DOTA_Item_Prismatic_Palico_Disguise_Spleen",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35856",
+      "name": "Prismatic Palico Disguise Squee",
+      "item_name": "#DOTA_Item_Prismatic_Palico_Disguise_Squee",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35857",
+      "name": "Dire Palico Disguise Bomb Unit",
+      "item_name": "#DOTA_Item_Dire_Palico_Disguise_Bomb_Unit",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "35859",
+      "name": "Dire Palico Disguise Spleen",
+      "item_name": "#DOTA_Item_Dire_Palico_Disguise_Spleen",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35860",
+      "name": "Dire Palico Disguise Squee",
+      "item_name": "#DOTA_Item_Dire_Palico_Disguise_Squee",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35861",
+      "name": "Dire Barrel Disguise Spoon",
+      "item_name": "#DOTA_Item_Dire_Barrel_Disguise_Spoon",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35862",
+      "name": "Prismatic Barrel Disguise Spoon",
+      "item_name": "#DOTA_Item_Prismatic_Barrel_Disguise_Spoon",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36114",
+      "name": "Dire Palico Acorn Cannon",
+      "item_name": "#DOTA_Item_Dire_Palico_Acorn_Cannon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36115",
+      "name": "Prismatic Palico Acorn Cannon",
+      "item_name": "#DOTA_Item_Prismatic_Palico_Acorn_Cannon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36154",
+      "name": "Dire Palico Tank",
+      "item_name": "#DOTA_Item_Dire_Palico_Tank",
+      "item_slot": "mount",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36155",
+      "name": "Prismatic Palico Tank",
+      "item_name": "#DOTA_Item_Prismatic_Palico_Tank",
+      "item_slot": "mount",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36182",
+      "name": "Poison Palico Tank",
+      "item_name": "#DOTA_Item_Poison_Palico_Tank",
+      "item_slot": "mount",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36183",
+      "name": "Poison Barrel Disguise Spoon",
+      "item_name": "#DOTA_Item_Poison_Barrel_Disguise_Spoon",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36184",
+      "name": "Poison Palico Acorn Cannon",
+      "item_name": "#DOTA_Item_Poison_Palico_Acorn_Cannon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36185",
+      "name": "Poison Palico Disguise Squee",
+      "item_name": "#DOTA_Item_Poison_Palico_Disguise_Squee",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36186",
+      "name": "Poison Palico Disguise Spleen",
+      "item_name": "#DOTA_Item_Poison_Palico_Disguise_Spleen",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36187",
+      "name": "Poison Palico Disguise Bomb Unit",
+      "item_name": "#DOTA_Item_Poison_Palico_Disguise_Bomb_Unit",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    }
+  ]
+}

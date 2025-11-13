@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "ambient_effects": {
+      "id": "8365",
+      "name": "Juggernaut Healing Ward's Ambient Effects",
+      "item_name": "#DOTA_Item_Juggernaut_Healing_Ward_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [],
+  "items": [
+    {
+      "id": "8363",
+      "name": "Nature's Prophet Treant Ambient Effects",
+      "item_name": "#DOTA_Item_Natures_Prophet_Treant_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "8365",
+      "name": "Juggernaut Healing Ward's Ambient Effects",
+      "item_name": "#DOTA_Item_Juggernaut_Healing_Ward_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    }
+  ]
+}

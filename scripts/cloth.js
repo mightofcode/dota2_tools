@@ -48,38 +48,40 @@ function analyzeItemsByHero(data) {
     return heroItems;
 }
 
-async function generateClothsData(defaultItems) {
+async function generateClothsData(defaultItems, itemSets, heroItems) {
     console.log(chalk.cyan('\n=== 生成英雄默认饰品数据 ==='));
-    
-    const res = {
-        defaults: {},
-        item_sets: {},
-        items: {}
-    };
-    
+
+    const clothDir = './doc/cloth';
+    await fs.ensureDir(clothDir);
+
+    const heroDefaults = {};
+    const unrelatedItems = [];
+
     // 处理默认饰品
     defaultItems.forEach(item => {
         // 过滤掉name包含persona的物品
         if (item.item_name.toLowerCase().includes('persona')) {
             return;
         }
-        
+
         // 过滤掉特定的item_slot
-        if (item.item_slot === 'hero_base' || 
-            item.item_slot === 'summon' || 
+        if (item.item_slot === 'hero_base' ||
+            item.item_slot === 'summon' ||
             item.item_slot.startsWith('ability')) {
             return;
         }
-        
+
         const heroes = Object.keys(item.used_by_heroes);
-        
+        let hasHero = false;
+
         heroes.forEach(heroName => {
             if (heroName !== '0') { // 过滤掉英雄名为"0"的数据
-                if (!res.defaults[heroName]) {
-                    res.defaults[heroName] = {};
+                hasHero = true;
+                if (!heroDefaults[heroName]) {
+                    heroDefaults[heroName] = {};
                 }
-                
-                res.defaults[heroName][item.item_slot] = {
+
+                heroDefaults[heroName][item.item_slot] = {
                     id: item.id,
                     name: item.name,
                     item_name: item.item_name,
@@ -88,31 +90,78 @@ async function generateClothsData(defaultItems) {
                 };
             }
         });
+
+        // 如果没有关联到任何英雄，加入未关联列表
+        if (!hasHero) {
+            unrelatedItems.push(item);
+        }
     });
-    
-    // 保存到文件
-    const outputPath = './doc/cloths.json';
-    await fs.ensureDir(path.dirname(outputPath));
-    await fs.writeJson(outputPath, res, { spaces: 2 });
-    
-    console.log(chalk.green(`数据已保存到: ${outputPath}`));
-    console.log(chalk.yellow(`共处理 ${Object.keys(res.defaults).length} 个英雄的默认饰品`));
-    
-    return res;
+
+    // 获取所有英雄集合
+    const allHeroes = new Set();
+    Object.keys(heroDefaults).forEach(hero => allHeroes.add(hero));
+    Object.keys(itemSets).forEach(hero => allHeroes.add(hero));
+    Object.keys(heroItems).forEach(hero => allHeroes.add(hero));
+
+    // 保存每个英雄的数据
+    const savedHeroes = [];
+    for (const heroName of allHeroes) {
+        const heroData = {
+            defaults: heroDefaults[heroName] || {},
+            item_sets: itemSets[heroName] || [],
+            items: heroItems[heroName] || []
+        };
+
+        const heroFile = path.join(clothDir, `${heroName}.json`);
+        await fs.writeJson(heroFile, heroData, { spaces: 2 });
+        savedHeroes.push(heroName);
+    }
+
+    // 保存未关联的数据
+    if (unrelatedItems.length > 0) {
+        const unrelatedPath = path.join(clothDir, 'cloth.json');
+        const unrelatedData = {
+            items: unrelatedItems,
+            description: '未关联到任何英雄的饰品数据'
+        };
+        await fs.writeJson(unrelatedPath, unrelatedData, { spaces: 2 });
+        console.log(chalk.green(`未关联数据已保存到: ${unrelatedPath}`));
+    }
+
+    console.log(chalk.green(`数据已保存到: ${clothDir}`));
+    console.log(chalk.yellow(`共处理 ${savedHeroes.length} 个英雄`));
+    console.log(chalk.yellow(`未关联物品: ${unrelatedItems.length} 个`));
+
+    return {
+        heroCount: savedHeroes.length,
+        unrelatedCount: unrelatedItems.length,
+        heroes: savedHeroes
+    };
 }
 
 async function analyzeItemsGame() {
     console.log(chalk.blue('开始分析dota2饰品配置文件...'));
 
     try {
-        const outputPath = './doc/cloths.json';
+        const clothDir = './doc/cloth';
 
-        // 检查缓存文件是否存在
-        if (await fs.pathExists(outputPath)) {
-            console.log(chalk.yellow(`检测到已存在的缓存文件: ${outputPath}`));
-            const cachedData = await fs.readJson(outputPath);
-            console.log(chalk.green('直接读取缓存数据，跳过重新解析'));
-            return cachedData;
+        // 检查缓存目录是否存在
+        if (await fs.pathExists(clothDir)) {
+            const files = await fs.readdir(clothDir);
+            if (files.length > 0) {
+                console.log(chalk.yellow(`检测到已存在的缓存目录: ${clothDir}`));
+                console.log(chalk.green('直接读取缓存数据，跳过重新解析'));
+
+                // 读取所有缓存文件
+                const cachedData = {};
+                for (const file of files) {
+                    if (file.endsWith('.json')) {
+                        const filePath = path.join(clothDir, file);
+                        cachedData[file] = await fs.readJson(filePath);
+                    }
+                }
+                return cachedData;
+            }
         }
 
         // 检查源文件是否存在
@@ -120,7 +169,7 @@ async function analyzeItemsGame() {
             console.log(chalk.red(`文件不存在: ${itemsGamePath}`));
             return;
         }
-        
+
         // 读取文件内容
         const content = await fs.readFile(itemsGamePath, 'utf8');
         console.log(chalk.green(`文件读取成功，大小: ${content.length} 字符`));
@@ -144,13 +193,8 @@ async function analyzeItemsGame() {
         // 分析英雄物品信息
         const heroItems = analyzeItemsByHero(parsed);
 
-        // 生成并保存结果
-        const result = await generateClothsData(defaultItems);
-        result.item_sets = itemSets;
-        result.items = heroItems;
-
-        // 重新保存包含所有信息的完整数据
-        await fs.writeJson(outputPath, result, { spaces: 2 });
+        // 生成并保存结果 - 按英雄分别保存
+        await generateClothsData(defaultItems, itemSets, heroItems);
 
         return parsed;
 

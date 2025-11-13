@@ -1,0 +1,1413 @@
+{
+  "defaults": {
+    "head": {
+      "id": "85",
+      "name": "Ursa's Helmet",
+      "item_name": "#DOTA_Item_Ursas_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "86",
+      "name": "Ursa's Fur",
+      "item_name": "#DOTA_Item_Ursas_Fur",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "arms": {
+      "id": "87",
+      "name": "Ursa's Bracers",
+      "item_name": "#DOTA_Item_Ursas_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common"
+    },
+    "belt": {
+      "id": "88",
+      "name": "Ursa's Belt",
+      "item_name": "#DOTA_Item_Ursas_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common"
+    },
+    "weapon": {
+      "id": "584",
+      "name": "Ursa's Claws",
+      "item_name": "#DOTA_Item_Ursas_Claws",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_10th_Anniversary_The_Alpine_Stalkers_Set",
+      "store_bundle": "10th Anniversary The Alpine Stalker's Set",
+      "portrait_image": "econ/sets/v2/10th_anniversary_the_alpine_stalkers_set",
+      "items": [
+        {
+          "name": "10th Anniversary Lucky Alpine Stalker's Back",
+          "id": "27142",
+          "item_name": "#DOTA_Item_10th_Anniversary_Lucky_Alpine_Stalkers_Back",
+          "item_slot": "back",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "10th Anniversary Lucky Alpine Stalker's Belt",
+          "id": "27143",
+          "item_name": "#DOTA_Item_10th_Anniversary_Lucky_Alpine_Stalkers_Belt",
+          "item_slot": "belt",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "10th Anniversary Lucky Alpine Stalker's Arms",
+          "id": "27144",
+          "item_name": "#DOTA_Item_10th_Anniversary_Lucky_Alpine_Stalkers_Arms",
+          "item_slot": "arms",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "10th Anniversary Lucky Alpine Stalker's Hat",
+          "id": "28114",
+          "item_name": "#DOTA_Item_10th_Anniversary_Lucky_Alpine_Stalkers_Hat",
+          "item_slot": "head",
+          "item_rarity": "immortal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bloodzo_the_Bear",
+      "store_bundle": "Bloodzo the Bear",
+      "portrait_image": "econ/sets/v2/bloodzo_the_bear",
+      "items": [
+        {
+          "name": "Bloodzo the Bear - Head",
+          "id": "19429",
+          "item_name": "#DOTA_Item_Bloodzo_the_Bear__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bloodzo the Bear - Weapon",
+          "id": "19428",
+          "item_name": "#DOTA_Item_Bloodzo_the_Bear__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bloodzo the Bear - Belt",
+          "id": "19427",
+          "item_name": "#DOTA_Item_Bloodzo_the_Bear__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bloodzo the Bear - Back",
+          "id": "19426",
+          "item_name": "#DOTA_Item_Bloodzo_the_Bear__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bloodzo the Bear - Arms",
+          "id": "19425",
+          "item_name": "#DOTA_Item_Bloodzo_the_Bear__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Cryogenic_Embrace",
+      "store_bundle": "Cryogenic Embrace Set",
+      "portrait_image": "econ/sets/v2/cryogenic_embrace",
+      "items": [
+        {
+          "name": "Belt of the Cryogenic Embrace",
+          "id": "5808",
+          "item_name": "#DOTA_Item_Belt_of_the_Cryogenic_Embrace",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Back of the Cryogenic Embrace",
+          "id": "5807",
+          "item_name": "#DOTA_Item_Back_of_the_Cryogenic_Embrace",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Arms of the Cryogenic Embrace",
+          "id": "5805",
+          "item_name": "#DOTA_Item_Arms_of_the_Cryogenic_Embrace",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Helmet of the Cryogenic Embrace",
+          "id": "5550",
+          "item_name": "#DOTA_Item_Helmet_of_the_Cryogenic_Embrace",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dipper_the_Destroyer_Bundle",
+      "store_bundle": "Dipper the Destroyer Bundle",
+      "portrait_image": "econ/sets/v2/dipper_the_destroyer_bundle",
+      "items": [
+        {
+          "name": "Dipper the Destroyer",
+          "id": "14944",
+          "item_name": "#DOTA_Item_Dipper_the_Destroyer",
+          "item_slot": "back",
+          "item_rarity": "immortal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Feast_of_the_Damned",
+      "store_bundle": "Feast of the Damned",
+      "portrait_image": "econ/sets/v2/feast_of_the_damned",
+      "items": [
+        {
+          "name": "Feast of the Damned Belt",
+          "id": "23334",
+          "item_name": "#DOTA_Item_Feast_of_the_Damned_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Feast of the Damned Arms",
+          "id": "23333",
+          "item_name": "#DOTA_Item_Feast_of_the_Damned_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Feast of the Damned Head",
+          "id": "23332",
+          "item_name": "#DOTA_Item_Feast_of_the_Damned_Head",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Feast of the Damned Back",
+          "id": "23331",
+          "item_name": "#DOTA_Item_Feast_of_the_Damned_Back",
+          "item_slot": "back",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ferocious_Heart",
+      "store_bundle": "Ferocious Heart",
+      "portrait_image": "econ/sets/v2/ferocious_heart",
+      "items": [
+        {
+          "name": "Helm of the Ferocious Heart",
+          "id": "7653",
+          "item_name": "#DOTA_Item_Helm_of_the_Ferocious_Heart",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Mane of the Ferocious Heart",
+          "id": "7652",
+          "item_name": "#DOTA_Item_Mane_of_the_Ferocious_Heart",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Girdle of the Ferocious Heart",
+          "id": "7650",
+          "item_name": "#DOTA_Item_Girdle_of_the_Ferocious_Heart",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bracers of the Ferocious Heart",
+          "id": "7651",
+          "item_name": "#DOTA_Item_Bracers_of_the_Ferocious_Heart",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Claws of the Ferocious Heart",
+          "id": "7654",
+          "item_name": "#DOTA_Item_Claws_of_the_Ferocious_Heart",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Hunter_of_the_Crystal_Drift",
+      "store_bundle": "Hunter of the Crystal Drift",
+      "portrait_image": "econ/sets/v2/hunter_of_the_crystal_drift",
+      "items": [
+        {
+          "name": "Claws of the Crystal Drift",
+          "id": "9691",
+          "item_name": "#DOTA_Item_Claws_of_the_Crystal_Drift",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Hide of the Crystal Drift",
+          "id": "9690",
+          "item_name": "#DOTA_Item_Hide_of_the_Crystal_Drift",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Belt of the Crystal Drift",
+          "id": "9689",
+          "item_name": "#DOTA_Item_Belt_of_the_Crystal_Drift",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Mane of the Crystal Drift",
+          "id": "9688",
+          "item_name": "#DOTA_Item_Mane_of_the_Crystal_Drift",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Kin_of_the_Sangstrath_Fold",
+      "store_bundle": "Kin of the Sangstrath Fold",
+      "portrait_image": "econ/sets/v2/kin_of_the_sangstrath_fold",
+      "items": [
+        {
+          "name": "Claws of the Sangstrath Fold",
+          "id": "12981",
+          "item_name": "#DOTA_Item_Claws_of_the_Sangstrath_Fold",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mask of the Sangstrath Fold",
+          "id": "12982",
+          "item_name": "#DOTA_Item_Mask_of_the_Sangstrath_Fold",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mantle of the Sangstrath Fold",
+          "id": "12983",
+          "item_name": "#DOTA_Item_Mantle_of_the_Sangstrath_Fold",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Barding of the Sangstrath Fold",
+          "id": "12984",
+          "item_name": "#DOTA_Item_Barding_of_the_Sangstrath_Fold",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Owly_Bear",
+      "store_bundle": "Owly Bear",
+      "portrait_image": "econ/sets/v2/owly_bear",
+      "items": [
+        {
+          "name": "Owly Bear - Claws",
+          "id": "27140",
+          "item_name": "#DOTA_Item_Owly_Bear__Claws",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Owly Bear - Belt",
+          "id": "27134",
+          "item_name": "#DOTA_Item_Owly_Bear__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Owly Bear - Arms",
+          "id": "23773",
+          "item_name": "#DOTA_Item_Owly_Bear__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Owly Bear - Back",
+          "id": "23772",
+          "item_name": "#DOTA_Item_Owly_Bear__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Owly Bear - Head",
+          "id": "23756",
+          "item_name": "#DOTA_Item_Owly_Bear__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Roshan_Hunter_Set",
+      "store_bundle": "Roshan Hunter & G-League Bundle",
+      "portrait_image": "econ/sets/v2/roshan_hunter_set",
+      "items": [
+        {
+          "name": "Roshan Hunter Arms",
+          "id": "5665",
+          "item_name": "#DOTA_Item_Roshan_Hunter_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Roshan Hunter Back",
+          "id": "5666",
+          "item_name": "#DOTA_Item_Roshan_Hunter_Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Roshan Hunter Belt",
+          "id": "5667",
+          "item_name": "#DOTA_Item_Roshan_Hunter_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Roshan Hunter Head",
+          "id": "5668",
+          "item_name": "#DOTA_Item_Roshan_Hunter_Head",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Scale_of_the_Razorwyrm",
+      "store_bundle": "Scale of the Razorwyrm",
+      "portrait_image": "econ/sets/v2/scale_of_the_razorwyrm",
+      "items": [
+        {
+          "name": "Belt of the Razorwyrm",
+          "id": "7928",
+          "item_name": "#DOTA_Item_Belt_of_the_Razorwyrm",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Skull of the Razorwyrm",
+          "id": "7922",
+          "item_name": "#DOTA_Item_Skull_of_the_Razorwyrm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Backplates of the Razorwyrm",
+          "id": "7921",
+          "item_name": "#DOTA_Item_Backplates_of_the_Razorwyrm",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Gauntlets of the Razorwyrm",
+          "id": "7920",
+          "item_name": "#DOTA_Item_Gauntlets_of_the_Razorwyrm",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Trophies_of_the_Hallowed_Hunt",
+      "store_bundle": "Trophies of the Hallowed Hunt",
+      "portrait_image": "econ/sets/v2/trophies_of_the_hallowed_hunt",
+      "items": [
+        {
+          "name": "Trophies of the Hallowed Hunt - Back",
+          "id": "26408",
+          "item_name": "#DOTA_Item_Trophies_of_the_Hallowed_Hunt__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Trophies of the Hallowed Hunt - Belt",
+          "id": "26409",
+          "item_name": "#DOTA_Item_Trophies_of_the_Hallowed_Hunt__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Trophies of the Hallowed Hunt - Head",
+          "id": "26410",
+          "item_name": "#DOTA_Item_Trophies_of_the_Hallowed_Hunt__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Trophies of the Hallowed Hunt - Weapon",
+          "id": "26411",
+          "item_name": "#DOTA_Item_Trophies_of_the_Hallowed_Hunt__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Trophies of the Hallowed Hunt - Arms",
+          "id": "26535",
+          "item_name": "#DOTA_Item_Trophies_of_the_Hallowed_Hunt__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ursa_Alpine_Stalker",
+      "store_bundle": "The Alpine Stalker's Set",
+      "portrait_image": "econ/sets/v2/ursa_alpine_stalker",
+      "items": [
+        {
+          "name": "Lucky Alpine Stalker's Hat",
+          "id": "4212",
+          "item_name": "#DOTA_Item_Lucky_Alpine_Stalkers_Hat",
+          "item_slot": "head",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Alpine Stalker's Scarf",
+          "id": "4213",
+          "item_name": "#DOTA_Item_Alpine_Stalkers_Scarf",
+          "item_slot": "back",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Alpine Stalker's Pants",
+          "id": "4214",
+          "item_name": "#DOTA_Item_Alpine_Stalkers_Pants",
+          "item_slot": "belt",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Alpine Stalker's Gloves",
+          "id": "4215",
+          "item_name": "#DOTA_Item_Alpine_Stalkers_Gloves",
+          "item_slot": "arms",
+          "item_rarity": "immortal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ursa_Iron_Bear",
+      "store_bundle": "The Iron Bear's Set",
+      "portrait_image": "econ/sets/v2/ursa_iron_bear",
+      "items": [
+        {
+          "name": "Iron Bear's Belt",
+          "id": "4292",
+          "item_name": "#DOTA_Item_Iron_Bears_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Iron Bear's Plates",
+          "id": "4293",
+          "item_name": "#DOTA_Item_Iron_Bears_Plates",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Iron Bear's Cutter",
+          "id": "4294",
+          "item_name": "#DOTA_Item_Iron_Bears_Cutter",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Iron Bear's Skullcap",
+          "id": "4295",
+          "item_name": "#DOTA_Item_Iron_Bears_Skullcap",
+          "item_slot": "head",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Radiant_Protector",
+      "store_bundle": "Radiant Protector Set",
+      "portrait_image": "econ/sets/v2/ursa_radiant_protector",
+      "items": [
+        {
+          "name": "Belt of the Radiant Protector",
+          "id": "5888",
+          "item_name": "#DOTA_Item_Belt_of_the_Radiant_Protector",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Wraps of the Radiant Protector",
+          "id": "5893",
+          "item_name": "#DOTA_Item_Wraps_of_the_Radiant_Protector",
+          "item_slot": "arms",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Mark of the Radiant Protector",
+          "id": "5894",
+          "item_name": "#DOTA_Item_Mark_of_the_Radiant_Protector",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Braids of the Radiant Protector",
+          "id": "5895",
+          "item_name": "#DOTA_Item_Braids_of_the_Radiant_Protector",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ursa_Ravager",
+      "store_bundle": "The Ursine Ravager Set",
+      "portrait_image": "econ/sets/v2/ursa_ravager",
+      "items": [
+        {
+          "name": "Spiked Bracers of the Ravager",
+          "id": "4302",
+          "item_name": "#DOTA_Item_Spiked_Bracers_of_the_Ravager",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Sash of the Ravager",
+          "id": "4303",
+          "item_name": "#DOTA_Item_Sash_of_the_Ravager",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Skull of the Ravager",
+          "id": "4304",
+          "item_name": "#DOTA_Item_Skull_of_the_Ravager",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Quills of the Ravager",
+          "id": "4305",
+          "item_name": "#DOTA_Item_Quills_of_the_Ravager",
+          "item_slot": "back",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ursa_Savage_Age",
+      "store_bundle": "The Savage Age Set",
+      "portrait_image": "econ/sets/v2/ursa_savage_age",
+      "items": [
+        {
+          "name": "Helm of a Savage Age",
+          "id": "4335",
+          "item_name": "#DOTA_Item_Helm_of_a_Savage_Age",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Armor of a Savage Age",
+          "id": "4336",
+          "item_name": "#DOTA_Item_Armor_of_a_Savage_Age",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Bracer of a Savage Age",
+          "id": "4337",
+          "item_name": "#DOTA_Item_Bracer_of_a_Savage_Age",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Belt of a Savage Age",
+          "id": "4338",
+          "item_name": "#DOTA_Item_Belt_of_a_Savage_Age",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "85",
+      "name": "Ursa's Helmet",
+      "item_name": "#DOTA_Item_Ursas_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "86",
+      "name": "Ursa's Fur",
+      "item_name": "#DOTA_Item_Ursas_Fur",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "87",
+      "name": "Ursa's Bracers",
+      "item_name": "#DOTA_Item_Ursas_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "88",
+      "name": "Ursa's Belt",
+      "item_name": "#DOTA_Item_Ursas_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "584",
+      "name": "Ursa's Claws",
+      "item_name": "#DOTA_Item_Ursas_Claws",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4212",
+      "name": "Lucky Alpine Stalker's Hat",
+      "item_name": "#DOTA_Item_Lucky_Alpine_Stalkers_Hat",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4213",
+      "name": "Alpine Stalker's Scarf",
+      "item_name": "#DOTA_Item_Alpine_Stalkers_Scarf",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4214",
+      "name": "Alpine Stalker's Pants",
+      "item_name": "#DOTA_Item_Alpine_Stalkers_Pants",
+      "item_slot": "belt",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4215",
+      "name": "Alpine Stalker's Gloves",
+      "item_name": "#DOTA_Item_Alpine_Stalkers_Gloves",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4292",
+      "name": "Iron Bear's Belt",
+      "item_name": "#DOTA_Item_Iron_Bears_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4293",
+      "name": "Iron Bear's Plates",
+      "item_name": "#DOTA_Item_Iron_Bears_Plates",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4294",
+      "name": "Iron Bear's Cutter",
+      "item_name": "#DOTA_Item_Iron_Bears_Cutter",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4295",
+      "name": "Iron Bear's Skullcap",
+      "item_name": "#DOTA_Item_Iron_Bears_Skullcap",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4302",
+      "name": "Spiked Bracers of the Ravager",
+      "item_name": "#DOTA_Item_Spiked_Bracers_of_the_Ravager",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4303",
+      "name": "Sash of the Ravager",
+      "item_name": "#DOTA_Item_Sash_of_the_Ravager",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4304",
+      "name": "Skull of the Ravager",
+      "item_name": "#DOTA_Item_Skull_of_the_Ravager",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4305",
+      "name": "Quills of the Ravager",
+      "item_name": "#DOTA_Item_Quills_of_the_Ravager",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4335",
+      "name": "Helm of a Savage Age",
+      "item_name": "#DOTA_Item_Helm_of_a_Savage_Age",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4336",
+      "name": "Armor of a Savage Age",
+      "item_name": "#DOTA_Item_Armor_of_a_Savage_Age",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4337",
+      "name": "Bracer of a Savage Age",
+      "item_name": "#DOTA_Item_Bracer_of_a_Savage_Age",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4338",
+      "name": "Belt of a Savage Age",
+      "item_name": "#DOTA_Item_Belt_of_a_Savage_Age",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5550",
+      "name": "Helmet of the Cryogenic Embrace",
+      "item_name": "#DOTA_Item_Helmet_of_the_Cryogenic_Embrace",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5665",
+      "name": "Roshan Hunter Arms",
+      "item_name": "#DOTA_Item_Roshan_Hunter_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5666",
+      "name": "Roshan Hunter Back",
+      "item_name": "#DOTA_Item_Roshan_Hunter_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5667",
+      "name": "Roshan Hunter Belt",
+      "item_name": "#DOTA_Item_Roshan_Hunter_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5668",
+      "name": "Roshan Hunter Head",
+      "item_name": "#DOTA_Item_Roshan_Hunter_Head",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5794",
+      "name": "Redwood Claws",
+      "item_name": "#DOTA_Item_Redwood_Claws",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5805",
+      "name": "Arms of the Cryogenic Embrace",
+      "item_name": "#DOTA_Item_Arms_of_the_Cryogenic_Embrace",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5807",
+      "name": "Back of the Cryogenic Embrace",
+      "item_name": "#DOTA_Item_Back_of_the_Cryogenic_Embrace",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5808",
+      "name": "Belt of the Cryogenic Embrace",
+      "item_name": "#DOTA_Item_Belt_of_the_Cryogenic_Embrace",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5888",
+      "name": "Belt of the Radiant Protector",
+      "item_name": "#DOTA_Item_Belt_of_the_Radiant_Protector",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5893",
+      "name": "Wraps of the Radiant Protector",
+      "item_name": "#DOTA_Item_Wraps_of_the_Radiant_Protector",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5894",
+      "name": "Mark of the Radiant Protector",
+      "item_name": "#DOTA_Item_Mark_of_the_Radiant_Protector",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5895",
+      "name": "Braids of the Radiant Protector",
+      "item_name": "#DOTA_Item_Braids_of_the_Radiant_Protector",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6893",
+      "name": "Swift Claw",
+      "item_name": "#DOTA_Item_Swift_Claw",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7650",
+      "name": "Girdle of the Ferocious Heart",
+      "item_name": "#DOTA_Item_Girdle_of_the_Ferocious_Heart",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7651",
+      "name": "Bracers of the Ferocious Heart",
+      "item_name": "#DOTA_Item_Bracers_of_the_Ferocious_Heart",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7652",
+      "name": "Mane of the Ferocious Heart",
+      "item_name": "#DOTA_Item_Mane_of_the_Ferocious_Heart",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7653",
+      "name": "Helm of the Ferocious Heart",
+      "item_name": "#DOTA_Item_Helm_of_the_Ferocious_Heart",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7654",
+      "name": "Claws of the Ferocious Heart",
+      "item_name": "#DOTA_Item_Claws_of_the_Ferocious_Heart",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7920",
+      "name": "Gauntlets of the Razorwyrm",
+      "item_name": "#DOTA_Item_Gauntlets_of_the_Razorwyrm",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7921",
+      "name": "Backplates of the Razorwyrm",
+      "item_name": "#DOTA_Item_Backplates_of_the_Razorwyrm",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7922",
+      "name": "Skull of the Razorwyrm",
+      "item_name": "#DOTA_Item_Skull_of_the_Razorwyrm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7928",
+      "name": "Belt of the Razorwyrm",
+      "item_name": "#DOTA_Item_Belt_of_the_Razorwyrm",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9688",
+      "name": "Mane of the Crystal Drift",
+      "item_name": "#DOTA_Item_Mane_of_the_Crystal_Drift",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9689",
+      "name": "Belt of the Crystal Drift",
+      "item_name": "#DOTA_Item_Belt_of_the_Crystal_Drift",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9690",
+      "name": "Hide of the Crystal Drift",
+      "item_name": "#DOTA_Item_Hide_of_the_Crystal_Drift",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9691",
+      "name": "Claws of the Crystal Drift",
+      "item_name": "#DOTA_Item_Claws_of_the_Crystal_Drift",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "10065",
+      "name": "Expired Treasure of the Wild Claw",
+      "item_name": "#DOTA_Item_Expired_Treasure_of_the_Wild_Claw",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "retired_treasure_chest"
+    },
+    {
+      "id": "12432",
+      "name": "Taunt: Not Just Your Average Bear",
+      "item_name": "#DOTA_Item_Taunt_Not_Just_Your_Average_Bear",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "12981",
+      "name": "Claws of the Sangstrath Fold",
+      "item_name": "#DOTA_Item_Claws_of_the_Sangstrath_Fold",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12982",
+      "name": "Mask of the Sangstrath Fold",
+      "item_name": "#DOTA_Item_Mask_of_the_Sangstrath_Fold",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12983",
+      "name": "Mantle of the Sangstrath Fold",
+      "item_name": "#DOTA_Item_Mantle_of_the_Sangstrath_Fold",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12984",
+      "name": "Barding of the Sangstrath Fold",
+      "item_name": "#DOTA_Item_Barding_of_the_Sangstrath_Fold",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14944",
+      "name": "Dipper the Destroyer",
+      "item_name": "#DOTA_Item_Dipper_the_Destroyer",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19425",
+      "name": "Bloodzo the Bear - Arms",
+      "item_name": "#DOTA_Item_Bloodzo_the_Bear__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19426",
+      "name": "Bloodzo the Bear - Back",
+      "item_name": "#DOTA_Item_Bloodzo_the_Bear__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19427",
+      "name": "Bloodzo the Bear - Belt",
+      "item_name": "#DOTA_Item_Bloodzo_the_Bear__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19428",
+      "name": "Bloodzo the Bear - Weapon",
+      "item_name": "#DOTA_Item_Bloodzo_the_Bear__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19429",
+      "name": "Bloodzo the Bear - Head",
+      "item_name": "#DOTA_Item_Bloodzo_the_Bear__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20042",
+      "name": "The Iron Bear's Set",
+      "item_name": "#DOTA_Item_The_Iron_Bears_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20043",
+      "name": "The Ursine Ravager Set",
+      "item_name": "#DOTA_Item_The_Ursine_Ravager_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20044",
+      "name": "The Savage Age Set",
+      "item_name": "#DOTA_Item_The_Savage_Age_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20048",
+      "name": "The Alpine Stalker's Set",
+      "item_name": "#DOTA_Item_The_Alpine_Stalkers_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20050",
+      "name": "Ursa's Big Bundle",
+      "item_name": "#DOTA_Bundle_Ursa_Big_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20309",
+      "name": "Roshan Hunter & G-League Bundle",
+      "item_name": "#DOTA_Item_Roshan_Hunter__GLeague_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20330",
+      "name": "Cryogenic Embrace Set",
+      "item_name": "#DOTA_Item_Cryogenic_Embrace_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20350",
+      "name": "Radiant Protector Set",
+      "item_name": "#DOTA_Item_Radiant_Protector_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20766",
+      "name": "Ferocious Heart",
+      "item_name": "#DOTA_Item_Ferocious_Heart",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21018",
+      "name": "Scale of the Razorwyrm",
+      "item_name": "#DOTA_Item_Scale_of_the_Razorwyrm",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21182",
+      "name": "Hunter of the Crystal Drift",
+      "item_name": "#DOTA_Item_Hunter_of_the_Crystal_Drift",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21327",
+      "name": "Kin of the Sangstrath Fold",
+      "item_name": "#DOTA_Item_Kin_of_the_Sangstrath_Fold",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21655",
+      "name": "Dipper the Destroyer Bundle",
+      "item_name": "#DOTA_Item_Dipper_the_Destroyer_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21886",
+      "name": "Bloodzo the Bear",
+      "item_name": "#DOTA_Item_Bloodzo_the_Bear",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23331",
+      "name": "Feast of the Damned Back",
+      "item_name": "#DOTA_Item_Feast_of_the_Damned_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23332",
+      "name": "Feast of the Damned Head",
+      "item_name": "#DOTA_Item_Feast_of_the_Damned_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23333",
+      "name": "Feast of the Damned Arms",
+      "item_name": "#DOTA_Item_Feast_of_the_Damned_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23334",
+      "name": "Feast of the Damned Belt",
+      "item_name": "#DOTA_Item_Feast_of_the_Damned_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23335",
+      "name": "Feast of the Damned",
+      "item_name": "#DOTA_Item_Feast_of_the_Damned",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23756",
+      "name": "Owly Bear - Head",
+      "item_name": "#DOTA_Item_Owly_Bear__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23772",
+      "name": "Owly Bear - Back",
+      "item_name": "#DOTA_Item_Owly_Bear__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23773",
+      "name": "Owly Bear - Arms",
+      "item_name": "#DOTA_Item_Owly_Bear__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26408",
+      "name": "Trophies of the Hallowed Hunt - Back",
+      "item_name": "#DOTA_Item_Trophies_of_the_Hallowed_Hunt__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26409",
+      "name": "Trophies of the Hallowed Hunt - Belt",
+      "item_name": "#DOTA_Item_Trophies_of_the_Hallowed_Hunt__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26410",
+      "name": "Trophies of the Hallowed Hunt - Head",
+      "item_name": "#DOTA_Item_Trophies_of_the_Hallowed_Hunt__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26411",
+      "name": "Trophies of the Hallowed Hunt - Weapon",
+      "item_name": "#DOTA_Item_Trophies_of_the_Hallowed_Hunt__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26534",
+      "name": "Trophies of the Hallowed Hunt",
+      "item_name": "#DOTA_Item_Trophies_of_the_Hallowed_Hunt",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26535",
+      "name": "Trophies of the Hallowed Hunt - Arms",
+      "item_name": "#DOTA_Item_Trophies_of_the_Hallowed_Hunt__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27134",
+      "name": "Owly Bear - Belt",
+      "item_name": "#DOTA_Item_Owly_Bear__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27140",
+      "name": "Owly Bear - Claws",
+      "item_name": "#DOTA_Item_Owly_Bear__Claws",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27141",
+      "name": "Owly Bear",
+      "item_name": "#DOTA_Item_Owly_Bear",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "27142",
+      "name": "10th Anniversary Lucky Alpine Stalker's Back",
+      "item_name": "#DOTA_Item_10th_Anniversary_Lucky_Alpine_Stalkers_Back",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27143",
+      "name": "10th Anniversary Lucky Alpine Stalker's Belt",
+      "item_name": "#DOTA_Item_10th_Anniversary_Lucky_Alpine_Stalkers_Belt",
+      "item_slot": "belt",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27144",
+      "name": "10th Anniversary Lucky Alpine Stalker's Arms",
+      "item_name": "#DOTA_Item_10th_Anniversary_Lucky_Alpine_Stalkers_Arms",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27145",
+      "name": "10th Anniversary The Alpine Stalker's Set",
+      "item_name": "#DOTA_Item_10th_Anniversary_The_Alpine_Stalkers_Set",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28114",
+      "name": "10th Anniversary Lucky Alpine Stalker's Hat",
+      "item_name": "#DOTA_Item_10th_Anniversary_Lucky_Alpine_Stalkers_Hat",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    }
+  ]
+}

@@ -1,0 +1,1249 @@
+{
+  "defaults": {
+    "head": {
+      "id": "640",
+      "name": "Dark Willow's Head",
+      "item_name": "#DOTA_Item_Dark_Willows_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "offhand_weapon": {
+      "id": "641",
+      "name": "Dark Willow's Offhand",
+      "item_name": "#DOTA_Item_Dark_Willows_Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common"
+    },
+    "armor": {
+      "id": "642",
+      "name": "Dark Willow's Armor",
+      "item_name": "#DOTA_Item_Dark_Willows_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "646",
+      "name": "Dark Willow's Wings",
+      "item_name": "#DOTA_Item_Dark_Willows_Wings",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "belt": {
+      "id": "651",
+      "name": "Dark Willow's Chakram",
+      "item_name": "#DOTA_Item_Dark_Willows_Chakram",
+      "item_slot": "belt",
+      "item_rarity": "common"
+    },
+    "ambient_effects": {
+      "id": "653",
+      "name": "Dark Willow's Ambient Effects",
+      "item_name": "#DOTA_Item_Dark_Willows_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    },
+    "costume": {
+      "id": "720",
+      "name": "Dark Willow's Costume",
+      "item_name": "#DOTA_Item_Dark_Willows_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Allure_of_the_Faeshade_Flower",
+      "store_bundle": "Allure of the Faeshade Flower",
+      "portrait_image": "econ/sets/v2/allure_of_the_faeshade_flower",
+      "items": [
+        {
+          "name": "Wings of the Faeshade Flower",
+          "id": "13089",
+          "item_name": "#DOTA_Item_Wings_of_the_Faeshade_Flower",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dress of the Faeshade Flower",
+          "id": "13088",
+          "item_name": "#DOTA_Item_Dress_of_the_Faeshade_Flower",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Belt of the Faeshade Flower",
+          "id": "13087",
+          "item_name": "#DOTA_Item_Belt_of_the_Faeshade_Flower",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Lantern of the Faeshade Flower",
+          "id": "13086",
+          "item_name": "#DOTA_Item_Lantern_of_the_Faeshade_Flower",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Tiara of the Faeshade Flower",
+          "id": "13085",
+          "item_name": "#DOTA_Item_Tiara_of_the_Faeshade_Flower",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ardalan_Arsonist",
+      "store_bundle": "Ardalan Arsonist",
+      "portrait_image": "econ/sets/v2/ardalan_arsonist",
+      "items": [
+        {
+          "name": "Ardalan Arsonist - Offhand Weapon",
+          "id": "28725",
+          "item_name": "#DOTA_Item_Ardalan_Arsonist__Offhand_Weapon",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ardalan Arsonist - Head",
+          "id": "28724",
+          "item_name": "#DOTA_Item_Ardalan_Arsonist__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ardalan Arsonist - Belt",
+          "id": "28723",
+          "item_name": "#DOTA_Item_Ardalan_Arsonist__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ardalan Arsonist - Back",
+          "id": "28722",
+          "item_name": "#DOTA_Item_Ardalan_Arsonist__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ardalan Arsonist - Armor",
+          "id": "28721",
+          "item_name": "#DOTA_Item_Ardalan_Arsonist__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Burglar_of_Wasp",
+      "store_bundle": "Burglar of Wasp",
+      "portrait_image": "econ/sets/v2/burglar_of_wasp",
+      "items": [
+        {
+          "name": "Burglar of Wasp Head",
+          "id": "14240",
+          "item_name": "#DOTA_Item_Vote_Only_Burglar_of_Wasp_Head",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Burglar of Wasp Armor",
+          "id": "14239",
+          "item_name": "#DOTA_Item_Vote_Only_Burglar_of_Wasp_Armor",
+          "item_slot": "armor",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Burglar of Wasp Back",
+          "id": "14238",
+          "item_name": "#DOTA_Item_Vote_Only_Burglar_of_Wasp_Back",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Burglar of Wasp Belt",
+          "id": "14237",
+          "item_name": "#DOTA_Item_Vote_Only_Burglar_of_Wasp_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Burglar of Wasp Off-Hand",
+          "id": "14236",
+          "item_name": "#DOTA_Item_Vote_Only_Burglar_of_Wasp_OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Curse_of_the_Winter_Rose",
+      "store_bundle": "Curse of the Winter Rose",
+      "portrait_image": "econ/sets/v2/curse_of_the_winter_rose",
+      "items": [
+        {
+          "name": "Lantern of the Winter Rose",
+          "id": "6977",
+          "item_name": "#DOTA_Item_Lantern_of_the_Winter_Rose",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Wings of the Winter Rose",
+          "id": "6992",
+          "item_name": "#DOTA_Item_Wings_of_the_Winter_Rose",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Satchel of the Winter Rose",
+          "id": "6990",
+          "item_name": "#DOTA_Item_Satchel_of_the_Winter_Rose",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Armor of the Winter Rose",
+          "id": "6991",
+          "item_name": "#DOTA_Item_Armor_of_the_Winter_Rose",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Petals of the Winter Rose",
+          "id": "6978",
+          "item_name": "#DOTA_Item_Petals_of_the_Winter_Rose",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dark_Willows_Diretide_Shimmer_Bundle",
+      "store_bundle": "Dark Willow's Diretide Shimmer Bundle",
+      "portrait_image": "econ/sets/v2/dark_willows_diretide_shimmer_bundle",
+      "items": [
+        {
+          "name": "Dark Willow's Diretide Shimmer Costume",
+          "id": "17684",
+          "item_name": "#DOTA_Item_Dark_Willows_Diretide_Shimmer_Costume",
+          "item_slot": "costume",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Dark Willow's Diretide Shimmer Chakram",
+          "id": "17791",
+          "item_name": "#DOTA_Item_Dark_Willows_Diretide_Shimmer_Chakram",
+          "item_slot": "belt",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Dark Willow's Diretide Shimmer Armor",
+          "id": "17792",
+          "item_name": "#DOTA_Item_Dark_Willows_Diretide_Shimmer_Armor",
+          "item_slot": "armor",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Dark Willow's Diretide Shimmer Wings",
+          "id": "17793",
+          "item_name": "#DOTA_Item_Dark_Willows_Diretide_Shimmer_Wings",
+          "item_slot": "back",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Dark Willow's Diretide Shimmer Offhand",
+          "id": "17807",
+          "item_name": "#DOTA_Item_Dark_Willows_Diretide_Shimmer_Offhand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "seasonal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Moonlight_Fairy",
+      "store_bundle": "Moonlight Fairy",
+      "portrait_image": "econ/sets/v2/dark_willow_moonlight_fairy",
+      "items": [
+        {
+          "name": "Moonlight Fairy Head",
+          "id": "14646",
+          "item_name": "#DOTA_Item_Vote_Only_Moonlight_Fairy_Head",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Moonlight Fairy Armor",
+          "id": "14709",
+          "item_name": "#DOTA_Item_Vote_Only_Moonlight_Fairy_Armor",
+          "item_slot": "armor",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Moonlight Fairy Belt",
+          "id": "14710",
+          "item_name": "#DOTA_Item_Vote_Only_Moonlight_Fairy_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Moonlight Fairy Back",
+          "id": "14711",
+          "item_name": "#DOTA_Item_Vote_Only_Moonlight_Fairy_Back",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Moonlight Fairy Off-Hand",
+          "id": "14712",
+          "item_name": "#DOTA_Item_Vote_Only_Moonlight_Fairy_OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Saccharine_Saboteur",
+      "store_bundle": "Saccharine Saboteur",
+      "portrait_image": "econ/sets/v2/dark_willow_saccharine_saboteur",
+      "items": [
+        {
+          "name": "Lantern of the Saccharine Saboteur",
+          "id": "13676",
+          "item_name": "#DOTA_Item_Lantern_of_the_Saccharine_Saboteur",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Confidant of the Saccharine Saboteur",
+          "id": "13677",
+          "item_name": "#DOTA_Item_Confidant_of_the_Saccharine_Saboteur",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Tricks of the Saccharine Saboteur",
+          "id": "13678",
+          "item_name": "#DOTA_Item_Tricks_of_the_Saccharine_Saboteur",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Wings of the Saccharine Saboteur",
+          "id": "13679",
+          "item_name": "#DOTA_Item_Wings_of_the_Saccharine_Saboteur",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Garb of the Saccharine Saboteur",
+          "id": "13680",
+          "item_name": "#DOTA_Item_Garb_of_the_Saccharine_Saboteur",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Iron_Thornling",
+      "store_bundle": "Iron Thornling",
+      "portrait_image": "econ/sets/v2/iron_thornling",
+      "items": [
+        {
+          "name": "Iron Thornling - Head",
+          "id": "14842",
+          "item_name": "#DOTA_Item_Iron_Thornling__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Iron Thornling - Armor",
+          "id": "14841",
+          "item_name": "#DOTA_Item_Iron_Thornling__Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Iron Thornling - Back",
+          "id": "14840",
+          "item_name": "#DOTA_Item_Iron_Thornling__Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Iron Thornling - Off-Hand",
+          "id": "14839",
+          "item_name": "#DOTA_Item_Iron_Thornling__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Iron Thornling - Belt",
+          "id": "14838",
+          "item_name": "#DOTA_Item_Iron_Thornling__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Mischief_of_the_Fae_Forager",
+      "store_bundle": "Mischief of the Fae Forager",
+      "portrait_image": "econ/sets/v2/mischief_of_the_fae_forager",
+      "items": [
+        {
+          "name": "Basket of the Fae Forager",
+          "id": "12471",
+          "item_name": "#DOTA_Item_Basket_of_the_Fae_Forager",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Cap of the Fae Forager",
+          "id": "12470",
+          "item_name": "#DOTA_Item_Cap_of_the_Fae_Forager",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Wings of the Fae Forager",
+          "id": "12469",
+          "item_name": "#DOTA_Item_Wings_of_the_Fae_Forager",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Dress of the Fae Forager",
+          "id": "12468",
+          "item_name": "#DOTA_Item_Dress_of_the_Fae_Forager",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Cage of the Fae Forager",
+          "id": "12467",
+          "item_name": "#DOTA_Item_Cage_of_the_Fae_Forager",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Rain_Forest_Refugee",
+      "store_bundle": "Rain Forest Refugee",
+      "portrait_image": "econ/sets/v2/rain_forest_refugee",
+      "items": [
+        {
+          "name": "Garb of the Rain Forest Refugee",
+          "id": "13347",
+          "item_name": "#DOTA_Item_Garb_of_the_Rain_Forest_Refugee",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Belt of the Rain Forest Refugee",
+          "id": "13346",
+          "item_name": "#DOTA_Item_Belt_of_the_Rain_Forest_Refugee",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Helm of the Rain Forest Refugee",
+          "id": "13345",
+          "item_name": "#DOTA_Item_Helm_of_the_Rain_Forest_Refugee",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Fae Vessel of the Rain Forest Refugee",
+          "id": "13344",
+          "item_name": "#DOTA_Item_Fae_Vessel_of_the_Rain_Forest_Refugee",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Wings of the Rain Forest Refugee",
+          "id": "13343",
+          "item_name": "#DOTA_Item_Wings_of_the_Rain_Forest_Refugee",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Duskbloom_Trickster",
+      "store_bundle": "The Duskbloom Trickster",
+      "portrait_image": "econ/sets/v2/the_duskbloom_trickster",
+      "items": [
+        {
+          "name": "The Duskbloom Trickster Belt",
+          "id": "13887",
+          "item_name": "#DOTA_Item_The_Duskbloom_Trickster_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Duskbloom Trickster Head",
+          "id": "13886",
+          "item_name": "#DOTA_Item_The_Duskbloom_Trickster_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Duskbloom Trickster Armor",
+          "id": "13885",
+          "item_name": "#DOTA_Item_The_Duskbloom_Trickster_Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Duskbloom Trickster Off-Hand",
+          "id": "13884",
+          "item_name": "#DOTA_Item_The_Duskbloom_Trickster_OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Duskbloom Trickster Back",
+          "id": "13883",
+          "item_name": "#DOTA_Item_The_Duskbloom_Trickster_Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Twilight_Hex",
+      "store_bundle": "Twilight Hex",
+      "portrait_image": "econ/sets/v2/twilight_hex",
+      "items": [
+        {
+          "name": "Twilight Hex - Belt",
+          "id": "13700",
+          "item_name": "#DOTA_Item_Twilight_Hex__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Twilight Hex - Offhand",
+          "id": "13699",
+          "item_name": "#DOTA_Item_Twilight_Hex__Offhand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Twilight Hex - Back",
+          "id": "13698",
+          "item_name": "#DOTA_Item_Twilight_Hex__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Twilight Hex - Head",
+          "id": "13697",
+          "item_name": "#DOTA_Item_Twilight_Hex__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Twilight Hex - Armor",
+          "id": "13696",
+          "item_name": "#DOTA_Item_Twilight_Hex__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "640",
+      "name": "Dark Willow's Head",
+      "item_name": "#DOTA_Item_Dark_Willows_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "641",
+      "name": "Dark Willow's Offhand",
+      "item_name": "#DOTA_Item_Dark_Willows_Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "642",
+      "name": "Dark Willow's Armor",
+      "item_name": "#DOTA_Item_Dark_Willows_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "646",
+      "name": "Dark Willow's Wings",
+      "item_name": "#DOTA_Item_Dark_Willows_Wings",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "651",
+      "name": "Dark Willow's Chakram",
+      "item_name": "#DOTA_Item_Dark_Willows_Chakram",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "653",
+      "name": "Dark Willow's Ambient Effects",
+      "item_name": "#DOTA_Item_Dark_Willows_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "720",
+      "name": "Dark Willow's Costume",
+      "item_name": "#DOTA_Item_Dark_Willows_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "6977",
+      "name": "Lantern of the Winter Rose",
+      "item_name": "#DOTA_Item_Lantern_of_the_Winter_Rose",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6978",
+      "name": "Petals of the Winter Rose",
+      "item_name": "#DOTA_Item_Petals_of_the_Winter_Rose",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6990",
+      "name": "Satchel of the Winter Rose",
+      "item_name": "#DOTA_Item_Satchel_of_the_Winter_Rose",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6991",
+      "name": "Armor of the Winter Rose",
+      "item_name": "#DOTA_Item_Armor_of_the_Winter_Rose",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6992",
+      "name": "Wings of the Winter Rose",
+      "item_name": "#DOTA_Item_Wings_of_the_Winter_Rose",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9209",
+      "name": "The Sunbreeze Birthright",
+      "item_name": "#DOTA_Item_The_Sunbreeze_Birthright",
+      "item_slot": "belt",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9210",
+      "name": "Dark Willow's Off Hand - Duel Page",
+      "item_name": "#DOTA_Item_Dark_Willows_Off_Hand__Duel_Page",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9211",
+      "name": "Taunt: Thorns and All",
+      "item_name": "#DOTA_Item_Taunt_Thorns_and_All",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "taunt"
+    },
+    {
+      "id": "12327",
+      "name": "Hearts of Misrule",
+      "item_name": "#DOTA_Item_Hearts_of_Misrule",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12422",
+      "name": "Crimson Hearts of Misrule",
+      "item_name": "#DOTA_Item_Crimson_Hearts_of_Misrule",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12467",
+      "name": "Cage of the Fae Forager",
+      "item_name": "#DOTA_Item_Cage_of_the_Fae_Forager",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12468",
+      "name": "Dress of the Fae Forager",
+      "item_name": "#DOTA_Item_Dress_of_the_Fae_Forager",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12469",
+      "name": "Wings of the Fae Forager",
+      "item_name": "#DOTA_Item_Wings_of_the_Fae_Forager",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12470",
+      "name": "Cap of the Fae Forager",
+      "item_name": "#DOTA_Item_Cap_of_the_Fae_Forager",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12471",
+      "name": "Basket of the Fae Forager",
+      "item_name": "#DOTA_Item_Basket_of_the_Fae_Forager",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13085",
+      "name": "Tiara of the Faeshade Flower",
+      "item_name": "#DOTA_Item_Tiara_of_the_Faeshade_Flower",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13086",
+      "name": "Lantern of the Faeshade Flower",
+      "item_name": "#DOTA_Item_Lantern_of_the_Faeshade_Flower",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13087",
+      "name": "Belt of the Faeshade Flower",
+      "item_name": "#DOTA_Item_Belt_of_the_Faeshade_Flower",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13088",
+      "name": "Dress of the Faeshade Flower",
+      "item_name": "#DOTA_Item_Dress_of_the_Faeshade_Flower",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13089",
+      "name": "Wings of the Faeshade Flower",
+      "item_name": "#DOTA_Item_Wings_of_the_Faeshade_Flower",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13343",
+      "name": "Wings of the Rain Forest Refugee",
+      "item_name": "#DOTA_Item_Wings_of_the_Rain_Forest_Refugee",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13344",
+      "name": "Fae Vessel of the Rain Forest Refugee",
+      "item_name": "#DOTA_Item_Fae_Vessel_of_the_Rain_Forest_Refugee",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13345",
+      "name": "Helm of the Rain Forest Refugee",
+      "item_name": "#DOTA_Item_Helm_of_the_Rain_Forest_Refugee",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13346",
+      "name": "Belt of the Rain Forest Refugee",
+      "item_name": "#DOTA_Item_Belt_of_the_Rain_Forest_Refugee",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13347",
+      "name": "Garb of the Rain Forest Refugee",
+      "item_name": "#DOTA_Item_Garb_of_the_Rain_Forest_Refugee",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13676",
+      "name": "Lantern of the Saccharine Saboteur",
+      "item_name": "#DOTA_Item_Lantern_of_the_Saccharine_Saboteur",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13677",
+      "name": "Confidant of the Saccharine Saboteur",
+      "item_name": "#DOTA_Item_Confidant_of_the_Saccharine_Saboteur",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13678",
+      "name": "Tricks of the Saccharine Saboteur",
+      "item_name": "#DOTA_Item_Tricks_of_the_Saccharine_Saboteur",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13679",
+      "name": "Wings of the Saccharine Saboteur",
+      "item_name": "#DOTA_Item_Wings_of_the_Saccharine_Saboteur",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13680",
+      "name": "Garb of the Saccharine Saboteur",
+      "item_name": "#DOTA_Item_Garb_of_the_Saccharine_Saboteur",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13696",
+      "name": "Twilight Hex - Armor",
+      "item_name": "#DOTA_Item_Twilight_Hex__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13697",
+      "name": "Twilight Hex - Head",
+      "item_name": "#DOTA_Item_Twilight_Hex__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13698",
+      "name": "Twilight Hex - Back",
+      "item_name": "#DOTA_Item_Twilight_Hex__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13699",
+      "name": "Twilight Hex - Offhand",
+      "item_name": "#DOTA_Item_Twilight_Hex__Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13700",
+      "name": "Twilight Hex - Belt",
+      "item_name": "#DOTA_Item_Twilight_Hex__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13883",
+      "name": "The Duskbloom Trickster Back",
+      "item_name": "#DOTA_Item_The_Duskbloom_Trickster_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13884",
+      "name": "The Duskbloom Trickster Off-Hand",
+      "item_name": "#DOTA_Item_The_Duskbloom_Trickster_OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13885",
+      "name": "The Duskbloom Trickster Armor",
+      "item_name": "#DOTA_Item_The_Duskbloom_Trickster_Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13886",
+      "name": "The Duskbloom Trickster Head",
+      "item_name": "#DOTA_Item_The_Duskbloom_Trickster_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13887",
+      "name": "The Duskbloom Trickster Belt",
+      "item_name": "#DOTA_Item_The_Duskbloom_Trickster_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14236",
+      "name": "Burglar of Wasp Off-Hand",
+      "item_name": "#DOTA_Item_Vote_Only_Burglar_of_Wasp_OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14237",
+      "name": "Burglar of Wasp Belt",
+      "item_name": "#DOTA_Item_Vote_Only_Burglar_of_Wasp_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14238",
+      "name": "Burglar of Wasp Back",
+      "item_name": "#DOTA_Item_Vote_Only_Burglar_of_Wasp_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14239",
+      "name": "Burglar of Wasp Armor",
+      "item_name": "#DOTA_Item_Vote_Only_Burglar_of_Wasp_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14240",
+      "name": "Burglar of Wasp Head",
+      "item_name": "#DOTA_Item_Vote_Only_Burglar_of_Wasp_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14646",
+      "name": "Moonlight Fairy Head",
+      "item_name": "#DOTA_Item_Vote_Only_Moonlight_Fairy_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14709",
+      "name": "Moonlight Fairy Armor",
+      "item_name": "#DOTA_Item_Vote_Only_Moonlight_Fairy_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14710",
+      "name": "Moonlight Fairy Belt",
+      "item_name": "#DOTA_Item_Vote_Only_Moonlight_Fairy_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14711",
+      "name": "Moonlight Fairy Back",
+      "item_name": "#DOTA_Item_Vote_Only_Moonlight_Fairy_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14712",
+      "name": "Moonlight Fairy Off-Hand",
+      "item_name": "#DOTA_Item_Vote_Only_Moonlight_Fairy_OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14838",
+      "name": "Iron Thornling - Belt",
+      "item_name": "#DOTA_Item_Iron_Thornling__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14839",
+      "name": "Iron Thornling - Off-Hand",
+      "item_name": "#DOTA_Item_Iron_Thornling__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14840",
+      "name": "Iron Thornling - Back",
+      "item_name": "#DOTA_Item_Iron_Thornling__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14841",
+      "name": "Iron Thornling - Armor",
+      "item_name": "#DOTA_Item_Iron_Thornling__Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14842",
+      "name": "Iron Thornling - Head",
+      "item_name": "#DOTA_Item_Iron_Thornling__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17684",
+      "name": "Dark Willow's Diretide Shimmer Costume",
+      "item_name": "#DOTA_Item_Dark_Willows_Diretide_Shimmer_Costume",
+      "item_slot": "costume",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17791",
+      "name": "Dark Willow's Diretide Shimmer Chakram",
+      "item_name": "#DOTA_Item_Dark_Willows_Diretide_Shimmer_Chakram",
+      "item_slot": "belt",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17792",
+      "name": "Dark Willow's Diretide Shimmer Armor",
+      "item_name": "#DOTA_Item_Dark_Willows_Diretide_Shimmer_Armor",
+      "item_slot": "armor",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17793",
+      "name": "Dark Willow's Diretide Shimmer Wings",
+      "item_name": "#DOTA_Item_Dark_Willows_Diretide_Shimmer_Wings",
+      "item_slot": "back",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17794",
+      "name": "Dark Willow's Diretide Shimmer Head",
+      "item_name": "#DOTA_Item_Dark_Willows_Diretide_Shimmer_Head",
+      "item_slot": "head",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17807",
+      "name": "Dark Willow's Diretide Shimmer Offhand",
+      "item_name": "#DOTA_Item_Dark_Willows_Diretide_Shimmer_Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18853",
+      "name": "Gloombob",
+      "item_name": "#DOTA_Item_Gloombob",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20623",
+      "name": "Curse of the Winter Rose",
+      "item_name": "#DOTA_Item_Curse_of_the_Winter_Rose",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21242",
+      "name": "Mischief of the Fae Forager",
+      "item_name": "#DOTA_Item_Mischief_of_the_Fae_Forager",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21343",
+      "name": "Allure of the Faeshade Flower",
+      "item_name": "#DOTA_Item_Allure_of_the_Faeshade_Flower",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21391",
+      "name": "Rain Forest Refugee",
+      "item_name": "#DOTA_Item_Rain_Forest_Refugee",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21428",
+      "name": "Saccharine Saboteur",
+      "item_name": "#DOTA_Item_Saccharine_Saboteur",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21438",
+      "name": "Twilight Hex",
+      "item_name": "#DOTA_Item_Twilight_Hex",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21457",
+      "name": "The Duskbloom Trickster",
+      "item_name": "#DOTA_Item_The_Duskbloom_Trickster",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21523",
+      "name": "Burglar of Wasp",
+      "item_name": "#DOTA_Item_Vote_Only_Burglar_of_Wasp",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21604",
+      "name": "Iron Thornling",
+      "item_name": "#DOTA_Item_Iron_Thornling",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21696",
+      "name": "Dark Willow's Diretide Shimmer Bundle",
+      "item_name": "#DOTA_Item_Dark_Willows_Diretide_Shimmer_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22019",
+      "name": "Moonlight Fairy",
+      "item_name": "#DOTA_Item_Vote_Only_Moonlight_Fairy",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28721",
+      "name": "Ardalan Arsonist - Armor",
+      "item_name": "#DOTA_Item_Ardalan_Arsonist__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28722",
+      "name": "Ardalan Arsonist - Back",
+      "item_name": "#DOTA_Item_Ardalan_Arsonist__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28723",
+      "name": "Ardalan Arsonist - Belt",
+      "item_name": "#DOTA_Item_Ardalan_Arsonist__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28724",
+      "name": "Ardalan Arsonist - Head",
+      "item_name": "#DOTA_Item_Ardalan_Arsonist__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28725",
+      "name": "Ardalan Arsonist - Offhand Weapon",
+      "item_name": "#DOTA_Item_Ardalan_Arsonist__Offhand_Weapon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29155",
+      "name": "Ardalan Arsonist",
+      "item_name": "#DOTA_Item_Ardalan_Arsonist",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    }
+  ]
+}

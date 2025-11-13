@@ -1,0 +1,2172 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "403",
+      "name": "Mirana's Bow",
+      "item_name": "#DOTA_Item_Miranas_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "mount": {
+      "id": "404",
+      "name": "Mirana's Mount",
+      "item_name": "#DOTA_Item_Miranas_Mount",
+      "item_slot": "mount",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "405",
+      "name": "Mirana's Headdress",
+      "item_name": "#DOTA_Item_Miranas_Headdress",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "406",
+      "name": "Mirana's Cape",
+      "item_name": "#DOTA_Item_Miranas_Cape",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "shoulder": {
+      "id": "407",
+      "name": "Mirana's Shoulders",
+      "item_name": "#DOTA_Item_Miranas_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common"
+    },
+    "arms": {
+      "id": "408",
+      "name": "Mirana's Bracers",
+      "item_name": "#DOTA_Item_Miranas_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common"
+    },
+    "misc": {
+      "id": "409",
+      "name": "Mirana's Quiver",
+      "item_name": "#DOTA_Item_Miranas_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_10th_Anniversary_Mirana_Persona_Bundle",
+      "store_bundle": "10th Anniversary Mirana Persona Bundle",
+      "portrait_image": "econ/sets/v2/10th_anniversary_mirana_persona_bundle",
+      "items": [
+        {
+          "name": "10th Anniversary Dark Moon Armor",
+          "id": "27078",
+          "item_name": "#DOTA_Item_10th_Anniversary_Dark_Moon_Armor",
+          "item_slot": "armor_persona_1",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Crescent",
+      "store_bundle": "Crescent",
+      "portrait_image": "econ/sets/v2/crescent",
+      "items": [
+        {
+          "name": "Crescent Quiver",
+          "id": "6662",
+          "item_name": "#DOTA_Item_Crescent_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Crescent Skirt",
+          "id": "6657",
+          "item_name": "#DOTA_Item_Crescent_Skirt",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Crescent Bow",
+          "id": "6658",
+          "item_name": "#DOTA_Item_Crescent_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Crescent Bracers",
+          "id": "6659",
+          "item_name": "#DOTA_Item_Crescent_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Crescent Style",
+          "id": "6660",
+          "item_name": "#DOTA_Item_Crescent_Style",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Crescent Shoulder",
+          "id": "6663",
+          "item_name": "#DOTA_Item_Crescent_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Seleni",
+          "id": "6661",
+          "item_name": "#DOTA_Item_Seleni",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Darkfall_Warden",
+      "store_bundle": "Darkfall Warden",
+      "portrait_image": "econ/sets/v2/darkfall_warden",
+      "items": [
+        {
+          "name": "Darkfall Warden Pauldrons",
+          "id": "8537",
+          "item_name": "#DOTA_Item_Darkfall_Warden_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Darkfall Warden Skirt",
+          "id": "8538",
+          "item_name": "#DOTA_Item_Darkfall_Warden_Skirt",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Darkfall Warden Bow",
+          "id": "8540",
+          "item_name": "#DOTA_Item_Darkfall_Warden_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Darkfall Warden Bracers",
+          "id": "8541",
+          "item_name": "#DOTA_Item_Darkfall_Warden_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Darkfall Warden Quiver",
+          "id": "8542",
+          "item_name": "#DOTA_Item_Darkfall_Warden_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Darkfall Warden Hair",
+          "id": "8834",
+          "item_name": "#DOTA_Item_Darkfall_Warden_Hair",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Darkfall",
+          "id": "8539",
+          "item_name": "#DOTA_Item_Darkfall",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dawn_of_the_Moon",
+      "store_bundle": "Dawn of the Moon",
+      "portrait_image": "econ/sets/v2/dawn_of_the_moon",
+      "items": [
+        {
+          "name": "Dawn of the Moon Bow",
+          "id": "6437",
+          "item_name": "#DOTA_Item_Dawn_of_the_Moon_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Dawn of the Moon Quiver",
+          "id": "6438",
+          "item_name": "#DOTA_Item_Dawn_of_the_Moon_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Dawn of the Moon Skirt",
+          "id": "6439",
+          "item_name": "#DOTA_Item_Dawn_of_the_Moon_Skirt",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Beast of the Moon ",
+          "id": "6440",
+          "item_name": "#DOTA_Item_Beast_of_the_Moon_",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Dawn of the Moon Bracers",
+          "id": "6445",
+          "item_name": "#DOTA_Item_Dawn_of_the_Moon_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Dawn of the Moon Pauldrons",
+          "id": "6446",
+          "item_name": "#DOTA_Item_Dawn_of_the_Moon_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Dawn of the Moon Crown",
+          "id": "6448",
+          "item_name": "#DOTA_Item_Dawn_of_the_Moon_Crown",
+          "item_slot": "head",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dreams_of_Midsummer",
+      "store_bundle": "Dreams of Midsummer",
+      "portrait_image": "econ/sets/v2/dreams_of_midsummer",
+      "items": [
+        {
+          "name": "Dreams of Midsummer Bow",
+          "id": "18486",
+          "item_name": "#DOTA_Item_Dreams_of_Midsummer_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dreams of Midsummer Shoulder",
+          "id": "18485",
+          "item_name": "#DOTA_Item_Dreams_of_Midsummer_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dreams of Midsummer Quiver",
+          "id": "18484",
+          "item_name": "#DOTA_Item_Dreams_of_Midsummer_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dreams of Midsummer Mount",
+          "id": "18483",
+          "item_name": "#DOTA_Item_Dreams_of_Midsummer_Mount",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dreams of Midsummer Crown",
+          "id": "18482",
+          "item_name": "#DOTA_Item_Dreams_of_Midsummer_Crown",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dreams of Midsummer Back",
+          "id": "18481",
+          "item_name": "#DOTA_Item_Dreams_of_Midsummer_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Dreams of Midsummer Arms",
+          "id": "18480",
+          "item_name": "#DOTA_Item_Dreams_of_Midsummer_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Gifts_of_the_Heavenly_Guardian",
+      "store_bundle": "Gifts of the Heavenly Guardian",
+      "portrait_image": "econ/sets/v2/gifts_of_the_heavenly_guardian",
+      "items": [
+        {
+          "name": "Heavenly Guardian Bracers",
+          "id": "6152",
+          "item_name": "#DOTA_Item_Heavenly_Guardian_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Heavenly Guardian Quiver",
+          "id": "6153",
+          "item_name": "#DOTA_Item_Heavenly_Guardian_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Heavenly Guardian Skirt",
+          "id": "6154",
+          "item_name": "#DOTA_Item_Heavenly_Guardian_Skirt",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Heavenly Guardian Crest",
+          "id": "6155",
+          "item_name": "#DOTA_Item_Heavenly_Guardian_Crest",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Heavenly Guardian Bow",
+          "id": "6156",
+          "item_name": "#DOTA_Item_Heavenly_Guardian_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Heavenly Guardian Locks",
+          "id": "6157",
+          "item_name": "#DOTA_Item_Heavenly_Guardian_Locks",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Noctis the Heavenly Qilin Guardian",
+          "id": "6158",
+          "item_name": "#DOTA_Item_Noctis_the_Heavenly_Qilin_Guardian",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Heiress_of_the_Coastal_Kingdom",
+      "store_bundle": "Heiress of the Coastal Kingdom",
+      "portrait_image": "econ/sets/v2/heiress_of_the_coastal_kingdom",
+      "items": [
+        {
+          "name": "Arrows of the Coastal Kingdom",
+          "id": "9269",
+          "item_name": "#DOTA_Item_Arrows_of_the_Coastal_Kingdom",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Pterois of the Coastal Kingdom",
+          "id": "9270",
+          "item_name": "#DOTA_Item_Pterois_of_the_Coastal_Kingdom",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Belt of the Coastal Kingdom",
+          "id": "9271",
+          "item_name": "#DOTA_Item_Belt_of_the_Coastal_Kingdom",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Necklaces of the Coastal Kingdom",
+          "id": "9272",
+          "item_name": "#DOTA_Item_Necklaces_of_the_Coastal_Kingdom",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bow of the Coastal Kingdom",
+          "id": "9273",
+          "item_name": "#DOTA_Item_Bow_of_the_Coastal_Kingdom",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Braids of the Coastal Kingdom",
+          "id": "9274",
+          "item_name": "#DOTA_Item_Braids_of_the_Coastal_Kingdom",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bracelets of the Coastal Kingdom",
+          "id": "9275",
+          "item_name": "#DOTA_Item_Bracelets_of_the_Coastal_Kingdom",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dark_Moon_Bundle",
+      "store_bundle": "Dark Moon Bundle",
+      "portrait_image": "econ/sets/v2/mirana_dark_moon_bundle",
+      "items": [
+        {
+          "name": "Dark Moon Armor",
+          "id": "18556",
+          "item_name": "#DOTA_Item_Dark_Moon_Armor",
+          "item_slot": "armor_persona_1",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Dark Moon Back",
+          "id": "18603",
+          "item_name": "#DOTA_Item_Dark_Moon_Back",
+          "item_slot": "back_persona_1",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Starlight",
+      "store_bundle": "Starlight Set",
+      "portrait_image": "econ/sets/v2/mirana_starlight",
+      "items": [
+        {
+          "name": "Starlight Armguards",
+          "id": "5283",
+          "item_name": "#DOTA_Item_Starlight_Armguards",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Starlight Dress",
+          "id": "5284",
+          "item_name": "#DOTA_Item_Starlight_Dress",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Starlight Band",
+          "id": "5285",
+          "item_name": "#DOTA_Item_Starlight_Band",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Starlight Quiver",
+          "id": "5286",
+          "item_name": "#DOTA_Item_Starlight_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Morcant",
+          "id": "5287",
+          "item_name": "#DOTA_Item_Morcant",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Starlight Finery",
+          "id": "5288",
+          "item_name": "#DOTA_Item_Starlight_Finery",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Starlight Bow",
+          "id": "5289",
+          "item_name": "#DOTA_Item_Starlight_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Moon_Rider",
+      "store_bundle": "The Moon Rider Set",
+      "portrait_image": "econ/sets/v2/moon_rider",
+      "items": [
+        {
+          "name": "Bracers of the Moon Rider",
+          "id": "4949",
+          "item_name": "#DOTA_Item_Bracers_of_the_Moon_Rider",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Bow of the Moon Rider",
+          "id": "4950",
+          "item_name": "#DOTA_Item_Bow_of_the_Moon_Rider",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Lion Drape of the Moon Rider",
+          "id": "4952",
+          "item_name": "#DOTA_Item_Lion_Drape_of_the_Moon_Rider",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Tail of the Moon Rider",
+          "id": "4954",
+          "item_name": "#DOTA_Item_Tail_of_the_Moon_Rider",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Lion Quiver of the Moon Rider",
+          "id": "4955",
+          "item_name": "#DOTA_Item_Lion_Quiver_of_the_Moon_Rider",
+          "item_slot": "misc",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Fluted Guard of the Moon Rider",
+          "id": "4951",
+          "item_name": "#DOTA_Item_Fluted_Guard_of_the_Moon_Rider",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Andalmere the Litigon",
+          "id": "4953",
+          "item_name": "#DOTA_Item_Andalmere_the_Litigon",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Moon_Rift",
+      "store_bundle": "Moon Rift",
+      "portrait_image": "econ/sets/v2/moon_rift",
+      "items": [
+        {
+          "name": "Moon Rift Bow",
+          "id": "6939",
+          "item_name": "#DOTA_Item_Moon_Rift_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Moon Rift Style",
+          "id": "6936",
+          "item_name": "#DOTA_Item_Moon_Rift_Style",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Moon Rift Quiver",
+          "id": "6937",
+          "item_name": "#DOTA_Item_Moon_Rift_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Moon Rift Bracers",
+          "id": "6935",
+          "item_name": "#DOTA_Item_Moon_Rift_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Moon Rift Pauldrons",
+          "id": "6938",
+          "item_name": "#DOTA_Item_Moon_Rift_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Moon Rift Drape",
+          "id": "6941",
+          "item_name": "#DOTA_Item_Moon_Rift_Drape",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Moonrift",
+          "id": "6934",
+          "item_name": "#DOTA_Item_Moonrift",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Garments_of_the_Nightsilver_Sentinel",
+      "store_bundle": "Garments of the Nightsilver Sentinel",
+      "portrait_image": "econ/sets/v2/nightsilver_mirana",
+      "items": [
+        {
+          "name": "Stryff the Owlion",
+          "id": "4387",
+          "item_name": "#DOTA_Item_Stryff_the_Owlion",
+          "item_slot": "mount",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Nightsilver Bracers",
+          "id": "4645",
+          "item_name": "#DOTA_Item_Nightsilver_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Nightsilver Quiver",
+          "id": "4690",
+          "item_name": "#DOTA_Item_Nightsilver_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Nightsilver Raiments",
+          "id": "4691",
+          "item_name": "#DOTA_Item_Nightsilver_Raiments",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Nightsilver Regalia",
+          "id": "4692",
+          "item_name": "#DOTA_Item_Nightsilver_Regalia",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Nightsilver Locks",
+          "id": "4693",
+          "item_name": "#DOTA_Item_Nightsilver_Locks",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Nightsilver Bow",
+          "id": "4694",
+          "item_name": "#DOTA_Item_Nightsilver_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Photax_Fluttercat",
+      "store_bundle": "Photax Fluttercat",
+      "portrait_image": "econ/sets/v2/photax_fluttercat",
+      "items": [
+        {
+          "name": "Photax Fluttercat - Shoulder",
+          "id": "34031",
+          "item_name": "#DOTA_Item_Photax_Fluttercat__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Photax Fluttercat - Back",
+          "id": "34030",
+          "item_name": "#DOTA_Item_Photax_Fluttercat__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Photax Fluttercat - Quiver",
+          "id": "34029",
+          "item_name": "#DOTA_Item_Photax_Fluttercat__Quiver",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Photax Fluttercat - Mount",
+          "id": "34028",
+          "item_name": "#DOTA_Item_Photax_Fluttercat__Mount",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Photax Fluttercat - Arms",
+          "id": "34027",
+          "item_name": "#DOTA_Item_Photax_Fluttercat__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Photax Fluttercat - Bow",
+          "id": "34026",
+          "item_name": "#DOTA_Item_Photax_Fluttercat__Bow",
+          "item_slot": "weapon",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Photax Fluttercat - Head",
+          "id": "34025",
+          "item_name": "#DOTA_Item_Photax_Fluttercat__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Pride_of_the_Wintermoon",
+      "store_bundle": "Pride of the Wintermoon",
+      "portrait_image": "econ/sets/v2/pride_of_the_wintermoon",
+      "items": [
+        {
+          "name": "Bow of the Wintermoon",
+          "id": "9099",
+          "item_name": "#DOTA_Item_Bow_of_the_Wintermoon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Pauldrons of the Wintermoon",
+          "id": "6997",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Wintermoon",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mount of the Wintermoon",
+          "id": "9101",
+          "item_name": "#DOTA_Item_Mount_of_the_Wintermoon",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Quiver of the Wintermoon",
+          "id": "9100",
+          "item_name": "#DOTA_Item_Quiver_of_the_Wintermoon",
+          "item_slot": "misc",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Crown of the Wintermoon",
+          "id": "6993",
+          "item_name": "#DOTA_Item_Crown_of_the_Wintermoon",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Garb of the Wintermoon",
+          "id": "9098",
+          "item_name": "#DOTA_Item_Garb_of_the_Wintermoon",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bracers of the Wintermoon",
+          "id": "7563",
+          "item_name": "#DOTA_Item_Bracers_of_the_Wintermoon",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Snowstorm_Huntress",
+      "store_bundle": "Snowstorm Huntress",
+      "portrait_image": "econ/sets/v2/snowstorm_huntress",
+      "items": [
+        {
+          "name": "Jinky the Lion",
+          "id": "7099",
+          "item_name": "#DOTA_Item_Jinky_the_Lion",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Snowstorm Skirt and Scarf",
+          "id": "7095",
+          "item_name": "#DOTA_Item_Snowstorm_Skirt_and_Scarf",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Snowstorm Bow",
+          "id": "7096",
+          "item_name": "#DOTA_Item_Snowstorm_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Snowstorm Gloves",
+          "id": "7097",
+          "item_name": "#DOTA_Item_Snowstorm_Gloves",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Snowstorm Quiver",
+          "id": "7098",
+          "item_name": "#DOTA_Item_Snowstorm_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Snowstorm Hood",
+          "id": "7100",
+          "item_name": "#DOTA_Item_Snowstorm_Hood",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Snowstorm Mantle",
+          "id": "7101",
+          "item_name": "#DOTA_Item_Snowstorm_Mantle",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Spirit_of_the_Sacred_Grove",
+      "store_bundle": "Spirit of the Sacred Grove",
+      "portrait_image": "econ/sets/v2/spirit_of_the_sacred_grove",
+      "items": [
+        {
+          "name": "Spirit of the Sacred Grove - Arms",
+          "id": "14420",
+          "item_name": "#DOTA_Item_Spirit_of_the_Sacred_Grove__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Spirit of the Sacred Grove - Back",
+          "id": "14419",
+          "item_name": "#DOTA_Item_Spirit_of_the_Sacred_Grove__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Spirit of the Sacred Grove - Head",
+          "id": "14418",
+          "item_name": "#DOTA_Item_Spirit_of_the_Sacred_Grove__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Spirit of the Sacred Grove - Quiver",
+          "id": "14417",
+          "item_name": "#DOTA_Item_Spirit_of_the_Sacred_Grove__Quiver",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Spirit of the Sacred Grove - Guardian",
+          "id": "14416",
+          "item_name": "#DOTA_Item_Spirit_of_the_Sacred_Grove__Guardian",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Spirit of the Sacred Grove - Shoulder",
+          "id": "14415",
+          "item_name": "#DOTA_Item_Spirit_of_the_Sacred_Grove__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Spirit of the Sacred Grove - Bow",
+          "id": "14414",
+          "item_name": "#DOTA_Item_Spirit_of_the_Sacred_Grove__Bow",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Temple_Gala",
+      "store_bundle": "Temple Gala",
+      "portrait_image": "econ/sets/v2/temple_gala",
+      "items": [
+        {
+          "name": "Temple Gala - Arms",
+          "id": "22322",
+          "item_name": "#DOTA_Item_Temple_Gala__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Temple Gala - Back",
+          "id": "22324",
+          "item_name": "#DOTA_Item_Temple_Gala__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Temple Gala - Head",
+          "id": "22325",
+          "item_name": "#DOTA_Item_Temple_Gala__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Temple Gala - Misc",
+          "id": "22327",
+          "item_name": "#DOTA_Item_Temple_Gala__Misc",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Temple Gala - Mount",
+          "id": "22328",
+          "item_name": "#DOTA_Item_Temple_Gala__Mount",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Temple Gala - Shoulder",
+          "id": "22342",
+          "item_name": "#DOTA_Item_Temple_Gala__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Temple Gala - Weapon",
+          "id": "22343",
+          "item_name": "#DOTA_Item_Temple_Gala__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "403",
+      "name": "Mirana's Bow",
+      "item_name": "#DOTA_Item_Miranas_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "404",
+      "name": "Mirana's Mount",
+      "item_name": "#DOTA_Item_Miranas_Mount",
+      "item_slot": "mount",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "405",
+      "name": "Mirana's Headdress",
+      "item_name": "#DOTA_Item_Miranas_Headdress",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "406",
+      "name": "Mirana's Cape",
+      "item_name": "#DOTA_Item_Miranas_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "407",
+      "name": "Mirana's Shoulders",
+      "item_name": "#DOTA_Item_Miranas_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "408",
+      "name": "Mirana's Bracers",
+      "item_name": "#DOTA_Item_Miranas_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "409",
+      "name": "Mirana's Quiver",
+      "item_name": "#DOTA_Item_Miranas_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "731",
+      "name": "Mirana Persona Weapon",
+      "item_name": "#DOTA_Item_Mirana_Persona_Weapon",
+      "item_slot": "weapon_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "759",
+      "name": "Mirana's Persona",
+      "item_name": "#DOTA_Item_Miranas_Persona",
+      "item_slot": "persona_selector",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "773",
+      "name": "Mirana Persona Head",
+      "item_name": "#DOTA_Item_Mirana_Persona_Head",
+      "item_slot": "head_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "774",
+      "name": "Mirana Persona Mount",
+      "item_name": "#DOTA_Item_Mirana_Persona_Mount",
+      "item_slot": "mount_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "775",
+      "name": "Mirana Persona Armor",
+      "item_name": "#DOTA_Item_Mirana_Persona_Armor",
+      "item_slot": "armor_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "776",
+      "name": "Mirana Persona Back",
+      "item_name": "#DOTA_Item_Mirana_Persona_Back",
+      "item_slot": "back_persona_1",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4387",
+      "name": "Stryff the Owlion",
+      "item_name": "#DOTA_Item_Stryff_the_Owlion",
+      "item_slot": "mount",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4645",
+      "name": "Nightsilver Bracers",
+      "item_name": "#DOTA_Item_Nightsilver_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4690",
+      "name": "Nightsilver Quiver",
+      "item_name": "#DOTA_Item_Nightsilver_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4691",
+      "name": "Nightsilver Raiments",
+      "item_name": "#DOTA_Item_Nightsilver_Raiments",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4692",
+      "name": "Nightsilver Regalia",
+      "item_name": "#DOTA_Item_Nightsilver_Regalia",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4693",
+      "name": "Nightsilver Locks",
+      "item_name": "#DOTA_Item_Nightsilver_Locks",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4694",
+      "name": "Nightsilver Bow",
+      "item_name": "#DOTA_Item_Nightsilver_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4880",
+      "name": "Ormr the Lunar Dragon",
+      "item_name": "#DOTA_Item_Ormr_the_Lunar_Dragon",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4949",
+      "name": "Bracers of the Moon Rider",
+      "item_name": "#DOTA_Item_Bracers_of_the_Moon_Rider",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4950",
+      "name": "Bow of the Moon Rider",
+      "item_name": "#DOTA_Item_Bow_of_the_Moon_Rider",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4951",
+      "name": "Fluted Guard of the Moon Rider",
+      "item_name": "#DOTA_Item_Fluted_Guard_of_the_Moon_Rider",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4952",
+      "name": "Lion Drape of the Moon Rider",
+      "item_name": "#DOTA_Item_Lion_Drape_of_the_Moon_Rider",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4953",
+      "name": "Andalmere the Litigon",
+      "item_name": "#DOTA_Item_Andalmere_the_Litigon",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4954",
+      "name": "Tail of the Moon Rider",
+      "item_name": "#DOTA_Item_Tail_of_the_Moon_Rider",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4955",
+      "name": "Lion Quiver of the Moon Rider",
+      "item_name": "#DOTA_Item_Lion_Quiver_of_the_Moon_Rider",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5283",
+      "name": "Starlight Armguards",
+      "item_name": "#DOTA_Item_Starlight_Armguards",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5284",
+      "name": "Starlight Dress",
+      "item_name": "#DOTA_Item_Starlight_Dress",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5285",
+      "name": "Starlight Band",
+      "item_name": "#DOTA_Item_Starlight_Band",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5286",
+      "name": "Starlight Quiver",
+      "item_name": "#DOTA_Item_Starlight_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5287",
+      "name": "Morcant",
+      "item_name": "#DOTA_Item_Morcant",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5288",
+      "name": "Starlight Finery",
+      "item_name": "#DOTA_Item_Starlight_Finery",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5289",
+      "name": "Starlight Bow",
+      "item_name": "#DOTA_Item_Starlight_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5578",
+      "name": "Bramblehorn",
+      "item_name": "#DOTA_Item_Bramblehorn",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5850",
+      "name": "Braids of Moonshadow",
+      "item_name": "#DOTA_Item_Braids_of_Moonshadow",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6152",
+      "name": "Heavenly Guardian Bracers",
+      "item_name": "#DOTA_Item_Heavenly_Guardian_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6153",
+      "name": "Heavenly Guardian Quiver",
+      "item_name": "#DOTA_Item_Heavenly_Guardian_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6154",
+      "name": "Heavenly Guardian Skirt",
+      "item_name": "#DOTA_Item_Heavenly_Guardian_Skirt",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6155",
+      "name": "Heavenly Guardian Crest",
+      "item_name": "#DOTA_Item_Heavenly_Guardian_Crest",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6156",
+      "name": "Heavenly Guardian Bow",
+      "item_name": "#DOTA_Item_Heavenly_Guardian_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6157",
+      "name": "Heavenly Guardian Locks",
+      "item_name": "#DOTA_Item_Heavenly_Guardian_Locks",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6158",
+      "name": "Noctis the Heavenly Qilin Guardian",
+      "item_name": "#DOTA_Item_Noctis_the_Heavenly_Qilin_Guardian",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6437",
+      "name": "Dawn of the Moon Bow",
+      "item_name": "#DOTA_Item_Dawn_of_the_Moon_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6438",
+      "name": "Dawn of the Moon Quiver",
+      "item_name": "#DOTA_Item_Dawn_of_the_Moon_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6439",
+      "name": "Dawn of the Moon Skirt",
+      "item_name": "#DOTA_Item_Dawn_of_the_Moon_Skirt",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6440",
+      "name": "Beast of the Moon ",
+      "item_name": "#DOTA_Item_Beast_of_the_Moon_",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6445",
+      "name": "Dawn of the Moon Bracers",
+      "item_name": "#DOTA_Item_Dawn_of_the_Moon_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6446",
+      "name": "Dawn of the Moon Pauldrons",
+      "item_name": "#DOTA_Item_Dawn_of_the_Moon_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6448",
+      "name": "Dawn of the Moon Crown",
+      "item_name": "#DOTA_Item_Dawn_of_the_Moon_Crown",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6657",
+      "name": "Crescent Skirt",
+      "item_name": "#DOTA_Item_Crescent_Skirt",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6658",
+      "name": "Crescent Bow",
+      "item_name": "#DOTA_Item_Crescent_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6659",
+      "name": "Crescent Bracers",
+      "item_name": "#DOTA_Item_Crescent_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6660",
+      "name": "Crescent Style",
+      "item_name": "#DOTA_Item_Crescent_Style",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6661",
+      "name": "Seleni",
+      "item_name": "#DOTA_Item_Seleni",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6662",
+      "name": "Crescent Quiver",
+      "item_name": "#DOTA_Item_Crescent_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6663",
+      "name": "Crescent Shoulder",
+      "item_name": "#DOTA_Item_Crescent_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6874",
+      "name": "Nightsilver Gryphon",
+      "item_name": "#DOTA_Item_Nightsilver_Gryphon",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6934",
+      "name": "Moonrift",
+      "item_name": "#DOTA_Item_Moonrift",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6935",
+      "name": "Moon Rift Bracers",
+      "item_name": "#DOTA_Item_Moon_Rift_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6936",
+      "name": "Moon Rift Style",
+      "item_name": "#DOTA_Item_Moon_Rift_Style",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6937",
+      "name": "Moon Rift Quiver",
+      "item_name": "#DOTA_Item_Moon_Rift_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6938",
+      "name": "Moon Rift Pauldrons",
+      "item_name": "#DOTA_Item_Moon_Rift_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6939",
+      "name": "Moon Rift Bow",
+      "item_name": "#DOTA_Item_Moon_Rift_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6941",
+      "name": "Moon Rift Drape",
+      "item_name": "#DOTA_Item_Moon_Rift_Drape",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6993",
+      "name": "Crown of the Wintermoon",
+      "item_name": "#DOTA_Item_Crown_of_the_Wintermoon",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6997",
+      "name": "Pauldrons of the Wintermoon",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Wintermoon",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7081",
+      "name": "Sapphire Sabre-Lynx",
+      "item_name": "#DOTA_Item_Sapphire_SabreLynx",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7095",
+      "name": "Snowstorm Skirt and Scarf",
+      "item_name": "#DOTA_Item_Snowstorm_Skirt_and_Scarf",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7096",
+      "name": "Snowstorm Bow",
+      "item_name": "#DOTA_Item_Snowstorm_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7097",
+      "name": "Snowstorm Gloves",
+      "item_name": "#DOTA_Item_Snowstorm_Gloves",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7098",
+      "name": "Snowstorm Quiver",
+      "item_name": "#DOTA_Item_Snowstorm_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7099",
+      "name": "Jinky the Lion",
+      "item_name": "#DOTA_Item_Jinky_the_Lion",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7100",
+      "name": "Snowstorm Hood",
+      "item_name": "#DOTA_Item_Snowstorm_Hood",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7101",
+      "name": "Snowstorm Mantle",
+      "item_name": "#DOTA_Item_Snowstorm_Mantle",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7398",
+      "name": "Moon Griffon",
+      "item_name": "#DOTA_Item_Moon_Griffon",
+      "item_slot": "mount",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7563",
+      "name": "Bracers of the Wintermoon",
+      "item_name": "#DOTA_Item_Bracers_of_the_Wintermoon",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7936",
+      "name": "Pulsar Remnant",
+      "item_name": "#DOTA_Item_Pulsar_Remnant",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8537",
+      "name": "Darkfall Warden Pauldrons",
+      "item_name": "#DOTA_Item_Darkfall_Warden_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8538",
+      "name": "Darkfall Warden Skirt",
+      "item_name": "#DOTA_Item_Darkfall_Warden_Skirt",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8539",
+      "name": "Darkfall",
+      "item_name": "#DOTA_Item_Darkfall",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8540",
+      "name": "Darkfall Warden Bow",
+      "item_name": "#DOTA_Item_Darkfall_Warden_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8541",
+      "name": "Darkfall Warden Bracers",
+      "item_name": "#DOTA_Item_Darkfall_Warden_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8542",
+      "name": "Darkfall Warden Quiver",
+      "item_name": "#DOTA_Item_Darkfall_Warden_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8737",
+      "name": "Divine Grace",
+      "item_name": "#DOTA_Item_Divine_Grace",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8834",
+      "name": "Darkfall Warden Hair",
+      "item_name": "#DOTA_Item_Darkfall_Warden_Hair",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9098",
+      "name": "Garb of the Wintermoon",
+      "item_name": "#DOTA_Item_Garb_of_the_Wintermoon",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9099",
+      "name": "Bow of the Wintermoon",
+      "item_name": "#DOTA_Item_Bow_of_the_Wintermoon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9100",
+      "name": "Quiver of the Wintermoon",
+      "item_name": "#DOTA_Item_Quiver_of_the_Wintermoon",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9101",
+      "name": "Mount of the Wintermoon",
+      "item_name": "#DOTA_Item_Mount_of_the_Wintermoon",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9247",
+      "name": "Axia of Metira",
+      "item_name": "#DOTA_Item_Axia_of_Metira",
+      "item_slot": "mount",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9269",
+      "name": "Arrows of the Coastal Kingdom",
+      "item_name": "#DOTA_Item_Arrows_of_the_Coastal_Kingdom",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9270",
+      "name": "Pterois of the Coastal Kingdom",
+      "item_name": "#DOTA_Item_Pterois_of_the_Coastal_Kingdom",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9271",
+      "name": "Belt of the Coastal Kingdom",
+      "item_name": "#DOTA_Item_Belt_of_the_Coastal_Kingdom",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9272",
+      "name": "Necklaces of the Coastal Kingdom",
+      "item_name": "#DOTA_Item_Necklaces_of_the_Coastal_Kingdom",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9273",
+      "name": "Bow of the Coastal Kingdom",
+      "item_name": "#DOTA_Item_Bow_of_the_Coastal_Kingdom",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9274",
+      "name": "Braids of the Coastal Kingdom",
+      "item_name": "#DOTA_Item_Braids_of_the_Coastal_Kingdom",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9275",
+      "name": "Bracelets of the Coastal Kingdom",
+      "item_name": "#DOTA_Item_Bracelets_of_the_Coastal_Kingdom",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9772",
+      "name": "Taunt: Cat Wrangler",
+      "item_name": "#DOTA_Item_Taunt_Cat_Wrangler",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "14414",
+      "name": "Spirit of the Sacred Grove - Bow",
+      "item_name": "#DOTA_Item_Spirit_of_the_Sacred_Grove__Bow",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14415",
+      "name": "Spirit of the Sacred Grove - Shoulder",
+      "item_name": "#DOTA_Item_Spirit_of_the_Sacred_Grove__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14416",
+      "name": "Spirit of the Sacred Grove - Guardian",
+      "item_name": "#DOTA_Item_Spirit_of_the_Sacred_Grove__Guardian",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14417",
+      "name": "Spirit of the Sacred Grove - Quiver",
+      "item_name": "#DOTA_Item_Spirit_of_the_Sacred_Grove__Quiver",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14418",
+      "name": "Spirit of the Sacred Grove - Head",
+      "item_name": "#DOTA_Item_Spirit_of_the_Sacred_Grove__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14419",
+      "name": "Spirit of the Sacred Grove - Back",
+      "item_name": "#DOTA_Item_Spirit_of_the_Sacred_Grove__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14420",
+      "name": "Spirit of the Sacred Grove - Arms",
+      "item_name": "#DOTA_Item_Spirit_of_the_Sacred_Grove__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17100",
+      "name": "Tsukumo the Moon Cloud",
+      "item_name": "#DOTA_Item_Tsukumo_the_Moon_Cloud",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18112",
+      "name": "Mask of Metira",
+      "item_name": "#DOTA_Item_Mask_of_Metira",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18178",
+      "name": "Mirana of Nightsilver",
+      "item_name": "#DOTA_Item_Mirana_of_Nightsilver",
+      "item_slot": "persona_selector",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18480",
+      "name": "Dreams of Midsummer Arms",
+      "item_name": "#DOTA_Item_Dreams_of_Midsummer_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18481",
+      "name": "Dreams of Midsummer Back",
+      "item_name": "#DOTA_Item_Dreams_of_Midsummer_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18482",
+      "name": "Dreams of Midsummer Crown",
+      "item_name": "#DOTA_Item_Dreams_of_Midsummer_Crown",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18483",
+      "name": "Dreams of Midsummer Mount",
+      "item_name": "#DOTA_Item_Dreams_of_Midsummer_Mount",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18484",
+      "name": "Dreams of Midsummer Quiver",
+      "item_name": "#DOTA_Item_Dreams_of_Midsummer_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18485",
+      "name": "Dreams of Midsummer Shoulder",
+      "item_name": "#DOTA_Item_Dreams_of_Midsummer_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18486",
+      "name": "Dreams of Midsummer Bow",
+      "item_name": "#DOTA_Item_Dreams_of_Midsummer_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18556",
+      "name": "Dark Moon Armor",
+      "item_name": "#DOTA_Item_Dark_Moon_Armor",
+      "item_slot": "armor_persona_1",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18603",
+      "name": "Dark Moon Back",
+      "item_name": "#DOTA_Item_Dark_Moon_Back",
+      "item_slot": "back_persona_1",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19005",
+      "name": "Golden Mask of Metira",
+      "item_name": "#DOTA_Item_Golden_Mask_of_Metira",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20125",
+      "name": "Garments of the Nightsilver Sentinel",
+      "item_name": "#DOTA_Item_Garments_of_the_Nightsilver_Sentinel",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20166",
+      "name": "The Moon Rider Set",
+      "item_name": "#DOTA_Item_The_Moon_Rider_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20227",
+      "name": "Starlight Set",
+      "item_name": "#DOTA_Item_Starlight_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20408",
+      "name": "Gifts of the Heavenly Guardian",
+      "item_name": "#DOTA_Item_Gifts_of_the_Heavenly_Guardian",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20492",
+      "name": "Dawn of the Moon",
+      "item_name": "#DOTA_Item_Dawn_of_the_Moon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20530",
+      "name": "Crescent",
+      "item_name": "#DOTA_Item_Crescent",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20626",
+      "name": "Pride of the Wintermoon",
+      "item_name": "#DOTA_Item_Pride_of_the_Wintermoon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20637",
+      "name": "Moon Rift",
+      "item_name": "#DOTA_Item_Moon_Rift",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20639",
+      "name": "Promo Moon Rift",
+      "item_name": "#DOTA_Item_Promo_Moon_Rift",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20642",
+      "name": "Snowstorm Huntress",
+      "item_name": "#DOTA_Item_Snowstorm_Huntress",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20936",
+      "name": "Darkfall Warden",
+      "item_name": "#DOTA_Item_Darkfall_Warden",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21111",
+      "name": "Heiress of the Coastal Kingdom",
+      "item_name": "#DOTA_Item_Heiress_of_the_Coastal_Kingdom",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21556",
+      "name": "Spirit of the Sacred Grove",
+      "item_name": "#DOTA_Item_Spirit_of_the_Sacred_Grove",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21813",
+      "name": "Dreams of Midsummer",
+      "item_name": "#DOTA_Item_Dreams_of_Midsummer",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22285",
+      "name": "Dark Moon Bundle",
+      "item_name": "#DOTA_Item_Dark_Moon_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22322",
+      "name": "Temple Gala - Arms",
+      "item_name": "#DOTA_Item_Temple_Gala__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22323",
+      "name": "Temple Gala",
+      "item_name": "#DOTA_Item_Temple_Gala",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22324",
+      "name": "Temple Gala - Back",
+      "item_name": "#DOTA_Item_Temple_Gala__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22325",
+      "name": "Temple Gala - Head",
+      "item_name": "#DOTA_Item_Temple_Gala__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22327",
+      "name": "Temple Gala - Misc",
+      "item_name": "#DOTA_Item_Temple_Gala__Misc",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22328",
+      "name": "Temple Gala - Mount",
+      "item_name": "#DOTA_Item_Temple_Gala__Mount",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22342",
+      "name": "Temple Gala - Shoulder",
+      "item_name": "#DOTA_Item_Temple_Gala__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22343",
+      "name": "Temple Gala - Weapon",
+      "item_name": "#DOTA_Item_Temple_Gala__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "24671",
+      "name": "Mask of Metira of the Crimson Witness",
+      "item_name": "#DOTA_Item_Mask_of_Metira_of_the_Crimson_Witness",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27078",
+      "name": "10th Anniversary Dark Moon Armor",
+      "item_name": "#DOTA_Item_10th_Anniversary_Dark_Moon_Armor",
+      "item_slot": "armor_persona_1",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27090",
+      "name": "10th Anniversary Mirana Persona Bundle",
+      "item_name": "#DOTA_Item_10th_Anniversary_Mirana_Persona_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "bundle"
+    },
+    {
+      "id": "29329",
+      "name": "10th Anniversary Mirana Persona Back",
+      "item_name": "#DOTA_Item_10th_Anniversary_Mirana_Persona_Back",
+      "item_slot": "back_persona_1",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34025",
+      "name": "Photax Fluttercat - Head",
+      "item_name": "#DOTA_Item_Photax_Fluttercat__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34026",
+      "name": "Photax Fluttercat - Bow",
+      "item_name": "#DOTA_Item_Photax_Fluttercat__Bow",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34027",
+      "name": "Photax Fluttercat - Arms",
+      "item_name": "#DOTA_Item_Photax_Fluttercat__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34028",
+      "name": "Photax Fluttercat - Mount",
+      "item_name": "#DOTA_Item_Photax_Fluttercat__Mount",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34029",
+      "name": "Photax Fluttercat - Quiver",
+      "item_name": "#DOTA_Item_Photax_Fluttercat__Quiver",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34030",
+      "name": "Photax Fluttercat - Back",
+      "item_name": "#DOTA_Item_Photax_Fluttercat__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34031",
+      "name": "Photax Fluttercat - Shoulder",
+      "item_name": "#DOTA_Item_Photax_Fluttercat__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34032",
+      "name": "Photax Fluttercat",
+      "item_name": "#DOTA_Item_Photax_Fluttercat",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    }
+  ]
+}

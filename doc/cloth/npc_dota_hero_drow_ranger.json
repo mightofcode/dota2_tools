@@ -1,0 +1,3705 @@
+{
+  "defaults": {
+    "arms": {
+      "id": "75",
+      "name": "Drow's Bracers",
+      "item_name": "#DOTA_Item_Drows_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "76",
+      "name": "Drow's Cape",
+      "item_name": "#DOTA_Item_Drows_Cape",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "weapon": {
+      "id": "77",
+      "name": "Drow's Bow",
+      "item_name": "#DOTA_Item_Drows_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "legs": {
+      "id": "78",
+      "name": "Drow's Leg Armor",
+      "item_name": "#DOTA_Item_Drows_Leg_Armor",
+      "item_slot": "legs",
+      "item_rarity": "common"
+    },
+    "misc": {
+      "id": "79",
+      "name": "Drow's Quiver",
+      "item_name": "#DOTA_Item_Drows_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "common"
+    },
+    "shoulder": {
+      "id": "80",
+      "name": "Drow's Shoulder Armor",
+      "item_name": "#DOTA_Item_Drows_Shoulder_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "267",
+      "name": "Drow's Headwear",
+      "item_name": "#DOTA_Item_Drows_Headwear",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "costume": {
+      "id": "737",
+      "name": "Drow's Costume",
+      "item_name": "#DOTA_Item_Drows_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Algid_Falcon",
+      "store_bundle": "Algid Falcon",
+      "portrait_image": "econ/sets/v2/algid_falcon",
+      "items": [
+        {
+          "name": "Algid Legacy",
+          "id": "6913",
+          "item_name": "#DOTA_Item_Algid_Legacy",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Algid Falcon Bracer",
+          "id": "9871",
+          "item_name": "#DOTA_Item_Algid_Falcon_Bracer",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Algid Falcon Greaves",
+          "id": "9872",
+          "item_name": "#DOTA_Item_Algid_Falcon_Greaves",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Algid Falcon Cape",
+          "id": "9873",
+          "item_name": "#DOTA_Item_Algid_Falcon_Cape",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Algid Falcon Quiver",
+          "id": "9874",
+          "item_name": "#DOTA_Item_Algid_Falcon_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Algid Falcon Pauldron",
+          "id": "9875",
+          "item_name": "#DOTA_Item_Algid_Falcon_Pauldron",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Algid Falcon Helm",
+          "id": "9876",
+          "item_name": "#DOTA_Item_Algid_Falcon_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Black_Ice_Constellation_Bundle",
+      "store_bundle": "Black Ice Constellation Bundle",
+      "portrait_image": "econ/sets/v2/black_ice_constellation_bundle",
+      "items": [
+        {
+          "name": "Black Ice Constellation - Weapon",
+          "id": "22359",
+          "item_name": "#DOTA_Item_Black_Ice_Constellation__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Black Ice Constellation - Quiver",
+          "id": "22358",
+          "item_name": "#DOTA_Item_Black_Ice_Constellation__Quiver",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Black Ice Constellation - Cloak",
+          "id": "22355",
+          "item_name": "#DOTA_Item_Black_Ice_Constellation__Cloak",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Black Ice Constellation - Legs",
+          "id": "22354",
+          "item_name": "#DOTA_Item_Black_Ice_Constellation__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Black Ice Constellation - Arms",
+          "id": "22353",
+          "item_name": "#DOTA_Item_Black_Ice_Constellation__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Black Ice Constellation - Shoulders",
+          "id": "22352",
+          "item_name": "#DOTA_Item_Black_Ice_Constellation__Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Black Ice Constellation - Head",
+          "id": "22351",
+          "item_name": "#DOTA_Item_Black_Ice_Constellation__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Black_Wind_Raven",
+      "store_bundle": "Black Wind Raven",
+      "portrait_image": "econ/sets/v2/black_wind_raven",
+      "items": [
+        {
+          "name": "Hood of the Black Wind Raven",
+          "id": "6552",
+          "item_name": "#DOTA_Item_Hood_of_the_Black_Wind_Raven",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Arms of the Black Wind Raven",
+          "id": "6553",
+          "item_name": "#DOTA_Item_Arms_of_the_Black_Wind_Raven",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Shoulders of the Black Wind Raven",
+          "id": "6554",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Black_Wind_Raven",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Leggings of the Black Wind Raven",
+          "id": "6555",
+          "item_name": "#DOTA_Item_Leggings_of_the_Black_Wind_Raven",
+          "item_slot": "legs",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Bow of the Black Wind Raven",
+          "id": "6556",
+          "item_name": "#DOTA_Item_Bow_of_the_Black_Wind_Raven",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Quiver of the Black Wind Raven",
+          "id": "6557",
+          "item_name": "#DOTA_Item_Quiver_of_the_Black_Wind_Raven",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Cape of the Black Wind Raven",
+          "id": "6558",
+          "item_name": "#DOTA_Item_Cape_of_the_Black_Wind_Raven",
+          "item_slot": "back",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Discipline_of_the_Dark_Star",
+      "store_bundle": "Discipline of the Dark Star",
+      "portrait_image": "econ/sets/v2/discipline_of_the_dark_star",
+      "items": [
+        {
+          "name": "Discipline of the Dark Star Arms",
+          "id": "13846",
+          "item_name": "#DOTA_Item_Discipline_of_the_Dark_Star_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Discipline of the Dark Star Back",
+          "id": "13845",
+          "item_name": "#DOTA_Item_Discipline_of_the_Dark_Star_Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Discipline of the Dark Star Head",
+          "id": "13844",
+          "item_name": "#DOTA_Item_Discipline_of_the_Dark_Star_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Discipline of the Dark Star Legs",
+          "id": "13843",
+          "item_name": "#DOTA_Item_Discipline_of_the_Dark_Star_Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Discipline of the Dark Star Misc",
+          "id": "13824",
+          "item_name": "#DOTA_Item_Discipline_of_the_Dark_Star_Misc",
+          "item_slot": "misc",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Discipline of the Dark Star Shoulder",
+          "id": "13823",
+          "item_name": "#DOTA_Item_Discipline_of_the_Dark_Star_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Discipline of the Dark Star Weapon",
+          "id": "13822",
+          "item_name": "#DOTA_Item_Discipline_of_the_Dark_Star_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dread_Retribution_Bundle",
+      "store_bundle": "Dread Retribution Bundle",
+      "portrait_image": "econ/sets/v2/dread_retribution_bundle",
+      "items": [
+        {
+          "name": "Dread Retribution",
+          "id": "19090",
+          "item_name": "#DOTA_Item_Dread_Retribution",
+          "item_slot": "weapon",
+          "item_rarity": "arcana"
+        },
+        {
+          "name": "Dread Retribution - Headwear",
+          "id": "19094",
+          "item_name": "#DOTA_Item_Dread_Retribution__Headwear",
+          "item_slot": "head",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Dread Retribution - Shoulder Armor",
+          "id": "19093",
+          "item_name": "#DOTA_Item_Dread_Retribution__Shoulder_Armor",
+          "item_slot": "shoulder",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Dread Retribution - Quiver",
+          "id": "19092",
+          "item_name": "#DOTA_Item_Dread_Retribution__Quiver",
+          "item_slot": "misc",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Dread Retribution - Leg Armor",
+          "id": "19091",
+          "item_name": "#DOTA_Item_Dread_Retribution__Leg_Armor",
+          "item_slot": "legs",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Dread Retribution - Cape",
+          "id": "19089",
+          "item_name": "#DOTA_Item_Dread_Retribution__Cape",
+          "item_slot": "back",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Dread Retribution - Bracers",
+          "id": "19088",
+          "item_name": "#DOTA_Item_Dread_Retribution__Bracers",
+          "item_slot": "arms",
+          "item_rarity": "legendary"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Boreal_Watch",
+      "store_bundle": "The Boreal Watch Set",
+      "portrait_image": "econ/sets/v2/drow_boreal_watch",
+      "items": [
+        {
+          "name": "Gauntlets of the Boreal Watch",
+          "id": "5194",
+          "item_name": "#DOTA_Item_Gauntlets_of_the_Boreal_Watch",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Legplates of the Boreal Watch",
+          "id": "5195",
+          "item_name": "#DOTA_Item_Legplates_of_the_Boreal_Watch",
+          "item_slot": "legs",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Longbow of the Boreal Watch",
+          "id": "5196",
+          "item_name": "#DOTA_Item_Longbow_of_the_Boreal_Watch",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Cowl of the Boreal Watch",
+          "id": "5197",
+          "item_name": "#DOTA_Item_Cowl_of_the_Boreal_Watch",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Pauldrons of the Boreal Watch",
+          "id": "5198",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Boreal_Watch",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Quiver of the Boreal Watch",
+          "id": "5199",
+          "item_name": "#DOTA_Item_Quiver_of_the_Boreal_Watch",
+          "item_slot": "misc",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Cloak of the Boreal Watch",
+          "id": "5200",
+          "item_name": "#DOTA_Item_Cloak_of_the_Boreal_Watch",
+          "item_slot": "back",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Complete_Algid_Falcon",
+      "store_bundle": "Complete Algid Falcon",
+      "portrait_image": "econ/sets/v2/drow_complete_algid_falcon",
+      "items": [
+        {
+          "name": "Complete Algid Falcon Helm",
+          "id": "12617",
+          "item_name": "#DOTA_Item_Complete_Algid_Falcon_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Complete Algid Falcon Pauldron",
+          "id": "12618",
+          "item_name": "#DOTA_Item_Complete_Algid_Falcon_Pauldron",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Complete Algid Falcon Quiver",
+          "id": "12619",
+          "item_name": "#DOTA_Item_Complete_Algid_Falcon_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Complete Algid Falcon Cape",
+          "id": "12620",
+          "item_name": "#DOTA_Item_Complete_Algid_Falcon_Cape",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Complete Algid Falcon Greaves",
+          "id": "12627",
+          "item_name": "#DOTA_Item_Complete_Algid_Falcon_Greaves",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Complete Algid Falcon Bracer",
+          "id": "12628",
+          "item_name": "#DOTA_Item_Complete_Algid_Falcon_Bracer",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Complete Algid Legacy",
+          "id": "12616",
+          "item_name": "#DOTA_Item_Complete_Algid_Legacy",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Death_Shadow",
+      "store_bundle": "Death Shadow Set",
+      "portrait_image": "econ/sets/v2/drow_deathshadow",
+      "items": [
+        {
+          "name": "Death Shadow Bracers",
+          "id": "5841",
+          "item_name": "#DOTA_Item_Death_Shadow_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Death Shadow Bow",
+          "id": "5847",
+          "item_name": "#DOTA_Item_Death_Shadow_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Death Shadow Mantle",
+          "id": "5846",
+          "item_name": "#DOTA_Item_Death_Shadow_Mantle",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Death Shadow Quiver",
+          "id": "5845",
+          "item_name": "#DOTA_Item_Death_Shadow_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Death Shadow Boots",
+          "id": "5844",
+          "item_name": "#DOTA_Item_Death_Shadow_Boots",
+          "item_slot": "Legs",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Death Shadow Cowl",
+          "id": "5843",
+          "item_name": "#DOTA_Item_Death_Shadow_Cowl",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Death Shadow Cape",
+          "id": "5842",
+          "item_name": "#DOTA_Item_Death_Shadow_Cape",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Drows_Diretide_Shimmer",
+      "store_bundle": "Drow's Diretide Shimmer Bundle",
+      "portrait_image": "econ/sets/v2/drow_drows_diretide_costume",
+      "items": [
+        {
+          "name": "Drow's Diretide Shimmer Bracer",
+          "id": "17830",
+          "item_name": "#DOTA_Item_Drows_Diretide_Shimmer_Bracer",
+          "item_slot": "arms",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Drow's Diretide Shimmer Cape",
+          "id": "17831",
+          "item_name": "#DOTA_Item_Drows_Diretide_Shimmer_Cape",
+          "item_slot": "back",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Drow's Diretide Shimmer Haircowl",
+          "id": "17832",
+          "item_name": "#DOTA_Item_Drows_Diretide_Shimmer_Haircowl",
+          "item_slot": "head",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Drow's Diretide Shimmer Legs",
+          "id": "17833",
+          "item_name": "#DOTA_Item_Drows_Diretide_Shimmer_Legs",
+          "item_slot": "legs",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Drow's Diretide Shimmer Quiver",
+          "id": "17834",
+          "item_name": "#DOTA_Item_Drows_Diretide_Shimmer_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Drow's Diretide Shimmer Weapon",
+          "id": "17835",
+          "item_name": "#DOTA_Item_Drows_Diretide_Shimmer_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Drow's Diretide Shimmer Armor",
+          "id": "17840",
+          "item_name": "#DOTA_Item_Drows_Diretide_Shimmer_Armor",
+          "item_slot": "shoulder",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Drow's Diretide Shimmer Bundle",
+          "id": "21702",
+          "item_name": "#DOTA_Item_Drows_Diretide_Shimmer_Bundle",
+          "item_slot": "weapon",
+          "item_rarity": "seasonal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Drow_Ranger_Frost_Spikes",
+      "store_bundle": "Spikes of Frost Set",
+      "portrait_image": "econ/sets/v2/drow_ranger_frost_spikes",
+      "items": [
+        {
+          "name": "Ice Burst Bow",
+          "id": "4176",
+          "item_name": "#DOTA_Item_Ice_Burst_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Ice Burst Bracers",
+          "id": "4185",
+          "item_name": "#DOTA_Item_Ice_Burst_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Ice Burst Greaves",
+          "id": "4186",
+          "item_name": "#DOTA_Item_Ice_Burst_Greaves",
+          "item_slot": "legs",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Ice Burst Cloak",
+          "id": "4366",
+          "item_name": "#DOTA_Item_Ice_Burst_Cloak",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Frost Spikes",
+          "id": "4367",
+          "item_name": "#DOTA_Item_Frost_Spikes",
+          "item_slot": "head",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Gifts_of_the_Shadowcat",
+      "store_bundle": "Gifts of the Shadowcat Set",
+      "portrait_image": "econ/sets/v2/drow_shadowcat",
+      "items": [
+        {
+          "name": "Paws of the Shadowcat",
+          "id": "5700",
+          "item_name": "#DOTA_Item_Paws_of_the_Shadowcat",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Pelt of the Shadowcat",
+          "id": "5701",
+          "item_name": "#DOTA_Item_Pelt_of_the_Shadowcat",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Gaiters of the Shadowcat",
+          "id": "5702",
+          "item_name": "#DOTA_Item_Gaiters_of_the_Shadowcat",
+          "item_slot": "legs",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Quiver of the Shadowcat",
+          "id": "5703",
+          "item_name": "#DOTA_Item_Quiver_of_the_Shadowcat",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Furstole of the Shadowcat",
+          "id": "5705",
+          "item_name": "#DOTA_Item_Furstole_of_the_Shadowcat",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Bow of the Shadowcat",
+          "id": "5706",
+          "item_name": "#DOTA_Item_Bow_of_the_Shadowcat",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Trophy of the Shadowcat",
+          "id": "5707",
+          "item_name": "#DOTA_Item_Trophy_of_the_Shadowcat",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sylvan_Guards_Finery",
+      "store_bundle": "Sylvan Guard's Finery Set",
+      "portrait_image": "econ/sets/v2/drow_sylvan_guard",
+      "items": [
+        {
+          "name": "Sylvan Guard's Boots",
+          "id": "4613",
+          "item_name": "#DOTA_Item_Sylvan_Guards_Boots",
+          "item_slot": "legs",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Sylvan Guard's Bow",
+          "id": "4625",
+          "item_name": "#DOTA_Item_Sylvan_Guards_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Sylvan Guard's Cape",
+          "id": "4626",
+          "item_name": "#DOTA_Item_Sylvan_Guards_Cape",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Sylvan Guard's Hair",
+          "id": "4628",
+          "item_name": "#DOTA_Item_Sylvan_Guards_Hair",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Sylvan Guard's Quiver",
+          "id": "4629",
+          "item_name": "#DOTA_Item_Sylvan_Guards_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Sylvan Guard's Cuffs",
+          "id": "4630",
+          "item_name": "#DOTA_Item_Sylvan_Guards_Cuffs",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Sylvan Guard's Dress Armor",
+          "id": "4632",
+          "item_name": "#DOTA_Item_Sylvan_Guards_Dress_Armor",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Frostborne_Wayfarer",
+      "store_bundle": "The Frostborne Wayfarer",
+      "portrait_image": "econ/sets/v2/drow_the_frostborne_wayfarer",
+      "items": [
+        {
+          "name": "Coat of the Frostborne Wayfarer",
+          "id": "7432",
+          "item_name": "#DOTA_Item_Coat_of_the_Frostborne_Wayfarer",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bow of the Frostborne Wayfarer",
+          "id": "8738",
+          "item_name": "#DOTA_Item_Bow_of_the_Frostborne_Wayfarer",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bracers of the Frostborne Wayfarer",
+          "id": "8781",
+          "item_name": "#DOTA_Item_Bracers_of_the_Frostborne_Wayfarer",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Quiver of the Frostborne Wayfarer",
+          "id": "8782",
+          "item_name": "#DOTA_Item_Quiver_of_the_Frostborne_Wayfarer",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Boots of the Frostborne Wayfarer",
+          "id": "8783",
+          "item_name": "#DOTA_Item_Boots_of_the_Frostborne_Wayfarer",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cape of the Frostborne Wayfarer",
+          "id": "8784",
+          "item_name": "#DOTA_Item_Cape_of_the_Frostborne_Wayfarer",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Headband of the Frostborne Wayfarer",
+          "id": "8785",
+          "item_name": "#DOTA_Item_Headband_of_the_Frostborne_Wayfarer",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Guise_of_the_Winged_Bolt",
+      "store_bundle": "Guise of the Winged Bolt",
+      "portrait_image": "econ/sets/v2/drow_winged_bolt",
+      "items": [
+        {
+          "name": "Bracers of the Winged Bolt",
+          "id": "7242",
+          "item_name": "#DOTA_Item_Bracers_of_the_Winged_Bolt",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Quiver of the Winged Bolt",
+          "id": "7246",
+          "item_name": "#DOTA_Item_Quiver_of_the_Winged_Bolt",
+          "item_slot": "misc",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Mask of the Winged Bolt",
+          "id": "7245",
+          "item_name": "#DOTA_Item_Mask_of_the_Winged_Bolt",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Cape of the Winged Bolt",
+          "id": "7243",
+          "item_name": "#DOTA_Item_Cape_of_the_Winged_Bolt",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Bow of the Winged Bolt",
+          "id": "7238",
+          "item_name": "#DOTA_Item_Bow_of_the_Winged_Bolt",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Boots of the Winged Bolt",
+          "id": "7232",
+          "item_name": "#DOTA_Item_Boots_of_the_Winged_Bolt",
+          "item_slot": "legs",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Guards of the Winged Bolt",
+          "id": "7244",
+          "item_name": "#DOTA_Item_Guards_of_the_Winged_Bolt",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Eldwurms_Touch",
+      "store_bundle": "Eldwurm's Touch",
+      "portrait_image": "econ/sets/v2/eldwurms_touch",
+      "items": [
+        {
+          "name": "Bracers of the Eldwurm's Touch",
+          "id": "7052",
+          "item_name": "#DOTA_Item_Bracers_of_the_Eldwurms_Touch",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Cape of the Eldwurm's Touch",
+          "id": "7053",
+          "item_name": "#DOTA_Item_Cape_of_the_Eldwurms_Touch",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Helmet of the Eldwurm's Touch",
+          "id": "7054",
+          "item_name": "#DOTA_Item_Helmet_of_the_Eldwurms_Touch",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Boots of the Eldwurm's Touch",
+          "id": "7055",
+          "item_name": "#DOTA_Item_Boots_of_the_Eldwurms_Touch",
+          "item_slot": "legs",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Quiver of the Eldwurm's Touch",
+          "id": "7056",
+          "item_name": "#DOTA_Item_Quiver_of_the_Eldwurms_Touch",
+          "item_slot": "misc",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Pauldrons of the Eldwurm's Touch",
+          "id": "7057",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Eldwurms_Touch",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Bow of the Eldwurm's Touch",
+          "id": "7058",
+          "item_name": "#DOTA_Item_Bow_of_the_Eldwurms_Touch",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Frostglade_Familiar",
+      "store_bundle": "Frostglade Familiar",
+      "portrait_image": "econ/sets/v2/frostglade_familiar",
+      "items": [
+        {
+          "name": "Frostglade Familiar Bow",
+          "id": "18092",
+          "item_name": "#DOTA_Item_Frostglade_Familiar_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Frostglade Familiar Armor",
+          "id": "18091",
+          "item_name": "#DOTA_Item_Frostglade_Familiar_Armor",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Frostglade Familiar Quiver",
+          "id": "18090",
+          "item_name": "#DOTA_Item_Frostglade_Familiar_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Frostglade Familiar Legs",
+          "id": "18089",
+          "item_name": "#DOTA_Item_Frostglade_Familiar_Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Frostglade Familiar Hat",
+          "id": "18088",
+          "item_name": "#DOTA_Item_Frostglade_Familiar_Hat",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Frostglade Familiar Cape",
+          "id": "18087",
+          "item_name": "#DOTA_Item_Frostglade_Familiar_Cape",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Frostglade Familiar Sleeves",
+          "id": "18086",
+          "item_name": "#DOTA_Item_Frostglade_Familiar_Sleeves",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Glimmer_of_the_Sacred_Hunt",
+      "store_bundle": "Glimmer of the Sacred Hunt",
+      "portrait_image": "econ/sets/v2/glimmer_of_the_sacred_hunt",
+      "items": [
+        {
+          "name": "Bracers of the Sacred Hunt",
+          "id": "13076",
+          "item_name": "#DOTA_Item_Bracers_of_the_Sacred_Hunt",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cape of the Sacred Hunt",
+          "id": "13075",
+          "item_name": "#DOTA_Item_Cape_of_the_Sacred_Hunt",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Crown of the Sacred Hunt",
+          "id": "13074",
+          "item_name": "#DOTA_Item_Crown_of_the_Sacred_Hunt",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Skirt of the Sacred Hunt",
+          "id": "13073",
+          "item_name": "#DOTA_Item_Skirt_of_the_Sacred_Hunt",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Arrows of the Sacred Hunt",
+          "id": "13072",
+          "item_name": "#DOTA_Item_Arrows_of_the_Sacred_Hunt",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Shoulders of the Sacred Hunt",
+          "id": "13071",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Sacred_Hunt",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bow of the Sacred Hunt",
+          "id": "13070",
+          "item_name": "#DOTA_Item_Bow_of_the_Sacred_Hunt",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Jewel_of_the_Forest",
+      "store_bundle": "Jewel of the Forest Set",
+      "portrait_image": "econ/sets/v2/jewel_of_the_forest",
+      "items": [
+        {
+          "name": "Jewel of the Forest Gloves",
+          "id": "5247",
+          "item_name": "#DOTA_Item_Jewel_of_the_Forest_Gloves",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Jewel of the Forest Pauldrons",
+          "id": "5248",
+          "item_name": "#DOTA_Item_Jewel_of_the_Forest_Pauldrons",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Jewel of the Forest Boots",
+          "id": "5249",
+          "item_name": "#DOTA_Item_Jewel_of_the_Forest_Boots",
+          "item_slot": "legs",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Jewel of the Forest Bow",
+          "id": "5257",
+          "item_name": "#DOTA_Item_Jewel_of_the_Forest_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Jewel of the Forest Cape",
+          "id": "5258",
+          "item_name": "#DOTA_Item_Jewel_of_the_Forest_Cape",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Jewel of the Forest Scarf",
+          "id": "5259",
+          "item_name": "#DOTA_Item_Jewel_of_the_Forest_Scarf",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Oaths_of_the_Dragonborn",
+      "store_bundle": "Oaths of the Dragonborn",
+      "portrait_image": "econ/sets/v2/oaths_of_the_dragonborn",
+      "items": [
+        {
+          "name": "Oaths of the Dragonborn Head",
+          "id": "13011",
+          "item_name": "#DOTA_Item_Oaths_of_the_Dragonborn_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Oaths of the Dragonborn Wing",
+          "id": "13010",
+          "item_name": "#DOTA_Item_Oaths_of_the_Dragonborn_Wing",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Oaths of the Dragonborn Boots",
+          "id": "13006",
+          "item_name": "#DOTA_Item_Oaths_of_the_Dragonborn_Boots",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Oaths of the Dragonborn Quiver",
+          "id": "13005",
+          "item_name": "#DOTA_Item_Oaths_of_the_Dragonborn_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Oaths of the Dragonborn Bow",
+          "id": "13004",
+          "item_name": "#DOTA_Item_Oaths_of_the_Dragonborn_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Oaths of the Dragonborn Shoulders",
+          "id": "13002",
+          "item_name": "#DOTA_Item_Oaths_of_the_Dragonborn_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Oaths of the Dragonborn Arms",
+          "id": "13001",
+          "item_name": "#DOTA_Item_Oaths_of_the_Dragonborn_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Ravencloak",
+      "store_bundle": "Ravencloak",
+      "portrait_image": "econ/sets/v2/ravencloak",
+      "items": [
+        {
+          "name": "Ravencloak - Arms",
+          "id": "27131",
+          "item_name": "#DOTA_Item_Ravencloak__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ravencloak - Legs",
+          "id": "27133",
+          "item_name": "#DOTA_Item_Ravencloak__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ravencloak - Shoulders",
+          "id": "29302",
+          "item_name": "#DOTA_Item_Ravencloak__Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ravencloak - Head",
+          "id": "29303",
+          "item_name": "#DOTA_Item_Ravencloak__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ravencloak - Back",
+          "id": "29304",
+          "item_name": "#DOTA_Item_Ravencloak__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ravencloak - Weapon",
+          "id": "30280",
+          "item_name": "#DOTA_Item_Ravencloak__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ravencloak - Quiver",
+          "id": "30363",
+          "item_name": "#DOTA_Item_Ravencloak__Quiver",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Taunt: The Finer Points",
+          "id": "27475",
+          "item_name": "#DOTA_Item_Taunt_The_Finer_Points",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sentinel",
+      "store_bundle": "Sentinel Set",
+      "portrait_image": "econ/sets/v2/sentinel_set",
+      "items": [
+        {
+          "name": "Sentinel Bow",
+          "id": "5883",
+          "item_name": "#DOTA_Item_Sentinel_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Sentinel Hood",
+          "id": "5974",
+          "item_name": "#DOTA_Item_Sentinel_Hood",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Sentinel Legs",
+          "id": "5975",
+          "item_name": "#DOTA_Item_Sentinel_Legs",
+          "item_slot": "legs",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Sentinel Quiver",
+          "id": "5979",
+          "item_name": "#DOTA_Item_Sentinel_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Sentinel Shoulders",
+          "id": "5985",
+          "item_name": "#DOTA_Item_Sentinel_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Sentinel Gloves",
+          "id": "5986",
+          "item_name": "#DOTA_Item_Sentinel_Gloves",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Sentinel Cloak",
+          "id": "5989",
+          "item_name": "#DOTA_Item_Sentinel_Cloak",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Shadows_of_Ravensmane",
+      "store_bundle": "Shadows of Ravensmane",
+      "portrait_image": "econ/sets/v2/shadows_of_ravensmane",
+      "items": [
+        {
+          "name": "Shadows of Ravensmane Bow",
+          "id": "12566",
+          "item_name": "#DOTA_Item_Shadows_of_Ravensmane_Bow",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shadows of Ravensmane Hood",
+          "id": "12565",
+          "item_name": "#DOTA_Item_Shadows_of_Ravensmane_Hood",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shadows of Ravensmane Mantle",
+          "id": "12564",
+          "item_name": "#DOTA_Item_Shadows_of_Ravensmane_Mantle",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shadows of Ravensmane Quiver",
+          "id": "12558",
+          "item_name": "#DOTA_Item_Shadows_of_Ravensmane_Quiver",
+          "item_slot": "misc",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shadows of Ravensmane Cloak",
+          "id": "12557",
+          "item_name": "#DOTA_Item_Shadows_of_Ravensmane_Cloak",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shadows of Ravensmane Arms",
+          "id": "12556",
+          "item_name": "#DOTA_Item_Shadows_of_Ravensmane_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shadows of Ravensmane Boots",
+          "id": "12555",
+          "item_name": "#DOTA_Item_Shadows_of_Ravensmane_Boots",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sight_of_the_KhaRen_Faithful",
+      "store_bundle": "Sight of the Kha-Ren Faithful",
+      "portrait_image": "econ/sets/v2/sight_of_the_kharen_faithful",
+      "items": [
+        {
+          "name": "Cape of the Kha-Ren Faithful",
+          "id": "13380",
+          "item_name": "#DOTA_Item_Cape_of_the_KhaRen_Faithful",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Arms of the Kha-Ren Faithful",
+          "id": "13377",
+          "item_name": "#DOTA_Item_Arms_of_the_KhaRen_Faithful",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Style of the Kha-Ren Faithful",
+          "id": "13339",
+          "item_name": "#DOTA_Item_Style_of_the_KhaRen_Faithful",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Legs of the Kha-Ren Faithful",
+          "id": "13379",
+          "item_name": "#DOTA_Item_Legs_of_the_KhaRen_Faithful",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bow of the Kha-Ren Faithful",
+          "id": "13338",
+          "item_name": "#DOTA_Item_Bow_of_the_KhaRen_Faithful",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Quiver of the Kha-Ren Faithful",
+          "id": "13337",
+          "item_name": "#DOTA_Item_Quiver_of_the_KhaRen_Faithful",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Armor of the Kha-Ren Faithful",
+          "id": "13378",
+          "item_name": "#DOTA_Item_Armor_of_the_KhaRen_Faithful",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Stranger_in_the_Wandering_Isles",
+      "store_bundle": "Stranger in the Wandering Isles",
+      "portrait_image": "econ/sets/v2/stranger_in_the_wandering_isles",
+      "items": [
+        {
+          "name": "Stranger in the Wandering Isles - Misc",
+          "id": "19311",
+          "item_name": "#DOTA_Item_Stranger_in_the_Wandering_Isles__Misc",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Stranger in the Wandering Isles - Shoulder",
+          "id": "19310",
+          "item_name": "#DOTA_Item_Stranger_in_the_Wandering_Isles__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Stranger in the Wandering Isles - Weapon",
+          "id": "19309",
+          "item_name": "#DOTA_Item_Stranger_in_the_Wandering_Isles__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Stranger in the Wandering Isles - Arms",
+          "id": "17871",
+          "item_name": "#DOTA_Item_Stranger_in_the_Wandering_Isles__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Stranger in the Wandering Isles - Back",
+          "id": "17870",
+          "item_name": "#DOTA_Item_Stranger_in_the_Wandering_Isles__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Stranger in the Wandering Isles - Head",
+          "id": "17869",
+          "item_name": "#DOTA_Item_Stranger_in_the_Wandering_Isles__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Stranger in the Wandering Isles - Legs",
+          "id": "17868",
+          "item_name": "#DOTA_Item_Stranger_in_the_Wandering_Isles__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Gaze_of_Zebulon",
+      "store_bundle": "The Gaze of Zebulon",
+      "portrait_image": "econ/sets/v2/the_gaze_of_zebulon",
+      "items": [
+        {
+          "name": "Arms of Zebulon",
+          "id": "12908",
+          "item_name": "#DOTA_Item_Arms_of_Zebulon",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cape of Zebulon",
+          "id": "12907",
+          "item_name": "#DOTA_Item_Cape_of_Zebulon",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Mask of Zebulon",
+          "id": "12906",
+          "item_name": "#DOTA_Item_Mask_of_Zebulon",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Boots of Zebulon",
+          "id": "12905",
+          "item_name": "#DOTA_Item_Boots_of_Zebulon",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Pauldrons of Zebulon",
+          "id": "12903",
+          "item_name": "#DOTA_Item_Pauldrons_of_Zebulon",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Quiver of Zebulon",
+          "id": "12902",
+          "item_name": "#DOTA_Item_Quiver_of_Zebulon",
+          "item_slot": "misc",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bow of Zebulon",
+          "id": "12325",
+          "item_name": "#DOTA_Item_Bow_of_Zebulon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Tools_of_the_Master_Thief",
+      "store_bundle": "Tools of the Master Thief Set",
+      "portrait_image": "econ/sets/v2/tools_of_the_master_thief",
+      "items": [
+        {
+          "name": "Bow of the Master Thief",
+          "id": "6146",
+          "item_name": "#DOTA_Item_Bow_of_the_Master_Thief",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Boots of the Master Thief",
+          "id": "6145",
+          "item_name": "#DOTA_Item_Boots_of_the_Master_Thief",
+          "item_slot": "legs",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Corset of the Master Thief",
+          "id": "6029",
+          "item_name": "#DOTA_Item_Corset_of_the_Master_Thief",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Gloves of the Master Thief",
+          "id": "6063",
+          "item_name": "#DOTA_Item_Gloves_of_the_Master_Thief",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Hood of the Master Thief",
+          "id": "6028",
+          "item_name": "#DOTA_Item_Hood_of_the_Master_Thief",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Cloak of the Master Thief",
+          "id": "6026",
+          "item_name": "#DOTA_Item_Cloak_of_the_Master_Thief",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Quiver of the Master Thief",
+          "id": "6010",
+          "item_name": "#DOTA_Item_Quiver_of_the_Master_Thief",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Winterwood_Vesture",
+      "store_bundle": "Winterwood Vesture",
+      "portrait_image": "econ/sets/v2/winterwood_vesture",
+      "items": [
+        {
+          "name": "Arms of the Winterwood Vesture",
+          "id": "14591",
+          "item_name": "#DOTA_Item_Arms_of_the_Winterwood_Vesture",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Cape of the Winterwood Vesture",
+          "id": "14590",
+          "item_name": "#DOTA_Item_Cape_of_the_Winterwood_Vesture",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Hood of the Winterwood Vesture",
+          "id": "14593",
+          "item_name": "#DOTA_Item_Hood_of_the_Winterwood_Vesture",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Boots of the Winterwood Vesture",
+          "id": "14589",
+          "item_name": "#DOTA_Item_Boots_of_the_Winterwood_Vesture",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Quiver of the Winterwood Vesture",
+          "id": "14569",
+          "item_name": "#DOTA_Item_Quiver_of_the_Winterwood_Vesture",
+          "item_slot": "misc",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Armor of the Winterwood Vesture",
+          "id": "14592",
+          "item_name": "#DOTA_Item_Armor_of_the_Winterwood_Vesture",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bow of the Winterwood Vesture",
+          "id": "14568",
+          "item_name": "#DOTA_Item_Bow_of_the_Winterwood_Vesture",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Wyvern_Skin",
+      "store_bundle": "Wyvern Skin",
+      "portrait_image": "econ/sets/v2/wyvern_skin",
+      "items": [
+        {
+          "name": "Boots of the Wyvern Skin",
+          "id": "8146",
+          "item_name": "#DOTA_Item_Boots_of_the_Wyvern_Skin",
+          "item_slot": "legs",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Bow of the Wyvern Skin",
+          "id": "8147",
+          "item_name": "#DOTA_Item_Bow_of_the_Wyvern_Skin",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Bracers of the Wyvern Skin",
+          "id": "8148",
+          "item_name": "#DOTA_Item_Bracers_of_the_Wyvern_Skin",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Cape of the Wyvern Skin",
+          "id": "8149",
+          "item_name": "#DOTA_Item_Cape_of_the_Wyvern_Skin",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Cowl of the Wyvern Skin",
+          "id": "8150",
+          "item_name": "#DOTA_Item_Cowl_of_the_Wyvern_Skin",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mantle of the Wyvern Skin",
+          "id": "8151",
+          "item_name": "#DOTA_Item_Mantle_of_the_Wyvern_Skin",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Quiver of the Wyvern Skin",
+          "id": "8152",
+          "item_name": "#DOTA_Item_Quiver_of_the_Wyvern_Skin",
+          "item_slot": "misc",
+          "item_rarity": "common"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "75",
+      "name": "Drow's Bracers",
+      "item_name": "#DOTA_Item_Drows_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "76",
+      "name": "Drow's Cape",
+      "item_name": "#DOTA_Item_Drows_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "77",
+      "name": "Drow's Bow",
+      "item_name": "#DOTA_Item_Drows_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "78",
+      "name": "Drow's Leg Armor",
+      "item_name": "#DOTA_Item_Drows_Leg_Armor",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "79",
+      "name": "Drow's Quiver",
+      "item_name": "#DOTA_Item_Drows_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "80",
+      "name": "Drow's Shoulder Armor",
+      "item_name": "#DOTA_Item_Drows_Shoulder_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "267",
+      "name": "Drow's Headwear",
+      "item_name": "#DOTA_Item_Drows_Headwear",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "737",
+      "name": "Drow's Costume",
+      "item_name": "#DOTA_Item_Drows_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4050",
+      "name": "Taunt: Keep an Ear Out",
+      "item_name": "#DOTA_Item_Taunt_Keep_an_Ear_Out",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "4166",
+      "name": "Cold Case Bow",
+      "item_name": "#DOTA_Item_Cold_Case_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4176",
+      "name": "Ice Burst Bow",
+      "item_name": "#DOTA_Item_Ice_Burst_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4185",
+      "name": "Ice Burst Bracers",
+      "item_name": "#DOTA_Item_Ice_Burst_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4186",
+      "name": "Ice Burst Greaves",
+      "item_name": "#DOTA_Item_Ice_Burst_Greaves",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4194",
+      "name": "Pincher Bow",
+      "item_name": "#DOTA_Item_Pincher_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4232",
+      "name": "Frost Spikes FIXUP BUNDLE",
+      "item_name": "#DOTA_Item_Frost_Spikes_FIXUP_BUNDLE",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4272",
+      "name": "Ice Crystal Bow",
+      "item_name": "#DOTA_Item_Ice_Crystal_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4365",
+      "name": "Bow of the Howling Wind",
+      "item_name": "#DOTA_Item_Bow_of_the_Howling_Wind",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4366",
+      "name": "Ice Burst Cloak",
+      "item_name": "#DOTA_Item_Ice_Burst_Cloak",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4367",
+      "name": "Frost Spikes",
+      "item_name": "#DOTA_Item_Frost_Spikes",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4418",
+      "name": "Bow of the Crystal Caves",
+      "item_name": "#DOTA_Item_Bow_of_the_Crystal_Caves",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4595",
+      "name": "Great Grey Owl Bow",
+      "item_name": "#DOTA_Item_Great_Grey_Owl_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4604",
+      "name": "Jeweled Longbow",
+      "item_name": "#DOTA_Item_Jeweled_Longbow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4613",
+      "name": "Sylvan Guard's Boots",
+      "item_name": "#DOTA_Item_Sylvan_Guards_Boots",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4625",
+      "name": "Sylvan Guard's Bow",
+      "item_name": "#DOTA_Item_Sylvan_Guards_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4626",
+      "name": "Sylvan Guard's Cape",
+      "item_name": "#DOTA_Item_Sylvan_Guards_Cape",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4628",
+      "name": "Sylvan Guard's Hair",
+      "item_name": "#DOTA_Item_Sylvan_Guards_Hair",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4629",
+      "name": "Sylvan Guard's Quiver",
+      "item_name": "#DOTA_Item_Sylvan_Guards_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4630",
+      "name": "Sylvan Guard's Cuffs",
+      "item_name": "#DOTA_Item_Sylvan_Guards_Cuffs",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4632",
+      "name": "Sylvan Guard's Dress Armor",
+      "item_name": "#DOTA_Item_Sylvan_Guards_Dress_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4643",
+      "name": "Loner's Vanity",
+      "item_name": "#DOTA_Item_Loners_Vanity",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5194",
+      "name": "Gauntlets of the Boreal Watch",
+      "item_name": "#DOTA_Item_Gauntlets_of_the_Boreal_Watch",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5195",
+      "name": "Legplates of the Boreal Watch",
+      "item_name": "#DOTA_Item_Legplates_of_the_Boreal_Watch",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5196",
+      "name": "Longbow of the Boreal Watch",
+      "item_name": "#DOTA_Item_Longbow_of_the_Boreal_Watch",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5197",
+      "name": "Cowl of the Boreal Watch",
+      "item_name": "#DOTA_Item_Cowl_of_the_Boreal_Watch",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5198",
+      "name": "Pauldrons of the Boreal Watch",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Boreal_Watch",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5199",
+      "name": "Quiver of the Boreal Watch",
+      "item_name": "#DOTA_Item_Quiver_of_the_Boreal_Watch",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5200",
+      "name": "Cloak of the Boreal Watch",
+      "item_name": "#DOTA_Item_Cloak_of_the_Boreal_Watch",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5247",
+      "name": "Jewel of the Forest Gloves",
+      "item_name": "#DOTA_Item_Jewel_of_the_Forest_Gloves",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5248",
+      "name": "Jewel of the Forest Pauldrons",
+      "item_name": "#DOTA_Item_Jewel_of_the_Forest_Pauldrons",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5249",
+      "name": "Jewel of the Forest Boots",
+      "item_name": "#DOTA_Item_Jewel_of_the_Forest_Boots",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5257",
+      "name": "Jewel of the Forest Bow",
+      "item_name": "#DOTA_Item_Jewel_of_the_Forest_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5258",
+      "name": "Jewel of the Forest Cape",
+      "item_name": "#DOTA_Item_Jewel_of_the_Forest_Cape",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5259",
+      "name": "Jewel of the Forest Scarf",
+      "item_name": "#DOTA_Item_Jewel_of_the_Forest_Scarf",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5386",
+      "name": "Monarch Bow",
+      "item_name": "#DOTA_Item_Monarch_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5673",
+      "name": "Lone Traveler's Beret",
+      "item_name": "#DOTA_Item_Lone_Travelers_Beret",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5700",
+      "name": "Paws of the Shadowcat",
+      "item_name": "#DOTA_Item_Paws_of_the_Shadowcat",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5701",
+      "name": "Pelt of the Shadowcat",
+      "item_name": "#DOTA_Item_Pelt_of_the_Shadowcat",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5702",
+      "name": "Gaiters of the Shadowcat",
+      "item_name": "#DOTA_Item_Gaiters_of_the_Shadowcat",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5703",
+      "name": "Quiver of the Shadowcat",
+      "item_name": "#DOTA_Item_Quiver_of_the_Shadowcat",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5705",
+      "name": "Furstole of the Shadowcat",
+      "item_name": "#DOTA_Item_Furstole_of_the_Shadowcat",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5706",
+      "name": "Bow of the Shadowcat",
+      "item_name": "#DOTA_Item_Bow_of_the_Shadowcat",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5707",
+      "name": "Trophy of the Shadowcat",
+      "item_name": "#DOTA_Item_Trophy_of_the_Shadowcat",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5841",
+      "name": "Death Shadow Bracers",
+      "item_name": "#DOTA_Item_Death_Shadow_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5842",
+      "name": "Death Shadow Cape",
+      "item_name": "#DOTA_Item_Death_Shadow_Cape",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5843",
+      "name": "Death Shadow Cowl",
+      "item_name": "#DOTA_Item_Death_Shadow_Cowl",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5844",
+      "name": "Death Shadow Boots",
+      "item_name": "#DOTA_Item_Death_Shadow_Boots",
+      "item_slot": "Legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5845",
+      "name": "Death Shadow Quiver",
+      "item_name": "#DOTA_Item_Death_Shadow_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5846",
+      "name": "Death Shadow Mantle",
+      "item_name": "#DOTA_Item_Death_Shadow_Mantle",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5847",
+      "name": "Death Shadow Bow",
+      "item_name": "#DOTA_Item_Death_Shadow_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5848",
+      "name": "Dark Ranger's Headdress",
+      "item_name": "#DOTA_Item_Dark_Rangers_Headdress",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5876",
+      "name": "Steamcape",
+      "item_name": "#DOTA_Item_Steamcape",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5883",
+      "name": "Sentinel Bow",
+      "item_name": "#DOTA_Item_Sentinel_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5974",
+      "name": "Sentinel Hood",
+      "item_name": "#DOTA_Item_Sentinel_Hood",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5975",
+      "name": "Sentinel Legs",
+      "item_name": "#DOTA_Item_Sentinel_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5979",
+      "name": "Sentinel Quiver",
+      "item_name": "#DOTA_Item_Sentinel_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5985",
+      "name": "Sentinel Shoulders",
+      "item_name": "#DOTA_Item_Sentinel_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5986",
+      "name": "Sentinel Gloves",
+      "item_name": "#DOTA_Item_Sentinel_Gloves",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5989",
+      "name": "Sentinel Cloak",
+      "item_name": "#DOTA_Item_Sentinel_Cloak",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6010",
+      "name": "Quiver of the Master Thief",
+      "item_name": "#DOTA_Item_Quiver_of_the_Master_Thief",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6026",
+      "name": "Cloak of the Master Thief",
+      "item_name": "#DOTA_Item_Cloak_of_the_Master_Thief",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6028",
+      "name": "Hood of the Master Thief",
+      "item_name": "#DOTA_Item_Hood_of_the_Master_Thief",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6029",
+      "name": "Corset of the Master Thief",
+      "item_name": "#DOTA_Item_Corset_of_the_Master_Thief",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6063",
+      "name": "Gloves of the Master Thief",
+      "item_name": "#DOTA_Item_Gloves_of_the_Master_Thief",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6145",
+      "name": "Boots of the Master Thief",
+      "item_name": "#DOTA_Item_Boots_of_the_Master_Thief",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6146",
+      "name": "Bow of the Master Thief",
+      "item_name": "#DOTA_Item_Bow_of_the_Master_Thief",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6552",
+      "name": "Hood of the Black Wind Raven",
+      "item_name": "#DOTA_Item_Hood_of_the_Black_Wind_Raven",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6553",
+      "name": "Arms of the Black Wind Raven",
+      "item_name": "#DOTA_Item_Arms_of_the_Black_Wind_Raven",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6554",
+      "name": "Shoulders of the Black Wind Raven",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Black_Wind_Raven",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6555",
+      "name": "Leggings of the Black Wind Raven",
+      "item_name": "#DOTA_Item_Leggings_of_the_Black_Wind_Raven",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6556",
+      "name": "Bow of the Black Wind Raven",
+      "item_name": "#DOTA_Item_Bow_of_the_Black_Wind_Raven",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6557",
+      "name": "Quiver of the Black Wind Raven",
+      "item_name": "#DOTA_Item_Quiver_of_the_Black_Wind_Raven",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6558",
+      "name": "Cape of the Black Wind Raven",
+      "item_name": "#DOTA_Item_Cape_of_the_Black_Wind_Raven",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6590",
+      "name": "Shade of the Ranger",
+      "item_name": "#DOTA_Item_Shade_of_the_Ranger",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6706",
+      "name": "Bow of the Lone Traveler",
+      "item_name": "#DOTA_Item_Bow_of_the_Lone_Traveler",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6785",
+      "name": "Mania's Mask",
+      "item_name": "#DOTA_Item_Manias_Mask",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6913",
+      "name": "Algid Legacy",
+      "item_name": "#DOTA_Item_Algid_Legacy",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7052",
+      "name": "Bracers of the Eldwurm's Touch",
+      "item_name": "#DOTA_Item_Bracers_of_the_Eldwurms_Touch",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7053",
+      "name": "Cape of the Eldwurm's Touch",
+      "item_name": "#DOTA_Item_Cape_of_the_Eldwurms_Touch",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7054",
+      "name": "Helmet of the Eldwurm's Touch",
+      "item_name": "#DOTA_Item_Helmet_of_the_Eldwurms_Touch",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7055",
+      "name": "Boots of the Eldwurm's Touch",
+      "item_name": "#DOTA_Item_Boots_of_the_Eldwurms_Touch",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7056",
+      "name": "Quiver of the Eldwurm's Touch",
+      "item_name": "#DOTA_Item_Quiver_of_the_Eldwurms_Touch",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7057",
+      "name": "Pauldrons of the Eldwurm's Touch",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Eldwurms_Touch",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7058",
+      "name": "Bow of the Eldwurm's Touch",
+      "item_name": "#DOTA_Item_Bow_of_the_Eldwurms_Touch",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7232",
+      "name": "Boots of the Winged Bolt",
+      "item_name": "#DOTA_Item_Boots_of_the_Winged_Bolt",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7238",
+      "name": "Bow of the Winged Bolt",
+      "item_name": "#DOTA_Item_Bow_of_the_Winged_Bolt",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7242",
+      "name": "Bracers of the Winged Bolt",
+      "item_name": "#DOTA_Item_Bracers_of_the_Winged_Bolt",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7243",
+      "name": "Cape of the Winged Bolt",
+      "item_name": "#DOTA_Item_Cape_of_the_Winged_Bolt",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7244",
+      "name": "Guards of the Winged Bolt",
+      "item_name": "#DOTA_Item_Guards_of_the_Winged_Bolt",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7245",
+      "name": "Mask of the Winged Bolt",
+      "item_name": "#DOTA_Item_Mask_of_the_Winged_Bolt",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7246",
+      "name": "Quiver of the Winged Bolt",
+      "item_name": "#DOTA_Item_Quiver_of_the_Winged_Bolt",
+      "item_slot": "misc",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7432",
+      "name": "Coat of the Frostborne Wayfarer",
+      "item_name": "#DOTA_Item_Coat_of_the_Frostborne_Wayfarer",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7492",
+      "name": "Bow of the Frostfangs",
+      "item_name": "#DOTA_Item_Bow_of_the_Frostfangs",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8006",
+      "name": "Silent Wake",
+      "item_name": "#DOTA_Item_Silent_Wake",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8035",
+      "name": "Silent Wake of the Crimson Witness",
+      "item_name": "#DOTA_Item_Silent_Wake_of_the_Crimson_Witness",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8037",
+      "name": "Golden Silent Wake",
+      "item_name": "#DOTA_Item_Golden_Silent_Wake",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8146",
+      "name": "Boots of the Wyvern Skin",
+      "item_name": "#DOTA_Item_Boots_of_the_Wyvern_Skin",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8147",
+      "name": "Bow of the Wyvern Skin",
+      "item_name": "#DOTA_Item_Bow_of_the_Wyvern_Skin",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8148",
+      "name": "Bracers of the Wyvern Skin",
+      "item_name": "#DOTA_Item_Bracers_of_the_Wyvern_Skin",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8149",
+      "name": "Cape of the Wyvern Skin",
+      "item_name": "#DOTA_Item_Cape_of_the_Wyvern_Skin",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8150",
+      "name": "Cowl of the Wyvern Skin",
+      "item_name": "#DOTA_Item_Cowl_of_the_Wyvern_Skin",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8151",
+      "name": "Mantle of the Wyvern Skin",
+      "item_name": "#DOTA_Item_Mantle_of_the_Wyvern_Skin",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8152",
+      "name": "Quiver of the Wyvern Skin",
+      "item_name": "#DOTA_Item_Quiver_of_the_Wyvern_Skin",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8738",
+      "name": "Bow of the Frostborne Wayfarer",
+      "item_name": "#DOTA_Item_Bow_of_the_Frostborne_Wayfarer",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8781",
+      "name": "Bracers of the Frostborne Wayfarer",
+      "item_name": "#DOTA_Item_Bracers_of_the_Frostborne_Wayfarer",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8782",
+      "name": "Quiver of the Frostborne Wayfarer",
+      "item_name": "#DOTA_Item_Quiver_of_the_Frostborne_Wayfarer",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8783",
+      "name": "Boots of the Frostborne Wayfarer",
+      "item_name": "#DOTA_Item_Boots_of_the_Frostborne_Wayfarer",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8784",
+      "name": "Cape of the Frostborne Wayfarer",
+      "item_name": "#DOTA_Item_Cape_of_the_Frostborne_Wayfarer",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8785",
+      "name": "Headband of the Frostborne Wayfarer",
+      "item_name": "#DOTA_Item_Headband_of_the_Frostborne_Wayfarer",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9871",
+      "name": "Algid Falcon Bracer",
+      "item_name": "#DOTA_Item_Algid_Falcon_Bracer",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9872",
+      "name": "Algid Falcon Greaves",
+      "item_name": "#DOTA_Item_Algid_Falcon_Greaves",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9873",
+      "name": "Algid Falcon Cape",
+      "item_name": "#DOTA_Item_Algid_Falcon_Cape",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9874",
+      "name": "Algid Falcon Quiver",
+      "item_name": "#DOTA_Item_Algid_Falcon_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9875",
+      "name": "Algid Falcon Pauldron",
+      "item_name": "#DOTA_Item_Algid_Falcon_Pauldron",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9876",
+      "name": "Algid Falcon Helm",
+      "item_name": "#DOTA_Item_Algid_Falcon_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "10136",
+      "name": "Expired Treasure of the Silent Grove",
+      "item_name": "#DOTA_Item_Expired_Treasure_of_the_Silent_Grove",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "retired_treasure_chest"
+    },
+    {
+      "id": "12321",
+      "name": "Gaze of the Zebulon - set Head",
+      "item_name": "#DOTA_Item_Gaze_of_the_Zebulon__set_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12325",
+      "name": "Bow of Zebulon",
+      "item_name": "#DOTA_Item_Bow_of_Zebulon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12555",
+      "name": "Shadows of Ravensmane Boots",
+      "item_name": "#DOTA_Item_Shadows_of_Ravensmane_Boots",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12556",
+      "name": "Shadows of Ravensmane Arms",
+      "item_name": "#DOTA_Item_Shadows_of_Ravensmane_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12557",
+      "name": "Shadows of Ravensmane Cloak",
+      "item_name": "#DOTA_Item_Shadows_of_Ravensmane_Cloak",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12558",
+      "name": "Shadows of Ravensmane Quiver",
+      "item_name": "#DOTA_Item_Shadows_of_Ravensmane_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12564",
+      "name": "Shadows of Ravensmane Mantle",
+      "item_name": "#DOTA_Item_Shadows_of_Ravensmane_Mantle",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12565",
+      "name": "Shadows of Ravensmane Hood",
+      "item_name": "#DOTA_Item_Shadows_of_Ravensmane_Hood",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12566",
+      "name": "Shadows of Ravensmane Bow",
+      "item_name": "#DOTA_Item_Shadows_of_Ravensmane_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12616",
+      "name": "Complete Algid Legacy",
+      "item_name": "#DOTA_Item_Complete_Algid_Legacy",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12617",
+      "name": "Complete Algid Falcon Helm",
+      "item_name": "#DOTA_Item_Complete_Algid_Falcon_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12618",
+      "name": "Complete Algid Falcon Pauldron",
+      "item_name": "#DOTA_Item_Complete_Algid_Falcon_Pauldron",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12619",
+      "name": "Complete Algid Falcon Quiver",
+      "item_name": "#DOTA_Item_Complete_Algid_Falcon_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12620",
+      "name": "Complete Algid Falcon Cape",
+      "item_name": "#DOTA_Item_Complete_Algid_Falcon_Cape",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12627",
+      "name": "Complete Algid Falcon Greaves",
+      "item_name": "#DOTA_Item_Complete_Algid_Falcon_Greaves",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12628",
+      "name": "Complete Algid Falcon Bracer",
+      "item_name": "#DOTA_Item_Complete_Algid_Falcon_Bracer",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12902",
+      "name": "Quiver of Zebulon",
+      "item_name": "#DOTA_Item_Quiver_of_Zebulon",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12903",
+      "name": "Pauldrons of Zebulon",
+      "item_name": "#DOTA_Item_Pauldrons_of_Zebulon",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12905",
+      "name": "Boots of Zebulon",
+      "item_name": "#DOTA_Item_Boots_of_Zebulon",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12906",
+      "name": "Mask of Zebulon",
+      "item_name": "#DOTA_Item_Mask_of_Zebulon",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12907",
+      "name": "Cape of Zebulon",
+      "item_name": "#DOTA_Item_Cape_of_Zebulon",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12908",
+      "name": "Arms of Zebulon",
+      "item_name": "#DOTA_Item_Arms_of_Zebulon",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12946",
+      "name": "Reaper's Wreath",
+      "item_name": "#DOTA_Item_Reapers_Wreath",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13001",
+      "name": "Oaths of the Dragonborn Arms",
+      "item_name": "#DOTA_Item_Oaths_of_the_Dragonborn_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13002",
+      "name": "Oaths of the Dragonborn Shoulders",
+      "item_name": "#DOTA_Item_Oaths_of_the_Dragonborn_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13004",
+      "name": "Oaths of the Dragonborn Bow",
+      "item_name": "#DOTA_Item_Oaths_of_the_Dragonborn_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13005",
+      "name": "Oaths of the Dragonborn Quiver",
+      "item_name": "#DOTA_Item_Oaths_of_the_Dragonborn_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13006",
+      "name": "Oaths of the Dragonborn Boots",
+      "item_name": "#DOTA_Item_Oaths_of_the_Dragonborn_Boots",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13010",
+      "name": "Oaths of the Dragonborn Wing",
+      "item_name": "#DOTA_Item_Oaths_of_the_Dragonborn_Wing",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13011",
+      "name": "Oaths of the Dragonborn Head",
+      "item_name": "#DOTA_Item_Oaths_of_the_Dragonborn_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13070",
+      "name": "Bow of the Sacred Hunt",
+      "item_name": "#DOTA_Item_Bow_of_the_Sacred_Hunt",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13071",
+      "name": "Shoulders of the Sacred Hunt",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Sacred_Hunt",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13072",
+      "name": "Arrows of the Sacred Hunt",
+      "item_name": "#DOTA_Item_Arrows_of_the_Sacred_Hunt",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13073",
+      "name": "Skirt of the Sacred Hunt",
+      "item_name": "#DOTA_Item_Skirt_of_the_Sacred_Hunt",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13074",
+      "name": "Crown of the Sacred Hunt",
+      "item_name": "#DOTA_Item_Crown_of_the_Sacred_Hunt",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13075",
+      "name": "Cape of the Sacred Hunt",
+      "item_name": "#DOTA_Item_Cape_of_the_Sacred_Hunt",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13076",
+      "name": "Bracers of the Sacred Hunt",
+      "item_name": "#DOTA_Item_Bracers_of_the_Sacred_Hunt",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13128",
+      "name": "DeathBlossom Drow Ranger Head",
+      "item_name": "#DOTA_Item_DeathBlossom_Drow_Ranger_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13337",
+      "name": "Quiver of the Kha-Ren Faithful",
+      "item_name": "#DOTA_Item_Quiver_of_the_KhaRen_Faithful",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13338",
+      "name": "Bow of the Kha-Ren Faithful",
+      "item_name": "#DOTA_Item_Bow_of_the_KhaRen_Faithful",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13339",
+      "name": "Style of the Kha-Ren Faithful",
+      "item_name": "#DOTA_Item_Style_of_the_KhaRen_Faithful",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13377",
+      "name": "Arms of the Kha-Ren Faithful",
+      "item_name": "#DOTA_Item_Arms_of_the_KhaRen_Faithful",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13378",
+      "name": "Armor of the Kha-Ren Faithful",
+      "item_name": "#DOTA_Item_Armor_of_the_KhaRen_Faithful",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13379",
+      "name": "Legs of the Kha-Ren Faithful",
+      "item_name": "#DOTA_Item_Legs_of_the_KhaRen_Faithful",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13380",
+      "name": "Cape of the Kha-Ren Faithful",
+      "item_name": "#DOTA_Item_Cape_of_the_KhaRen_Faithful",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13822",
+      "name": "Discipline of the Dark Star Weapon",
+      "item_name": "#DOTA_Item_Discipline_of_the_Dark_Star_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13823",
+      "name": "Discipline of the Dark Star Shoulder",
+      "item_name": "#DOTA_Item_Discipline_of_the_Dark_Star_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13824",
+      "name": "Discipline of the Dark Star Misc",
+      "item_name": "#DOTA_Item_Discipline_of_the_Dark_Star_Misc",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13843",
+      "name": "Discipline of the Dark Star Legs",
+      "item_name": "#DOTA_Item_Discipline_of_the_Dark_Star_Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13844",
+      "name": "Discipline of the Dark Star Head",
+      "item_name": "#DOTA_Item_Discipline_of_the_Dark_Star_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13845",
+      "name": "Discipline of the Dark Star Back",
+      "item_name": "#DOTA_Item_Discipline_of_the_Dark_Star_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13846",
+      "name": "Discipline of the Dark Star Arms",
+      "item_name": "#DOTA_Item_Discipline_of_the_Dark_Star_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14568",
+      "name": "Bow of the Winterwood Vesture",
+      "item_name": "#DOTA_Item_Bow_of_the_Winterwood_Vesture",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14569",
+      "name": "Quiver of the Winterwood Vesture",
+      "item_name": "#DOTA_Item_Quiver_of_the_Winterwood_Vesture",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14589",
+      "name": "Boots of the Winterwood Vesture",
+      "item_name": "#DOTA_Item_Boots_of_the_Winterwood_Vesture",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14590",
+      "name": "Cape of the Winterwood Vesture",
+      "item_name": "#DOTA_Item_Cape_of_the_Winterwood_Vesture",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14591",
+      "name": "Arms of the Winterwood Vesture",
+      "item_name": "#DOTA_Item_Arms_of_the_Winterwood_Vesture",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14592",
+      "name": "Armor of the Winterwood Vesture",
+      "item_name": "#DOTA_Item_Armor_of_the_Winterwood_Vesture",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14593",
+      "name": "Hood of the Winterwood Vesture",
+      "item_name": "#DOTA_Item_Hood_of_the_Winterwood_Vesture",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17830",
+      "name": "Drow's Diretide Shimmer Bracer",
+      "item_name": "#DOTA_Item_Drows_Diretide_Shimmer_Bracer",
+      "item_slot": "arms",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17831",
+      "name": "Drow's Diretide Shimmer Cape",
+      "item_name": "#DOTA_Item_Drows_Diretide_Shimmer_Cape",
+      "item_slot": "back",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17832",
+      "name": "Drow's Diretide Shimmer Haircowl",
+      "item_name": "#DOTA_Item_Drows_Diretide_Shimmer_Haircowl",
+      "item_slot": "head",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17833",
+      "name": "Drow's Diretide Shimmer Legs",
+      "item_name": "#DOTA_Item_Drows_Diretide_Shimmer_Legs",
+      "item_slot": "legs",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17834",
+      "name": "Drow's Diretide Shimmer Quiver",
+      "item_name": "#DOTA_Item_Drows_Diretide_Shimmer_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17835",
+      "name": "Drow's Diretide Shimmer Weapon",
+      "item_name": "#DOTA_Item_Drows_Diretide_Shimmer_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17840",
+      "name": "Drow's Diretide Shimmer Armor",
+      "item_name": "#DOTA_Item_Drows_Diretide_Shimmer_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17841",
+      "name": "Drow's Diretide Shimmer Costume",
+      "item_name": "#DOTA_Item_Drows_Diretide_Shimmer_Costume",
+      "item_slot": "costume",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17868",
+      "name": "Stranger in the Wandering Isles - Legs",
+      "item_name": "#DOTA_Item_Stranger_in_the_Wandering_Isles__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17869",
+      "name": "Stranger in the Wandering Isles - Head",
+      "item_name": "#DOTA_Item_Stranger_in_the_Wandering_Isles__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17870",
+      "name": "Stranger in the Wandering Isles - Back",
+      "item_name": "#DOTA_Item_Stranger_in_the_Wandering_Isles__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17871",
+      "name": "Stranger in the Wandering Isles - Arms",
+      "item_name": "#DOTA_Item_Stranger_in_the_Wandering_Isles__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17905",
+      "name": "Snowstorm Ranger Misc",
+      "item_name": "#DOTA_Item_Snowstorm_Ranger_Misc",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18086",
+      "name": "Frostglade Familiar Sleeves",
+      "item_name": "#DOTA_Item_Frostglade_Familiar_Sleeves",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18087",
+      "name": "Frostglade Familiar Cape",
+      "item_name": "#DOTA_Item_Frostglade_Familiar_Cape",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18088",
+      "name": "Frostglade Familiar Hat",
+      "item_name": "#DOTA_Item_Frostglade_Familiar_Hat",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18089",
+      "name": "Frostglade Familiar Legs",
+      "item_name": "#DOTA_Item_Frostglade_Familiar_Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18090",
+      "name": "Frostglade Familiar Quiver",
+      "item_name": "#DOTA_Item_Frostglade_Familiar_Quiver",
+      "item_slot": "misc",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18091",
+      "name": "Frostglade Familiar Armor",
+      "item_name": "#DOTA_Item_Frostglade_Familiar_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18092",
+      "name": "Frostglade Familiar Bow",
+      "item_name": "#DOTA_Item_Frostglade_Familiar_Bow",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19088",
+      "name": "Dread Retribution - Bracers",
+      "item_name": "#DOTA_Item_Dread_Retribution__Bracers",
+      "item_slot": "arms",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19089",
+      "name": "Dread Retribution - Cape",
+      "item_name": "#DOTA_Item_Dread_Retribution__Cape",
+      "item_slot": "back",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19090",
+      "name": "Dread Retribution",
+      "item_name": "#DOTA_Item_Dread_Retribution",
+      "item_slot": "weapon",
+      "item_rarity": "arcana",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19091",
+      "name": "Dread Retribution - Leg Armor",
+      "item_name": "#DOTA_Item_Dread_Retribution__Leg_Armor",
+      "item_slot": "legs",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19092",
+      "name": "Dread Retribution - Quiver",
+      "item_name": "#DOTA_Item_Dread_Retribution__Quiver",
+      "item_slot": "misc",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19093",
+      "name": "Dread Retribution - Shoulder Armor",
+      "item_name": "#DOTA_Item_Dread_Retribution__Shoulder_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19094",
+      "name": "Dread Retribution - Headwear",
+      "item_name": "#DOTA_Item_Dread_Retribution__Headwear",
+      "item_slot": "head",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19288",
+      "name": "Snowstorm Ranger Head",
+      "item_name": "#DOTA_Item_Snowstorm_Ranger_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19309",
+      "name": "Stranger in the Wandering Isles - Weapon",
+      "item_name": "#DOTA_Item_Stranger_in_the_Wandering_Isles__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19310",
+      "name": "Stranger in the Wandering Isles - Shoulder",
+      "item_name": "#DOTA_Item_Stranger_in_the_Wandering_Isles__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19311",
+      "name": "Stranger in the Wandering Isles - Misc",
+      "item_name": "#DOTA_Item_Stranger_in_the_Wandering_Isles__Misc",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20029",
+      "name": "Spikes of Frost Set",
+      "item_name": "#DOTA_Item_Spikes_of_Frost_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20072",
+      "name": "Sylvan Guard's Finery Set",
+      "item_name": "#DOTA_Item_Sylvan_Guards_Finery_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20220",
+      "name": "The Boreal Watch Set",
+      "item_name": "#DOTA_Item_The_Boreal_Watch_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20233",
+      "name": "Jewel of the Forest Set",
+      "item_name": "#DOTA_Item_Jewel_of_the_Forest_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20316",
+      "name": "Gifts of the Shadowcat Set",
+      "item_name": "#DOTA_Item_Gifts_of_the_Shadowcat_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20336",
+      "name": "Death Shadow Set",
+      "item_name": "#DOTA_Item_Death_Shadow_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20392",
+      "name": "Sentinel Set",
+      "item_name": "#DOTA_Item_Sentinel_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20405",
+      "name": "Tools of the Master Thief Set",
+      "item_name": "#DOTA_Item_Tools_of_the_Master_Thief_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20508",
+      "name": "Black Wind Raven",
+      "item_name": "#DOTA_Item_Black_Wind_Raven",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20561",
+      "name": "Promo The Boreal Watch-Reforged",
+      "item_name": "#DOTA_Item_Promo_The_Boreal_WatchReforged",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20698",
+      "name": "Guise of the Winged Bolt",
+      "item_name": "#DOTA_Item_Guise_of_the_Winged_Bolt",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20720",
+      "name": "Eldwurm's Touch",
+      "item_name": "#DOTA_Item_Eldwurms_Touch",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20815",
+      "name": "Wyvern Skin",
+      "item_name": "#DOTA_Item_Wyvern_Skin",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20918",
+      "name": "Algid Falcon",
+      "item_name": "#DOTA_Item_Algid_Falcon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20974",
+      "name": "The Frostborne Wayfarer",
+      "item_name": "#DOTA_Item_The_Frostborne_Wayfarer",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21258",
+      "name": "Shadows of Ravensmane",
+      "item_name": "#DOTA_Item_Shadows_of_Ravensmane",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21271",
+      "name": "Complete Algid Falcon",
+      "item_name": "#DOTA_Item_Complete_Algid_Falcon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21319",
+      "name": "The Gaze of Zebulon",
+      "item_name": "#DOTA_Item_The_Gaze_of_Zebulon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21341",
+      "name": "Glimmer of the Sacred Hunt",
+      "item_name": "#DOTA_Item_Glimmer_of_the_Sacred_Hunt",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21375",
+      "name": "Sight of the Kha-Ren Faithful",
+      "item_name": "#DOTA_Item_Sight_of_the_KhaRen_Faithful",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21461",
+      "name": "Discipline of the Dark Star",
+      "item_name": "#DOTA_Item_Discipline_of_the_Dark_Star",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21610",
+      "name": "Winterwood Vesture",
+      "item_name": "#DOTA_Item_Winterwood_Vesture",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21702",
+      "name": "Drow's Diretide Shimmer Bundle",
+      "item_name": "#DOTA_Item_Drows_Diretide_Shimmer_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21710",
+      "name": "Stranger in the Wandering Isles",
+      "item_name": "#DOTA_Item_Stranger_in_the_Wandering_Isles",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21744",
+      "name": "Frostglade Familiar",
+      "item_name": "#DOTA_Item_Frostglade_Familiar",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21837",
+      "name": "Dread Retribution Bundle",
+      "item_name": "#DOTA_Item_Dread_Retribution_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "arcana",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21838",
+      "name": "Oaths of the Dragonborn",
+      "item_name": "#DOTA_Item_Oaths_of_the_Dragonborn",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22351",
+      "name": "Black Ice Constellation - Head",
+      "item_name": "#DOTA_Item_Black_Ice_Constellation__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22352",
+      "name": "Black Ice Constellation - Shoulders",
+      "item_name": "#DOTA_Item_Black_Ice_Constellation__Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22353",
+      "name": "Black Ice Constellation - Arms",
+      "item_name": "#DOTA_Item_Black_Ice_Constellation__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22354",
+      "name": "Black Ice Constellation - Legs",
+      "item_name": "#DOTA_Item_Black_Ice_Constellation__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22355",
+      "name": "Black Ice Constellation - Cloak",
+      "item_name": "#DOTA_Item_Black_Ice_Constellation__Cloak",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22356",
+      "name": "Black Ice Constellation Bundle",
+      "item_name": "#DOTA_Item_Black_Ice_Constellation_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22358",
+      "name": "Black Ice Constellation - Quiver",
+      "item_name": "#DOTA_Item_Black_Ice_Constellation__Quiver",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22359",
+      "name": "Black Ice Constellation - Weapon",
+      "item_name": "#DOTA_Item_Black_Ice_Constellation__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22360",
+      "name": "Black Ice Constellation",
+      "item_name": "#DOTA_Item_Black_Ice_Constellation",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "27131",
+      "name": "Ravencloak - Arms",
+      "item_name": "#DOTA_Item_Ravencloak__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27133",
+      "name": "Ravencloak - Legs",
+      "item_name": "#DOTA_Item_Ravencloak__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27208",
+      "name": "Ravencloak",
+      "item_name": "#DOTA_Item_Ravencloak",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "27475",
+      "name": "Taunt: The Finer Points",
+      "item_name": "#DOTA_Item_Taunt_The_Finer_Points",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "taunt"
+    },
+    {
+      "id": "29302",
+      "name": "Ravencloak - Shoulders",
+      "item_name": "#DOTA_Item_Ravencloak__Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29303",
+      "name": "Ravencloak - Head",
+      "item_name": "#DOTA_Item_Ravencloak__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29304",
+      "name": "Ravencloak - Back",
+      "item_name": "#DOTA_Item_Ravencloak__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30280",
+      "name": "Ravencloak - Weapon",
+      "item_name": "#DOTA_Item_Ravencloak__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30363",
+      "name": "Ravencloak - Quiver",
+      "item_name": "#DOTA_Item_Ravencloak__Quiver",
+      "item_slot": "misc",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    }
+  ]
+}

@@ -1,0 +1,1699 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "313",
+      "name": "Beastmaster's Weapons",
+      "item_name": "#DOTA_Item_Beastmasters_Weapons",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "314",
+      "name": "Beastmasters's Head",
+      "item_name": "#DOTA_Item_Beastmasterss_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "shoulder": {
+      "id": "315",
+      "name": "Beastmaster's Shoulder",
+      "item_name": "#DOTA_Item_Beastmasters_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common"
+    },
+    "arms": {
+      "id": "316",
+      "name": "Beastmaster's Arms",
+      "item_name": "#DOTA_Item_Beastmasters_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common"
+    },
+    "belt": {
+      "id": "317",
+      "name": "Beastmaster's Belt",
+      "item_name": "#DOTA_Item_Beastmasters_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_White_Stag_Bone_Armor_Set",
+      "store_bundle": "White Stag Bone Armor Set",
+      "portrait_image": "econ/sets/v2/beastmaster_white_stag_bone_armor_set",
+      "items": [
+        {
+          "name": "White Stag Bone Mail",
+          "id": "36167",
+          "item_name": "#DOTA_Item_White_Stag_Bone_Mail",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "White Stag Bone Vambraces",
+          "id": "36168",
+          "item_name": "#DOTA_Item_White_Stag_Bone_Vambraces",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "White Stag Bone Coil",
+          "id": "36169",
+          "item_name": "#DOTA_Item_White_Stag_Bone_Coil",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "White Stag Bone Helm",
+          "id": "36170",
+          "item_name": "#DOTA_Item_White_Stag_Bone_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bullfango",
+          "id": "34233",
+          "item_name": "#DOTA_Item_Bullfango",
+          "item_slot": "summon",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "White Stag Blood-drinker Chainblade",
+          "id": "36172",
+          "item_name": "#DOTA_Item_White_Stag_Blooddrinker_Chainblade",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bone_Armor",
+      "store_bundle": "Bone Armor",
+      "portrait_image": "econ/sets/v2/bone_armor",
+      "items": [
+        {
+          "name": "Bone Mail",
+          "id": "34230",
+          "item_name": "#DOTA_Item_Bone_Mail",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bone Vambraces",
+          "id": "34231",
+          "item_name": "#DOTA_Item_Bone_Vambraces",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bone Coil",
+          "id": "34232",
+          "item_name": "#DOTA_Item_Bone_Coil",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bone Helm",
+          "id": "34234",
+          "item_name": "#DOTA_Item_Bone_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bullfango",
+          "id": "34233",
+          "item_name": "#DOTA_Item_Bullfango",
+          "item_slot": "summon",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Blood-drinker Chainblade",
+          "id": "33974",
+          "item_name": "#DOTA_Item_Blooddrinker_Chainblade",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Chimeras_Rage",
+      "store_bundle": "Chimera's Rage",
+      "portrait_image": "econ/sets/v2/chimeras_rage",
+      "items": [
+        {
+          "name": "Vest of the Chimera's Rage",
+          "id": "9883",
+          "item_name": "#DOTA_Item_Vest_of_the_Chimeras_Rage",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Crown of the Chimera's Rage",
+          "id": "9881",
+          "item_name": "#DOTA_Item_Crown_of_the_Chimeras_Rage",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Gauntlet of the Chimera's Rage",
+          "id": "9879",
+          "item_name": "#DOTA_Item_Gauntlet_of_the_Chimeras_Rage",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bite of the Chimera's Rage",
+          "id": "9877",
+          "item_name": "#DOTA_Item_Bite_of_the_Chimeras_Rage",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Tassets of the Chimera's Rage",
+          "id": "8333",
+          "item_name": "#DOTA_Item_Tassets_of_the_Chimeras_Rage",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Custom_of_Karroch",
+      "store_bundle": "Custom of Karroch Set",
+      "portrait_image": "econ/sets/v2/custom_karroch",
+      "items": [
+        {
+          "name": "Ancestral Axes of Karroch",
+          "id": "4886",
+          "item_name": "#DOTA_Item_Ancestral_Axes_of_Karroch",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Ancestral Belt of Karroch",
+          "id": "4887",
+          "item_name": "#DOTA_Item_Ancestral_Belt_of_Karroch",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Ancestral Bracers of Karroch",
+          "id": "4885",
+          "item_name": "#DOTA_Item_Ancestral_Bracers_of_Karroch",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Ancestral Hair of Karroch",
+          "id": "4888",
+          "item_name": "#DOTA_Item_Ancestral_Hair_of_Karroch",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Ancestral Vest of Karroch",
+          "id": "4889",
+          "item_name": "#DOTA_Item_Ancestral_Vest_of_Karroch",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Edge_of_Extinction",
+      "store_bundle": "Edge of Extinction",
+      "portrait_image": "econ/sets/v2/edge_of_extinction",
+      "items": [
+        {
+          "name": "Edge of Extinction Bracers",
+          "id": "13168",
+          "item_name": "#DOTA_Item_Edge_of_Extinction_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Edge of Extinction Boar",
+          "id": "13167",
+          "item_name": "#DOTA_Item_Edge_of_Extinction_Boar",
+          "item_slot": "summon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Edge of Extinction Belt",
+          "id": "13166",
+          "item_name": "#DOTA_Item_Edge_of_Extinction_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Edge of Extinction Hawk",
+          "id": "13165",
+          "item_name": "#DOTA_Item_Edge_of_Extinction_Hawk",
+          "item_slot": "ability2",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Edge of Extinction Helm",
+          "id": "13164",
+          "item_name": "#DOTA_Item_Edge_of_Extinction_Helm",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Edge of Extinction Weapons",
+          "id": "13163",
+          "item_name": "#DOTA_Item_Edge_of_Extinction_Weapons",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Edge of Extinction Shoulders",
+          "id": "13162",
+          "item_name": "#DOTA_Item_Edge_of_Extinction_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Friend_of_the_West",
+      "store_bundle": "Friend of the West",
+      "portrait_image": "econ/sets/v2/friend_of_the_west",
+      "items": [
+        {
+          "name": "Bracers of the West",
+          "id": "6250",
+          "item_name": "#DOTA_Item_Bracers_of_the_West",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Wa-Ya the Mighty",
+          "id": "6251",
+          "item_name": "#DOTA_Item_WaYa_the_Mighty",
+          "item_slot": "summon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Twin Scalpers of the West",
+          "id": "6252",
+          "item_name": "#DOTA_Item_Twin_Scalpers_of_the_West",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Great Hunt Shoulder of the West",
+          "id": "6253",
+          "item_name": "#DOTA_Item_Great_Hunt_Shoulder_of_the_West",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Chieftain Headdress of the West",
+          "id": "6254",
+          "item_name": "#DOTA_Item_Chieftain_Headdress_of_the_West",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Ritual Belt of the West",
+          "id": "6255",
+          "item_name": "#DOTA_Item_Ritual_Belt_of_the_West",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Golden_Bone_Armor_Set",
+      "store_bundle": "Golden Bone Armor Set",
+      "portrait_image": "econ/sets/v2/golden_bone_armor_set",
+      "items": [
+        {
+          "name": "Bullfango",
+          "id": "34233",
+          "item_name": "#DOTA_Item_Bullfango",
+          "item_slot": "summon",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Golden Bone Mail",
+          "id": "35571",
+          "item_name": "#DOTA_Item_Golden_Bone_Mail",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Golden Bone Vambraces",
+          "id": "35572",
+          "item_name": "#DOTA_Item_Golden_Bone_Vambraces",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Golden Bone Coil",
+          "id": "35573",
+          "item_name": "#DOTA_Item_Golden_Bone_Coil",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Golden Bone Helm",
+          "id": "35574",
+          "item_name": "#DOTA_Item_Golden_Bone_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Golden Blood-drinker Chainblade",
+          "id": "35760",
+          "item_name": "#DOTA_Item_Golden_Blooddrinker_Chainblade",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Legacy_of_a_Lost_Age",
+      "store_bundle": "Legacy of a Lost Age",
+      "portrait_image": "econ/sets/v2/legacy_of_a_lost_age",
+      "items": [
+        {
+          "name": "Legacy of a Lost Age - Armor",
+          "id": "13370",
+          "item_name": "#DOTA_Item_Legacy_of_a_Lost_Age__Armor",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Legacy of a Lost Age - Bracers",
+          "id": "13375",
+          "item_name": "#DOTA_Item_Legacy_of_a_Lost_Age__Bracers",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Legacy of a Lost Age - Helm",
+          "id": "13373",
+          "item_name": "#DOTA_Item_Legacy_of_a_Lost_Age__Helm",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Legacy of a Lost Age - Axe",
+          "id": "13376",
+          "item_name": "#DOTA_Item_Legacy_of_a_Lost_Age__Axe",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Legacy of a Lost Age - Belt",
+          "id": "13374",
+          "item_name": "#DOTA_Item_Legacy_of_a_Lost_Age__Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Legacy of a Lost Age - Pterohawk",
+          "id": "13371",
+          "item_name": "#DOTA_Item_Legacy_of_a_Lost_Age__Pterohawk",
+          "item_slot": "ability2",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Legacy of a Lost Age - Stegaboar",
+          "id": "13372",
+          "item_name": "#DOTA_Item_Legacy_of_a_Lost_Age__Stegaboar",
+          "item_slot": "summon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Marauder_Chieftain_of_the_Chaos_Wastes",
+      "store_bundle": "Marauder Chieftain of the Chaos Wastes",
+      "portrait_image": "econ/sets/v2/marauder_chieftain_of_the_chaos_wastes",
+      "items": [
+        {
+          "name": "Chieftain Axes of the Chaos Wastes",
+          "id": "8509",
+          "item_name": "#DOTA_Item_Chieftain_Axes_of_the_Chaos_Wastes",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Chieftain Belt of the Chaos Wastes",
+          "id": "8510",
+          "item_name": "#DOTA_Item_Chieftain_Belt_of_the_Chaos_Wastes",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Chieftain Vambraces of the Chaos Wastes",
+          "id": "8511",
+          "item_name": "#DOTA_Item_Chieftain_Vambraces_of_the_Chaos_Wastes",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Chieftain Helm of the Chaos Wastes",
+          "id": "8512",
+          "item_name": "#DOTA_Item_Chieftain_Helm_of_the_Chaos_Wastes",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Chieftain Guard of the Chaos Wastes",
+          "id": "8513",
+          "item_name": "#DOTA_Item_Chieftain_Guard_of_the_Chaos_Wastes",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Chieftain Raven of the Chaos Wastes",
+          "id": "8514",
+          "item_name": "#DOTA_Item_Chieftain_Raven_of_the_Chaos_Wastes",
+          "item_slot": "ability2",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Chieftain Warhound of the Chaos Wastes",
+          "id": "8515",
+          "item_name": "#DOTA_Item_Chieftain_Warhound_of_the_Chaos_Wastes",
+          "item_slot": "summon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Marauder_of_the_Chaos_Wastes",
+      "store_bundle": "Marauder of the Chaos Wastes",
+      "portrait_image": "econ/sets/v2/marauder_of_the_chaos_wastes",
+      "items": [
+        {
+          "name": "Axes of the Chaos Wastes",
+          "id": "8159",
+          "item_name": "#DOTA_Item_Axes_of_the_Chaos_Wastes",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Belt of the Chaos Wastes",
+          "id": "8160",
+          "item_name": "#DOTA_Item_Belt_of_the_Chaos_Wastes",
+          "item_slot": "belt",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Vambraces of the Chaos Wastes",
+          "id": "8162",
+          "item_name": "#DOTA_Item_Vambraces_of_the_Chaos_Wastes",
+          "item_slot": "arms",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Helm of the Chaos Wastes",
+          "id": "8190",
+          "item_name": "#DOTA_Item_Helm_of_the_Chaos_Wastes",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Guard of the Chaos Wastes",
+          "id": "8192",
+          "item_name": "#DOTA_Item_Guard_of_the_Chaos_Wastes",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Raven of the Chaos Wastes",
+          "id": "8222",
+          "item_name": "#DOTA_Item_Raven_of_the_Chaos_Wastes",
+          "item_slot": "ability2",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Warhound of the Chaos Wastes",
+          "id": "8223",
+          "item_name": "#DOTA_Item_Warhound_of_the_Chaos_Wastes",
+          "item_slot": "summon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Prismatic_Bone_Armor_Set",
+      "store_bundle": "Prismatic Bone Armor Set",
+      "portrait_image": "econ/sets/v2/prismatic_bone_armor_set",
+      "items": [
+        {
+          "name": "Bullfango",
+          "id": "34233",
+          "item_name": "#DOTA_Item_Bullfango",
+          "item_slot": "summon",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Prismatic Bone Mail",
+          "id": "35576",
+          "item_name": "#DOTA_Item_Prismatic_Bone_Mail",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Bone Vambraces",
+          "id": "35577",
+          "item_name": "#DOTA_Item_Prismatic_Bone_Vambraces",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Bone Coil",
+          "id": "35578",
+          "item_name": "#DOTA_Item_Prismatic_Bone_Coil",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Bone Helm",
+          "id": "35579",
+          "item_name": "#DOTA_Item_Prismatic_Bone_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prismatic Blood-drinker Chainblade",
+          "id": "35761",
+          "item_name": "#DOTA_Item_Prismatic_Blooddrinker_Chainblade",
+          "item_slot": "weapon",
+          "item_rarity": "immortal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Gear_of_the_Red_Talon",
+      "store_bundle": "Hunter of the Red Talon Set",
+      "portrait_image": "econ/sets/v2/red_talon",
+      "items": [
+        {
+          "name": "Red Talon Hood",
+          "id": "4648",
+          "item_name": "#DOTA_Item_Red_Talon_Hood",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Red Talon Guard",
+          "id": "4656",
+          "item_name": "#DOTA_Item_Red_Talon_Guard",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Red Talon Axes",
+          "id": "4657",
+          "item_name": "#DOTA_Item_Red_Talon_Axes",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Red Talon Bracers",
+          "id": "4658",
+          "item_name": "#DOTA_Item_Red_Talon_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Red Talon Belt",
+          "id": "4659",
+          "item_name": "#DOTA_Item_Red_Talon_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Stoutheart_Growler",
+      "store_bundle": "Stoutheart Growler",
+      "portrait_image": "econ/sets/v2/stoutheart_growler",
+      "items": [
+        {
+          "name": "Axe of the Stoutheart Growler",
+          "id": "9620",
+          "item_name": "#DOTA_Item_Axe_of_the_Stoutheart_Growler",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Belt of the Stoutheart Growler",
+          "id": "9619",
+          "item_name": "#DOTA_Item_Belt_of_the_Stoutheart_Growler",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Arms of the Stoutheart Growler",
+          "id": "9618",
+          "item_name": "#DOTA_Item_Arms_of_the_Stoutheart_Growler",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Helm of the Stoutheart Growler",
+          "id": "9617",
+          "item_name": "#DOTA_Item_Helm_of_the_Stoutheart_Growler",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Owl of the Stoutheart Growler",
+          "id": "9616",
+          "item_name": "#DOTA_Item_Owl_of_the_Stoutheart_Growler",
+          "item_slot": "ability2",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mantle of the Stoutheart Growler",
+          "id": "9615",
+          "item_name": "#DOTA_Item_Mantle_of_the_Stoutheart_Growler",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Boar of the Stoutheart Growler",
+          "id": "9614",
+          "item_name": "#DOTA_Item_Boar_of_the_Stoutheart_Growler",
+          "item_slot": "summon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Tribal_Stone",
+      "store_bundle": "Tribal Stone Set",
+      "portrait_image": "econ/sets/v2/tribal_stone",
+      "items": [
+        {
+          "name": "Tribal Stone Edge",
+          "id": "4704",
+          "item_name": "#DOTA_Item_Tribal_Stone_Edge",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Tribal Stone Pauldron",
+          "id": "4705",
+          "item_name": "#DOTA_Item_Tribal_Stone_Pauldron",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Tribal Stone Horns",
+          "id": "4706",
+          "item_name": "#DOTA_Item_Tribal_Stone_Horns",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Tribal Stone Vambrace",
+          "id": "4716",
+          "item_name": "#DOTA_Item_Tribal_Stone_Vambrace",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Wild_Tamer",
+      "store_bundle": "MPGL SEA Season 7 Bundle",
+      "portrait_image": "econ/sets/v2/wild_tamer_set",
+      "items": [
+        {
+          "name": "Helm of the Wild Tamer",
+          "id": "8342",
+          "item_name": "#DOTA_Item_Helm_of_the_Wild_Tamer",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Cape of the Wild Tamer",
+          "id": "8344",
+          "item_name": "#DOTA_Item_Cape_of_the_Wild_Tamer",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Axes of the Wild Tamer",
+          "id": "8345",
+          "item_name": "#DOTA_Item_Axes_of_the_Wild_Tamer",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Belt of the Wild Tamer",
+          "id": "8346",
+          "item_name": "#DOTA_Item_Belt_of_the_Wild_Tamer",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Bracers of the Wild Tamer",
+          "id": "8347",
+          "item_name": "#DOTA_Item_Bracers_of_the_Wild_Tamer",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "313",
+      "name": "Beastmaster's Weapons",
+      "item_name": "#DOTA_Item_Beastmasters_Weapons",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "314",
+      "name": "Beastmasters's Head",
+      "item_name": "#DOTA_Item_Beastmasterss_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "315",
+      "name": "Beastmaster's Shoulder",
+      "item_name": "#DOTA_Item_Beastmasters_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "316",
+      "name": "Beastmaster's Arms",
+      "item_name": "#DOTA_Item_Beastmasters_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "317",
+      "name": "Beastmaster's Belt",
+      "item_name": "#DOTA_Item_Beastmasters_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4648",
+      "name": "Red Talon Hood",
+      "item_name": "#DOTA_Item_Red_Talon_Hood",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4656",
+      "name": "Red Talon Guard",
+      "item_name": "#DOTA_Item_Red_Talon_Guard",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4657",
+      "name": "Red Talon Axes",
+      "item_name": "#DOTA_Item_Red_Talon_Axes",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4658",
+      "name": "Red Talon Bracers",
+      "item_name": "#DOTA_Item_Red_Talon_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4659",
+      "name": "Red Talon Belt",
+      "item_name": "#DOTA_Item_Red_Talon_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4704",
+      "name": "Tribal Stone Edge",
+      "item_name": "#DOTA_Item_Tribal_Stone_Edge",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4705",
+      "name": "Tribal Stone Pauldron",
+      "item_name": "#DOTA_Item_Tribal_Stone_Pauldron",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4706",
+      "name": "Tribal Stone Horns",
+      "item_name": "#DOTA_Item_Tribal_Stone_Horns",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4716",
+      "name": "Tribal Stone Vambrace",
+      "item_name": "#DOTA_Item_Tribal_Stone_Vambrace",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4885",
+      "name": "Ancestral Bracers of Karroch",
+      "item_name": "#DOTA_Item_Ancestral_Bracers_of_Karroch",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4886",
+      "name": "Ancestral Axes of Karroch",
+      "item_name": "#DOTA_Item_Ancestral_Axes_of_Karroch",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4887",
+      "name": "Ancestral Belt of Karroch",
+      "item_name": "#DOTA_Item_Ancestral_Belt_of_Karroch",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4888",
+      "name": "Ancestral Hair of Karroch",
+      "item_name": "#DOTA_Item_Ancestral_Hair_of_Karroch",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4889",
+      "name": "Ancestral Vest of Karroch",
+      "item_name": "#DOTA_Item_Ancestral_Vest_of_Karroch",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5793",
+      "name": "Helm of the Warbeast",
+      "item_name": "#DOTA_Item_Helm_of_the_Warbeast",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6027",
+      "name": "Beast of Vermilion Wilds",
+      "item_name": "#DOTA_Item_Beast_of_Vermilion_Wilds",
+      "item_slot": "summon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6250",
+      "name": "Bracers of the West",
+      "item_name": "#DOTA_Item_Bracers_of_the_West",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6251",
+      "name": "Wa-Ya the Mighty",
+      "item_name": "#DOTA_Item_WaYa_the_Mighty",
+      "item_slot": "summon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6252",
+      "name": "Twin Scalpers of the West",
+      "item_name": "#DOTA_Item_Twin_Scalpers_of_the_West",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6253",
+      "name": "Great Hunt Shoulder of the West",
+      "item_name": "#DOTA_Item_Great_Hunt_Shoulder_of_the_West",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6254",
+      "name": "Chieftain Headdress of the West",
+      "item_name": "#DOTA_Item_Chieftain_Headdress_of_the_West",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6255",
+      "name": "Ritual Belt of the West",
+      "item_name": "#DOTA_Item_Ritual_Belt_of_the_West",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6300",
+      "name": "Anunkasan",
+      "item_name": "#DOTA_Item_Anunkasan",
+      "item_slot": "ability2",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7240",
+      "name": "Shrieking Razorback",
+      "item_name": "#DOTA_Item_Shrieking_Razorback",
+      "item_slot": "summon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7814",
+      "name": "Primal Paean",
+      "item_name": "#DOTA_Item_Primal_Paean",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8159",
+      "name": "Axes of the Chaos Wastes",
+      "item_name": "#DOTA_Item_Axes_of_the_Chaos_Wastes",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8160",
+      "name": "Belt of the Chaos Wastes",
+      "item_name": "#DOTA_Item_Belt_of_the_Chaos_Wastes",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8162",
+      "name": "Vambraces of the Chaos Wastes",
+      "item_name": "#DOTA_Item_Vambraces_of_the_Chaos_Wastes",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8190",
+      "name": "Helm of the Chaos Wastes",
+      "item_name": "#DOTA_Item_Helm_of_the_Chaos_Wastes",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8192",
+      "name": "Guard of the Chaos Wastes",
+      "item_name": "#DOTA_Item_Guard_of_the_Chaos_Wastes",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8222",
+      "name": "Raven of the Chaos Wastes",
+      "item_name": "#DOTA_Item_Raven_of_the_Chaos_Wastes",
+      "item_slot": "ability2",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8223",
+      "name": "Warhound of the Chaos Wastes",
+      "item_name": "#DOTA_Item_Warhound_of_the_Chaos_Wastes",
+      "item_slot": "summon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8333",
+      "name": "Tassets of the Chimera's Rage",
+      "item_name": "#DOTA_Item_Tassets_of_the_Chimeras_Rage",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8342",
+      "name": "Helm of the Wild Tamer",
+      "item_name": "#DOTA_Item_Helm_of_the_Wild_Tamer",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8344",
+      "name": "Cape of the Wild Tamer",
+      "item_name": "#DOTA_Item_Cape_of_the_Wild_Tamer",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8345",
+      "name": "Axes of the Wild Tamer",
+      "item_name": "#DOTA_Item_Axes_of_the_Wild_Tamer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8346",
+      "name": "Belt of the Wild Tamer",
+      "item_name": "#DOTA_Item_Belt_of_the_Wild_Tamer",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8347",
+      "name": "Bracers of the Wild Tamer",
+      "item_name": "#DOTA_Item_Bracers_of_the_Wild_Tamer",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8509",
+      "name": "Chieftain Axes of the Chaos Wastes",
+      "item_name": "#DOTA_Item_Chieftain_Axes_of_the_Chaos_Wastes",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8510",
+      "name": "Chieftain Belt of the Chaos Wastes",
+      "item_name": "#DOTA_Item_Chieftain_Belt_of_the_Chaos_Wastes",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8511",
+      "name": "Chieftain Vambraces of the Chaos Wastes",
+      "item_name": "#DOTA_Item_Chieftain_Vambraces_of_the_Chaos_Wastes",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8512",
+      "name": "Chieftain Helm of the Chaos Wastes",
+      "item_name": "#DOTA_Item_Chieftain_Helm_of_the_Chaos_Wastes",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8513",
+      "name": "Chieftain Guard of the Chaos Wastes",
+      "item_name": "#DOTA_Item_Chieftain_Guard_of_the_Chaos_Wastes",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8514",
+      "name": "Chieftain Raven of the Chaos Wastes",
+      "item_name": "#DOTA_Item_Chieftain_Raven_of_the_Chaos_Wastes",
+      "item_slot": "ability2",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8515",
+      "name": "Chieftain Warhound of the Chaos Wastes",
+      "item_name": "#DOTA_Item_Chieftain_Warhound_of_the_Chaos_Wastes",
+      "item_slot": "summon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8633",
+      "name": "Beastmaster's Boar",
+      "item_name": "#DOTA_Item_Beastmasters_Boar",
+      "item_slot": "summon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "8634",
+      "name": "Beastmaster's Hawk",
+      "item_name": "#DOTA_Item_Beastmasters_Hawk",
+      "item_slot": "ability2",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "9147",
+      "name": "Taunt: Beat Master",
+      "item_name": "#DOTA_Item_Taunt_Beat_Master",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "9614",
+      "name": "Boar of the Stoutheart Growler",
+      "item_name": "#DOTA_Item_Boar_of_the_Stoutheart_Growler",
+      "item_slot": "summon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9615",
+      "name": "Mantle of the Stoutheart Growler",
+      "item_name": "#DOTA_Item_Mantle_of_the_Stoutheart_Growler",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9616",
+      "name": "Owl of the Stoutheart Growler",
+      "item_name": "#DOTA_Item_Owl_of_the_Stoutheart_Growler",
+      "item_slot": "ability2",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9617",
+      "name": "Helm of the Stoutheart Growler",
+      "item_name": "#DOTA_Item_Helm_of_the_Stoutheart_Growler",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9618",
+      "name": "Arms of the Stoutheart Growler",
+      "item_name": "#DOTA_Item_Arms_of_the_Stoutheart_Growler",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9619",
+      "name": "Belt of the Stoutheart Growler",
+      "item_name": "#DOTA_Item_Belt_of_the_Stoutheart_Growler",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9620",
+      "name": "Axe of the Stoutheart Growler",
+      "item_name": "#DOTA_Item_Axe_of_the_Stoutheart_Growler",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9877",
+      "name": "Bite of the Chimera's Rage",
+      "item_name": "#DOTA_Item_Bite_of_the_Chimeras_Rage",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9879",
+      "name": "Gauntlet of the Chimera's Rage",
+      "item_name": "#DOTA_Item_Gauntlet_of_the_Chimeras_Rage",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9881",
+      "name": "Crown of the Chimera's Rage",
+      "item_name": "#DOTA_Item_Crown_of_the_Chimeras_Rage",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9883",
+      "name": "Vest of the Chimera's Rage",
+      "item_name": "#DOTA_Item_Vest_of_the_Chimeras_Rage",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13162",
+      "name": "Edge of Extinction Shoulders",
+      "item_name": "#DOTA_Item_Edge_of_Extinction_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13163",
+      "name": "Edge of Extinction Weapons",
+      "item_name": "#DOTA_Item_Edge_of_Extinction_Weapons",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13164",
+      "name": "Edge of Extinction Helm",
+      "item_name": "#DOTA_Item_Edge_of_Extinction_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13165",
+      "name": "Edge of Extinction Hawk",
+      "item_name": "#DOTA_Item_Edge_of_Extinction_Hawk",
+      "item_slot": "ability2",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13166",
+      "name": "Edge of Extinction Belt",
+      "item_name": "#DOTA_Item_Edge_of_Extinction_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13167",
+      "name": "Edge of Extinction Boar",
+      "item_name": "#DOTA_Item_Edge_of_Extinction_Boar",
+      "item_slot": "summon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13168",
+      "name": "Edge of Extinction Bracers",
+      "item_name": "#DOTA_Item_Edge_of_Extinction_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13370",
+      "name": "Legacy of a Lost Age - Armor",
+      "item_name": "#DOTA_Item_Legacy_of_a_Lost_Age__Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13371",
+      "name": "Legacy of a Lost Age - Pterohawk",
+      "item_name": "#DOTA_Item_Legacy_of_a_Lost_Age__Pterohawk",
+      "item_slot": "ability2",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13372",
+      "name": "Legacy of a Lost Age - Stegaboar",
+      "item_name": "#DOTA_Item_Legacy_of_a_Lost_Age__Stegaboar",
+      "item_slot": "summon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13373",
+      "name": "Legacy of a Lost Age - Helm",
+      "item_name": "#DOTA_Item_Legacy_of_a_Lost_Age__Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13374",
+      "name": "Legacy of a Lost Age - Belt",
+      "item_name": "#DOTA_Item_Legacy_of_a_Lost_Age__Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13375",
+      "name": "Legacy of a Lost Age - Bracers",
+      "item_name": "#DOTA_Item_Legacy_of_a_Lost_Age__Bracers",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13376",
+      "name": "Legacy of a Lost Age - Axe",
+      "item_name": "#DOTA_Item_Legacy_of_a_Lost_Age__Axe",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18509",
+      "name": "Primal Peacemaker",
+      "item_name": "#DOTA_Item_Primal_Peacemaker",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20097",
+      "name": "Hunter of the Red Talon Set",
+      "item_name": "#DOTA_Item_Hunter_of_the_Red_Talon_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20153",
+      "name": "Custom of Karroch Set",
+      "item_name": "#DOTA_Item_Custom_of_Karroch_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20176",
+      "name": "Tribal Stone Set",
+      "item_name": "#DOTA_Item_Tribal_Stone_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20437",
+      "name": "Friend of the West",
+      "item_name": "#DOTA_Item_Friend_of_the_West",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20795",
+      "name": "MPGL SEA Season 7 Bundle",
+      "item_name": "#DOTA_Item_MPGL_SEA_Season_7_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20919",
+      "name": "Chimera's Rage",
+      "item_name": "#DOTA_Item_Chimeras_Rage",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20958",
+      "name": "Marauder of the Chaos Wastes",
+      "item_name": "#DOTA_Item_Marauder_of_the_Chaos_Wastes",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21036",
+      "name": "Marauder Chieftain of the Chaos Wastes",
+      "item_name": "#DOTA_Item_Marauder_Chieftain_of_the_Chaos_Wastes",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21168",
+      "name": "Stoutheart Growler",
+      "item_name": "#DOTA_Item_Stoutheart_Growler",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21358",
+      "name": "Edge of Extinction",
+      "item_name": "#DOTA_Item_Edge_of_Extinction",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21396",
+      "name": "Legacy of a Lost Age",
+      "item_name": "#DOTA_Item_Legacy_of_a_Lost_Age",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22265",
+      "name": "Primal Peacemaker of the Crimson Witness",
+      "item_name": "#DOTA_Item_Primal_Peacemaker_of_the_Crimson_Witness",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "33974",
+      "name": "Blood-drinker Chainblade",
+      "item_name": "#DOTA_Item_Blooddrinker_Chainblade",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34230",
+      "name": "Bone Mail",
+      "item_name": "#DOTA_Item_Bone_Mail",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34231",
+      "name": "Bone Vambraces",
+      "item_name": "#DOTA_Item_Bone_Vambraces",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34232",
+      "name": "Bone Coil",
+      "item_name": "#DOTA_Item_Bone_Coil",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34233",
+      "name": "Bullfango",
+      "item_name": "#DOTA_Item_Bullfango",
+      "item_slot": "summon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34234",
+      "name": "Bone Helm",
+      "item_name": "#DOTA_Item_Bone_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34239",
+      "name": "Bone Armor",
+      "item_name": "#DOTA_Item_Bone_Armor",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "35571",
+      "name": "Golden Bone Mail",
+      "item_name": "#DOTA_Item_Golden_Bone_Mail",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35572",
+      "name": "Golden Bone Vambraces",
+      "item_name": "#DOTA_Item_Golden_Bone_Vambraces",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35573",
+      "name": "Golden Bone Coil",
+      "item_name": "#DOTA_Item_Golden_Bone_Coil",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35574",
+      "name": "Golden Bone Helm",
+      "item_name": "#DOTA_Item_Golden_Bone_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35575",
+      "name": "Golden Bone Armor Set",
+      "item_name": "#DOTA_Item_Golden_Bone_Armor_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "35576",
+      "name": "Prismatic Bone Mail",
+      "item_name": "#DOTA_Item_Prismatic_Bone_Mail",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35577",
+      "name": "Prismatic Bone Vambraces",
+      "item_name": "#DOTA_Item_Prismatic_Bone_Vambraces",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35578",
+      "name": "Prismatic Bone Coil",
+      "item_name": "#DOTA_Item_Prismatic_Bone_Coil",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35579",
+      "name": "Prismatic Bone Helm",
+      "item_name": "#DOTA_Item_Prismatic_Bone_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35580",
+      "name": "Prismatic Bone Armor Set",
+      "item_name": "#DOTA_Item_Prismatic_Bone_Armor_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "35760",
+      "name": "Golden Blood-drinker Chainblade",
+      "item_name": "#DOTA_Item_Golden_Blooddrinker_Chainblade",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35761",
+      "name": "Prismatic Blood-drinker Chainblade",
+      "item_name": "#DOTA_Item_Prismatic_Blooddrinker_Chainblade",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36167",
+      "name": "White Stag Bone Mail",
+      "item_name": "#DOTA_Item_White_Stag_Bone_Mail",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36168",
+      "name": "White Stag Bone Vambraces",
+      "item_name": "#DOTA_Item_White_Stag_Bone_Vambraces",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36169",
+      "name": "White Stag Bone Coil",
+      "item_name": "#DOTA_Item_White_Stag_Bone_Coil",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36170",
+      "name": "White Stag Bone Helm",
+      "item_name": "#DOTA_Item_White_Stag_Bone_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "36171",
+      "name": "White Stag Bone Armor Set",
+      "item_name": "#DOTA_Item_White_Stag_Bone_Armor_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "36172",
+      "name": "White Stag Blood-drinker Chainblade",
+      "item_name": "#DOTA_Item_White_Stag_Blooddrinker_Chainblade",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    }
+  ]
+}

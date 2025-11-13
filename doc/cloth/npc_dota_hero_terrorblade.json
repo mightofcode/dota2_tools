@@ -1,0 +1,669 @@
+{
+  "defaults": {
+    "back": {
+      "id": "306",
+      "name": "Terrorblade's Wings",
+      "item_name": "#DOTA_Item_Terrorblades_Wings",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "weapon": {
+      "id": "307",
+      "name": "Terrorblade's Weapons",
+      "item_name": "#DOTA_Item_Terrorblades_Weapons",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "armor": {
+      "id": "476",
+      "name": "Terrorblade's Armor",
+      "item_name": "#DOTA_Item_Terrorblades_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "478",
+      "name": "Terrorblade's Head",
+      "item_name": "#DOTA_Item_Terrorblades_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "ambient_effects": {
+      "id": "540",
+      "name": "Terrorblade's Ambient Effects",
+      "item_name": "#DOTA_Item_Terrorblades_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Baleful_Hollow",
+      "store_bundle": "Baleful Hollow",
+      "portrait_image": "econ/sets/v2/baleful_hollow",
+      "items": [
+        {
+          "name": "Form of the Baleful Hollow",
+          "id": "7404",
+          "item_name": "#DOTA_Item_Form_of_the_Baleful_Hollow",
+          "item_slot": "ability3",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Horns of the Baleful Hollow",
+          "id": "7405",
+          "item_name": "#DOTA_Item_Horns_of_the_Baleful_Hollow",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Blades of the Baleful Hollow",
+          "id": "7406",
+          "item_name": "#DOTA_Item_Blades_of_the_Baleful_Hollow",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Plate of the Baleful Hollow",
+          "id": "8105",
+          "item_name": "#DOTA_Item_Plate_of_the_Baleful_Hollow",
+          "item_slot": "armor",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Wings of the Baleful Hollow",
+          "id": "8106",
+          "item_name": "#DOTA_Item_Wings_of_the_Baleful_Hollow",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Chasm_of_the_Broken_Code",
+      "store_bundle": "Chasm of the Broken Code",
+      "portrait_image": "econ/sets/v2/chasm_of_the_broken_code",
+      "items": [
+        {
+          "name": "Chasm of the Broken Code Armor",
+          "id": "14342",
+          "item_name": "#DOTA_Item_Chasm_of_the_Broken_Code_Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Chasm of the Broken Code Wings",
+          "id": "14341",
+          "item_name": "#DOTA_Item_Chasm_of_the_Broken_Code_Wings",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Chasm of the Broken Code Helm",
+          "id": "14340",
+          "item_name": "#DOTA_Item_Chasm_of_the_Broken_Code_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Chasm of the Broken Code Demon",
+          "id": "14339",
+          "item_name": "#DOTA_Item_Chasm_of_the_Broken_Code_Demon",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Chasm of the Broken Code Weapon",
+          "id": "14338",
+          "item_name": "#DOTA_Item_Chasm_of_the_Broken_Code_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Eternal_Purgatory",
+      "store_bundle": "Eternal Purgatory",
+      "portrait_image": "econ/sets/v2/eternal_purgatory",
+      "items": [
+        {
+          "name": "Collar of Eternal Purgatory",
+          "id": "8176",
+          "item_name": "#DOTA_Item_Collar_of_Eternal_Purgatory",
+          "item_slot": "armor",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Form of Eternal Purgatory",
+          "id": "8276",
+          "item_name": "#DOTA_Item_Form_of_Eternal_Purgatory",
+          "item_slot": "ability3",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Curse of Eternal Purgatory",
+          "id": "8179",
+          "item_name": "#DOTA_Item_Curse_of_Eternal_Purgatory",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Wings of Eternal Purgatory",
+          "id": "8177",
+          "item_name": "#DOTA_Item_Wings_of_Eternal_Purgatory",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Horns of Eternal Purgatory",
+          "id": "8178",
+          "item_name": "#DOTA_Item_Horns_of_Eternal_Purgatory",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Forgotten_Station",
+      "store_bundle": "Forgotten Station",
+      "portrait_image": "econ/sets/v2/forgotten_station",
+      "items": [
+        {
+          "name": "Forgotten Station - Back",
+          "id": "26449",
+          "item_name": "#DOTA_Item_Forgotten_Station__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Forgotten Station - Weapon",
+          "id": "26448",
+          "item_name": "#DOTA_Item_Forgotten_Station__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Forgotten Station - Head",
+          "id": "26447",
+          "item_name": "#DOTA_Item_Forgotten_Station__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Forgotten Station - Armor",
+          "id": "26445",
+          "item_name": "#DOTA_Item_Forgotten_Station__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Forgotten Station - Demon",
+          "id": "26446",
+          "item_name": "#DOTA_Item_Forgotten_Station__Demon",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Foulfell_Corruptor",
+      "store_bundle": "Foulfell Corruptor",
+      "portrait_image": "econ/sets/v2/foulfell_corruptor",
+      "items": [
+        {
+          "name": "Demon Form of the Foulfell Corruptor",
+          "id": "9501",
+          "item_name": "#DOTA_Item_Demon_Form_of_the_Foulfell_Corruptor",
+          "item_slot": "ability3",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Blades of the Foulfell Corruptor",
+          "id": "9500",
+          "item_name": "#DOTA_Item_Blades_of_the_Foulfell_Corruptor",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Wings of the Foulfell Corruptor",
+          "id": "9499",
+          "item_name": "#DOTA_Item_Wings_of_the_Foulfell_Corruptor",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Helm of the Foulfell Corruptor",
+          "id": "9498",
+          "item_name": "#DOTA_Item_Helm_of_the_Foulfell_Corruptor",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Armor of the Foulfell Corruptor",
+          "id": "9497",
+          "item_name": "#DOTA_Item_Armor_of_the_Foulfell_Corruptor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Fractal_Horns_of_Inner_Abysm",
+      "store_bundle": "Fractal Horns of Inner Abysm",
+      "portrait_image": "econ/sets/v2/fractal_horns_of_inner_abysm",
+      "items": [
+        {
+          "name": "Fractal Horns of Inner Abysm",
+          "id": "5957",
+          "item_name": "#DOTA_Item_Fractal_Horns_of_Inner_Abysm",
+          "item_slot": "head",
+          "item_rarity": "arcana"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Marauders_Reflection",
+      "store_bundle": "Marauder's Reflection",
+      "portrait_image": "econ/sets/v2/marauders_reflection",
+      "items": [
+        {
+          "name": "Marauder's Armor",
+          "id": "7032",
+          "item_name": "#DOTA_Item_Marauders_Armor",
+          "item_slot": "armor",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Marauder's Demon Form",
+          "id": "7033",
+          "item_name": "#DOTA_Item_Marauders_Demon_Form",
+          "item_slot": "ability3",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Marauder's Crown",
+          "id": "7034",
+          "item_name": "#DOTA_Item_Marauders_Crown",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Marauder's Blades",
+          "id": "7035",
+          "item_name": "#DOTA_Item_Marauders_Blades",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Marauder's Wings",
+          "id": "7036",
+          "item_name": "#DOTA_Item_Marauders_Wings",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "306",
+      "name": "Terrorblade's Wings",
+      "item_name": "#DOTA_Item_Terrorblades_Wings",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "307",
+      "name": "Terrorblade's Weapons",
+      "item_name": "#DOTA_Item_Terrorblades_Weapons",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "476",
+      "name": "Terrorblade's Armor",
+      "item_name": "#DOTA_Item_Terrorblades_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "478",
+      "name": "Terrorblade's Head",
+      "item_name": "#DOTA_Item_Terrorblades_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "540",
+      "name": "Terrorblade's Ambient Effects",
+      "item_name": "#DOTA_Item_Terrorblades_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "5957",
+      "name": "Fractal Horns of Inner Abysm",
+      "item_name": "#DOTA_Item_Fractal_Horns_of_Inner_Abysm",
+      "item_slot": "head",
+      "item_rarity": "arcana",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7032",
+      "name": "Marauder's Armor",
+      "item_name": "#DOTA_Item_Marauders_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7033",
+      "name": "Marauder's Demon Form",
+      "item_name": "#DOTA_Item_Marauders_Demon_Form",
+      "item_slot": "ability3",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7034",
+      "name": "Marauder's Crown",
+      "item_name": "#DOTA_Item_Marauders_Crown",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7035",
+      "name": "Marauder's Blades",
+      "item_name": "#DOTA_Item_Marauders_Blades",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7036",
+      "name": "Marauder's Wings",
+      "item_name": "#DOTA_Item_Marauders_Wings",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7404",
+      "name": "Form of the Baleful Hollow",
+      "item_name": "#DOTA_Item_Form_of_the_Baleful_Hollow",
+      "item_slot": "ability3",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7405",
+      "name": "Horns of the Baleful Hollow",
+      "item_name": "#DOTA_Item_Horns_of_the_Baleful_Hollow",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7406",
+      "name": "Blades of the Baleful Hollow",
+      "item_name": "#DOTA_Item_Blades_of_the_Baleful_Hollow",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8105",
+      "name": "Plate of the Baleful Hollow",
+      "item_name": "#DOTA_Item_Plate_of_the_Baleful_Hollow",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8106",
+      "name": "Wings of the Baleful Hollow",
+      "item_name": "#DOTA_Item_Wings_of_the_Baleful_Hollow",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8176",
+      "name": "Collar of Eternal Purgatory",
+      "item_name": "#DOTA_Item_Collar_of_Eternal_Purgatory",
+      "item_slot": "armor",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8177",
+      "name": "Wings of Eternal Purgatory",
+      "item_name": "#DOTA_Item_Wings_of_Eternal_Purgatory",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8178",
+      "name": "Horns of Eternal Purgatory",
+      "item_name": "#DOTA_Item_Horns_of_Eternal_Purgatory",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8179",
+      "name": "Curse of Eternal Purgatory",
+      "item_name": "#DOTA_Item_Curse_of_Eternal_Purgatory",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8276",
+      "name": "Form of Eternal Purgatory",
+      "item_name": "#DOTA_Item_Form_of_Eternal_Purgatory",
+      "item_slot": "ability3",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8650",
+      "name": "Terrorblade's Demon Form",
+      "item_name": "#DOTA_Item_Terrorblades_Demon_Form",
+      "item_slot": "ability3",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "9497",
+      "name": "Armor of the Foulfell Corruptor",
+      "item_name": "#DOTA_Item_Armor_of_the_Foulfell_Corruptor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9498",
+      "name": "Helm of the Foulfell Corruptor",
+      "item_name": "#DOTA_Item_Helm_of_the_Foulfell_Corruptor",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9499",
+      "name": "Wings of the Foulfell Corruptor",
+      "item_name": "#DOTA_Item_Wings_of_the_Foulfell_Corruptor",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9500",
+      "name": "Blades of the Foulfell Corruptor",
+      "item_name": "#DOTA_Item_Blades_of_the_Foulfell_Corruptor",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9501",
+      "name": "Demon Form of the Foulfell Corruptor",
+      "item_name": "#DOTA_Item_Demon_Form_of_the_Foulfell_Corruptor",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9750",
+      "name": "Span of Sorrow",
+      "item_name": "#DOTA_Item_Span_of_Sorrow",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12917",
+      "name": "Scythes of Sorrow",
+      "item_name": "#DOTA_Item_Scythes_of_Sorrow",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14338",
+      "name": "Chasm of the Broken Code Weapon",
+      "item_name": "#DOTA_Item_Chasm_of_the_Broken_Code_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14339",
+      "name": "Chasm of the Broken Code Demon",
+      "item_name": "#DOTA_Item_Chasm_of_the_Broken_Code_Demon",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14340",
+      "name": "Chasm of the Broken Code Helm",
+      "item_name": "#DOTA_Item_Chasm_of_the_Broken_Code_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14341",
+      "name": "Chasm of the Broken Code Wings",
+      "item_name": "#DOTA_Item_Chasm_of_the_Broken_Code_Wings",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14342",
+      "name": "Chasm of the Broken Code Armor",
+      "item_name": "#DOTA_Item_Chasm_of_the_Broken_Code_Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20635",
+      "name": "Marauder's Reflection",
+      "item_name": "#DOTA_Item_Marauders_Reflection",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20777",
+      "name": "Baleful Hollow",
+      "item_name": "#DOTA_Item_Baleful_Hollow",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20914",
+      "name": "Eternal Purgatory",
+      "item_name": "#DOTA_Item_Eternal_Purgatory",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21139",
+      "name": "Foulfell Corruptor",
+      "item_name": "#DOTA_Item_Foulfell_Corruptor",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21542",
+      "name": "Chasm of the Broken Code",
+      "item_name": "#DOTA_Item_Chasm_of_the_Broken_Code",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26445",
+      "name": "Forgotten Station - Armor",
+      "item_name": "#DOTA_Item_Forgotten_Station__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26446",
+      "name": "Forgotten Station - Demon",
+      "item_name": "#DOTA_Item_Forgotten_Station__Demon",
+      "item_slot": "ability3",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26447",
+      "name": "Forgotten Station - Head",
+      "item_name": "#DOTA_Item_Forgotten_Station__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26448",
+      "name": "Forgotten Station - Weapon",
+      "item_name": "#DOTA_Item_Forgotten_Station__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26449",
+      "name": "Forgotten Station - Back",
+      "item_name": "#DOTA_Item_Forgotten_Station__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26541",
+      "name": "Forgotten Station",
+      "item_name": "#DOTA_Item_Forgotten_Station",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    }
+  ]
+}

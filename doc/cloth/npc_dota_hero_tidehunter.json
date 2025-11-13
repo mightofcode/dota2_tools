@@ -1,0 +1,1612 @@
+{
+  "defaults": {
+    "arms": {
+      "id": "34",
+      "name": "Tidehunter's Bracer",
+      "item_name": "#DOTA_Item_Tidehunters_Bracer",
+      "item_slot": "arms",
+      "item_rarity": "common"
+    },
+    "belt": {
+      "id": "35",
+      "name": "Tidehunter's Belt",
+      "item_name": "#DOTA_Item_Tidehunters_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common"
+    },
+    "weapon": {
+      "id": "36",
+      "name": "Tidehunter's Anchor",
+      "item_name": "#DOTA_Item_Tidehunters_Anchor",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "offhand_weapon": {
+      "id": "37",
+      "name": "Tidehunter's Lunch",
+      "item_name": "#DOTA_Item_Tidehunters_Lunch",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "582",
+      "name": "Tidehunter's Head",
+      "item_name": "#DOTA_Item_Tidehunters_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "583",
+      "name": "Tidehunter's Back",
+      "item_name": "#DOTA_Item_Tidehunters_Back",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "costume": {
+      "id": "735",
+      "name": "Tidehunter's Costume",
+      "item_name": "#DOTA_Item_Tidehunters_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Brackish_Stalker",
+      "store_bundle": "Brackish Stalker",
+      "portrait_image": "econ/sets/v2/brackish_stalker",
+      "items": [
+        {
+          "name": "Brackish Stalker Head",
+          "id": "13146",
+          "item_name": "#DOTA_Item_Brackish_Stalker_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Brackish Stalker Off-Hand",
+          "id": "13147",
+          "item_name": "#DOTA_Item_Brackish_Stalker_OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Brackish Stalker Weapon",
+          "id": "13148",
+          "item_name": "#DOTA_Item_Brackish_Stalker_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Brackish Stalker Arms",
+          "id": "13149",
+          "item_name": "#DOTA_Item_Brackish_Stalker_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Brackish Stalker Belt",
+          "id": "13150",
+          "item_name": "#DOTA_Item_Brackish_Stalker_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Brackish Stalker Back",
+          "id": "13151",
+          "item_name": "#DOTA_Item_Brackish_Stalker_Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Deepweed_Drowner",
+      "store_bundle": "Deepweed Drowner",
+      "portrait_image": "econ/sets/v2/deepweed_drowner",
+      "items": [
+        {
+          "name": "Arm Fins of the Deepweed Drowner",
+          "id": "6467",
+          "item_name": "#DOTA_Item_Arm_Fins_of_the_Deepweed_Drowner",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Back Fins of the Deepweed Drowner",
+          "id": "6468",
+          "item_name": "#DOTA_Item_Back_Fins_of_the_Deepweed_Drowner",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Belt of the Deepweed Drowner",
+          "id": "6469",
+          "item_name": "#DOTA_Item_Belt_of_the_Deepweed_Drowner",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Head Fins of the Deepweed Drowner",
+          "id": "6470",
+          "item_name": "#DOTA_Item_Head_Fins_of_the_Deepweed_Drowner",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Reefcutter",
+          "id": "6471",
+          "item_name": "#DOTA_Item_Reefcutter",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Wrecking Ball",
+          "id": "6472",
+          "item_name": "#DOTA_Item_Wrecking_Ball",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Relics_of_the_Drowning_Trench",
+      "store_bundle": "Relics of the Drowning Trench",
+      "portrait_image": "econ/sets/v2/drowning_trench",
+      "items": [
+        {
+          "name": "Belt of the Drowning Trench",
+          "id": "7773",
+          "item_name": "#DOTA_Item_Belt_of_the_Drowning_Trench",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Grip of the Drowning Trench",
+          "id": "7774",
+          "item_name": "#DOTA_Item_Grip_of_the_Drowning_Trench",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Carapace of the Drowning Trench",
+          "id": "7775",
+          "item_name": "#DOTA_Item_Carapace_of_the_Drowning_Trench",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Headshell of the Drowning Trench",
+          "id": "7776",
+          "item_name": "#DOTA_Item_Headshell_of_the_Drowning_Trench",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Leashed Rockshark",
+          "id": "7777",
+          "item_name": "#DOTA_Item_Leashed_Rockshark",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Aquemerald Blade",
+          "id": "7778",
+          "item_name": "#DOTA_Item_Aquemerald_Blade",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Frostshard_Ascendant",
+      "store_bundle": "Frostshard Ascendant",
+      "portrait_image": "econ/sets/v2/frostshard_ascendant",
+      "items": [
+        {
+          "name": "Arms of the Frostshard Ascendant",
+          "id": "9636",
+          "item_name": "#DOTA_Item_Arms_of_the_Frostshard_Ascendant",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Back of the Frostshard Ascendant",
+          "id": "9635",
+          "item_name": "#DOTA_Item_Back_of_the_Frostshard_Ascendant",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Belt of the Frostshard Ascendant",
+          "id": "9634",
+          "item_name": "#DOTA_Item_Belt_of_the_Frostshard_Ascendant",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Head of the Frostshard Ascendant",
+          "id": "9633",
+          "item_name": "#DOTA_Item_Head_of_the_Frostshard_Ascendant",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Sunken Frostshard",
+          "id": "9632",
+          "item_name": "#DOTA_Item_Sunken_Frostshard",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Weapon of the Frostshard Ascendant",
+          "id": "9631",
+          "item_name": "#DOTA_Item_Weapon_of_the_Frostshard_Ascendant",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Horror_from_the_Deep",
+      "store_bundle": "Horror from the Deep",
+      "portrait_image": "econ/sets/v2/horror_from_the_deep",
+      "items": [
+        {
+          "name": "Horror from the Deep Back",
+          "id": "14143",
+          "item_name": "#DOTA_Item_Horror_from_the_Deep_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Horror from the Deep Belt",
+          "id": "14142",
+          "item_name": "#DOTA_Item_Horror_from_the_Deep_Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Horror from the Deep Head",
+          "id": "14141",
+          "item_name": "#DOTA_Item_Horror_from_the_Deep_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Horror from the Deep Off-Hand",
+          "id": "14140",
+          "item_name": "#DOTA_Item_Horror_from_the_Deep_OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Horror from the Deep Arms",
+          "id": "14139",
+          "item_name": "#DOTA_Item_Horror_from_the_Deep_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Horror from the Deep Weapon",
+          "id": "14138",
+          "item_name": "#DOTA_Item_Horror_from_the_Deep_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Maelrawns_abyssal_Guard",
+      "store_bundle": "Maelrawn's abyssal Guard",
+      "portrait_image": "econ/sets/v2/maelrawns_abyssal_guard",
+      "items": [
+        {
+          "name": "Maelrawn's abyssal Guard Arms",
+          "id": "14090",
+          "item_name": "#DOTA_Item_Vote_Only_Maelrawns_abyssal_Guard_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Maelrawn's abyssal Guard Back",
+          "id": "14089",
+          "item_name": "#DOTA_Item_Vote_Only_Maelrawns_abyssal_Guard_Back",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Maelrawn's abyssal Guard Belt",
+          "id": "14088",
+          "item_name": "#DOTA_Item_Vote_Only_Maelrawns_abyssal_Guard_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Maelrawn's abyssal Guard Head",
+          "id": "14087",
+          "item_name": "#DOTA_Item_Vote_Only_Maelrawns_abyssal_Guard_Head",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Maelrawn's abyssal Guard Off-Hand",
+          "id": "14085",
+          "item_name": "#DOTA_Item_Vote_Only_Maelrawns_abyssal_Guard_OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Maelrawn's abyssal Guard Weapon",
+          "id": "14084",
+          "item_name": "#DOTA_Item_Vote_Only_Maelrawns_abyssal_Guard_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Paleogenous_Punisher",
+      "store_bundle": "The Paleogeneous Punisher Set",
+      "portrait_image": "econ/sets/v2/paleogenous_punisher",
+      "items": [
+        {
+          "name": "Cerebral Support",
+          "id": "4146",
+          "item_name": "#DOTA_Item_Cerebral_Support",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Excavator's Treasure",
+          "id": "4129",
+          "item_name": "#DOTA_Item_Excavators_Treasure",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Femur Thrasher",
+          "id": "4148",
+          "item_name": "#DOTA_Item_Femur_Thrasher",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Skeletal Catch",
+          "id": "4147",
+          "item_name": "#DOTA_Item_Skeletal_Catch",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Pirates_Booty",
+      "store_bundle": "The Pirate's Booty Set",
+      "portrait_image": "econ/sets/v2/pirates_booty",
+      "items": [
+        {
+          "name": "Pirate Slayer's Bracer",
+          "id": "4155",
+          "item_name": "#DOTA_Item_Pirate_Slayers_Bracer",
+          "item_slot": "arms",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Pirate Slayer's Cutlass",
+          "id": "4200",
+          "item_name": "#DOTA_Item_Pirate_Slayers_Cutlass",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Pirate Slayer's Tricorn",
+          "id": "4156",
+          "item_name": "#DOTA_Item_Pirate_Slayers_Tricorn",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Pirate Slayer's Black Flag",
+          "id": "4201",
+          "item_name": "#DOTA_Item_Pirate_Slayers_Black_Flag",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Poachers_Bane",
+      "store_bundle": "Poacher's Bane",
+      "portrait_image": "econ/sets/v2/poachers_bane",
+      "items": [
+        {
+          "name": "Head of the Poacher's Bane",
+          "id": "13247",
+          "item_name": "#DOTA_Item_Head_of_the_Poachers_Bane",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Shell of the Poacher's Bane",
+          "id": "13246",
+          "item_name": "#DOTA_Item_Shell_of_the_Poachers_Bane",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Armor of the Poacher's Bane",
+          "id": "13245",
+          "item_name": "#DOTA_Item_Armor_of_the_Poachers_Bane",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bracer of the Poacher's Bane",
+          "id": "13244",
+          "item_name": "#DOTA_Item_Bracer_of_the_Poachers_Bane",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Club of the Poacher's Bane",
+          "id": "13243",
+          "item_name": "#DOTA_Item_Club_of_the_Poachers_Bane",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Prey of the Poacher's Bane",
+          "id": "13242",
+          "item_name": "#DOTA_Item_Prey_of_the_Poachers_Bane",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Swamp_Terror",
+      "store_bundle": "Swamp Terror",
+      "portrait_image": "econ/sets/v2/swamp_terror",
+      "items": [
+        {
+          "name": "Swamp Terror Weapon",
+          "id": "18243",
+          "item_name": "#DOTA_Item_Swamp_Terror_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Swamp Terror Buoy",
+          "id": "18242",
+          "item_name": "#DOTA_Item_Swamp_Terror_Buoy",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Swamp Terror Arms",
+          "id": "18230",
+          "item_name": "#DOTA_Item_Swamp_Terror_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Swamp Terror Belt",
+          "id": "18229",
+          "item_name": "#DOTA_Item_Swamp_Terror_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Swamp Terror Fins",
+          "id": "18228",
+          "item_name": "#DOTA_Item_Swamp_Terror_Fins",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Swamp Terror Head",
+          "id": "18129",
+          "item_name": "#DOTA_Item_Swamp_Terror_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Tidehunters_Diretide_Shimmer_Bundle",
+      "store_bundle": "Tidehunter's Diretide Shimmer Bundle",
+      "portrait_image": "econ/sets/v2/tidehunters_diretide_shimmer_bundle",
+      "items": [
+        {
+          "name": "Tidehunter's Diretide Shimmer Costume",
+          "id": "17820",
+          "item_name": "#DOTA_Item_Tidehunters_Diretide_Shimmer_Costume",
+          "item_slot": "costume",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Tidehunter's Diretide Shimmer Anchor",
+          "id": "17821",
+          "item_name": "#DOTA_Item_Tidehunters_Diretide_Shimmer_Anchor",
+          "item_slot": "weapon",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Tidehunter's Diretide Shimmer Lunch",
+          "id": "17822",
+          "item_name": "#DOTA_Item_Tidehunters_Diretide_Shimmer_Lunch",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Tidehunter's Diretide Shimmer Bracer",
+          "id": "17823",
+          "item_name": "#DOTA_Item_Tidehunters_Diretide_Shimmer_Bracer",
+          "item_slot": "arms",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Tidehunter's Diretide Shimmer Belt",
+          "id": "17824",
+          "item_name": "#DOTA_Item_Tidehunters_Diretide_Shimmer_Belt",
+          "item_slot": "belt",
+          "item_rarity": "seasonal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Tidosaurus",
+      "store_bundle": "Dota 2 Canada Cup Season 4",
+      "portrait_image": "econ/sets/v2/tidehunter_tidosaurus",
+      "items": [
+        {
+          "name": "Tidosaurus Arm Scales",
+          "id": "7148",
+          "item_name": "#DOTA_Item_Tidosaurus_Arm_Scales",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Tidosaurus Vertebral Plates",
+          "id": "7149",
+          "item_name": "#DOTA_Item_Tidosaurus_Vertebral_Plates",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Tidosaurus Tail",
+          "id": "7150",
+          "item_name": "#DOTA_Item_Tidosaurus_Tail",
+          "item_slot": "belt",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Tidosaurus Skull Spikes",
+          "id": "7151",
+          "item_name": "#DOTA_Item_Tidosaurus_Skull_Spikes",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Tidosaurus Club",
+          "id": "7152",
+          "item_name": "#DOTA_Item_Tidosaurus_Club",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Trenchline_Tracker",
+      "store_bundle": "Trenchline Tracker",
+      "portrait_image": "econ/sets/v2/trenchline_tracker",
+      "items": [
+        {
+          "name": "Trenchline Tracker Bracer",
+          "id": "18869",
+          "item_name": "#DOTA_Item_Trenchline_Tracker_Bracer",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Trenchline Tracker Back",
+          "id": "18844",
+          "item_name": "#DOTA_Item_Trenchline_Tracker_Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Trenchline Tracker Head",
+          "id": "18843",
+          "item_name": "#DOTA_Item_Trenchline_Tracker_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Trenchline Tracker Belt",
+          "id": "18842",
+          "item_name": "#DOTA_Item_Trenchline_Tracker_Belt",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Trenchline Tracker Offhand",
+          "id": "18841",
+          "item_name": "#DOTA_Item_Trenchline_Tracker_Offhand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Trenchline Tracker Weapon",
+          "id": "18840",
+          "item_name": "#DOTA_Item_Trenchline_Tracker_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "34",
+      "name": "Tidehunter's Bracer",
+      "item_name": "#DOTA_Item_Tidehunters_Bracer",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "35",
+      "name": "Tidehunter's Belt",
+      "item_name": "#DOTA_Item_Tidehunters_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "36",
+      "name": "Tidehunter's Anchor",
+      "item_name": "#DOTA_Item_Tidehunters_Anchor",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "37",
+      "name": "Tidehunter's Lunch",
+      "item_name": "#DOTA_Item_Tidehunters_Lunch",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "582",
+      "name": "Tidehunter's Head",
+      "item_name": "#DOTA_Item_Tidehunters_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "583",
+      "name": "Tidehunter's Back",
+      "item_name": "#DOTA_Item_Tidehunters_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "735",
+      "name": "Tidehunter's Costume",
+      "item_name": "#DOTA_Item_Tidehunters_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4092",
+      "name": "Kraken Shell",
+      "item_name": "#DOTA_Item_Kraken_Shell",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4093",
+      "name": "Octopus Hat",
+      "item_name": "#DOTA_Item_Octopus_Hat",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4128",
+      "name": "Back-Ache",
+      "item_name": "#DOTA_Item_BackAche",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4129",
+      "name": "Excavator's Treasure",
+      "item_name": "#DOTA_Item_Excavators_Treasure",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4130",
+      "name": "Excavator's Decorated Treasure",
+      "item_name": "#DOTA_Item_Excavators_Decorated_Treasure",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4131",
+      "name": "Naval Mine",
+      "item_name": "#DOTA_Item_Naval_Mine",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4132",
+      "name": "Swamp Fins",
+      "item_name": "#DOTA_Item_Swamp_Fins",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4145",
+      "name": "Raw Hide",
+      "item_name": "#DOTA_Item_Raw_Hide",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4146",
+      "name": "Cerebral Support",
+      "item_name": "#DOTA_Item_Cerebral_Support",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4147",
+      "name": "Skeletal Catch",
+      "item_name": "#DOTA_Item_Skeletal_Catch",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4148",
+      "name": "Femur Thrasher",
+      "item_name": "#DOTA_Item_Femur_Thrasher",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4149",
+      "name": "Beast-Jaw Bludgeoner",
+      "item_name": "#DOTA_Item_BeastJaw_Bludgeoner",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4155",
+      "name": "Pirate Slayer's Bracer",
+      "item_name": "#DOTA_Item_Pirate_Slayers_Bracer",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4156",
+      "name": "Pirate Slayer's Tricorn",
+      "item_name": "#DOTA_Item_Pirate_Slayers_Tricorn",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4158",
+      "name": "Squiddles",
+      "item_name": "#DOTA_Item_Squiddles",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4200",
+      "name": "Pirate Slayer's Cutlass",
+      "item_name": "#DOTA_Item_Pirate_Slayers_Cutlass",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4201",
+      "name": "Pirate Slayer's Black Flag",
+      "item_name": "#DOTA_Item_Pirate_Slayers_Black_Flag",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4256",
+      "name": "Hammer Time",
+      "item_name": "#DOTA_Item_Hammer_Time",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4258",
+      "name": "Wheel of Fortitude",
+      "item_name": "#DOTA_Item_Wheel_of_Fortitude",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4341",
+      "name": "Head-Ache",
+      "item_name": "#DOTA_Item_HeadAche",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4363",
+      "name": "Recluse Reef Denizen",
+      "item_name": "#DOTA_Item_Recluse_Reef_Denizen",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5179",
+      "name": "A Bit of Boat",
+      "item_name": "#DOTA_Item_A_Bit_of_Boat",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5239",
+      "name": "Tidehunter Blink Dagger",
+      "item_name": "#DOTA_Item_Tidehunter_Blink_Dagger",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5419",
+      "name": "Kraken's Bane",
+      "item_name": "#DOTA_Item_Krakens_Bane",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5611",
+      "name": "Dorsal Doom",
+      "item_name": "#DOTA_Item_Dorsal_Doom",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6340",
+      "name": "Conch Cudgel",
+      "item_name": "#DOTA_Item_Conch_Cudgel",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6467",
+      "name": "Arm Fins of the Deepweed Drowner",
+      "item_name": "#DOTA_Item_Arm_Fins_of_the_Deepweed_Drowner",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6468",
+      "name": "Back Fins of the Deepweed Drowner",
+      "item_name": "#DOTA_Item_Back_Fins_of_the_Deepweed_Drowner",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6469",
+      "name": "Belt of the Deepweed Drowner",
+      "item_name": "#DOTA_Item_Belt_of_the_Deepweed_Drowner",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6470",
+      "name": "Head Fins of the Deepweed Drowner",
+      "item_name": "#DOTA_Item_Head_Fins_of_the_Deepweed_Drowner",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6471",
+      "name": "Reefcutter",
+      "item_name": "#DOTA_Item_Reefcutter",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6472",
+      "name": "Wrecking Ball",
+      "item_name": "#DOTA_Item_Wrecking_Ball",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7148",
+      "name": "Tidosaurus Arm Scales",
+      "item_name": "#DOTA_Item_Tidosaurus_Arm_Scales",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7149",
+      "name": "Tidosaurus Vertebral Plates",
+      "item_name": "#DOTA_Item_Tidosaurus_Vertebral_Plates",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7150",
+      "name": "Tidosaurus Tail",
+      "item_name": "#DOTA_Item_Tidosaurus_Tail",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7151",
+      "name": "Tidosaurus Skull Spikes",
+      "item_name": "#DOTA_Item_Tidosaurus_Skull_Spikes",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7152",
+      "name": "Tidosaurus Club",
+      "item_name": "#DOTA_Item_Tidosaurus_Club",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7408",
+      "name": "Floodmask",
+      "item_name": "#DOTA_Item_Floodmask",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7461",
+      "name": "Golden Floodmask",
+      "item_name": "#DOTA_Item_Golden_Floodmask",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7469",
+      "name": "Claddish Cudgel",
+      "item_name": "#DOTA_Item_Claddish_Cudgel",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7569",
+      "name": "Executioner Ray Hood",
+      "item_name": "#DOTA_Item_Executioner_Ray_Hood",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7773",
+      "name": "Belt of the Drowning Trench",
+      "item_name": "#DOTA_Item_Belt_of_the_Drowning_Trench",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7774",
+      "name": "Grip of the Drowning Trench",
+      "item_name": "#DOTA_Item_Grip_of_the_Drowning_Trench",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7775",
+      "name": "Carapace of the Drowning Trench",
+      "item_name": "#DOTA_Item_Carapace_of_the_Drowning_Trench",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7776",
+      "name": "Headshell of the Drowning Trench",
+      "item_name": "#DOTA_Item_Headshell_of_the_Drowning_Trench",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7777",
+      "name": "Leashed Rockshark",
+      "item_name": "#DOTA_Item_Leashed_Rockshark",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7778",
+      "name": "Aquemerald Blade",
+      "item_name": "#DOTA_Item_Aquemerald_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8086",
+      "name": "Taunt: Backstroke!",
+      "item_name": "#DOTA_Item_Taunt_Backstroke",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "taunt"
+    },
+    {
+      "id": "9631",
+      "name": "Weapon of the Frostshard Ascendant",
+      "item_name": "#DOTA_Item_Weapon_of_the_Frostshard_Ascendant",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9632",
+      "name": "Sunken Frostshard",
+      "item_name": "#DOTA_Item_Sunken_Frostshard",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9633",
+      "name": "Head of the Frostshard Ascendant",
+      "item_name": "#DOTA_Item_Head_of_the_Frostshard_Ascendant",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9634",
+      "name": "Belt of the Frostshard Ascendant",
+      "item_name": "#DOTA_Item_Belt_of_the_Frostshard_Ascendant",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9635",
+      "name": "Back of the Frostshard Ascendant",
+      "item_name": "#DOTA_Item_Back_of_the_Frostshard_Ascendant",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9636",
+      "name": "Arms of the Frostshard Ascendant",
+      "item_name": "#DOTA_Item_Arms_of_the_Frostshard_Ascendant",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "10035",
+      "name": "Expired Treasure of the High Tide",
+      "item_name": "#DOTA_Item_Expired_Treasure_of_the_High_Tide",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "retired_treasure_chest"
+    },
+    {
+      "id": "13146",
+      "name": "Brackish Stalker Head",
+      "item_name": "#DOTA_Item_Brackish_Stalker_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13147",
+      "name": "Brackish Stalker Off-Hand",
+      "item_name": "#DOTA_Item_Brackish_Stalker_OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13148",
+      "name": "Brackish Stalker Weapon",
+      "item_name": "#DOTA_Item_Brackish_Stalker_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13149",
+      "name": "Brackish Stalker Arms",
+      "item_name": "#DOTA_Item_Brackish_Stalker_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13150",
+      "name": "Brackish Stalker Belt",
+      "item_name": "#DOTA_Item_Brackish_Stalker_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13151",
+      "name": "Brackish Stalker Back",
+      "item_name": "#DOTA_Item_Brackish_Stalker_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13242",
+      "name": "Prey of the Poacher's Bane",
+      "item_name": "#DOTA_Item_Prey_of_the_Poachers_Bane",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13243",
+      "name": "Club of the Poacher's Bane",
+      "item_name": "#DOTA_Item_Club_of_the_Poachers_Bane",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13244",
+      "name": "Bracer of the Poacher's Bane",
+      "item_name": "#DOTA_Item_Bracer_of_the_Poachers_Bane",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13245",
+      "name": "Armor of the Poacher's Bane",
+      "item_name": "#DOTA_Item_Armor_of_the_Poachers_Bane",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13246",
+      "name": "Shell of the Poacher's Bane",
+      "item_name": "#DOTA_Item_Shell_of_the_Poachers_Bane",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13247",
+      "name": "Head of the Poacher's Bane",
+      "item_name": "#DOTA_Item_Head_of_the_Poachers_Bane",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14084",
+      "name": "Maelrawn's abyssal Guard Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_Maelrawns_abyssal_Guard_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14085",
+      "name": "Maelrawn's abyssal Guard Off-Hand",
+      "item_name": "#DOTA_Item_Vote_Only_Maelrawns_abyssal_Guard_OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14087",
+      "name": "Maelrawn's abyssal Guard Head",
+      "item_name": "#DOTA_Item_Vote_Only_Maelrawns_abyssal_Guard_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14088",
+      "name": "Maelrawn's abyssal Guard Belt",
+      "item_name": "#DOTA_Item_Vote_Only_Maelrawns_abyssal_Guard_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14089",
+      "name": "Maelrawn's abyssal Guard Back",
+      "item_name": "#DOTA_Item_Vote_Only_Maelrawns_abyssal_Guard_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14090",
+      "name": "Maelrawn's abyssal Guard Arms",
+      "item_name": "#DOTA_Item_Vote_Only_Maelrawns_abyssal_Guard_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14138",
+      "name": "Horror from the Deep Weapon",
+      "item_name": "#DOTA_Item_Horror_from_the_Deep_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14139",
+      "name": "Horror from the Deep Arms",
+      "item_name": "#DOTA_Item_Horror_from_the_Deep_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14140",
+      "name": "Horror from the Deep Off-Hand",
+      "item_name": "#DOTA_Item_Horror_from_the_Deep_OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14141",
+      "name": "Horror from the Deep Head",
+      "item_name": "#DOTA_Item_Horror_from_the_Deep_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14142",
+      "name": "Horror from the Deep Belt",
+      "item_name": "#DOTA_Item_Horror_from_the_Deep_Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14143",
+      "name": "Horror from the Deep Back",
+      "item_name": "#DOTA_Item_Horror_from_the_Deep_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14960",
+      "name": "Deepshock Destroyer",
+      "item_name": "#DOTA_Item_Deepshock_Destroyer",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17820",
+      "name": "Tidehunter's Diretide Shimmer Costume",
+      "item_name": "#DOTA_Item_Tidehunters_Diretide_Shimmer_Costume",
+      "item_slot": "costume",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17821",
+      "name": "Tidehunter's Diretide Shimmer Anchor",
+      "item_name": "#DOTA_Item_Tidehunters_Diretide_Shimmer_Anchor",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17822",
+      "name": "Tidehunter's Diretide Shimmer Lunch",
+      "item_name": "#DOTA_Item_Tidehunters_Diretide_Shimmer_Lunch",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17823",
+      "name": "Tidehunter's Diretide Shimmer Bracer",
+      "item_name": "#DOTA_Item_Tidehunters_Diretide_Shimmer_Bracer",
+      "item_slot": "arms",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17824",
+      "name": "Tidehunter's Diretide Shimmer Belt",
+      "item_name": "#DOTA_Item_Tidehunters_Diretide_Shimmer_Belt",
+      "item_slot": "belt",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18129",
+      "name": "Swamp Terror Head",
+      "item_name": "#DOTA_Item_Swamp_Terror_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18228",
+      "name": "Swamp Terror Fins",
+      "item_name": "#DOTA_Item_Swamp_Terror_Fins",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18229",
+      "name": "Swamp Terror Belt",
+      "item_name": "#DOTA_Item_Swamp_Terror_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18230",
+      "name": "Swamp Terror Arms",
+      "item_name": "#DOTA_Item_Swamp_Terror_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18242",
+      "name": "Swamp Terror Buoy",
+      "item_name": "#DOTA_Item_Swamp_Terror_Buoy",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18243",
+      "name": "Swamp Terror Weapon",
+      "item_name": "#DOTA_Item_Swamp_Terror_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18840",
+      "name": "Trenchline Tracker Weapon",
+      "item_name": "#DOTA_Item_Trenchline_Tracker_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18841",
+      "name": "Trenchline Tracker Offhand",
+      "item_name": "#DOTA_Item_Trenchline_Tracker_Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18842",
+      "name": "Trenchline Tracker Belt",
+      "item_name": "#DOTA_Item_Trenchline_Tracker_Belt",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18843",
+      "name": "Trenchline Tracker Head",
+      "item_name": "#DOTA_Item_Trenchline_Tracker_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18844",
+      "name": "Trenchline Tracker Back",
+      "item_name": "#DOTA_Item_Trenchline_Tracker_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18869",
+      "name": "Trenchline Tracker Bracer",
+      "item_name": "#DOTA_Item_Trenchline_Tracker_Bracer",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19023",
+      "name": "Golden Deepshock Destroyer",
+      "item_name": "#DOTA_Item_Golden_Deepshock_Destroyer",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19263",
+      "name": "Taunt: Melon Massacre",
+      "item_name": "#DOTA_Item_Taunt_Melon_Massacre",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "taunt"
+    },
+    {
+      "id": "20022",
+      "name": "The Pirate's Booty Set",
+      "item_name": "#DOTA_Item_The_Pirates_Booty_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20023",
+      "name": "The Paleogeneous Punisher Set",
+      "item_name": "#DOTA_Item_The_Paleogeneous_Punisher_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20497",
+      "name": "Deepweed Drowner",
+      "item_name": "#DOTA_Item_Deepweed_Drowner",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20730",
+      "name": "Dota 2 Canada Cup Season 4",
+      "item_name": "#DOTA_Item_Dota_2_Canada_Cup_Season_4",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20760",
+      "name": "Tidosaurus",
+      "item_name": "#DOTA_Item_Tidosaurus",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20891",
+      "name": "Relics of the Drowning Trench",
+      "item_name": "#DOTA_Item_Relics_of_the_Drowning_Trench",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21173",
+      "name": "Frostshard Ascendant",
+      "item_name": "#DOTA_Item_Frostshard_Ascendant",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21355",
+      "name": "Brackish Stalker",
+      "item_name": "#DOTA_Item_Brackish_Stalker",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21371",
+      "name": "Poacher's Bane",
+      "item_name": "#DOTA_Item_Poachers_Bane",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21493",
+      "name": "Maelrawn's abyssal Guard",
+      "item_name": "#DOTA_Item_Vote_Only_Maelrawns_abyssal_Guard",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21503",
+      "name": "Horror from the Deep",
+      "item_name": "#DOTA_Item_Horror_from_the_Deep",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21700",
+      "name": "Tidehunter's Diretide Shimmer Bundle",
+      "item_name": "#DOTA_Item_Tidehunters_Diretide_Shimmer_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21774",
+      "name": "Trenchline Tracker",
+      "item_name": "#DOTA_Item_Trenchline_Tracker",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21780",
+      "name": "Swamp Terror",
+      "item_name": "#DOTA_Item_Swamp_Terror",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    }
+  ]
+}

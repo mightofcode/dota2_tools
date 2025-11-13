@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "id": "225",
+      "name": "Chen's Mount Armor",
+      "item_name": "#DOTA_Item_Chens_Mount_Armor",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "used_by_heroes": {}
+    }
+  ],
+  "description": "未关联到任何英雄的饰品数据"
+}

@@ -1,0 +1,1405 @@
+{
+  "defaults": {
+    "head": {
+      "id": "227",
+      "name": "Treant Protector's Head",
+      "item_name": "#DOTA_Item_Treant_Protectors_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "shoulder": {
+      "id": "228",
+      "name": "Treant Protector's Foliage",
+      "item_name": "#DOTA_Item_Treant_Protectors_Foliage",
+      "item_slot": "shoulder",
+      "item_rarity": "common"
+    },
+    "arms": {
+      "id": "229",
+      "name": "Treant Protector's Hands",
+      "item_name": "#DOTA_Item_Treant_Protectors_Hands",
+      "item_slot": "arms",
+      "item_rarity": "common"
+    },
+    "legs": {
+      "id": "230",
+      "name": "Treant Protector's Feet",
+      "item_name": "#DOTA_Item_Treant_Protectors_Feet",
+      "item_slot": "legs",
+      "item_rarity": "common"
+    },
+    "costume": {
+      "id": "736",
+      "name": "Treant Protector's Costume",
+      "item_name": "#DOTA_Item_Treant_Protectors_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Agaric_Flourish",
+      "store_bundle": "Agaric Flourish",
+      "portrait_image": "econ/sets/v2/agaric_flourish",
+      "items": [
+        {
+          "name": "Embrace of the Agaric Flourish",
+          "id": "7059",
+          "item_name": "#DOTA_Item_Embrace_of_the_Agaric_Flourish",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Countenance of the Agaric Flourish",
+          "id": "7060",
+          "item_name": "#DOTA_Item_Countenance_of_the_Agaric_Flourish",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Stride of the Agaric Flourish",
+          "id": "7061",
+          "item_name": "#DOTA_Item_Stride_of_the_Agaric_Flourish",
+          "item_slot": "legs",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Canopy of the Agaric Flourish",
+          "id": "7062",
+          "item_name": "#DOTA_Item_Canopy_of_the_Agaric_Flourish",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bark_of_the_Ageless_Witness",
+      "store_bundle": "Bark of the Ageless Witness",
+      "portrait_image": "econ/sets/v2/bark_of_the_ageless_witness",
+      "items": [
+        {
+          "name": "Arms of the Ageless Witness",
+          "id": "9898",
+          "item_name": "#DOTA_Item_Arms_of_the_Ageless_Witness",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Head of the Ageless Witness",
+          "id": "9899",
+          "item_name": "#DOTA_Item_Head_of_the_Ageless_Witness",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Legs of the Ageless Witness",
+          "id": "9900",
+          "item_name": "#DOTA_Item_Legs_of_the_Ageless_Witness",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Shoulders of the Ageless Witness",
+          "id": "9901",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Ageless_Witness",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Blossoms_of_the_Wispwood",
+      "store_bundle": "Blossoms of the Wispwood",
+      "portrait_image": "econ/sets/v2/blossoms_of_the_wispwood",
+      "items": [
+        {
+          "name": "Blossoms of the Wispwood - Arms",
+          "id": "24178",
+          "item_name": "#DOTA_Item_Blossoms_of_the_Wispwood__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Blossoms of the Wispwood - Legs",
+          "id": "24179",
+          "item_name": "#DOTA_Item_Blossoms_of_the_Wispwood__Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Blossoms of the Wispwood - Head",
+          "id": "24194",
+          "item_name": "#DOTA_Item_Blossoms_of_the_Wispwood__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Blossoms of the Wispwood - Shoulder",
+          "id": "24195",
+          "item_name": "#DOTA_Item_Blossoms_of_the_Wispwood__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Eldritch_Gnarl",
+      "store_bundle": "Eldritch Gnarl",
+      "portrait_image": "econ/sets/v2/eldritch_gnarl",
+      "items": [
+        {
+          "name": "Foliage of Eldritch Gnarl",
+          "id": "8902",
+          "item_name": "#DOTA_Item_Foliage_of_Eldritch_Gnarl",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Roots of Eldritch Gnarl",
+          "id": "8901",
+          "item_name": "#DOTA_Item_Roots_of_Eldritch_Gnarl",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Snoot of Eldritch Gnarl",
+          "id": "8900",
+          "item_name": "#DOTA_Item_Snoot_of_Eldritch_Gnarl",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Arms of Eldritch Gnarl",
+          "id": "8899",
+          "item_name": "#DOTA_Item_Arms_of_Eldritch_Gnarl",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Emberbark",
+      "store_bundle": "Emberbark",
+      "portrait_image": "econ/sets/v2/emberbark",
+      "items": [
+        {
+          "name": "Emberbark Arms",
+          "id": "8425",
+          "item_name": "#DOTA_Item_Emberbark_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Emberbark Beard",
+          "id": "8427",
+          "item_name": "#DOTA_Item_Emberbark_Beard",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Emberbark Roots",
+          "id": "8428",
+          "item_name": "#DOTA_Item_Emberbark_Roots",
+          "item_slot": "legs",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Emberbark Shoulders",
+          "id": "8429",
+          "item_name": "#DOTA_Item_Emberbark_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Frost_Auburn_Hideaway",
+      "store_bundle": "Frost Auburn Hideaway",
+      "portrait_image": "econ/sets/v2/frost_auburn_hideaway",
+      "items": [
+        {
+          "name": "Sanctuary of the Frost Auburn Hideaway",
+          "id": "9704",
+          "item_name": "#DOTA_Item_Sanctuary_of_the_Frost_Auburn_Hideaway",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Roots of the Frost Auburn Hideaway",
+          "id": "9705",
+          "item_name": "#DOTA_Item_Roots_of_the_Frost_Auburn_Hideaway",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Beard of the Frost Auburn Hideaway",
+          "id": "9706",
+          "item_name": "#DOTA_Item_Beard_of_the_Frost_Auburn_Hideaway",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bark of the Frost Auburn Hideaway",
+          "id": "12181",
+          "item_name": "#DOTA_Item_Bark_of_the_Frost_Auburn_Hideaway",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Grudges_of_the_Gallows_Tree",
+      "store_bundle": "Grudges of the Gallows Tree",
+      "portrait_image": "econ/sets/v2/grudges_of_the_gallows_tree",
+      "items": [
+        {
+          "name": "Grudges of the Gallows Tree - Arms",
+          "id": "19319",
+          "item_name": "#DOTA_Item_Grudges_of_the_Gallows_Tree__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Grudges of the Gallows Tree - Head",
+          "id": "19318",
+          "item_name": "#DOTA_Item_Grudges_of_the_Gallows_Tree__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Grudges of the Gallows Tree - Legs",
+          "id": "19317",
+          "item_name": "#DOTA_Item_Grudges_of_the_Gallows_Tree__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Grudges of the Gallows Tree - Shoulder",
+          "id": "19316",
+          "item_name": "#DOTA_Item_Grudges_of_the_Gallows_Tree__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Haven_of_the_Hinterheart",
+      "store_bundle": "Haven of the Hinterheart",
+      "portrait_image": "econ/sets/v2/haven_of_the_hinterheart",
+      "items": [
+        {
+          "name": "Haven of the Hinterheart - Arms",
+          "id": "18777",
+          "item_name": "#DOTA_Item_Haven_of_the_Hinterheart__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Haven of the Hinterheart - Legs",
+          "id": "18776",
+          "item_name": "#DOTA_Item_Haven_of_the_Hinterheart__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Haven of the Hinterheart - Shoulder",
+          "id": "18775",
+          "item_name": "#DOTA_Item_Haven_of_the_Hinterheart__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Haven of the Hinterheart - Head",
+          "id": "18774",
+          "item_name": "#DOTA_Item_Haven_of_the_Hinterheart__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Honors_of_the_Arbor_Sage",
+      "store_bundle": "Honors of the Arbor Sage",
+      "portrait_image": "econ/sets/v2/honors_of_the_arbor_sage",
+      "items": [
+        {
+          "name": "Shoulder of the Arbor Sage",
+          "id": "18856",
+          "item_name": "#DOTA_Item_Shoulder_of_the_Arbor_Sage",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Legs of the Arbor Sage",
+          "id": "18854",
+          "item_name": "#DOTA_Item_Legs_of_the_Arbor_Sage",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Head of the Arbor Sage",
+          "id": "18857",
+          "item_name": "#DOTA_Item_Head_of_the_Arbor_Sage",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Arms of the Arbor Sage",
+          "id": "18855",
+          "item_name": "#DOTA_Item_Arms_of_the_Arbor_Sage",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Moonshard_Overgrowth",
+      "store_bundle": "Moonshard Overgrowth",
+      "portrait_image": "econ/sets/v2/moonshard_overgrowth",
+      "items": [
+        {
+          "name": "Moonshard Claws",
+          "id": "7298",
+          "item_name": "#DOTA_Item_Moonshard_Claws",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Moonshard Tusks",
+          "id": "7299",
+          "item_name": "#DOTA_Item_Moonshard_Tusks",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Moonshard Roots",
+          "id": "7300",
+          "item_name": "#DOTA_Item_Moonshard_Roots",
+          "item_slot": "legs",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Canopy of the Moonshard",
+          "id": "7301",
+          "item_name": "#DOTA_Item_Canopy_of_the_Moonshard",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Protector_of_the_Ancient_Seal",
+      "store_bundle": "Protector of the Ancient Seal",
+      "portrait_image": "econ/sets/v2/protector_of_the_ancient_seal",
+      "items": [
+        {
+          "name": "Bearing of the Ancient Seal",
+          "id": "7807",
+          "item_name": "#DOTA_Item_Bearing_of_the_Ancient_Seal",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Stumps of the Ancient Seal",
+          "id": "7805",
+          "item_name": "#DOTA_Item_Stumps_of_the_Ancient_Seal",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Overgrowth of the Ancient Seal",
+          "id": "7808",
+          "item_name": "#DOTA_Item_Overgrowth_of_the_Ancient_Seal",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Arms of the Ancient Seal",
+          "id": "7806",
+          "item_name": "#DOTA_Item_Arms_of_the_Ancient_Seal",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Spina_Infernalis",
+      "store_bundle": "Spina Infernalis",
+      "portrait_image": "econ/sets/v2/spina_infernalis",
+      "items": [
+        {
+          "name": "Spina Infernalis - Legs",
+          "id": "30516",
+          "item_name": "#DOTA_Item_Spina_Infernalis__Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Spina Infernalis - Arms",
+          "id": "29610",
+          "item_name": "#DOTA_Item_Spina_Infernalis__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Spina Infernalis - Shoulders",
+          "id": "29611",
+          "item_name": "#DOTA_Item_Spina_Infernalis__Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Spina Infernalis - Head",
+          "id": "29617",
+          "item_name": "#DOTA_Item_Spina_Infernalis__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Splintering_Awe",
+      "store_bundle": "Splintering Awe",
+      "portrait_image": "econ/sets/v2/splintering_awe",
+      "items": [
+        {
+          "name": "Carvings of the Splintering Awe",
+          "id": "8184",
+          "item_name": "#DOTA_Item_Carvings_of_the_Splintering_Awe",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mask of the Splintering Awe",
+          "id": "8182",
+          "item_name": "#DOTA_Item_Mask_of_the_Splintering_Awe",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Stock of the Splintering Awe",
+          "id": "8183",
+          "item_name": "#DOTA_Item_Stock_of_the_Splintering_Awe",
+          "item_slot": "legs",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Arms of the Splintering Awe",
+          "id": "8181",
+          "item_name": "#DOTA_Item_Arms_of_the_Splintering_Awe",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Boreal_Sentinel",
+      "store_bundle": "The Boreal Sentinel",
+      "portrait_image": "econ/sets/v2/the_boreal_sentinel",
+      "items": [
+        {
+          "name": "Arms of the Boreal Sentinel",
+          "id": "12858",
+          "item_name": "#DOTA_Item_Arms_of_the_Boreal_Sentinel",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Head of the Boreal Sentinel",
+          "id": "12857",
+          "item_name": "#DOTA_Item_Head_of_the_Boreal_Sentinel",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Legs of the Boreal Sentinel",
+          "id": "12856",
+          "item_name": "#DOTA_Item_Legs_of_the_Boreal_Sentinel",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Canopy of the Boreal Sentinel",
+          "id": "12855",
+          "item_name": "#DOTA_Item_Canopy_of_the_Boreal_Sentinel",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bogborne",
+      "store_bundle": "Bogborne",
+      "portrait_image": "econ/sets/v2/treant_bogborne",
+      "items": [
+        {
+          "name": "Bogborne Legs",
+          "id": "19401",
+          "item_name": "#DOTA_Item_Bogborne_Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bogborne Shoulder",
+          "id": "19402",
+          "item_name": "#DOTA_Item_Bogborne_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bogborne Arms",
+          "id": "19399",
+          "item_name": "#DOTA_Item_Bogborne_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bogborne Head",
+          "id": "19400",
+          "item_name": "#DOTA_Item_Bogborne_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Treant_Protectors_Diretide_Shimmer_Bundle",
+      "store_bundle": "Treant Protector's Diretide Shimmer Bundle",
+      "portrait_image": "econ/sets/v2/treant_protectors_diretide_shimmer_bundle",
+      "items": [
+        {
+          "name": "Treant Protector's Diretide Shimmer Hands",
+          "id": "17827",
+          "item_name": "#DOTA_Item_Treant_Protectors_Diretide_Shimmer_Hands",
+          "item_slot": "arms",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Treant Protector's Diretide Shimmer Costume",
+          "id": "17825",
+          "item_name": "#DOTA_Item_Treant_Protectors_Diretide_Shimmer_Costume",
+          "item_slot": "costume",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Treant Protector's Diretide Shimmer Beard",
+          "id": "17826",
+          "item_name": "#DOTA_Item_Treant_Protectors_Diretide_Shimmer_Beard",
+          "item_slot": "head",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Treant Protector's Diretide Shimmer Feet",
+          "id": "17828",
+          "item_name": "#DOTA_Item_Treant_Protectors_Diretide_Shimmer_Feet",
+          "item_slot": "legs",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Treant Protector's Diretide Shimmer Branches",
+          "id": "17829",
+          "item_name": "#DOTA_Item_Treant_Protectors_Diretide_Shimmer_Branches",
+          "item_slot": "shoulder",
+          "item_rarity": "seasonal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Summer_Lineage_Bark_of_the_Ageless_Witness",
+      "store_bundle": "Summer Lineage Bark of the Ageless Witness",
+      "portrait_image": "econ/sets/v2/treant_summer_lineage_bark_of_the_ageless_witness",
+      "items": [
+        {
+          "name": "Summer Lineage Arms of the Ageless Witness",
+          "id": "23263",
+          "item_name": "#DOTA_Item_Summer_Lineage_Arms_of_the_Ageless_Witness",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Summer Lineage Head of the Ageless Witness",
+          "id": "23264",
+          "item_name": "#DOTA_Item_Summer_Lineage_Head_of_the_Ageless_Witness",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Summer Lineage Legs of the Ageless Witness",
+          "id": "23265",
+          "item_name": "#DOTA_Item_Summer_Lineage_Legs_of_the_Ageless_Witness",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Summer Lineage Shoulders of the Ageless Witness",
+          "id": "23266",
+          "item_name": "#DOTA_Item_Summer_Lineage_Shoulders_of_the_Ageless_Witness",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "227",
+      "name": "Treant Protector's Head",
+      "item_name": "#DOTA_Item_Treant_Protectors_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "228",
+      "name": "Treant Protector's Foliage",
+      "item_name": "#DOTA_Item_Treant_Protectors_Foliage",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "229",
+      "name": "Treant Protector's Hands",
+      "item_name": "#DOTA_Item_Treant_Protectors_Hands",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "230",
+      "name": "Treant Protector's Feet",
+      "item_name": "#DOTA_Item_Treant_Protectors_Feet",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "736",
+      "name": "Treant Protector's Costume",
+      "item_name": "#DOTA_Item_Treant_Protectors_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "7059",
+      "name": "Embrace of the Agaric Flourish",
+      "item_name": "#DOTA_Item_Embrace_of_the_Agaric_Flourish",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7060",
+      "name": "Countenance of the Agaric Flourish",
+      "item_name": "#DOTA_Item_Countenance_of_the_Agaric_Flourish",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7061",
+      "name": "Stride of the Agaric Flourish",
+      "item_name": "#DOTA_Item_Stride_of_the_Agaric_Flourish",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7062",
+      "name": "Canopy of the Agaric Flourish",
+      "item_name": "#DOTA_Item_Canopy_of_the_Agaric_Flourish",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7298",
+      "name": "Moonshard Claws",
+      "item_name": "#DOTA_Item_Moonshard_Claws",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7299",
+      "name": "Moonshard Tusks",
+      "item_name": "#DOTA_Item_Moonshard_Tusks",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7300",
+      "name": "Moonshard Roots",
+      "item_name": "#DOTA_Item_Moonshard_Roots",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7301",
+      "name": "Canopy of the Moonshard",
+      "item_name": "#DOTA_Item_Canopy_of_the_Moonshard",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7805",
+      "name": "Stumps of the Ancient Seal",
+      "item_name": "#DOTA_Item_Stumps_of_the_Ancient_Seal",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7806",
+      "name": "Arms of the Ancient Seal",
+      "item_name": "#DOTA_Item_Arms_of_the_Ancient_Seal",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7807",
+      "name": "Bearing of the Ancient Seal",
+      "item_name": "#DOTA_Item_Bearing_of_the_Ancient_Seal",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7808",
+      "name": "Overgrowth of the Ancient Seal",
+      "item_name": "#DOTA_Item_Overgrowth_of_the_Ancient_Seal",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8181",
+      "name": "Arms of the Splintering Awe",
+      "item_name": "#DOTA_Item_Arms_of_the_Splintering_Awe",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8182",
+      "name": "Mask of the Splintering Awe",
+      "item_name": "#DOTA_Item_Mask_of_the_Splintering_Awe",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8183",
+      "name": "Stock of the Splintering Awe",
+      "item_name": "#DOTA_Item_Stock_of_the_Splintering_Awe",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8184",
+      "name": "Carvings of the Splintering Awe",
+      "item_name": "#DOTA_Item_Carvings_of_the_Splintering_Awe",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8425",
+      "name": "Emberbark Arms",
+      "item_name": "#DOTA_Item_Emberbark_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8427",
+      "name": "Emberbark Beard",
+      "item_name": "#DOTA_Item_Emberbark_Beard",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8428",
+      "name": "Emberbark Roots",
+      "item_name": "#DOTA_Item_Emberbark_Roots",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8429",
+      "name": "Emberbark Shoulders",
+      "item_name": "#DOTA_Item_Emberbark_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8899",
+      "name": "Arms of Eldritch Gnarl",
+      "item_name": "#DOTA_Item_Arms_of_Eldritch_Gnarl",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8900",
+      "name": "Snoot of Eldritch Gnarl",
+      "item_name": "#DOTA_Item_Snoot_of_Eldritch_Gnarl",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8901",
+      "name": "Roots of Eldritch Gnarl",
+      "item_name": "#DOTA_Item_Roots_of_Eldritch_Gnarl",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8902",
+      "name": "Foliage of Eldritch Gnarl",
+      "item_name": "#DOTA_Item_Foliage_of_Eldritch_Gnarl",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9196",
+      "name": "Stuntwood Sanctuary",
+      "item_name": "#DOTA_Item_Stuntwood_Sanctuary",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9452",
+      "name": "Stuntwood Sanctuary of the Crimson Witness",
+      "item_name": "#DOTA_Item_Stuntwood_Sanctuary_of_the_Crimson_Witness",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9704",
+      "name": "Sanctuary of the Frost Auburn Hideaway",
+      "item_name": "#DOTA_Item_Sanctuary_of_the_Frost_Auburn_Hideaway",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9705",
+      "name": "Roots of the Frost Auburn Hideaway",
+      "item_name": "#DOTA_Item_Roots_of_the_Frost_Auburn_Hideaway",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9706",
+      "name": "Beard of the Frost Auburn Hideaway",
+      "item_name": "#DOTA_Item_Beard_of_the_Frost_Auburn_Hideaway",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9898",
+      "name": "Arms of the Ageless Witness",
+      "item_name": "#DOTA_Item_Arms_of_the_Ageless_Witness",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9899",
+      "name": "Head of the Ageless Witness",
+      "item_name": "#DOTA_Item_Head_of_the_Ageless_Witness",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9900",
+      "name": "Legs of the Ageless Witness",
+      "item_name": "#DOTA_Item_Legs_of_the_Ageless_Witness",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9901",
+      "name": "Shoulders of the Ageless Witness",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Ageless_Witness",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12181",
+      "name": "Bark of the Frost Auburn Hideaway",
+      "item_name": "#DOTA_Item_Bark_of_the_Frost_Auburn_Hideaway",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12855",
+      "name": "Canopy of the Boreal Sentinel",
+      "item_name": "#DOTA_Item_Canopy_of_the_Boreal_Sentinel",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12856",
+      "name": "Legs of the Boreal Sentinel",
+      "item_name": "#DOTA_Item_Legs_of_the_Boreal_Sentinel",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12857",
+      "name": "Head of the Boreal Sentinel",
+      "item_name": "#DOTA_Item_Head_of_the_Boreal_Sentinel",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12858",
+      "name": "Arms of the Boreal Sentinel",
+      "item_name": "#DOTA_Item_Arms_of_the_Boreal_Sentinel",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14991",
+      "name": "Stuntwood Symbiont",
+      "item_name": "#DOTA_Item_Stuntwood_Symbiont",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17825",
+      "name": "Treant Protector's Diretide Shimmer Costume",
+      "item_name": "#DOTA_Item_Treant_Protectors_Diretide_Shimmer_Costume",
+      "item_slot": "costume",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17826",
+      "name": "Treant Protector's Diretide Shimmer Beard",
+      "item_name": "#DOTA_Item_Treant_Protectors_Diretide_Shimmer_Beard",
+      "item_slot": "head",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17827",
+      "name": "Treant Protector's Diretide Shimmer Hands",
+      "item_name": "#DOTA_Item_Treant_Protectors_Diretide_Shimmer_Hands",
+      "item_slot": "arms",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17828",
+      "name": "Treant Protector's Diretide Shimmer Feet",
+      "item_name": "#DOTA_Item_Treant_Protectors_Diretide_Shimmer_Feet",
+      "item_slot": "legs",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17829",
+      "name": "Treant Protector's Diretide Shimmer Branches",
+      "item_name": "#DOTA_Item_Treant_Protectors_Diretide_Shimmer_Branches",
+      "item_slot": "shoulder",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18774",
+      "name": "Haven of the Hinterheart - Head",
+      "item_name": "#DOTA_Item_Haven_of_the_Hinterheart__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18775",
+      "name": "Haven of the Hinterheart - Shoulder",
+      "item_name": "#DOTA_Item_Haven_of_the_Hinterheart__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18776",
+      "name": "Haven of the Hinterheart - Legs",
+      "item_name": "#DOTA_Item_Haven_of_the_Hinterheart__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18777",
+      "name": "Haven of the Hinterheart - Arms",
+      "item_name": "#DOTA_Item_Haven_of_the_Hinterheart__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18854",
+      "name": "Legs of the Arbor Sage",
+      "item_name": "#DOTA_Item_Legs_of_the_Arbor_Sage",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18855",
+      "name": "Arms of the Arbor Sage",
+      "item_name": "#DOTA_Item_Arms_of_the_Arbor_Sage",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18856",
+      "name": "Shoulder of the Arbor Sage",
+      "item_name": "#DOTA_Item_Shoulder_of_the_Arbor_Sage",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18857",
+      "name": "Head of the Arbor Sage",
+      "item_name": "#DOTA_Item_Head_of_the_Arbor_Sage",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19316",
+      "name": "Grudges of the Gallows Tree - Shoulder",
+      "item_name": "#DOTA_Item_Grudges_of_the_Gallows_Tree__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19317",
+      "name": "Grudges of the Gallows Tree - Legs",
+      "item_name": "#DOTA_Item_Grudges_of_the_Gallows_Tree__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19318",
+      "name": "Grudges of the Gallows Tree - Head",
+      "item_name": "#DOTA_Item_Grudges_of_the_Gallows_Tree__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19319",
+      "name": "Grudges of the Gallows Tree - Arms",
+      "item_name": "#DOTA_Item_Grudges_of_the_Gallows_Tree__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19399",
+      "name": "Bogborne Arms",
+      "item_name": "#DOTA_Item_Bogborne_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19400",
+      "name": "Bogborne Head",
+      "item_name": "#DOTA_Item_Bogborne_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19401",
+      "name": "Bogborne Legs",
+      "item_name": "#DOTA_Item_Bogborne_Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19402",
+      "name": "Bogborne Shoulder",
+      "item_name": "#DOTA_Item_Bogborne_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20664",
+      "name": "Agaric Flourish",
+      "item_name": "#DOTA_Item_Agaric_Flourish",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20685",
+      "name": "Esportal Dota 2 League",
+      "item_name": "#DOTA_Item_Esportal_Dota_2_League",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20803",
+      "name": "Emberbark",
+      "item_name": "#DOTA_Item_Emberbark",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20816",
+      "name": "Splintering Awe",
+      "item_name": "#DOTA_Item_Splintering_Awe",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20971",
+      "name": "Moonshard Overgrowth",
+      "item_name": "#DOTA_Item_Moonshard_Overgrowth",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21001",
+      "name": "Protector of the Ancient Seal",
+      "item_name": "#DOTA_Item_Protector_of_the_Ancient_Seal",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21058",
+      "name": "Eldritch Gnarl",
+      "item_name": "#DOTA_Item_Eldritch_Gnarl",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21079",
+      "name": "Bark of the Ageless Witness",
+      "item_name": "#DOTA_Item_Bark_of_the_Ageless_Witness",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21185",
+      "name": "Frost Auburn Hideaway",
+      "item_name": "#DOTA_Item_Frost_Auburn_Hideaway",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21309",
+      "name": "The Boreal Sentinel",
+      "item_name": "#DOTA_Item_The_Boreal_Sentinel",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21701",
+      "name": "Treant Protector's Diretide Shimmer Bundle",
+      "item_name": "#DOTA_Item_Treant_Protectors_Diretide_Shimmer_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21753",
+      "name": "Haven of the Hinterheart",
+      "item_name": "#DOTA_Item_Haven_of_the_Hinterheart",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21772",
+      "name": "Grudges of the Gallows Tree",
+      "item_name": "#DOTA_Item_Grudges_of_the_Gallows_Tree",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21822",
+      "name": "Honors of the Arbor Sage",
+      "item_name": "#DOTA_Item_Honors_of_the_Arbor_Sage",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21881",
+      "name": "Bogborne",
+      "item_name": "#DOTA_Item_Bogborne",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23262",
+      "name": "Summer Lineage Bark of the Ageless Witness",
+      "item_name": "#DOTA_Item_Summer_Lineage_Bark_of_the_Ageless_Witness",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23263",
+      "name": "Summer Lineage Arms of the Ageless Witness",
+      "item_name": "#DOTA_Item_Summer_Lineage_Arms_of_the_Ageless_Witness",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23264",
+      "name": "Summer Lineage Head of the Ageless Witness",
+      "item_name": "#DOTA_Item_Summer_Lineage_Head_of_the_Ageless_Witness",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23265",
+      "name": "Summer Lineage Legs of the Ageless Witness",
+      "item_name": "#DOTA_Item_Summer_Lineage_Legs_of_the_Ageless_Witness",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23266",
+      "name": "Summer Lineage Shoulders of the Ageless Witness",
+      "item_name": "#DOTA_Item_Summer_Lineage_Shoulders_of_the_Ageless_Witness",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "24178",
+      "name": "Blossoms of the Wispwood - Arms",
+      "item_name": "#DOTA_Item_Blossoms_of_the_Wispwood__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "24179",
+      "name": "Blossoms of the Wispwood - Legs",
+      "item_name": "#DOTA_Item_Blossoms_of_the_Wispwood__Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "24193",
+      "name": "Blossoms of the Wispwood",
+      "item_name": "#DOTA_Item_Blossoms_of_the_Wispwood",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "24194",
+      "name": "Blossoms of the Wispwood - Head",
+      "item_name": "#DOTA_Item_Blossoms_of_the_Wispwood__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "24195",
+      "name": "Blossoms of the Wispwood - Shoulder",
+      "item_name": "#DOTA_Item_Blossoms_of_the_Wispwood__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29610",
+      "name": "Spina Infernalis - Arms",
+      "item_name": "#DOTA_Item_Spina_Infernalis__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29611",
+      "name": "Spina Infernalis - Shoulders",
+      "item_name": "#DOTA_Item_Spina_Infernalis__Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29617",
+      "name": "Spina Infernalis - Head",
+      "item_name": "#DOTA_Item_Spina_Infernalis__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30516",
+      "name": "Spina Infernalis - Legs",
+      "item_name": "#DOTA_Item_Spina_Infernalis__Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30580",
+      "name": "Spina Infernalis",
+      "item_name": "#DOTA_Item_Spina_Infernalis",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    }
+  ]
+}

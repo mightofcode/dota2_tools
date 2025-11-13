@@ -1,0 +1,745 @@
+{
+  "defaults": {
+    "head": {
+      "id": "594",
+      "name": "Monkey King Head",
+      "item_name": "#DOTA_Item_Monkey_King_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "armor": {
+      "id": "608",
+      "name": "Monkey King Armor",
+      "item_name": "#DOTA_Item_Monkey_King_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common"
+    },
+    "weapon": {
+      "id": "609",
+      "name": "Monkey King Weapon",
+      "item_name": "#DOTA_Item_Monkey_King_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "shoulder": {
+      "id": "657",
+      "name": "Monkey King Shoulders",
+      "item_name": "#DOTA_Item_Monkey_King_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Baubles_of_the_Preening_King",
+      "store_bundle": "Baubles of the Preening King",
+      "portrait_image": "econ/sets/v2/baubles_of_the_preening_king",
+      "items": [
+        {
+          "name": "Baubles of the Preening King - Shoulder",
+          "id": "23802",
+          "item_name": "#DOTA_Item_Baubles_of_the_Preening_King__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Baubles of the Preening King - Weapon",
+          "id": "22392",
+          "item_name": "#DOTA_Item_Baubles_of_the_Preening_King__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Baubles of the Preening King - Crown",
+          "id": "22390",
+          "item_name": "#DOTA_Item_Baubles_of_the_Preening_King__Crown",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Baubles of the Preening King - Armor",
+          "id": "22378",
+          "item_name": "#DOTA_Item_Baubles_of_the_Preening_King__Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Champion_of_the_Fire_Lotus",
+      "store_bundle": "Champion of the Fire Lotus",
+      "portrait_image": "econ/sets/v2/champion_of_the_fire_lotus",
+      "items": [
+        {
+          "name": "Champion of the Fire Lotus - Head",
+          "id": "25353",
+          "item_name": "#DOTA_Item_Champion_of_the_Fire_Lotus__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Champion of the Fire Lotus - Armor",
+          "id": "25352",
+          "item_name": "#DOTA_Item_Champion_of_the_Fire_Lotus__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Champion of the Fire Lotus - Shoulder",
+          "id": "25354",
+          "item_name": "#DOTA_Item_Champion_of_the_Fire_Lotus__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Champion of the Fire Lotus - Weapon",
+          "id": "25371",
+          "item_name": "#DOTA_Item_Champion_of_the_Fire_Lotus__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Cult_of_the_Demon_Trickster",
+      "store_bundle": "Cult of the Demon Trickster",
+      "portrait_image": "econ/sets/v2/cult_of_the_demon_trickster",
+      "items": [
+        {
+          "name": "Staff of the Demon Trickster",
+          "id": "13546",
+          "item_name": "#DOTA_Item_Staff_of_the_Demon_Trickster",
+          "item_slot": "weapon",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Mask of the Demon Trickster",
+          "id": "13544",
+          "item_name": "#DOTA_Item_Mask_of_the_Demon_Trickster",
+          "item_slot": "head",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Armor of the Demon Trickster",
+          "id": "13008",
+          "item_name": "#DOTA_Item_Armor_of_the_Demon_Trickster",
+          "item_slot": "armor",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Pauldrons of the Demon Trickster",
+          "id": "13545",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Demon_Trickster",
+          "item_slot": "shoulder",
+          "item_rarity": "immortal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Great_Sages_Reckoning",
+      "store_bundle": "Great Sage's Reckoning Bundle",
+      "portrait_image": "econ/sets/v2/great_sages_reckoning",
+      "items": [
+        {
+          "name": "Great Sage's Reckoning",
+          "id": "9050",
+          "item_name": "#DOTA_Item_Great_Sages_Reckoning",
+          "item_slot": "head",
+          "item_rarity": "arcana"
+        },
+        {
+          "name": "Taunt: Goin' Bananas",
+          "id": "7726",
+          "item_name": "#DOTA_Item_Taunt_Goin_Bananas",
+          "item_slot": "weapon",
+          "item_rarity": "legendary"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Masks_of_Mischief",
+      "store_bundle": "Masks of Mischief",
+      "portrait_image": "econ/sets/v2/masks_of_mischief",
+      "items": [
+        {
+          "name": "Crown of the Masks of Mischief",
+          "id": "12696",
+          "item_name": "#DOTA_Item_Crown_of_the_Masks_of_Mischief",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Staff of the Masks of Mischief",
+          "id": "12693",
+          "item_name": "#DOTA_Item_Staff_of_the_Masks_of_Mischief",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Armor of the Masks of Mischief",
+          "id": "12694",
+          "item_name": "#DOTA_Item_Armor_of_the_Masks_of_Mischief",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Garb of the Masks of Mischief",
+          "id": "12695",
+          "item_name": "#DOTA_Item_Garb_of_the_Masks_of_Mischief",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Havoc_of_Dragon_Palace",
+      "store_bundle": "Havoc of Dragon Palace",
+      "portrait_image": "econ/sets/v2/monkey_king_havoc_of_dragon_palace",
+      "items": [
+        {
+          "name": "Staff of the Dragon Palace",
+          "id": "9464",
+          "item_name": "#DOTA_Item_Staff_of_the_Dragon_Palace",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Armor of the Dragon Palace",
+          "id": "9463",
+          "item_name": "#DOTA_Item_Armor_of_the_Dragon_Palace",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Helm of the Dragon Palace",
+          "id": "9195",
+          "item_name": "#DOTA_Item_Helm_of_the_Dragon_Palace",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shoulders of the Dragon Palace",
+          "id": "9673",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Dragon_Palace",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Riptide_Raider",
+      "store_bundle": "Riptide Raider",
+      "portrait_image": "econ/sets/v2/riptide_raider",
+      "items": [
+        {
+          "name": "Trident of the Riptide Raider",
+          "id": "9399",
+          "item_name": "#DOTA_Item_Trident_of_the_Riptide_Raider",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Crown of the Riptide Raider",
+          "id": "9400",
+          "item_name": "#DOTA_Item_Crown_of_the_Riptide_Raider",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Armor of the Riptide Raider",
+          "id": "9401",
+          "item_name": "#DOTA_Item_Armor_of_the_Riptide_Raider",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Shoulders of the Riptide Raider",
+          "id": "9675",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Riptide_Raider",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Tangled_Tropics",
+      "store_bundle": "Tangled Tropics",
+      "portrait_image": "econ/sets/v2/tangled_tropics",
+      "items": [
+        {
+          "name": "Tangled Tropics - Head",
+          "id": "23706",
+          "item_name": "#DOTA_Item_Tangled_Tropics__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Tangled Tropics - Shoulder",
+          "id": "23705",
+          "item_name": "#DOTA_Item_Tangled_Tropics__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Tangled Tropics - Armor",
+          "id": "23704",
+          "item_name": "#DOTA_Item_Tangled_Tropics__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Tangled Tropics - Weapon",
+          "id": "23702",
+          "item_name": "#DOTA_Item_Tangled_Tropics__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Victorious_Fighting_Scoundrel",
+      "store_bundle": "Victorious Fighting Scoundrel",
+      "portrait_image": "econ/sets/v2/victorious_fighting_scoundrel",
+      "items": [
+        {
+          "name": "Victorious Fighting Scoundrel - Head",
+          "id": "28149",
+          "item_name": "#DOTA_Item_Victorious_Fighting_Scoundrel__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Victorious Fighting Scoundrel - Shoulder",
+          "id": "28150",
+          "item_name": "#DOTA_Item_Victorious_Fighting_Scoundrel__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Victorious Fighting Scoundrel - Armor",
+          "id": "28153",
+          "item_name": "#DOTA_Item_Victorious_Fighting_Scoundrel__Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Victorious Fighting Scoundrel - Staff",
+          "id": "28156",
+          "item_name": "#DOTA_Item_Victorious_Fighting_Scoundrel__Staff",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "594",
+      "name": "Monkey King Head",
+      "item_name": "#DOTA_Item_Monkey_King_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "608",
+      "name": "Monkey King Armor",
+      "item_name": "#DOTA_Item_Monkey_King_Armor",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "609",
+      "name": "Monkey King Weapon",
+      "item_name": "#DOTA_Item_Monkey_King_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "657",
+      "name": "Monkey King Shoulders",
+      "item_name": "#DOTA_Item_Monkey_King_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "7726",
+      "name": "Taunt: Goin' Bananas",
+      "item_name": "#DOTA_Item_Taunt_Goin_Bananas",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "taunt"
+    },
+    {
+      "id": "7824",
+      "name": "Staff of Gun-Yu of the Crimson Witness",
+      "item_name": "#DOTA_Item_Staff_of_GunYu_of_the_Crimson_Witness",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9050",
+      "name": "Great Sage's Reckoning",
+      "item_name": "#DOTA_Item_Great_Sages_Reckoning",
+      "item_slot": "head",
+      "item_rarity": "arcana",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9195",
+      "name": "Helm of the Dragon Palace",
+      "item_name": "#DOTA_Item_Helm_of_the_Dragon_Palace",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9212",
+      "name": "Staff of Gun-Yu",
+      "item_name": "#DOTA_Item_Staff_of_GunYu",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9399",
+      "name": "Trident of the Riptide Raider",
+      "item_name": "#DOTA_Item_Trident_of_the_Riptide_Raider",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9400",
+      "name": "Crown of the Riptide Raider",
+      "item_name": "#DOTA_Item_Crown_of_the_Riptide_Raider",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9401",
+      "name": "Armor of the Riptide Raider",
+      "item_name": "#DOTA_Item_Armor_of_the_Riptide_Raider",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9453",
+      "name": "Golden Staff of Gun-Yu",
+      "item_name": "#DOTA_Item_Golden_Staff_of_GunYu",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9463",
+      "name": "Armor of the Dragon Palace",
+      "item_name": "#DOTA_Item_Armor_of_the_Dragon_Palace",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9464",
+      "name": "Staff of the Dragon Palace",
+      "item_name": "#DOTA_Item_Staff_of_the_Dragon_Palace",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9673",
+      "name": "Shoulders of the Dragon Palace",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Dragon_Palace",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9675",
+      "name": "Shoulders of the Riptide Raider",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Riptide_Raider",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12693",
+      "name": "Staff of the Masks of Mischief",
+      "item_name": "#DOTA_Item_Staff_of_the_Masks_of_Mischief",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12694",
+      "name": "Armor of the Masks of Mischief",
+      "item_name": "#DOTA_Item_Armor_of_the_Masks_of_Mischief",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12695",
+      "name": "Garb of the Masks of Mischief",
+      "item_name": "#DOTA_Item_Garb_of_the_Masks_of_Mischief",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12696",
+      "name": "Crown of the Masks of Mischief",
+      "item_name": "#DOTA_Item_Crown_of_the_Masks_of_Mischief",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13008",
+      "name": "Armor of the Demon Trickster",
+      "item_name": "#DOTA_Item_Armor_of_the_Demon_Trickster",
+      "item_slot": "armor",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13544",
+      "name": "Mask of the Demon Trickster",
+      "item_name": "#DOTA_Item_Mask_of_the_Demon_Trickster",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13545",
+      "name": "Pauldrons of the Demon Trickster",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Demon_Trickster",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13546",
+      "name": "Staff of the Demon Trickster",
+      "item_name": "#DOTA_Item_Staff_of_the_Demon_Trickster",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20935",
+      "name": "Great Sage's Reckoning Bundle",
+      "item_name": "#DOTA_Item_Great_Sages_Reckoning_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "arcana",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21078",
+      "name": "Havoc of Dragon Palace",
+      "item_name": "#DOTA_Item_Havoc_of_Dragon_Palace",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21126",
+      "name": "Riptide Raider",
+      "item_name": "#DOTA_Item_Riptide_Raider",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21283",
+      "name": "Masks of Mischief",
+      "item_name": "#DOTA_Item_Masks_of_Mischief",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21425",
+      "name": "Cult of the Demon Trickster",
+      "item_name": "#DOTA_Item_Cult_of_the_Demon_Trickster",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22378",
+      "name": "Baubles of the Preening King - Armor",
+      "item_name": "#DOTA_Item_Baubles_of_the_Preening_King__Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22390",
+      "name": "Baubles of the Preening King - Crown",
+      "item_name": "#DOTA_Item_Baubles_of_the_Preening_King__Crown",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22392",
+      "name": "Baubles of the Preening King - Weapon",
+      "item_name": "#DOTA_Item_Baubles_of_the_Preening_King__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22505",
+      "name": "Baubles of the Preening King",
+      "item_name": "#DOTA_Item_Baubles_of_the_Preening_King",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23702",
+      "name": "Tangled Tropics - Weapon",
+      "item_name": "#DOTA_Item_Tangled_Tropics__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23704",
+      "name": "Tangled Tropics - Armor",
+      "item_name": "#DOTA_Item_Tangled_Tropics__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23705",
+      "name": "Tangled Tropics - Shoulder",
+      "item_name": "#DOTA_Item_Tangled_Tropics__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23706",
+      "name": "Tangled Tropics - Head",
+      "item_name": "#DOTA_Item_Tangled_Tropics__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23707",
+      "name": "Tangled Tropics",
+      "item_name": "#DOTA_Item_Tangled_Tropics",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23802",
+      "name": "Baubles of the Preening King - Shoulder",
+      "item_name": "#DOTA_Item_Baubles_of_the_Preening_King__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25021",
+      "name": "Champion of the Fire Lotus",
+      "item_name": "#DOTA_Item_Champion_of_the_Fire_Lotus",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25352",
+      "name": "Champion of the Fire Lotus - Armor",
+      "item_name": "#DOTA_Item_Champion_of_the_Fire_Lotus__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25353",
+      "name": "Champion of the Fire Lotus - Head",
+      "item_name": "#DOTA_Item_Champion_of_the_Fire_Lotus__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25354",
+      "name": "Champion of the Fire Lotus - Shoulder",
+      "item_name": "#DOTA_Item_Champion_of_the_Fire_Lotus__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25371",
+      "name": "Champion of the Fire Lotus - Weapon",
+      "item_name": "#DOTA_Item_Champion_of_the_Fire_Lotus__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28149",
+      "name": "Victorious Fighting Scoundrel - Head",
+      "item_name": "#DOTA_Item_Victorious_Fighting_Scoundrel__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28150",
+      "name": "Victorious Fighting Scoundrel - Shoulder",
+      "item_name": "#DOTA_Item_Victorious_Fighting_Scoundrel__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28151",
+      "name": "Victorious Fighting Scoundrel",
+      "item_name": "#DOTA_Item_Victorious_Fighting_Scoundrel",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28153",
+      "name": "Victorious Fighting Scoundrel - Armor",
+      "item_name": "#DOTA_Item_Victorious_Fighting_Scoundrel__Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28156",
+      "name": "Victorious Fighting Scoundrel - Staff",
+      "item_name": "#DOTA_Item_Victorious_Fighting_Scoundrel__Staff",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29347",
+      "name": "10th Anniversary Staff of Gun-Yu",
+      "item_name": "#DOTA_Item_10th_Anniversary_Staff_of_GunYu",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    }
+  ]
+}

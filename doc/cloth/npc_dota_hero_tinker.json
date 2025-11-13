@@ -1,0 +1,610 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "367",
+      "name": "Tinker's Right Arm",
+      "item_name": "#DOTA_Item_Tinkers_Right_Arm",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "offhand_weapon": {
+      "id": "463",
+      "name": "Tinker's Left Arm",
+      "item_name": "#DOTA_Item_Tinkers_Left_Arm",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common"
+    },
+    "shoulder": {
+      "id": "464",
+      "name": "Tinker's Shoulders",
+      "item_name": "#DOTA_Item_Tinkers_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "465",
+      "name": "Tinker's Helmet",
+      "item_name": "#DOTA_Item_Tinkers_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "body_head": {
+      "id": "466",
+      "name": "Tinker's Head",
+      "item_name": "#DOTA_Item_Tinkers_Head",
+      "item_slot": "body_head",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "467",
+      "name": "Tinker's Cape",
+      "item_name": "#DOTA_Item_Tinkers_Cape",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "ambient_effects": {
+      "id": "515",
+      "name": "Tinker's Ambient Effects",
+      "item_name": "#DOTA_Item_Tinkers_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    },
+    "misc": {
+      "id": "618",
+      "name": "Tinker's Misc",
+      "item_name": "#DOTA_Item_Tinkers_Misc",
+      "item_slot": "misc",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Blackshield_Protodrone",
+      "store_bundle": "Blackshield Protodrone",
+      "portrait_image": "econ/sets/v2/blackshield_protodrone",
+      "items": [
+        {
+          "name": "Blackshield Protodrone Helm",
+          "id": "14067",
+          "item_name": "#DOTA_Item_Blackshield_Protodrone_Helm",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Blackshield Protodrone Missile Launcher",
+          "id": "14066",
+          "item_name": "#DOTA_Item_Blackshield_Protodrone_Missile_Launcher",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Blackshield Protodrone Armor",
+          "id": "14065",
+          "item_name": "#DOTA_Item_Blackshield_Protodrone_Armor",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Blackshield Protodrone Laser",
+          "id": "14064",
+          "item_name": "#DOTA_Item_Blackshield_Protodrone_Laser",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Blackshield Protodrone Stinger",
+          "id": "14063",
+          "item_name": "#DOTA_Item_Blackshield_Protodrone_Stinger",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Fortified_Fabricator",
+      "store_bundle": "Fortified Fabricator",
+      "portrait_image": "econ/sets/v2/fortified_fabricator",
+      "items": [
+        {
+          "name": "Ballista of the Fortified Fabricator",
+          "id": "7968",
+          "item_name": "#DOTA_Item_Ballista_of_the_Fortified_Fabricator",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Cannon of the Fortified Fabricator",
+          "id": "7970",
+          "item_name": "#DOTA_Item_Cannon_of_the_Fortified_Fabricator",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Shoulders of the Fortified Fabricator",
+          "id": "7969",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Fortified_Fabricator",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Helmet of the Fortified Fabricator",
+          "id": "7967",
+          "item_name": "#DOTA_Item_Helmet_of_the_Fortified_Fabricator",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Controls of the Fortified Fabricator",
+          "id": "7972",
+          "item_name": "#DOTA_Item_Controls_of_the_Fortified_Fabricator",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Interstellar_Astrarium",
+      "store_bundle": "Interstellar Astrarium",
+      "portrait_image": "econ/sets/v2/interstellar_astrarium",
+      "items": [
+        {
+          "name": "Interstellar Astrarium - Offhand",
+          "id": "34371",
+          "item_name": "#DOTA_Item_Interstellar_Astrarium__Offhand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Interstellar Astrarium - Weapon",
+          "id": "34370",
+          "item_name": "#DOTA_Item_Interstellar_Astrarium__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Interstellar Astrarium - Back",
+          "id": "34369",
+          "item_name": "#DOTA_Item_Interstellar_Astrarium__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Interstellar Astrarium - Shoulder",
+          "id": "34368",
+          "item_name": "#DOTA_Item_Interstellar_Astrarium__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Interstellar Astrarium - Head",
+          "id": "34367",
+          "item_name": "#DOTA_Item_Interstellar_Astrarium__Head",
+          "item_slot": "head",
+          "item_rarity": "immortal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Submerged_Hazard",
+      "store_bundle": "Submerged Hazard",
+      "portrait_image": "econ/sets/v2/submerged_hazard",
+      "items": [
+        {
+          "name": "Submerged Hazard Launcher",
+          "id": "9264",
+          "item_name": "#DOTA_Item_Submerged_Hazard_Launcher",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Submerged Hazard Mask",
+          "id": "9265",
+          "item_name": "#DOTA_Item_Submerged_Hazard_Mask",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Submerged Hazard Hull",
+          "id": "9266",
+          "item_name": "#DOTA_Item_Submerged_Hazard_Hull",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Submerged Hazard Laser",
+          "id": "9267",
+          "item_name": "#DOTA_Item_Submerged_Hazard_Laser",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Submerged Hazard Propeller",
+          "id": "9268",
+          "item_name": "#DOTA_Item_Submerged_Hazard_Propeller",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Twitcher",
+      "store_bundle": "Twitcher",
+      "portrait_image": "econ/sets/v2/twitcher",
+      "items": [
+        {
+          "name": "Twitcher - Back",
+          "id": "26839",
+          "item_name": "#DOTA_Item_Twitcher__Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Twitcher - Head",
+          "id": "26840",
+          "item_name": "#DOTA_Item_Twitcher__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Twitcher - Offhand Weapon",
+          "id": "26841",
+          "item_name": "#DOTA_Item_Twitcher__Offhand_Weapon",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Twitcher - Shoulder",
+          "id": "26842",
+          "item_name": "#DOTA_Item_Twitcher__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Twitcher - Weapon",
+          "id": "26843",
+          "item_name": "#DOTA_Item_Twitcher__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "367",
+      "name": "Tinker's Right Arm",
+      "item_name": "#DOTA_Item_Tinkers_Right_Arm",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "463",
+      "name": "Tinker's Left Arm",
+      "item_name": "#DOTA_Item_Tinkers_Left_Arm",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "464",
+      "name": "Tinker's Shoulders",
+      "item_name": "#DOTA_Item_Tinkers_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "465",
+      "name": "Tinker's Helmet",
+      "item_name": "#DOTA_Item_Tinkers_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "466",
+      "name": "Tinker's Head",
+      "item_name": "#DOTA_Item_Tinkers_Head",
+      "item_slot": "body_head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "467",
+      "name": "Tinker's Cape",
+      "item_name": "#DOTA_Item_Tinkers_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "515",
+      "name": "Tinker's Ambient Effects",
+      "item_name": "#DOTA_Item_Tinkers_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "618",
+      "name": "Tinker's Misc",
+      "item_name": "#DOTA_Item_Tinkers_Misc",
+      "item_slot": "misc",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "6224",
+      "name": "Mecha Boots of Travel Mk III",
+      "item_name": "#DOTA_Item_Mecha_Boots_of_Travel_Mk_III",
+      "item_slot": "misc",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7143",
+      "name": "Rollermawster",
+      "item_name": "#DOTA_Item_Rollermawster",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7967",
+      "name": "Helmet of the Fortified Fabricator",
+      "item_name": "#DOTA_Item_Helmet_of_the_Fortified_Fabricator",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7968",
+      "name": "Ballista of the Fortified Fabricator",
+      "item_name": "#DOTA_Item_Ballista_of_the_Fortified_Fabricator",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7969",
+      "name": "Shoulders of the Fortified Fabricator",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Fortified_Fabricator",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7970",
+      "name": "Cannon of the Fortified Fabricator",
+      "item_name": "#DOTA_Item_Cannon_of_the_Fortified_Fabricator",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7972",
+      "name": "Controls of the Fortified Fabricator",
+      "item_name": "#DOTA_Item_Controls_of_the_Fortified_Fabricator",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9264",
+      "name": "Submerged Hazard Launcher",
+      "item_name": "#DOTA_Item_Submerged_Hazard_Launcher",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9265",
+      "name": "Submerged Hazard Mask",
+      "item_name": "#DOTA_Item_Submerged_Hazard_Mask",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9266",
+      "name": "Submerged Hazard Hull",
+      "item_name": "#DOTA_Item_Submerged_Hazard_Hull",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9267",
+      "name": "Submerged Hazard Laser",
+      "item_name": "#DOTA_Item_Submerged_Hazard_Laser",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9268",
+      "name": "Submerged Hazard Propeller",
+      "item_name": "#DOTA_Item_Submerged_Hazard_Propeller",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12543",
+      "name": "Taunt: Advanced Bladework",
+      "item_name": "#DOTA_Item_Taunt_Advanced_Bladework",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "taunt"
+    },
+    {
+      "id": "13777",
+      "name": "Arcanic Resonance Beam",
+      "item_name": "#DOTA_Item_Arcanic_Resonance_Beam",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14063",
+      "name": "Blackshield Protodrone Stinger",
+      "item_name": "#DOTA_Item_Blackshield_Protodrone_Stinger",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14064",
+      "name": "Blackshield Protodrone Laser",
+      "item_name": "#DOTA_Item_Blackshield_Protodrone_Laser",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14065",
+      "name": "Blackshield Protodrone Armor",
+      "item_name": "#DOTA_Item_Blackshield_Protodrone_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14066",
+      "name": "Blackshield Protodrone Missile Launcher",
+      "item_name": "#DOTA_Item_Blackshield_Protodrone_Missile_Launcher",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14067",
+      "name": "Blackshield Protodrone Helm",
+      "item_name": "#DOTA_Item_Blackshield_Protodrone_Helm",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20940",
+      "name": "Fortified Fabricator",
+      "item_name": "#DOTA_Item_Fortified_Fabricator",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21110",
+      "name": "Submerged Hazard",
+      "item_name": "#DOTA_Item_Submerged_Hazard",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21489",
+      "name": "Blackshield Protodrone",
+      "item_name": "#DOTA_Item_Blackshield_Protodrone",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26814",
+      "name": "Twitcher",
+      "item_name": "#DOTA_Item_Twitcher",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26839",
+      "name": "Twitcher - Back",
+      "item_name": "#DOTA_Item_Twitcher__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26840",
+      "name": "Twitcher - Head",
+      "item_name": "#DOTA_Item_Twitcher__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26841",
+      "name": "Twitcher - Offhand Weapon",
+      "item_name": "#DOTA_Item_Twitcher__Offhand_Weapon",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26842",
+      "name": "Twitcher - Shoulder",
+      "item_name": "#DOTA_Item_Twitcher__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26843",
+      "name": "Twitcher - Weapon",
+      "item_name": "#DOTA_Item_Twitcher__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34367",
+      "name": "Interstellar Astrarium - Head",
+      "item_name": "#DOTA_Item_Interstellar_Astrarium__Head",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34368",
+      "name": "Interstellar Astrarium - Shoulder",
+      "item_name": "#DOTA_Item_Interstellar_Astrarium__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34369",
+      "name": "Interstellar Astrarium - Back",
+      "item_name": "#DOTA_Item_Interstellar_Astrarium__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34370",
+      "name": "Interstellar Astrarium - Weapon",
+      "item_name": "#DOTA_Item_Interstellar_Astrarium__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34371",
+      "name": "Interstellar Astrarium - Offhand",
+      "item_name": "#DOTA_Item_Interstellar_Astrarium__Offhand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "34372",
+      "name": "Interstellar Astrarium",
+      "item_name": "#DOTA_Item_Interstellar_Astrarium",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    }
+  ]
+}

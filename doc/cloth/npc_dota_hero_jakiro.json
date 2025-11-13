@@ -1,0 +1,640 @@
+{
+  "defaults": {
+    "ambient_effects": {
+      "id": "631",
+      "name": "Jakiro's Ambient Effects",
+      "item_name": "#DOTA_Item_Jakiros_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    },
+    "body_head": {
+      "id": "633",
+      "name": "Jakiro's Fire Head",
+      "item_name": "#DOTA_Item_Jakiros_Fire_Head",
+      "item_slot": "body_head",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "634",
+      "name": "Jakiro's Ice Head",
+      "item_name": "#DOTA_Item_Jakiros_Ice_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "635",
+      "name": "Jakiro's Wings",
+      "item_name": "#DOTA_Item_Jakiros_Wings",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "tail": {
+      "id": "636",
+      "name": "Jakiro's Tail",
+      "item_name": "#DOTA_Item_Jakiros_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Ancestral_Heritage",
+      "store_bundle": "Ancestral Heritage",
+      "portrait_image": "econ/sets/v2/ancestral_heritage",
+      "items": [
+        {
+          "name": "Ancestral Heritage Back",
+          "id": "28674",
+          "item_name": "#DOTA_Item_Ancestral_Heritage_Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ancestral Heritage Tail",
+          "id": "28673",
+          "item_name": "#DOTA_Item_Ancestral_Heritage_Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ancestral Heritage Fire Head",
+          "id": "28672",
+          "item_name": "#DOTA_Item_Ancestral_Heritage_Fire_Head",
+          "item_slot": "body_head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ancestral Heritage Ice Head",
+          "id": "28671",
+          "item_name": "#DOTA_Item_Ancestral_Heritage_Ice_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Barding_of_Balaur",
+      "store_bundle": "Barding of Balaur",
+      "portrait_image": "econ/sets/v2/barding_of_balaur",
+      "items": [
+        {
+          "name": "Barding of Balaur - Tail",
+          "id": "28228",
+          "item_name": "#DOTA_Item_Barding_of_Balaur__Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Barding of Balaur - Wings",
+          "id": "28229",
+          "item_name": "#DOTA_Item_Barding_of_Balaur__Wings",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Barding of Balaur - Ice Head",
+          "id": "28230",
+          "item_name": "#DOTA_Item_Barding_of_Balaur__Ice_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Barding of Balaur - Fire Head",
+          "id": "28227",
+          "item_name": "#DOTA_Item_Barding_of_Balaur__Fire_Head",
+          "item_slot": "body_head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Chimeric_Rapport",
+      "store_bundle": "Chimeric Rapport",
+      "portrait_image": "econ/sets/v2/chimeric_rapport",
+      "items": [
+        {
+          "name": "Barding of Chimeric Rapport",
+          "id": "13025",
+          "item_name": "#DOTA_Item_Barding_of_Chimeric_Rapport",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Tail of Chimeric Rapport",
+          "id": "13024",
+          "item_name": "#DOTA_Item_Tail_of_Chimeric_Rapport",
+          "item_slot": "tail",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Icy Glare of Chimeric Rapport",
+          "id": "13026",
+          "item_name": "#DOTA_Item_Icy_Glare_of_Chimeric_Rapport",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Molten Gaze of Chimeric Rapport",
+          "id": "13027",
+          "item_name": "#DOTA_Item_Molten_Gaze_of_Chimeric_Rapport",
+          "item_slot": "body_head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Elder_Convergence",
+      "store_bundle": "Elder Convergence",
+      "portrait_image": "econ/sets/v2/elder_convergence",
+      "items": [
+        {
+          "name": "Heat of Elder Convergence",
+          "id": "9296",
+          "item_name": "#DOTA_Item_Heat_of_Elder_Convergence",
+          "item_slot": "body_head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Wings of Elder Convergence",
+          "id": "9262",
+          "item_name": "#DOTA_Item_Wings_of_Elder_Convergence",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Frost of Elder Convergence",
+          "id": "9297",
+          "item_name": "#DOTA_Item_Frost_of_Elder_Convergence",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Tail of Elder Convergence",
+          "id": "9298",
+          "item_name": "#DOTA_Item_Tail_of_Elder_Convergence",
+          "item_slot": "tail",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Fissured_Flight",
+      "store_bundle": "Fissured Flight",
+      "portrait_image": "econ/sets/v2/fissured_flight",
+      "items": [
+        {
+          "name": "Fissured Flight - Fire Head",
+          "id": "14126",
+          "item_name": "#DOTA_Item_Fissured_Flight__Fire_Head",
+          "item_slot": "body_head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Fissured Flight - Back",
+          "id": "14125",
+          "item_name": "#DOTA_Item_Fissured_Flight__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Fissured Flight - Tail",
+          "id": "14124",
+          "item_name": "#DOTA_Item_Fissured_Flight__Tail",
+          "item_slot": "tail",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Fissured Flight - Ice Head",
+          "id": "14123",
+          "item_name": "#DOTA_Item_Fissured_Flight__Ice_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Herald_of_Frost_and_Flame",
+      "store_bundle": "Herald of Frost and Flame",
+      "portrait_image": "econ/sets/v2/herald_of_frost_and_flame",
+      "items": [
+        {
+          "name": "Herald of Frost and Flame - Tail",
+          "id": "25722",
+          "item_name": "#DOTA_Item_Herald_of_Frost_and_Flame__Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Herald of Frost and Flame - Back",
+          "id": "25723",
+          "item_name": "#DOTA_Item_Herald_of_Frost_and_Flame__Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Herald of Frost and Flame - Frost Head",
+          "id": "25721",
+          "item_name": "#DOTA_Item_Herald_of_Frost_and_Flame__Frost_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Herald of Frost and Flame - Flame Head",
+          "id": "25720",
+          "item_name": "#DOTA_Item_Herald_of_Frost_and_Flame__Flame_Head",
+          "item_slot": "body_head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Tines_of_the_Pyrexae",
+      "store_bundle": "Tines of the Pyrexae",
+      "portrait_image": "econ/sets/v2/jakiro_tines_of_the_pyrexae",
+      "items": [
+        {
+          "name": "Tines of the Pyrexae - Body Head",
+          "id": "28974",
+          "item_name": "#DOTA_Item_Tines_of_the_Pyrexae__Body_Head",
+          "item_slot": "body_head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Tines of the Pyrexae - Head",
+          "id": "28973",
+          "item_name": "#DOTA_Item_Tines_of_the_Pyrexae__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Tines of the Pyrexae - Back",
+          "id": "28972",
+          "item_name": "#DOTA_Item_Tines_of_the_Pyrexae__Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Tines of the Pyrexae - Tail",
+          "id": "28971",
+          "item_name": "#DOTA_Item_Tines_of_the_Pyrexae__Tail",
+          "item_slot": "tail",
+          "item_rarity": "rare"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "631",
+      "name": "Jakiro's Ambient Effects",
+      "item_name": "#DOTA_Item_Jakiros_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "633",
+      "name": "Jakiro's Fire Head",
+      "item_name": "#DOTA_Item_Jakiros_Fire_Head",
+      "item_slot": "body_head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "634",
+      "name": "Jakiro's Ice Head",
+      "item_name": "#DOTA_Item_Jakiros_Ice_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "635",
+      "name": "Jakiro's Wings",
+      "item_name": "#DOTA_Item_Jakiros_Wings",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "636",
+      "name": "Jakiro's Tail",
+      "item_name": "#DOTA_Item_Jakiros_Tail",
+      "item_slot": "tail",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "7820",
+      "name": "Pyrexaec Floe",
+      "item_name": "#DOTA_Item_Pyrexaec_Floe",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9213",
+      "name": "Taunt: Fluid Mechanics",
+      "item_name": "#DOTA_Item_Taunt_Fluid_Mechanics",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "9262",
+      "name": "Wings of Elder Convergence",
+      "item_name": "#DOTA_Item_Wings_of_Elder_Convergence",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9296",
+      "name": "Heat of Elder Convergence",
+      "item_name": "#DOTA_Item_Heat_of_Elder_Convergence",
+      "item_slot": "body_head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9297",
+      "name": "Frost of Elder Convergence",
+      "item_name": "#DOTA_Item_Frost_of_Elder_Convergence",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9298",
+      "name": "Tail of Elder Convergence",
+      "item_name": "#DOTA_Item_Tail_of_Elder_Convergence",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9745",
+      "name": "Pyrexaec Flux",
+      "item_name": "#DOTA_Item_Pyrexaec_Flux",
+      "item_slot": "body_head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13024",
+      "name": "Tail of Chimeric Rapport",
+      "item_name": "#DOTA_Item_Tail_of_Chimeric_Rapport",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13025",
+      "name": "Barding of Chimeric Rapport",
+      "item_name": "#DOTA_Item_Barding_of_Chimeric_Rapport",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13026",
+      "name": "Icy Glare of Chimeric Rapport",
+      "item_name": "#DOTA_Item_Icy_Glare_of_Chimeric_Rapport",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13027",
+      "name": "Molten Gaze of Chimeric Rapport",
+      "item_name": "#DOTA_Item_Molten_Gaze_of_Chimeric_Rapport",
+      "item_slot": "body_head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14123",
+      "name": "Fissured Flight - Ice Head",
+      "item_name": "#DOTA_Item_Fissured_Flight__Ice_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14124",
+      "name": "Fissured Flight - Tail",
+      "item_name": "#DOTA_Item_Fissured_Flight__Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14125",
+      "name": "Fissured Flight - Back",
+      "item_name": "#DOTA_Item_Fissured_Flight__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14126",
+      "name": "Fissured Flight - Fire Head",
+      "item_name": "#DOTA_Item_Fissured_Flight__Fire_Head",
+      "item_slot": "body_head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14949",
+      "name": "Pyrexaec Forge",
+      "item_name": "#DOTA_Item_Pyrexaec_Forge",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "21153",
+      "name": "Elder Convergence",
+      "item_name": "#DOTA_Item_Elder_Convergence",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21332",
+      "name": "Chimeric Rapport",
+      "item_name": "#DOTA_Item_Chimeric_Rapport",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21500",
+      "name": "Fissured Flight",
+      "item_name": "#DOTA_Item_Fissured_Flight",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25719",
+      "name": "Herald of Frost and Flame",
+      "item_name": "#DOTA_Item_Herald_of_Frost_and_Flame",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25720",
+      "name": "Herald of Frost and Flame - Flame Head",
+      "item_name": "#DOTA_Item_Herald_of_Frost_and_Flame__Flame_Head",
+      "item_slot": "body_head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25721",
+      "name": "Herald of Frost and Flame - Frost Head",
+      "item_name": "#DOTA_Item_Herald_of_Frost_and_Flame__Frost_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25722",
+      "name": "Herald of Frost and Flame - Tail",
+      "item_name": "#DOTA_Item_Herald_of_Frost_and_Flame__Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25723",
+      "name": "Herald of Frost and Flame - Back",
+      "item_name": "#DOTA_Item_Herald_of_Frost_and_Flame__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28226",
+      "name": "Barding of Balaur",
+      "item_name": "#DOTA_Item_Barding_of_Balaur",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28227",
+      "name": "Barding of Balaur - Fire Head",
+      "item_name": "#DOTA_Item_Barding_of_Balaur__Fire_Head",
+      "item_slot": "body_head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28228",
+      "name": "Barding of Balaur - Tail",
+      "item_name": "#DOTA_Item_Barding_of_Balaur__Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28229",
+      "name": "Barding of Balaur - Wings",
+      "item_name": "#DOTA_Item_Barding_of_Balaur__Wings",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28230",
+      "name": "Barding of Balaur - Ice Head",
+      "item_name": "#DOTA_Item_Barding_of_Balaur__Ice_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28671",
+      "name": "Ancestral Heritage Ice Head",
+      "item_name": "#DOTA_Item_Ancestral_Heritage_Ice_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28672",
+      "name": "Ancestral Heritage Fire Head",
+      "item_name": "#DOTA_Item_Ancestral_Heritage_Fire_Head",
+      "item_slot": "body_head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28673",
+      "name": "Ancestral Heritage Tail",
+      "item_name": "#DOTA_Item_Ancestral_Heritage_Tail",
+      "item_slot": "tail",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28674",
+      "name": "Ancestral Heritage Back",
+      "item_name": "#DOTA_Item_Ancestral_Heritage_Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28971",
+      "name": "Tines of the Pyrexae - Tail",
+      "item_name": "#DOTA_Item_Tines_of_the_Pyrexae__Tail",
+      "item_slot": "tail",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28972",
+      "name": "Tines of the Pyrexae - Back",
+      "item_name": "#DOTA_Item_Tines_of_the_Pyrexae__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28973",
+      "name": "Tines of the Pyrexae - Head",
+      "item_name": "#DOTA_Item_Tines_of_the_Pyrexae__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28974",
+      "name": "Tines of the Pyrexae - Body Head",
+      "item_name": "#DOTA_Item_Tines_of_the_Pyrexae__Body_Head",
+      "item_slot": "body_head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29124",
+      "name": "Ancestral Heritage",
+      "item_name": "#DOTA_Item_Ancestral_Heritage",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "29200",
+      "name": "Tines of the Pyrexae",
+      "item_name": "#DOTA_Item_Tines_of_the_Pyrexae",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    }
+  ]
+}

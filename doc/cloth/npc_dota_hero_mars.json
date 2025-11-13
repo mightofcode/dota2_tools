@@ -1,0 +1,769 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "658",
+      "name": "Mars' Spear",
+      "item_name": "#DOTA_Item_Mars_Spear",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "armor": {
+      "id": "670",
+      "name": "Mars' Upper Body",
+      "item_name": "#DOTA_Item_Mars_Upper_Body",
+      "item_slot": "armor",
+      "item_rarity": "common"
+    },
+    "legs": {
+      "id": "671",
+      "name": "Mars' Lower Body",
+      "item_name": "#DOTA_Item_Mars_Lower_Body",
+      "item_slot": "legs",
+      "item_rarity": "common"
+    },
+    "offhand_weapon": {
+      "id": "672",
+      "name": "Mars' Shield",
+      "item_name": "#DOTA_Item_Mars_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "673",
+      "name": "Mars' Head",
+      "item_name": "#DOTA_Item_Mars_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "costume": {
+      "id": "717",
+      "name": "Mars' Costume",
+      "item_name": "#DOTA_Item_Mars_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Arena_Champion",
+      "store_bundle": "Arena Champion",
+      "portrait_image": "econ/sets/v2/arena_champion",
+      "items": [
+        {
+          "name": "Arena Champion Shield",
+          "id": "14918",
+          "item_name": "#DOTA_Item_Arena_Champion_Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Arena Champion Spear",
+          "id": "14917",
+          "item_name": "#DOTA_Item_Arena_Champion_Spear",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Arena Champion Armor",
+          "id": "14916",
+          "item_name": "#DOTA_Item_Arena_Champion_Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Arena Champion Belt",
+          "id": "14915",
+          "item_name": "#DOTA_Item_Arena_Champion_Belt",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Forgotten_Fate",
+      "store_bundle": "Forgotten Fate",
+      "portrait_image": "econ/sets/v2/forgotten_fate",
+      "items": [
+        {
+          "name": "Forgotten Fate - Armor",
+          "id": "14763",
+          "item_name": "#DOTA_Item_Forgotten_Fate__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Forgotten Fate - Legs",
+          "id": "14761",
+          "item_name": "#DOTA_Item_Forgotten_Fate__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Forgotten Fate - Off-Hand",
+          "id": "14760",
+          "item_name": "#DOTA_Item_Forgotten_Fate__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Forgotten Fate - Weapon",
+          "id": "14762",
+          "item_name": "#DOTA_Item_Forgotten_Fate__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Forsworn_Legacy",
+      "store_bundle": "Forsworn Legacy",
+      "portrait_image": "econ/sets/v2/forsworn_legacy",
+      "items": [
+        {
+          "name": "Forsworn Legacy - Armor",
+          "id": "14881",
+          "item_name": "#DOTA_Item_Forsworn_Legacy__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Forsworn Legacy - Spear",
+          "id": "14880",
+          "item_name": "#DOTA_Item_Forsworn_Legacy__Spear",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Forsworn Legacy - Shield",
+          "id": "14879",
+          "item_name": "#DOTA_Item_Forsworn_Legacy__Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Forsworn Legacy - Legs",
+          "id": "14878",
+          "item_name": "#DOTA_Item_Forsworn_Legacy__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Mars_Diretide_Shimmer_Bundle",
+      "store_bundle": "Mars' Diretide Shimmer Bundle",
+      "portrait_image": "econ/sets/v2/mars_diretide_shimmer_bundle",
+      "items": [
+        {
+          "name": "Mars' Diretide Shimmer Costume",
+          "id": "17662",
+          "item_name": "#DOTA_Item_Mars_Diretide_Shimmer_Costume",
+          "item_slot": "costume",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Mars' Diretide Shimmer Shield",
+          "id": "17675",
+          "item_name": "#DOTA_Item_Mars_Diretide_Shimmer_Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Mars' Diretide Shimmer Upper Body",
+          "id": "17676",
+          "item_name": "#DOTA_Item_Mars_Diretide_Shimmer_Upper_Body",
+          "item_slot": "armor",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Mars' Diretide Shimmer Spear",
+          "id": "17677",
+          "item_name": "#DOTA_Item_Mars_Diretide_Shimmer_Spear",
+          "item_slot": "weapon",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Mars' Diretide Shimmer Lower Body",
+          "id": "17678",
+          "item_name": "#DOTA_Item_Mars_Diretide_Shimmer_Lower_Body",
+          "item_slot": "legs",
+          "item_rarity": "seasonal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Mars_Gallus",
+      "store_bundle": "Mars Gallus",
+      "portrait_image": "econ/sets/v2/mars_gallus",
+      "items": [
+        {
+          "name": "Mars Gallus - Weapon",
+          "id": "29348",
+          "item_name": "#DOTA_Item_Mars_Gallus__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mars Gallus - Shield",
+          "id": "29337",
+          "item_name": "#DOTA_Item_Mars_Gallus__Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mars Gallus - Legs",
+          "id": "29336",
+          "item_name": "#DOTA_Item_Mars_Gallus__Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mars Gallus - Armor",
+          "id": "29335",
+          "item_name": "#DOTA_Item_Mars_Gallus__Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Molten_Bore",
+      "store_bundle": "Molten Bore",
+      "portrait_image": "econ/sets/v2/molten_bore",
+      "items": [
+        {
+          "name": "Molten Bore - Armor",
+          "id": "14429",
+          "item_name": "#DOTA_Item_Molten_Bore__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Molten Bore - Legs",
+          "id": "14428",
+          "item_name": "#DOTA_Item_Molten_Bore__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Molten Bore - Off-Hand",
+          "id": "14427",
+          "item_name": "#DOTA_Item_Molten_Bore__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Molten Bore - Weapon",
+          "id": "14426",
+          "item_name": "#DOTA_Item_Molten_Bore__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Vile_Behemoth",
+      "store_bundle": "Vile Behemoth",
+      "portrait_image": "econ/sets/v2/vile_behemoth",
+      "items": [
+        {
+          "name": "Vile Behemoth - Shield",
+          "id": "28165",
+          "item_name": "#DOTA_Item_Vile_Behemoth__Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Vile Behemoth - Spear",
+          "id": "28166",
+          "item_name": "#DOTA_Item_Vile_Behemoth__Spear",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Vile Behemoth - Legs",
+          "id": "28167",
+          "item_name": "#DOTA_Item_Vile_Behemoth__Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Vile Behemoth - Armor",
+          "id": "28168",
+          "item_name": "#DOTA_Item_Vile_Behemoth__Armor",
+          "item_slot": "armor",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Wings_of_Imperium",
+      "store_bundle": "Wings of Imperium",
+      "portrait_image": "econ/sets/v2/wings_of_imperium",
+      "items": [
+        {
+          "name": "Wings of Imperium - Off-Hand",
+          "id": "23710",
+          "item_name": "#DOTA_Item_Wings_of_Imperium__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Wings of Imperium - Weapon",
+          "id": "23709",
+          "item_name": "#DOTA_Item_Wings_of_Imperium__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Wings of Imperium - Legs",
+          "id": "23708",
+          "item_name": "#DOTA_Item_Wings_of_Imperium__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Wings of Imperium - Armor",
+          "id": "23703",
+          "item_name": "#DOTA_Item_Wings_of_Imperium__Armor",
+          "item_slot": "armor",
+          "item_rarity": "mythical"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "658",
+      "name": "Mars' Spear",
+      "item_name": "#DOTA_Item_Mars_Spear",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "670",
+      "name": "Mars' Upper Body",
+      "item_name": "#DOTA_Item_Mars_Upper_Body",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "671",
+      "name": "Mars' Lower Body",
+      "item_name": "#DOTA_Item_Mars_Lower_Body",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "672",
+      "name": "Mars' Shield",
+      "item_name": "#DOTA_Item_Mars_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "673",
+      "name": "Mars' Head",
+      "item_name": "#DOTA_Item_Mars_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "675",
+      "name": "Mars' Upper Body Debut",
+      "item_name": "#DOTA_Item_Mars_Upper_Body_Debut",
+      "item_slot": "armor",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "676",
+      "name": "Mars' Lower Body Debut",
+      "item_name": "#DOTA_Item_Mars_Lower_Body_Debut",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "717",
+      "name": "Mars' Costume",
+      "item_name": "#DOTA_Item_Mars_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "12568",
+      "name": "Taunt: Get the Blood Flowing",
+      "item_name": "#DOTA_Item_Taunt_Get_the_Blood_Flowing",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "taunt"
+    },
+    {
+      "id": "13538",
+      "name": "Progenitor's Bane",
+      "item_name": "#DOTA_Item_Progenitors_Bane",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13572",
+      "name": "Crimson Progenitor's Bane",
+      "item_name": "#DOTA_Item_Crimson_Progenitors_Bane",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14426",
+      "name": "Molten Bore - Weapon",
+      "item_name": "#DOTA_Item_Molten_Bore__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14427",
+      "name": "Molten Bore - Off-Hand",
+      "item_name": "#DOTA_Item_Molten_Bore__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14428",
+      "name": "Molten Bore - Legs",
+      "item_name": "#DOTA_Item_Molten_Bore__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14429",
+      "name": "Molten Bore - Armor",
+      "item_name": "#DOTA_Item_Molten_Bore__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14760",
+      "name": "Forgotten Fate - Off-Hand",
+      "item_name": "#DOTA_Item_Forgotten_Fate__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14761",
+      "name": "Forgotten Fate - Legs",
+      "item_name": "#DOTA_Item_Forgotten_Fate__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14762",
+      "name": "Forgotten Fate - Weapon",
+      "item_name": "#DOTA_Item_Forgotten_Fate__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14763",
+      "name": "Forgotten Fate - Armor",
+      "item_name": "#DOTA_Item_Forgotten_Fate__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14878",
+      "name": "Forsworn Legacy - Legs",
+      "item_name": "#DOTA_Item_Forsworn_Legacy__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14879",
+      "name": "Forsworn Legacy - Shield",
+      "item_name": "#DOTA_Item_Forsworn_Legacy__Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14880",
+      "name": "Forsworn Legacy - Spear",
+      "item_name": "#DOTA_Item_Forsworn_Legacy__Spear",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14881",
+      "name": "Forsworn Legacy - Armor",
+      "item_name": "#DOTA_Item_Forsworn_Legacy__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14915",
+      "name": "Arena Champion Belt",
+      "item_name": "#DOTA_Item_Arena_Champion_Belt",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14916",
+      "name": "Arena Champion Armor",
+      "item_name": "#DOTA_Item_Arena_Champion_Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14917",
+      "name": "Arena Champion Spear",
+      "item_name": "#DOTA_Item_Arena_Champion_Spear",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14918",
+      "name": "Arena Champion Shield",
+      "item_name": "#DOTA_Item_Arena_Champion_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17662",
+      "name": "Mars' Diretide Shimmer Costume",
+      "item_name": "#DOTA_Item_Mars_Diretide_Shimmer_Costume",
+      "item_slot": "costume",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17675",
+      "name": "Mars' Diretide Shimmer Shield",
+      "item_name": "#DOTA_Item_Mars_Diretide_Shimmer_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17676",
+      "name": "Mars' Diretide Shimmer Upper Body",
+      "item_name": "#DOTA_Item_Mars_Diretide_Shimmer_Upper_Body",
+      "item_slot": "armor",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17677",
+      "name": "Mars' Diretide Shimmer Spear",
+      "item_name": "#DOTA_Item_Mars_Diretide_Shimmer_Spear",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17678",
+      "name": "Mars' Diretide Shimmer Lower Body",
+      "item_name": "#DOTA_Item_Mars_Diretide_Shimmer_Lower_Body",
+      "item_slot": "legs",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18370",
+      "name": "God's Mercy",
+      "item_name": "#DOTA_Item_Gods_Mercy",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "21557",
+      "name": "Molten Bore",
+      "item_name": "#DOTA_Item_Molten_Bore",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21587",
+      "name": "Forgotten Fate",
+      "item_name": "#DOTA_Item_Forgotten_Fate",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21612",
+      "name": "Forsworn Legacy",
+      "item_name": "#DOTA_Item_Forsworn_Legacy",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21645",
+      "name": "Arena Champion",
+      "item_name": "#DOTA_Item_Arena_Champion",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21674",
+      "name": "Mars' Diretide Shimmer Bundle",
+      "item_name": "#DOTA_Item_Mars_Diretide_Shimmer_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22264",
+      "name": "God's Mercy of the Crimson Witness",
+      "item_name": "#DOTA_Item_Gods_Mercy_of_the_Crimson_Witness",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23703",
+      "name": "Wings of Imperium - Armor",
+      "item_name": "#DOTA_Item_Wings_of_Imperium__Armor",
+      "item_slot": "armor",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23708",
+      "name": "Wings of Imperium - Legs",
+      "item_name": "#DOTA_Item_Wings_of_Imperium__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23709",
+      "name": "Wings of Imperium - Weapon",
+      "item_name": "#DOTA_Item_Wings_of_Imperium__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23710",
+      "name": "Wings of Imperium - Off-Hand",
+      "item_name": "#DOTA_Item_Wings_of_Imperium__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23711",
+      "name": "Wings of Imperium",
+      "item_name": "#DOTA_Item_Wings_of_Imperium",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28164",
+      "name": "Vile Behemoth",
+      "item_name": "#DOTA_Item_Vile_Behemoth",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "28165",
+      "name": "Vile Behemoth - Shield",
+      "item_name": "#DOTA_Item_Vile_Behemoth__Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28166",
+      "name": "Vile Behemoth - Spear",
+      "item_name": "#DOTA_Item_Vile_Behemoth__Spear",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28167",
+      "name": "Vile Behemoth - Legs",
+      "item_name": "#DOTA_Item_Vile_Behemoth__Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28168",
+      "name": "Vile Behemoth - Armor",
+      "item_name": "#DOTA_Item_Vile_Behemoth__Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29335",
+      "name": "Mars Gallus - Armor",
+      "item_name": "#DOTA_Item_Mars_Gallus__Armor",
+      "item_slot": "armor",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29336",
+      "name": "Mars Gallus - Legs",
+      "item_name": "#DOTA_Item_Mars_Gallus__Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29337",
+      "name": "Mars Gallus - Shield",
+      "item_name": "#DOTA_Item_Mars_Gallus__Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29348",
+      "name": "Mars Gallus - Weapon",
+      "item_name": "#DOTA_Item_Mars_Gallus__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "30393",
+      "name": "Mars Gallus",
+      "item_name": "#DOTA_Item_Mars_Gallus",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    }
+  ]
+}

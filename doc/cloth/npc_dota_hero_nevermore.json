@@ -1,0 +1,706 @@
+{
+  "defaults": {
+    "head": {
+      "id": "387",
+      "name": "Shadow Fiend's Head",
+      "item_name": "#DOTA_Item_Shadow_Fiends_Head",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "shoulder": {
+      "id": "486",
+      "name": "Shadow Fiend's Shoulders",
+      "item_name": "#DOTA_Item_Shadow_Fiends_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common"
+    },
+    "arms": {
+      "id": "488",
+      "name": "Shadow Fiend's Arms",
+      "item_name": "#DOTA_Item_Shadow_Fiends_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common"
+    },
+    "ambient_effects": {
+      "id": "509",
+      "name": "Shadow Fiend's Ambient Effects",
+      "item_name": "#DOTA_Item_Shadow_Fiends_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Demon_Eater",
+      "store_bundle": "Demon Eater",
+      "portrait_image": "econ/sets/v2/demon_eater",
+      "items": [
+        {
+          "name": "Demon Eater",
+          "id": "6996",
+          "item_name": "#DOTA_Item_Demon_Eater",
+          "item_slot": "head",
+          "item_rarity": "arcana"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Diabolical_Fiend",
+      "store_bundle": "Diabolical Fiend",
+      "portrait_image": "econ/sets/v2/diabolical_fiend",
+      "items": [
+        {
+          "name": "Arms of the Diabolical Fiend",
+          "id": "7193",
+          "item_name": "#DOTA_Item_Arms_of_the_Diabolical_Fiend",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Horns of the Diabolical Fiend",
+          "id": "7188",
+          "item_name": "#DOTA_Item_Horns_of_the_Diabolical_Fiend",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Armor of the Diabolical Fiend",
+          "id": "7279",
+          "item_name": "#DOTA_Item_Armor_of_the_Diabolical_Fiend",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Eternal_Harvest",
+      "store_bundle": "Eternal Harvest",
+      "portrait_image": "econ/sets/v2/eternal_harvest",
+      "items": [
+        {
+          "name": "Horns of Eternal Harvest",
+          "id": "9021",
+          "item_name": "#DOTA_Item_Horns_of_Eternal_Harvest",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Pauldrons of Eternal Harvest",
+          "id": "9020",
+          "item_name": "#DOTA_Item_Pauldrons_of_Eternal_Harvest",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Grips of Eternal Harvest",
+          "id": "9019",
+          "item_name": "#DOTA_Item_Grips_of_Eternal_Harvest",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Fathomless_Ravager",
+      "store_bundle": "Fathomless Ravager",
+      "portrait_image": "econ/sets/v2/fathomless_ravager",
+      "items": [
+        {
+          "name": "Helm of the Fathomless Ravager",
+          "id": "9496",
+          "item_name": "#DOTA_Item_Helm_of_the_Fathomless_Ravager",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Claws of the Fathomless Ravager",
+          "id": "9495",
+          "item_name": "#DOTA_Item_Claws_of_the_Fathomless_Ravager",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Breastplate of the Fathomless Ravager",
+          "id": "9494",
+          "item_name": "#DOTA_Item_Breastplate_of_the_Fathomless_Ravager",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Murder_of_Souls",
+      "store_bundle": "Murder of Souls",
+      "portrait_image": "econ/sets/v2/murder_of_souls",
+      "items": [
+        {
+          "name": "Murder of Souls Shoulders",
+          "id": "9995",
+          "item_name": "#DOTA_Item_Murder_of_Souls_Shoulders",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Murder of Souls Crown",
+          "id": "9994",
+          "item_name": "#DOTA_Item_Murder_of_Souls_Crown",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Murder of Souls Talons",
+          "id": "9993",
+          "item_name": "#DOTA_Item_Murder_of_Souls_Talons",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_King_of_Vipers",
+      "store_bundle": "King of Vipers",
+      "portrait_image": "econ/sets/v2/nevermore_king_of_vipers",
+      "items": [
+        {
+          "name": "King of Vipers Arms",
+          "id": "19844",
+          "item_name": "#DOTA_Item_Vote_Only_King_of_Vipers_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "King of Vipers Head",
+          "id": "19843",
+          "item_name": "#DOTA_Item_Vote_Only_King_of_Vipers_Head",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "King of Vipers Shoulder",
+          "id": "19841",
+          "item_name": "#DOTA_Item_Vote_Only_King_of_Vipers_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Raven_Harvest",
+      "store_bundle": "Raven Harvest",
+      "portrait_image": "econ/sets/v2/raven_harvest",
+      "items": [
+        {
+          "name": "Raven Harvest - Shoulder",
+          "id": "29089",
+          "item_name": "#DOTA_Item_Raven_Harvest__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Raven Harvest - Head",
+          "id": "29088",
+          "item_name": "#DOTA_Item_Raven_Harvest__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Raven Harvest - Arms",
+          "id": "29087",
+          "item_name": "#DOTA_Item_Raven_Harvest__Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Soul_Corpulence",
+      "store_bundle": "Soul Corpulence",
+      "portrait_image": "econ/sets/v2/soul_corpulence",
+      "items": [
+        {
+          "name": "Soul Corpulence - Arms",
+          "id": "12679",
+          "item_name": "#DOTA_Item_Soul_Corpulence__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Soul Corpulence - Head",
+          "id": "12678",
+          "item_name": "#DOTA_Item_Soul_Corpulence__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Soul Corpulence - Shoulder",
+          "id": "12677",
+          "item_name": "#DOTA_Item_Soul_Corpulence__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Souls_Tyrant",
+      "store_bundle": "Souls Tyrant",
+      "portrait_image": "econ/sets/v2/souls_tyrant",
+      "items": [
+        {
+          "name": "Souls Tyrant Shoulder",
+          "id": "13507",
+          "item_name": "#DOTA_Item_Souls_Tyrant_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Souls Tyrant Arms",
+          "id": "13506",
+          "item_name": "#DOTA_Item_Souls_Tyrant_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Souls Tyrant Head",
+          "id": "13505",
+          "item_name": "#DOTA_Item_Souls_Tyrant_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Spring_Lineage_Eternal_Harvest",
+      "store_bundle": "Spring Lineage Eternal Harvest",
+      "portrait_image": "econ/sets/v2/spring_lineage_eternal_harvest",
+      "items": [
+        {
+          "name": "Spring Lineage Grips of Eternal Harvest",
+          "id": "22843",
+          "item_name": "#DOTA_Item_Spring_Lineage_Grips_of_Eternal_Harvest",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Spring Lineage Pauldrons of Eternal Harvest",
+          "id": "22844",
+          "item_name": "#DOTA_Item_Spring_Lineage_Pauldrons_of_Eternal_Harvest",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Spring Lineage Horns of Eternal Harvest",
+          "id": "22845",
+          "item_name": "#DOTA_Item_Spring_Lineage_Horns_of_Eternal_Harvest",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Twilight_Effigy",
+      "store_bundle": "Twilight Effigy",
+      "portrait_image": "econ/sets/v2/twilight_effigy",
+      "items": [
+        {
+          "name": "Twilight Effigy Arms",
+          "id": "18034",
+          "item_name": "#DOTA_Item_Twilight_Effigy_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Twilight Effigy Head",
+          "id": "18035",
+          "item_name": "#DOTA_Item_Twilight_Effigy_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Twilight Effigy Armor",
+          "id": "18036",
+          "item_name": "#DOTA_Item_Twilight_Effigy_Armor",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "387",
+      "name": "Shadow Fiend's Head",
+      "item_name": "#DOTA_Item_Shadow_Fiends_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "486",
+      "name": "Shadow Fiend's Shoulders",
+      "item_name": "#DOTA_Item_Shadow_Fiends_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "488",
+      "name": "Shadow Fiend's Arms",
+      "item_name": "#DOTA_Item_Shadow_Fiends_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "509",
+      "name": "Shadow Fiend's Ambient Effects",
+      "item_name": "#DOTA_Item_Shadow_Fiends_Ambient_Effects",
+      "item_slot": "ambient_effects",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "6996",
+      "name": "Demon Eater",
+      "item_name": "#DOTA_Item_Demon_Eater",
+      "item_slot": "head",
+      "item_rarity": "arcana",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7188",
+      "name": "Horns of the Diabolical Fiend",
+      "item_name": "#DOTA_Item_Horns_of_the_Diabolical_Fiend",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7193",
+      "name": "Arms of the Diabolical Fiend",
+      "item_name": "#DOTA_Item_Arms_of_the_Diabolical_Fiend",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7279",
+      "name": "Armor of the Diabolical Fiend",
+      "item_name": "#DOTA_Item_Armor_of_the_Diabolical_Fiend",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8072",
+      "name": "Taunt: Fiendish Swag!",
+      "item_name": "#DOTA_Item_Taunt_Fiendish_Swag",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "8259",
+      "name": "Arms of Desolation",
+      "item_name": "#DOTA_Item_Arms_of_Desolation",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9019",
+      "name": "Grips of Eternal Harvest",
+      "item_name": "#DOTA_Item_Grips_of_Eternal_Harvest",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9020",
+      "name": "Pauldrons of Eternal Harvest",
+      "item_name": "#DOTA_Item_Pauldrons_of_Eternal_Harvest",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9021",
+      "name": "Horns of Eternal Harvest",
+      "item_name": "#DOTA_Item_Horns_of_Eternal_Harvest",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9494",
+      "name": "Breastplate of the Fathomless Ravager",
+      "item_name": "#DOTA_Item_Breastplate_of_the_Fathomless_Ravager",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9495",
+      "name": "Claws of the Fathomless Ravager",
+      "item_name": "#DOTA_Item_Claws_of_the_Fathomless_Ravager",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9496",
+      "name": "Helm of the Fathomless Ravager",
+      "item_name": "#DOTA_Item_Helm_of_the_Fathomless_Ravager",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9993",
+      "name": "Murder of Souls Talons",
+      "item_name": "#DOTA_Item_Murder_of_Souls_Talons",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9994",
+      "name": "Murder of Souls Crown",
+      "item_name": "#DOTA_Item_Murder_of_Souls_Crown",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9995",
+      "name": "Murder of Souls Shoulders",
+      "item_name": "#DOTA_Item_Murder_of_Souls_Shoulders",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12677",
+      "name": "Soul Corpulence - Shoulder",
+      "item_name": "#DOTA_Item_Soul_Corpulence__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12678",
+      "name": "Soul Corpulence - Head",
+      "item_name": "#DOTA_Item_Soul_Corpulence__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12679",
+      "name": "Soul Corpulence - Arms",
+      "item_name": "#DOTA_Item_Soul_Corpulence__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13505",
+      "name": "Souls Tyrant Head",
+      "item_name": "#DOTA_Item_Souls_Tyrant_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13506",
+      "name": "Souls Tyrant Arms",
+      "item_name": "#DOTA_Item_Souls_Tyrant_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13507",
+      "name": "Souls Tyrant Shoulder",
+      "item_name": "#DOTA_Item_Souls_Tyrant_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18034",
+      "name": "Twilight Effigy Arms",
+      "item_name": "#DOTA_Item_Twilight_Effigy_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18035",
+      "name": "Twilight Effigy Head",
+      "item_name": "#DOTA_Item_Twilight_Effigy_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18036",
+      "name": "Twilight Effigy Armor",
+      "item_name": "#DOTA_Item_Twilight_Effigy_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19841",
+      "name": "King of Vipers Shoulder",
+      "item_name": "#DOTA_Item_Vote_Only_King_of_Vipers_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19843",
+      "name": "King of Vipers Head",
+      "item_name": "#DOTA_Item_Vote_Only_King_of_Vipers_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19844",
+      "name": "King of Vipers Arms",
+      "item_name": "#DOTA_Item_Vote_Only_King_of_Vipers_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20806",
+      "name": "Diabolical Fiend",
+      "item_name": "#DOTA_Item_Diabolical_Fiend",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21070",
+      "name": "Eternal Harvest",
+      "item_name": "#DOTA_Item_Eternal_Harvest",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21138",
+      "name": "Fathomless Ravager",
+      "item_name": "#DOTA_Item_Fathomless_Ravager",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21217",
+      "name": "Murder of Souls",
+      "item_name": "#DOTA_Item_Murder_of_Souls",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21279",
+      "name": "Soul Corpulence",
+      "item_name": "#DOTA_Item_Soul_Corpulence",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21419",
+      "name": "Souls Tyrant",
+      "item_name": "#DOTA_Item_Souls_Tyrant",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21752",
+      "name": "Twilight Effigy",
+      "item_name": "#DOTA_Item_Twilight_Effigy",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21964",
+      "name": "King of Vipers",
+      "item_name": "#DOTA_Item_Vote_Only_King_of_Vipers",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22842",
+      "name": "Spring Lineage Eternal Harvest",
+      "item_name": "#DOTA_Item_Spring_Lineage_Eternal_Harvest",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22843",
+      "name": "Spring Lineage Grips of Eternal Harvest",
+      "item_name": "#DOTA_Item_Spring_Lineage_Grips_of_Eternal_Harvest",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22844",
+      "name": "Spring Lineage Pauldrons of Eternal Harvest",
+      "item_name": "#DOTA_Item_Spring_Lineage_Pauldrons_of_Eternal_Harvest",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "22845",
+      "name": "Spring Lineage Horns of Eternal Harvest",
+      "item_name": "#DOTA_Item_Spring_Lineage_Horns_of_Eternal_Harvest",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29087",
+      "name": "Raven Harvest - Arms",
+      "item_name": "#DOTA_Item_Raven_Harvest__Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29088",
+      "name": "Raven Harvest - Head",
+      "item_name": "#DOTA_Item_Raven_Harvest__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29089",
+      "name": "Raven Harvest - Shoulder",
+      "item_name": "#DOTA_Item_Raven_Harvest__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29127",
+      "name": "Raven Harvest",
+      "item_name": "#DOTA_Item_Raven_Harvest",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    }
+  ]
+}

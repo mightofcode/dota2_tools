@@ -1,0 +1,1363 @@
+{
+  "defaults": {
+    "neck": {
+      "id": "286",
+      "name": "Enchantress' Necklace",
+      "item_name": "#DOTA_Item_Enchantress_Necklace",
+      "item_slot": "neck",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "287",
+      "name": "Enchantress' Hair",
+      "item_name": "#DOTA_Item_Enchantress_Hair",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "belt": {
+      "id": "288",
+      "name": "Enchantress' Dress",
+      "item_name": "#DOTA_Item_Enchantress_Dress",
+      "item_slot": "belt",
+      "item_rarity": "common"
+    },
+    "arms": {
+      "id": "289",
+      "name": "Enchantress' Bracers",
+      "item_name": "#DOTA_Item_Enchantress_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common"
+    },
+    "weapon": {
+      "id": "290",
+      "name": "Enchantress' Weapon",
+      "item_name": "#DOTA_Item_Enchantress_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "costume": {
+      "id": "721",
+      "name": "Enchantress' Costume",
+      "item_name": "#DOTA_Item_Enchantress_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Amberlight",
+      "store_bundle": "Amberlight Raiment",
+      "portrait_image": "econ/sets/v2/amberlight",
+      "items": [
+        {
+          "name": "Amberlight Hood",
+          "id": "6346",
+          "item_name": "#DOTA_Item_Amberlight_Hood",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Amberlight Armlets",
+          "id": "6347",
+          "item_name": "#DOTA_Item_Amberlight_Armlets",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Amberlight Sarong",
+          "id": "6348",
+          "item_name": "#DOTA_Item_Amberlight_Sarong",
+          "item_slot": "belt",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Amberlight Spear",
+          "id": "6349",
+          "item_name": "#DOTA_Item_Amberlight_Spear",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Amberlight Shawl",
+          "id": "6350",
+          "item_name": "#DOTA_Item_Amberlight_Shawl",
+          "item_slot": "neck",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Caerulean_Star",
+      "store_bundle": "Caerulean Star",
+      "portrait_image": "econ/sets/v2/caerulean_star",
+      "items": [
+        {
+          "name": "Caerulean Star - Head",
+          "id": "14783",
+          "item_name": "#DOTA_Item_Caerulean_Star__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Caerulean Star - Neck",
+          "id": "14782",
+          "item_name": "#DOTA_Item_Caerulean_Star__Neck",
+          "item_slot": "neck",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Caerulean Star - Arms",
+          "id": "14781",
+          "item_name": "#DOTA_Item_Caerulean_Star__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Caerulean Star - Belt",
+          "id": "14780",
+          "item_name": "#DOTA_Item_Caerulean_Star__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Caerulean Star - Weapon",
+          "id": "14779",
+          "item_name": "#DOTA_Item_Caerulean_Star__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Darkwood_Witness",
+      "store_bundle": "Darkwood Witness",
+      "portrait_image": "econ/sets/v2/darkwood_witness",
+      "items": [
+        {
+          "name": "Darkwood Witness Weapon",
+          "id": "18013",
+          "item_name": "#DOTA_Item_Darkwood_Witness_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Darkwood Witness Belt",
+          "id": "18012",
+          "item_name": "#DOTA_Item_Darkwood_Witness_Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Darkwood Witness Arms",
+          "id": "18011",
+          "item_name": "#DOTA_Item_Darkwood_Witness_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Darkwood Witness Neck",
+          "id": "18010",
+          "item_name": "#DOTA_Item_Darkwood_Witness_Neck",
+          "item_slot": "neck",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Darkwood Witness Head",
+          "id": "18009",
+          "item_name": "#DOTA_Item_Darkwood_Witness_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Eminence_of_the_South_Star",
+      "store_bundle": "Eminence of the South Star",
+      "portrait_image": "econ/sets/v2/eminence_of_the_south_star",
+      "items": [
+        {
+          "name": "Belt of the South Star",
+          "id": "12690",
+          "item_name": "#DOTA_Item_Belt_of_the_South_Star",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Spear of the South Star",
+          "id": "12689",
+          "item_name": "#DOTA_Item_Spear_of_the_South_Star",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Arm of the South Star",
+          "id": "12688",
+          "item_name": "#DOTA_Item_Arm_of_the_South_Star",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Crown of the South Star",
+          "id": "12687",
+          "item_name": "#DOTA_Item_Crown_of_the_South_Star",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Glory of the South Star",
+          "id": "12686",
+          "item_name": "#DOTA_Item_Glory_of_the_South_Star",
+          "item_slot": "neck",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Enchantress_Diretide_Shimmer_Bundle",
+      "store_bundle": "Enchantress' Diretide Shimmer Bundle",
+      "portrait_image": "econ/sets/v2/enchantress_diretide_shimmer_bundle",
+      "items": [
+        {
+          "name": "Enchantress' Diretide Shimmer Costume",
+          "id": "17801",
+          "item_name": "#DOTA_Item_Enchantress_Diretide_Shimmer_Costume",
+          "item_slot": "costume",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Enchantress' Diretide Shimmer Hair",
+          "id": "17802",
+          "item_name": "#DOTA_Item_Enchantress_Diretide_Shimmer_Hair",
+          "item_slot": "head",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Enchantress' Diretide Shimmer Bracers",
+          "id": "17803",
+          "item_name": "#DOTA_Item_Enchantress_Diretide_Shimmer_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Enchantress' Diretide Shimmer Dress",
+          "id": "17804",
+          "item_name": "#DOTA_Item_Enchantress_Diretide_Shimmer_Dress",
+          "item_slot": "belt",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Enchantress' Diretide Shimmer Spear",
+          "id": "17805",
+          "item_name": "#DOTA_Item_Enchantress_Diretide_Shimmer_Spear",
+          "item_slot": "weapon",
+          "item_rarity": "seasonal"
+        },
+        {
+          "name": "Enchantress' Diretide Shimmer Necklace",
+          "id": "17806",
+          "item_name": "#DOTA_Item_Enchantress_Diretide_Shimmer_Necklace",
+          "item_slot": "neck",
+          "item_rarity": "seasonal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Araceaes_Tribute",
+      "store_bundle": "Araceae's Tribute Set",
+      "portrait_image": "econ/sets/v2/enchantress_araceas_tribute",
+      "items": [
+        {
+          "name": "Araceae's Tribute Bracelets",
+          "id": "5744",
+          "item_name": "#DOTA_Item_Araceaes_Tribute_Bracelets",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Araceae's Tribute Hair",
+          "id": "5745",
+          "item_name": "#DOTA_Item_Araceaes_Tribute_Hair",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Araceae's Tribute Necklace",
+          "id": "5746",
+          "item_name": "#DOTA_Item_Araceaes_Tribute_Necklace",
+          "item_slot": "neck",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Araceae's Tribute Skirt",
+          "id": "5747",
+          "item_name": "#DOTA_Item_Araceaes_Tribute_Skirt",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Araceae's Tribute Spear",
+          "id": "5748",
+          "item_name": "#DOTA_Item_Araceaes_Tribute_Spear",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Headlands_Huntress",
+      "store_bundle": "Headlands Huntress",
+      "portrait_image": "econ/sets/v2/enchantress_headlands_huntress",
+      "items": [
+        {
+          "name": "Headlands Huntress Arms",
+          "id": "19625",
+          "item_name": "#DOTA_Item_Vote_Only_Headlands_Huntress_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Headlands Huntress Neck",
+          "id": "19628",
+          "item_name": "#DOTA_Item_Vote_Only_Headlands_Huntress_Neck",
+          "item_slot": "neck",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Headlands Huntress Head",
+          "id": "19627",
+          "item_name": "#DOTA_Item_Vote_Only_Headlands_Huntress_Head",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Headlands Huntress Belt",
+          "id": "19626",
+          "item_name": "#DOTA_Item_Vote_Only_Headlands_Huntress_Belt",
+          "item_slot": "belt",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Headlands Huntress Weapon",
+          "id": "19629",
+          "item_name": "#DOTA_Item_Vote_Only_Headlands_Huntress_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_First_Night_of_the_Summer_Child",
+      "store_bundle": "First Night of the Summer Child",
+      "portrait_image": "econ/sets/v2/first_night_of_the_summer_child",
+      "items": [
+        {
+          "name": "Style of the First Night",
+          "id": "12753",
+          "item_name": "#DOTA_Item_Style_of_the_First_Night",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bracers of the First Night",
+          "id": "12751",
+          "item_name": "#DOTA_Item_Bracers_of_the_First_Night",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Belt of the First Night",
+          "id": "12750",
+          "item_name": "#DOTA_Item_Belt_of_the_First_Night",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Garb of the First Night",
+          "id": "12749",
+          "item_name": "#DOTA_Item_Garb_of_the_First_Night",
+          "item_slot": "neck",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Spear of the First Night",
+          "id": "12748",
+          "item_name": "#DOTA_Item_Spear_of_the_First_Night",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Rustic_Finery",
+      "store_bundle": "Rustic Finery",
+      "portrait_image": "econ/sets/v2/rustic_finery",
+      "items": [
+        {
+          "name": "Sleeves of the Rustic Finery",
+          "id": "7639",
+          "item_name": "#DOTA_Item_Sleeves_of_the_Rustic_Finery",
+          "item_slot": "arms",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Scarf of the Rustic Finery",
+          "id": "7640",
+          "item_name": "#DOTA_Item_Scarf_of_the_Rustic_Finery",
+          "item_slot": "neck",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Braids of the Rustic Finery",
+          "id": "7642",
+          "item_name": "#DOTA_Item_Braids_of_the_Rustic_Finery",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Spear of the Rustic Finery",
+          "id": "7659",
+          "item_name": "#DOTA_Item_Spear_of_the_Rustic_Finery",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Wrap of the Rustic Finery",
+          "id": "7641",
+          "item_name": "#DOTA_Item_Wrap_of_the_Rustic_Finery",
+          "item_slot": "belt",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Song_of_the_Solstice",
+      "store_bundle": "Song of the Solstice",
+      "portrait_image": "econ/sets/v2/song_of_the_solstice",
+      "items": [
+        {
+          "name": "Song of the Solstice Weapon",
+          "id": "18523",
+          "item_name": "#DOTA_Item_Song_of_the_Solstice_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Song of the Solstice Neck",
+          "id": "18522",
+          "item_name": "#DOTA_Item_Song_of_the_Solstice_Neck",
+          "item_slot": "neck",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Song of the Solstice Head",
+          "id": "18521",
+          "item_name": "#DOTA_Item_Song_of_the_Solstice_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Song of the Solstice Belt",
+          "id": "18520",
+          "item_name": "#DOTA_Item_Song_of_the_Solstice_Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Song of the Solstice Arms",
+          "id": "18519",
+          "item_name": "#DOTA_Item_Song_of_the_Solstice_Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Songs_of_Starfall_Glen",
+      "store_bundle": "Songs of Starfall Glen",
+      "portrait_image": "econ/sets/v2/songs_of_starfall_glen",
+      "items": [
+        {
+          "name": "Songs of Starfall Glen - Arms",
+          "id": "14176",
+          "item_name": "#DOTA_Item_Songs_of_Starfall_Glen__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Songs of Starfall Glen - Head",
+          "id": "14175",
+          "item_name": "#DOTA_Item_Songs_of_Starfall_Glen__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Songs of Starfall Glen - Weapon",
+          "id": "14174",
+          "item_name": "#DOTA_Item_Songs_of_Starfall_Glen__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Songs of Starfall Glen - Neck",
+          "id": "14173",
+          "item_name": "#DOTA_Item_Songs_of_Starfall_Glen__Neck",
+          "item_slot": "neck",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Songs of Starfall Glen - Belt",
+          "id": "14172",
+          "item_name": "#DOTA_Item_Songs_of_Starfall_Glen__Belt",
+          "item_slot": "belt",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Aspects_of_Summer",
+      "store_bundle": "Aspects of Summer",
+      "portrait_image": "econ/sets/v2/summer_aspects",
+      "items": [
+        {
+          "name": "Summer's Bounty",
+          "id": "5021",
+          "item_name": "#DOTA_Item_Summers_Bounty",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Summer's Mirth",
+          "id": "5022",
+          "item_name": "#DOTA_Item_Summers_Mirth",
+          "item_slot": "belt",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Summer's Light",
+          "id": "5023",
+          "item_name": "#DOTA_Item_Summers_Light",
+          "item_slot": "neck",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Summer's Charm",
+          "id": "5024",
+          "item_name": "#DOTA_Item_Summers_Charm",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Summer's Warmth",
+          "id": "5025",
+          "item_name": "#DOTA_Item_Summers_Warmth",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Blessings_of_the_Wildkin",
+      "store_bundle": "Blessings of the Wildwing",
+      "portrait_image": "econ/sets/v2/wildkin_blessing",
+      "items": [
+        {
+          "name": "Bangles of the Wildwing's Blessing",
+          "id": "4676",
+          "item_name": "#DOTA_Item_Bangles_of_the_Wildwings_Blessing",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Necklace of the Wildwing's Blessing",
+          "id": "4678",
+          "item_name": "#DOTA_Item_Necklace_of_the_Wildwings_Blessing",
+          "item_slot": "neck",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Spear of the Wildwing's Blessing",
+          "id": "4785",
+          "item_name": "#DOTA_Item_Spear_of_the_Wildwings_Blessing",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Headdress of the Wildwing's Blessing",
+          "id": "4786",
+          "item_name": "#DOTA_Item_Headdress_of_the_Wildwings_Blessing",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Wingbelt of the Wildwing's Blessing",
+          "id": "4787",
+          "item_name": "#DOTA_Item_Wingbelt_of_the_Wildwings_Blessing",
+          "item_slot": "belt",
+          "item_rarity": "uncommon"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "286",
+      "name": "Enchantress' Necklace",
+      "item_name": "#DOTA_Item_Enchantress_Necklace",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "287",
+      "name": "Enchantress' Hair",
+      "item_name": "#DOTA_Item_Enchantress_Hair",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "288",
+      "name": "Enchantress' Dress",
+      "item_name": "#DOTA_Item_Enchantress_Dress",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "289",
+      "name": "Enchantress' Bracers",
+      "item_name": "#DOTA_Item_Enchantress_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "290",
+      "name": "Enchantress' Weapon",
+      "item_name": "#DOTA_Item_Enchantress_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "721",
+      "name": "Enchantress' Costume",
+      "item_name": "#DOTA_Item_Enchantress_Costume",
+      "item_slot": "costume",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4676",
+      "name": "Bangles of the Wildwing's Blessing",
+      "item_name": "#DOTA_Item_Bangles_of_the_Wildwings_Blessing",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4678",
+      "name": "Necklace of the Wildwing's Blessing",
+      "item_name": "#DOTA_Item_Necklace_of_the_Wildwings_Blessing",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4785",
+      "name": "Spear of the Wildwing's Blessing",
+      "item_name": "#DOTA_Item_Spear_of_the_Wildwings_Blessing",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4786",
+      "name": "Headdress of the Wildwing's Blessing",
+      "item_name": "#DOTA_Item_Headdress_of_the_Wildwings_Blessing",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4787",
+      "name": "Wingbelt of the Wildwing's Blessing",
+      "item_name": "#DOTA_Item_Wingbelt_of_the_Wildwings_Blessing",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5021",
+      "name": "Summer's Bounty",
+      "item_name": "#DOTA_Item_Summers_Bounty",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5022",
+      "name": "Summer's Mirth",
+      "item_name": "#DOTA_Item_Summers_Mirth",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5023",
+      "name": "Summer's Light",
+      "item_name": "#DOTA_Item_Summers_Light",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5024",
+      "name": "Summer's Charm",
+      "item_name": "#DOTA_Item_Summers_Charm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5025",
+      "name": "Summer's Warmth",
+      "item_name": "#DOTA_Item_Summers_Warmth",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5428",
+      "name": "Meadow's Mercy",
+      "item_name": "#DOTA_Item_Meadows_Mercy",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5478",
+      "name": "Spring's Lilium Crown",
+      "item_name": "#DOTA_Item_Springs_Lilium_Crown",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5744",
+      "name": "Araceae's Tribute Bracelets",
+      "item_name": "#DOTA_Item_Araceaes_Tribute_Bracelets",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5745",
+      "name": "Araceae's Tribute Hair",
+      "item_name": "#DOTA_Item_Araceaes_Tribute_Hair",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5746",
+      "name": "Araceae's Tribute Necklace",
+      "item_name": "#DOTA_Item_Araceaes_Tribute_Necklace",
+      "item_slot": "neck",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5747",
+      "name": "Araceae's Tribute Skirt",
+      "item_name": "#DOTA_Item_Araceaes_Tribute_Skirt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5748",
+      "name": "Araceae's Tribute Spear",
+      "item_name": "#DOTA_Item_Araceaes_Tribute_Spear",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6346",
+      "name": "Amberlight Hood",
+      "item_name": "#DOTA_Item_Amberlight_Hood",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6347",
+      "name": "Amberlight Armlets",
+      "item_name": "#DOTA_Item_Amberlight_Armlets",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6348",
+      "name": "Amberlight Sarong",
+      "item_name": "#DOTA_Item_Amberlight_Sarong",
+      "item_slot": "belt",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6349",
+      "name": "Amberlight Spear",
+      "item_name": "#DOTA_Item_Amberlight_Spear",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6350",
+      "name": "Amberlight Shawl",
+      "item_name": "#DOTA_Item_Amberlight_Shawl",
+      "item_slot": "neck",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6857",
+      "name": "Flourishing Lodestar",
+      "item_name": "#DOTA_Item_Flourishing_Lodestar",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7010",
+      "name": "Locks of the New Bloom",
+      "item_name": "#DOTA_Item_Locks_of_the_New_Bloom",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7459",
+      "name": "Virga's Arc",
+      "item_name": "#DOTA_Item_Virgas_Arc",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7602",
+      "name": "Taunt: A Sproink in Your Step",
+      "item_name": "#DOTA_Item_Taunt_A_Sproink_in_Your_Step",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "taunt"
+    },
+    {
+      "id": "7639",
+      "name": "Sleeves of the Rustic Finery",
+      "item_name": "#DOTA_Item_Sleeves_of_the_Rustic_Finery",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7640",
+      "name": "Scarf of the Rustic Finery",
+      "item_name": "#DOTA_Item_Scarf_of_the_Rustic_Finery",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7641",
+      "name": "Wrap of the Rustic Finery",
+      "item_name": "#DOTA_Item_Wrap_of_the_Rustic_Finery",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7642",
+      "name": "Braids of the Rustic Finery",
+      "item_name": "#DOTA_Item_Braids_of_the_Rustic_Finery",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7659",
+      "name": "Spear of the Rustic Finery",
+      "item_name": "#DOTA_Item_Spear_of_the_Rustic_Finery",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9661",
+      "name": "Harborblossom",
+      "item_name": "#DOTA_Item_Harborblossom",
+      "item_slot": "neck",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12686",
+      "name": "Glory of the South Star",
+      "item_name": "#DOTA_Item_Glory_of_the_South_Star",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12687",
+      "name": "Crown of the South Star",
+      "item_name": "#DOTA_Item_Crown_of_the_South_Star",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12688",
+      "name": "Arm of the South Star",
+      "item_name": "#DOTA_Item_Arm_of_the_South_Star",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12689",
+      "name": "Spear of the South Star",
+      "item_name": "#DOTA_Item_Spear_of_the_South_Star",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12690",
+      "name": "Belt of the South Star",
+      "item_name": "#DOTA_Item_Belt_of_the_South_Star",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12748",
+      "name": "Spear of the First Night",
+      "item_name": "#DOTA_Item_Spear_of_the_First_Night",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12749",
+      "name": "Garb of the First Night",
+      "item_name": "#DOTA_Item_Garb_of_the_First_Night",
+      "item_slot": "neck",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12750",
+      "name": "Belt of the First Night",
+      "item_name": "#DOTA_Item_Belt_of_the_First_Night",
+      "item_slot": "belt",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12751",
+      "name": "Bracers of the First Night",
+      "item_name": "#DOTA_Item_Bracers_of_the_First_Night",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12753",
+      "name": "Style of the First Night",
+      "item_name": "#DOTA_Item_Style_of_the_First_Night",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14172",
+      "name": "Songs of Starfall Glen - Belt",
+      "item_name": "#DOTA_Item_Songs_of_Starfall_Glen__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14173",
+      "name": "Songs of Starfall Glen - Neck",
+      "item_name": "#DOTA_Item_Songs_of_Starfall_Glen__Neck",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14174",
+      "name": "Songs of Starfall Glen - Weapon",
+      "item_name": "#DOTA_Item_Songs_of_Starfall_Glen__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14175",
+      "name": "Songs of Starfall Glen - Head",
+      "item_name": "#DOTA_Item_Songs_of_Starfall_Glen__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14176",
+      "name": "Songs of Starfall Glen - Arms",
+      "item_name": "#DOTA_Item_Songs_of_Starfall_Glen__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14779",
+      "name": "Caerulean Star - Weapon",
+      "item_name": "#DOTA_Item_Caerulean_Star__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14780",
+      "name": "Caerulean Star - Belt",
+      "item_name": "#DOTA_Item_Caerulean_Star__Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14781",
+      "name": "Caerulean Star - Arms",
+      "item_name": "#DOTA_Item_Caerulean_Star__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14782",
+      "name": "Caerulean Star - Neck",
+      "item_name": "#DOTA_Item_Caerulean_Star__Neck",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14783",
+      "name": "Caerulean Star - Head",
+      "item_name": "#DOTA_Item_Caerulean_Star__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17801",
+      "name": "Enchantress' Diretide Shimmer Costume",
+      "item_name": "#DOTA_Item_Enchantress_Diretide_Shimmer_Costume",
+      "item_slot": "costume",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17802",
+      "name": "Enchantress' Diretide Shimmer Hair",
+      "item_name": "#DOTA_Item_Enchantress_Diretide_Shimmer_Hair",
+      "item_slot": "head",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17803",
+      "name": "Enchantress' Diretide Shimmer Bracers",
+      "item_name": "#DOTA_Item_Enchantress_Diretide_Shimmer_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17804",
+      "name": "Enchantress' Diretide Shimmer Dress",
+      "item_name": "#DOTA_Item_Enchantress_Diretide_Shimmer_Dress",
+      "item_slot": "belt",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17805",
+      "name": "Enchantress' Diretide Shimmer Spear",
+      "item_name": "#DOTA_Item_Enchantress_Diretide_Shimmer_Spear",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17806",
+      "name": "Enchantress' Diretide Shimmer Necklace",
+      "item_name": "#DOTA_Item_Enchantress_Diretide_Shimmer_Necklace",
+      "item_slot": "neck",
+      "item_rarity": "seasonal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18009",
+      "name": "Darkwood Witness Head",
+      "item_name": "#DOTA_Item_Darkwood_Witness_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18010",
+      "name": "Darkwood Witness Neck",
+      "item_name": "#DOTA_Item_Darkwood_Witness_Neck",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18011",
+      "name": "Darkwood Witness Arms",
+      "item_name": "#DOTA_Item_Darkwood_Witness_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18012",
+      "name": "Darkwood Witness Belt",
+      "item_name": "#DOTA_Item_Darkwood_Witness_Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18013",
+      "name": "Darkwood Witness Weapon",
+      "item_name": "#DOTA_Item_Darkwood_Witness_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18519",
+      "name": "Song of the Solstice Arms",
+      "item_name": "#DOTA_Item_Song_of_the_Solstice_Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18520",
+      "name": "Song of the Solstice Belt",
+      "item_name": "#DOTA_Item_Song_of_the_Solstice_Belt",
+      "item_slot": "belt",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18521",
+      "name": "Song of the Solstice Head",
+      "item_name": "#DOTA_Item_Song_of_the_Solstice_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18522",
+      "name": "Song of the Solstice Neck",
+      "item_name": "#DOTA_Item_Song_of_the_Solstice_Neck",
+      "item_slot": "neck",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18523",
+      "name": "Song of the Solstice Weapon",
+      "item_name": "#DOTA_Item_Song_of_the_Solstice_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19625",
+      "name": "Headlands Huntress Arms",
+      "item_name": "#DOTA_Item_Vote_Only_Headlands_Huntress_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19626",
+      "name": "Headlands Huntress Belt",
+      "item_name": "#DOTA_Item_Vote_Only_Headlands_Huntress_Belt",
+      "item_slot": "belt",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19627",
+      "name": "Headlands Huntress Head",
+      "item_name": "#DOTA_Item_Vote_Only_Headlands_Huntress_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19628",
+      "name": "Headlands Huntress Neck",
+      "item_name": "#DOTA_Item_Vote_Only_Headlands_Huntress_Neck",
+      "item_slot": "neck",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19629",
+      "name": "Headlands Huntress Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_Headlands_Huntress_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20114",
+      "name": "Blessings of the Wildwing",
+      "item_name": "#DOTA_Item_Blessings_of_the_Wildwing",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20186",
+      "name": "Aspects of Summer",
+      "item_name": "#DOTA_Item_Aspects_of_Summer",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20323",
+      "name": "Araceae's Tribute Set",
+      "item_name": "#DOTA_Item_Araceaes_Tribute_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20478",
+      "name": "Amberlight Raiment",
+      "item_name": "#DOTA_Item_Amberlight_Raiment",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20881",
+      "name": "Rustic Finery",
+      "item_name": "#DOTA_Item_Rustic_Finery",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21282",
+      "name": "Eminence of the South Star",
+      "item_name": "#DOTA_Item_Eminence_of_the_South_Star",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21292",
+      "name": "First Night of the Summer Child",
+      "item_name": "#DOTA_Item_First_Night_of_the_Summer_Child",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21510",
+      "name": "Songs of Starfall Glen",
+      "item_name": "#DOTA_Item_Songs_of_Starfall_Glen",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21591",
+      "name": "Caerulean Star",
+      "item_name": "#DOTA_Item_Caerulean_Star",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21697",
+      "name": "Enchantress' Diretide Shimmer Bundle",
+      "item_name": "#DOTA_Item_Enchantress_Diretide_Shimmer_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "seasonal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21757",
+      "name": "Darkwood Witness",
+      "item_name": "#DOTA_Item_Darkwood_Witness",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21820",
+      "name": "Song of the Solstice",
+      "item_name": "#DOTA_Item_Song_of_the_Solstice",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21924",
+      "name": "Headlands Huntress",
+      "item_name": "#DOTA_Item_Vote_Only_Headlands_Huntress",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "22266",
+      "name": "Harborblossom of the Crimson Witness",
+      "item_name": "#DOTA_Item_Harborblossom_of_the_Crimson_Witness",
+      "item_slot": "neck",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23682",
+      "name": "Flutterstep",
+      "item_name": "#DOTA_Item_Flutterstep",
+      "item_slot": "belt",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29573",
+      "name": "Flutterstep of the Crimson Witness",
+      "item_name": "#DOTA_Item_Flutterstep_of_the_Crimson_Witness",
+      "item_slot": "belt",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    }
+  ]
+}

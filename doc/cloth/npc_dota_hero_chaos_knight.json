@@ -1,0 +1,2004 @@
+{
+  "defaults": {
+    "mount": {
+      "id": "181",
+      "name": "Chaos Knight's Horse",
+      "item_name": "#DOTA_Item_Chaos_Knights_Horse",
+      "item_slot": "mount",
+      "item_rarity": "common"
+    },
+    "shoulder": {
+      "id": "183",
+      "name": "Chaos Knight's Shoulder Guards",
+      "item_name": "#DOTA_Item_Chaos_Knights_Shoulder_Guards",
+      "item_slot": "shoulder",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "184",
+      "name": "Chaos Knight's Helmet",
+      "item_name": "#DOTA_Item_Chaos_Knights_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "weapon": {
+      "id": "185",
+      "name": "Chaos Knight's Weapon",
+      "item_name": "#DOTA_Item_Chaos_Knights_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "offhand_weapon": {
+      "id": "186",
+      "name": "Chaos Knight's Shield",
+      "item_name": "#DOTA_Item_Chaos_Knights_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Charge_of_the_Baleful_Reign",
+      "store_bundle": "Charge of the Baleful Reign",
+      "portrait_image": "econ/sets/v2/baleful_reign",
+      "items": [
+        {
+          "name": "Cudgel of the Baleful Reign",
+          "id": "8289",
+          "item_name": "#DOTA_Item_Cudgel_of_the_Baleful_Reign",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shards of the Baleful Reign",
+          "id": "8297",
+          "item_name": "#DOTA_Item_Shards_of_the_Baleful_Reign",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Guard of the Baleful Reign",
+          "id": "8302",
+          "item_name": "#DOTA_Item_Guard_of_the_Baleful_Reign",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Perdition",
+          "id": "8309",
+          "item_name": "#DOTA_Item_Perdition",
+          "item_slot": "mount",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "War Helm of the Baleful Reign",
+          "id": "8320",
+          "item_name": "#DOTA_Item_War_Helm_of_the_Baleful_Reign",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bedlams_Bloom",
+      "store_bundle": "Bedlam's Bloom",
+      "portrait_image": "econ/sets/v2/bedlams_bloom",
+      "items": [
+        {
+          "name": "Bedlam's Bloom - Head",
+          "id": "13958",
+          "item_name": "#DOTA_Item_Bedlams_Bloom__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bedlam's Bloom - Mount",
+          "id": "13956",
+          "item_name": "#DOTA_Item_Bedlams_Bloom__Mount",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bedlam's Bloom - Off-Hand",
+          "id": "13955",
+          "item_name": "#DOTA_Item_Bedlams_Bloom__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bedlam's Bloom - Shoulder",
+          "id": "13954",
+          "item_name": "#DOTA_Item_Bedlams_Bloom__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bedlam's Bloom - Weapon",
+          "id": "13953",
+          "item_name": "#DOTA_Item_Bedlams_Bloom__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Champion_of_Discord",
+      "store_bundle": "Champion of Discord",
+      "portrait_image": "econ/sets/v2/champion_of_discord",
+      "items": [
+        {
+          "name": "Helm of Discord",
+          "id": "7087",
+          "item_name": "#DOTA_Item_Helm_of_Discord",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Discordia",
+          "id": "7088",
+          "item_name": "#DOTA_Item_Discordia",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Armlet of Discord",
+          "id": "7089",
+          "item_name": "#DOTA_Item_Armlet_of_Discord",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Pauldrons of Discord",
+          "id": "7137",
+          "item_name": "#DOTA_Item_Pauldrons_of_Discord",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Blade of Discord",
+          "id": "7138",
+          "item_name": "#DOTA_Item_Blade_of_Discord",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Burning_Nightmare",
+      "store_bundle": "Burning Nightmare",
+      "portrait_image": "econ/sets/v2/chaos_knight_burning_nightmare",
+      "items": [
+        {
+          "name": "Flail of the Burning Nightmare",
+          "id": "7789",
+          "item_name": "#DOTA_Item_Flail_of_the_Burning_Nightmare",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Pauldrons of the Burning Nightmare",
+          "id": "7790",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Burning_Nightmare",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shield of the Burning Nightmare",
+          "id": "7791",
+          "item_name": "#DOTA_Item_Shield_of_the_Burning_Nightmare",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mount of the Burning Nightmare",
+          "id": "7792",
+          "item_name": "#DOTA_Item_Mount_of_the_Burning_Nightmare",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Helm of the Burning Nightmare",
+          "id": "7793",
+          "item_name": "#DOTA_Item_Helm_of_the_Burning_Nightmare",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Vote_Only_Set_Fury_of_Boundless_Darkness",
+      "store_bundle": "Fury of Boundless Darkness",
+      "portrait_image": "econ/sets/v2/chaos_knight_fury_of_boundless_darkness",
+      "items": [
+        {
+          "name": "Fury of Boundless Darkness Head",
+          "id": "14350",
+          "item_name": "#DOTA_Item_Vote_Only_Fury_of_Boundless_Darkness_Head",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Fury of Boundless Darkness Mount",
+          "id": "14351",
+          "item_name": "#DOTA_Item_Vote_Only_Fury_of_Boundless_Darkness_Mount",
+          "item_slot": "mount",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Fury of Boundless Darkness Off-Hand",
+          "id": "14421",
+          "item_name": "#DOTA_Item_Vote_Only_Fury_of_Boundless_Darkness_OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Fury of Boundless Darkness Shoulder",
+          "id": "14422",
+          "item_name": "#DOTA_Item_Vote_Only_Fury_of_Boundless_Darkness_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Fury of Boundless Darkness Weapon",
+          "id": "14423",
+          "item_name": "#DOTA_Item_Vote_Only_Fury_of_Boundless_Darkness_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Arms_of_Burning_Turmoil",
+      "store_bundle": "Arms of Burning Turmoil Set",
+      "portrait_image": "econ/sets/v2/chaos_knight_mephistopheles",
+      "items": [
+        {
+          "name": "Blade of Burning Turmoil",
+          "id": "5518",
+          "item_name": "#DOTA_Item_Blade_of_Burning_Turmoil",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Horns of Burning Turmoil",
+          "id": "5519",
+          "item_name": "#DOTA_Item_Horns_of_Burning_Turmoil",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Enmity",
+          "id": "5520",
+          "item_name": "#DOTA_Item_Enmity",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Shield of Burning Turmoil",
+          "id": "5521",
+          "item_name": "#DOTA_Item_Shield_of_Burning_Turmoil",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Mantle of Burning Turmoil",
+          "id": "5522",
+          "item_name": "#DOTA_Item_Mantle_of_Burning_Turmoil",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Oni_Knight_the_Dark_Conqueror",
+      "store_bundle": "Oni Knight the Dark Conqueror",
+      "portrait_image": "econ/sets/v2/chaos_knight_oni_knight_the_dark_conqueror",
+      "items": [
+        {
+          "name": "Spaulders of the Dark Conqueror",
+          "id": "7949",
+          "item_name": "#DOTA_Item_Spaulders_of_the_Dark_Conqueror",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Shield of the Dark Conqueror",
+          "id": "7948",
+          "item_name": "#DOTA_Item_Shield_of_the_Dark_Conqueror",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Steed of the Dark Conqueror",
+          "id": "7947",
+          "item_name": "#DOTA_Item_Steed_of_the_Dark_Conqueror",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Helm of the Dark Conqueror",
+          "id": "7946",
+          "item_name": "#DOTA_Item_Helm_of_the_Dark_Conqueror",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Axe of the Dark Conqueror",
+          "id": "7950",
+          "item_name": "#DOTA_Item_Axe_of_the_Dark_Conqueror",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Chaos_Legion",
+      "store_bundle": "Chaos Legion Set",
+      "portrait_image": "econ/sets/v2/chaos_legion",
+      "items": [
+        {
+          "name": "Chaos Legion Weapon",
+          "id": "5984",
+          "item_name": "#DOTA_Item_Chaos_Legion_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Chaos Legion Mount",
+          "id": "5980",
+          "item_name": "#DOTA_Item_Chaos_Legion_Mount",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Chaos Legion Drapes",
+          "id": "5981",
+          "item_name": "#DOTA_Item_Chaos_Legion_Drapes",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Chaos Legion Helm",
+          "id": "5982",
+          "item_name": "#DOTA_Item_Chaos_Legion_Helm",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Chaos Legion Shield",
+          "id": "5983",
+          "item_name": "#DOTA_Item_Chaos_Legion_Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Chaos_Maw",
+      "store_bundle": "Chaos Maw",
+      "portrait_image": "econ/sets/v2/chaos_maw",
+      "items": [
+        {
+          "name": "Chaos Maw Mount",
+          "id": "17839",
+          "item_name": "#DOTA_Item_Chaos_Maw_Mount",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Chaos Maw Head",
+          "id": "17838",
+          "item_name": "#DOTA_Item_Chaos_Maw_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Chaos Maw Weapon",
+          "id": "17837",
+          "item_name": "#DOTA_Item_Chaos_Maw_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Chaos Maw Shoulder",
+          "id": "17836",
+          "item_name": "#DOTA_Item_Chaos_Maw_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Chaos Maw Shield",
+          "id": "17674",
+          "item_name": "#DOTA_Item_Chaos_Maw_Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Embers_of_Entropy",
+      "store_bundle": "Embers of Endless Havoc Set",
+      "portrait_image": "econ/sets/v2/ck_embers_of_entropy",
+      "items": [
+        {
+          "name": "Ataxia",
+          "id": "5232",
+          "item_name": "#DOTA_Item_Ataxia",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Blade of Endless Havoc",
+          "id": "5233",
+          "item_name": "#DOTA_Item_Blade_of_Endless_Havoc",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Helmet of Endless Havoc",
+          "id": "5234",
+          "item_name": "#DOTA_Item_Helmet_of_Endless_Havoc",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Shield of Endless Havoc",
+          "id": "5235",
+          "item_name": "#DOTA_Item_Shield_of_Endless_Havoc",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Mantle of Endless Havoc",
+          "id": "5236",
+          "item_name": "#DOTA_Item_Mantle_of_Endless_Havoc",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Entropic_Battlegear_of_the_Warrider",
+      "store_bundle": "Entropic Battlegear of the Warrider Set",
+      "portrait_image": "econ/sets/v2/ck_entropic_battlegear",
+      "items": [
+        {
+          "name": "Entropic Shield",
+          "id": "5336",
+          "item_name": "#DOTA_Item_Entropic_Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Entropic Axe",
+          "id": "5328",
+          "item_name": "#DOTA_Item_Entropic_Axe",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Entropic Shoulderpads",
+          "id": "5337",
+          "item_name": "#DOTA_Item_Entropic_Shoulderpads",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Entropic Helmet",
+          "id": "5173",
+          "item_name": "#DOTA_Item_Entropic_Helmet",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dark_Ruin_Set",
+      "store_bundle": "Dark Ruin Set",
+      "portrait_image": "econ/sets/v2/dark_ruin",
+      "items": [
+        {
+          "name": "Dark Ruin Helm",
+          "id": "4743",
+          "item_name": "#DOTA_Item_Dark_Ruin_Helm",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Dark Ruin Gaze",
+          "id": "4745",
+          "item_name": "#DOTA_Item_Dark_Ruin_Gaze",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Dark Ruin Mantle",
+          "id": "4746",
+          "item_name": "#DOTA_Item_Dark_Ruin_Mantle",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Dark Ruin Crusher",
+          "id": "4747",
+          "item_name": "#DOTA_Item_Dark_Ruin_Crusher",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Hellstrider",
+          "id": "4744",
+          "item_name": "#DOTA_Item_Hellstrider",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Eyes_of_the_Rift",
+      "store_bundle": "Eyes of the Rift",
+      "portrait_image": "econ/sets/v2/eyes_of_the_rift",
+      "items": [
+        {
+          "name": "Eyes of the Rift - Weapon",
+          "id": "19759",
+          "item_name": "#DOTA_Item_Eyes_of_the_Rift__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Eyes of the Rift - Shoulder",
+          "id": "19760",
+          "item_name": "#DOTA_Item_Eyes_of_the_Rift__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Eyes of the Rift - Off-Hand",
+          "id": "19761",
+          "item_name": "#DOTA_Item_Eyes_of_the_Rift__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Eyes of the Rift - Mount",
+          "id": "19762",
+          "item_name": "#DOTA_Item_Eyes_of_the_Rift__Mount",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Eyes of the Rift - Head",
+          "id": "19763",
+          "item_name": "#DOTA_Item_Eyes_of_the_Rift__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Hounds_of_Chaos",
+      "store_bundle": "The Hounds of Chaos",
+      "portrait_image": "econ/sets/v2/hounds_of_chaos",
+      "items": [
+        {
+          "name": "Shield of the Chaos Hound",
+          "id": "6264",
+          "item_name": "#DOTA_Item_Shield_of_the_Chaos_Hound",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Axe of the Chaos Hound",
+          "id": "6265",
+          "item_name": "#DOTA_Item_Axe_of_the_Chaos_Hound",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Pauldrons of the Chaos Hound",
+          "id": "6266",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Chaos_Hound",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Helm of the Chaos Hound",
+          "id": "6268",
+          "item_name": "#DOTA_Item_Helm_of_the_Chaos_Hound",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Kerveros the Hound of Chaos",
+          "id": "6267",
+          "item_name": "#DOTA_Item_Kerveros_the_Hound_of_Chaos",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Melange_of_the_Firelord",
+      "store_bundle": "Melange of the Firelord",
+      "portrait_image": "econ/sets/v2/melange_of_the_firelord",
+      "items": [
+        {
+          "name": "Melange of the Firelord - Weapon",
+          "id": "19531",
+          "item_name": "#DOTA_Item_Melange_of_the_Firelord__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Melange of the Firelord - Shoulder",
+          "id": "19530",
+          "item_name": "#DOTA_Item_Melange_of_the_Firelord__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Melange of the Firelord - Off-Hand",
+          "id": "19529",
+          "item_name": "#DOTA_Item_Melange_of_the_Firelord__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Melange of the Firelord - Mount",
+          "id": "19528",
+          "item_name": "#DOTA_Item_Melange_of_the_Firelord__Mount",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Melange of the Firelord - Head",
+          "id": "19526",
+          "item_name": "#DOTA_Item_Melange_of_the_Firelord__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Rampage_Knight",
+      "store_bundle": "Rampage Knight",
+      "portrait_image": "econ/sets/v2/rampage_knight",
+      "items": [
+        {
+          "name": "Rampage Knight Helm",
+          "id": "18461",
+          "item_name": "#DOTA_Item_Rampage_Knight_Helm",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Rampage Knight Shoulder",
+          "id": "18460",
+          "item_name": "#DOTA_Item_Rampage_Knight_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Rampage Knight Axe",
+          "id": "18459",
+          "item_name": "#DOTA_Item_Rampage_Knight_Axe",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Rampage Knight Shield",
+          "id": "18458",
+          "item_name": "#DOTA_Item_Rampage_Knight_Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Rampage Knight Mount",
+          "id": "18457",
+          "item_name": "#DOTA_Item_Rampage_Knight_Mount",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Rising_Chaos",
+      "store_bundle": "Rising Chaos",
+      "portrait_image": "econ/sets/v2/rising_chaos",
+      "items": [
+        {
+          "name": "Rapture",
+          "id": "5924",
+          "item_name": "#DOTA_Item_Rapture",
+          "item_slot": "mount",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Caged Fury",
+          "id": "5922",
+          "item_name": "#DOTA_Item_Caged_Fury",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Bone Splitter",
+          "id": "5921",
+          "item_name": "#DOTA_Item_Bone_Splitter",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Hellish Maw Spaulders",
+          "id": "5923",
+          "item_name": "#DOTA_Item_Hellish_Maw_Spaulders",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Shield of Screaming Souls",
+          "id": "5925",
+          "item_name": "#DOTA_Item_Shield_of_Screaming_Souls",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Talons_of_the_Endless_Storm",
+      "store_bundle": "Talons of the Endless Storm",
+      "portrait_image": "econ/sets/v2/talons_of_the_endless_storm",
+      "items": [
+        {
+          "name": "Talons of the Endless Storm Shoulder",
+          "id": "14152",
+          "item_name": "#DOTA_Item_Talons_of_the_Endless_Storm_Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Talons of the Endless Storm Weapon",
+          "id": "14151",
+          "item_name": "#DOTA_Item_Talons_of_the_Endless_Storm_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Talons of the Endless Storm Head",
+          "id": "14150",
+          "item_name": "#DOTA_Item_Talons_of_the_Endless_Storm_Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Talons of the Endless Storm Mount",
+          "id": "14149",
+          "item_name": "#DOTA_Item_Talons_of_the_Endless_Storm_Mount",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Talons of the Endless Storm Shield",
+          "id": "14148",
+          "item_name": "#DOTA_Item_Talons_of_the_Endless_Storm_Shield",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Unities_of_Discord",
+      "store_bundle": "Unities of Discord",
+      "portrait_image": "econ/sets/v2/unities_of_discord",
+      "items": [
+        {
+          "name": "Unities of Discord - Head",
+          "id": "18136",
+          "item_name": "#DOTA_Item_Unities_of_Discord__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Unities of Discord - Mount",
+          "id": "18135",
+          "item_name": "#DOTA_Item_Unities_of_Discord__Mount",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Unities of Discord - Off-Hand",
+          "id": "18134",
+          "item_name": "#DOTA_Item_Unities_of_Discord__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Unities of Discord - Shoulder",
+          "id": "18128",
+          "item_name": "#DOTA_Item_Unities_of_Discord__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Unities of Discord - Weapon",
+          "id": "18102",
+          "item_name": "#DOTA_Item_Unities_of_Discord__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Wrath_of_the_Celestial_Sentinel",
+      "store_bundle": "Wrath of the Celestial Sentinel",
+      "portrait_image": "econ/sets/v2/wrath_of_the_celestial_sentinel",
+      "items": [
+        {
+          "name": "Wrath of the Celestial Sentinel - Shoulder",
+          "id": "19304",
+          "item_name": "#DOTA_Item_Wrath_of_the_Celestial_Sentinel__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Wrath of the Celestial Sentinel - Mount",
+          "id": "19303",
+          "item_name": "#DOTA_Item_Wrath_of_the_Celestial_Sentinel__Mount",
+          "item_slot": "mount",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Wrath of the Celestial Sentinel - Head",
+          "id": "19302",
+          "item_name": "#DOTA_Item_Wrath_of_the_Celestial_Sentinel__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Wrath of the Celestial Sentinel - Off-Hand",
+          "id": "19301",
+          "item_name": "#DOTA_Item_Wrath_of_the_Celestial_Sentinel__OffHand",
+          "item_slot": "offhand_weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Wrath of the Celestial Sentinel - Weapon",
+          "id": "19300",
+          "item_name": "#DOTA_Item_Wrath_of_the_Celestial_Sentinel__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "181",
+      "name": "Chaos Knight's Horse",
+      "item_name": "#DOTA_Item_Chaos_Knights_Horse",
+      "item_slot": "mount",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "183",
+      "name": "Chaos Knight's Shoulder Guards",
+      "item_name": "#DOTA_Item_Chaos_Knights_Shoulder_Guards",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "184",
+      "name": "Chaos Knight's Helmet",
+      "item_name": "#DOTA_Item_Chaos_Knights_Helmet",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "185",
+      "name": "Chaos Knight's Weapon",
+      "item_name": "#DOTA_Item_Chaos_Knights_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "186",
+      "name": "Chaos Knight's Shield",
+      "item_name": "#DOTA_Item_Chaos_Knights_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4524",
+      "name": "End of Order",
+      "item_name": "#DOTA_Item_End_of_Order",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4527",
+      "name": "Blade of Chaos Incarnate",
+      "item_name": "#DOTA_Item_Blade_of_Chaos_Incarnate",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4672",
+      "name": "Blade of the Black Rider",
+      "item_name": "#DOTA_Item_Blade_of_the_Black_Rider",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4743",
+      "name": "Dark Ruin Helm",
+      "item_name": "#DOTA_Item_Dark_Ruin_Helm",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4744",
+      "name": "Hellstrider",
+      "item_name": "#DOTA_Item_Hellstrider",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4745",
+      "name": "Dark Ruin Gaze",
+      "item_name": "#DOTA_Item_Dark_Ruin_Gaze",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4746",
+      "name": "Dark Ruin Mantle",
+      "item_name": "#DOTA_Item_Dark_Ruin_Mantle",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4747",
+      "name": "Dark Ruin Crusher",
+      "item_name": "#DOTA_Item_Dark_Ruin_Crusher",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5166",
+      "name": "Chaos Knight's Armlet of Mordiggian",
+      "item_name": "#DOTA_Item_Chaos_Knights_Armlet_of_Mordiggian",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5173",
+      "name": "Entropic Helmet",
+      "item_name": "#DOTA_Item_Entropic_Helmet",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5174",
+      "name": "Helm of Infernal Despair",
+      "item_name": "#DOTA_Item_Helm_of_Infernal_Despair",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5232",
+      "name": "Ataxia",
+      "item_name": "#DOTA_Item_Ataxia",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5233",
+      "name": "Blade of Endless Havoc",
+      "item_name": "#DOTA_Item_Blade_of_Endless_Havoc",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5234",
+      "name": "Helmet of Endless Havoc",
+      "item_name": "#DOTA_Item_Helmet_of_Endless_Havoc",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5235",
+      "name": "Shield of Endless Havoc",
+      "item_name": "#DOTA_Item_Shield_of_Endless_Havoc",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5236",
+      "name": "Mantle of Endless Havoc",
+      "item_name": "#DOTA_Item_Mantle_of_Endless_Havoc",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5328",
+      "name": "Entropic Axe",
+      "item_name": "#DOTA_Item_Entropic_Axe",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5336",
+      "name": "Entropic Shield",
+      "item_name": "#DOTA_Item_Entropic_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5337",
+      "name": "Entropic Shoulderpads",
+      "item_name": "#DOTA_Item_Entropic_Shoulderpads",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5430",
+      "name": "Shadow Brand",
+      "item_name": "#DOTA_Item_Shadow_Brand",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5518",
+      "name": "Blade of Burning Turmoil",
+      "item_name": "#DOTA_Item_Blade_of_Burning_Turmoil",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5519",
+      "name": "Horns of Burning Turmoil",
+      "item_name": "#DOTA_Item_Horns_of_Burning_Turmoil",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5520",
+      "name": "Enmity",
+      "item_name": "#DOTA_Item_Enmity",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5521",
+      "name": "Shield of Burning Turmoil",
+      "item_name": "#DOTA_Item_Shield_of_Burning_Turmoil",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5522",
+      "name": "Mantle of Burning Turmoil",
+      "item_name": "#DOTA_Item_Mantle_of_Burning_Turmoil",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5704",
+      "name": "Hellfire Edge",
+      "item_name": "#DOTA_Item_Hellfire_Edge",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5828",
+      "name": "Atramentos the Apocalyptic",
+      "item_name": "#DOTA_Item_Atramentos_the_Apocalyptic",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5875",
+      "name": "Waraxe of Lost Light",
+      "item_name": "#DOTA_Item_Waraxe_of_Lost_Light",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5921",
+      "name": "Bone Splitter",
+      "item_name": "#DOTA_Item_Bone_Splitter",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5922",
+      "name": "Caged Fury",
+      "item_name": "#DOTA_Item_Caged_Fury",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5923",
+      "name": "Hellish Maw Spaulders",
+      "item_name": "#DOTA_Item_Hellish_Maw_Spaulders",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5924",
+      "name": "Rapture",
+      "item_name": "#DOTA_Item_Rapture",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5925",
+      "name": "Shield of Screaming Souls",
+      "item_name": "#DOTA_Item_Shield_of_Screaming_Souls",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5980",
+      "name": "Chaos Legion Mount",
+      "item_name": "#DOTA_Item_Chaos_Legion_Mount",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5981",
+      "name": "Chaos Legion Drapes",
+      "item_name": "#DOTA_Item_Chaos_Legion_Drapes",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5982",
+      "name": "Chaos Legion Helm",
+      "item_name": "#DOTA_Item_Chaos_Legion_Helm",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5983",
+      "name": "Chaos Legion Shield",
+      "item_name": "#DOTA_Item_Chaos_Legion_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5984",
+      "name": "Chaos Legion Weapon",
+      "item_name": "#DOTA_Item_Chaos_Legion_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6264",
+      "name": "Shield of the Chaos Hound",
+      "item_name": "#DOTA_Item_Shield_of_the_Chaos_Hound",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6265",
+      "name": "Axe of the Chaos Hound",
+      "item_name": "#DOTA_Item_Axe_of_the_Chaos_Hound",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6266",
+      "name": "Pauldrons of the Chaos Hound",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Chaos_Hound",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6267",
+      "name": "Kerveros the Hound of Chaos",
+      "item_name": "#DOTA_Item_Kerveros_the_Hound_of_Chaos",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6268",
+      "name": "Helm of the Chaos Hound",
+      "item_name": "#DOTA_Item_Helm_of_the_Chaos_Hound",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6404",
+      "name": "Infernal Shredder",
+      "item_name": "#DOTA_Item_Infernal_Shredder",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6813",
+      "name": "Catastrophe",
+      "item_name": "#DOTA_Item_Catastrophe",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7087",
+      "name": "Helm of Discord",
+      "item_name": "#DOTA_Item_Helm_of_Discord",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7088",
+      "name": "Discordia",
+      "item_name": "#DOTA_Item_Discordia",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7089",
+      "name": "Armlet of Discord",
+      "item_name": "#DOTA_Item_Armlet_of_Discord",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7137",
+      "name": "Pauldrons of Discord",
+      "item_name": "#DOTA_Item_Pauldrons_of_Discord",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7138",
+      "name": "Blade of Discord",
+      "item_name": "#DOTA_Item_Blade_of_Discord",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7740",
+      "name": "Golden Chaos Fulcrum",
+      "item_name": "#DOTA_Item_Golden_Chaos_Fulcrum",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7789",
+      "name": "Flail of the Burning Nightmare",
+      "item_name": "#DOTA_Item_Flail_of_the_Burning_Nightmare",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7790",
+      "name": "Pauldrons of the Burning Nightmare",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Burning_Nightmare",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7791",
+      "name": "Shield of the Burning Nightmare",
+      "item_name": "#DOTA_Item_Shield_of_the_Burning_Nightmare",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7792",
+      "name": "Mount of the Burning Nightmare",
+      "item_name": "#DOTA_Item_Mount_of_the_Burning_Nightmare",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7793",
+      "name": "Helm of the Burning Nightmare",
+      "item_name": "#DOTA_Item_Helm_of_the_Burning_Nightmare",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7878",
+      "name": "Diabolic Aspect",
+      "item_name": "#DOTA_Item_Diabolic_Aspect",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7946",
+      "name": "Helm of the Dark Conqueror",
+      "item_name": "#DOTA_Item_Helm_of_the_Dark_Conqueror",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7947",
+      "name": "Steed of the Dark Conqueror",
+      "item_name": "#DOTA_Item_Steed_of_the_Dark_Conqueror",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7948",
+      "name": "Shield of the Dark Conqueror",
+      "item_name": "#DOTA_Item_Shield_of_the_Dark_Conqueror",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7949",
+      "name": "Spaulders of the Dark Conqueror",
+      "item_name": "#DOTA_Item_Spaulders_of_the_Dark_Conqueror",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7950",
+      "name": "Axe of the Dark Conqueror",
+      "item_name": "#DOTA_Item_Axe_of_the_Dark_Conqueror",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8289",
+      "name": "Cudgel of the Baleful Reign",
+      "item_name": "#DOTA_Item_Cudgel_of_the_Baleful_Reign",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8297",
+      "name": "Shards of the Baleful Reign",
+      "item_name": "#DOTA_Item_Shards_of_the_Baleful_Reign",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8302",
+      "name": "Guard of the Baleful Reign",
+      "item_name": "#DOTA_Item_Guard_of_the_Baleful_Reign",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8309",
+      "name": "Perdition",
+      "item_name": "#DOTA_Item_Perdition",
+      "item_slot": "mount",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8320",
+      "name": "War Helm of the Baleful Reign",
+      "item_name": "#DOTA_Item_War_Helm_of_the_Baleful_Reign",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8739",
+      "name": "Cataclysm Edge",
+      "item_name": "#DOTA_Item_Cataclysm_Edge",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9058",
+      "name": "Chaos Fulcrum",
+      "item_name": "#DOTA_Item_Chaos_Fulcrum",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12434",
+      "name": "Taunt: Orderly Chaos",
+      "item_name": "#DOTA_Item_Taunt_Orderly_Chaos",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "13561",
+      "name": "Chaos Arbiter",
+      "item_name": "#DOTA_Item_Chaos_Arbiter",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13953",
+      "name": "Bedlam's Bloom - Weapon",
+      "item_name": "#DOTA_Item_Bedlams_Bloom__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13954",
+      "name": "Bedlam's Bloom - Shoulder",
+      "item_name": "#DOTA_Item_Bedlams_Bloom__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13955",
+      "name": "Bedlam's Bloom - Off-Hand",
+      "item_name": "#DOTA_Item_Bedlams_Bloom__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13956",
+      "name": "Bedlam's Bloom - Mount",
+      "item_name": "#DOTA_Item_Bedlams_Bloom__Mount",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13958",
+      "name": "Bedlam's Bloom - Head",
+      "item_name": "#DOTA_Item_Bedlams_Bloom__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14148",
+      "name": "Talons of the Endless Storm Shield",
+      "item_name": "#DOTA_Item_Talons_of_the_Endless_Storm_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14149",
+      "name": "Talons of the Endless Storm Mount",
+      "item_name": "#DOTA_Item_Talons_of_the_Endless_Storm_Mount",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14150",
+      "name": "Talons of the Endless Storm Head",
+      "item_name": "#DOTA_Item_Talons_of_the_Endless_Storm_Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14151",
+      "name": "Talons of the Endless Storm Weapon",
+      "item_name": "#DOTA_Item_Talons_of_the_Endless_Storm_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14152",
+      "name": "Talons of the Endless Storm Shoulder",
+      "item_name": "#DOTA_Item_Talons_of_the_Endless_Storm_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14350",
+      "name": "Fury of Boundless Darkness Head",
+      "item_name": "#DOTA_Item_Vote_Only_Fury_of_Boundless_Darkness_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14351",
+      "name": "Fury of Boundless Darkness Mount",
+      "item_name": "#DOTA_Item_Vote_Only_Fury_of_Boundless_Darkness_Mount",
+      "item_slot": "mount",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14421",
+      "name": "Fury of Boundless Darkness Off-Hand",
+      "item_name": "#DOTA_Item_Vote_Only_Fury_of_Boundless_Darkness_OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14422",
+      "name": "Fury of Boundless Darkness Shoulder",
+      "item_name": "#DOTA_Item_Vote_Only_Fury_of_Boundless_Darkness_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14423",
+      "name": "Fury of Boundless Darkness Weapon",
+      "item_name": "#DOTA_Item_Vote_Only_Fury_of_Boundless_Darkness_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17674",
+      "name": "Chaos Maw Shield",
+      "item_name": "#DOTA_Item_Chaos_Maw_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17836",
+      "name": "Chaos Maw Shoulder",
+      "item_name": "#DOTA_Item_Chaos_Maw_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17837",
+      "name": "Chaos Maw Weapon",
+      "item_name": "#DOTA_Item_Chaos_Maw_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17838",
+      "name": "Chaos Maw Head",
+      "item_name": "#DOTA_Item_Chaos_Maw_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17839",
+      "name": "Chaos Maw Mount",
+      "item_name": "#DOTA_Item_Chaos_Maw_Mount",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18102",
+      "name": "Unities of Discord - Weapon",
+      "item_name": "#DOTA_Item_Unities_of_Discord__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18128",
+      "name": "Unities of Discord - Shoulder",
+      "item_name": "#DOTA_Item_Unities_of_Discord__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18134",
+      "name": "Unities of Discord - Off-Hand",
+      "item_name": "#DOTA_Item_Unities_of_Discord__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18135",
+      "name": "Unities of Discord - Mount",
+      "item_name": "#DOTA_Item_Unities_of_Discord__Mount",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18136",
+      "name": "Unities of Discord - Head",
+      "item_name": "#DOTA_Item_Unities_of_Discord__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18457",
+      "name": "Rampage Knight Mount",
+      "item_name": "#DOTA_Item_Rampage_Knight_Mount",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18458",
+      "name": "Rampage Knight Shield",
+      "item_name": "#DOTA_Item_Rampage_Knight_Shield",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18459",
+      "name": "Rampage Knight Axe",
+      "item_name": "#DOTA_Item_Rampage_Knight_Axe",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18460",
+      "name": "Rampage Knight Shoulder",
+      "item_name": "#DOTA_Item_Rampage_Knight_Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18461",
+      "name": "Rampage Knight Helm",
+      "item_name": "#DOTA_Item_Rampage_Knight_Helm",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19300",
+      "name": "Wrath of the Celestial Sentinel - Weapon",
+      "item_name": "#DOTA_Item_Wrath_of_the_Celestial_Sentinel__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19301",
+      "name": "Wrath of the Celestial Sentinel - Off-Hand",
+      "item_name": "#DOTA_Item_Wrath_of_the_Celestial_Sentinel__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19302",
+      "name": "Wrath of the Celestial Sentinel - Head",
+      "item_name": "#DOTA_Item_Wrath_of_the_Celestial_Sentinel__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19303",
+      "name": "Wrath of the Celestial Sentinel - Mount",
+      "item_name": "#DOTA_Item_Wrath_of_the_Celestial_Sentinel__Mount",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19304",
+      "name": "Wrath of the Celestial Sentinel - Shoulder",
+      "item_name": "#DOTA_Item_Wrath_of_the_Celestial_Sentinel__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19526",
+      "name": "Melange of the Firelord - Head",
+      "item_name": "#DOTA_Item_Melange_of_the_Firelord__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19528",
+      "name": "Melange of the Firelord - Mount",
+      "item_name": "#DOTA_Item_Melange_of_the_Firelord__Mount",
+      "item_slot": "mount",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19529",
+      "name": "Melange of the Firelord - Off-Hand",
+      "item_name": "#DOTA_Item_Melange_of_the_Firelord__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19530",
+      "name": "Melange of the Firelord - Shoulder",
+      "item_name": "#DOTA_Item_Melange_of_the_Firelord__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19531",
+      "name": "Melange of the Firelord - Weapon",
+      "item_name": "#DOTA_Item_Melange_of_the_Firelord__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19759",
+      "name": "Eyes of the Rift - Weapon",
+      "item_name": "#DOTA_Item_Eyes_of_the_Rift__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19760",
+      "name": "Eyes of the Rift - Shoulder",
+      "item_name": "#DOTA_Item_Eyes_of_the_Rift__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19761",
+      "name": "Eyes of the Rift - Off-Hand",
+      "item_name": "#DOTA_Item_Eyes_of_the_Rift__OffHand",
+      "item_slot": "offhand_weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19762",
+      "name": "Eyes of the Rift - Mount",
+      "item_name": "#DOTA_Item_Eyes_of_the_Rift__Mount",
+      "item_slot": "mount",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19763",
+      "name": "Eyes of the Rift - Head",
+      "item_name": "#DOTA_Item_Eyes_of_the_Rift__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20172",
+      "name": "Dark Ruin Set",
+      "item_name": "#DOTA_Item_Dark_Ruin_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20212",
+      "name": "Embers of Endless Havoc Set",
+      "item_name": "#DOTA_Item_Embers_of_Endless_Havoc_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20231",
+      "name": "Entropic Battlegear of the Warrider Set",
+      "item_name": "#DOTA_Item_Entropic_Battlegear_of_the_Warrider_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20272",
+      "name": "Arms of Burning Turmoil Set",
+      "item_name": "#DOTA_Item_Arms_of_Burning_Turmoil_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20355",
+      "name": "Rising Chaos",
+      "item_name": "#DOTA_Item_Rising_Chaos",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20364",
+      "name": "Chaos Legion Set",
+      "item_name": "#DOTA_Item_Chaos_Legion_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20432",
+      "name": "The Hounds of Chaos",
+      "item_name": "#DOTA_Item_The_Hounds_of_Chaos",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20659",
+      "name": "Champion of Discord",
+      "item_name": "#DOTA_Item_Champion_of_Discord",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20836",
+      "name": "Oni Knight the Dark Conqueror",
+      "item_name": "#DOTA_Item_Oni_Knight_the_Dark_Conqueror",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20900",
+      "name": "Charge of the Baleful Reign",
+      "item_name": "#DOTA_Item_Charge_of_the_Baleful_Reign",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21066",
+      "name": "Burning Nightmare",
+      "item_name": "#DOTA_Item_Burning_Nightmare",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21474",
+      "name": "Rampage Knight",
+      "item_name": "#DOTA_Item_Rampage_Knight",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21505",
+      "name": "Talons of the Endless Storm",
+      "item_name": "#DOTA_Item_Talons_of_the_Endless_Storm",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21528",
+      "name": "Bedlam's Bloom",
+      "item_name": "#DOTA_Item_Bedlams_Bloom",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21544",
+      "name": "Fury of Boundless Darkness",
+      "item_name": "#DOTA_Item_Vote_Only_Fury_of_Boundless_Darkness",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21704",
+      "name": "Chaos Maw",
+      "item_name": "#DOTA_Item_Chaos_Maw",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21754",
+      "name": "Unities of Discord",
+      "item_name": "#DOTA_Item_Unities_of_Discord",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21871",
+      "name": "Wrath of the Celestial Sentinel",
+      "item_name": "#DOTA_Item_Wrath_of_the_Celestial_Sentinel",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21907",
+      "name": "Melange of the Firelord",
+      "item_name": "#DOTA_Item_Melange_of_the_Firelord",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21948",
+      "name": "Eyes of the Rift",
+      "item_name": "#DOTA_Item_Eyes_of_the_Rift",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    }
+  ]
+}

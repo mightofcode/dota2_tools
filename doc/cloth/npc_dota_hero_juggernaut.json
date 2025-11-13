@@ -1,0 +1,2727 @@
+{
+  "defaults": {
+    "head": {
+      "id": "6",
+      "name": "Juggernaut's Mask",
+      "item_name": "#DOTA_Item_Juggernauts_Mask",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "weapon": {
+      "id": "7",
+      "name": "Juggernaut's Weapon",
+      "item_name": "#DOTA_Item_Juggernauts_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "8",
+      "name": "Juggernaut's Cape",
+      "item_name": "#DOTA_Item_Juggernauts_Cape",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "arms": {
+      "id": "9",
+      "name": "Juggernaut's Bracers",
+      "item_name": "#DOTA_Item_Juggernauts_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common"
+    },
+    "legs": {
+      "id": "62",
+      "name": "Juggernaut's Legs",
+      "item_name": "#DOTA_Item_Juggernauts_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common"
+    },
+    "voice": {
+      "id": "610",
+      "name": "Juggernaut's Default Voice",
+      "item_name": "#DOTA_Item_Juggernauts_Default_Voice",
+      "item_slot": "voice",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Ancient_Exile",
+      "store_bundle": "Ancient Exile",
+      "portrait_image": "econ/sets/v2/ancient_exile",
+      "items": [
+        {
+          "name": "Ancient Exile - Weapon",
+          "id": "27486",
+          "item_name": "#DOTA_Item_Ancient_Exile__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ancient Exile - Legs",
+          "id": "27484",
+          "item_name": "#DOTA_Item_Ancient_Exile__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ancient Exile - Head",
+          "id": "27483",
+          "item_name": "#DOTA_Item_Ancient_Exile__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ancient Exile - Back",
+          "id": "27481",
+          "item_name": "#DOTA_Item_Ancient_Exile__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Ancient Exile - Arms",
+          "id": "27480",
+          "item_name": "#DOTA_Item_Ancient_Exile__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Argent_Decimator",
+      "store_bundle": "Argent Decimator",
+      "portrait_image": "econ/sets/v2/argent_decimator",
+      "items": [
+        {
+          "name": "Argent Decimator Arms",
+          "id": "18438",
+          "item_name": "#DOTA_Item_Argent_Decimator_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Argent Decimator Head",
+          "id": "18440",
+          "item_name": "#DOTA_Item_Argent_Decimator_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Argent Decimator Back",
+          "id": "18439",
+          "item_name": "#DOTA_Item_Argent_Decimator_Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Argent Decimator Weapon",
+          "id": "18442",
+          "item_name": "#DOTA_Item_Argent_Decimator_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Argent Decimator Legs",
+          "id": "18441",
+          "item_name": "#DOTA_Item_Argent_Decimator_Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Armor_of_the_Unyielding_Mask",
+      "store_bundle": "Armor of the Unyielding Mask",
+      "portrait_image": "econ/sets/v2/armor_of_the_unyielding_mask",
+      "items": [
+        {
+          "name": "Hakama of the Unyielding Mask",
+          "id": "8708",
+          "item_name": "#DOTA_Item_Hakama_of_the_Unyielding_Mask",
+          "item_slot": "legs",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Bracers of the Unyielding Mask",
+          "id": "8705",
+          "item_name": "#DOTA_Item_Bracers_of_the_Unyielding_Mask",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Plate of the Unyielding Mask",
+          "id": "8706",
+          "item_name": "#DOTA_Item_Plate_of_the_Unyielding_Mask",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Guise of the Unyielding Mask",
+          "id": "8707",
+          "item_name": "#DOTA_Item_Guise_of_the_Unyielding_Mask",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Relentless",
+          "id": "8709",
+          "item_name": "#DOTA_Item_Relentless",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Balance_of_the_Bladekeeper",
+      "store_bundle": "Balance of the Bladekeeper",
+      "portrait_image": "econ/sets/v2/balance_bladekeeper",
+      "items": [
+        {
+          "name": "Pantaloons of the Bladekeeper",
+          "id": "7164",
+          "item_name": "#DOTA_Item_Pantaloons_of_the_Bladekeeper",
+          "item_slot": "legs",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Wargod of the Bladekeeper",
+          "id": "7080",
+          "item_name": "#DOTA_Item_Wargod_of_the_Bladekeeper",
+          "item_slot": "ability2",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Sigil Mask of the Bladekeeper",
+          "id": "7079",
+          "item_name": "#DOTA_Item_Sigil_Mask_of_the_Bladekeeper",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Arsenal of the Bladekeeper",
+          "id": "7077",
+          "item_name": "#DOTA_Item_Arsenal_of_the_Bladekeeper",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Blackened Edge of the Bladekeeper",
+          "id": "7076",
+          "item_name": "#DOTA_Item_Blackened_Edge_of_the_Bladekeeper",
+          "item_slot": "weapon",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Prayer Beads of the Bladekeeper",
+          "id": "7075",
+          "item_name": "#DOTA_Item_Prayer_Beads_of_the_Bladekeeper",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bladeform_Legacy",
+      "store_bundle": "Bladeform Legacy Bundle",
+      "portrait_image": "econ/sets/v2/bladeform_legacy",
+      "items": [
+        {
+          "name": "Bladeform Legacy",
+          "id": "9059",
+          "item_name": "#DOTA_Item_Bladeform_Legacy",
+          "item_slot": "hero_base",
+          "item_rarity": "arcana"
+        },
+        {
+          "name": "Call of the Bladeform Legacy",
+          "id": "7592",
+          "item_name": "#DOTA_Item_Call_of_the_Bladeform_Legacy",
+          "item_slot": "voice",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Bladeform Legacy - Mask",
+          "id": "30261",
+          "item_name": "#DOTA_Item_Bladeform_Legacy__Mask",
+          "item_slot": "head",
+          "item_rarity": "legendary"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bladesrunner",
+      "store_bundle": "Bladesrunner",
+      "portrait_image": "econ/sets/v2/bladesrunner",
+      "items": [
+        {
+          "name": "Gloves of the Bladesrunner",
+          "id": "6826",
+          "item_name": "#DOTA_Item_Gloves_of_the_Bladesrunner",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Shoulders of the Bladesrunner",
+          "id": "6773",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Bladesrunner",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Belt of the Bladesrunner",
+          "id": "6774",
+          "item_name": "#DOTA_Item_Belt_of_the_Bladesrunner",
+          "item_slot": "legs",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Mask of the Bladesrunner",
+          "id": "6775",
+          "item_name": "#DOTA_Item_Mask_of_the_Bladesrunner",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Sword of the Bladesrunner",
+          "id": "6847",
+          "item_name": "#DOTA_Item_Sword_of_the_Bladesrunner",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dashing_Swordsman",
+      "store_bundle": "Dashing Swordsman",
+      "portrait_image": "econ/sets/v2/esl_dashing_bladelord",
+      "items": [
+        {
+          "name": "Mask of the Dashing Swordsman",
+          "id": "9812",
+          "item_name": "#DOTA_Item_Mask_of_the_Dashing_Swordsman",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Pack of the Dashing Swordsman",
+          "id": "9813",
+          "item_name": "#DOTA_Item_Pack_of_the_Dashing_Swordsman",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bracers of the Dashing Swordsman",
+          "id": "9814",
+          "item_name": "#DOTA_Item_Bracers_of_the_Dashing_Swordsman",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Belt of the Dashing Swordsman",
+          "id": "9815",
+          "item_name": "#DOTA_Item_Belt_of_the_Dashing_Swordsman",
+          "item_slot": "legs",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Bladelord",
+          "id": "8236",
+          "item_name": "#DOTA_Item_Bladelord",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Frostwatch_Warmonger",
+      "store_bundle": "Frostwatch Warmonger",
+      "portrait_image": "econ/sets/v2/frostwatch_warmonger",
+      "items": [
+        {
+          "name": "Frostwatch Warmonger Arms",
+          "id": "23328",
+          "item_name": "#DOTA_Item_Frostwatch_Warmonger_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Frostwatch Warmonger Weapon",
+          "id": "23327",
+          "item_name": "#DOTA_Item_Frostwatch_Warmonger_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Frostwatch Warmonger Back",
+          "id": "23326",
+          "item_name": "#DOTA_Item_Frostwatch_Warmonger_Back",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Frostwatch Warmonger Head",
+          "id": "23325",
+          "item_name": "#DOTA_Item_Frostwatch_Warmonger_Head",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Frostwatch Warmonger Legs",
+          "id": "23324",
+          "item_name": "#DOTA_Item_Frostwatch_Warmonger_Legs",
+          "item_slot": "legs",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Gifts_of_the_Vanished_Isle",
+      "store_bundle": "Gifts of the Vanished Isle Set",
+      "portrait_image": "econ/sets/v2/gifts_of_the_vanished_isle",
+      "items": [
+        {
+          "name": "Gifts of the Vanished Isle Head",
+          "id": "6107",
+          "item_name": "#DOTA_Item_Gifts_of_the_Vanished_Isle_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Gifts of the Vanished Isle Sword",
+          "id": "6108",
+          "item_name": "#DOTA_Item_Gifts_of_the_Vanished_Isle_Sword",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Gifts of the Vanished Isle Legs",
+          "id": "6109",
+          "item_name": "#DOTA_Item_Gifts_of_the_Vanished_Isle_Legs",
+          "item_slot": "legs",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Gifts of the Vanished Isle Arms",
+          "id": "6110",
+          "item_name": "#DOTA_Item_Gifts_of_the_Vanished_Isle_Arms",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Gifts of the Vanished Isle Back",
+          "id": "6111",
+          "item_name": "#DOTA_Item_Gifts_of_the_Vanished_Isle_Back",
+          "item_slot": "back",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Isle_of_Dragons",
+      "store_bundle": "Isle of Dragons",
+      "portrait_image": "econ/sets/v2/isle_of_dragons",
+      "items": [
+        {
+          "name": "Isle of Dragons Sword",
+          "id": "23680",
+          "item_name": "#DOTA_Item_Isle_of_Dragons_Sword",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Isle of Dragons Ward",
+          "id": "23679",
+          "item_name": "#DOTA_Item_Isle_of_Dragons_Ward",
+          "item_slot": "ability2",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Isle of Dragons Skirt",
+          "id": "23678",
+          "item_name": "#DOTA_Item_Isle_of_Dragons_Skirt",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Isle of Dragons Mask",
+          "id": "23677",
+          "item_name": "#DOTA_Item_Isle_of_Dragons_Mask",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Isle of Dragons Armor",
+          "id": "23676",
+          "item_name": "#DOTA_Item_Isle_of_Dragons_Armor",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Isle of Dragons Bracers",
+          "id": "23675",
+          "item_name": "#DOTA_Item_Isle_of_Dragons_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Jagged_Honor",
+      "store_bundle": "Jagged Honor",
+      "portrait_image": "econ/sets/v2/jagged_honor",
+      "items": [
+        {
+          "name": "Jagged Honor Bracer",
+          "id": "13491",
+          "item_name": "#DOTA_Item_Jagged_Honor_Bracer",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Jagged Honor Banner",
+          "id": "13495",
+          "item_name": "#DOTA_Item_Jagged_Honor_Banner",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Jagged Honor Mask",
+          "id": "13492",
+          "item_name": "#DOTA_Item_Jagged_Honor_Mask",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Jagged Honor Legs",
+          "id": "13496",
+          "item_name": "#DOTA_Item_Jagged_Honor_Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Jagged Honor Blade",
+          "id": "13494",
+          "item_name": "#DOTA_Item_Jagged_Honor_Blade",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Exiled_Ronin",
+      "store_bundle": "The Exiled Ronin Set",
+      "portrait_image": "econ/sets/v2/juggernaaut_exiled_ronin",
+      "items": [
+        {
+          "name": "Sturdy Bracers of the Exiled Ronin",
+          "id": "5437",
+          "item_name": "#DOTA_Item_Sturdy_Bracers_of_the_Exiled_Ronin",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Fire of the Exiled Ronin",
+          "id": "5438",
+          "item_name": "#DOTA_Item_Fire_of_the_Exiled_Ronin",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Burden of the Exiled Ronin",
+          "id": "5439",
+          "item_name": "#DOTA_Item_Burden_of_the_Exiled_Ronin",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Armour of the Exiled Ronin",
+          "id": "5379",
+          "item_name": "#DOTA_Item_Armour_of_the_Exiled_Ronin",
+          "item_slot": "legs",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Vestments of the Exiled Ronin",
+          "id": "5440",
+          "item_name": "#DOTA_Item_Vestments_of_the_Exiled_Ronin",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Juggernaut_Beasts_Men",
+      "store_bundle": "Aspects of Beast and Man Set",
+      "portrait_image": "econ/sets/v2/juggernaut_beasts_men",
+      "items": [
+        {
+          "name": "100-Proof Jug",
+          "id": "4105",
+          "item_name": "#DOTA_Item_100Proof_Jug",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Fine Bone Bracers",
+          "id": "4106",
+          "item_name": "#DOTA_Item_Fine_Bone_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Prey-Tracker's Aspect Mask",
+          "id": "4107",
+          "item_name": "#DOTA_Item_PreyTrackers_Aspect_Mask",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Omnishred the Defiant",
+          "id": "4102",
+          "item_name": "#DOTA_Item_Omnishred_the_Defiant",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Juggernaut_Boar_God",
+      "store_bundle": "The Boar God's Honor Set",
+      "portrait_image": "econ/sets/v2/juggernaut_boar_god",
+      "items": [
+        {
+          "name": "Three-Fold Mien of the Boar God",
+          "id": "4012",
+          "item_name": "#DOTA_Item_ThreeFold_Mien_of_the_Boar_God",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Seven-Sealed the Fur Bracer",
+          "id": "4013",
+          "item_name": "#DOTA_Item_SevenSealed_the_Fur_Bracer",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Twelve-Tusks the Cape of Boars",
+          "id": "4014",
+          "item_name": "#DOTA_Item_TwelveTusks_the_Cape_of_Boars",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Four-Fangs the Swordbreaker",
+          "id": "4015",
+          "item_name": "#DOTA_Item_FourFangs_the_Swordbreaker",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Juggernaut_Brave",
+      "store_bundle": "The Dauntless Set",
+      "portrait_image": "econ/sets/v2/juggernaut_brave",
+      "items": [
+        {
+          "name": "Bone Bracer of the Brave",
+          "id": "4249",
+          "item_name": "#DOTA_Item_Bone_Bracer_of_the_Brave",
+          "item_slot": "arms",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Death Mask of the Brave",
+          "id": "4247",
+          "item_name": "#DOTA_Item_Death_Mask_of_the_Brave",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Elder Tusk of the Brave",
+          "id": "4248",
+          "item_name": "#DOTA_Item_Elder_Tusk_of_the_Brave",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "No-Guard the Courageous Edge",
+          "id": "4250",
+          "item_name": "#DOTA_Item_NoGuard_the_Courageous_Edge",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Juggernaut_High_Plains",
+      "store_bundle": "Traveler on the High Plains Set",
+      "portrait_image": "econ/sets/v2/juggernaut_high_plains",
+      "items": [
+        {
+          "name": "Stoic Mask of the High Plains",
+          "id": "4080",
+          "item_name": "#DOTA_Item_Stoic_Mask_of_the_High_Plains",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Wolf Cape of the High Plains",
+          "id": "4081",
+          "item_name": "#DOTA_Item_Wolf_Cape_of_the_High_Plains",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Aspect Wraps of the High Plains",
+          "id": "4082",
+          "item_name": "#DOTA_Item_Aspect_Wraps_of_the_High_Plains",
+          "item_slot": "arms",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Long-Fang the Grey Blade",
+          "id": "4083",
+          "item_name": "#DOTA_Item_LongFang_the_Grey_Blade",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Of_Ebony_and_Ivory",
+      "store_bundle": "Of Ebony and Ivory Set",
+      "portrait_image": "econ/sets/v2/juggernaut_ivory_ebony",
+      "items": [
+        {
+          "name": "Visage of the Ivory Isles",
+          "id": "4073",
+          "item_name": "#DOTA_Item_Visage_of_the_Ivory_Isles",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Kimono of the Ebony Tower",
+          "id": "4098",
+          "item_name": "#DOTA_Item_Kimono_of_the_Ebony_Tower",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Bracers of the Ebony Tower",
+          "id": "4099",
+          "item_name": "#DOTA_Item_Bracers_of_the_Ebony_Tower",
+          "item_slot": "arms",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Defender of the Ivory Isles",
+          "id": "4072",
+          "item_name": "#DOTA_Item_Defender_of_the_Ivory_Isles",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Arms_of_the_Gwimyeon_Warrior",
+      "store_bundle": "Arms of the Gwimyeon Warrior Set",
+      "portrait_image": "econ/sets/v2/juggernaut_kogu_warrior",
+      "items": [
+        {
+          "name": "Juljae Sword",
+          "id": "5475",
+          "item_name": "#DOTA_Item_Juljae_Sword",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Bracers of the Gwimyeon Warrior",
+          "id": "5477",
+          "item_name": "#DOTA_Item_Bracers_of_the_Gwimyeon_Warrior",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Faulds of the Gwimyeon Warrior",
+          "id": "5473",
+          "item_name": "#DOTA_Item_Faulds_of_the_Gwimyeon_Warrior",
+          "item_slot": "legs",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Gwimyeon ",
+          "id": "5474",
+          "item_name": "#DOTA_Item_Gwimyeon_",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Pauldrons of the Gwimyeon Warrior",
+          "id": "5476",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Gwimyeon_Warrior",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sinister_Shadow",
+      "store_bundle": "Sinister Shadow",
+      "portrait_image": "econ/sets/v2/juggernaut_sinister_shadow",
+      "items": [
+        {
+          "name": "Sinister Shadow Weapon",
+          "id": "17910",
+          "item_name": "#DOTA_Item_Sinister_Shadow_Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Sinister Shadow Arms",
+          "id": "17911",
+          "item_name": "#DOTA_Item_Sinister_Shadow_Arms",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Sinister Shadow Back",
+          "id": "17912",
+          "item_name": "#DOTA_Item_Sinister_Shadow_Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Sinister Shadow Head",
+          "id": "17913",
+          "item_name": "#DOTA_Item_Sinister_Shadow_Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Sinister Shadow Legs",
+          "id": "17914",
+          "item_name": "#DOTA_Item_Sinister_Shadow_Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Sinister Shadow Healing Ward",
+          "id": "18391",
+          "item_name": "#DOTA_Item_Sinister_Shadow_Healing_Ward",
+          "item_slot": "ability2",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Lineage_of_the_Stormlords",
+      "store_bundle": "Lineage of the Stormlords",
+      "portrait_image": "econ/sets/v2/lineage_of_the_stormlords",
+      "items": [
+        {
+          "name": "Lineage of the Stormlords - Weapon",
+          "id": "13185",
+          "item_name": "#DOTA_Item_Lineage_of_the_Stormlords__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Lineage of the Stormlords - Arms",
+          "id": "13179",
+          "item_name": "#DOTA_Item_Lineage_of_the_Stormlords__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Lineage of the Stormlords - Back",
+          "id": "13178",
+          "item_name": "#DOTA_Item_Lineage_of_the_Stormlords__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Lineage of the Stormlords - Mask",
+          "id": "13177",
+          "item_name": "#DOTA_Item_Lineage_of_the_Stormlords__Mask",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Lineage of the Stormlords - Legs",
+          "id": "13176",
+          "item_name": "#DOTA_Item_Lineage_of_the_Stormlords__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Lineage of the Stormlords - Healing Ward",
+          "id": "13184",
+          "item_name": "#DOTA_Item_Lineage_of_the_Stormlords__Healing_Ward",
+          "item_slot": "ability2",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Pilgrimage_of_the_Bladeform_Aesthete",
+      "store_bundle": "Pilgrimage of the Bladeform Aesthete",
+      "portrait_image": "econ/sets/v2/pilgrimage_of_the_bladeform_aesthete",
+      "items": [
+        {
+          "name": "Belt of the Bladeform Aesthete",
+          "id": "8985",
+          "item_name": "#DOTA_Item_Belt_of_the_Bladeform_Aesthete",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Hood of the Bladeform Aesthete",
+          "id": "8984",
+          "item_name": "#DOTA_Item_Hood_of_the_Bladeform_Aesthete",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Shoulders of the Bladeform Aesthete",
+          "id": "8983",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Bladeform_Aesthete",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Bracers of the Bladeform Aesthete",
+          "id": "8982",
+          "item_name": "#DOTA_Item_Bracers_of_the_Bladeform_Aesthete",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Sword of the Bladeform Aesthete",
+          "id": "8986",
+          "item_name": "#DOTA_Item_Sword_of_the_Bladeform_Aesthete",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Primal_Prowl",
+      "store_bundle": "Primal Prowl",
+      "portrait_image": "econ/sets/v2/primal_prowl",
+      "items": [
+        {
+          "name": "Primal Prowl - Weapon",
+          "id": "25326",
+          "item_name": "#DOTA_Item_Primal_Prowl__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Primal Prowl - Head",
+          "id": "25327",
+          "item_name": "#DOTA_Item_Primal_Prowl__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Primal Prowl - Back",
+          "id": "25328",
+          "item_name": "#DOTA_Item_Primal_Prowl__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Primal Prowl - Arms",
+          "id": "25329",
+          "item_name": "#DOTA_Item_Primal_Prowl__Arms",
+          "item_slot": "arms",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Primal Prowl - Legs",
+          "id": "25330",
+          "item_name": "#DOTA_Item_Primal_Prowl__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Provocation_of_Ruin",
+      "store_bundle": "Provocation of Ruin",
+      "portrait_image": "econ/sets/v2/provocation_of_ruin",
+      "items": [
+        {
+          "name": "Provocation of Ruin Bracers",
+          "id": "14955",
+          "item_name": "#DOTA_Item_Provocation_of_Ruin_Bracers",
+          "item_slot": "arms",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Provocation of Ruin Pauldron",
+          "id": "14956",
+          "item_name": "#DOTA_Item_Provocation_of_Ruin_Pauldron",
+          "item_slot": "back",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Provocation of Ruin Mask",
+          "id": "14957",
+          "item_name": "#DOTA_Item_Provocation_of_Ruin_Mask",
+          "item_slot": "head",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Provocation of Ruin Belt",
+          "id": "14958",
+          "item_name": "#DOTA_Item_Provocation_of_Ruin_Belt",
+          "item_slot": "legs",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Provocation of Ruin Sword",
+          "id": "14959",
+          "item_name": "#DOTA_Item_Provocation_of_Ruin_Sword",
+          "item_slot": "weapon",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Provocation of Ruin Ward",
+          "id": "18369",
+          "item_name": "#DOTA_Item_Provocation_of_Ruin_Ward",
+          "item_slot": "ability2",
+          "item_rarity": "immortal"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Path_of_Odocoeleus",
+      "store_bundle": "The Path of Odocoeleus",
+      "portrait_image": "econ/sets/v2/the_path_of_odocoeleus",
+      "items": [
+        {
+          "name": "The Ward of Odocoeleus",
+          "id": "12770",
+          "item_name": "#DOTA_Item_The_Ward_of_Odocoeleus",
+          "item_slot": "ability2",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bracers of Odocoeleus",
+          "id": "12769",
+          "item_name": "#DOTA_Item_Bracers_of_Odocoeleus",
+          "item_slot": "arms",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Mask of Odocoeleus",
+          "id": "12768",
+          "item_name": "#DOTA_Item_Mask_of_Odocoeleus",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Pelt of Odocoeleus",
+          "id": "12767",
+          "item_name": "#DOTA_Item_Pelt_of_Odocoeleus",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Legs of Odocoeleus",
+          "id": "12766",
+          "item_name": "#DOTA_Item_Legs_of_Odocoeleus",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Blade of Odocoeleus",
+          "id": "12765",
+          "item_name": "#DOTA_Item_Blade_of_Odocoeleus",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Thousand_Faces",
+      "store_bundle": "Thousand Faces Set",
+      "portrait_image": "econ/sets/v2/thousand_faces",
+      "items": [
+        {
+          "name": "Mask of a Thousand Faces",
+          "id": "4425",
+          "item_name": "#DOTA_Item_Mask_of_a_Thousand_Faces",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Kataginu of a Thousand Faces",
+          "id": "4411",
+          "item_name": "#DOTA_Item_Kataginu_of_a_Thousand_Faces",
+          "item_slot": "back",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Hakama of a Thousand Faces",
+          "id": "4401",
+          "item_name": "#DOTA_Item_Hakama_of_a_Thousand_Faces",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Akakiryu of a Thousand Faces",
+          "id": "4904",
+          "item_name": "#DOTA_Item_Akakiryu_of_a_Thousand_Faces",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Wraps of a Thousand Faces",
+          "id": "4395",
+          "item_name": "#DOTA_Item_Wraps_of_a_Thousand_Faces",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Wandering_Demon_of_the_Plains",
+      "store_bundle": "Wandering Demon of the Plains Set",
+      "portrait_image": "econ/sets/v2/wandering_demon_of_the_plains",
+      "items": [
+        {
+          "name": "Blade of the Wandering Demon",
+          "id": "6058",
+          "item_name": "#DOTA_Item_Blade_of_the_Wandering_Demon",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Faulds of the Wandering Demon",
+          "id": "6057",
+          "item_name": "#DOTA_Item_Faulds_of_the_Wandering_Demon",
+          "item_slot": "legs",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Mask of the Wandering Demon",
+          "id": "6056",
+          "item_name": "#DOTA_Item_Mask_of_the_Wandering_Demon",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Bracers of the Wandering Demon",
+          "id": "6055",
+          "item_name": "#DOTA_Item_Bracers_of_the_Wandering_Demon",
+          "item_slot": "arms",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Duangua of the Wandering Demon",
+          "id": "6059",
+          "item_name": "#DOTA_Item_Duangua_of_the_Wandering_Demon",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "6",
+      "name": "Juggernaut's Mask",
+      "item_name": "#DOTA_Item_Juggernauts_Mask",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "7",
+      "name": "Juggernaut's Weapon",
+      "item_name": "#DOTA_Item_Juggernauts_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "8",
+      "name": "Juggernaut's Cape",
+      "item_name": "#DOTA_Item_Juggernauts_Cape",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "9",
+      "name": "Juggernaut's Bracers",
+      "item_name": "#DOTA_Item_Juggernauts_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "62",
+      "name": "Juggernaut's Legs",
+      "item_name": "#DOTA_Item_Juggernauts_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "560",
+      "name": "Juggernaut's Healing Ward",
+      "item_name": "#DOTA_Item_Juggernauts_Healing_Ward",
+      "item_slot": "ability2",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "610",
+      "name": "Juggernaut's Default Voice",
+      "item_name": "#DOTA_Item_Juggernauts_Default_Voice",
+      "item_slot": "voice",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "811",
+      "name": "Juggernaut's Base",
+      "item_name": "#DOTA_Item_Juggernauts_Base",
+      "item_slot": "hero_base",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4012",
+      "name": "Three-Fold Mien of the Boar God",
+      "item_name": "#DOTA_Item_ThreeFold_Mien_of_the_Boar_God",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4013",
+      "name": "Seven-Sealed the Fur Bracer",
+      "item_name": "#DOTA_Item_SevenSealed_the_Fur_Bracer",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4014",
+      "name": "Twelve-Tusks the Cape of Boars",
+      "item_name": "#DOTA_Item_TwelveTusks_the_Cape_of_Boars",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4015",
+      "name": "Four-Fangs the Swordbreaker",
+      "item_name": "#DOTA_Item_FourFangs_the_Swordbreaker",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4059",
+      "name": "Taunt: For Death and Honor",
+      "item_name": "#DOTA_Item_Taunt_For_Death_and_Honor",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "taunt"
+    },
+    {
+      "id": "4072",
+      "name": "Defender of the Ivory Isles",
+      "item_name": "#DOTA_Item_Defender_of_the_Ivory_Isles",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4073",
+      "name": "Visage of the Ivory Isles",
+      "item_name": "#DOTA_Item_Visage_of_the_Ivory_Isles",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4076",
+      "name": "Fireborn Odachi",
+      "item_name": "#DOTA_Item_Fireborn_Odachi",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4080",
+      "name": "Stoic Mask of the High Plains",
+      "item_name": "#DOTA_Item_Stoic_Mask_of_the_High_Plains",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4081",
+      "name": "Wolf Cape of the High Plains",
+      "item_name": "#DOTA_Item_Wolf_Cape_of_the_High_Plains",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4082",
+      "name": "Aspect Wraps of the High Plains",
+      "item_name": "#DOTA_Item_Aspect_Wraps_of_the_High_Plains",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4083",
+      "name": "Long-Fang the Grey Blade",
+      "item_name": "#DOTA_Item_LongFang_the_Grey_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4094",
+      "name": "Grand Claive of the Unshamed",
+      "item_name": "#DOTA_Item_Grand_Claive_of_the_Unshamed",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4098",
+      "name": "Kimono of the Ebony Tower",
+      "item_name": "#DOTA_Item_Kimono_of_the_Ebony_Tower",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4099",
+      "name": "Bracers of the Ebony Tower",
+      "item_name": "#DOTA_Item_Bracers_of_the_Ebony_Tower",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4100",
+      "name": "Relic Blade of the Kuur-Ishiminari",
+      "item_name": "#DOTA_Item_Relic_Blade_of_the_KuurIshiminari",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4101",
+      "name": "Kantusa the Script Sword",
+      "item_name": "#DOTA_Item_Kantusa_the_Script_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4102",
+      "name": "Omnishred the Defiant",
+      "item_name": "#DOTA_Item_Omnishred_the_Defiant",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4103",
+      "name": "Healing Ward of the Kuur-Ishiminari",
+      "item_name": "#DOTA_Item_Healing_Ward_of_the_KuurIshiminari",
+      "item_slot": "ability2",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4105",
+      "name": "100-Proof Jug",
+      "item_name": "#DOTA_Item_100Proof_Jug",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4106",
+      "name": "Fine Bone Bracers",
+      "item_name": "#DOTA_Item_Fine_Bone_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4107",
+      "name": "Prey-Tracker's Aspect Mask",
+      "item_name": "#DOTA_Item_PreyTrackers_Aspect_Mask",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4165",
+      "name": "Aspect Mask of Fulminant Rage",
+      "item_name": "#DOTA_Item_Aspect_Mask_of_Fulminant_Rage",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4247",
+      "name": "Death Mask of the Brave",
+      "item_name": "#DOTA_Item_Death_Mask_of_the_Brave",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4248",
+      "name": "Elder Tusk of the Brave",
+      "item_name": "#DOTA_Item_Elder_Tusk_of_the_Brave",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4249",
+      "name": "Bone Bracer of the Brave",
+      "item_name": "#DOTA_Item_Bone_Bracer_of_the_Brave",
+      "item_slot": "arms",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4250",
+      "name": "No-Guard the Courageous Edge",
+      "item_name": "#DOTA_Item_NoGuard_the_Courageous_Edge",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4259",
+      "name": "Ancient Mask of Intimidation",
+      "item_name": "#DOTA_Item_Ancient_Mask_of_Intimidation",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4343",
+      "name": "Carved Grin of the Trickster",
+      "item_name": "#DOTA_Item_Carved_Grin_of_the_Trickster",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4357",
+      "name": "Mask of the Many-Sighted",
+      "item_name": "#DOTA_Item_Mask_of_the_ManySighted",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4395",
+      "name": "Wraps of a Thousand Faces",
+      "item_name": "#DOTA_Item_Wraps_of_a_Thousand_Faces",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4401",
+      "name": "Hakama of a Thousand Faces",
+      "item_name": "#DOTA_Item_Hakama_of_a_Thousand_Faces",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4411",
+      "name": "Kataginu of a Thousand Faces",
+      "item_name": "#DOTA_Item_Kataginu_of_a_Thousand_Faces",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4425",
+      "name": "Mask of a Thousand Faces",
+      "item_name": "#DOTA_Item_Mask_of_a_Thousand_Faces",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4761",
+      "name": "Blade of Cleaving Swiftness",
+      "item_name": "#DOTA_Item_Blade_of_Cleaving_Swiftness",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4884",
+      "name": "Battle Banner of the Masked",
+      "item_name": "#DOTA_Item_Battle_Banner_of_the_Masked",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4904",
+      "name": "Akakiryu of a Thousand Faces",
+      "item_name": "#DOTA_Item_Akakiryu_of_a_Thousand_Faces",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4965",
+      "name": "Cursed Crescent",
+      "item_name": "#DOTA_Item_Cursed_Crescent",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4994",
+      "name": "Taunt: Sharp Blade",
+      "item_name": "#DOTA_Item_Taunt_Sharp_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "taunt"
+    },
+    {
+      "id": "5339",
+      "name": "Dragon Sword",
+      "item_name": "#DOTA_Item_Dragon_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5379",
+      "name": "Armour of the Exiled Ronin",
+      "item_name": "#DOTA_Item_Armour_of_the_Exiled_Ronin",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5387",
+      "name": "Izoku",
+      "item_name": "#DOTA_Item_Izoku",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5437",
+      "name": "Sturdy Bracers of the Exiled Ronin",
+      "item_name": "#DOTA_Item_Sturdy_Bracers_of_the_Exiled_Ronin",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5438",
+      "name": "Fire of the Exiled Ronin",
+      "item_name": "#DOTA_Item_Fire_of_the_Exiled_Ronin",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5439",
+      "name": "Burden of the Exiled Ronin",
+      "item_name": "#DOTA_Item_Burden_of_the_Exiled_Ronin",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5440",
+      "name": "Vestments of the Exiled Ronin",
+      "item_name": "#DOTA_Item_Vestments_of_the_Exiled_Ronin",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5473",
+      "name": "Faulds of the Gwimyeon Warrior",
+      "item_name": "#DOTA_Item_Faulds_of_the_Gwimyeon_Warrior",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5474",
+      "name": "Gwimyeon ",
+      "item_name": "#DOTA_Item_Gwimyeon_",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5475",
+      "name": "Juljae Sword",
+      "item_name": "#DOTA_Item_Juljae_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5476",
+      "name": "Pauldrons of the Gwimyeon Warrior",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Gwimyeon_Warrior",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5477",
+      "name": "Bracers of the Gwimyeon Warrior",
+      "item_name": "#DOTA_Item_Bracers_of_the_Gwimyeon_Warrior",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5582",
+      "name": "Elegant Stroke",
+      "item_name": "#DOTA_Item_Elegant_Stroke",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5987",
+      "name": "Healing Fount of the Lost Isles",
+      "item_name": "#DOTA_Item_Healing_Fount_of_the_Lost_Isles",
+      "item_slot": "ability2",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6055",
+      "name": "Bracers of the Wandering Demon",
+      "item_name": "#DOTA_Item_Bracers_of_the_Wandering_Demon",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6056",
+      "name": "Mask of the Wandering Demon",
+      "item_name": "#DOTA_Item_Mask_of_the_Wandering_Demon",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6057",
+      "name": "Faulds of the Wandering Demon",
+      "item_name": "#DOTA_Item_Faulds_of_the_Wandering_Demon",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6058",
+      "name": "Blade of the Wandering Demon",
+      "item_name": "#DOTA_Item_Blade_of_the_Wandering_Demon",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6059",
+      "name": "Duangua of the Wandering Demon",
+      "item_name": "#DOTA_Item_Duangua_of_the_Wandering_Demon",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6072",
+      "name": "Blade of the New Year",
+      "item_name": "#DOTA_Item_Blade_of_the_New_Year",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6083",
+      "name": "Blade of Endless Power",
+      "item_name": "#DOTA_Item_Blade_of_Endless_Power",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6107",
+      "name": "Gifts of the Vanished Isle Head",
+      "item_name": "#DOTA_Item_Gifts_of_the_Vanished_Isle_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6108",
+      "name": "Gifts of the Vanished Isle Sword",
+      "item_name": "#DOTA_Item_Gifts_of_the_Vanished_Isle_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6109",
+      "name": "Gifts of the Vanished Isle Legs",
+      "item_name": "#DOTA_Item_Gifts_of_the_Vanished_Isle_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6110",
+      "name": "Gifts of the Vanished Isle Arms",
+      "item_name": "#DOTA_Item_Gifts_of_the_Vanished_Isle_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6111",
+      "name": "Gifts of the Vanished Isle Back",
+      "item_name": "#DOTA_Item_Gifts_of_the_Vanished_Isle_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6773",
+      "name": "Shoulders of the Bladesrunner",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Bladesrunner",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6774",
+      "name": "Belt of the Bladesrunner",
+      "item_name": "#DOTA_Item_Belt_of_the_Bladesrunner",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6775",
+      "name": "Mask of the Bladesrunner",
+      "item_name": "#DOTA_Item_Mask_of_the_Bladesrunner",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6794",
+      "name": "Blade of the Jade Serpent",
+      "item_name": "#DOTA_Item_Blade_of_the_Jade_Serpent",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6826",
+      "name": "Gloves of the Bladesrunner",
+      "item_name": "#DOTA_Item_Gloves_of_the_Bladesrunner",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6847",
+      "name": "Sword of the Bladesrunner",
+      "item_name": "#DOTA_Item_Sword_of_the_Bladesrunner",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7075",
+      "name": "Prayer Beads of the Bladekeeper",
+      "item_name": "#DOTA_Item_Prayer_Beads_of_the_Bladekeeper",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7076",
+      "name": "Blackened Edge of the Bladekeeper",
+      "item_name": "#DOTA_Item_Blackened_Edge_of_the_Bladekeeper",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7077",
+      "name": "Arsenal of the Bladekeeper",
+      "item_name": "#DOTA_Item_Arsenal_of_the_Bladekeeper",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7079",
+      "name": "Sigil Mask of the Bladekeeper",
+      "item_name": "#DOTA_Item_Sigil_Mask_of_the_Bladekeeper",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7080",
+      "name": "Wargod of the Bladekeeper",
+      "item_name": "#DOTA_Item_Wargod_of_the_Bladekeeper",
+      "item_slot": "ability2",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7164",
+      "name": "Pantaloons of the Bladekeeper",
+      "item_name": "#DOTA_Item_Pantaloons_of_the_Bladekeeper",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7481",
+      "name": "Serrakura",
+      "item_name": "#DOTA_Item_Serrakura",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7592",
+      "name": "Call of the Bladeform Legacy",
+      "item_name": "#DOTA_Item_Call_of_the_Bladeform_Legacy",
+      "item_slot": "voice",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7593",
+      "name": "Fortune's Tout",
+      "item_name": "#DOTA_Item_Fortunes_Tout",
+      "item_slot": "ability2",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7909",
+      "name": "Golden Fortune's Tout",
+      "item_name": "#DOTA_Item_Golden_Fortunes_Tout",
+      "item_slot": "ability2",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8236",
+      "name": "Bladelord",
+      "item_name": "#DOTA_Item_Bladelord",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8316",
+      "name": "Almond the Frondillo",
+      "item_name": "#DOTA_Item_Almond_the_Frondillo",
+      "item_slot": "summon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8366",
+      "name": "All Heroes' Default Pet",
+      "item_name": "#DOTA_Wearable_All_Heroes_DefaultPet",
+      "item_slot": "summon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "8705",
+      "name": "Bracers of the Unyielding Mask",
+      "item_name": "#DOTA_Item_Bracers_of_the_Unyielding_Mask",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8706",
+      "name": "Plate of the Unyielding Mask",
+      "item_name": "#DOTA_Item_Plate_of_the_Unyielding_Mask",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8707",
+      "name": "Guise of the Unyielding Mask",
+      "item_name": "#DOTA_Item_Guise_of_the_Unyielding_Mask",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8708",
+      "name": "Hakama of the Unyielding Mask",
+      "item_name": "#DOTA_Item_Hakama_of_the_Unyielding_Mask",
+      "item_slot": "legs",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8709",
+      "name": "Relentless",
+      "item_name": "#DOTA_Item_Relentless",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8982",
+      "name": "Bracers of the Bladeform Aesthete",
+      "item_name": "#DOTA_Item_Bracers_of_the_Bladeform_Aesthete",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8983",
+      "name": "Shoulders of the Bladeform Aesthete",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Bladeform_Aesthete",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8984",
+      "name": "Hood of the Bladeform Aesthete",
+      "item_name": "#DOTA_Item_Hood_of_the_Bladeform_Aesthete",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8985",
+      "name": "Belt of the Bladeform Aesthete",
+      "item_name": "#DOTA_Item_Belt_of_the_Bladeform_Aesthete",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8986",
+      "name": "Sword of the Bladeform Aesthete",
+      "item_name": "#DOTA_Item_Sword_of_the_Bladeform_Aesthete",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9059",
+      "name": "Bladeform Legacy",
+      "item_name": "#DOTA_Item_Bladeform_Legacy",
+      "item_slot": "hero_base",
+      "item_rarity": "arcana",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9812",
+      "name": "Mask of the Dashing Swordsman",
+      "item_name": "#DOTA_Item_Mask_of_the_Dashing_Swordsman",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9813",
+      "name": "Pack of the Dashing Swordsman",
+      "item_name": "#DOTA_Item_Pack_of_the_Dashing_Swordsman",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9814",
+      "name": "Bracers of the Dashing Swordsman",
+      "item_name": "#DOTA_Item_Bracers_of_the_Dashing_Swordsman",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9815",
+      "name": "Belt of the Dashing Swordsman",
+      "item_name": "#DOTA_Item_Belt_of_the_Dashing_Swordsman",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9984",
+      "name": "Edge of the Lost Order",
+      "item_name": "#DOTA_Item_Edge_of_the_Lost_Order",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "10020",
+      "name": "Expired Lost Treasure of the Ivory Isles",
+      "item_name": "#DOTA_Item_Expired_Lost_Treasure_of_the_Ivory_Isles",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "retired_treasure_chest"
+    },
+    {
+      "id": "10046",
+      "name": "Treasure of Champions",
+      "item_name": "#DOTA_Item_Treasure_of_Champions",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "treasure_chest"
+    },
+    {
+      "id": "10047",
+      "name": "Treasure of Challengers",
+      "item_name": "#DOTA_Item_Treasure_of_Challengers",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "treasure_chest"
+    },
+    {
+      "id": "12296",
+      "name": "Golden Edge of the Lost Order",
+      "item_name": "#DOTA_Item_Golden_Edge_of_the_Lost_Order",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12417",
+      "name": "Crimson Edge of the Lost Order",
+      "item_name": "#DOTA_Item_Crimson_Edge_of_the_Lost_Order",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12765",
+      "name": "Blade of Odocoeleus",
+      "item_name": "#DOTA_Item_Blade_of_Odocoeleus",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12766",
+      "name": "Legs of Odocoeleus",
+      "item_name": "#DOTA_Item_Legs_of_Odocoeleus",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12767",
+      "name": "Pelt of Odocoeleus",
+      "item_name": "#DOTA_Item_Pelt_of_Odocoeleus",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12768",
+      "name": "Mask of Odocoeleus",
+      "item_name": "#DOTA_Item_Mask_of_Odocoeleus",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12769",
+      "name": "Bracers of Odocoeleus",
+      "item_name": "#DOTA_Item_Bracers_of_Odocoeleus",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12770",
+      "name": "The Ward of Odocoeleus",
+      "item_name": "#DOTA_Item_The_Ward_of_Odocoeleus",
+      "item_slot": "ability2",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13176",
+      "name": "Lineage of the Stormlords - Legs",
+      "item_name": "#DOTA_Item_Lineage_of_the_Stormlords__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13177",
+      "name": "Lineage of the Stormlords - Mask",
+      "item_name": "#DOTA_Item_Lineage_of_the_Stormlords__Mask",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13178",
+      "name": "Lineage of the Stormlords - Back",
+      "item_name": "#DOTA_Item_Lineage_of_the_Stormlords__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13179",
+      "name": "Lineage of the Stormlords - Arms",
+      "item_name": "#DOTA_Item_Lineage_of_the_Stormlords__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13184",
+      "name": "Lineage of the Stormlords - Healing Ward",
+      "item_name": "#DOTA_Item_Lineage_of_the_Stormlords__Healing_Ward",
+      "item_slot": "ability2",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13185",
+      "name": "Lineage of the Stormlords - Weapon",
+      "item_name": "#DOTA_Item_Lineage_of_the_Stormlords__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13491",
+      "name": "Jagged Honor Bracer",
+      "item_name": "#DOTA_Item_Jagged_Honor_Bracer",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13492",
+      "name": "Jagged Honor Mask",
+      "item_name": "#DOTA_Item_Jagged_Honor_Mask",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13494",
+      "name": "Jagged Honor Blade",
+      "item_name": "#DOTA_Item_Jagged_Honor_Blade",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13495",
+      "name": "Jagged Honor Banner",
+      "item_name": "#DOTA_Item_Jagged_Honor_Banner",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13496",
+      "name": "Jagged Honor Legs",
+      "item_name": "#DOTA_Item_Jagged_Honor_Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14955",
+      "name": "Provocation of Ruin Bracers",
+      "item_name": "#DOTA_Item_Provocation_of_Ruin_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14956",
+      "name": "Provocation of Ruin Pauldron",
+      "item_name": "#DOTA_Item_Provocation_of_Ruin_Pauldron",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14957",
+      "name": "Provocation of Ruin Mask",
+      "item_name": "#DOTA_Item_Provocation_of_Ruin_Mask",
+      "item_slot": "head",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14958",
+      "name": "Provocation of Ruin Belt",
+      "item_name": "#DOTA_Item_Provocation_of_Ruin_Belt",
+      "item_slot": "legs",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14959",
+      "name": "Provocation of Ruin Sword",
+      "item_name": "#DOTA_Item_Provocation_of_Ruin_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17910",
+      "name": "Sinister Shadow Weapon",
+      "item_name": "#DOTA_Item_Sinister_Shadow_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17911",
+      "name": "Sinister Shadow Arms",
+      "item_name": "#DOTA_Item_Sinister_Shadow_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17912",
+      "name": "Sinister Shadow Back",
+      "item_name": "#DOTA_Item_Sinister_Shadow_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17913",
+      "name": "Sinister Shadow Head",
+      "item_name": "#DOTA_Item_Sinister_Shadow_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "17914",
+      "name": "Sinister Shadow Legs",
+      "item_name": "#DOTA_Item_Sinister_Shadow_Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18369",
+      "name": "Provocation of Ruin Ward",
+      "item_name": "#DOTA_Item_Provocation_of_Ruin_Ward",
+      "item_slot": "ability2",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18390",
+      "name": "Sinister Shadow Healing Cauldron",
+      "item_name": "#DOTA_Sinister_Shadow_Healing_Cauldron",
+      "item_slot": "ability2",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18391",
+      "name": "Sinister Shadow Healing Ward",
+      "item_name": "#DOTA_Item_Sinister_Shadow_Healing_Ward",
+      "item_slot": "ability2",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18438",
+      "name": "Argent Decimator Arms",
+      "item_name": "#DOTA_Item_Argent_Decimator_Arms",
+      "item_slot": "arms",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18439",
+      "name": "Argent Decimator Back",
+      "item_name": "#DOTA_Item_Argent_Decimator_Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18440",
+      "name": "Argent Decimator Head",
+      "item_name": "#DOTA_Item_Argent_Decimator_Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18441",
+      "name": "Argent Decimator Legs",
+      "item_name": "#DOTA_Item_Argent_Decimator_Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18442",
+      "name": "Argent Decimator Weapon",
+      "item_name": "#DOTA_Item_Argent_Decimator_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20000",
+      "name": "Of Ebony and Ivory Set",
+      "item_name": "#DOTA_Item_Of_Ebony_and_Ivory_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20005",
+      "name": "The Boar God's Honor Set",
+      "item_name": "#DOTA_Item_The_Boar_Gods_Honor_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20006",
+      "name": "Aspects of Beast and Man Set",
+      "item_name": "#DOTA_Item_Aspects_of_Beast_and_Man_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20007",
+      "name": "Traveler on the High Plains Set",
+      "item_name": "#DOTA_Item_Traveler_on_the_High_Plains_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20033",
+      "name": "The Dauntless Set",
+      "item_name": "#DOTA_Item_The_Dauntless_Set",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20151",
+      "name": "Thousand Faces Set",
+      "item_name": "#DOTA_Item_Thousand_Faces_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20281",
+      "name": "Arms of the Gwimyeon Warrior Set",
+      "item_name": "#DOTA_Item_Arms_of_the_Gwimyeon_Warrior_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20286",
+      "name": "The Exiled Ronin Set",
+      "item_name": "#DOTA_Item_The_Exiled_Ronin_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20377",
+      "name": "Wandering Demon of the Plains Set",
+      "item_name": "#DOTA_Item_Wandering_Demon_of_the_Plains_Set",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20390",
+      "name": "Gifts of the Vanished Isle Set",
+      "item_name": "#DOTA_Item_Gifts_of_the_Vanished_Isle_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20585",
+      "name": "CEVO Season 5",
+      "item_name": "#DOTA_Item_CEVO_Season_5",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20587",
+      "name": "Bladesrunner",
+      "item_name": "#DOTA_Item_Bladesrunner",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20662",
+      "name": "Balance of the Bladekeeper",
+      "item_name": "#DOTA_Item_Balance_of_the_Bladekeeper",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20812",
+      "name": "Armor of the Unyielding Mask",
+      "item_name": "#DOTA_Item_Armor_of_the_Unyielding_Mask",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20905",
+      "name": "Dashing Swordsman",
+      "item_name": "#DOTA_Item_Dashing_Swordsman",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21067",
+      "name": "Pilgrimage of the Bladeform Aesthete",
+      "item_name": "#DOTA_Item_Pilgrimage_of_the_Bladeform_Aesthete",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21095",
+      "name": "Bladeform Legacy Bundle",
+      "item_name": "#DOTA_Item_Bladeform_Legacy_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "arcana",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21295",
+      "name": "The Path of Odocoeleus",
+      "item_name": "#DOTA_Item_The_Path_of_Odocoeleus",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21367",
+      "name": "Lineage of the Stormlords",
+      "item_name": "#DOTA_Item_Lineage_of_the_Stormlords",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21397",
+      "name": "Jagged Honor",
+      "item_name": "#DOTA_Item_Jagged_Honor",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21653",
+      "name": "Provocation of Ruin",
+      "item_name": "#DOTA_Item_Provocation_of_Ruin",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21719",
+      "name": "Sinister Shadow",
+      "item_name": "#DOTA_Item_Sinister_Shadow",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21808",
+      "name": "Argent Decimator",
+      "item_name": "#DOTA_Item_Argent_Decimator",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23324",
+      "name": "Frostwatch Warmonger Legs",
+      "item_name": "#DOTA_Item_Frostwatch_Warmonger_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23325",
+      "name": "Frostwatch Warmonger Head",
+      "item_name": "#DOTA_Item_Frostwatch_Warmonger_Head",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23326",
+      "name": "Frostwatch Warmonger Back",
+      "item_name": "#DOTA_Item_Frostwatch_Warmonger_Back",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23327",
+      "name": "Frostwatch Warmonger Weapon",
+      "item_name": "#DOTA_Item_Frostwatch_Warmonger_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23328",
+      "name": "Frostwatch Warmonger Arms",
+      "item_name": "#DOTA_Item_Frostwatch_Warmonger_Arms",
+      "item_slot": "arms",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23329",
+      "name": "Frostwatch Warmonger",
+      "item_name": "#DOTA_Item_Frostwatch_Warmonger",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23661",
+      "name": "Isle of Dragons",
+      "item_name": "#DOTA_Item_Isle_of_Dragons",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23675",
+      "name": "Isle of Dragons Bracers",
+      "item_name": "#DOTA_Item_Isle_of_Dragons_Bracers",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23676",
+      "name": "Isle of Dragons Armor",
+      "item_name": "#DOTA_Item_Isle_of_Dragons_Armor",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23677",
+      "name": "Isle of Dragons Mask",
+      "item_name": "#DOTA_Item_Isle_of_Dragons_Mask",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23678",
+      "name": "Isle of Dragons Skirt",
+      "item_name": "#DOTA_Item_Isle_of_Dragons_Skirt",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23679",
+      "name": "Isle of Dragons Ward",
+      "item_name": "#DOTA_Item_Isle_of_Dragons_Ward",
+      "item_slot": "ability2",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23680",
+      "name": "Isle of Dragons Sword",
+      "item_name": "#DOTA_Item_Isle_of_Dragons_Sword",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25325",
+      "name": "Primal Prowl",
+      "item_name": "#DOTA_Item_Primal_Prowl",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "25326",
+      "name": "Primal Prowl - Weapon",
+      "item_name": "#DOTA_Item_Primal_Prowl__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25327",
+      "name": "Primal Prowl - Head",
+      "item_name": "#DOTA_Item_Primal_Prowl__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25328",
+      "name": "Primal Prowl - Back",
+      "item_name": "#DOTA_Item_Primal_Prowl__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25329",
+      "name": "Primal Prowl - Arms",
+      "item_name": "#DOTA_Item_Primal_Prowl__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25330",
+      "name": "Primal Prowl - Legs",
+      "item_name": "#DOTA_Item_Primal_Prowl__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "25331",
+      "name": "Primal Prowl - Healing Ward",
+      "item_name": "#DOTA_Item_Primal_Prowl__Healing_Ward",
+      "item_slot": "ability2",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27480",
+      "name": "Ancient Exile - Arms",
+      "item_name": "#DOTA_Item_Ancient_Exile__Arms",
+      "item_slot": "arms",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27481",
+      "name": "Ancient Exile - Back",
+      "item_name": "#DOTA_Item_Ancient_Exile__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27483",
+      "name": "Ancient Exile - Head",
+      "item_name": "#DOTA_Item_Ancient_Exile__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27484",
+      "name": "Ancient Exile - Legs",
+      "item_name": "#DOTA_Item_Ancient_Exile__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27485",
+      "name": "Ancient Exile - Ward",
+      "item_name": "#DOTA_Item_Ancient_Exile__Ward",
+      "item_slot": "ability2",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "27486",
+      "name": "Ancient Exile - Weapon",
+      "item_name": "#DOTA_Item_Ancient_Exile__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "28271",
+      "name": "Ancient Exile",
+      "item_name": "#DOTA_Item_Ancient_Exile",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "30261",
+      "name": "Bladeform Legacy - Mask",
+      "item_name": "#DOTA_Item_Bladeform_Legacy__Mask",
+      "item_slot": "head",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    }
+  ]
+}

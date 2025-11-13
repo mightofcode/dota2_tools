@@ -1,0 +1,1753 @@
+{
+  "defaults": {
+    "weapon": {
+      "id": "26",
+      "name": "Queen of Pain's Weapon",
+      "item_name": "#DOTA_Item_Queen_of_Pains_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common"
+    },
+    "back": {
+      "id": "82",
+      "name": "Queen of Pain's Wings",
+      "item_name": "#DOTA_Item_Queen_of_Pains_Wings",
+      "item_slot": "back",
+      "item_rarity": "common"
+    },
+    "shoulder": {
+      "id": "83",
+      "name": "Queen of Pain's Armor",
+      "item_name": "#DOTA_Item_Queen_of_Pains_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common"
+    },
+    "head": {
+      "id": "84",
+      "name": "Queen of Pain's Hair",
+      "item_name": "#DOTA_Item_Queen_of_Pains_Hair",
+      "item_slot": "head",
+      "item_rarity": "common"
+    },
+    "legs": {
+      "id": "781",
+      "name": "Queen of Pain's Legs",
+      "item_name": "#DOTA_Item_Queen_of_Pains_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common"
+    }
+  },
+  "item_sets": [
+    {
+      "name": "#DOTA_Set_Adornments_of_Blight",
+      "store_bundle": "Adornments of Blight Set",
+      "portrait_image": "econ/sets/v2/adornments_of_blight",
+      "items": [
+        {
+          "name": "Epaulette of Blight",
+          "id": "5587",
+          "item_name": "#DOTA_Item_Epaulette_of_Blight",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Horns of Blight",
+          "id": "5588",
+          "item_name": "#DOTA_Item_Horns_of_Blight",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Shard of Blight",
+          "id": "5589",
+          "item_name": "#DOTA_Item_Shard_of_Blight",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Wings of Blight",
+          "id": "5590",
+          "item_name": "#DOTA_Item_Wings_of_Blight",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bloodfeather_Finery",
+      "store_bundle": "Bloodfeather Finery",
+      "portrait_image": "econ/sets/v2/bloodfeather_finery",
+      "items": [
+        {
+          "name": "Bloodfeather Frock",
+          "id": "23697",
+          "item_name": "#DOTA_Item_Bloodfeather_Frock",
+          "item_slot": "shoulder",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Bloodfeather Boots",
+          "id": "24100",
+          "item_name": "#DOTA_Item_Bloodfeather_Boots",
+          "item_slot": "legs",
+          "item_rarity": "immortal"
+        },
+        {
+          "name": "Taunt: Dancing Queen",
+          "id": "24533",
+          "item_name": "#DOTA_Item_Taunt_Dancing_Queen",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Chained_Mistress",
+      "store_bundle": "Chained Mistress Set",
+      "portrait_image": "econ/sets/v2/chained_mistress",
+      "items": [
+        {
+          "name": "Chained Beauty",
+          "id": "5355",
+          "item_name": "#DOTA_Item_Chained_Beauty",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Chained Wings",
+          "id": "5296",
+          "item_name": "#DOTA_Item_Chained_Wings",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Chained Spur",
+          "id": "5359",
+          "item_name": "#DOTA_Item_Chained_Spur",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Chained Guard",
+          "id": "5361",
+          "item_name": "#DOTA_Item_Chained_Guard",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Dark_Angel",
+      "store_bundle": "Dark Angel",
+      "portrait_image": "econ/sets/v2/dark_angel",
+      "items": [
+        {
+          "name": "Shoulders of the Dark Angel",
+          "id": "6601",
+          "item_name": "#DOTA_Item_Shoulders_of_the_Dark_Angel",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Wings of the Dark Angel",
+          "id": "6602",
+          "item_name": "#DOTA_Item_Wings_of_the_Dark_Angel",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Horns of the Dark Angel",
+          "id": "6603",
+          "item_name": "#DOTA_Item_Horns_of_the_Dark_Angel",
+          "item_slot": "head",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Dagger of the Dark Angel",
+          "id": "6604",
+          "item_name": "#DOTA_Item_Dagger_of_the_Dark_Angel",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Delightful_Affliction",
+      "store_bundle": "Delightful Affliction",
+      "portrait_image": "econ/sets/v2/esl_demonic_affliction",
+      "items": [
+        {
+          "name": "Mantle of Delightful Affliction",
+          "id": "8231",
+          "item_name": "#DOTA_Item_Mantle_of_Delightful_Affliction",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Prongs of Delightful Affliction",
+          "id": "8107",
+          "item_name": "#DOTA_Item_Prongs_of_Delightful_Affliction",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Span of Delightful Affliction",
+          "id": "8232",
+          "item_name": "#DOTA_Item_Span_of_Delightful_Affliction",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Dagger of Delightful Affliction",
+          "id": "8233",
+          "item_name": "#DOTA_Item_Dagger_of_Delightful_Affliction",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Exquisite_Agonies",
+      "store_bundle": "Exquisite Agonies",
+      "portrait_image": "econ/sets/v2/exquisite_agonies",
+      "items": [
+        {
+          "name": "Exquisite Agonies - Weapon",
+          "id": "26379",
+          "item_name": "#DOTA_Item_Exquisite_Agonies__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Exquisite Agonies - Shoulder",
+          "id": "29616",
+          "item_name": "#DOTA_Item_Exquisite_Agonies__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Exquisite Agonies - Head",
+          "id": "29615",
+          "item_name": "#DOTA_Item_Exquisite_Agonies__Head",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Exquisite Agonies - Legs",
+          "id": "29614",
+          "item_name": "#DOTA_Item_Exquisite_Agonies__Legs",
+          "item_slot": "legs",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Exquisite Agonies - Back",
+          "id": "26380",
+          "item_name": "#DOTA_Item_Exquisite_Agonies__Back",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bonds_of_Vincere",
+      "store_bundle": "Bonds of Vincere Set",
+      "portrait_image": "econ/sets/v2/qop_bonds_of_vincere",
+      "items": [
+        {
+          "name": "Wings of Vincere",
+          "id": "5183",
+          "item_name": "#DOTA_Item_Wings_of_Vincere",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Crown of Vincere",
+          "id": "5184",
+          "item_name": "#DOTA_Item_Crown_of_Vincere",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Guards of Vincere",
+          "id": "5185",
+          "item_name": "#DOTA_Item_Guards_of_Vincere",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Mace of Vincere",
+          "id": "5186",
+          "item_name": "#DOTA_Item_Mace_of_Vincere",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Queen_of_Agony",
+      "store_bundle": "Throes of Anguish Set",
+      "portrait_image": "econ/sets/v2/queen_of_agony",
+      "items": [
+        {
+          "name": "Maze of Anguish",
+          "id": "5162",
+          "item_name": "#DOTA_Item_Maze_of_Anguish",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Dagger of Anguish",
+          "id": "5160",
+          "item_name": "#DOTA_Item_Dagger_of_Anguish",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Guard of Anguish",
+          "id": "5159",
+          "item_name": "#DOTA_Item_Guard_of_Anguish",
+          "item_slot": "shoulder",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Shade of Anguish",
+          "id": "5157",
+          "item_name": "#DOTA_Item_Shade_of_Anguish",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Arch_Temptress",
+      "store_bundle": "The Arch Temptress",
+      "portrait_image": "econ/sets/v2/queen_of_pain_arch_temptress",
+      "items": [
+        {
+          "name": "Horns of the Arch Temptress",
+          "id": "7528",
+          "item_name": "#DOTA_Item_Horns_of_the_Arch_Temptress",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Armor of the Arch Temptress",
+          "id": "7529",
+          "item_name": "#DOTA_Item_Armor_of_the_Arch_Temptress",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Dagger of the Arch Temptress",
+          "id": "7530",
+          "item_name": "#DOTA_Item_Dagger_of_the_Arch_Temptress",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Wings of the Arch Temptress",
+          "id": "7527",
+          "item_name": "#DOTA_Item_Wings_of_the_Arch_Temptress",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Lineage_The_Arch_Temptress",
+      "store_bundle": "Lineage The Arch Temptress",
+      "portrait_image": "econ/sets/v2/queenofpain_lineage_the_arch_temptress",
+      "items": [
+        {
+          "name": "Lineage Wings of the Arch Temptress",
+          "id": "18161",
+          "item_name": "#DOTA_Item_Lineage_Wings_of_the_Arch_Temptress",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Lineage Horns of the Arch Temptress",
+          "id": "18162",
+          "item_name": "#DOTA_Item_Lineage_Horns_of_the_Arch_Temptress",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Lineage Armor of the Arch Temptress",
+          "id": "18163",
+          "item_name": "#DOTA_Item_Lineage_Armor_of_the_Arch_Temptress",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Lineage Dagger of the Arch Temptress",
+          "id": "18164",
+          "item_name": "#DOTA_Item_Lineage_Dagger_of_the_Arch_Temptress",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Obsidian_Nightmare",
+      "store_bundle": "Obsidian Nightmare",
+      "portrait_image": "econ/sets/v2/queenofpain_obsidian_nightmare",
+      "items": [
+        {
+          "name": "Horns of the Obsidian Nightmare",
+          "id": "7636",
+          "item_name": "#DOTA_Item_Horns_of_the_Obsidian_Nightmare",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Blade of the Obsidian Nightmare",
+          "id": "7637",
+          "item_name": "#DOTA_Item_Blade_of_the_Obsidian_Nightmare",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Wings of the Obsidian Nightmare",
+          "id": "7638",
+          "item_name": "#DOTA_Item_Wings_of_the_Obsidian_Nightmare",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Pauldrons of the Obsidian Nightmare",
+          "id": "7635",
+          "item_name": "#DOTA_Item_Pauldrons_of_the_Obsidian_Nightmare",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Eminence_of_Ristul",
+      "store_bundle": "The Eminence of Ristul Bundle",
+      "portrait_image": "econ/sets/v2/queenofpain_the_eminence_of_ristul",
+      "items": [
+        {
+          "name": "Crown of the Eminence of Ristul",
+          "id": "13769",
+          "item_name": "#DOTA_Item_Crown_of_the_Eminence_of_Ristul",
+          "item_slot": "head",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Raiments of the Eminence of Ristul",
+          "id": "13768",
+          "item_name": "#DOTA_Item_Raiments_of_the_Eminence_of_Ristul",
+          "item_slot": "shoulder",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Grace of the Eminence of Ristul",
+          "id": "13770",
+          "item_name": "#DOTA_Item_Grace_of_the_Eminence_of_Ristul",
+          "item_slot": "weapon",
+          "item_rarity": "legendary"
+        },
+        {
+          "name": "Eminence of Ristul",
+          "id": "12930",
+          "item_name": "#DOTA_Item_Eminence_of_Ristul",
+          "item_slot": "back",
+          "item_rarity": "arcana"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Raiments_of_Twilight_Shade",
+      "store_bundle": "Raiments of Twilight Shade",
+      "portrait_image": "econ/sets/v2/raiments_of_twilight_shade",
+      "items": [
+        {
+          "name": "Sash of Twilight Shade",
+          "id": "7189",
+          "item_name": "#DOTA_Item_Sash_of_Twilight_Shade",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Wings of Twilight Shade",
+          "id": "7190",
+          "item_name": "#DOTA_Item_Wings_of_Twilight_Shade",
+          "item_slot": "back",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Dagger of Twilight Shade",
+          "id": "7191",
+          "item_name": "#DOTA_Item_Dagger_of_Twilight_Shade",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Style of Twilight Shade",
+          "id": "7192",
+          "item_name": "#DOTA_Item_Style_of_Twilight_Shade",
+          "item_slot": "head",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Raptures_of_the_Abyssal_Kin",
+      "store_bundle": "Raptures of the Abyssal Kin",
+      "portrait_image": "econ/sets/v2/raptures_of_the_abyssal_kin",
+      "items": [
+        {
+          "name": "Wings of the Abyssal Kin",
+          "id": "9863",
+          "item_name": "#DOTA_Item_Wings_of_the_Abyssal_Kin",
+          "item_slot": "back",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Blade of the Abyssal Kin",
+          "id": "9860",
+          "item_name": "#DOTA_Item_Blade_of_the_Abyssal_Kin",
+          "item_slot": "weapon",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Crown of the Abyssal Kin",
+          "id": "9859",
+          "item_name": "#DOTA_Item_Crown_of_the_Abyssal_Kin",
+          "item_slot": "head",
+          "item_rarity": "mythical"
+        },
+        {
+          "name": "Form of the Abyssal Kin",
+          "id": "9858",
+          "item_name": "#DOTA_Item_Form_of_the_Abyssal_Kin",
+          "item_slot": "shoulder",
+          "item_rarity": "mythical"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Raven_of_Ristul",
+      "store_bundle": "Raven of Ristul",
+      "portrait_image": "econ/sets/v2/raven_of_ristul",
+      "items": [
+        {
+          "name": "Raven of Ristul - Weapon",
+          "id": "14832",
+          "item_name": "#DOTA_Item_Raven_of_Ristul__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Raven of Ristul - Shoulder",
+          "id": "14831",
+          "item_name": "#DOTA_Item_Raven_of_Ristul__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Raven of Ristul - Head",
+          "id": "14830",
+          "item_name": "#DOTA_Item_Raven_of_Ristul__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Raven of Ristul - Back",
+          "id": "14829",
+          "item_name": "#DOTA_Item_Raven_of_Ristul__Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Regalia_of_the_Parasols_Sting",
+      "store_bundle": "Regalia of the Parasol's Sting",
+      "portrait_image": "econ/sets/v2/regalia_of_the_parasols_sting",
+      "items": [
+        {
+          "name": "Veil of the Parasol's Sting",
+          "id": "7750",
+          "item_name": "#DOTA_Item_Veil_of_the_Parasols_Sting",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Ancipitous Strike of the Parasol's Sting",
+          "id": "7753",
+          "item_name": "#DOTA_Item_Ancipitous_Strike_of_the_Parasols_Sting",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        },
+        {
+          "name": "Jabot of the Parasol's Sting ",
+          "id": "7754",
+          "item_name": "#DOTA_Item_Jabot_of_the_Parasols_Sting_",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Ferronniere of the Parasol's Sting ",
+          "id": "7755",
+          "item_name": "#DOTA_Item_Ferronniere_of_the_Parasols_Sting_",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Sanguine_Royalty",
+      "store_bundle": "Sanguine Royalty",
+      "portrait_image": "econ/sets/v2/sanguine_royalty",
+      "items": [
+        {
+          "name": "Wings of Royal Ascension",
+          "id": "6841",
+          "item_name": "#DOTA_Item_Wings_of_Royal_Ascension",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Vestments of Sanguine Royalty",
+          "id": "6842",
+          "item_name": "#DOTA_Item_Vestments_of_Sanguine_Royalty",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Crown of Sanguine Royalty",
+          "id": "6840",
+          "item_name": "#DOTA_Item_Crown_of_Sanguine_Royalty",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Crimson Agony",
+          "id": "6839",
+          "item_name": "#DOTA_Item_Crimson_Agony",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Bindings_of_Enduring_Torment",
+      "store_bundle": "Bindings of Enduring Torment Set",
+      "portrait_image": "econ/sets/v2/secret_queen",
+      "items": [
+        {
+          "name": "Torment Unbound",
+          "id": "4664",
+          "item_name": "#DOTA_Item_Torment_Unbound",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Chain of Enduring Torment",
+          "id": "4665",
+          "item_name": "#DOTA_Item_Chain_of_Enduring_Torment",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Tiara of Enduring Torment",
+          "id": "4666",
+          "item_name": "#DOTA_Item_Tiara_of_Enduring_Torment",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Dagger of Enduring Torment",
+          "id": "4667",
+          "item_name": "#DOTA_Item_Dagger_of_Enduring_Torment",
+          "item_slot": "weapon",
+          "item_rarity": "common"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_Swarm_of_the_Killer_Queen",
+      "store_bundle": "Swarm of the Killer Queen",
+      "portrait_image": "econ/sets/v2/swarm_of_the_killer_queen",
+      "items": [
+        {
+          "name": "Swarm of the Killer Queen - Head",
+          "id": "24167",
+          "item_name": "#DOTA_Item_Swarm_of_the_Killer_Queen__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Swarm of the Killer Queen - Armor",
+          "id": "24168",
+          "item_name": "#DOTA_Item_Swarm_of_the_Killer_Queen__Armor",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Swarm of the Killer Queen - Dagger",
+          "id": "24169",
+          "item_name": "#DOTA_Item_Swarm_of_the_Killer_Queen__Dagger",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "Swarm of the Killer Queen - Wings",
+          "id": "24200",
+          "item_name": "#DOTA_Item_Swarm_of_the_Killer_Queen__Wings",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Rose_of_Ristul",
+      "store_bundle": "The Rose of Ristul",
+      "portrait_image": "econ/sets/v2/the_rose_of_ristul",
+      "items": [
+        {
+          "name": "The Rose of Ristul - Back",
+          "id": "26200",
+          "item_name": "#DOTA_Item_The_Rose_of_Ristul__Back",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Rose of Ristul - Weapon",
+          "id": "26185",
+          "item_name": "#DOTA_Item_The_Rose_of_Ristul__Weapon",
+          "item_slot": "weapon",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Rose of Ristul - Shoulder",
+          "id": "26166",
+          "item_name": "#DOTA_Item_The_Rose_of_Ristul__Shoulder",
+          "item_slot": "shoulder",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Rose of Ristul - Head",
+          "id": "19784",
+          "item_name": "#DOTA_Item_The_Rose_of_Ristul__Head",
+          "item_slot": "head",
+          "item_rarity": "rare"
+        },
+        {
+          "name": "The Rose of Ristul - Legs",
+          "id": "19782",
+          "item_name": "#DOTA_Item_The_Rose_of_Ristul__Legs",
+          "item_slot": "legs",
+          "item_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "name": "#DOTA_Set_The_Wicked_Succubus",
+      "store_bundle": "Wicked Succubus Set",
+      "portrait_image": "econ/sets/v2/wicked_succubus",
+      "items": [
+        {
+          "name": "Dirk of the Wicked Succubus",
+          "id": "4542",
+          "item_name": "#DOTA_Item_Dirk_of_the_Wicked_Succubus",
+          "item_slot": "weapon",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Horns of the Wicked Succubus",
+          "id": "4517",
+          "item_name": "#DOTA_Item_Horns_of_the_Wicked_Succubus",
+          "item_slot": "head",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Wraps of the Wicked Succubus",
+          "id": "4550",
+          "item_name": "#DOTA_Item_Wraps_of_the_Wicked_Succubus",
+          "item_slot": "shoulder",
+          "item_rarity": "uncommon"
+        },
+        {
+          "name": "Wings of the Wicked Succubus",
+          "id": "4543",
+          "item_name": "#DOTA_Item_Wings_of_the_Wicked_Succubus",
+          "item_slot": "back",
+          "item_rarity": "rare"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "26",
+      "name": "Queen of Pain's Weapon",
+      "item_name": "#DOTA_Item_Queen_of_Pains_Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "82",
+      "name": "Queen of Pain's Wings",
+      "item_name": "#DOTA_Item_Queen_of_Pains_Wings",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "83",
+      "name": "Queen of Pain's Armor",
+      "item_name": "#DOTA_Item_Queen_of_Pains_Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "84",
+      "name": "Queen of Pain's Hair",
+      "item_name": "#DOTA_Item_Queen_of_Pains_Hair",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "781",
+      "name": "Queen of Pain's Legs",
+      "item_name": "#DOTA_Item_Queen_of_Pains_Legs",
+      "item_slot": "legs",
+      "item_rarity": "common",
+      "prefab": "default_item"
+    },
+    {
+      "id": "4480",
+      "name": "Wings of the Ruby Web",
+      "item_name": "#DOTA_Item_Wings_of_the_Ruby_Web",
+      "item_slot": "back",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4517",
+      "name": "Horns of the Wicked Succubus",
+      "item_name": "#DOTA_Item_Horns_of_the_Wicked_Succubus",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4542",
+      "name": "Dirk of the Wicked Succubus",
+      "item_name": "#DOTA_Item_Dirk_of_the_Wicked_Succubus",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4543",
+      "name": "Wings of the Wicked Succubus",
+      "item_name": "#DOTA_Item_Wings_of_the_Wicked_Succubus",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4550",
+      "name": "Wraps of the Wicked Succubus",
+      "item_name": "#DOTA_Item_Wraps_of_the_Wicked_Succubus",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4664",
+      "name": "Torment Unbound",
+      "item_name": "#DOTA_Item_Torment_Unbound",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4665",
+      "name": "Chain of Enduring Torment",
+      "item_name": "#DOTA_Item_Chain_of_Enduring_Torment",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4666",
+      "name": "Tiara of Enduring Torment",
+      "item_name": "#DOTA_Item_Tiara_of_Enduring_Torment",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4667",
+      "name": "Dagger of Enduring Torment",
+      "item_name": "#DOTA_Item_Dagger_of_Enduring_Torment",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "4962",
+      "name": "Tear of Agony",
+      "item_name": "#DOTA_Item_Tear_of_Agony",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5157",
+      "name": "Shade of Anguish",
+      "item_name": "#DOTA_Item_Shade_of_Anguish",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5159",
+      "name": "Guard of Anguish",
+      "item_name": "#DOTA_Item_Guard_of_Anguish",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5160",
+      "name": "Dagger of Anguish",
+      "item_name": "#DOTA_Item_Dagger_of_Anguish",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5162",
+      "name": "Maze of Anguish",
+      "item_name": "#DOTA_Item_Maze_of_Anguish",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5183",
+      "name": "Wings of Vincere",
+      "item_name": "#DOTA_Item_Wings_of_Vincere",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5184",
+      "name": "Crown of Vincere",
+      "item_name": "#DOTA_Item_Crown_of_Vincere",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5185",
+      "name": "Guards of Vincere",
+      "item_name": "#DOTA_Item_Guards_of_Vincere",
+      "item_slot": "shoulder",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5186",
+      "name": "Mace of Vincere",
+      "item_name": "#DOTA_Item_Mace_of_Vincere",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5296",
+      "name": "Chained Wings",
+      "item_name": "#DOTA_Item_Chained_Wings",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5355",
+      "name": "Chained Beauty",
+      "item_name": "#DOTA_Item_Chained_Beauty",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5359",
+      "name": "Chained Spur",
+      "item_name": "#DOTA_Item_Chained_Spur",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5361",
+      "name": "Chained Guard",
+      "item_name": "#DOTA_Item_Chained_Guard",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5587",
+      "name": "Epaulette of Blight",
+      "item_name": "#DOTA_Item_Epaulette_of_Blight",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5588",
+      "name": "Horns of Blight",
+      "item_name": "#DOTA_Item_Horns_of_Blight",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5589",
+      "name": "Shard of Blight",
+      "item_name": "#DOTA_Item_Shard_of_Blight",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "5590",
+      "name": "Wings of Blight",
+      "item_name": "#DOTA_Item_Wings_of_Blight",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6572",
+      "name": "Wings of Searing Pain",
+      "item_name": "#DOTA_Item_Wings_of_Searing_Pain",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6601",
+      "name": "Shoulders of the Dark Angel",
+      "item_name": "#DOTA_Item_Shoulders_of_the_Dark_Angel",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6602",
+      "name": "Wings of the Dark Angel",
+      "item_name": "#DOTA_Item_Wings_of_the_Dark_Angel",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6603",
+      "name": "Horns of the Dark Angel",
+      "item_name": "#DOTA_Item_Horns_of_the_Dark_Angel",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6604",
+      "name": "Dagger of the Dark Angel",
+      "item_name": "#DOTA_Item_Dagger_of_the_Dark_Angel",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6683",
+      "name": "Tormentor's Diadem",
+      "item_name": "#DOTA_Item_Tormentors_Diadem",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6839",
+      "name": "Crimson Agony",
+      "item_name": "#DOTA_Item_Crimson_Agony",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6840",
+      "name": "Crown of Sanguine Royalty",
+      "item_name": "#DOTA_Item_Crown_of_Sanguine_Royalty",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6841",
+      "name": "Wings of Royal Ascension",
+      "item_name": "#DOTA_Item_Wings_of_Royal_Ascension",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "6842",
+      "name": "Vestments of Sanguine Royalty",
+      "item_name": "#DOTA_Item_Vestments_of_Sanguine_Royalty",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7189",
+      "name": "Sash of Twilight Shade",
+      "item_name": "#DOTA_Item_Sash_of_Twilight_Shade",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7190",
+      "name": "Wings of Twilight Shade",
+      "item_name": "#DOTA_Item_Wings_of_Twilight_Shade",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7191",
+      "name": "Dagger of Twilight Shade",
+      "item_name": "#DOTA_Item_Dagger_of_Twilight_Shade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7192",
+      "name": "Style of Twilight Shade",
+      "item_name": "#DOTA_Item_Style_of_Twilight_Shade",
+      "item_slot": "head",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7212",
+      "name": "Bloodfeather Wings",
+      "item_name": "#DOTA_Item_Bloodfeather_Wings",
+      "item_slot": "back",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7527",
+      "name": "Wings of the Arch Temptress",
+      "item_name": "#DOTA_Item_Wings_of_the_Arch_Temptress",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7528",
+      "name": "Horns of the Arch Temptress",
+      "item_name": "#DOTA_Item_Horns_of_the_Arch_Temptress",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7529",
+      "name": "Armor of the Arch Temptress",
+      "item_name": "#DOTA_Item_Armor_of_the_Arch_Temptress",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7530",
+      "name": "Dagger of the Arch Temptress",
+      "item_name": "#DOTA_Item_Dagger_of_the_Arch_Temptress",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7548",
+      "name": "Sinner's Embrace",
+      "item_name": "#DOTA_Item_Sinners_Embrace",
+      "item_slot": "back",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7635",
+      "name": "Pauldrons of the Obsidian Nightmare",
+      "item_name": "#DOTA_Item_Pauldrons_of_the_Obsidian_Nightmare",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7636",
+      "name": "Horns of the Obsidian Nightmare",
+      "item_name": "#DOTA_Item_Horns_of_the_Obsidian_Nightmare",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7637",
+      "name": "Blade of the Obsidian Nightmare",
+      "item_name": "#DOTA_Item_Blade_of_the_Obsidian_Nightmare",
+      "item_slot": "weapon",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7638",
+      "name": "Wings of the Obsidian Nightmare",
+      "item_name": "#DOTA_Item_Wings_of_the_Obsidian_Nightmare",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7750",
+      "name": "Veil of the Parasol's Sting",
+      "item_name": "#DOTA_Item_Veil_of_the_Parasols_Sting",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7753",
+      "name": "Ancipitous Strike of the Parasol's Sting",
+      "item_name": "#DOTA_Item_Ancipitous_Strike_of_the_Parasols_Sting",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7754",
+      "name": "Jabot of the Parasol's Sting ",
+      "item_name": "#DOTA_Item_Jabot_of_the_Parasols_Sting_",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "7755",
+      "name": "Ferronniere of the Parasol's Sting ",
+      "item_name": "#DOTA_Item_Ferronniere_of_the_Parasols_Sting_",
+      "item_slot": "head",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8107",
+      "name": "Prongs of Delightful Affliction",
+      "item_name": "#DOTA_Item_Prongs_of_Delightful_Affliction",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8231",
+      "name": "Mantle of Delightful Affliction",
+      "item_name": "#DOTA_Item_Mantle_of_Delightful_Affliction",
+      "item_slot": "shoulder",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8232",
+      "name": "Span of Delightful Affliction",
+      "item_name": "#DOTA_Item_Span_of_Delightful_Affliction",
+      "item_slot": "back",
+      "item_rarity": "uncommon",
+      "prefab": "wearable"
+    },
+    {
+      "id": "8233",
+      "name": "Dagger of Delightful Affliction",
+      "item_name": "#DOTA_Item_Dagger_of_Delightful_Affliction",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9858",
+      "name": "Form of the Abyssal Kin",
+      "item_name": "#DOTA_Item_Form_of_the_Abyssal_Kin",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9859",
+      "name": "Crown of the Abyssal Kin",
+      "item_name": "#DOTA_Item_Crown_of_the_Abyssal_Kin",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9860",
+      "name": "Blade of the Abyssal Kin",
+      "item_name": "#DOTA_Item_Blade_of_the_Abyssal_Kin",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "9863",
+      "name": "Wings of the Abyssal Kin",
+      "item_name": "#DOTA_Item_Wings_of_the_Abyssal_Kin",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12322",
+      "name": "Bloodfeather Feast",
+      "item_name": "#DOTA_Item_Bloodfeather_Feast",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12337",
+      "name": "Golden Bloodfeather Feast",
+      "item_name": "#DOTA_Item_Golden_Bloodfeather_Feast",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "12930",
+      "name": "Eminence of Ristul",
+      "item_name": "#DOTA_Item_Eminence_of_Ristul",
+      "item_slot": "back",
+      "item_rarity": "arcana",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13768",
+      "name": "Raiments of the Eminence of Ristul",
+      "item_name": "#DOTA_Item_Raiments_of_the_Eminence_of_Ristul",
+      "item_slot": "shoulder",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13769",
+      "name": "Crown of the Eminence of Ristul",
+      "item_name": "#DOTA_Item_Crown_of_the_Eminence_of_Ristul",
+      "item_slot": "head",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "13770",
+      "name": "Grace of the Eminence of Ristul",
+      "item_name": "#DOTA_Item_Grace_of_the_Eminence_of_Ristul",
+      "item_slot": "weapon",
+      "item_rarity": "legendary",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14829",
+      "name": "Raven of Ristul - Back",
+      "item_name": "#DOTA_Item_Raven_of_Ristul__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14830",
+      "name": "Raven of Ristul - Head",
+      "item_name": "#DOTA_Item_Raven_of_Ristul__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14831",
+      "name": "Raven of Ristul - Shoulder",
+      "item_name": "#DOTA_Item_Raven_of_Ristul__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "14832",
+      "name": "Raven of Ristul - Weapon",
+      "item_name": "#DOTA_Item_Raven_of_Ristul__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18161",
+      "name": "Lineage Wings of the Arch Temptress",
+      "item_name": "#DOTA_Item_Lineage_Wings_of_the_Arch_Temptress",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18162",
+      "name": "Lineage Horns of the Arch Temptress",
+      "item_name": "#DOTA_Item_Lineage_Horns_of_the_Arch_Temptress",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18163",
+      "name": "Lineage Armor of the Arch Temptress",
+      "item_name": "#DOTA_Item_Lineage_Armor_of_the_Arch_Temptress",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "18164",
+      "name": "Lineage Dagger of the Arch Temptress",
+      "item_name": "#DOTA_Item_Lineage_Dagger_of_the_Arch_Temptress",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19782",
+      "name": "The Rose of Ristul - Legs",
+      "item_name": "#DOTA_Item_The_Rose_of_Ristul__Legs",
+      "item_slot": "legs",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "19784",
+      "name": "The Rose of Ristul - Head",
+      "item_name": "#DOTA_Item_The_Rose_of_Ristul__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "20131",
+      "name": "Bindings of Enduring Torment Set",
+      "item_name": "#DOTA_Item_Bindings_of_Enduring_Torment_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20198",
+      "name": "Throes of Anguish Set",
+      "item_name": "#DOTA_Item_Throes_of_Anguish_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20213",
+      "name": "Bonds of Vincere Set",
+      "item_name": "#DOTA_Item_Bonds_of_Vincere_Set",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20244",
+      "name": "Chained Mistress Set",
+      "item_name": "#DOTA_Item_Chained_Mistress_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20265",
+      "name": "Wicked Succubus Set",
+      "item_name": "#DOTA_Item_Wicked_Succubus_Set",
+      "item_slot": "weapon",
+      "item_rarity": "common",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20295",
+      "name": "Adornments of Blight Set",
+      "item_name": "#DOTA_Item_Adornments_of_Blight_Set",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20515",
+      "name": "Dark Angel",
+      "item_name": "#DOTA_Item_Dark_Angel",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20581",
+      "name": "Sanguine Royalty",
+      "item_name": "#DOTA_Item_Sanguine_Royalty",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20725",
+      "name": "The Arch Temptress",
+      "item_name": "#DOTA_Item_The_Arch_Temptress",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20747",
+      "name": "Regalia of the Parasol's Sting",
+      "item_name": "#DOTA_Item_Regalia_of_the_Parasols_Sting",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20813",
+      "name": "Raiments of Twilight Shade",
+      "item_name": "#DOTA_Item_Raiments_of_Twilight_Shade",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20880",
+      "name": "Obsidian Nightmare",
+      "item_name": "#DOTA_Item_Obsidian_Nightmare",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "20904",
+      "name": "Delightful Affliction",
+      "item_name": "#DOTA_Item_Delightful_Affliction",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21199",
+      "name": "Raptures of the Abyssal Kin",
+      "item_name": "#DOTA_Item_Raptures_of_the_Abyssal_Kin",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21416",
+      "name": "The Eminence of Ristul Bundle",
+      "item_name": "#DOTA_Item_The_Eminence_of_Ristul_Bundle",
+      "item_slot": "weapon",
+      "item_rarity": "arcana",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21602",
+      "name": "Raven of Ristul",
+      "item_name": "#DOTA_Item_Raven_of_Ristul",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "21861",
+      "name": "Lineage The Arch Temptress",
+      "item_name": "#DOTA_Item_Lineage_The_Arch_Temptress",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "23697",
+      "name": "Bloodfeather Frock",
+      "item_name": "#DOTA_Item_Bloodfeather_Frock",
+      "item_slot": "shoulder",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "23743",
+      "name": "Abyssal Kin Legs",
+      "item_name": "#DOTA_Item_Abyssal_Kin_Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "24100",
+      "name": "Bloodfeather Boots",
+      "item_name": "#DOTA_Item_Bloodfeather_Boots",
+      "item_slot": "legs",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    },
+    {
+      "id": "24101",
+      "name": "Bloodfeather Finery",
+      "item_name": "#DOTA_Item_Bloodfeather_Finery",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "bundle"
+    },
+    {
+      "id": "24167",
+      "name": "Swarm of the Killer Queen - Head",
+      "item_name": "#DOTA_Item_Swarm_of_the_Killer_Queen__Head",
+      "item_slot": "head",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "24168",
+      "name": "Swarm of the Killer Queen - Armor",
+      "item_name": "#DOTA_Item_Swarm_of_the_Killer_Queen__Armor",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "24169",
+      "name": "Swarm of the Killer Queen - Dagger",
+      "item_name": "#DOTA_Item_Swarm_of_the_Killer_Queen__Dagger",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "24199",
+      "name": "Swarm of the Killer Queen",
+      "item_name": "#DOTA_Item_Swarm_of_the_Killer_Queen",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "24200",
+      "name": "Swarm of the Killer Queen - Wings",
+      "item_name": "#DOTA_Item_Swarm_of_the_Killer_Queen__Wings",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "24533",
+      "name": "Taunt: Dancing Queen",
+      "item_name": "#DOTA_Item_Taunt_Dancing_Queen",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "taunt"
+    },
+    {
+      "id": "26166",
+      "name": "The Rose of Ristul - Shoulder",
+      "item_name": "#DOTA_Item_The_Rose_of_Ristul__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26185",
+      "name": "The Rose of Ristul - Weapon",
+      "item_name": "#DOTA_Item_The_Rose_of_Ristul__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26186",
+      "name": "The Rose of Ristul",
+      "item_name": "#DOTA_Item_The_Rose_of_Ristul",
+      "item_slot": "weapon",
+      "item_rarity": "rare",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26200",
+      "name": "The Rose of Ristul - Back",
+      "item_name": "#DOTA_Item_The_Rose_of_Ristul__Back",
+      "item_slot": "back",
+      "item_rarity": "rare",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26378",
+      "name": "Exquisite Agonies",
+      "item_name": "#DOTA_Item_Exquisite_Agonies",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "bundle"
+    },
+    {
+      "id": "26379",
+      "name": "Exquisite Agonies - Weapon",
+      "item_name": "#DOTA_Item_Exquisite_Agonies__Weapon",
+      "item_slot": "weapon",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "26380",
+      "name": "Exquisite Agonies - Back",
+      "item_name": "#DOTA_Item_Exquisite_Agonies__Back",
+      "item_slot": "back",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29614",
+      "name": "Exquisite Agonies - Legs",
+      "item_name": "#DOTA_Item_Exquisite_Agonies__Legs",
+      "item_slot": "legs",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29615",
+      "name": "Exquisite Agonies - Head",
+      "item_name": "#DOTA_Item_Exquisite_Agonies__Head",
+      "item_slot": "head",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "29616",
+      "name": "Exquisite Agonies - Shoulder",
+      "item_name": "#DOTA_Item_Exquisite_Agonies__Shoulder",
+      "item_slot": "shoulder",
+      "item_rarity": "mythical",
+      "prefab": "wearable"
+    },
+    {
+      "id": "35221",
+      "name": "Tyrian Bloodfeather Feast",
+      "item_name": "#DOTA_Item_Tyrian_Bloodfeather_Feast",
+      "item_slot": "weapon",
+      "item_rarity": "immortal",
+      "prefab": "wearable"
+    }
+  ]
+}
