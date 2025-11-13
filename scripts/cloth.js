@@ -120,7 +120,7 @@ async function analyzeItemsGame() {
             console.log(chalk.red(`文件不存在: ${itemsGamePath}`));
             return;
         }
-
+        
         // 读取文件内容
         const content = await fs.readFile(itemsGamePath, 'utf8');
         console.log(chalk.green(`文件读取成功，大小: ${content.length} 字符`));
