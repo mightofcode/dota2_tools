@@ -350,8 +350,8 @@ function analyzePersonaItems(data) {
                 sound: soundModifiers
             } : null;
 
-            // 验证：visuals 不为空才保存
-            if (visuals === null) {
+            // 验证：只要 item.visuals 存在就是合法的 persona
+            if (!item.visuals) {
                 console.log(chalk.yellow(`跳过无效的persona物品 (ID: ${itemId}, 无visuals数据)`));
                 return;
             }
