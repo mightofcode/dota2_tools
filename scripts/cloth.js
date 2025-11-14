@@ -638,10 +638,18 @@ function handleDumpCommand(state) {
         return;
     }
 
+    // 统计信息
+    console.log(chalk.yellow('\n统计信息:'));
+    const itemCount = Object.keys(state.itemList).length;
+    const hasPersona = state.selectedPersona && state.selectedPersona.entity_model ? 1 : 0;
+    console.log(`  物品数量: ${itemCount}`);
+    console.log(`  包含 Persona: ${hasPersona ? '是' : '否'}`);
+    console.log();
+
     // 生成 KV 格式
     const kvOutput = itemListToKV(state.itemList);
 
-    console.log(chalk.cyan('\n=== KV 格式输出 ===\n'));
+    console.log(chalk.cyan('=== KV 格式输出 ===\n'));
     console.log(kvOutput);
 
     // 如果有 persona，单独输出 Model
@@ -649,14 +657,6 @@ function handleDumpCommand(state) {
         console.log(`"Model"    "${state.selectedPersona.entity_model}"`);
     }
 
-    console.log();
-
-    // 统计信息
-    console.log(chalk.yellow('统计信息:'));
-    const itemCount = Object.keys(state.itemList).length;
-    const hasPersona = state.selectedPersona && state.selectedPersona.entity_model ? 1 : 0;
-    console.log(`  物品数量: ${itemCount}`);
-    console.log(`  包含 Persona: ${hasPersona ? '是' : '否'}`);
     console.log();
 }
 
