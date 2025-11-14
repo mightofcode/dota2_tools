@@ -684,9 +684,23 @@ async function selectPersona(rl, personaList, state) {
                 const selectedPersona = personaList[index];
                 state.selectedPersona = selectedPersona;
                 state.itemList = {}; // 清空物品列表
+
+                // 添加 defaultsPersona 中的物品
+                const defaultsPersona = state.unitClothData?.defaultsPersona || {};
+                Object.values(defaultsPersona).forEach(item => {
+                    state.itemList[item.item_slot] = item;
+                });
+
                 console.log(chalk.green(`✓ 已选择 Persona: ${selectedPersona.name}`));
                 console.log(chalk.cyan(`Entity Model: ${selectedPersona.entity_model || 'N/A'}`));
-                console.log(chalk.yellow('物品列表已清空'));
+
+                const addedCount = Object.keys(defaultsPersona).length;
+                if (addedCount > 0) {
+                    console.log(chalk.cyan(`已添加 ${addedCount} 件默认 Persona 物品`));
+                    displayItemList(state.itemList);
+                } else {
+                    console.log(chalk.yellow('没有默认 Persona 物品'));
+                }
             } else if (choice === '') {
                 console.log(chalk.yellow('已取消选择'));
             } else {
@@ -713,11 +727,26 @@ async function handlePersonaCommand(state, rl) {
 
     if (personaList.length === 1) {
         // 直接选择唯一的 persona
-        state.selectedPersona = personaList[0];
+        const selectedPersona = personaList[0];
+        state.selectedPersona = selectedPersona;
         state.itemList = {}; // 清空物品列表
-        console.log(chalk.green(`✓ 已选择 Persona: ${personaList[0].name}`));
-        console.log(chalk.cyan(`Entity Model: ${personaList[0].entity_model || 'N/A'}`));
-        console.log(chalk.yellow('物品列表已清空'));
+
+        // 添加 defaultsPersona 中的物品
+        const defaultsPersona = state.unitClothData?.defaultsPersona || {};
+        Object.values(defaultsPersona).forEach(item => {
+            state.itemList[item.item_slot] = item;
+        });
+
+        console.log(chalk.green(`✓ 已选择 Persona: ${selectedPersona.name}`));
+        console.log(chalk.cyan(`Entity Model: ${selectedPersona.entity_model || 'N/A'}`));
+
+        const addedCount = Object.keys(defaultsPersona).length;
+        if (addedCount > 0) {
+            console.log(chalk.cyan(`已添加 ${addedCount} 件默认 Persona 物品`));
+            displayItemList(state.itemList);
+        } else {
+            console.log(chalk.yellow('没有默认 Persona 物品'));
+        }
     } else {
         // 显示多个 persona 供选择
         await selectPersona(rl, personaList, state);
