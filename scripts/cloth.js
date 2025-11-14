@@ -56,14 +56,13 @@ async function generateClothsData(defaultItems, itemSets, heroItems, personaItem
     await fs.ensureDir(clothDir);
 
     const heroDefaults = {};
+    const heroDefaultsPersona = {};
     const unrelatedItems = [];
 
     // 处理默认饰品
     defaultItems.forEach(item => {
-        // 过滤掉name包含persona的物品
-        if (item.item_name.toLowerCase().includes('persona')) {
-            return;
-        }
+        // 检查是否是 persona 物品
+        const isPersona = item.item_name.toLowerCase().includes('persona');
 
         // 过滤掉特定的item_slot
         if (item.item_slot === 'hero_base' ||
@@ -78,11 +77,15 @@ async function generateClothsData(defaultItems, itemSets, heroItems, personaItem
         heroes.forEach(heroName => {
             if (heroName !== '0') { // 过滤掉英雄名为"0"的数据
                 hasHero = true;
-                if (!heroDefaults[heroName]) {
-                    heroDefaults[heroName] = {};
+
+                // 根据是否为 persona 物品分别处理
+                const targetObject = isPersona ? heroDefaultsPersona : heroDefaults;
+
+                if (!targetObject[heroName]) {
+                    targetObject[heroName] = {};
                 }
 
-                heroDefaults[heroName][item.item_slot] = {
+                targetObject[heroName][item.item_slot] = {
                     id: item.id,
                     name: item.name,
                     item_name: item.item_name,
@@ -102,6 +105,7 @@ async function generateClothsData(defaultItems, itemSets, heroItems, personaItem
     // 获取所有英雄集合
     const allHeroes = new Set();
     Object.keys(heroDefaults).forEach(hero => allHeroes.add(hero));
+    Object.keys(heroDefaultsPersona).forEach(hero => allHeroes.add(hero));
     Object.keys(itemSets).forEach(hero => allHeroes.add(hero));
     Object.keys(heroItems).forEach(hero => allHeroes.add(hero));
     Object.keys(personaItems).forEach(hero => allHeroes.add(hero));
@@ -111,6 +115,7 @@ async function generateClothsData(defaultItems, itemSets, heroItems, personaItem
     for (const heroName of allHeroes) {
         const heroData = {
             defaults: heroDefaults[heroName] || {},
+            defaultsPersona: heroDefaultsPersona[heroName] || {},
             item_sets: itemSets[heroName] || [],
             items: heroItems[heroName] || [],
             personaList: personaItems[heroName] || []
