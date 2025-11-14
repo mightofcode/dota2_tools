@@ -23,12 +23,12 @@ function analyzeItemsByHero(data) {
     Object.keys(items).forEach(itemId => {
         const item = items[itemId];
 
-        if (item && item.used_by_heroes) {
+        if (item && item.used_by_heroes && item.item_slot) {
             const itemInfo = {
                 id: itemId,
                 name: item.name,
                 item_name: item.item_name,
-                item_slot: item.item_slot,
+                item_slot: item.item_slot || 'weapon',
                 item_rarity: item.item_rarity || 'common',
                 prefab: item.prefab,
                 model_player: item.model_player
@@ -277,19 +277,19 @@ function printTreeStructure(data, depth = 0) {
 
 function analyzeDefaultItems(data) {
     console.log(chalk.cyan('\n=== 分析 prefab=default_item 的物品 ==='));
-    
+
     if (!data.items_game || !data.items_game.items) {
         console.log(chalk.red('未找到 items_game.items 数据'));
         return;
     }
-    
+
     const items = data.items_game.items;
     const defaultItems = [];
-    
+
     Object.keys(items).forEach(itemId => {
         const item = items[itemId];
-        
-        if (item && item.prefab === 'default_item') {
+
+        if (item && item.prefab === 'default_item' && item.item_slot) {
             const itemInfo = {
                 id: itemId,
                 name: item.name || item.item_name || '未知',
@@ -303,9 +303,9 @@ function analyzeDefaultItems(data) {
             defaultItems.push(itemInfo);
         }
     });
-    
+
     console.log(`\n找到 ${defaultItems.length} 个 default_item 物品`);
-    
+
     return defaultItems;
 }
 
@@ -412,8 +412,8 @@ function analyzeItemSets(data) {
             // 收集套装中的物品信息
             Object.keys(setData.items).forEach(itemName => {
                 const itemInfo = getItemByName(itemName);
-                
-                if (itemInfo) {
+
+                if (itemInfo && itemInfo.item_slot) {
                     setItems.push({
                         name: itemInfo.name,
                         id: itemInfo.id,
@@ -422,7 +422,7 @@ function analyzeItemSets(data) {
                         item_rarity: itemInfo.item_rarity,
                         model_player: itemInfo.model_player
                     });
-                    
+
                     // 收集使用该物品的英雄
                     if (itemInfo.used_by_heroes) {
                         Object.keys(itemInfo.used_by_heroes).forEach(heroName => {
