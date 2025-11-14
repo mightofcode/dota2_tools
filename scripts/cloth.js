@@ -28,7 +28,7 @@ function analyzeItemsByHero(data) {
                 id: itemId,
                 name: item.name,
                 item_name: item.item_name,
-                item_slot: item.item_slot || 'weapon',
+                item_slot: item.item_slot,
                 item_rarity: item.item_rarity || 'common',
                 prefab: item.prefab,
                 model_player: item.model_player
