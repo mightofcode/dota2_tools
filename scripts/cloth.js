@@ -617,9 +617,14 @@ function itemListToKV(itemList) {
     lines.push('"AttachWearables"');
     lines.push('{');
 
-    // 添加物品
+    // 添加物品（排除 persona_selector）
     let itemIndex = 1;
     Object.values(itemList).forEach(item => {
+        // 跳过 persona_selector 物品
+        if (item.item_slot === 'persona_selector') {
+            return;
+        }
+
         lines.push(`    "${itemIndex}"`);
         lines.push('    {');
         lines.push(`        "ItemDef"    "${item.id}"`);
@@ -685,16 +690,18 @@ async function selectPersona(rl, personaList, state) {
                 state.selectedPersona = selectedPersona;
                 state.itemList = {}; // 清空物品列表
 
-                // 添加 defaultsPersona 中的物品
+                // 添加 defaultsPersona 中的物品（排除 persona_selector）
                 const defaultsPersona = state.unitClothData?.defaultsPersona || {};
                 Object.values(defaultsPersona).forEach(item => {
-                    state.itemList[item.item_slot] = item;
+                    if (item.item_slot !== 'persona_selector') {
+                        state.itemList[item.item_slot] = item;
+                    }
                 });
 
                 console.log(chalk.green(`✓ 已选择 Persona: ${selectedPersona.name}`));
                 console.log(chalk.cyan(`Entity Model: ${selectedPersona.entity_model || 'N/A'}`));
 
-                const addedCount = Object.keys(defaultsPersona).length;
+                const addedCount = Object.values(defaultsPersona).filter(item => item.item_slot !== 'persona_selector').length;
                 if (addedCount > 0) {
                     console.log(chalk.cyan(`已添加 ${addedCount} 件默认 Persona 物品`));
                     displayItemList(state.itemList);
@@ -731,16 +738,18 @@ async function handlePersonaCommand(state, rl) {
         state.selectedPersona = selectedPersona;
         state.itemList = {}; // 清空物品列表
 
-        // 添加 defaultsPersona 中的物品
+        // 添加 defaultsPersona 中的物品（排除 persona_selector）
         const defaultsPersona = state.unitClothData?.defaultsPersona || {};
         Object.values(defaultsPersona).forEach(item => {
-            state.itemList[item.item_slot] = item;
+            if (item.item_slot !== 'persona_selector') {
+                state.itemList[item.item_slot] = item;
+            }
         });
 
         console.log(chalk.green(`✓ 已选择 Persona: ${selectedPersona.name}`));
         console.log(chalk.cyan(`Entity Model: ${selectedPersona.entity_model || 'N/A'}`));
 
-        const addedCount = Object.keys(defaultsPersona).length;
+        const addedCount = Object.values(defaultsPersona).filter(item => item.item_slot !== 'persona_selector').length;
         if (addedCount > 0) {
             console.log(chalk.cyan(`已添加 ${addedCount} 件默认 Persona 物品`));
             displayItemList(state.itemList);
