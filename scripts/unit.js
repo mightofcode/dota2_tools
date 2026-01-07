@@ -328,7 +328,10 @@ function handleExitCommand() {
 function buildUnitData(originalData) {
     const result = {};
 
-    // 1. 模型相关
+    // 1. BaseClass（第一个字段）
+    result.BaseClass = "npc_dota_creature";
+
+    // 2. 模型相关
     if (originalData.Model) {
         result.Model = originalData.Model;
     }
@@ -338,9 +341,6 @@ function buildUnitData(originalData) {
     if (originalData.ModelScale !== undefined) {
         result.ModelScale = originalData.ModelScale;
     }
-
-    // 2. BaseClass
-    result.BaseClass = "npc_dota_creature";
 
     // 3. 能力
     result.Ability1 = "sell_building";
