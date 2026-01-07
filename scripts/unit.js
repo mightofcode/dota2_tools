@@ -328,78 +328,123 @@ function handleExitCommand() {
 function buildUnitData(originalData) {
     const result = {};
 
-    // 固定值字段
+    // 1. 模型相关
+    if (originalData.Model) {
+        result.Model = originalData.Model;
+    }
+    if (originalData.SoundSet) {
+        result.SoundSet = originalData.SoundSet;
+    }
+    if (originalData.ModelScale !== undefined) {
+        result.ModelScale = originalData.ModelScale;
+    }
+
+    // 2. BaseClass
     result.BaseClass = "npc_dota_creature";
-    result.ArmorPhysical = 3;
-    result.MagicalResistance = 0;
-    result.AttackDamageMin = 10;
-    result.AttackDamageMax = 12;
-    result.AttackDamageType = "DAMAGE_TYPE_ArmorPhysical";
-    result.AttackAcquisitionRange = 800;
-    result.BountyXP = 0;
-    result.BountyGoldMin = 0;
-    result.BountyGoldMax = 0;
-    result.ConstructionSize = 2;
-    result.BlockPathingSize = 0;
-    result.DisableTurning = 1;
-    result.Disarmed = 1;
-    result.noHealthBar = 1;
-    result.OverrideBuildingGhost = "building_ghost";
-    result.BoundsHullName = "DOTA_HULL_SIZE_HERO";
-    result.StatusHealth = 500;
-    result.StatusHealthRegen = 0;
-    result.StatusMana = 0;
-    result.StatusManaRegen = 0;
-    result.CombatClassAttack = "DOTA_COMBAT_CLASS_ATTACK_BASIC";
-    result.CombatClassDefend = "DOTA_COMBAT_CLASS_DEFEND_BASIC";
+
+    // 3. 能力
     result.Ability1 = "sell_building";
     result.Ability2 = "";
     result.Ability3 = "";
     result.Ability4 = "";
-    result.MovementCapabilities = "DOTA_UNIT_CAP_MOVE_GROUND";
-    result.BaseAttackSpeed = 100;
+
+    // 4. 护甲和攻击
+    result.ArmorPhysical = 3;
+    if (originalData.AttackCapabilities) {
+        result.AttackCapabilities = originalData.AttackCapabilities;
+    }
+    result.AttackDamageMin = 10;
+    result.AttackDamageMax = 12;
+    result.AttackDamageType = "DAMAGE_TYPE_ArmorPhysical";
+    if (originalData.AttackRate !== undefined) {
+        result.AttackRate = originalData.AttackRate;
+    }
+    if (originalData.AttackAnimationPoint !== undefined) {
+        result.AttackAnimationPoint = originalData.AttackAnimationPoint;
+    }
+    result.AttackAcquisitionRange = 800;
+    if (originalData.AttackRange !== undefined) {
+        result.AttackRange = originalData.AttackRange;
+    }
     result.AttackRangeBuffer = 250;
-    result.VisionDaytimeRange = 1800;
-    result.VisionNighttimeRange = 800;
-    result.Creature = { HPGain: 0, DamageGain: 0 };
 
-    // 需要保留的字段（从原数据读取）
-    const fieldsToKeep = [
-        'Model',
-        'SoundSet',
-        'ModelScale',
-        'AttackCapabilities',
-        'AttackRate',
-        'AttackAnimationPoint',
-        'AttackRange',
-        'ProjectileModel',
-        'ProjectileSpeed',
-        'HealthBarOffset',
-        'MovementSpeed',
-        'HasAggressiveStance',
-        'MovementSpeedActivityModifiers',
-        'AttackSpeedActivityModifiers',
-        'AttackRangeActivityModifiers'
-    ];
+    // 投射物
+    if (originalData.ProjectileModel) {
+        result.ProjectileModel = originalData.ProjectileModel;
+    }
+    if (originalData.ProjectileSpeed !== undefined) {
+        result.ProjectileSpeed = originalData.ProjectileSpeed;
+    }
 
-    fieldsToKeep.forEach(field => {
-        if (originalData[field] !== undefined) {
-            result[field] = originalData[field];
-        }
-    });
+    // 攻击速度修饰符
+    if (originalData.AttackSpeedActivityModifiers) {
+        result.AttackSpeedActivityModifiers = originalData.AttackSpeedActivityModifiers;
+    }
 
-    // 带默认值的字段
+    // 5. 属性和状态
+    result.MagicalResistance = 0;
+    result.StatusHealth = 500;
+    result.StatusHealthRegen = 0;
+    result.StatusMana = 0;
+    result.StatusManaRegen = 0;
+    if (originalData.HealthBarOffset !== undefined) {
+        result.HealthBarOffset = originalData.HealthBarOffset;
+    }
+
+    // 6. 移动
+    if (originalData.MovementSpeed !== undefined) {
+        result.MovementSpeed = originalData.MovementSpeed;
+    }
     if (originalData.MovementTurnRate !== undefined) {
         result.MovementTurnRate = originalData.MovementTurnRate;
     } else {
         result.MovementTurnRate = 0.6;
     }
+    if (originalData.MovementSpeedActivityModifiers) {
+        result.MovementSpeedActivityModifiers = originalData.MovementSpeedActivityModifiers;
+    }
+    result.MovementCapabilities = "DOTA_UNIT_CAP_MOVE_GROUND";
 
+    // 7. 攻击范围修饰符
+    if (originalData.AttackRangeActivityModifiers) {
+        result.AttackRangeActivityModifiers = originalData.AttackRangeActivityModifiers;
+    }
+
+    // 8. 经济
+    result.BountyXP = 0;
+    result.BountyGoldMin = 0;
+    result.BountyGoldMax = 0;
+
+    // 9. 碰撞和大小
+    result.BoundsHullName = "DOTA_HULL_SIZE_HERO";
     if (originalData.RingRadius !== undefined) {
         result.RingRadius = originalData.RingRadius;
     } else {
         result.RingRadius = 70;
     }
+    result.ConstructionSize = 2;
+    result.BlockPathingSize = 0;
+
+    // 10. 战斗类型
+    result.CombatClassAttack = "DOTA_COMBAT_CLASS_ATTACK_BASIC";
+    result.CombatClassDefend = "DOTA_COMBAT_CLASS_DEFEND_BASIC";
+
+    // 11. 其他属性
+    result.BaseAttackSpeed = 100;
+    result.VisionDaytimeRange = 1800;
+    result.VisionNighttimeRange = 800;
+    if (originalData.HasAggressiveStance !== undefined) {
+        result.HasAggressiveStance = originalData.HasAggressiveStance;
+    }
+
+    // 12. 特殊标志
+    result.DisableTurning = 1;
+    result.Disarmed = 1;
+    result.noHealthBar = 1;
+    result.OverrideBuildingGhost = "building_ghost";
+
+    // 13. Creature 数据
+    result.Creature = { HPGain: 0, DamageGain: 0 };
 
     return result;
 }
