@@ -23,7 +23,7 @@ function analyzeItemsByHero(data) {
     Object.keys(items).forEach(itemId => {
         const item = items[itemId];
 
-        if (item && item.used_by_heroes && item.item_slot) {
+        if (item && item.used_by_heroes && item.item_slot && item.prefab !== 'cursor_pack') {
             const itemInfo = {
                 id: itemId,
                 name: item.name,
@@ -229,7 +229,7 @@ function buildItemsIndex(data) {
     
     Object.keys(items).forEach(itemId => {
         const item = items[itemId];
-        if (item && item.name) {
+        if (item && item.name && item.prefab !== 'cursor_pack') {
             itemsIndex[item.name] = {
                 id: itemId,
                 name: item.name,
@@ -289,7 +289,7 @@ function analyzeDefaultItems(data) {
     Object.keys(items).forEach(itemId => {
         const item = items[itemId];
 
-        if (item && item.prefab === 'default_item' && item.item_slot) {
+        if (item && item.prefab === 'default_item' && item.item_slot && item.prefab !== 'cursor_pack') {
             const itemInfo = {
                 id: itemId,
                 name: item.name || item.item_name || '未知',
@@ -323,7 +323,7 @@ function analyzePersonaItems(data) {
     Object.keys(items).forEach(itemId => {
         const item = items[itemId];
 
-        if (item && item.item_slot === 'persona_selector') {
+        if (item && item.item_slot === 'persona_selector' && item.prefab !== 'cursor_pack') {
             // 查找 entity_model 类型的 asset_modifier
             let entityModel = null;
             const soundModifiers = [];
