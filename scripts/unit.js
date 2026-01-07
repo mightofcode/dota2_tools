@@ -405,18 +405,45 @@ function buildUnitData(originalData) {
 }
 
 // 处理 dump 命令（生成 KV 文件）
-function handleDumpCommand(state) {
+async function handleDumpCommand(state) {
     if (!state.selectedUnit) {
         console.log(chalk.red('请先选择一个单位'));
         return;
     }
 
     const unitInfo = state.selectedUnit;
+    const unitId = unitInfo.id;
     const processedData = buildUnitData(unitInfo.data);
-    const kvOutput = objToNpcKv(processedData);
+
+    // 构建完整的 KV 结构（带单位 ID 作为 key）
+    const fullData = {
+        [unitId]: processedData
+    };
+
+    const kvOutput = objToNpcKv(fullData);
+
+    // 确保 tmp 目录存在
+    await fs.ensureDir('./tmp');
+
+    // 写入文件
+    const outputPath = './tmp/unit_kv.kv';
+    await fs.writeFile(outputPath, kvOutput, 'utf-8');
 
     console.log(chalk.cyan('\n生成的 KV 格式:\n'));
     console.log(chalk.white(kvOutput));
+    console.log(chalk.green(`\n✓ 已保存到: ${outputPath}`));
+
+    // 使用 VS Code 打开文件
+    const { exec } = require('child_process');
+    const absolutePath = path.resolve(outputPath);
+
+    exec(`code "${absolutePath}"`, (error) => {
+        if (error) {
+            console.log(chalk.yellow('\n无法自动打开 VS Code，请手动打开文件'));
+        } else {
+            console.log(chalk.green('✓ 已在 VS Code 中打开文件'));
+        }
+    });
 }
 
 // 显示帮助信息
@@ -462,7 +489,7 @@ async function handleCommand(command, state, rl) {
     }
 
     if (cmd === 'dump') {
-        handleDumpCommand(state);
+        await handleDumpCommand(state);
         return;
     }
 
