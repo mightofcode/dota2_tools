@@ -324,6 +324,86 @@ function handleExitCommand() {
     process.exit(0);
 }
 
+// 构建单位数据（只保留需要的字段）
+function buildUnitData(originalData) {
+    const result = {};
+
+    // 固定值字段
+    result.BaseClass = "npc_dota_creature";
+    result.ArmorPhysical = 3;
+    result.MagicalResistance = 0;
+    result.AttackDamageMin = 10;
+    result.AttackDamageMax = 12;
+    result.AttackDamageType = "DAMAGE_TYPE_ArmorPhysical";
+    result.AttackAcquisitionRange = 800;
+    result.BountyXP = 0;
+    result.BountyGoldMin = 0;
+    result.BountyGoldMax = 0;
+    result.ConstructionSize = 2;
+    result.BlockPathingSize = 0;
+    result.DisableTurning = 1;
+    result.Disarmed = 1;
+    result.noHealthBar = 1;
+    result.OverrideBuildingGhost = "building_ghost";
+    result.BoundsHullName = "DOTA_HULL_SIZE_HERO";
+    result.StatusHealth = 500;
+    result.StatusHealthRegen = 0;
+    result.StatusMana = 0;
+    result.StatusManaRegen = 0;
+    result.CombatClassAttack = "DOTA_COMBAT_CLASS_ATTACK_BASIC";
+    result.CombatClassDefend = "DOTA_COMBAT_CLASS_DEFEND_BASIC";
+    result.Ability1 = "sell_building";
+    result.Ability2 = "";
+    result.Ability3 = "";
+    result.Ability4 = "";
+    result.MovementCapabilities = "DOTA_UNIT_CAP_MOVE_GROUND";
+    result.BaseAttackSpeed = 100;
+    result.AttackRangeBuffer = 250;
+    result.VisionDaytimeRange = 1800;
+    result.VisionNighttimeRange = 800;
+    result.Creature = { HPGain: 0, DamageGain: 0 };
+
+    // 需要保留的字段（从原数据读取）
+    const fieldsToKeep = [
+        'Model',
+        'SoundSet',
+        'ModelScale',
+        'AttackCapabilities',
+        'AttackRate',
+        'AttackAnimationPoint',
+        'AttackRange',
+        'ProjectileModel',
+        'ProjectileSpeed',
+        'HealthBarOffset',
+        'MovementSpeed',
+        'HasAggressiveStance',
+        'MovementSpeedActivityModifiers',
+        'AttackSpeedActivityModifiers',
+        'AttackRangeActivityModifiers'
+    ];
+
+    fieldsToKeep.forEach(field => {
+        if (originalData[field] !== undefined) {
+            result[field] = originalData[field];
+        }
+    });
+
+    // 带默认值的字段
+    if (originalData.MovementTurnRate !== undefined) {
+        result.MovementTurnRate = originalData.MovementTurnRate;
+    } else {
+        result.MovementTurnRate = 0.6;
+    }
+
+    if (originalData.RingRadius !== undefined) {
+        result.RingRadius = originalData.RingRadius;
+    } else {
+        result.RingRadius = 70;
+    }
+
+    return result;
+}
+
 // 处理 dump 命令（生成 KV 文件）
 function handleDumpCommand(state) {
     if (!state.selectedUnit) {
@@ -332,7 +412,8 @@ function handleDumpCommand(state) {
     }
 
     const unitInfo = state.selectedUnit;
-    const kvOutput = objToNpcKv(unitInfo.data);
+    const processedData = buildUnitData(unitInfo.data);
+    const kvOutput = objToNpcKv(processedData);
 
     console.log(chalk.cyan('\n生成的 KV 格式:\n'));
     console.log(chalk.white(kvOutput));
