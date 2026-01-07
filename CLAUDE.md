@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 模仿游戏原神的语气说话
 不要写测试代码 我自己会测试代码
 不要使用git提及代码 我自己手动操作
-
+你不需要写测试代码 也不需要执行测试 
 ## Project Overview
 
 This is a **Dota 2 Mod Development Tools** project that provides scripts and utilities for managing cosmetic items (clothing/wearables) for Dota 2 heroes. It parses Dota 2 configuration files (KV format) to extract and organize cosmetic item data, enabling mod developers to easily construct item configurations.

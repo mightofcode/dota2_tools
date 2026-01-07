@@ -80,6 +80,357 @@ function printIds() {
     console.log(chalk.green(`总计: ${unitIds.length} 个单位\n`));
 }
 
+// ============== 搜索和匹配功能 ==============
+
+// 检查英雄别名匹配（完全匹配）
+function checkHeroAlias(query) {
+    const queryLower = query.toLowerCase().trim();
+
+    for (const [heroId, heroData] of Object.entries(heroesData)) {
+        if (heroId === 'Version' || heroId === 'npc_dota_hero_base') continue;
+
+        // 检查是否有 NameAliases 字段
+        if (heroData.NameAliases) {
+            const aliases = heroData.NameAliases.split(';').map(alias => alias.trim().toLowerCase());
+            // 完全匹配别名
+            if (aliases.includes(queryLower)) {
+                return { type: 'hero', id: heroId, data: heroData };
+            }
+        }
+    }
+
+    return null;
+}
+
+// 通过名字模糊搜索（搜索 KV key）
+function fuzzySearchByName(query) {
+    if (!query) return [];
+
+    const queryLower = query.toLowerCase();
+    const results = [];
+
+    // 搜索英雄
+    for (const [heroId, heroData] of Object.entries(heroesData)) {
+        if (heroId === 'Version' || heroId === 'npc_dota_hero_base') continue;
+
+        if (heroId.toLowerCase().includes(queryLower)) {
+            results.push({
+                type: 'hero',
+                id: heroId,
+                data: heroData
+            });
+        }
+    }
+
+    // 搜索单位
+    for (const [unitId, unitData] of Object.entries(unitsData)) {
+        if (unitId === 'Version' || unitId === 'npc_dota_unit_base' || unitId === 'npc_dota_units_base') continue;
+
+        if (unitId.toLowerCase().includes(queryLower)) {
+            results.push({
+                type: 'unit',
+                id: unitId,
+                data: unitData
+            });
+        }
+    }
+
+    // 排序：优先前缀匹配，然后按长度排序
+    return results.sort((a, b) => {
+        const aStartsWith = a.id.toLowerCase().startsWith(queryLower);
+        const bStartsWith = b.id.toLowerCase().startsWith(queryLower);
+
+        if (aStartsWith && !bStartsWith) return -1;
+        if (!aStartsWith && bStartsWith) return 1;
+
+        return a.id.length - b.id.length;
+    }).slice(0, 10); // 最多返回前10个
+}
+
+// 通过模型模糊搜索（搜索 Model 字段）
+function fuzzySearchByModel(query) {
+    if (!query) return [];
+
+    const queryLower = query.toLowerCase();
+    const results = [];
+
+    // 搜索英雄的模型
+    for (const [heroId, heroData] of Object.entries(heroesData)) {
+        if (heroId === 'Version' || heroId === 'npc_dota_hero_base') continue;
+
+        const model = heroData.Model || '';
+        if (model.toLowerCase().includes(queryLower)) {
+            results.push({
+                type: 'hero',
+                id: heroId,
+                data: heroData,
+                model: model
+            });
+        }
+    }
+
+    // 搜索单位的模型
+    for (const [unitId, unitData] of Object.entries(unitsData)) {
+        if (unitId === 'Version' || unitId === 'npc_dota_unit_base' || unitId === 'npc_dota_units_base') continue;
+
+        const model = unitData.Model || '';
+        if (model.toLowerCase().includes(queryLower)) {
+            results.push({
+                type: 'unit',
+                id: unitId,
+                data: unitData,
+                model: model
+            });
+        }
+    }
+
+    // 排序：优先前缀匹配，然后按长度排序
+    return results.sort((a, b) => {
+        const aStartsWith = (a.model || '').toLowerCase().startsWith(queryLower);
+        const bStartsWith = (b.model || '').toLowerCase().startsWith(queryLower);
+
+        if (aStartsWith && !bStartsWith) return -1;
+        if (!aStartsWith && bStartsWith) return 1;
+
+        return (a.model || '').length - (b.model || '').length;
+    }).slice(0, 10); // 最多返回前10个
+}
+
+// ============== 交互式界面功能 ==============
+
+// 显示单位候选列表
+function displayUnitCandidates(results) {
+    console.log(chalk.cyan(`\n找到 ${results.length} 个匹配结果:\n`));
+    results.forEach((result, index) => {
+        const typeLabel = result.type === 'hero' ? chalk.green('[英雄]') : chalk.blue('[单位]');
+        const model = result.model ? chalk.gray(` (${result.model})`) : '';
+        console.log(`  ${chalk.yellow(index + 1)}. ${typeLabel} ${result.id}${model}`);
+    });
+    console.log();
+}
+
+// 选择单位的交互
+async function selectUnitFromCandidates(rl, results, state) {
+    return new Promise((resolve) => {
+        displayUnitCandidates(results);
+
+        rl.question('请输入序号选择单位 (或按 Enter 返回): ', (choice) => {
+            const index = parseInt(choice) - 1;
+            if (index >= 0 && index < results.length) {
+                const selected = results[index];
+                selectUnit(selected, state);
+            } else if (choice === '') {
+                console.log(chalk.yellow('已取消选择'));
+            } else {
+                console.log(chalk.red('无效的选择'));
+            }
+            resolve();
+        });
+    });
+}
+
+// 选择单位（设置当前状态）
+function selectUnit(unitInfo, state) {
+    state.selectedUnit = unitInfo;
+    console.log(chalk.green(`\n✓ 已选择 ${unitInfo.type === 'hero' ? '英雄' : '单位'}: ${unitInfo.id}`));
+
+    // 显示单位详细信息
+    console.log(chalk.cyan('\n单位信息:'));
+    const data = unitInfo.data;
+
+    if (data.Model) {
+        console.log(chalk.white(`  模型: ${data.Model}`));
+    }
+    if (data.BaseClass) {
+        console.log(chalk.white(`  基类: ${data.BaseClass}`));
+    }
+    if (unitInfo.type === 'hero' && data.NameAliases) {
+        console.log(chalk.white(`  别名: ${data.NameAliases}`));
+    }
+    console.log();
+}
+
+// 处理 name 命令（通过名字搜索）
+async function handleNameCommand(query, state, rl) {
+    if (!query) {
+        console.log(chalk.red('请输入要搜索的名字'));
+        return;
+    }
+
+    // 首先检查英雄别名（完全匹配）
+    const aliasMatch = checkHeroAlias(query);
+    if (aliasMatch) {
+        selectUnit(aliasMatch, state);
+        return;
+    }
+
+    // 进行模糊搜索
+    const results = fuzzySearchByName(query);
+
+    if (results.length === 0) {
+        console.log(chalk.red(`未找到匹配 "${query}" 的单位`));
+    } else if (results.length === 1) {
+        selectUnit(results[0], state);
+    } else {
+        await selectUnitFromCandidates(rl, results, state);
+    }
+}
+
+// 处理 model 命令（通过模型搜索）
+async function handleModelCommand(query, state, rl) {
+    if (!query) {
+        console.log(chalk.red('请输入要搜索的模型路径'));
+        return;
+    }
+
+    // 进行模糊搜索
+    const results = fuzzySearchByModel(query);
+
+    if (results.length === 0) {
+        console.log(chalk.red(`未找到匹配 "${query}" 的模型`));
+    } else if (results.length === 1) {
+        selectUnit(results[0], state);
+    } else {
+        await selectUnitFromCandidates(rl, results, state);
+    }
+}
+
+// 处理 status 命令
+function handleStatusCommand(state) {
+    if (!state.selectedUnit) {
+        console.log(chalk.yellow('尚未选择单位'));
+        return;
+    }
+
+    console.log(chalk.cyan('\n当前状态:'));
+    const unitInfo = state.selectedUnit;
+    console.log(chalk.white(`  类型: ${unitInfo.type === 'hero' ? '英雄' : '单位'}`));
+    console.log(chalk.white(`  ID: ${unitInfo.id}`));
+    if (unitInfo.data.Model) {
+        console.log(chalk.white(`  模型: ${unitInfo.data.Model}`));
+    }
+    console.log();
+}
+
+// 处理 clear 命令
+function handleClearCommand(state) {
+    state.selectedUnit = null;
+    console.log(chalk.green('✓ 已清空状态'));
+}
+
+// 处理 exit 命令
+function handleExitCommand() {
+    console.log(chalk.green('\n再见!'));
+    process.exit(0);
+}
+
+// 处理 dump 命令（生成 KV 文件）
+function handleDumpCommand(state) {
+    if (!state.selectedUnit) {
+        console.log(chalk.red('请先选择一个单位'));
+        return;
+    }
+
+    const unitInfo = state.selectedUnit;
+    const kvOutput = objToNpcKv(unitInfo.data);
+
+    console.log(chalk.cyan('\n生成的 KV 格式:\n'));
+    console.log(chalk.white(kvOutput));
+}
+
+// 显示帮助信息
+function showHelp() {
+    console.log(chalk.cyan('进入交互式 CLI 模式'));
+    console.log(chalk.yellow('\n命令列表:'));
+    console.log(chalk.yellow('  name <名字>   - 通过名字搜索单位（支持别名和模糊搜索）'));
+    console.log(chalk.yellow('  model <模型>  - 通过模型路径搜索单位'));
+    console.log(chalk.yellow('  status        - 显示当前选择的单位'));
+    console.log(chalk.yellow('  dump          - 导出当前单位为 KV 格式'));
+    console.log(chalk.yellow('  clear         - 清空当前选择'));
+    console.log(chalk.yellow('  exit/quit     - 退出程序\n'));
+}
+
+// 处理用户命令
+async function handleCommand(command, state, rl) {
+    if (!command) {
+        return;
+    }
+
+    const tokens = command.trim().split(/\s+/).filter(token => token.length > 0);
+    if (tokens.length === 0) {
+        return;
+    }
+
+    const cmd = tokens[0];
+    const args = tokens.slice(1).join(' ');
+
+    // 内置命令
+    if (cmd === 'name') {
+        await handleNameCommand(args, state, rl);
+        return;
+    }
+
+    if (cmd === 'model') {
+        await handleModelCommand(args, state, rl);
+        return;
+    }
+
+    if (cmd === 'status') {
+        handleStatusCommand(state);
+        return;
+    }
+
+    if (cmd === 'dump') {
+        handleDumpCommand(state);
+        return;
+    }
+
+    if (cmd === 'clear') {
+        handleClearCommand(state);
+        return;
+    }
+
+    if (cmd === 'exit' || cmd === 'quit') {
+        handleExitCommand();
+        return;
+    }
+
+    console.log(chalk.red(`未知命令: ${cmd}`));
+    console.log(chalk.yellow('输入命令或使用以下命令:'));
+    console.log(chalk.yellow('  name <名字> - 通过名字搜索'));
+    console.log(chalk.yellow('  model <模型> - 通过模型搜索'));
+}
+
+// 启动交互式 CLI
+async function startInteractiveCLI() {
+    const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout
+    });
+
+    // 状态管理
+    const state = {
+        selectedUnit: null
+    };
+
+    showHelp();
+
+    // 交互式命令循环
+    const askForCommand = async () => {
+        const prompt = state.selectedUnit
+            ? `unit[${chalk.green(state.selectedUnit.id)}]> `
+            : 'unit> ';
+
+        rl.question(prompt, async (input) => {
+            const command = input.trim();
+            await handleCommand(command, state, rl);
+            askForCommand();
+        });
+    };
+
+    askForCommand();
+}
+
 // 主函数
 async function main() {
     console.log(chalk.green('=== Dota 2 单位 KV 生成器 ===\n'));
@@ -91,7 +442,8 @@ async function main() {
     // 打印 ID 列表
     printIds();
 
-    // TODO: 启动交互式命令行
+    // 启动交互式命令行
+    await startInteractiveCLI();
 }
 
 // 检查是否直接运行此脚本
