@@ -23,7 +23,7 @@ function analyzeItemsByHero(data) {
     Object.keys(items).forEach(itemId => {
         const item = items[itemId];
 
-        if (item && item.used_by_heroes && item.item_slot && item.prefab !== 'cursor_pack') {
+        if (item && item.used_by_heroes && item.prefab !== 'cursor_pack') {
             const itemInfo = {
                 id: itemId,
                 name: item.name,
@@ -64,10 +64,13 @@ async function generateClothsData(defaultItems, itemSets, heroItems, personaItem
         // 检查是否是 persona 物品
         const isPersona = item.item_name.toLowerCase().includes('persona');
 
+        // 确保 item_slot 有默认值
+        const itemSlot = item.item_slot || 'weapon';
+
         // 过滤掉特定的item_slot
-        if (item.item_slot === 'hero_base' ||
-            item.item_slot === 'summon' ||
-            item.item_slot.startsWith('ability')) {
+        if (itemSlot === 'hero_base' ||
+            itemSlot === 'summon' ||
+            itemSlot.startsWith('ability')) {
             return;
         }
 
@@ -85,11 +88,11 @@ async function generateClothsData(defaultItems, itemSets, heroItems, personaItem
                     targetObject[heroName] = {};
                 }
 
-                targetObject[heroName][item.item_slot] = {
+                targetObject[heroName][itemSlot] = {
                     id: item.id,
                     name: item.name,
                     item_name: item.item_name,
-                    item_slot: item.item_slot,
+                    item_slot: itemSlot,
                     item_rarity: item.item_rarity,
                     model_player: item.model_player
                 };
@@ -289,7 +292,7 @@ function analyzeDefaultItems(data) {
     Object.keys(items).forEach(itemId => {
         const item = items[itemId];
 
-        if (item && item.prefab === 'default_item' && item.item_slot && item.prefab !== 'cursor_pack') {
+        if (item && item.prefab === 'default_item' && item.prefab !== 'cursor_pack') {
             const itemInfo = {
                 id: itemId,
                 name: item.name || item.item_name || '未知',
@@ -322,8 +325,9 @@ function analyzePersonaItems(data) {
 
     Object.keys(items).forEach(itemId => {
         const item = items[itemId];
+        const itemSlot = item.item_slot || 'weapon';
 
-        if (item && item.item_slot === 'persona_selector' && item.prefab !== 'cursor_pack') {
+        if (item && itemSlot === 'persona_selector' && item.prefab !== 'cursor_pack') {
             // 查找 entity_model 类型的 asset_modifier
             let entityModel = null;
             const soundModifiers = [];
@@ -365,7 +369,7 @@ function analyzePersonaItems(data) {
                 id: itemId,
                 name: item.name,
                 item_name: item.item_name,
-                item_slot: item.item_slot,
+                item_slot: itemSlot,
                 item_rarity: item.item_rarity || 'common',
                 prefab: item.prefab,
                 model_player: item.model_player,
@@ -413,12 +417,13 @@ function analyzeItemSets(data) {
             Object.keys(setData.items).forEach(itemName => {
                 const itemInfo = getItemByName(itemName);
 
-                if (itemInfo && itemInfo.item_slot) {
+                if (itemInfo) {
+                    const itemSlot = itemInfo.item_slot || 'weapon';
                     setItems.push({
                         name: itemInfo.name,
                         id: itemInfo.id,
                         item_name: itemInfo.item_name,
-                        item_slot: itemInfo.item_slot,
+                        item_slot: itemSlot,
                         item_rarity: itemInfo.item_rarity,
                         model_player: itemInfo.model_player
                     });
@@ -433,9 +438,9 @@ function analyzeItemSets(data) {
                     }
                 }
             });
-            
+
             // 检测是否为persona套装（包含_persona的item_slot）
-            const isPersonaSet = setItems.some(item => item.item_slot.includes('_persona'));
+            const isPersonaSet = setItems.some(item => (item.item_slot || 'weapon').includes('_persona'));
 
             const setInfo = {
                 name: setData.name || setName,
@@ -668,6 +673,25 @@ function handleDumpCommand(state) {
     }
 
     console.log();
+}
+
+// 处理 reload 命令
+async function handleReloadCommand(state) {
+    console.log(chalk.yellow('正在清空缓存并重新解析...'));
+
+    // 清空缓存目录
+    await clearCacheDirectory();
+
+    // 重新解析
+    await analyzeItemsGame();
+
+    // 重置状态
+    state.selectedUnit = null;
+    state.itemList = {};
+    state.unitClothData = null;
+    state.selectedPersona = null;
+
+    console.log(chalk.green('✓ 重新加载完成'));
 }
 
 
@@ -1081,6 +1105,11 @@ async function handleCommand(command, state, rl, allUnits) {
         return;
     }
 
+    if (cmd === 'reload') {
+        await handleReloadCommand(state);
+        return;
+    }
+
     // 如果没有选择单位，则进行单位搜索
     if (!state.selectedUnit) {
         await handleUnitSearch(command, state, rl, allUnits);
@@ -1101,6 +1130,7 @@ function showHelp() {
     console.log(chalk.yellow('  dump         - 导出为 KV 格式'));
     console.log(chalk.yellow('  status       - 显示当前状态'));
     console.log(chalk.yellow('  clear        - 重置状态'));
+    console.log(chalk.yellow('  reload       - 清空缓存并重新解析'));
     console.log(chalk.yellow('  exit/quit    - 退出\n'));
 }
 
@@ -1155,26 +1185,10 @@ async function clearCacheDirectory(clothDir = './doc/cloth') {
     }
 }
 
-// 解析命令行参数
-function parseArguments() {
-    const args = process.argv.slice(2);
-    return {
-        forceRefresh: args.includes('-f') || args.includes('--force')
-    };
-}
-
 // 如果直接运行此脚本
 if (require.main === module) {
-    const options = parseArguments();
-
     (async () => {
         try {
-            // 如果指定了 -f 参数，清空缓存目录
-            if (options.forceRefresh) {
-                console.log(chalk.yellow('检测到 -f 参数，将清空缓存并重新分析...'));
-                await clearCacheDirectory();
-            }
-
             await analyzeItemsGame();
             console.log(chalk.cyan('\n进入交互式CLI模式，输入命令进行操作...'));
             startInteractiveCLI();
