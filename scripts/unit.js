@@ -543,6 +543,10 @@ async function handleDumpCommand(state) {
         } else {
             console.log(chalk.green('✓ 已在 VS Code 中打开文件'));
         }
+
+        // dump 完成后退出程序
+        console.log(chalk.cyan('\n任务完成，程序即将退出...'));
+        process.exit(0);
     });
 }
 
