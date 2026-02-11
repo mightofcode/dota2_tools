@@ -8,10 +8,50 @@ const { obj2kv1, objToNpcKv } = require('./lib/obj2kv1');
 // 配置文件路径
 const npcHeroesPath = 'C:/data/dota2unpack/scripts/npc/npc_heroes.txt';
 const npcUnitsPath = 'C:/data/dota2unpack/scripts/npc/npc_units.txt';
+const clothDir = './doc/cloth';
 
 // 全局数据
 let heroesData = {};
 let unitsData = {};
+
+// 将默认饰品转换为 AttachWearables 对象格式
+function clothDefaultsToAttachWearables(clothDefaults) {
+    if (!clothDefaults || Object.keys(clothDefaults).length === 0) {
+        return null;
+    }
+
+    const wearables = {};
+    let itemIndex = 1;
+
+    Object.values(clothDefaults).forEach(item => {
+        // 跳过 persona_selector 物品
+        if (item.item_slot === 'persona_selector') {
+            return;
+        }
+
+        wearables[itemIndex.toString()] = {
+            ItemDef: item.id
+        };
+        itemIndex++;
+    });
+
+    return Object.keys(wearables).length > 0 ? wearables : null;
+}
+
+// 加载英雄的默认饰品数据
+async function loadHeroClothData(heroId) {
+    try {
+        const clothPath = path.join(clothDir, `${heroId}.json`);
+        if (!await fs.pathExists(clothPath)) {
+            return null;
+        }
+        const data = await fs.readJson(clothPath);
+        return data.defaults || {};
+    } catch (error) {
+        console.log(chalk.yellow(`无法加载英雄饰品数据: ${error.message}`));
+        return null;
+    }
+}
 
 // 加载英雄数据
 async function loadHeroesData() {
@@ -459,6 +499,21 @@ async function handleDumpCommand(state) {
     const unitInfo = state.selectedUnit;
     const unitId = unitInfo.id;
     const processedData = buildUnitData(unitInfo.data);
+
+    // 如果是英雄单位，添加默认饰品到 Creature 字段
+    if (unitInfo.type === 'hero') {
+        const clothDefaults = await loadHeroClothData(unitId);
+        if (clothDefaults && Object.keys(clothDefaults).length > 0) {
+            const attachWearables = clothDefaultsToAttachWearables(clothDefaults);
+            if (attachWearables) {
+                // 将 AttachWearables 添加到 Creature 对象中
+                processedData.Creature.AttachWearables = attachWearables;
+                console.log(chalk.green(`✓ 已添加 ${Object.keys(clothDefaults).length} 件默认饰品到 Creature 字段`));
+            }
+        } else {
+            console.log(chalk.yellow('该英雄没有默认饰品数据'));
+        }
+    }
 
     // 构建完整的 KV 结构（带单位 ID 作为 key）
     const fullData = {
